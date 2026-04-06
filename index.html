@@ -1812,11 +1812,23 @@ Ví dụ:
                 if (!range || !wrapper || !DOM.listContainer) return;
 
                 const maxScroll = Math.max(0, DOM.listContainer.scrollHeight - DOM.listContainer.clientHeight);
-                if (maxScroll === 0 || !DOM.listContainer.classList.contains('expanded')) {
+                const isMobile = window.innerWidth <= 768;
+
+                if (maxScroll === 0) {
+                    wrapper.style.display = 'none';
                     range.value = '0';
                     range.disabled = true;
                     return;
                 }
+
+                if (isMobile && !DOM.listContainer.classList.contains('expanded')) {
+                    wrapper.style.display = 'none';
+                    range.value = '0';
+                    range.disabled = true;
+                    return;
+                }
+
+                wrapper.style.display = 'block';
 
                 const ratio = DOM.listContainer.scrollTop / maxScroll;
                 range.disabled = false;
