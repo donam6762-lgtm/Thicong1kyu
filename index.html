@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <!-- Dexie.js for IndexedDB -->
+    <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
     <style>
         /* --- CSS: Giao diện --- */
         :root {
@@ -59,27 +61,6 @@
             flex: 1;
             overflow-y: auto;
             padding: 10px;
-            /* Smooth scrolling */
-            scroll-behavior: smooth;
-            /* Firefox Scrollbar */
-            scrollbar-width: thin;
-            scrollbar-color: #bdc3c7 #f1f1f1;
-        }
-
-        /* Custom Scrollbar */
-        .list-container::-webkit-scrollbar {
-            width: 8px;
-        }
-        .list-container::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 4px;
-        }
-        .list-container::-webkit-scrollbar-thumb {
-            background: #bdc3c7;
-            border-radius: 4px;
-        }
-        .list-container::-webkit-scrollbar-thumb:hover {
-            background: #95a5a6;
         }
 
         .list-item {
@@ -742,6 +723,14 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
+        .sidebar-footer {
+            display: flex;
+            background: #dfe4ea;
+            padding: 5px;
+            gap: 5px;
+            border-top: 1px solid #ddd;
+        }
+
         /* Grammar Styles */
         .grammar-block {
             text-align: left;
@@ -966,8 +955,7 @@
 
             .list-container {
                 display: none; /* Mặc định ẩn danh sách */
-                height: auto;
-                max-height: 50vh; /* Tăng chiều cao tối đa lên 50% màn hình */
+                height: 150px; 
                 overflow-y: auto;
                 background: #f1f2f6;
                 border-bottom: 2px solid #ddd;
@@ -978,8 +966,8 @@
             }
 
             @keyframes slideDown {
-                from { max-height: 0; opacity: 0; }
-                to { max-height: 50vh; opacity: 1; }
+                from { height: 0; opacity: 0; }
+                to { height: 150px; opacity: 1; }
             }
             
             /* Thêm mũi tên chỉ thị cho header */
@@ -1002,17 +990,40 @@
             .main-content {
                 margin-left: 0;
                 width: 100%;
-                padding: 5px;
-                padding-top: 5px; 
-                height: calc(100vh - 100px); /* Cố gắng fit màn hình */
+                padding: 10px;
+                padding-top: 10px; 
+                min-height: calc(100vh - 100px); /* Use min-height to allow scrolling */
                 justify-content: flex-start; /* Đẩy lên trên */
             }
 
             .card-container {
                 width: 100%;
-                max-width: 300px; /* Thu nhỏ thêm */
-                height: 480px; /* Giữ chiều cao tương đối */
+                max-width: 320px; /* Adjust for better fit on most phones */
+                height: 460px; /* Slightly shorter for mobile */
                 margin-bottom: 10px;
+            }
+
+            .card-front.kanji-mode {
+                font-size: 4rem; /* Smaller kanji for smaller card */
+            }
+
+            .jp-btn {
+                width: 45px; /* Bigger touch target on mobile */
+                height: 45px;
+                font-size: 1.4rem;
+            }
+
+            .status-group-jp {
+                gap: 30px; /* More space between buttons */
+            }
+
+            .sidebar-footer {
+                padding: 2px;
+                gap: 2px;
+            }
+            .sidebar-footer .sidebar-tab {
+                font-size: 0.75rem;
+                padding: 5px 0;
             }
             
             /* Ẩn bớt các thành phần thừa */
@@ -1030,12 +1041,25 @@
                 grid-template-columns: 1fr 1fr; /* 2 cột */
                 gap: 8px;
                 width: 100%;
-                max-width: 300px;
+                max-width: 320px; /* Adjust to match card */
             }
             
             button {
-                padding: 8px 10px;
-                font-size: 0.85rem;
+                padding: 10px 12px;
+                font-size: 0.9rem;
+            }
+
+            .modal-content {
+                width: 95%;
+                padding: 15px;
+            }
+
+            .modal-buttons {
+                flex-direction: column-reverse; /* Stack buttons vertically for easier tapping */
+                gap: 10px;
+            }
+            .modal-buttons button {
+                width: 100%; /* Full width buttons for mobile */
             }
             
             h1 { font-size: 1rem; padding: 5px 15px; }
@@ -1061,6 +1085,11 @@
         </div>
         <div class="list-container" id="listContainer">
             <!-- List items will be injected here -->
+        </div>
+        <div class="sidebar-footer">
+            <div class="sidebar-tab" onclick="StorageManager.exportAll()" style="background: #2ed573; color: white;">Backup</div>
+            <div class="sidebar-tab" onclick="StorageManager.triggerImportFile()" style="background: #3742fa; color: white;">Restore</div>
+            <input type="file" id="importFileSelector" style="display:none" accept=".json" onchange="StorageManager.importFile(event)">
         </div>
     </div>
 
@@ -1119,6 +1148,7 @@
 
             <div class="action-group">
                 <button class="btn-import" onclick="ImportManager.openModal()">+ Import nhiều từ</button>
+                <button class="btn-secondary" onclick="openEditModal()" style="background: #ffa502; color: black;">✏️ Sửa từ</button>
                 <button class="btn-review" onclick="filterReviewWords()">⚠ Ôn tập (Δ & X)</button>
                 <button class="btn-secondary" onclick="TestManager.start()" style="background: #a55eea; color: white;">✎ Làm bài kiểm tra</button>
                 <button class="btn-secondary" onclick="shuffleWords()" style="background: #2f3542; color: white;">🔀 Xáo trộn</button>
@@ -1340,6 +1370,33 @@ Ví dụ:
         </div>
     </div>
 
+    <!-- Modal Sửa từ --> 
+    <div class="modal-overlay" id="editModal"> 
+        <div class="modal-content" style="max-width:400px"> 
+            <h3>✏️ Sửa từ</h3> 
+            <div class="input-group"> 
+                <label>Kanji/Từ</label> 
+                <input id="editKanji" type="text"> 
+            </div> 
+            <div class="input-group"> 
+                <label>Cách đọc</label> 
+                <input id="editReading" type="text"> 
+            </div> 
+            <div class="input-group"> 
+                <label>Nghĩa</label> 
+                <input id="editMean" type="text"> 
+            </div> 
+            <div class="input-group"> 
+                <label>Ví dụ</label> 
+                <textarea id="editExample" rows="3"></textarea> 
+            </div> 
+            <div class="modal-buttons"> 
+                <button class="btn-secondary" onclick="closeModal('editModal')">Hủy</button> 
+                <button onclick="saveEdit()">💾 Lưu</button> 
+            </div> 
+        </div> 
+    </div>
+
     <script>
         /* --- JAVASCRIPT: Logic Quản lý (Optimized) --- */
 
@@ -1424,9 +1481,12 @@ Ví dụ:
         };
 
         // --- KHỞI TẠO ---
-        window.onload = function() {
-            StorageManager.loadLists();
-            if (AppState.lists.length === 0) ListManager.create("Bài mẫu (Demo)", CONFIG.DEFAULT_DATA, 'vocabulary');
+        window.onload = async function() {
+            await StorageManager.loadLists();
+            
+            if (AppState.lists.length === 0) {
+                await ListManager.create("Bài mẫu (Demo)", CONFIG.DEFAULT_DATA, 'vocabulary');
+            }
             
             // Tìm bài học đầu tiên thuộc category hiện tại
             const firstList = AppState.lists.find(l => l.type === AppState.currentCategory);
@@ -1438,40 +1498,148 @@ Ví dụ:
         };
 
         // --- STORAGE MANAGER ---
+        const db = new Dexie("FlashcardDB");
+        db.version(1).stores({ 
+            lists: "id, type, name",
+            testHistory: "id, date, userName" 
+        });
+
         const StorageManager = {
-            saveLists: function() {
+            saveLists: async function() {
                 try {
-                    localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(AppState.lists));
+                    // Update current list in IndexedDB
+                    for (const list of AppState.lists) {
+                        await db.lists.put(list);
+                    }
                     UIManager.renderSidebar();
                 } catch (e) {
                     console.error("Lỗi lưu trữ:", e);
-                    if (e.name === 'QuotaExceededError' || e.code === 22) {
-                        Utils.showToast("Bộ nhớ trình duyệt đã đầy! Hãy xóa bớt bài học cũ.", "error");
-                    } else {
-                        Utils.showToast("Không thể lưu dữ liệu! Đã xảy ra lỗi.", "error");
-                    }
+                    Utils.showToast("Không thể lưu dữ liệu! Đã xảy ra lỗi.", "error");
                 }
             },
 
-            loadLists: function() {
-                const data = localStorage.getItem(CONFIG.STORAGE_KEY);
-                if (data) {
-                    AppState.lists = JSON.parse(data);
+            loadLists: async function() {
+                try {
+                    // Try loading from IndexedDB first
+                    const allLists = await db.lists.toArray();
+                    if (allLists.length > 0) {
+                        AppState.lists = allLists;
+                    } else {
+                        // Fallback to localStorage for migration
+                        const oldData = localStorage.getItem(CONFIG.STORAGE_KEY);
+                        if (oldData) {
+                            AppState.lists = JSON.parse(oldData);
+                            // Migrate to IndexedDB
+                            for (const list of AppState.lists) {
+                                await db.lists.put(list);
+                            }
+                            localStorage.removeItem(CONFIG.STORAGE_KEY);
+                        }
+                    }
+
                     AppState.lists.forEach(l => {
                         if (!l.type) l.type = 'vocabulary';
                     });
+
+                    const allHistory = await db.testHistory.toArray();
+                    if (allHistory.length > 0) {
+                        AppState.testHistory = allHistory.sort((a, b) => b.id - a.id);
+                    } else {
+                        const oldHistory = localStorage.getItem(CONFIG.HISTORY_KEY);
+                        if (oldHistory) {
+                            AppState.testHistory = JSON.parse(oldHistory);
+                            for (const item of AppState.testHistory) {
+                                await db.testHistory.put(item);
+                            }
+                            localStorage.removeItem(CONFIG.HISTORY_KEY);
+                        }
+                    }
+
+                    // Refresh UI
+                    UIManager.renderSidebar();
+                    const firstList = AppState.lists.find(l => l.type === AppState.currentCategory);
+                    if (firstList) ListManager.select(firstList.id);
+                } catch (e) {
+                    console.error("Lỗi khi tải dữ liệu:", e);
                 }
-                
-                const historyData = localStorage.getItem(CONFIG.HISTORY_KEY);
-                if (historyData) {
-                    AppState.testHistory = JSON.parse(historyData);
+            },
+
+            deleteList: async function(id) {
+                await db.lists.delete(id);
+            },
+
+            saveHistory: async function(historyItem) {
+                await db.testHistory.put(historyItem);
+            },
+
+            clearHistory: async function() {
+                await db.testHistory.clear();
+            },
+
+            exportAll: function() {
+                if (AppState.lists.length === 0) {
+                    Utils.showToast("Không có dữ liệu để xuất!", "error");
+                    return;
                 }
+                const data = JSON.stringify(AppState.lists, null, 2);
+                const blob = new Blob([data], { type: "application/json" });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = `flashcard_backup_${new Date().toISOString().slice(0,10)}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+                Utils.showToast("Đã tải xuống bản sao lưu dữ liệu!", "success");
+            },
+
+            triggerImportFile: function() {
+                document.getElementById('importFileSelector').click();
+            },
+
+            importFile: function(event) {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                const reader = new FileReader();
+                reader.onload = async function(e) {
+                    try {
+                        const data = JSON.parse(e.target.result);
+                        if (!Array.isArray(data)) {
+                            Utils.showToast("File không đúng định dạng sao lưu!", "error");
+                            return;
+                        }
+
+                        if (confirm(`Bạn có muốn nhập ${data.length} bài học từ file này không? (Dữ liệu cũ sẽ được giữ nguyên, chỉ thêm mới)`)) {
+                            for (const list of data) {
+                                // Ensure unique IDs if they exist
+                                const existing = AppState.lists.find(l => l.id === list.id);
+                                if (existing) {
+                                    list.id = Date.now().toString() + Math.random().toString(36).substr(2, 5);
+                                }
+                                AppState.lists.push(list);
+                                await db.lists.put(list);
+                            }
+                            
+                            UIManager.renderSidebar();
+                            Utils.showToast(`Đã nhập thành công ${data.length} bài học!`, "success");
+                            
+                            // Select the first imported list
+                            if (data.length > 0) ListManager.select(data[0].id);
+                        }
+                    } catch (err) {
+                        console.error("Lỗi đọc file:", err);
+                        Utils.showToast("Lỗi khi đọc file JSON!", "error");
+                    }
+                    // Reset selector to allow importing the same file again
+                    event.target.value = "";
+                };
+                reader.readAsText(file);
             }
         };
 
         // --- LIST MANAGER ---
         const ListManager = {
-            create: function(name, words, type = 'vocabulary') {
+            create: async function(name, words, type = 'vocabulary') {
                 const newList = { 
                     id: Date.now().toString(), 
                     name: name, 
@@ -1480,15 +1648,16 @@ Ví dụ:
                     type: type 
                 };
                 AppState.lists.push(newList);
-                StorageManager.saveLists();
+                await StorageManager.saveLists();
                 return newList.id;
             },
 
-            delete: function(id, event) {
+            delete: async function(id, event) {
                 event.stopPropagation();
                 if (confirm("Bạn có chắc chắn muốn xóa bài học này không?")) {
                     AppState.lists = AppState.lists.filter(l => l.id !== id);
-                    StorageManager.saveLists();
+                    await StorageManager.deleteList(id);
+                    UIManager.renderSidebar();
                     if (AppState.lists.length > 0) ListManager.select(AppState.lists[0].id);
                     else { 
                         AppState.currentWords = []; 
@@ -1748,12 +1917,12 @@ Ví dụ:
                 }, 300);
             },
 
-            setStatusAndNext: function(status) {
+            setStatusAndNext: async function(status) {
                 const word = AppState.currentWords[AppState.currentIndex];
                 if (!word) return;
 
                 word.status = status;
-                StorageManager.saveLists();
+                await StorageManager.saveLists();
                 CardManager.updateStatusUI(status);
                 
                 setTimeout(() => {
@@ -1842,11 +2011,40 @@ Ví dụ:
                 return result;
             },
 
-            process: function() {
+            process: async function() {
                 const listName = document.getElementById('listNameInput').value.trim() || `Bài học ${new Date().toLocaleDateString()}`;
                 let category = document.getElementById('importCategoryInput').value || 'vocabulary';
                 const text = document.getElementById('bulkInput').value;
                 if (!text.trim()) { Utils.showToast("Vui lòng nhập nội dung!", "error"); return; }
+
+                // Check for JSON Import
+                if (text.trim().startsWith('[') && text.trim().endsWith(']')) {
+                    try {
+                        const jsonData = JSON.parse(text);
+                        if (Array.isArray(jsonData)) {
+                            const newWords = jsonData.map(item => ({
+                                kanji: item.kanji || "",
+                                reading: item.reading || "",
+                                mean: item.mean || "",
+                                example: item.example || "",
+                                status: item.status || "",
+                                note: item.note || "",
+                                structure: item.structure || "",
+                                explanation: item.explanation || ""
+                            }));
+                            
+                            const newId = await ListManager.create(listName, newWords, category);
+                            AppState.currentCategory = category;
+                            UIManager.renderSidebar();
+                            ListManager.select(newId);
+                            closeModal('bulkModal');
+                            Utils.showToast(`Đã import JSON thành công!`, "success");
+                            return;
+                        }
+                    } catch (e) {
+                        console.error("JSON parse error:", e);
+                    }
+                }
 
                 // Auto-detect Category based on content signatures
                 if ((text.includes('Mặt trước:') || text.includes('Mặt trước :')) && (text.includes('Mặt sau:') || text.includes('Mặt sau :'))) {
@@ -2070,7 +2268,7 @@ Ví dụ:
                 }
 
                 if (newWords.length > 0) {
-                    const newId = ListManager.create(listName, newWords, category);
+                    const newId = await ListManager.create(listName, newWords, category);
                     AppState.currentCategory = category;
                     UIManager.renderSidebar();
                     ListManager.select(newId);
@@ -2394,7 +2592,7 @@ Ví dụ:
                 document.getElementById('testStatusText').innerText = `Đang làm bài: ${answeredCount}/${TestManager.questions.length} câu`;
             },
 
-            submit: function() {
+            submit: async function() {
                 const answeredCount = TestManager.questions.filter(q => q.selected).length;
                 if (answeredCount < TestManager.questions.length) {
                     if (!confirm(`Bạn mới làm ${answeredCount}/${TestManager.questions.length} câu. Bạn có chắc muốn nộp bài không?`)) return;
@@ -2441,8 +2639,9 @@ Ví dụ:
                     }
                 });
 
+                const resultId = Date.now().toString();
                 const resultData = {
-                    id: Date.now().toString(),
+                    id: resultId,
                     date: new Date().toLocaleString(),
                     userName: AppState.currentUserName,
                     listName: AppState.lists.find(l => l.id === AppState.currentListId)?.name || "Unknown List",
@@ -2452,7 +2651,7 @@ Ví dụ:
                 };
                 
                 AppState.testHistory.unshift(resultData);
-                localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(AppState.testHistory));
+                await StorageManager.saveHistory(resultData);
 
                 const statusDiv = document.querySelector('.test-score-sticky');
                 statusDiv.innerHTML = `
@@ -2468,9 +2667,35 @@ Ví dụ:
 
         // --- ADMIN MANAGER ---
         const AdminManager = {
-            open: function() {
-                AdminManager.renderResults();
-                document.getElementById('adminModal').classList.add('active');
+            hashPassword: async function(password) {
+                const encoder = new TextEncoder();
+                const data = encoder.encode(password);
+                const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+                return Array.from(new Uint8Array(hashBuffer))
+                    .map(b => b.toString(16).padStart(2, "0"))
+                    .join("");
+            },
+
+            open: async function() {
+                const storedHash = localStorage.getItem("adminHash");
+                const password = prompt("🔒 Nhập mật khẩu Admin:");
+                
+                if (!password) return;
+
+                const inputHash = await AdminManager.hashPassword(password);
+
+                if (!storedHash) {
+                    if (confirm("Chưa có mật khẩu Admin. Đặt mật khẩu này làm mặc định?")) {
+                        localStorage.setItem("adminHash", inputHash);
+                        AdminManager.renderResults();
+                        document.getElementById('adminModal').classList.add('active');
+                    }
+                } else if (inputHash === storedHash) {
+                    AdminManager.renderResults();
+                    document.getElementById('adminModal').classList.add('active');
+                } else {
+                    alert("❌ Mật khẩu không đúng!");
+                }
             },
 
             renderResults: function() {
@@ -2521,7 +2746,7 @@ Ví dụ:
                 document.getElementById('importDataInput').focus();
             },
 
-            submitImport: function() {
+            submitImport: async function() {
                 const dataStr = document.getElementById('importDataInput').value;
                 if (!dataStr) {
                     Utils.showToast("Vui lòng nhập dữ liệu!", "error");
@@ -2536,7 +2761,9 @@ Ví dụ:
                         
                         if (newItems.length > 0) {
                             AppState.testHistory = [...newItems, ...AppState.testHistory];
-                            localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(AppState.testHistory));
+                            for (const item of newItems) {
+                                await StorageManager.saveHistory(item);
+                            }
                             AdminManager.renderResults();
                             Utils.showToast(`Đã nhập thành công ${newItems.length} kết quả mới!`, "success");
                             closeModal('importDataModal');
@@ -2551,21 +2778,21 @@ Ví dụ:
                 }
             },
 
-            clear: function() {
+            clear: async function() {
                 if (confirm("Bạn có chắc chắn muốn xóa TOÀN BỘ lịch sử kết quả không?")) {
                     AppState.testHistory = [];
-                    localStorage.setItem(CONFIG.HISTORY_KEY, JSON.stringify(AppState.testHistory));
+                    await StorageManager.clearHistory();
                     AdminManager.renderResults();
                 }
             }
         };
 
         // --- NOTE LOGIC ---
-        const performSaveNote = Utils.debounce(() => {
+        const performSaveNote = Utils.debounce(async () => {
             const word = AppState.currentWords[AppState.currentIndex];
             if (word) {
                 word.note = DOM.noteInput.value;
-                StorageManager.saveLists();
+                await StorageManager.saveLists();
             }
         }, 500);
 
@@ -2591,6 +2818,34 @@ Ví dụ:
         }
         function openHelpModal() {
             document.getElementById('helpModal').classList.add('active');
+        }
+
+        function openEditModal() {
+            const word = AppState.currentWords[AppState.currentIndex];
+            if (!word) return;
+
+            document.getElementById("editKanji").value = word.kanji;
+            document.getElementById("editReading").value = word.reading || "";
+            document.getElementById("editMean").value = word.mean || "";
+            document.getElementById("editExample").value = 
+                (word.example || "").replace(/<br>/g, "\n");
+            document.getElementById("editModal").classList.add("active");
+        }
+
+        async function saveEdit() {
+            const word = AppState.currentWords[AppState.currentIndex];
+            if (!word) return;
+
+            word.kanji    = document.getElementById("editKanji").value.trim();
+            word.reading  = document.getElementById("editReading").value.trim();
+            word.mean     = document.getElementById("editMean").value.trim();
+            word.example  = document.getElementById("editExample").value
+                                .trim().replace(/\n/g, "<br>");
+            
+            await StorageManager.saveLists();
+            CardManager.updateDisplay(word);
+            closeModal("editModal");
+            Utils.showToast("Đã lưu thay đổi!", "success");
         }
 
 
@@ -2663,16 +2918,6 @@ Ví dụ:
                 DOM.card.classList.remove('is-flipped');
             }
         }
-
-        // --- MOBILE DEBUGGING (Eruda) ---
-        // Thêm ?debug=true vào URL để bật console trên điện thoại
-        if (new URLSearchParams(window.location.search).get('debug')) {
-            var script = document.createElement('script');
-            script.src = "//cdn.jsdelivr.net/npm/eruda";
-            document.body.appendChild(script);
-            script.onload = function () { eruda.init() }
-        }
     </script>
 </body>
-
 </html>
