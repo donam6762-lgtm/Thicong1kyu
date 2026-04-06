@@ -731,6 +731,17 @@
             border-top: 1px solid #ddd;
         }
 
+        .list-scrollbar {
+            display: none;
+            padding: 0 10px 10px;
+            background: #f1f2f6;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .list-scrollbar input[type="range"] {
+            width: 100%;
+        }
+
         /* Grammar Styles */
         .grammar-block {
             text-align: left;
@@ -955,19 +966,17 @@
 
             .list-container {
                 display: none; /* Mặc định ẩn danh sách */
-                height: 150px; 
+                max-height: 40vh;
                 overflow-y: auto;
                 background: #f1f2f6;
                 border-bottom: 2px solid #ddd;
-                animation: slideDown 0.3s ease-out;
+                flex: 0 0 auto;
             }
             .list-container.expanded {
                 display: block; /* Hiện khi toggle */
             }
-
-            @keyframes slideDown {
-                from { height: 0; opacity: 0; }
-                to { height: 150px; opacity: 1; }
+            .list-container.expanded + .list-scrollbar {
+                display: block;
             }
             
             /* Thêm mũi tên chỉ thị cho header */
@@ -1085,6 +1094,9 @@
         </div>
         <div class="list-container" id="listContainer">
             <!-- List items will be injected here -->
+        </div>
+        <div class="list-scrollbar" id="listScrollbar">
+            <input type="range" id="listScrollRange" min="0" max="1000" value="0">
         </div>
         <div class="sidebar-footer">
             <div class="sidebar-tab" onclick="StorageManager.exportAll()" style="background: #2ed573; color: white;">Backup</div>
@@ -1495,6 +1507,7 @@ Ví dụ:
                 UIManager.renderSidebar();
                 CardManager.updateDisplay({kanji: "Chào bạn!", reading: "Hãy tạo bài học mới", mean: "Chọn Import để bắt đầu", example: "Chúc bạn học tốt!"});
             }
+            ListScrollManager.init();
         };
 
         // --- STORAGE MANAGER ---
@@ -1724,6 +1737,7 @@ Ví dụ:
 
                 if (filteredLists.length === 0) {
                     DOM.listContainer.innerHTML = `<div style="padding:15px; text-align:center; color:#999;">Chưa có bài học nào.<br>Bấm Import để thêm!</div>`;
+                    ListScrollManager.sync();
                     return;
                 }
 
@@ -1740,6 +1754,7 @@ Ví dụ:
                     fragment.appendChild(div);
                 });
                 DOM.listContainer.appendChild(fragment);
+                ListScrollManager.sync();
             },
 
             updateCounter: function() {
@@ -1751,6 +1766,7 @@ Ví dụ:
                 if (window.innerWidth <= 768) {
                     DOM.listContainer.classList.toggle('expanded');
                     document.querySelector('.sidebar-header').classList.toggle('expanded');
+                    ListScrollManager.sync();
                 } else {
                     document.getElementById('sidebar').classList.toggle('active'); 
                     document.querySelector('.sidebar-overlay').classList.toggle('active');
@@ -1760,6 +1776,51 @@ Ví dụ:
             closeSidebar: function() {
                 document.getElementById('sidebar').classList.remove('active'); 
                 document.querySelector('.sidebar-overlay').classList.remove('active');
+            }
+        };
+
+        const ListScrollManager = {
+            initialized: false,
+
+            init: function() {
+                if (ListScrollManager.initialized) return;
+                const range = document.getElementById('listScrollRange');
+                if (!range || !DOM.listContainer) return;
+
+                range.addEventListener('input', () => {
+                    const maxScroll = Math.max(0, DOM.listContainer.scrollHeight - DOM.listContainer.clientHeight);
+                    if (maxScroll === 0) return;
+                    const ratio = Number(range.value) / 1000;
+                    DOM.listContainer.scrollTop = Math.round(ratio * maxScroll);
+                });
+
+                DOM.listContainer.addEventListener('scroll', () => {
+                    ListScrollManager.sync();
+                }, { passive: true });
+
+                window.addEventListener('resize', () => {
+                    ListScrollManager.sync();
+                });
+
+                ListScrollManager.initialized = true;
+                ListScrollManager.sync();
+            },
+
+            sync: function() {
+                const range = document.getElementById('listScrollRange');
+                const wrapper = document.getElementById('listScrollbar');
+                if (!range || !wrapper || !DOM.listContainer) return;
+
+                const maxScroll = Math.max(0, DOM.listContainer.scrollHeight - DOM.listContainer.clientHeight);
+                if (maxScroll === 0 || !DOM.listContainer.classList.contains('expanded')) {
+                    range.value = '0';
+                    range.disabled = true;
+                    return;
+                }
+
+                const ratio = DOM.listContainer.scrollTop / maxScroll;
+                range.disabled = false;
+                range.value = String(Math.round(ratio * 1000));
             }
         };
 
