@@ -849,6 +849,9 @@
   <button class="sidebar-toggle" id="sidebarToggle" aria-label="Mở menu">☰</button>
   <div class="sidebar-overlay" id="sidebarOverlay"></div>
   <div id="sidebarContextMenu" class="sidebar-context-menu">
+    <div id="sidebarMoveBtn" class="context-menu-item">
+      <span>📂</span> Di chuyển câu hỏi
+    </div>
     <div id="sidebarDeleteBtn" class="context-menu-item">
       <span>🗑️</span> Xóa câu hỏi
     </div>
@@ -2037,6 +2040,20 @@
         }
       }
 
+      // Add "+" button for topic nodes (not question nodes)
+      if (!isQuestionLabel(node.label)) {
+        const addBtn = document.createElement("button");
+        addBtn.className = "tree-options-btn";
+        addBtn.innerHTML = "+";
+        addBtn.type = "button";
+        addBtn.title = "Thêm câu hỏi vào chủ đề này";
+        addBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          openQuestionModalForPath(nodePath);
+        });
+        row.appendChild(addBtn);
+      }
+
       // Add "..." button for question nodes or topics that can have questions
       if (isQuestionLabel(node.label)) {
         const optionsBtn = document.createElement("button");
@@ -2094,6 +2111,53 @@
       menu.classList.add("open");
     }
 
+    function moveQuestion(oldTopicPathKey, label, newTopicPathKey) {
+      const oldQPath = getQuestionPath(oldTopicPathKey, label);
+      const newQPath = getQuestionPath(newTopicPathKey, label);
+
+      const rawData = localStorage.getItem(`${questionStoragePrefix}${oldQPath}`);
+      if (!rawData) {
+        alert("Không tìm thấy dữ liệu câu hỏi. Chỉ có thể di chuyển câu hỏi đã nhập (không phải câu hỏi tĩnh).");
+        return;
+      }
+
+      // Lưu vào path mới
+      localStorage.setItem(`${questionStoragePrefix}${newQPath}`, rawData);
+      const newLabels = getRegisteredQuestionLabels(newTopicPathKey);
+      if (!newLabels.includes(label)) {
+        newLabels.push(label);
+        saveRegisteredQuestionLabels(newTopicPathKey, newLabels);
+      }
+
+      // Xóa khỏi path cũ
+      localStorage.removeItem(`${questionStoragePrefix}${oldQPath}`);
+      const oldLabels = getRegisteredQuestionLabels(oldTopicPathKey);
+      saveRegisteredQuestionLabels(oldTopicPathKey, oldLabels.filter(l => l !== label));
+      hideQuestion(oldQPath);
+
+      // Điều hướng đến vị trí mới
+      activePath = newTopicPathKey;
+      activeQuestionPath = newQPath;
+      renderPage();
+      renderTree();
+    }
+
+    document.getElementById("sidebarMoveBtn").addEventListener("click", () => {
+      if (sidebarContextPath && isQuestionPath(sidebarContextPath)) {
+        const parts = splitPath(sidebarContextPath);
+        const label = parts[parts.length - 1];
+        const oldTopicPath = getParentPathKey(sidebarContextPath);
+        const newTopicPath = prompt(
+          `Di chuyển "${label}" đến đường dẫn mới:\n(hiện tại: ${oldTopicPath})`,
+          oldTopicPath
+        );
+        if (newTopicPath && newTopicPath.trim() && newTopicPath.trim() !== oldTopicPath) {
+          moveQuestion(oldTopicPath, label, newTopicPath.trim());
+        }
+      }
+      document.getElementById("sidebarContextMenu").classList.remove("open");
+    });
+
     document.getElementById("sidebarDeleteBtn").addEventListener("click", () => {
       if (sidebarContextPath && isQuestionPath(sidebarContextPath)) {
         const parts = splitPath(sidebarContextPath);
@@ -2131,16 +2195,19 @@
     }
 
     function openQuestionModal() {
-      modalTopicPath = getTopicPathFromSelection();
-      if (modalTopicPath === treeRootLabel) {
+      openQuestionModalForPath(getTopicPathFromSelection());
+    }
+
+    function openQuestionModalForPath(topicPath) {
+      if (!topicPath || topicPath === treeRootLabel) {
         return;
       }
-
+      modalTopicPath = topicPath;
       const labels = getAllQuestionLabels(modalTopicPath);
       const nextLabel = `Q${Math.max(0, ...labels.map(getQuestionNumber)) + 1}`;
       modalQuestionLabel.value = nextLabel;
       loadQuestionIntoModal(getQuestionPath(modalTopicPath, nextLabel));
-      questionModalSubtitle.textContent = `Chu de hien tai: ${modalTopicPath}`;
+      questionModalSubtitle.textContent = `Đường dẫn: ${modalTopicPath}`;
       modalStatus.textContent = "Dữ liệu được lưu trên trình duyệt của máy hiện tại.";
       questionModal.classList.remove("hidden");
     }
@@ -2415,8 +2482,27 @@
 
         // Hỗ trợ cả format đầy đủ (có "topics") và format câu hỏi đơn
         let q = parsed;
-        if (parsed.topics && parsed.topics[0] && parsed.topics[0].questions && parsed.topics[0].questions[0]) {
-          q = parsed.topics[0].questions[0];
+        let detectedPath = null;
+        if (parsed.topics && parsed.topics[0]) {
+          const topic = parsed.topics[0];
+          if (topic.path) detectedPath = topic.path;
+          if (topic.questions && topic.questions[0]) q = topic.questions[0];
+        }
+        // Cũng hỗ trợ path ở cấp ngoài cùng
+        if (!detectedPath && parsed.path) detectedPath = parsed.path;
+
+        // Nếu JSON có path → tự động đổi destination
+        if (detectedPath) {
+          // Bỏ prefix tên exam nếu có
+          const pathParts = detectedPath.split(" / ");
+          const firstPart = pathParts[0].trim();
+          const isFullPath = firstPart === treeRootLabel;
+          modalTopicPath = isFullPath ? detectedPath : `${treeRootLabel} / ${detectedPath}`;
+          // Cập nhật label câu hỏi theo topic mới
+          const labels = getAllQuestionLabels(modalTopicPath);
+          const nextLabel = `Q${Math.max(0, ...labels.map(getQuestionNumber)) + 1}`;
+          modalQuestionLabel.value = nextLabel;
+          questionModalSubtitle.textContent = `Đường dẫn: ${modalTopicPath}`;
         }
 
         // Điền các trường tiếng Nhật vào form
@@ -2429,6 +2515,7 @@
         modalCorrectAnswer.value = String(q.answer || q.correctAnswer || "");
         modalExplanation.value = q.explanation || "";
         modalStudyContent.value = q.studyContent || "";
+        if (q.label) modalQuestionLabel.value = q.label;
         if (q.image) updateImagePreview(q.image);
 
         // Lưu riêng phần tiếng Việt (không ghép vào form)
@@ -2442,9 +2529,11 @@
 
         const statusEl = document.getElementById("modalJsonStatus");
         const hasVi = modalViData.prompt_vi || modalViData.explanation_vi;
-        statusEl.textContent = hasVi
+        let msg = hasVi
           ? "✅ Đã tải xong! Tiếng Nhật điền vào form, tiếng Việt lưu riêng."
           : "✅ Đã áp dụng thành công!";
+        if (detectedPath) msg += ` 📂 Sẽ lưu vào: ${modalTopicPath}`;
+        statusEl.textContent = msg;
         statusEl.style.color = "var(--good)";
       } catch (err) {
         const statusEl = document.getElementById("modalJsonStatus");
