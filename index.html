@@ -849,6 +849,9 @@
   <button class="sidebar-toggle" id="sidebarToggle" aria-label="Mở menu">☰</button>
   <div class="sidebar-overlay" id="sidebarOverlay"></div>
   <div id="sidebarContextMenu" class="sidebar-context-menu">
+    <div id="sidebarEditBtn" class="context-menu-item">
+      <span>✏️</span> Sửa câu hỏi
+    </div>
     <div id="sidebarMoveBtn" class="context-menu-item">
       <span>📂</span> Di chuyển câu hỏi
     </div>
@@ -1432,6 +1435,7 @@
     let activeTab = "questions";
     let activeQuestionPath = null;
     let modalTopicPath = null;
+    let modalEditingPath = null; // null = thêm mới, string = đang sửa
     let modalViData = {};
     let shuffleMode = false;
     const sessionAnswers = {}; // { pathKey: true/false }
@@ -1443,12 +1447,13 @@
       return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
     }
 
+    const toastContainer = document.getElementById("toastContainer");
+
     function showToast(msg, type = "info", duration = 3000) {
-      const container = document.getElementById("toastContainer");
       const el = document.createElement("div");
       el.className = `toast ${type}`;
       el.textContent = msg;
-      container.appendChild(el);
+      toastContainer.appendChild(el);
       setTimeout(() => el.remove(), duration);
     }
 
@@ -1766,15 +1771,15 @@
       const defaultContent = getDefaultContent(topicPathKey);
       const effectiveContent = storedContent || defaultContent;
 
-      summaryPreview.textContent = effectiveContent || "Chua co noi dung tom tat.";
+      summaryPreview.textContent = effectiveContent || "Chưa có nội dung tóm tắt.";
       summaryEditor.value = effectiveContent;
 
       if (storedContent) {
-        setSummaryStatus("Dang hien thi noi dung tom tat ban da luu.");
+        setSummaryStatus("Đang hiển thị nội dung tóm tắt bạn đã lưu.");
       } else if (defaultContent) {
-        setSummaryStatus("Dang hien thi noi dung mac dinh. Ban co the sua va luu lai.");
+        setSummaryStatus("Đang hiển thị nội dung mặc định. Bạn có thể sửa và lưu lại.");
       } else {
-        setSummaryStatus("Chu de nay chua co tom tat. Hay nhap noi dung moi.");
+        setSummaryStatus("Chủ đề này chưa có tóm tắt. Hãy nhập nội dung mới.");
       }
     }
 
@@ -1904,39 +1909,25 @@
 
     function deleteQuestion(topicPathKey, label) {
       const questionPathKey = getQuestionPath(topicPathKey, label);
-      
-      // Hide the question (works for both static and user-added)
       hideQuestion(questionPathKey);
-
-      // Remove data if it was user-added
       localStorage.removeItem(`${questionStoragePrefix}${questionPathKey}`);
-      
-      // Update registry
-      const labels = getRegisteredQuestionLabels(topicPathKey);
-      const newLabels = labels.filter(l => l !== label);
+      const newLabels = getRegisteredQuestionLabels(topicPathKey).filter(l => l !== label);
       saveRegisteredQuestionLabels(topicPathKey, newLabels);
-      
-      // Update active question: try to find the next available question
-      const allLabels = getAllQuestionLabels(topicPathKey);
+
       if (activeQuestionPath === questionPathKey) {
-        if (allLabels.length > 0) {
-          // Select the first available question in the same topic
-          setActiveQuestion(getQuestionPath(topicPathKey, allLabels[0]));
+        const remaining = getAllQuestionLabels(topicPathKey);
+        if (remaining.length > 0) {
+          activeQuestionPath = getQuestionPath(topicPathKey, remaining[0]);
+          activePath = activeQuestionPath;
         } else {
-          // No questions left, go to parent topic
           activeQuestionPath = null;
           activePath = topicPathKey;
         }
       }
-      
       renderPage();
       renderTree();
     }
 
-    // Close context menus on click outside
-    document.addEventListener("click", () => {
-      document.querySelectorAll(".context-menu.open").forEach(m => m.classList.remove("open"));
-    });
 
     function renderSessionBar(topicPathKey) {
       const sessionBar = document.getElementById("sessionBar");
@@ -1992,7 +1983,6 @@
         activeTab = "questions";
       }
       renderPage();
-      renderTree();
     }
 
     function createNodeElement(node, level, path, forceOpen) {
@@ -2111,6 +2101,13 @@
       menu.classList.add("open");
     }
 
+    document.getElementById("sidebarEditBtn").addEventListener("click", () => {
+      if (sidebarContextPath && isQuestionPath(sidebarContextPath)) {
+        openQuestionModalForEdit(sidebarContextPath);
+      }
+      document.getElementById("sidebarContextMenu").classList.remove("open");
+    });
+
     function moveQuestion(oldTopicPathKey, label, newTopicPathKey) {
       const oldQPath = getQuestionPath(oldTopicPathKey, label);
       const newQPath = getQuestionPath(newTopicPathKey, label);
@@ -2171,7 +2168,8 @@
     });
 
     document.addEventListener("click", () => {
-      document.getElementById("sidebarContextMenu").classList.remove("open");
+      document.querySelectorAll(".context-menu.open, .sidebar-context-menu.open")
+        .forEach(m => m.classList.remove("open"));
     });
 
     function renderTree() {
@@ -2202,17 +2200,35 @@
       if (!topicPath || topicPath === treeRootLabel) {
         return;
       }
+      modalEditingPath = null;
       modalTopicPath = topicPath;
       const labels = getAllQuestionLabels(modalTopicPath);
       const nextLabel = `Q${Math.max(0, ...labels.map(getQuestionNumber)) + 1}`;
       modalQuestionLabel.value = nextLabel;
       loadQuestionIntoModal(getQuestionPath(modalTopicPath, nextLabel));
+      document.querySelector("#questionModal .modal-title").textContent = "Thêm câu hỏi";
       questionModalSubtitle.textContent = `Đường dẫn: ${modalTopicPath}`;
       modalStatus.textContent = "Dữ liệu được lưu trên trình duyệt của máy hiện tại.";
       questionModal.classList.remove("hidden");
     }
 
+    function openQuestionModalForEdit(questionPathKey) {
+      const parts = splitPath(questionPathKey);
+      const label = parts[parts.length - 1];
+      const topicPath = getParentPathKey(questionPathKey);
+
+      modalEditingPath = questionPathKey;
+      modalTopicPath = topicPath;
+      modalQuestionLabel.value = label;
+      loadQuestionIntoModal(questionPathKey);
+      document.querySelector("#questionModal .modal-title").textContent = "Sửa câu hỏi";
+      questionModalSubtitle.textContent = `Đường dẫn: ${topicPath}`;
+      modalStatus.textContent = "Chỉnh sửa câu hỏi. Nhấn Lưu để cập nhật.";
+      questionModal.classList.remove("hidden");
+    }
+
     function closeQuestionModal() {
+      modalEditingPath = null;
       questionModal.classList.add("hidden");
     }
 
@@ -2329,10 +2345,23 @@
 
       if (!safeStore(`${questionStoragePrefix}${questionPathKey}`, JSON.stringify(questionData))) return;
       ensureRegisteredQuestionLabel(modalTopicPath, questionLabel);
+
+      // Nếu đang sửa và label đã đổi → xóa path cũ
+      if (modalEditingPath && modalEditingPath !== questionPathKey) {
+        const oldParts = splitPath(modalEditingPath);
+        const oldLabel = oldParts[oldParts.length - 1];
+        const oldTopic = getParentPathKey(modalEditingPath);
+        localStorage.removeItem(`${questionStoragePrefix}${modalEditingPath}`);
+        hideQuestion(modalEditingPath);
+        const oldLabels = getRegisteredQuestionLabels(oldTopic);
+        saveRegisteredQuestionLabels(oldTopic, oldLabels.filter(l => l !== oldLabel));
+      }
+
+      const wasEditing = !!modalEditingPath;
       activeQuestionPath = questionPathKey;
       activePath = questionPathKey;
       closeQuestionModal();
-      showToast("✅ Đã lưu câu hỏi thành công.", "success");
+      showToast(wasEditing ? "✅ Đã cập nhật câu hỏi." : "✅ Đã lưu câu hỏi thành công.", "success");
       renderPage();
       renderTree();
     }
