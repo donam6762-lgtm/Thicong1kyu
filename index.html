@@ -428,71 +428,7 @@
       font-size: 15px;
     }
 
-    .question-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-      gap: 12px;
-    }
-
-    .question-card {
-      position: relative;
-      padding: 20px 16px;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: var(--surface);
-      color: var(--text);
-      cursor: pointer;
-      text-align: center;
-      font-weight: 700;
-      transition: all 0.2s ease;
-    }
-
-    .question-card:hover {
-      background: var(--surface-soft);
-      border-color: var(--accent);
-    }
-
-    .question-card.active {
-      background: var(--primary);
-      color: #ffffff;
-      border-color: var(--primary);
-    }
-
-    /* Nút ... cho câu hỏi */
-    .question-options-btn {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(0, 0, 0, 0.05);
-      color: var(--muted);
-      border: none;
-      cursor: pointer;
-      font-size: 18px;
-      transition: all 0.2s ease;
-      z-index: 5;
-    }
-
-    .question-card.active .question-options-btn {
-      background: rgba(255, 255, 255, 0.2);
-      color: #ffffff;
-    }
-
-    .question-options-btn:hover {
-      background: rgba(0, 0, 0, 0.1);
-      transform: scale(1.1);
-    }
-
-    .question-card.active .question-options-btn:hover {
-      background: rgba(255, 255, 255, 0.3);
-    }
-
-    /* Menu ngữ cảnh xóa */
+    /* Context menu (dùng cho sidebar tree questions) */
     .context-menu {
       position: absolute;
       top: 40px;
@@ -503,7 +439,7 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       z-index: 10;
       padding: 6px;
-      min-width: 120px;
+      min-width: 140px;
       display: none;
     }
 
@@ -808,6 +744,10 @@
     .tree-count { font-size: 11px; background: var(--line); color: var(--muted); border-radius: 20px; padding: 2px 7px; font-weight: 700; margin-right: 4px; flex-shrink: 0; }
     .tree-row.active .tree-count { background: rgba(255,255,255,0.25); color: #fff; }
 
+    /* ── Topic path select in modal ── */
+    #modalTopicPathSelect { font-size: 13px; }
+    #modalTopicPathSelect option[style*="danger"] { font-weight: 700; }
+
     /* ── Session progress on question cards ── */
     .question-card.q-correct { border-color: var(--good) !important; background: rgba(61,120,68,0.06) !important; }
     .question-card.q-wrong   { border-color: var(--danger) !important; background: rgba(176,64,51,0.06) !important; }
@@ -827,6 +767,28 @@
     /* ── Validation error ── */
     .input-error { border-color: var(--danger) !important; background: rgba(176,64,51,0.04) !important; }
     .field-error-msg { font-size: 12px; color: var(--danger); margin-top: 4px; font-weight: 600; }
+
+    /* ── Question System View ── */
+    .qs-topic-header { background: var(--primary); color: #fff; padding: 10px 16px; border-radius: 10px; font-weight: 700; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .qs-section { margin-bottom: 24px; }
+    .qs-question-item { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; background: var(--surface); }
+    .qs-question-item .qs-label { font-weight: 700; color: var(--accent); font-size: 12px; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 1px; }
+    .qs-question-item .qs-prompt { font-size: 14px; color: var(--text); line-height: 1.6; margin-bottom: 8px; }
+    .qs-question-item .qs-choice { font-size: 13px; color: var(--muted); margin-top: 3px; line-height: 1.5; }
+    .qs-question-item .qs-answer { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 13px; color: var(--good); font-weight: 700; }
+    .qs-empty { text-align: center; padding: 48px; color: var(--muted); font-size: 15px; }
+    .qs-print-title { display: none; font-size: 22px; font-weight: 700; color: var(--primary-strong); margin-bottom: 4px; }
+    .qs-print-sub  { display: none; font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+
+    @media print {
+      body * { visibility: hidden; }
+      #questionSystemPrintArea, #questionSystemPrintArea * { visibility: visible; }
+      #questionSystemPrintArea { position: fixed; top: 0; left: 0; width: 100%; padding: 24px; background: #fff; overflow: visible !important; max-height: none !important; }
+      .qs-print-title, .qs-print-sub { display: block !important; visibility: visible; }
+      .qs-topic-header { -webkit-print-color-adjust: exact; print-color-adjust: exact; border-radius: 6px; }
+      .qs-question-item { break-inside: avoid; page-break-inside: avoid; }
+      .qs-section { break-inside: avoid; page-break-inside: avoid; }
+    }
 
     /* Scrollbar */
     ::-webkit-scrollbar {
@@ -870,8 +832,15 @@
       <div class="search-box">
         <input id="searchInput" type="text" class="search" placeholder="Tìm kiếm chủ đề...">
       </div>
+      <div style="display: flex; gap: 8px; margin-top: 10px;">
+        <button id="collapseAllBtn" type="button" style="flex:1; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface-soft); font-size: 12px; color: var(--muted); cursor: pointer; font-family: inherit; transition: all 0.2s;">⬆ Thu gọn</button>
+        <button id="expandAllBtn" type="button" style="flex:1; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface-soft); font-size: 12px; color: var(--muted); cursor: pointer; font-family: inherit; transition: all 0.2s;">⬇ Mở rộng</button>
+      </div>
     </div>
     <div id="tree" class="tree"></div>
+    <div style="padding: 12px; border-top: 1px solid var(--line);">
+      <button id="debugStorageBtn" type="button" style="width:100%; padding: 8px; border-radius: 8px; border: 1px dashed var(--line); background: var(--surface-soft); font-size: 12px; color: var(--muted); cursor: pointer; font-family: inherit;">🔍 Kiểm tra câu hỏi đã lưu</button>
+    </div>
   </aside>
 
   <main class="main">
@@ -891,13 +860,60 @@
 
       <div class="tab-bar">
         <button id="questionsTabButton" class="tab-button" type="button">問題一覧 (Câu hỏi)</button>
+        <button id="vocabularyTabButton" class="tab-button inactive" type="button">単語 (Từ vựng)</button>
         <button id="summaryTabButton" class="tab-button inactive" type="button">知識まとめ (Tóm tắt)</button>
       </div>
 
       <div id="questionsTab" class="tab-panel">
         <div id="sessionBar" class="session-bar hidden"></div>
-        <div id="questionListEmpty" class="empty-state hidden">Chủ đề này chưa có câu hỏi nào.</div>
+        <div id="questionListEmpty" style="display:none; color: var(--muted); font-size: 14px; padding: 12px 0;">Chủ đề này chưa có câu hỏi nào. Nhấn <strong>➕ Thêm câu hỏi</strong> để bắt đầu.</div>
         <div id="questionDetail" class="detail-card hidden"></div>
+      </div>
+
+      <div id="vocabularyTab" class="tab-panel hidden">
+        <div class="button-row" style="margin-bottom: 20px;">
+          <button id="vocabularyListModeBtn" class="btn btn-primary" type="button">📋 Danh sách</button>
+          <button id="vocabularyFlashcardModeBtn" class="btn btn-secondary" type="button">🎴 Flashcard</button>
+        </div>
+        
+        <div id="vocabularyListPanel">
+          <div class="detail-card" style="margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+              <h2 style="font-size: 20px; margin: 0; color: var(--primary-strong);">📚 Từ vựng (単語)</h2>
+              <button id="toggleVocabularyEditBtn" class="btn btn-secondary" type="button" style="padding: 8px 16px; font-size: 14px;">✏️ Chỉnh sửa</button>
+            </div>
+            <div id="vocabularyPreview" class="preview-body" style="white-space: pre-wrap; line-height: 2.2; font-size: 16px;">Chưa có từ vựng nào.</div>
+          </div>
+          
+          <div id="vocabularyEditorPanel" class="editor-panel hidden">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+              <div class="panel-title" style="margin: 0;">✏️ Chỉnh sửa từ vựng</div>
+            </div>
+            <div class="panel-note" style="margin-bottom: 16px;">Mỗi từ một dòng, định dạng: <code style="background: var(--surface-soft); padding: 2px 8px; border-radius: 4px;">Từ Nhật (Hiragana) - Dịch Việt</code></div>
+            <textarea id="vocabularyEditor" class="editor-textarea" style="font-size: 15px; line-height: 1.8;" placeholder="Nhập từ vựng cho chủ đề này..."></textarea>
+            <div class="button-row" style="margin-top: 16px;">
+              <button id="saveVocabularyButton" class="btn btn-primary" type="button">💾 Lưu lại</button>
+              <button id="resetVocabularyButton" class="btn btn-secondary" type="button">↩️ Tải mặc định</button>
+              <button id="clearVocabularyButton" class="btn btn-danger" type="button">🗑️ Xóa nội dung</button>
+            </div>
+            <div id="vocabularyStatus" class="editor-status" style="margin-top: 12px; font-size: 13px; color: var(--muted);"></div>
+          </div>
+        </div>
+        
+        <div id="vocabularyFlashcardPanel" class="hidden">
+          <div class="detail-card" style="text-align: center;">
+            <div id="flashcardCounter" style="font-size: 14px; color: var(--muted); margin-bottom: 20px;">1 / 0</div>
+            <div id="flashcard" style="min-height: 220px; display: flex; align-items: center; justify-content: center; cursor: pointer; background: var(--surface-soft); border-radius: 20px; padding: 50px 30px; user-select: none; border: 2px dashed var(--line); transition: all 0.3s ease;">
+              <div id="flashcardContent" style="font-size: 28px; font-weight: 700; color: var(--primary-strong);">Nhấp để bắt đầu</div>
+            </div>
+            <div style="margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+              <button id="flashcardPrevBtn" class="btn btn-secondary" type="button" disabled>← Trước</button>
+              <button id="flashcardShuffleBtn" class="btn btn-secondary" type="button">🔀 Xáo trộn</button>
+              <button id="flashcardNextBtn" class="btn btn-secondary" type="button" disabled>Sau →</button>
+            </div>
+            <div style="margin-top: 16px; font-size: 13px; color: var(--muted);">💡 Nhấp vào thẻ để lật xem nghĩa</div>
+          </div>
+        </div>
       </div>
 
       <div id="summaryTab" class="tab-panel hidden">
@@ -959,10 +975,49 @@
             <p>Xem cấu trúc file JSON chuẩn để nhập câu hỏi.</p>
           </div>
         </div>
+
+        <div id="mgmtQuestionSystemBtn" class="mgmt-card">
+          <span>📋</span>
+          <div class="mgmt-info">
+            <h4>Xem hệ thống câu hỏi</h4>
+            <p>Duyệt toàn bộ câu hỏi theo chủ đề và xuất PDF.</p>
+          </div>
+        </div>
+
+        <div id="mgmtChatGPTBtn" class="mgmt-card">
+          <span>🤖</span>
+          <div class="mgmt-info">
+            <h4>Copy Prompt cho ChatGPT</h4>
+            <p>Sao chép đường dẫn chuẩn + hướng dẫn định dạng để dán vào ChatGPT.</p>
+          </div>
+        </div>
+
+        <div id="mgmtPathListBtn" class="mgmt-card">
+          <span>🗂️</span>
+          <div class="mgmt-info">
+            <h4>Xem tất cả đường dẫn hợp lệ</h4>
+            <p>Hiển thị toàn bộ đường dẫn (path) có thể dùng trong file JSON.</p>
+          </div>
+        </div>
       </div>
 
       <div class="button-row" style="justify-content: flex-end; margin-top: 24px;">
         <button id="closeManagementModalButton" class="btn btn-secondary" type="button">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal xem danh sách đường dẫn hợp lệ -->
+  <div id="pathListModal" class="modal hidden">
+    <div class="modal-content" style="width: min(700px, 100%);">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 4px;">
+        <div class="modal-title" style="margin-bottom: 0;">🗂️ Tất cả đường dẫn hợp lệ</div>
+        <button id="copyAllPathsBtn" class="btn btn-primary" type="button" style="flex-shrink:0;">📋 Sao chép tất cả</button>
+      </div>
+      <div class="modal-subtitle">Dùng chính xác các đường dẫn này trong trường <code style="background:#eee;padding:2px 5px;border-radius:4px;">path</code> của file JSON.</div>
+      <div id="pathListContainer" style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; max-height: 60vh; overflow-y: auto; font-family: monospace; font-size: 12px; line-height: 1.8; color: #d4d4d4; white-space: pre-wrap;"></div>
+      <div class="button-row" style="justify-content: flex-end; border-top: 1px solid var(--line); padding-top: 16px; margin-top: 0;">
+        <button id="closePathListModalBtn" class="btn btn-secondary" type="button">Đóng</button>
       </div>
     </div>
   </div>
@@ -1006,9 +1061,14 @@
             <td style="padding: 6px 10px; color: var(--muted);">Giải thích chi tiết tiếng Nhật</td>
           </tr>
           <tr style="border-bottom: 1px solid var(--line);">
-            <td style="padding: 6px 10px; font-weight: 700; color: var(--muted);">studyContent</td>
+            <td style="padding: 6px 10px; font-weight: 700; color: var(--primary-strong);">studyContent</td>
             <td style="padding: 6px 10px; color: var(--muted);">Tùy chọn</td>
             <td style="padding: 6px 10px; color: var(--muted);">Ghi chú cần nhớ tiếng Nhật</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--line);">
+            <td style="padding: 6px 10px; font-weight: 700; color: var(--muted);">vocabulary</td>
+            <td style="padding: 6px 10px; color: var(--muted);">Tùy chọn</td>
+            <td style="padding: 6px 10px; color: var(--muted);">Từ vựng tiếng Nhật kèm dịch tiếng Việt cho chủ đề</td>
           </tr>
           <tr style="border-bottom: 1px solid var(--line);">
             <td style="padding: 6px 10px; font-weight: 700; color: var(--good);">question_vi</td>
@@ -1040,6 +1100,7 @@
   "topics": [
     {
       "path": "1級建築施工管理技士 / 03_躯体施工 / 地業工事 / 杭",
+      "vocabulary": "杭 (くい) - cọc\n支持杭 (しじぐい) - cọc chịu lực\n摩擦杭 (まさつぐい) - cọc ma sát\n負の摩擦力 (ふのまさつりょく) - lực ma sát âm",
       "questions": [
         {
           "label": "Q1",
@@ -1079,12 +1140,40 @@
     </div>
   </div>
 
+  <!-- Modal xem hệ thống câu hỏi -->
+  <div id="questionSystemModal" class="modal hidden">
+    <div class="modal-content" style="width: min(960px, 100%); max-height: 90vh; display: flex; flex-direction: column; gap: 0; padding: 28px;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-shrink: 0; margin-bottom: 12px;">
+        <div>
+          <div class="modal-title" style="margin-bottom: 4px;">📋 Hệ thống câu hỏi</div>
+          <div id="qsStats" class="modal-subtitle" style="margin: 0;"></div>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; flex-shrink: 0;">
+          <select id="qsFilterSelect" class="question-select" style="width: auto; min-width: 180px; padding: 8px 12px; font-size: 13px;"></select>
+          <button id="printPdfBtn" class="btn btn-primary" type="button">🖨️ In PDF</button>
+          <button id="closeQuestionSystemModalBtn" class="btn btn-secondary" type="button">Đóng</button>
+        </div>
+      </div>
+      <div id="questionSystemPrintArea" style="overflow-y: auto; flex: 1; padding-right: 4px;">
+        <div class="qs-print-title">📋 Hệ thống câu hỏi — 1級建築施工管理技士</div>
+        <div class="qs-print-sub" id="qsStatsPrint"></div>
+        <div id="qsTopicsContainer"></div>
+      </div>
+    </div>
+  </div>
+
   <button id="openManagementModalButton" class="management-btn" title="Quản lý dữ liệu" type="button">⚙️</button>
   <input type="file" id="importFileInput" accept=".json" class="hidden">
 
   <div id="questionModal" class="modal hidden">
     <div class="modal-content">
-      <div class="modal-title">Quản lý câu hỏi</div>
+      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 4px;">
+        <div class="modal-title" style="margin-bottom: 0;">Quản lý câu hỏi</div>
+        <div style="display: flex; gap: 10px; flex-shrink: 0;">
+          <button id="closeQuestionModalButton" class="btn btn-secondary" type="button">Hủy bỏ</button>
+          <button id="saveQuestionButton" class="btn btn-primary" type="button">💾 Lưu câu hỏi</button>
+        </div>
+      </div>
       <div id="questionModalSubtitle" class="modal-subtitle">Thêm hoặc chỉnh sửa câu hỏi cho chủ đề hiện tại.</div>
 
       <div class="field-group" style="background: var(--surface-soft); border: 2px dashed var(--line); border-radius: 14px; padding: 16px;">
@@ -1101,6 +1190,12 @@
         </div>
         <div id="modalJsonStatus" style="margin-top: 8px; font-size: 12px;"></div>
         <div id="modalViBadge" style="margin-top: 6px; font-size: 12px; font-weight: 600;"></div>
+      </div>
+
+      <div class="field-group">
+        <label for="modalTopicPathSelect" class="field-label">📂 Lưu vào chủ đề</label>
+        <select id="modalTopicPathSelect" class="question-select"></select>
+        <div id="modalTopicPathInfo" style="font-size: 12px; margin-top: 5px; color: var(--muted);"></div>
       </div>
 
       <div class="field-group">
@@ -1162,15 +1257,16 @@
       </div>
 
       <div class="field-group">
+        <label for="modalVocabulary" class="field-label">Từ vựng (単語)</label>
+        <textarea id="modalVocabulary" class="question-textarea" placeholder="Thêm từ vựng cho chủ đề này..."></textarea>
+      </div>
+
+      <div class="field-group">
         <label for="modalStudyContent" class="field-label">Ghi chú quan trọng (Summary)</label>
         <textarea id="modalStudyContent" class="question-textarea" placeholder="Tóm tắt ý chính cần nhớ..."></textarea>
       </div>
 
-      <div class="button-row" style="justify-content: flex-end; border-top: 1px solid var(--line); padding-top: 20px;">
-        <button id="closeQuestionModalButton" class="btn btn-secondary" type="button">Hủy bỏ</button>
-        <button id="saveQuestionButton" class="btn btn-primary" type="button">Lưu câu hỏi</button>
-      </div>
-      <div id="modalStatus" style="margin-top: 12px; font-size: 13px; color: var(--muted); text-align: center;">Dữ liệu được lưu tại trình duyệt này.</div>
+      <div id="modalStatus" style="margin-top: 16px; font-size: 13px; color: var(--muted); text-align: center; border-top: 1px solid var(--line); padding-top: 16px;">Dữ liệu được lưu tại trình duyệt này.</div>
     </div>
   </div>
 
@@ -1184,7 +1280,11 @@
             children: [
               {
                 label: "採光",
-                children: ["Câu hỏi 1", "Câu hỏi 2", "Câu hỏi 3", "Câu hỏi 4", "Câu hỏi 5"]
+                children: []
+              },
+              {
+                label: "日照・日射",
+                children: []
               },
               "換気",
               "伝熱",
@@ -1386,11 +1486,31 @@
     const contentDescription = document.getElementById("contentDescription");
     const selectedPath = document.getElementById("selectedPath");
     const questionsTabButton = document.getElementById("questionsTabButton");
+    const vocabularyTabButton = document.getElementById("vocabularyTabButton");
     const summaryTabButton = document.getElementById("summaryTabButton");
     const questionsTab = document.getElementById("questionsTab");
+    const vocabularyTab = document.getElementById("vocabularyTab");
     const summaryTab = document.getElementById("summaryTab");
     const questionListEmpty = document.getElementById("questionListEmpty");
     const questionDetail = document.getElementById("questionDetail");
+    const vocabularyPreview = document.getElementById("vocabularyPreview");
+    const vocabularyEditor = document.getElementById("vocabularyEditor");
+    const vocabularyStatus = document.getElementById("vocabularyStatus");
+    const saveVocabularyButton = document.getElementById("saveVocabularyButton");
+    const resetVocabularyButton = document.getElementById("resetVocabularyButton");
+    const clearVocabularyButton = document.getElementById("clearVocabularyButton");
+    const toggleVocabularyEditBtn = document.getElementById("toggleVocabularyEditBtn");
+    const vocabularyEditorPanel = document.getElementById("vocabularyEditorPanel");
+    const vocabularyListModeBtn = document.getElementById("vocabularyListModeBtn");
+    const vocabularyFlashcardModeBtn = document.getElementById("vocabularyFlashcardModeBtn");
+    const vocabularyListPanel = document.getElementById("vocabularyListPanel");
+    const vocabularyFlashcardPanel = document.getElementById("vocabularyFlashcardPanel");
+    const flashcardCounter = document.getElementById("flashcardCounter");
+    const flashcard = document.getElementById("flashcard");
+    const flashcardContent = document.getElementById("flashcardContent");
+    const flashcardPrevBtn = document.getElementById("flashcardPrevBtn");
+    const flashcardNextBtn = document.getElementById("flashcardNextBtn");
+    const flashcardShuffleBtn = document.getElementById("flashcardShuffleBtn");
     const summaryPreview = document.getElementById("summaryPreview");
     const summaryEditor = document.getElementById("summaryEditor");
     const summaryStatus = document.getElementById("summaryStatus");
@@ -1415,6 +1535,7 @@
     const modalChoice4 = document.getElementById("modalChoice4");
     const modalCorrectAnswer = document.getElementById("modalCorrectAnswer");
     const modalExplanation = document.getElementById("modalExplanation");
+    const modalVocabulary = document.getElementById("modalVocabulary");
     const modalStudyContent = document.getElementById("modalStudyContent");
     const modalImageUrl = document.getElementById("modalImageUrl");
     const modalUploadBtn = document.getElementById("modalUploadBtn");
@@ -1427,6 +1548,7 @@
 
     const expandedPaths = new Set(studyTree.map(node => `${treeRootLabel} / ${node.label}`));
     const storagePrefix = "studyContent::";
+    const vocabularyStoragePrefix = "studyVocabulary::";
     const questionStoragePrefix = "studyQuestion::";
     const questionRegistryPrefix = "studyQuestionRegistry::";
     const questionHidePrefix = "studyQuestionHide::";
@@ -1439,6 +1561,12 @@
     let modalViData = {};
     let shuffleMode = false;
     const sessionAnswers = {}; // { pathKey: true/false }
+    
+    // Flashcard state
+    let flashcardWords = [];
+    let flashcardIndex = 0;
+    let flashcardShowAnswer = false;
+    let vocabularyMode = "list";
 
     // ── Utilities ──
 
@@ -1494,6 +1622,68 @@
       return a;
     }
 
+    function escapeHtml(str) {
+      return String(str == null ? "" : str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function normalizePath(rawPath) {
+      return rawPath.split("/").map(p => p.trim()).filter(Boolean).join(" / ");
+    }
+
+    function topicPathExists(pathKey) {
+      if (!pathKey || pathKey === treeRootLabel) return false;
+      return findNodeByPath(splitPath(pathKey)) !== null;
+    }
+
+    function getOrphanedTopicPaths() {
+      const knownPaths = new Set(collectTopicPaths(normalizedTree));
+      const orphaned = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key || !key.startsWith(questionRegistryPrefix)) continue;
+        const tp = key.slice(questionRegistryPrefix.length);
+        if (!knownPaths.has(tp)) {
+          try {
+            const labels = JSON.parse(localStorage.getItem(key) || "[]");
+            if (labels.filter(isQuestionLabel).length > 0) orphaned.push(tp);
+          } catch(e) {}
+        }
+      }
+      return orphaned;
+    }
+
+    function populateModalTopicSelect(selectedPath) {
+      const select = document.getElementById("modalTopicPathSelect");
+      const infoEl = document.getElementById("modalTopicPathInfo");
+      if (!select) return;
+      select.innerHTML = "";
+      const allPaths = [...new Set(collectTopicPaths(normalizedTree))];
+      allPaths.forEach(pathKey => {
+        const opt = document.createElement("option");
+        opt.value = pathKey;
+        opt.textContent = pathKey.replace(treeRootLabel + " / ", "");
+        if (pathKey === selectedPath) opt.selected = true;
+        select.appendChild(opt);
+      });
+      // Nếu selectedPath không trong cây → thêm vào đầu với cảnh báo
+      if (selectedPath && !allPaths.includes(selectedPath)) {
+        const opt = document.createElement("option");
+        opt.value = selectedPath;
+        opt.textContent = "⚠️ " + selectedPath.replace(treeRootLabel + " / ", "") + " (không có trong cây)";
+        opt.style.color = "var(--danger)";
+        select.insertBefore(opt, select.firstChild);
+        select.value = selectedPath;
+        if (infoEl) infoEl.innerHTML = `<span style="color:var(--danger)">⚠️ Đường dẫn này chưa có trong cây chủ đề — câu hỏi sẽ hiện trong mục "Chưa phân loại".</span>`;
+      } else {
+        if (infoEl) infoEl.textContent = "";
+      }
+    }
+
     function normalizeNode(node) {
       return typeof node === "string"
         ? { label: node, children: [] }
@@ -1543,6 +1733,88 @@
 
     function getEffectiveContent(pathKey) {
       return getStoredContent(pathKey) || getDefaultContent(pathKey);
+    }
+
+    function getStoredVocabulary(pathKey) {
+      return localStorage.getItem(`${vocabularyStoragePrefix}${pathKey}`) || "";
+    }
+
+    function getDefaultVocabulary(pathKey) {
+      return "";
+    }
+
+    function getEffectiveVocabulary(pathKey) {
+      return getStoredVocabulary(pathKey) || getDefaultVocabulary(pathKey);
+    }
+
+    function parseVocabulary(vocabText) {
+      if (!vocabText) return [];
+      const lines = vocabText.split("\n").filter(line => line.trim());
+      return lines.map(line => {
+        const parts = line.split("-").map(s => s.trim());
+        if (parts.length >= 2) {
+          return {
+            japanese: parts[0],
+            vietnamese: parts.slice(1).join(" - ")
+          };
+        }
+        return {
+          japanese: line,
+          vietnamese: ""
+        };
+      });
+    }
+
+    function updateFlashcard() {
+      if (flashcardWords.length === 0) {
+        flashcardCounter.textContent = "0 / 0";
+        flashcardContent.textContent = "Chưa có từ vựng nào";
+        flashcardPrevBtn.disabled = true;
+        flashcardNextBtn.disabled = true;
+        return;
+      }
+
+      const word = flashcardWords[flashcardIndex];
+      flashcardCounter.textContent = `${flashcardIndex + 1} / ${flashcardWords.length}`;
+      
+      if (flashcardShowAnswer) {
+        flashcardContent.innerHTML = `<div style="margin-bottom: 16px; font-size: 28px;">${word.japanese}</div><div style="font-size: 20px; color: var(--good);">${word.vietnamese || "Chưa có dịch"}</div>`;
+      } else {
+        flashcardContent.textContent = word.japanese;
+      }
+
+      flashcardPrevBtn.disabled = flashcardIndex === 0;
+      flashcardNextBtn.disabled = flashcardIndex === flashcardWords.length - 1;
+    }
+
+    function toggleVocabularyEditor() {
+      const isHidden = vocabularyEditorPanel.classList.contains("hidden");
+      vocabularyEditorPanel.classList.toggle("hidden", !isHidden);
+      toggleVocabularyEditBtn.textContent = isHidden ? "❌ Đóng" : "✏️ Chỉnh sửa";
+      
+      if (isHidden) {
+        const topicPathKey = getTopicPathFromSelection();
+        vocabularyEditor.value = getEffectiveVocabulary(topicPathKey);
+      }
+    }
+
+    function setVocabularyMode(mode) {
+      vocabularyMode = mode;
+      vocabularyListModeBtn.classList.toggle("btn-primary", mode === "list");
+      vocabularyListModeBtn.classList.toggle("btn-secondary", mode !== "list");
+      vocabularyFlashcardModeBtn.classList.toggle("btn-primary", mode === "flashcard");
+      vocabularyFlashcardModeBtn.classList.toggle("btn-secondary", mode !== "flashcard");
+      vocabularyListPanel.classList.toggle("hidden", mode !== "list");
+      vocabularyFlashcardPanel.classList.toggle("hidden", mode !== "flashcard");
+
+      if (mode === "flashcard") {
+        const topicPathKey = getTopicPathFromSelection();
+        const vocabText = getEffectiveVocabulary(topicPathKey);
+        flashcardWords = parseVocabulary(vocabText);
+        flashcardIndex = 0;
+        flashcardShowAnswer = false;
+        updateFlashcard();
+      }
     }
 
     function createEmptyQuestionData() {
@@ -1610,15 +1882,16 @@
 
     function saveRegisteredQuestionLabels(topicPathKey, labels) {
       const uniqueLabels = [...new Set(labels.filter(isQuestionLabel))].sort((a, b) => getQuestionNumber(a) - getQuestionNumber(b));
-      localStorage.setItem(`${questionRegistryPrefix}${topicPathKey}`, JSON.stringify(uniqueLabels));
+      return safeStore(`${questionRegistryPrefix}${topicPathKey}`, JSON.stringify(uniqueLabels));
     }
 
     function ensureRegisteredQuestionLabel(topicPathKey, label) {
       const labels = getRegisteredQuestionLabels(topicPathKey);
       if (!labels.includes(label)) {
         labels.push(label);
-        saveRegisteredQuestionLabels(topicPathKey, labels);
+        return saveRegisteredQuestionLabels(topicPathKey, labels);
       }
+      return true;
     }
 
     function isQuestionHidden(pathKey) {
@@ -1627,6 +1900,10 @@
 
     function hideQuestion(pathKey) {
       localStorage.setItem(`${questionHidePrefix}${pathKey}`, "true");
+    }
+
+    function unhideQuestion(pathKey) {
+      localStorage.removeItem(`${questionHidePrefix}${pathKey}`);
     }
 
     function findNodeByPath(pathArray, nodes = normalizedTree) {
@@ -1674,6 +1951,13 @@
     function setActiveQuestion(questionPathKey) {
       activeQuestionPath = questionPathKey;
       activePath = questionPathKey;
+      
+      // Tự động mở rộng tất cả node cha để câu hỏi hiện ra trong sidebar
+      const pathParts = splitPath(questionPathKey);
+      for (let i = 2; i <= pathParts.length; i++) {
+        expandedPaths.add(pathParts.slice(0, i).join(" / "));
+      }
+      
       renderPage();
       renderTree();
     }
@@ -1722,12 +2006,8 @@
           if (aQuestion && bQuestion) {
             return getQuestionNumber(a.label) - getQuestionNumber(b.label);
           }
-          if (aQuestion) {
-            return 1;
-          }
-          if (bQuestion) {
-            return -1;
-          }
+          if (aQuestion) return 1;   // sub-folder trước, câu hỏi sau
+          if (bQuestion) return -1;
           return 0;
         });
     }
@@ -1756,13 +2036,41 @@
       if (tabName === "explanation") tabName = "questions";
       activeTab = tabName;
       questionsTab.classList.toggle("hidden", tabName !== "questions");
+      vocabularyTab.classList.toggle("hidden", tabName !== "vocabulary");
       summaryTab.classList.toggle("hidden", tabName !== "summary");
       questionsTabButton.classList.toggle("inactive", tabName !== "questions");
+      vocabularyTabButton.classList.toggle("inactive", tabName !== "vocabulary");
       summaryTabButton.classList.toggle("inactive", tabName !== "summary");
     }
 
     function setSummaryStatus(message) {
       summaryStatus.textContent = message;
+    }
+
+    function setVocabularyStatus(message) {
+      vocabularyStatus.textContent = message;
+    }
+
+    function renderVocabularyTab() {
+      const topicPathKey = getTopicPathFromSelection();
+      const storedVocabulary = getStoredVocabulary(topicPathKey);
+      const defaultVocabulary = getDefaultVocabulary(topicPathKey);
+      const effectiveVocabulary = storedVocabulary || defaultVocabulary;
+
+      vocabularyPreview.textContent = effectiveVocabulary || "Chưa có từ vựng nào.";
+      vocabularyEditor.value = effectiveVocabulary;
+
+      if (storedVocabulary) {
+        setVocabularyStatus("Đang hiển thị từ vựng bạn đã lưu.");
+      } else if (defaultVocabulary) {
+        setVocabularyStatus("Đang hiển thị nội dung mặc định. Bạn có thể sửa và lưu lại.");
+      } else {
+        setVocabularyStatus("Chủ đề này chưa có từ vựng. Hãy nhập nội dung mới.");
+      }
+      
+      // Ẩn panel chỉnh sửa khi render lại
+      vocabularyEditorPanel.classList.add("hidden");
+      toggleVocabularyEditBtn.textContent = "✏️ Chỉnh sửa";
     }
 
     function renderSummaryTab() {
@@ -1787,12 +2095,12 @@
       const isCorrect = String(selectedIndex + 1) === String(questionData.answer);
       const resultClass = isCorrect ? "correct" : "wrong";
       const resultTitle = isCorrect ? "⭕ Chính xác (正解)" : "❌ Sai rồi (不正解)";
-      const explanation = questionData.explanation || "Chưa có giải thích cho câu hỏi này.";
-      const studyContent = questionData.studyContent || "Chưa có nội dung tóm tắt.";
+      const explanation = escapeHtml(questionData.explanation || "Chưa có giải thích cho câu hỏi này.");
+      const studyContent = escapeHtml(questionData.studyContent || "Chưa có nội dung tóm tắt.");
       return `
         <div class="answer-result ${resultClass}">
           <strong style="font-size: 18px;">${resultTitle}</strong><br>
-          Đáp án đúng: <strong>${questionData.answer || "—"}</strong>
+          Đáp án đúng: <strong>${escapeHtml(questionData.answer || "—")}</strong>
           &nbsp;·&nbsp; Bạn chọn: <strong>${selectedIndex + 1}</strong>
         </div>
         <div class="question-explanation">
@@ -1805,7 +2113,7 @@
           <hr style="border: none; border-top: 2px dashed var(--line); margin: 20px 0;">
           <div>
             <div style="font-size: 11px; font-weight: 700; color: var(--good); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px;">🇻🇳 Tiếng Việt</div>
-            <div style="white-space: pre-wrap; line-height: 1.85;">${questionData.explanation_vi}</div>
+            <div style="white-space: pre-wrap; line-height: 1.85;">${escapeHtml(questionData.explanation_vi)}</div>
           </div>` : ""}
         </div>
         <div class="question-explanation" style="background: var(--surface-soft);">
@@ -1818,7 +2126,7 @@
           <hr style="border: none; border-top: 2px dashed var(--line); margin: 20px 0;">
           <div>
             <div style="font-size: 11px; font-weight: 700; color: var(--good); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px;">🇻🇳 Tiếng Việt</div>
-            <div style="white-space: pre-wrap; line-height: 1.85;">${questionData.studyContent_vi}</div>
+            <div style="white-space: pre-wrap; line-height: 1.85;">${escapeHtml(questionData.studyContent_vi)}</div>
           </div>` : ""}
         </div>
       `;
@@ -1843,12 +2151,12 @@
       questionDetail.innerHTML = `
         <div class="question-nav">
           <button id="prevQuestionButton" class="btn btn-secondary" type="button" ${hasPrev ? "" : "disabled"}>← Câu trước</button>
-          <div class="question-nav-status">${questionLabel} (${currentIndex + 1}/${questionLabels.length})</div>
+          <div class="question-nav-status">${escapeHtml(questionLabel)} (${currentIndex + 1}/${questionLabels.length})</div>
           <button id="nextQuestionButton" class="btn btn-secondary" type="button" ${hasNext ? "" : "disabled"}>Câu sau →</button>
         </div>
-        <div style="font-size: 13px; color: var(--accent); font-weight: 600;">${questionLabel}</div>
-        <h2>${questionData.prompt || "Chưa nhập đề bài cho câu hỏi này."}</h2>
-        ${questionData.image ? `<div class="question-image-container"><img src="${questionData.image}" alt="${questionLabel}"></div>` : ""}
+        <div style="font-size: 13px; color: var(--accent); font-weight: 600;">${escapeHtml(questionLabel)}</div>
+        <h2>${escapeHtml(questionData.prompt || "Chưa nhập đề bài cho câu hỏi này.")}</h2>
+        ${questionData.image ? `<div class="question-image-container"><img src="${escapeHtml(questionData.image)}" alt="${escapeHtml(questionLabel)}"></div>` : ""}
         <div id="choiceContainer"></div>
         <div id="answerResult"></div>
       `;
@@ -1868,6 +2176,7 @@
         button.className = "choice-button";
         button.style.textAlign = "left";
         button.textContent = `${index + 1}. ${choice || "Chưa nhập nội dung"}`;
+        button.title = choice || "";
 
         if (prevState !== undefined && prevState.selectedIndex === index) {
           button.style.borderColor = prevState.isCorrect ? "var(--good)" : "var(--danger)";
@@ -1897,7 +2206,7 @@
       const topicPathKey = getTopicPathFromSelection();
       const questionLabels = getAllQuestionLabels(topicPathKey);
 
-      questionListEmpty.classList.toggle("hidden", questionLabels.length > 0);
+      questionListEmpty.style.display = questionLabels.length === 0 ? "block" : "none";
       renderSessionBar(topicPathKey);
 
       if (activeQuestionPath && getParentPathKey(activeQuestionPath) === topicPathKey) {
@@ -1966,6 +2275,7 @@
 
     function renderPage() {
       renderHeader();
+      renderVocabularyTab();
       renderSummaryTab();
       renderQuestionList();
       setActiveTab(activeTab);
@@ -2179,17 +2489,39 @@
 
       treeElement.innerHTML = "";
 
-      if (!filteredNodes.length) {
+      if (!filteredNodes.length && !query) {
         const emptyState = document.createElement("div");
         emptyState.className = "empty-state";
+        emptyState.style.cssText = "padding: 16px; color: var(--muted); font-size: 13px;";
         emptyState.textContent = "Không tìm thấy chủ đề phù hợp.";
         treeElement.appendChild(emptyState);
-        return;
+      } else if (filteredNodes.length) {
+        filteredNodes.forEach(node => {
+          treeElement.appendChild(createNodeElement(node, 0, [treeRootLabel, node.label], forceOpen));
+        });
       }
 
-      filteredNodes.forEach(node => {
-        treeElement.appendChild(createNodeElement(node, 0, [treeRootLabel, node.label], forceOpen));
-      });
+      // Hiển thị câu hỏi orphaned (path không có trong cây tĩnh)
+      if (!query) {
+        const orphaned = getOrphanedTopicPaths();
+        if (orphaned.length > 0) {
+          const divider = document.createElement("div");
+          divider.style.cssText = "padding: 10px 14px 4px; font-size: 11px; color: var(--danger); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border-top: 1px solid var(--line); margin-top: 6px;";
+          divider.textContent = "⚠️ Chưa phân loại";
+          treeElement.appendChild(divider);
+
+          orphaned.forEach(topicPathKey => {
+            const labels = getRegisteredQuestionLabels(topicPathKey);
+            const shortPath = topicPathKey.replace(treeRootLabel + " / ", "");
+            const virtualNode = {
+              label: "📁 " + shortPath,
+              children: labels.map(l => ({ label: l, children: [] }))
+            };
+            const pathParts = splitPath(topicPathKey);
+            treeElement.appendChild(createNodeElement(virtualNode, 0, pathParts, expandedPaths.has(topicPathKey)));
+          });
+        }
+      }
     }
 
     function openQuestionModal() {
@@ -2205,10 +2537,14 @@
       const labels = getAllQuestionLabels(modalTopicPath);
       const nextLabel = `Q${Math.max(0, ...labels.map(getQuestionNumber)) + 1}`;
       modalQuestionLabel.value = nextLabel;
+      modalVocabulary.value = getEffectiveVocabulary(modalTopicPath);
       loadQuestionIntoModal(getQuestionPath(modalTopicPath, nextLabel));
+      populateModalTopicSelect(modalTopicPath);
       document.querySelector("#questionModal .modal-title").textContent = "Thêm câu hỏi";
-      questionModalSubtitle.textContent = `Đường dẫn: ${modalTopicPath}`;
+      questionModalSubtitle.textContent = `Thêm câu hỏi mới vào chủ đề đã chọn bên dưới.`;
       modalStatus.textContent = "Dữ liệu được lưu trên trình duyệt của máy hiện tại.";
+      document.getElementById("modalJsonPaste").value = "";
+      document.getElementById("modalJsonStatus").textContent = "";
       questionModal.classList.remove("hidden");
     }
 
@@ -2221,9 +2557,12 @@
       modalTopicPath = topicPath;
       modalQuestionLabel.value = label;
       loadQuestionIntoModal(questionPathKey);
+      populateModalTopicSelect(topicPath);
       document.querySelector("#questionModal .modal-title").textContent = "Sửa câu hỏi";
-      questionModalSubtitle.textContent = `Đường dẫn: ${topicPath}`;
+      questionModalSubtitle.textContent = `Chỉnh sửa câu hỏi. Có thể đổi chủ đề bên dưới.`;
       modalStatus.textContent = "Chỉnh sửa câu hỏi. Nhấn Lưu để cập nhật.";
+      document.getElementById("modalJsonPaste").value = "";
+      document.getElementById("modalJsonStatus").textContent = "";
       questionModal.classList.remove("hidden");
     }
 
@@ -2234,6 +2573,7 @@
 
     function loadQuestionIntoModal(questionPathKey) {
       const questionData = getEffectiveQuestion(questionPathKey);
+      const topicPathKey = getParentPathKey(questionPathKey);
       modalQuestionPrompt.value = questionData.prompt;
       modalChoice1.value = questionData.choices[0] || "";
       modalChoice2.value = questionData.choices[1] || "";
@@ -2241,6 +2581,7 @@
       modalChoice4.value = questionData.choices[3] || "";
       modalCorrectAnswer.value = questionData.answer || "";
       modalExplanation.value = questionData.explanation || "";
+      modalVocabulary.value = getEffectiveVocabulary(topicPathKey);
       modalStudyContent.value = questionData.studyContent || "";
       modalImageUrl.value = (questionData.image && !questionData.image.startsWith("data:")) ? questionData.image : "";
       updateImagePreview(questionData.image);
@@ -2301,12 +2642,25 @@
       document.querySelectorAll(".field-error-msg").forEach(e => e.remove());
 
       const questionLabel = modalQuestionLabel.value.trim();
-      if (!questionLabel) { errors.push([modalQuestionLabel, "Tên câu hỏi không được để trống."]); }
+      if (!questionLabel) {
+        errors.push([modalQuestionLabel, "Tên câu hỏi không được để trống."]);
+      } else if (!isQuestionLabel(questionLabel)) {
+        errors.push([modalQuestionLabel, "Tên câu hỏi phải có dạng Q1, Q2, Q3... hoặc Câu hỏi 1, Câu hỏi 2..."]);
+      }
       if (!modalQuestionPrompt.value.trim()) { errors.push([modalQuestionPrompt, "Chưa nhập đề bài."]); }
       if (!modalChoice1.value.trim()) { errors.push([modalChoice1, "Đáp án 1 không được trống."]); }
       if (!modalCorrectAnswer.value) {
         const sel = document.getElementById("modalCorrectAnswer");
         errors.push([sel, "Chưa chọn đáp án đúng."]);
+      }
+
+      // Đọc path từ dropdown (ưu tiên hơn biến modalTopicPath)
+      const topicSelectEl = document.getElementById("modalTopicPathSelect");
+      if (topicSelectEl && topicSelectEl.value) modalTopicPath = topicSelectEl.value;
+
+      if (!modalTopicPath || modalTopicPath === treeRootLabel) {
+        showToast("❌ Chưa chọn chủ đề để lưu câu hỏi.", "error");
+        return;
       }
 
       if (errors.length) {
@@ -2344,7 +2698,11 @@
       });
 
       if (!safeStore(`${questionStoragePrefix}${questionPathKey}`, JSON.stringify(questionData))) return;
-      ensureRegisteredQuestionLabel(modalTopicPath, questionLabel);
+      unhideQuestion(questionPathKey);
+      if (!ensureRegisteredQuestionLabel(modalTopicPath, questionLabel)) {
+        showToast("⚠️ Đã lưu nội dung câu hỏi nhưng chưa thể cập nhật danh sách hiển thị.", "error", 5000);
+        return;
+      }
 
       // Nếu đang sửa và label đã đổi → xóa path cũ
       if (modalEditingPath && modalEditingPath !== questionPathKey) {
@@ -2357,13 +2715,32 @@
         saveRegisteredQuestionLabels(oldTopic, oldLabels.filter(l => l !== oldLabel));
       }
 
+      // Lưu vocabulary cho chủ đề
+      if (modalVocabulary.value.trim()) {
+        if (!safeStore(`${vocabularyStoragePrefix}${modalTopicPath}`, modalVocabulary.value.trim())) {
+          return;
+        }
+      }
+
       const wasEditing = !!modalEditingPath;
       activeQuestionPath = questionPathKey;
       activePath = questionPathKey;
+
+      // Mở rộng tất cả node cha để câu hỏi hiện ra trong tree
+      const pathParts = splitPath(questionPathKey);
+      for (let i = 2; i <= pathParts.length; i++) {
+        expandedPaths.add(pathParts.slice(0, i).join(" / "));
+      }
+
       closeQuestionModal();
       showToast(wasEditing ? "✅ Đã cập nhật câu hỏi." : "✅ Đã lưu câu hỏi thành công.", "success");
-      renderPage();
-      renderTree();
+      try {
+        renderPage();
+        renderTree();
+      } catch(e) {
+        alert("⚠️ Lỗi khi render trang:\n" + e.message + "\n\nDữ liệu đã được lưu. Hãy reload trang.");
+        console.error(e);
+      }
     }
 
     function collectTopicPaths(nodes, parentPath = [treeRootLabel]) {
@@ -2384,12 +2761,60 @@
       return results;
     }
 
+    function getAllValidPaths() {
+      return [...new Set(collectTopicPaths(normalizedTree))];
+    }
+
+    function generateChatGPTPrompt() {
+      const paths = getAllValidPaths();
+      const pathList = paths.map(p => `  "${p}"`).join(",\n");
+      return `Bạn là trợ lý tạo câu hỏi ôn thi 1級建築施工管理技士 (Kỳ thi Giám sát thi công xây dựng hạng 1 Nhật Bản).
+
+## QUY TẮC BẮT BUỘC về "path":
+Trường "path" PHẢI là một trong các đường dẫn sau đây (chép nguyên xi, không được đổi):
+
+${pathList}
+
+## ĐỊNH DẠNG JSON CHUẨN (trả về đúng cấu trúc này):
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 地業工事 / 杭",
+      "vocabulary": "杭 (くい) - cọc\\n支持杭 (しじぐい) - cọc chịu lực",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "(Đề bài tiếng Nhật)",
+          "choices": ["Lựa chọn 1", "Lựa chọn 2", "Lựa chọn 3", "Lựa chọn 4"],
+          "answer": "2",
+          "explanation": "(Giải thích tiếng Nhật)",
+          "studyContent": "(Ghi chú tiếng Nhật)",
+          "question_vi": "(Đề bài tiếng Việt)",
+          "choices_vi": ["Lựa chọn 1 TV", "Lựa chọn 2 TV", "Lựa chọn 3 TV", "Lựa chọn 4 TV"],
+          "explanation_vi": "(Giải thích tiếng Việt)",
+          "studyContent_vi": "(Ghi chú tiếng Việt)"
+        }
+      ]
+    }
+  ]
+}
+
+## Lưu ý quan trọng:
+- "answer" là số từ "1" đến "4" (dạng string)
+- "label" theo dạng "Q1", "Q2", "Q3"...
+- Phải có đủ 4 lựa chọn trong "choices" và "choices_vi"
+- Đường dẫn "path" phải KHỚP CHÍNH XÁC với danh sách trên, kể cả dấu cách và ký tự`;
+    }
+
     function buildExportPayload() {
       const topicPaths = [...new Set(collectTopicPaths(normalizedTree))];
+      // Thêm orphaned paths để export không mất dữ liệu
+      getOrphanedTopicPaths().forEach(tp => { if (!topicPaths.includes(tp)) topicPaths.push(tp); });
 
       const topics = topicPaths
         .map(topicPathKey => {
           const summary = getEffectiveContent(topicPathKey);
+          const vocabulary = getEffectiveVocabulary(topicPathKey);
           const questionLabels = getAllQuestionLabels(topicPathKey);
           const questions = questionLabels.map(label => {
             const questionPathKey = getQuestionPath(topicPathKey, label);
@@ -2410,16 +2835,16 @@
             return entry;
           });
 
-          if (!summary && !questions.length) return null;
+          if (!summary && !vocabulary && !questions.length) return null;
 
-          return { path: topicPathKey, summary, questions };
+          return { path: topicPathKey, summary, vocabulary, questions };
         })
         .filter(Boolean);
 
       return {
         exportedAt: new Date().toISOString(),
         root: treeRootLabel,
-        version: 2,
+        version: 3,
         stats: { topics: topics.length, questions: topics.reduce((s, t) => s + t.questions.length, 0) },
         topics
       };
@@ -2453,25 +2878,35 @@
           }
 
           const totalQ = data.topics.reduce((s, t) => s + (t.questions ? t.questions.length : 0), 0);
-          const totalT = data.topics.filter(t => t.summary || (t.questions && t.questions.length)).length;
+          const totalT = data.topics.filter(t => t.summary || t.vocabulary || (t.questions && t.questions.length)).length;
 
           if (!confirm(`Xác nhận nhập dữ liệu:\n• ${totalT} chủ đề\n• ${totalQ} câu hỏi\n\nNội dung trùng sẽ bị ghi đè.`)) {
             return;
           }
 
           let importedQ = 0;
+          let firstImportedTopic = null;
+          let firstImportedLabel = null;
 
           data.topics.forEach(topic => {
-            const topicPathKey = topic.path;
+            const topicPathKey = topic.path ? normalizePath(topic.path) : null;
             if (!topicPathKey) return;
 
             if (topic.summary) {
-              localStorage.setItem(`${storagePrefix}${topicPathKey}`, topic.summary);
+              if (!safeStore(`${storagePrefix}${topicPathKey}`, topic.summary)) {
+                throw new Error(`Không thể lưu phần tóm tắt cho chủ đề: ${topicPathKey}`);
+              }
+            }
+
+            if (topic.vocabulary) {
+              if (!safeStore(`${vocabularyStoragePrefix}${topicPathKey}`, topic.vocabulary)) {
+                throw new Error(`Không thể lưu phần từ vựng cho chủ đề: ${topicPathKey}`);
+              }
             }
 
             if (Array.isArray(topic.questions)) {
               topic.questions.forEach(q => {
-                if (!q.label) return;
+                if (!q.label || !isQuestionLabel(q.label)) return;
                 const questionPathKey = getQuestionPath(topicPathKey, q.label);
                 const questionData = normalizeQuestionData({
                   prompt:          q.question || q.prompt || "",
@@ -2485,17 +2920,39 @@
                   explanation_vi:  q.explanation_vi || "",
                   studyContent_vi: q.studyContent_vi || ""
                 });
-                localStorage.setItem(`${questionStoragePrefix}${questionPathKey}`, JSON.stringify(questionData));
-                ensureRegisteredQuestionLabel(topicPathKey, q.label);
+                if (!safeStore(`${questionStoragePrefix}${questionPathKey}`, JSON.stringify(questionData))) {
+                  throw new Error(`Không thể lưu câu hỏi: ${q.label}`);
+                }
+                unhideQuestion(questionPathKey);
+                if (!ensureRegisteredQuestionLabel(topicPathKey, q.label)) {
+                  throw new Error(`Không thể cập nhật danh sách câu hỏi cho chủ đề: ${topicPathKey}`);
+                }
+                if (!firstImportedTopic) {
+                  firstImportedTopic = topicPathKey;
+                  firstImportedLabel = q.label;
+                }
                 importedQ++;
               });
             }
+
+            // Mở rộng tất cả node cha của topic này trong tree
+            const parts = splitPath(topicPathKey);
+            for (let j = 2; j <= parts.length; j++) {
+              expandedPaths.add(parts.slice(0, j).join(" / "));
+            }
           });
+
+          // Điều hướng đến câu hỏi đầu tiên được import
+          if (firstImportedTopic && firstImportedLabel) {
+            activePath = getQuestionPath(firstImportedTopic, firstImportedLabel);
+            activeQuestionPath = activePath;
+            activeTab = "questions";
+          }
 
           managementModal.classList.add("hidden");
           renderPage();
           renderTree();
-          alert(`✅ Nhập thành công!\n• ${importedQ} câu hỏi đã được lưu.`);
+          showToast(`✅ Nhập thành công! ${importedQ} câu hỏi đã được lưu.`, "success", 4000);
         } catch (err) {
           console.error(err);
           alert("❌ Lỗi khi nhập dữ liệu:\n" + err.message);
@@ -2512,26 +2969,42 @@
         // Hỗ trợ cả format đầy đủ (có "topics") và format câu hỏi đơn
         let q = parsed;
         let detectedPath = null;
+        let topicVocabulary = "";
         if (parsed.topics && parsed.topics[0]) {
           const topic = parsed.topics[0];
           if (topic.path) detectedPath = topic.path;
+          if (topic.vocabulary) topicVocabulary = topic.vocabulary;
           if (topic.questions && topic.questions[0]) q = topic.questions[0];
         }
-        // Cũng hỗ trợ path ở cấp ngoài cùng
+        // Cũng hỗ trợ path và vocabulary ở cấp ngoài cùng
         if (!detectedPath && parsed.path) detectedPath = parsed.path;
+        if (!topicVocabulary && parsed.vocabulary) topicVocabulary = parsed.vocabulary;
 
         // Nếu JSON có path → tự động đổi destination
         if (detectedPath) {
-          // Bỏ prefix tên exam nếu có
-          const pathParts = detectedPath.split(" / ");
-          const firstPart = pathParts[0].trim();
+          // Normalize: loại bỏ khoảng trắng thừa quanh "/"
+          const normalized = normalizePath(detectedPath);
+          const firstPart = normalized.split(" / ")[0];
           const isFullPath = firstPart === treeRootLabel;
-          modalTopicPath = isFullPath ? detectedPath : `${treeRootLabel} / ${detectedPath}`;
+          modalTopicPath = isFullPath ? normalized : `${treeRootLabel} / ${normalized}`;
           // Cập nhật label câu hỏi theo topic mới
           const labels = getAllQuestionLabels(modalTopicPath);
           const nextLabel = `Q${Math.max(0, ...labels.map(getQuestionNumber)) + 1}`;
           modalQuestionLabel.value = nextLabel;
-          questionModalSubtitle.textContent = `Đường dẫn: ${modalTopicPath}`;
+          questionModalSubtitle.textContent = `Chủ đề từ JSON đã được tải. Kiểm tra "Lưu vào chủ đề" bên dưới.`;
+          populateModalTopicSelect(modalTopicPath);
+          // Cảnh báo nếu path không tồn tại trong cây
+          if (!topicPathExists(modalTopicPath)) {
+            const statusEl = document.getElementById("modalJsonStatus");
+            const existing = statusEl.textContent;
+            statusEl.textContent = (existing ? existing + " " : "") + `⚠️ Path "${modalTopicPath}" chưa có trong cây — sẽ hiện ở mục "Chưa phân loại". Hãy chọn lại chủ đề đúng trong dropdown.`;
+            statusEl.style.color = "var(--danger)";
+          }
+        }
+
+        // Điền vocabulary vào form nếu có
+        if (topicVocabulary) {
+          modalVocabulary.value = topicVocabulary;
         }
 
         // Điền các trường tiếng Nhật vào form
@@ -2561,6 +3034,7 @@
         let msg = hasVi
           ? "✅ Đã tải xong! Tiếng Nhật điền vào form, tiếng Việt lưu riêng."
           : "✅ Đã áp dụng thành công!";
+        if (topicVocabulary) msg += " 📝 Từ vựng đã được tải!";
         if (detectedPath) msg += ` 📂 Sẽ lưu vào: ${modalTopicPath}`;
         statusEl.textContent = msg;
         statusEl.style.color = "var(--good)";
@@ -2603,12 +3077,80 @@
       e.target.value = "";
     });
 
+    // Topic path selector in modal
+    document.getElementById("modalTopicPathSelect").addEventListener("change", (e) => {
+      modalTopicPath = e.target.value;
+      const infoEl = document.getElementById("modalTopicPathInfo");
+      if (infoEl) infoEl.textContent = "";
+      // Nếu không đang sửa → tính lại số thứ tự câu hỏi
+      if (!modalEditingPath) {
+        const labels = getAllQuestionLabels(modalTopicPath);
+        modalQuestionLabel.value = `Q${Math.max(0, ...labels.map(getQuestionNumber)) + 1}`;
+      }
+    });
+
     questionsTabButton.addEventListener("click", () => setActiveTab("questions"));
+    vocabularyTabButton.addEventListener("click", () => setActiveTab("vocabulary"));
     summaryTabButton.addEventListener("click", () => setActiveTab("summary"));
+
+    saveVocabularyButton.addEventListener("click", () => {
+      const topicPathKey = getTopicPathFromSelection();
+      if (!safeStore(`${vocabularyStoragePrefix}${topicPathKey}`, vocabularyEditor.value.trim())) return;
+      renderVocabularyTab();
+      setVocabularyStatus("Đã lưu từ vựng cho chủ đề này.");
+    });
+
+    resetVocabularyButton.addEventListener("click", () => {
+      const topicPathKey = getTopicPathFromSelection();
+      vocabularyEditor.value = getDefaultVocabulary(topicPathKey);
+      renderVocabularyTab();
+      setVocabularyStatus("Đã tải lại nội dung mặc định.");
+    });
+
+    clearVocabularyButton.addEventListener("click", () => {
+      const topicPathKey = getTopicPathFromSelection();
+      localStorage.removeItem(`${vocabularyStoragePrefix}${topicPathKey}`);
+      renderVocabularyTab();
+      setVocabularyStatus("Đã xóa từ vựng đã lưu.");
+    });
+
+    toggleVocabularyEditBtn.addEventListener("click", toggleVocabularyEditor);
+
+    vocabularyListModeBtn.addEventListener("click", () => setVocabularyMode("list"));
+    vocabularyFlashcardModeBtn.addEventListener("click", () => setVocabularyMode("flashcard"));
+
+    flashcard.addEventListener("click", () => {
+      flashcardShowAnswer = !flashcardShowAnswer;
+      updateFlashcard();
+    });
+
+    flashcardPrevBtn.addEventListener("click", () => {
+      if (flashcardIndex > 0) {
+        flashcardIndex--;
+        flashcardShowAnswer = false;
+        updateFlashcard();
+      }
+    });
+
+    flashcardNextBtn.addEventListener("click", () => {
+      if (flashcardIndex < flashcardWords.length - 1) {
+        flashcardIndex++;
+        flashcardShowAnswer = false;
+        updateFlashcard();
+      }
+    });
+
+    flashcardShuffleBtn.addEventListener("click", () => {
+      flashcardWords = shuffleArray(flashcardWords);
+      flashcardIndex = 0;
+      flashcardShowAnswer = false;
+      updateFlashcard();
+      showToast("🔀 Đã xáo trộn từ vựng!", "info");
+    });
 
     saveSummaryButton.addEventListener("click", () => {
       const topicPathKey = getTopicPathFromSelection();
-      localStorage.setItem(`${storagePrefix}${topicPathKey}`, summaryEditor.value.trim());
+      if (!safeStore(`${storagePrefix}${topicPathKey}`, summaryEditor.value.trim())) return;
       renderSummaryTab();
       setSummaryStatus("Đã lưu nội dung tóm tắt cho chủ đề này.");
     });
@@ -2640,6 +3182,37 @@
     document.getElementById("closeHelpModalButton").addEventListener("click", () => {
       document.getElementById("helpModal").classList.add("hidden");
     });
+
+    document.getElementById("mgmtChatGPTBtn").addEventListener("click", () => {
+      managementModal.classList.add("hidden");
+      const prompt = generateChatGPTPrompt();
+      navigator.clipboard.writeText(prompt).then(() => {
+        showToast("✅ Đã sao chép prompt ChatGPT vào clipboard!");
+      }).catch(() => {
+        showToast("❌ Không thể sao chép. Hãy thử lại.");
+      });
+    });
+
+    document.getElementById("mgmtPathListBtn").addEventListener("click", () => {
+      managementModal.classList.add("hidden");
+      const paths = getAllValidPaths();
+      const container = document.getElementById("pathListContainer");
+      container.textContent = paths.join("\n");
+      document.getElementById("pathListModal").classList.remove("hidden");
+    });
+
+    document.getElementById("closePathListModalBtn").addEventListener("click", () => {
+      document.getElementById("pathListModal").classList.add("hidden");
+    });
+
+    document.getElementById("copyAllPathsBtn").addEventListener("click", () => {
+      const text = document.getElementById("pathListContainer").textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById("copyAllPathsBtn");
+        btn.textContent = "✅ Đã sao chép";
+        setTimeout(() => { btn.textContent = "📋 Sao chép tất cả"; }, 2000);
+      });
+    });
     document.getElementById("copyHelpJsonBtn").addEventListener("click", () => {
       const text = document.getElementById("helpJsonExample").textContent;
       navigator.clipboard.writeText(text).then(() => {
@@ -2655,6 +3228,7 @@
         // Only clear study-related keys to avoid affecting other things if any
         Object.keys(localStorage).forEach(key => {
           if (key.startsWith(storagePrefix) || 
+              key.startsWith(vocabularyStoragePrefix) ||
               key.startsWith(questionStoragePrefix) || 
               key.startsWith(questionRegistryPrefix) || 
               key.startsWith(questionHidePrefix)) {
@@ -2673,6 +3247,16 @@
     // Debounced search
     searchInput.addEventListener("input", debounce(renderTree, 200));
 
+    document.getElementById("collapseAllBtn").addEventListener("click", () => {
+      expandedPaths.clear();
+      renderTree();
+    });
+
+    document.getElementById("expandAllBtn").addEventListener("click", () => {
+      collectTopicPaths(normalizedTree).forEach(p => expandedPaths.add(p));
+      renderTree();
+    });
+
     // Esc key closes any open modal
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
@@ -2680,6 +3264,8 @@
         if (!managementModal.classList.contains("hidden"))  managementModal.classList.add("hidden");
         if (!document.getElementById("helpModal").classList.contains("hidden"))
           document.getElementById("helpModal").classList.add("hidden");
+        if (!document.getElementById("questionSystemModal").classList.contains("hidden"))
+          document.getElementById("questionSystemModal").classList.add("hidden");
       }
       // Arrow keys: navigate questions
       if (document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") {
@@ -2714,6 +3300,168 @@
       document.querySelector(".sidebar").classList.remove("open");
       document.getElementById("sidebarOverlay").classList.remove("open");
     });
+
+    // ── Question System View ──
+
+    function getAllTopicsWithQuestions() {
+      const topicPaths = [...new Set(collectTopicPaths(normalizedTree))];
+
+      // Thêm orphaned paths từ localStorage
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key || !key.startsWith(questionRegistryPrefix)) continue;
+        const tp = key.slice(questionRegistryPrefix.length);
+        if (!topicPaths.includes(tp)) topicPaths.push(tp);
+      }
+
+      return topicPaths
+        .map(tp => ({ path: tp, labels: getAllQuestionLabels(tp) }))
+        .filter(t => t.labels.length > 0);
+    }
+
+    function renderQsTopicsContainer(topics) {
+      const container = document.getElementById("qsTopicsContainer");
+      container.innerHTML = "";
+
+      if (!topics || !topics.length) {
+        container.innerHTML = `<div class="qs-empty">Chưa có câu hỏi nào trong hệ thống.<br><span style="font-size: 13px; margin-top: 8px; display: block;">Hãy thêm câu hỏi qua nút <strong>➕ Thêm câu hỏi</strong> hoặc nhập file JSON.</span></div>`;
+        return;
+      }
+
+      topics.forEach(({ path: topicPathKey, labels }) => {
+        const section = document.createElement("div");
+        section.className = "qs-section";
+
+        const shortPath = topicPathKey.replace(treeRootLabel + " / ", "");
+        const header = document.createElement("div");
+        header.className = "qs-topic-header";
+        header.innerHTML = `<span style="flex:1; line-height:1.4;">${shortPath}</span><span style="font-size:12px;background:rgba(255,255,255,0.22);padding:2px 10px;border-radius:20px;flex-shrink:0;">${labels.length} câu</span>`;
+        section.appendChild(header);
+
+        const childDiv = document.createElement("div");
+        labels.forEach(label => {
+          const questionPathKey = getQuestionPath(topicPathKey, label);
+          const qData = getEffectiveQuestion(questionPathKey);
+          const item = document.createElement("div");
+          item.className = "qs-question-item";
+          const choicesHTML = qData.choices
+            .map((c, i) => c ? `<div class="qs-choice">${i + 1}. ${escapeHtml(c)}</div>` : "")
+            .join("");
+          item.innerHTML = `
+            <div class="qs-label">${escapeHtml(label)}</div>
+            <div class="qs-prompt">${qData.prompt ? escapeHtml(qData.prompt) : "<em style='color:var(--muted)'>Chưa có nội dung đề bài.</em>"}</div>
+            ${choicesHTML}
+            <div class="qs-answer">✓ Đáp án đúng: ${escapeHtml(qData.answer || "—")}</div>
+          `;
+          childDiv.appendChild(item);
+        });
+        section.appendChild(childDiv);
+        container.appendChild(section);
+      });
+    }
+
+    function openQuestionSystemModal() {
+      managementModal.classList.add("hidden");
+
+      const allTopics = getAllTopicsWithQuestions();
+      const totalQ = allTopics.reduce((s, t) => s + t.labels.length, 0);
+      const totalT = allTopics.length;
+      const statsText = `${totalT} chủ đề · ${totalQ} câu hỏi`;
+      document.getElementById("qsStats").textContent = statsText;
+      document.getElementById("qsStatsPrint").textContent = statsText;
+
+      const filterSelect = document.getElementById("qsFilterSelect");
+      filterSelect.innerHTML = `<option value="">-- Tất cả chủ đề (${totalT}) --</option>`;
+      allTopics.forEach(t => {
+        const opt = document.createElement("option");
+        opt.value = t.path;
+        opt.textContent = t.path.replace(treeRootLabel + " / ", "");
+        filterSelect.appendChild(opt);
+      });
+      filterSelect.value = "";
+
+      renderQsTopicsContainer(allTopics);
+      document.getElementById("questionSystemModal").classList.remove("hidden");
+    }
+
+    document.getElementById("mgmtQuestionSystemBtn").addEventListener("click", openQuestionSystemModal);
+
+    document.getElementById("closeQuestionSystemModalBtn").addEventListener("click", () => {
+      document.getElementById("questionSystemModal").classList.add("hidden");
+    });
+
+    document.getElementById("qsFilterSelect").addEventListener("change", () => {
+      const filterVal = document.getElementById("qsFilterSelect").value;
+      const allTopics = getAllTopicsWithQuestions();
+      renderQsTopicsContainer(filterVal ? allTopics.filter(t => t.path === filterVal) : allTopics);
+    });
+
+    document.getElementById("printPdfBtn").addEventListener("click", () => {
+      window.print();
+    });
+
+    // ── Global error handler ──
+    window.addEventListener("error", (e) => {
+      console.error("Global JS Error:", e.message, e.filename, e.lineno);
+    });
+
+    // ── Debug button ──
+    document.getElementById("debugStorageBtn").addEventListener("click", () => {
+      const allKeys = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && (key.startsWith(questionStoragePrefix) || key.startsWith(questionRegistryPrefix))) {
+          allKeys.push(key);
+        }
+      }
+      if (allKeys.length === 0) {
+        alert("localStorage TRỐNG — chưa có câu hỏi nào được lưu.\n\nĐây là nguyên nhân lỗi. Trình duyệt của bạn có thể đang chặn localStorage cho file:// URL.");
+      } else {
+        const registries = allKeys.filter(k => k.startsWith(questionRegistryPrefix));
+        let info = `Tìm thấy ${allKeys.length} key trong localStorage:\n\n`;
+        registries.forEach(k => {
+          const topic = k.replace(questionRegistryPrefix, "");
+          const labels = JSON.parse(localStorage.getItem(k) || "[]");
+          info += `📁 ${topic}\n   → ${labels.length} câu: ${labels.join(", ")}\n\n`;
+        });
+        alert(info);
+      }
+    });
+
+    // ── Khởi động: tự mở rộng cây đến các chủ đề có câu hỏi đã lưu ──
+    (function initFromSavedQuestions() {
+      let firstSavedTopic = null;
+      let firstSavedLabel = null;
+
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key || !key.startsWith(questionRegistryPrefix)) continue;
+        const topicPathKey = key.slice(questionRegistryPrefix.length);
+        try {
+          const parsed = JSON.parse(localStorage.getItem(key) || "[]");
+          const validLabels = Array.isArray(parsed) ? parsed.filter(isQuestionLabel) : [];
+          if (validLabels.length > 0) {
+            // Mở rộng tất cả node cha đến topic này
+            const parts = splitPath(topicPathKey);
+            for (let j = 2; j <= parts.length; j++) {
+              expandedPaths.add(parts.slice(0, j).join(" / "));
+            }
+            // Lưu topic đầu tiên có câu hỏi
+            if (!firstSavedTopic) {
+              firstSavedTopic = topicPathKey;
+              firstSavedLabel = validLabels[0];
+            }
+          }
+        } catch (e) { /* ignore */ }
+      }
+
+      // Nếu có câu hỏi đã lưu → điều hướng đến câu đầu tiên
+      if (firstSavedTopic && firstSavedLabel) {
+        activePath = getQuestionPath(firstSavedTopic, firstSavedLabel);
+        activeQuestionPath = activePath;
+        activeTab = "questions";
+      }
+    })();
 
     renderPage();
     renderTree();
