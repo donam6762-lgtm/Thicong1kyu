@@ -1048,12 +1048,12 @@
           <tr style="border-bottom: 1px solid var(--line);">
             <td style="padding: 6px 10px; font-weight: 700; color: var(--primary-strong);">choices</td>
             <td style="padding: 6px 10px; color: var(--danger);">Bắt buộc</td>
-            <td style="padding: 6px 10px; color: var(--muted);">Mảng 4 đáp án tiếng Nhật</td>
+            <td style="padding: 6px 10px; color: var(--muted);">Mảng 4 hoặc 5 đáp án tiếng Nhật</td>
           </tr>
           <tr style="border-bottom: 1px solid var(--line);">
             <td style="padding: 6px 10px; font-weight: 700; color: var(--primary-strong);">answer</td>
             <td style="padding: 6px 10px; color: var(--danger);">Bắt buộc</td>
-            <td style="padding: 6px 10px; color: var(--muted);">Số đáp án đúng: <code style="background:#eee;padding:2px 5px;border-radius:4px;">"1"</code> đến <code style="background:#eee;padding:2px 5px;border-radius:4px;">"4"</code></td>
+            <td style="padding: 6px 10px; color: var(--muted);">Số đáp án đúng: <code style="background:#eee;padding:2px 5px;border-radius:4px;">"1"</code> đến <code style="background:#eee;padding:2px 5px;border-radius:4px;">"5"</code></td>
           </tr>
           <tr style="border-bottom: 1px solid var(--line);">
             <td style="padding: 6px 10px; font-weight: 700; color: var(--muted);">explanation</td>
@@ -1078,7 +1078,7 @@
           <tr style="border-bottom: 1px solid var(--line);">
             <td style="padding: 6px 10px; font-weight: 700; color: var(--good);">choices_vi</td>
             <td style="padding: 6px 10px; color: var(--muted);">Tùy chọn</td>
-            <td style="padding: 6px 10px; color: var(--muted);">Mảng 4 đáp án tiếng Việt</td>
+            <td style="padding: 6px 10px; color: var(--muted);">Mảng 4 hoặc 5 đáp án tiếng Việt</td>
           </tr>
           <tr style="border-bottom: 1px solid var(--line);">
             <td style="padding: 6px 10px; font-weight: 700; color: var(--good);">explanation_vi</td>
@@ -1093,41 +1093,150 @@
         </table>
       </div>
 
-      <div style="font-size: 13px; font-weight: 700; color: var(--primary); margin-bottom: 8px;">📄 Ví dụ file JSON mẫu</div>
+      <div style="font-size: 13px; font-weight: 700; color: var(--primary); margin-bottom: 8px;">📝 Template JSON chuẩn</div>
       <div style="position: relative;">
         <button id="copyHelpJsonBtn" class="btn btn-secondary" type="button" style="position: absolute; top: 10px; right: 10px; padding: 6px 14px; font-size: 12px; z-index: 1;">📋 Sao chép</button>
-        <pre id="helpJsonExample" style="background: #1e1e1e; color: #d4d4d4; padding: 20px; border-radius: 12px; font-size: 12px; line-height: 1.7; overflow-x: auto; white-space: pre; margin: 0; max-height: 400px; overflow-y: auto;">{
-  "topics": [
-    {
-      "path": "1級建築施工管理技士 / 03_躯体施工 / 地業工事 / 杭",
-      "vocabulary": "杭 (くい) - cọc\n支持杭 (しじぐい) - cọc chịu lực\n摩擦杭 (まさつぐい) - cọc ma sát\n負の摩擦力 (ふのまさつりょく) - lực ma sát âm",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "杭基礎に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "杭の先端の地盤の許容応力度は、アースドリル工法による場所打ちコンクリート杭のほうがセメントミルク工法による埋込み杭に比べて小さい。",
-            "杭と杭の中心間隔は、杭径が同一の場合、埋込み杭のほうが打込み杭に比べて小さくすることができる。",
-            "水平力を受ける長い杭の曲げモーメントは、一般に杭頭部のほうが杭地中部に比べて大きい。",
-            "杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、摩擦杭のほうが支持杭に比べて大きい。"
-          ],
-          "answer": "4",
-          "explanation": "負の摩擦力（下向きに引っ張られる力）は、周辺地盤が沈下するときに杭が地盤に引きずられて生じる。この力は、一般に支持杭のほうが大きくなりやすいため、選択肢4の記述は誤りである。\n\n選択肢1：場所打ちコンクリート杭（アースドリル工法）は、先端部が掘削の影響を受けやすく...",
-          "studyContent": "・負の摩擦力は、周辺地盤が沈下したときに杭に下向きに作用する。\n・負の摩擦力は一般に支持杭のほうが大きくなりやすい。",
-          "question_vi": "Trong các mô tả liên quan đến móng cọc, nội dung nào là không phù hợp nhất?",
-          "choices_vi": [
-            "Cường độ chịu tải cho phép của nền đất ở mũi cọc...",
-            "Khoảng cách tâm giữa các cọc...",
-            "Mô men uốn của cọc dài chịu lực ngang...",
-            "Khi nền đất xung quanh cọc bị lún..."
-          ],
-          "explanation_vi": "Lực ma sát âm (lực kéo xuống dưới) phát sinh khi nền đất xung quanh bị lún...",
-          "studyContent_vi": "・Lực ma sát âm tác dụng xuống cọc khi nền đất xung quanh bị lún."
-        }
-      ]
-    }
-  ]
-}</pre>
+        <pre id="helpJsonExample" style="background: #1e1e1e; color: #d4d4d4; padding: 20px; border-radius: 12px; font-size: 12px; line-height: 1.7; overflow-x: auto; white-space: pre; margin: 0; max-height: 600px; overflow-y: auto;">{
+   "template_rule": {
+     "version": "1.0",
+     "description": "Template chuẩn dùng để tự động trích xuất, phân loại, dịch và tạo dữ liệu ôn thi cho kỳ thi 1級建築施工管理技士.",
+     "language": {
+       "source": "ja",
+       "target": "vi"
+     },
+     "format_rules": {
+       "remove_extra_blank_lines": true,
+       "max_consecutive_newlines": 1,
+       "trim_spaces_each_line": true,
+       "merge_broken_sentences": true,
+       "keep_choice_structure": true,
+       "keep_section_titles": true,
+       "keep_numbering_format": true,
+       "normalize_unicode": true,
+       "remove_duplicate_spaces": true,
+       "auto_fix_line_breaks": true,
+       "preserve_japanese_symbols": true,
+       "preserve_question_order": true,
+       "preserve_original_meaning": true
+     },
+     "extract_rules": {
+       "question": {
+         "description": "Lấy toàn bộ phần đề bài từ đầu câu hỏi cho đến trước dòng '解答する'.",
+         "required": true
+       },
+       "choices": {
+         "description": "Lấy đầy đủ 4 lựa chọn theo đúng thứ tự xuất hiện.",
+         "required": true,
+         "count": 4
+       },
+       "answer": {
+         "description": "Tự động xác định đáp án đúng dựa trên phần giải thích hoặc nội dung phân tích.",
+         "required": true,
+         "type": "string",
+         "allowed_values": ["1", "2", "3", "4", "5"]
+       },
+       "explanation": {
+         "description": "Lấy TOÀN BỘ nội dung nằm dưới tiêu đề 'この過去問の解説' cho đến trước từ 'まとめ'. Bao gồm tất cả các mục 01, 02, phân tích từng lựa chọn, nhận xét đúng sai. Không được rút gọn hoặc bỏ ý.",
+         "required": true,
+         "cleanup": {
+           "remove_extra_blank_lines": true,
+           "merge_short_lines": true
+         }
+       },
+       "studyContent": {
+         "description": "Lấy TOÀN BỘ nội dung nằm dưới tiêu đề 'まとめ' cho đến hết phần tổng kết. Không được tóm tắt.",
+         "required": true
+       },
+       "vocabulary": {
+         "description": "Tự động trích xuất từ vựng chuyên ngành quan trọng.",
+         "format": "日本語 (かな) - nghĩa tiếng Việt",
+         "required": true
+       },
+       "question_vi": {
+         "description": "Dịch đầy đủ đề bài sang tiếng Việt.",
+         "required": true
+       },
+       "choices_vi": {
+         "description": "Dịch đầy đủ 4 lựa chọn sang tiếng Việt.",
+         "required": true,
+         "count": 4
+       },
+       "explanation_vi": {
+         "description": "Dịch đầy đủ phần explanation sang tiếng Việt.",
+         "required": true
+       },
+       "studyContent_vi": {
+         "description": "Dịch đầy đủ phần studyContent sang tiếng Việt.",
+         "required": true
+       }
+     },
+     "validation_rules": {
+       "path_must_match_predefined_list": true,
+       "choices_count_min": 4,
+       "choices_count_max": 5,
+       "choices_vi_count_min": 4,
+       "answer_must_be_string_number": true,
+       "label_regex": "^Q[0-9]+$",
+       "no_missing_required_fields": true,
+       "utf8_encoding_only": true,
+       "keep_json_valid": true
+     }
+   },
+   "system_prompt_rules": {
+     "role": "Bạn là trợ lý AI chuyên tạo dữ liệu ôn thi cho kỳ thi 1級建築施工管理技士.",
+     "strict_rules": [
+       "Chỉ được sử dụng path nằm trong danh sách path hợp lệ.",
+       "Không được tự tạo path mới.",
+       "Không được thay đổi cấu trúc JSON.",
+       "Không được thiếu field.",
+       "Không được rút gọn explanation.",
+       "Không được rút gọn studyContent.",
+       "Tự động xóa dòng trắng dư thừa.",
+       "Tự động tối ưu xuống dòng.",
+       "Giữ nguyên nội dung kỹ thuật tiếng Nhật.",
+       "Nếu có nhiều câu hỏi thì label phải tăng dần: Q1, Q2, Q3..."
+     ]
+   },
+   "path_rules": {
+     "description": "Path phải khớp chính xác với danh sách path hợp lệ được cung cấp.",
+     "example_valid_paths": [
+       "1級建築施工管理技士 / 01_建築学等 / 環境工学 / 日照・日射",
+       "1級建築施工管理技士 / 03_躯体施工 / 地業工事 / 杭",
+       "1級建築施工管理技士 / 05_施工管理法 / 安全管理 / 足場",
+       "1級建築施工管理技士 / 06_法規 / 建築基準法 / 防火"
+     ]
+   },
+   "topics": [
+     {
+       "path": "1級建築施工管理技士 / 03_躯体施工 / 地業工事 / 杭",
+       "vocabulary": "杭 (くい) - cọc\n支持杭 (しじぐい) - cọc chịu lực\n摩擦杭 (まさつぐい) - cọc ma sát\n場所打ち杭 (ばしょううちぐい) - cọc khoan nhồi\n負の摩擦力 (ふのまさつりょく) - lực ma sát âm",
+       "questions": [
+         {
+           "label": "Q1",
+           "question": "杭に関する次の記述のうち、最も不適当なものはどれか。",
+           "choices": [
+             "支持杭は、硬い支持層に杭先端を到達させる。",
+             "摩擦杭は、周囲地盤との摩擦抵抗を利用する。",
+             "負の摩擦力は、杭の支持力を増加させる。",
+             "場所打ち杭は、現場で施工される。"
+           ],
+           "answer": "3",
+           "explanation": "この過去問の解説 （2件）\n01\n支持杭は硬い支持層に杭先端を到達させる杭であり、記述は適当である。\n\n02\n摩擦杭は杭周面と地盤との摩擦抵抗を利用する杭であり、記述は適当である。\n\n03\n負の摩擦力は地盤沈下により杭に下向き荷重を与える現象であり、支持力を増加させるものではない。したがって不適当である。\n\n04\n場所打ち杭は現場で掘削しコンクリートを打設して構築する杭であり、記述は適当である。",
+           "studyContent": "まとめ\n支持杭は先端支持力を利用し、摩擦杭は周面摩擦力を利用する。\n負の摩擦力は杭に追加荷重を与えるため注意が必要である。\n場所打ち杭では孔壁崩壊やスライム処理に注意する。",
+           "question_vi": "Trong các mô tả sau về cọc, đâu là mô tả không phù hợp nhất?",
+           "choices_vi": [
+             "Cọc chống đưa mũi cọc đến lớp đất cứng.",
+             "Cọc ma sát sử dụng lực ma sát với nền đất xung quanh.",
+             "Lực ma sát âm làm tăng khả năng chịu tải của cọc.",
+             "Cọc khoan nhồi được thi công tại hiện trường."
+           ],
+           "explanation_vi": "この過去問の解説 （2件）\n01\nCọc chống là loại cọc đưa mũi cọc đến lớp đất chịu lực cứng nên mô tả là đúng.\n\n02\nCọc ma sát là loại cọc sử dụng lực ma sát giữa thân cọc và nền đất xung quanh nên mô tả là đúng.\n\n03\nLực ma sát âm là hiện tượng nền đất lún kéo cọc xuống, tạo thêm tải trọng cho cọc chứ không làm tăng khả năng chịu tải. Vì vậy mô tả này không phù hợp.\n\n04\nCọc khoan nhồi được thi công trực tiếp tại hiện trường nên mô tả là đúng.",
+           "studyContent_vi": "まとめ\nCọc chống sử dụng sức chịu tải tại mũi cọc, còn cọc ma sát sử dụng lực ma sát quanh thân cọc.\nLực ma sát âm tạo tải trọng hướng xuống lên cọc nên cần chú ý khi thiết kế.\nCọc khoan nhồi cần chú ý sập thành hố và xử lý bùn đáy."
+         }
+       ]
+     }
+   ]
+ }</pre>
       </div>
 
       <div style="margin-top: 16px; padding: 14px; background: #fff8e1; border-radius: 10px; border: 1px solid #ffe082; font-size: 13px; color: #795548; line-height: 1.7;">
@@ -1226,6 +1335,10 @@
           <input id="modalChoice4" class="question-input" placeholder="Lựa chọn 4">
         </div>
       </div>
+      <div class="field-group">
+        <label for="modalChoice5" class="field-label">Đáp án 5 <span style="font-weight:400;color:var(--muted)">(tùy chọn — để trống nếu chỉ có 4 lựa chọn)</span></label>
+        <input id="modalChoice5" class="question-input" placeholder="Lựa chọn 5">
+      </div>
 
       <div class="field-group">
         <label for="modalCorrectAnswer" class="field-label">Đáp án đúng</label>
@@ -1235,6 +1348,7 @@
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
+          <option value="5">5</option>
         </select>
       </div>
 
@@ -1533,6 +1647,7 @@
     const modalChoice2 = document.getElementById("modalChoice2");
     const modalChoice3 = document.getElementById("modalChoice3");
     const modalChoice4 = document.getElementById("modalChoice4");
+    const modalChoice5 = document.getElementById("modalChoice5");
     const modalCorrectAnswer = document.getElementById("modalCorrectAnswer");
     const modalExplanation = document.getElementById("modalExplanation");
     const modalVocabulary = document.getElementById("modalVocabulary");
@@ -1829,21 +1944,19 @@
     }
 
     function normalizeQuestionData(data) {
+      function padChoices(arr) {
+        if (!Array.isArray(arr)) return ["", "", "", ""];
+        return arr.length >= 4 ? arr : arr.concat(["", "", "", ""]).slice(0, 4);
+      }
       return {
         prompt: data.prompt || data.question || "",
-        choices: Array.isArray(data.choices)
-          ? data.choices.slice(0, 4).concat(["", "", "", ""]).slice(0, 4)
-          : Array.isArray(data.options)
-            ? data.options.slice(0, 4).concat(["", "", "", ""]).slice(0, 4)
-            : ["", "", "", ""],
+        choices: padChoices(Array.isArray(data.choices) ? data.choices : data.options),
         answer: String(data.answer || data.correctAnswer || ""),
         explanation: data.explanation || "",
         studyContent: data.studyContent || "",
         image: data.image || "",
         prompt_vi: data.prompt_vi || data.question_vi || "",
-        choices_vi: Array.isArray(data.choices_vi)
-          ? data.choices_vi.slice(0, 4).concat(["", "", "", ""]).slice(0, 4)
-          : ["", "", "", ""],
+        choices_vi: padChoices(data.choices_vi),
         explanation_vi: data.explanation_vi || "",
         studyContent_vi: data.studyContent_vi || ""
       };
@@ -2579,6 +2692,7 @@
       modalChoice2.value = questionData.choices[1] || "";
       modalChoice3.value = questionData.choices[2] || "";
       modalChoice4.value = questionData.choices[3] || "";
+      modalChoice5.value = questionData.choices[4] || "";
       modalCorrectAnswer.value = questionData.answer || "";
       modalExplanation.value = questionData.explanation || "";
       modalVocabulary.value = getEffectiveVocabulary(topicPathKey);
@@ -2679,14 +2793,16 @@
       const imgTag = imagePreview.querySelector("img");
       const imageSrc = imgTag ? imgTag.src : "";
 
+      const choiceArr = [
+        modalChoice1.value.trim(),
+        modalChoice2.value.trim(),
+        modalChoice3.value.trim(),
+        modalChoice4.value.trim()
+      ];
+      if (modalChoice5.value.trim()) choiceArr.push(modalChoice5.value.trim());
       const questionData = normalizeQuestionData({
         prompt: modalQuestionPrompt.value.trim(),
-        choices: [
-          modalChoice1.value.trim(),
-          modalChoice2.value.trim(),
-          modalChoice3.value.trim(),
-          modalChoice4.value.trim()
-        ],
+        choices: choiceArr,
         answer: modalCorrectAnswer.value,
         explanation: modalExplanation.value.trim(),
         studyContent: modalStudyContent.value.trim(),
@@ -2800,9 +2916,9 @@ ${pathList}
 }
 
 ## Lưu ý quan trọng:
-- "answer" là số từ "1" đến "4" (dạng string)
+- "answer" là số từ "1" đến "5" (dạng string) — "5" chỉ dùng khi có đủ 5 lựa chọn
 - "label" theo dạng "Q1", "Q2", "Q3"...
-- Phải có đủ 4 lựa chọn trong "choices" và "choices_vi"
+- Phải có đủ 4 lựa chọn trong "choices" và "choices_vi" (hoặc 5 nếu câu hỏi buổi chiều)
 - Đường dẫn "path" phải KHỚP CHÍNH XÁC với danh sách trên, kể cả dấu cách và ký tự`;
     }
 
@@ -2872,9 +2988,13 @@ ${pathList}
       const reader = new FileReader();
       reader.onload = (e) => {
         try {
-          const data = JSON.parse(e.target.result);
+          let data = JSON.parse(e.target.result);
+          // Hỗ trợ cả format mảng thẳng [{path,questions,...}] lẫn {topics:[...]}
+          if (Array.isArray(data)) {
+            data = { topics: data };
+          }
           if (!data || !Array.isArray(data.topics)) {
-            throw new Error("Định dạng file không hợp lệ. Cần có trường \"topics\".");
+            throw new Error("Định dạng file không hợp lệ. Cần có trường \"topics\" hoặc là mảng JSON trực tiếp.");
           }
 
           const totalQ = data.topics.reduce((s, t) => s + (t.questions ? t.questions.length : 0), 0);
@@ -2966,19 +3086,21 @@ ${pathList}
       try {
         const parsed = typeof data === "string" ? JSON.parse(data) : data;
 
-        // Hỗ trợ cả format đầy đủ (có "topics") và format câu hỏi đơn
+        // Hỗ trợ cả format đầy đủ (có "topics"), mảng thẳng, và format câu hỏi đơn
         let q = parsed;
         let detectedPath = null;
         let topicVocabulary = "";
-        if (parsed.topics && parsed.topics[0]) {
-          const topic = parsed.topics[0];
+        // Chuẩn hóa mảng thẳng [{path,questions,...}] thành {topics:[...]}
+        const normalizedData = Array.isArray(parsed) ? { topics: parsed } : parsed;
+        if (normalizedData.topics && normalizedData.topics[0]) {
+          const topic = normalizedData.topics[0];
           if (topic.path) detectedPath = topic.path;
           if (topic.vocabulary) topicVocabulary = topic.vocabulary;
           if (topic.questions && topic.questions[0]) q = topic.questions[0];
         }
         // Cũng hỗ trợ path và vocabulary ở cấp ngoài cùng
-        if (!detectedPath && parsed.path) detectedPath = parsed.path;
-        if (!topicVocabulary && parsed.vocabulary) topicVocabulary = parsed.vocabulary;
+        if (!detectedPath && normalizedData.path) detectedPath = normalizedData.path;
+        if (!topicVocabulary && normalizedData.vocabulary) topicVocabulary = normalizedData.vocabulary;
 
         // Nếu JSON có path → tự động đổi destination
         if (detectedPath) {
@@ -3014,6 +3136,7 @@ ${pathList}
         modalChoice2.value = choices[1] || "";
         modalChoice3.value = choices[2] || "";
         modalChoice4.value = choices[3] || "";
+        modalChoice5.value = choices[4] || "";
         modalCorrectAnswer.value = String(q.answer || q.correctAnswer || "");
         modalExplanation.value = q.explanation || "";
         modalStudyContent.value = q.studyContent || "";
@@ -3271,9 +3394,9 @@ ${pathList}
       if (document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") {
         if (e.key === "ArrowRight" || e.key === "ArrowDown") goToAdjacentQuestion(1);
         if (e.key === "ArrowLeft"  || e.key === "ArrowUp")   goToAdjacentQuestion(-1);
-        // 1-4 keys: select answer
+        // 1-5 keys: select answer
         const num = parseInt(e.key);
-        if (num >= 1 && num <= 4 && activeQuestionPath) {
+        if (num >= 1 && num <= 5 && activeQuestionPath) {
           const btn = document.querySelectorAll(".choice-button")[num - 1];
           if (btn) btn.click();
         }
