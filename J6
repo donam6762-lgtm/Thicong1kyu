@@ -1,0 +1,312 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 鉄筋工事 / 継手",
+      "vocabulary": "異形鉄筋 (いけいてっきん) - thép gân\n継手 (つぎて) - mối nối\n定着 (ていちゃく) - neo\n重ね継手 (かさねつぎて) - mối nối chồng\nガス圧接継手 - mối nối hàn ép khí\n機械式継手 - mối nối cơ khí\nフック - móc\n折曲げ開始点 - điểm bắt đầu uốn\n梁の主筋 - thép chủ dầm\n水平重ね - chồng ngang\n上下重ね - chồng trên dưới\nかぶり厚さ - lớp bảo vệ bê tông",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "異形鉄筋の継手及び定着に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "径の異なる鉄筋相互の重ね継手の長さは、太いほうの径により算定する。",
+            "D35以上の鉄筋には、原則として、重ね継手を用いない。",
+            "180°フック付き重ね継手の長さは、フックの折曲げ開始点間の距離とする。",
+            "梁の主筋を重ね継手とする場合、水平重ね又は上下重ねのいずれでもよい。"
+          ],
+          "answer": "1",
+          "explanation": "鉄筋の継ぎ手には、重ね継ぎ手やガス圧接継ぎ手、機械式継手などの種類があります。\n\n選択肢1. 径の異なる鉄筋相互の重ね継手の長さは、太いほうの径により算定する。\n誤です。直径が異なる鉄筋の重ね継ぎ手の長さは、細い径の鉄筋を基準に算出します。\n\n選択肢2. D35以上の鉄筋には、原則として、重ね継手を用いない。\n正です。太径の鉄筋で重ね継ぎ手をするとかぶり厚さが小さくなり、継ぎ手を行った場所で割れたりするため、重ね継ぎ手は用いません。\n\n選択肢3. 180°フック付き重ね継手の長さは、フックの折曲げ開始点間の距離とする。\n正です。フック付きの重ね継ぎ手とする場合は、フックの折り曲げ開始点間の距離とし、フックの長さは重ね継ぎ手の長さに含まれません。\n\n選択肢4. 梁の主筋を重ね継手とする場合、水平重ね又は上下重ねのいずれでもよい。\n正です。梁主筋の重ね継ぎ手は水平重ね・上下重ねどちらでも問題ありません。",
+          "studyContent": "異形鉄筋の継手及び定着に関する記述の出題傾向として、重ね継手・ガス圧接継手・フレア溶接継手、機械式継手の要領、重ね継手の最大経、鉄筋の定着長さ、折り曲げ角度等が出題されます。また、部位別の特徴（壁、柱、梁）の鉄筋構成を把握しておくことも大切です。鉄筋の定着と継手は鉄筋コンクリート造の建物にとって建物強度に直結します。また、現場での品質管理上においても非常に重要なポイントです。鉄筋工事における規定を理解し設問に望みましょう。",
+          "question_vi": "Trong các mô tả về mối nối và neo của thép gân, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Chiều dài mối nối chồng giữa các thép có đường kính khác nhau được tính theo đường kính LỚN hơn.",
+            "Đối với thép D35 trở lên, về nguyên tắc không dùng mối nối chồng.",
+            "Chiều dài mối nối chồng có móc 180° được lấy bằng khoảng cách giữa các điểm bắt đầu uốn của móc.",
+            "Khi dùng mối nối chồng cho thép chủ của dầm, có thể chồng ngang hoặc chồng trên–dưới đều được."
+          ],
+          "explanation_vi": "Mối nối thép gồm các loại: mối nối chồng, mối nối hàn ép khí, mối nối cơ khí, v.v.\n\nLựa chọn 1. Chiều dài mối nối chồng giữa các thép có đường kính khác nhau được tính theo đường kính LỚN hơn.\nSAI. Chiều dài mối nối chồng giữa các thép có đường kính khác nhau được tính dựa trên đường kính của thanh NHỎ hơn.\n\nLựa chọn 2. Đối với thép D35 trở lên, về nguyên tắc không dùng mối nối chồng.\nĐúng. Với thép đường kính lớn, nếu dùng mối nối chồng thì lớp bảo vệ bê tông sẽ mỏng và dễ nứt tại vị trí nối, nên không dùng mối nối chồng.\n\nLựa chọn 3. Chiều dài mối nối chồng có móc 180° được lấy bằng khoảng cách giữa các điểm bắt đầu uốn của móc.\nĐúng. Với mối nối chồng có móc, lấy khoảng cách giữa các điểm bắt đầu uốn của móc; chiều dài phần móc KHÔNG được tính vào chiều dài mối nối.\n\nLựa chọn 4. Khi dùng mối nối chồng cho thép chủ của dầm, có thể chồng ngang hoặc chồng trên–dưới đều được.\nĐúng. Mối nối chồng của thép chủ dầm có thể là chồng ngang hoặc chồng trên–dưới đều được.",
+          "studyContent_vi": "Khuynh hướng đề thi về mối nối và neo của thép gân bao gồm: phương pháp thực hiện các loại mối nối (chồng, hàn ép khí, hàn loe, cơ khí), đường kính tối đa cho phép dùng mối nối chồng, chiều dài neo, góc uốn, v.v. Cũng cần nắm đặc điểm bố trí thép theo từng cấu kiện (tường, cột, dầm). Việc neo và nối thép liên quan trực tiếp đến cường độ của kết cấu bê tông cốt thép, và là điểm rất quan trọng trong quản lý chất lượng tại công trường. Hiểu rõ quy định công tác thép sẽ giúp xử lý tốt các đề bài."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 型枠工事",
+      "vocabulary": "型枠 (かたわく) - cốp pha\nせき板 - tấm ván cốp pha\n等価材齢換算式 - công thức quy đổi tuổi tương đương\n圧縮強度 - cường độ chịu nén\n合板 - ván dán\nたわみ - độ võng\n単純支持 - gối tựa đơn giản\n両端固定 - hai đầu cố định\n単純梁 - dầm đơn giản\n側圧 - áp lực hông\n鉛直荷重 - tải trọng đứng\n固定荷重 - tải trọng cố định\n養生 - bảo dưỡng",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "型枠工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "等価材齢換算式による方法で計算した圧縮強度が所定の強度以上となったため、柱のせき板を取り外した。",
+            "合板せき板のたわみは、単純支持で計算した値と両端固定で計算した値の平均値とした。",
+            "コンクリートの施工時の側圧や鉛直荷重に対する型枠の各部材のたわみの許容値は、2mm以下とした。",
+            "固定荷重の計算に用いる型枠の重量は、0.4kN／m2とした。"
+          ],
+          "answer": "2",
+          "explanation": "コンクリート構造物を施工する際に必要不可欠な型枠。フレッシュコンクリートから十分強度が出て安定した状態になるまで、仮に支えておく枠を組み立てる工事です。\n\n選択肢1. 等価材齢換算式による方法で計算した圧縮強度が所定の強度以上となったため、柱のせき板を取り外した。\n等価材齢換算式を用いて計算した圧縮強度が所定の強度以上である場合、柱のせき板を取り外すことは正解です。ただし、取り外す前に、実際のコンクリートの養生状態や他の設計基準を確認し、構造的な安全性が確保されていることを確認することが重要です。\n\n選択肢2. 合板せき板のたわみは、単純支持で計算した値と両端固定で計算した値の平均値とした。\n合板せき板のたわみを計算する際、単純支持と両端固定の計算値の平均をとるという方法は不正解です。通常、単純梁の方が両側固定梁と比べ、たわみ（曲げモーメント）が大きくなる為、合板せき板のたわみは、各支点間を単純梁として計算して、安全側で検討し算出します。\n\n選択肢3. コンクリートの施工時の側圧や鉛直荷重に対する型枠の各部材のたわみの許容値は、2mm以下とした。\nコンクリートの施工時における型枠のたわみの許容値は、一般的に2mm以下とすることが推奨されています。よって正解です。\n\n選択肢4. 固定荷重の計算に用いる型枠の重量は、0.4kN／m2とした。\n型枠の固定荷重の計算において、0.4 kN/m²という値は一般的な指標として使用されます。よって正解です。",
+          "studyContent": "型枠工事の記述の問題の傾向として、型枠重量、支持サポート長さや支持位置、支保工の構成、せき板たわみ、ヤング係数、側圧、存置期間が多く出題されます。また、型枠の構成についても理解しておくことでイメージしやすくなるので、チェックしておきましょう。支柱にパイプサポートを用いる場合と鋼管枠を用いる場合など各工法の特徴や、水平つなぎの設け方なども確認しておきましょう。",
+          "question_vi": "Trong các mô tả về công tác cốp pha, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Do cường độ chịu nén tính bằng công thức quy đổi tuổi tương đương đạt từ giá trị quy định trở lên nên đã tháo ván cốp pha của cột.",
+            "Độ võng của ván dán cốp pha được lấy bằng giá trị trung bình của giá trị tính theo gối tựa đơn giản và giá trị tính theo hai đầu cố định.",
+            "Trị số cho phép về độ võng của các bộ phận cốp pha đối với áp lực hông và tải trọng đứng khi thi công bê tông được lấy ≤ 2 mm.",
+            "Trọng lượng cốp pha dùng để tính tải trọng cố định được lấy bằng 0,4 kN/m²."
+          ],
+          "explanation_vi": "Cốp pha là công tác không thể thiếu khi thi công kết cấu bê tông. Đây là việc lắp dựng khung tạm để chống đỡ bê tông tươi cho đến khi bê tông đạt đủ cường độ và ổn định.\n\nLựa chọn 1. Do cường độ chịu nén tính bằng công thức quy đổi tuổi tương đương đạt từ giá trị quy định trở lên nên đã tháo ván cốp pha của cột.\nKhi cường độ chịu nén tính theo công thức quy đổi tuổi tương đương đạt ≥ giá trị quy định, có thể tháo ván cốp pha cột. Tuy nhiên, trước khi tháo cần kiểm tra thực tế trạng thái bảo dưỡng bê tông và các tiêu chuẩn thiết kế khác để đảm bảo an toàn kết cấu.\n\nLựa chọn 2. Độ võng của ván dán cốp pha được lấy bằng giá trị trung bình của giá trị tính theo gối tựa đơn giản và giá trị tính theo hai đầu cố định.\nSAI. Cách lấy giá trị trung bình giữa gối tựa đơn giản và hai đầu cố định là không đúng. Vì độ võng (mô men uốn) của dầm gối đơn giản thường lớn hơn dầm hai đầu cố định, nên độ võng của ván dán cốp pha được tính như DẦM ĐƠN GIẢN giữa các điểm tựa, đứng về phía an toàn.\n\nLựa chọn 3. Trị số cho phép về độ võng của các bộ phận cốp pha đối với áp lực hông và tải trọng đứng khi thi công bê tông được lấy ≤ 2 mm.\nGiá trị cho phép về độ võng của cốp pha khi thi công bê tông thường được khuyến nghị ≤ 2 mm. Đúng.\n\nLựa chọn 4. Trọng lượng cốp pha dùng để tính tải trọng cố định được lấy bằng 0,4 kN/m².\nKhi tính tải trọng cố định của cốp pha, giá trị 0,4 kN/m² được dùng như một chỉ số thông thường. Đúng.",
+          "studyContent_vi": "Khuynh hướng đề thi về cốp pha thường gồm: trọng lượng cốp pha, chiều dài và vị trí cây chống, cấu tạo giàn chống, độ võng ván, mô đun đàn hồi (Young), áp lực hông, thời gian giữ cốp pha. Nắm cấu tạo cốp pha sẽ dễ hình dung hơn. Cũng cần ôn các đặc điểm khi dùng cây chống ống (pipe support) hay khung thép ống, và cách bố trí thanh giằng ngang."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / コンクリート工事 / 養生",
+      "vocabulary": "養生 - bảo dưỡng\n湿潤養生 - bảo dưỡng ẩm\n早強ポルトランドセメント - xi măng Portland đông cứng nhanh\n普通ポルトランドセメント - xi măng Portland thường\n散水 - tưới nước\n凝結 - ngưng kết\n透水性 - tính thấm nước\nせき板 - tấm ván cốp pha\nマスコンクリート - bê tông khối lớn\n計画供用期間 - thời kỳ sử dụng dự kiến\n表面部 - phần bề mặt\nひび割れ - vết nứt",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "コンクリートの養生に関する記述として、最も不適当なものはどれか。ただし、計画供用期間の級は標準とする。",
+          "choices": [
+            "早強ポルトランドセメントを用いたコンクリートの湿潤養生の期間は、普通ポルトランドセメントを用いた場合と同じである。",
+            "連続的に散水を行って水分を供給する方法による湿潤養生は、コンクリートの凝結が終了した後に行う。",
+            "打込み後のコンクリートが透水性の低いせき板で保護されている場合は、湿潤養生と考えてもよい。",
+            "マスコンクリートは、内部温度が上昇している期間は、コンクリート表面部の温度が急激に低下しないように養生を行う。"
+          ],
+          "answer": "1",
+          "explanation": "コンクリートの湿潤養生とは、コンクリートの凝結後に、散水や噴霧を行い、継続的に水分を供給する方法です。\n\n選択肢1. 早強ポルトランドセメントを用いたコンクリートの湿潤養生の期間は、普通ポルトランドセメントを用いた場合と同じである。\n誤です。早強ポルトランドセメントを用いたコンクリートの湿潤養生の期間は、普通ポルトランドセメントの湿潤養生期間よりも短くなります。日平均気温が15℃以上で普通ポルトランドセメントを用いる場合「5日間以上」、早強ポルトランドセメントを用いる場合「3日間以上」となります。\n\n選択肢2. 連続的に散水を行って水分を供給する方法による湿潤養生は、コンクリートの凝結が終了した後に行う。\n正です。打ち込み後のコンクリート面が露出している部分には、湿潤養生を行う必要があります。湿潤養生は急速な乾燥を防止し、コンクリートに水分を供給することで、コンクリートの適切な強度発現を促します。また乾燥によるひび割れを防ぎます。\n\n選択肢3. 打込み後のコンクリートが透水性の低いせき板で保護されている場合は、湿潤養生と考えてもよい。\n正です。透水性の低いせき板で保護されている場合、湿潤養生と同じ効果があります。湿潤養生の方法には、透水性の低いせき板、水密シートによる被覆、散水等があります。\n\n選択肢4. マスコンクリートは、内部温度が上昇している期間は、コンクリート表面部の温度が急激に低下しないように養生を行う。\n正です。マスコンクリートとは、大塊上に施工される体積の大きいコンクリートのことで、ひび割れを防ぐため、養生時にコンクリート内外の温度差が大きくならないようにする必要があります。表面部が急激に冷やされると、内部との温度差が生じひび割れの原因となってしまいます。",
+          "studyContent": "コンクリートの設問での抑えておくポイント：\n・材料の特性：コンクリートの成分（セメント、骨材、水、混和剤など）の特性や影響。各種セメントの特徴（普通ポルトランドセメント、早強セメントなど）。\n・施工方法：コンクリートの打設手順、型枠の取り扱い、振動や締固めの方法。打設後の養生方法やその重要性。\n・品質管理：コンクリートの強度試験（スランプ試験、圧縮試験など）や試験の実施方法。不良コンクリートの判別と対策。\n・構造設計との関連：コンクリートの設計基準や荷重に対する耐久性。補強コンクリート（鉄筋コンクリートなど）の基本的な理解。\n・環境と安全：コンクリート施工時の環境配慮や安全対策。ひび割れや収縮のメカニズムとその対策。\n養生期間、コンクリートの種類、用語など正しく覚えるようにしましょう。",
+          "question_vi": "Trong các mô tả về bảo dưỡng bê tông, đâu là mô tả KHÔNG phù hợp nhất? Giả định cấp thời kỳ sử dụng dự kiến là tiêu chuẩn.",
+          "choices_vi": [
+            "Thời gian bảo dưỡng ẩm của bê tông dùng xi măng Portland đông cứng nhanh BẰNG với khi dùng xi măng Portland thường.",
+            "Bảo dưỡng ẩm bằng cách tưới nước liên tục để cấp ẩm được thực hiện sau khi bê tông kết thúc ngưng kết.",
+            "Nếu bê tông sau khi đổ được bảo vệ bằng ván cốp pha có độ thấm nước thấp thì có thể coi là bảo dưỡng ẩm.",
+            "Đối với bê tông khối lớn, trong thời gian nhiệt độ bên trong đang tăng, cần bảo dưỡng sao cho nhiệt độ phần bề mặt không giảm đột ngột."
+          ],
+          "explanation_vi": "Bảo dưỡng ẩm bê tông là phương pháp tưới hoặc phun sương để cung cấp nước liên tục sau khi bê tông đã ngưng kết.\n\nLựa chọn 1. Thời gian bảo dưỡng ẩm của bê tông dùng xi măng Portland đông cứng nhanh BẰNG với khi dùng xi măng Portland thường.\nSAI. Thời gian bảo dưỡng ẩm với xi măng Portland đông cứng nhanh NGẮN HƠN so với xi măng Portland thường. Khi nhiệt độ ngày trung bình ≥ 15 ℃: xi măng thường ≥ 5 ngày, xi măng đông cứng nhanh ≥ 3 ngày.\n\nLựa chọn 2. Bảo dưỡng ẩm bằng cách tưới nước liên tục để cấp ẩm được thực hiện sau khi bê tông kết thúc ngưng kết.\nĐúng. Phần bề mặt bê tông sau khi đổ lộ ra cần được bảo dưỡng ẩm. Bảo dưỡng ẩm giúp ngăn khô nhanh, cung cấp nước cho bê tông để phát triển cường độ thích hợp, đồng thời ngăn nứt do khô.\n\nLựa chọn 3. Nếu bê tông sau khi đổ được bảo vệ bằng ván cốp pha có độ thấm nước thấp thì có thể coi là bảo dưỡng ẩm.\nĐúng. Khi được bảo vệ bằng ván có độ thấm thấp, hiệu quả tương đương bảo dưỡng ẩm. Các phương pháp bảo dưỡng ẩm gồm: ván cốp pha thấm thấp, phủ màng kín nước, tưới nước, v.v.\n\nLựa chọn 4. Đối với bê tông khối lớn, trong thời gian nhiệt độ bên trong đang tăng, cần bảo dưỡng sao cho nhiệt độ phần bề mặt không giảm đột ngột.\nĐúng. Bê tông khối lớn là loại có thể tích lớn được đổ thành khối; để chống nứt, cần tránh chênh lệch nhiệt độ trong/ngoài khi bảo dưỡng. Nếu bề mặt bị lạnh đột ngột, chênh lệch nhiệt độ với phần bên trong sẽ gây nứt.",
+          "studyContent_vi": "Các điểm cần nắm khi học về bê tông:\n・Đặc tính vật liệu: thành phần (xi măng, cốt liệu, nước, phụ gia) và ảnh hưởng. Đặc điểm các loại xi măng (Portland thường, đông cứng nhanh, v.v.).\n・Phương pháp thi công: trình tự đổ, quản lý cốp pha, đầm và rung. Phương pháp bảo dưỡng sau đổ và tầm quan trọng.\n・Quản lý chất lượng: thí nghiệm cường độ (độ sụt, nén) và cách thực hiện. Cách nhận biết và xử lý bê tông kém chất lượng.\n・Liên hệ với thiết kế kết cấu: tiêu chuẩn thiết kế và độ bền với tải trọng. Hiểu cơ bản về bê tông cốt thép.\n・Môi trường và an toàn: lưu ý môi trường khi thi công và biện pháp an toàn. Cơ chế nứt, co ngót và biện pháp khắc phục.\nCần nắm chính xác thời gian bảo dưỡng, các loại bê tông và thuật ngữ."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 鉄骨工事 / 建方",
+      "vocabulary": "大空間鉄骨架構 - khung thép không gian lớn\nスライド工法 - phương pháp trượt\n作業構台 - sàn thao tác\n屋根鉄骨 - khung thép mái\n移動構台工法 - phương pháp sàn di động\nブロック工法 - phương pháp khối\n地組み - tổ hợp dưới đất\nクレーン - cần trục\nリフトアップ工法 - phương pháp nâng lên (lift-up)\nジャッキ - kích\n軒梁 - dầm hiên",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "大空間鉄骨架構の建方に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "スライド工法は、作業構台上で所定の部分の屋根鉄骨を組み立てた後、所定位置まで順次滑動横引きしていき、最終的に架構全体を構築する工法である。",
+            "移動構台工法は、移動構台上で組み立てた屋根鉄骨を、構台と共に所定の位置に移動させ、先行して構築した架構と連結する工法である。",
+            "ブロック工法は、地組みした所定の大きさのブロックを、クレーン等で吊り上げて架構を構築する工法である。",
+            "リフトアップ工法は、地上又は構台上で組み立てた屋根等の架構を、先行して構築した構造物等を支えとしてジャッキにより引き上げていく工法である。"
+          ],
+          "answer": "2",
+          "explanation": "大空間鉄骨架構の建方に関する記述について、解説していきます。\n\n選択肢1. スライド工法は、作業構台上で所定の部分の屋根鉄骨を組み立てた後、所定位置まで順次滑動横引きしていき、最終的に架構全体を構築する工法である。\nスライド工法は、特に高層建築物や大規模な構造物の施工において用いられる工法で、以下のような特徴があります。\n・組立と滑動：作業構台上で屋根や上部構造の鉄骨を組み立て、その後、所定の位置まで滑動させていく方式です。\n・効率的な施工：構造物の一部を先に組み立ててから横引きすることで、施工時間を短縮し、効率的に架構全体を構築することができます。\n・安全性：高所での作業が減るため、作業員の安全性が向上します。\nこのように、スライド工法は、特に大規模なプロジェクトでの効率的かつ安全な施工手法として広く利用されています。よってこの問題は適当です。\n\n選択肢2. 移動構台工法は、移動構台上で組み立てた屋根鉄骨を、構台と共に所定の位置に移動させ、先行して構築した架構と連結する工法である。\n移動構台工法は特に大規模な建物や複雑な形状の構造物に適しており、施工の柔軟性が高い点が特徴です。所定の位置で組み立て、構台のみが動きます。よって不適当です。\n\n選択肢3. ブロック工法は、地組みした所定の大きさのブロックを、クレーン等で吊り上げて架構を構築する工法である。\nブロック工法の特徴は、\n・地組み：事前に地上で所定の鉄骨ブロックを組み立てます。これにより、不安定な場所での作業でなくなるため、効率的になります。\n・吊り上げ：組み立てたブロックをクレーンなどを用いて吊り上げ、所定の位置に設置します。\n・適用性：特に高層ビルや大規模構造物の施工において、効率的かつ安全に作業を進めるために広く使用されます。\nよってこの問題は適当です。\n\n選択肢4. リフトアップ工法は、地上又は構台上で組み立てた屋根等の架構を、先行して構築した構造物等を支えとしてジャッキにより引き上げていく工法である。\nリフトアップ工法の特徴は、\n・組立場所：地上または構台上で屋根などの架構を組み立てます。\n・引き上げ方式：先行して構築した構造物や支えを利用し、ジャッキなどの装置で架構を引き上げます。\n・施工の柔軟性：構造物の一部を地上で組み立てた後、必要に応じて引き上げるため、高所での作業が軽減され、安全性が向上します。",
+          "studyContent": "建て方に関する問題では、それぞれの工法の特徴と、工事の流れを覚えておきましょう。リフトアップ工法のときにクレーンで持ち上げる記述があったり、語句を入れ替える問題が出題される傾向があるので、各工法と関連する語句を正確に覚えるようにしましょう。\n・スライド工法：細長い建物や、移動方向に対してフラットな建物に適しています。\n・移動構台工法：鉄骨を移動構台上で組み立て、構台をスライドさせて架構を構築。構台のみが移動する。\n・ブロック工法：複雑な組み立てを地上で先行して行うことが可能。\n・リフトアップ工法：地上又は構台上で組み立て構造物をジャッキ等で鉛直方向に吊り上げ、押し上げて構築。高所作業が少なくなるため、安全性が高いのが特徴。",
+          "question_vi": "Trong các mô tả về thi công lắp dựng khung thép không gian lớn, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương pháp trượt là phương pháp: sau khi lắp xong phần khung thép mái nhất định trên sàn thao tác, lần lượt trượt ngang đến vị trí thiết kế để cuối cùng dựng được toàn bộ khung.",
+            "Phương pháp sàn di động là phương pháp: lắp khung thép mái trên sàn di động rồi di chuyển CÙNG SÀN đến vị trí thiết kế và nối với khung đã thi công trước.",
+            "Phương pháp khối là phương pháp: tổ hợp các khối thép có kích thước nhất định dưới đất rồi dùng cần trục cẩu lên để dựng khung.",
+            "Phương pháp lift-up là phương pháp: lắp khung mái trên mặt đất hoặc sàn thao tác rồi dùng kích nâng lên, tựa vào kết cấu đã thi công trước."
+          ],
+          "explanation_vi": "Giải thích về thi công lắp dựng khung thép không gian lớn.\n\nLựa chọn 1. Phương pháp trượt.\nĐược dùng nhiều trong các công trình cao tầng, quy mô lớn. Đặc điểm:\n・Lắp ráp và trượt: lắp khung mái hoặc kết cấu trên trên sàn thao tác, sau đó trượt đến vị trí thiết kế.\n・Thi công hiệu quả: lắp trước một phần rồi trượt ngang giúp rút ngắn thời gian, dựng khung tổng thể hiệu quả.\n・An toàn: ít thao tác trên cao, tăng an toàn cho công nhân.\nĐúng — đây là phương pháp thường dùng cho công trình quy mô lớn.\n\nLựa chọn 2. Phương pháp sàn di động.\nThích hợp với nhà quy mô lớn hoặc hình dạng phức tạp, có tính linh hoạt cao. Tuy nhiên, khung thép được lắp tại VỊ TRÍ XÁC ĐỊNH, CHỈ sàn di chuyển. → Mô tả ‘di chuyển cùng sàn’ là SAI.\n\nLựa chọn 3. Phương pháp khối.\nĐặc điểm:\n・Tổ hợp dưới đất: lắp sẵn các khối thép trên mặt đất, hiệu quả hơn so với lắp ở vị trí không ổn định.\n・Cẩu lên: dùng cần trục cẩu khối đã lắp sẵn vào vị trí.\n・Phạm vi áp dụng: được dùng rộng rãi để thi công hiệu quả và an toàn cho công trình cao tầng / quy mô lớn.\nĐúng.\n\nLựa chọn 4. Phương pháp lift-up.\nĐặc điểm:\n・Vị trí lắp: lắp khung mái trên mặt đất hoặc sàn thao tác.\n・Cách nâng: dùng kích, tựa vào kết cấu đã thi công trước để nâng khung lên.\n・Tính linh hoạt: lắp một phần dưới đất rồi nâng lên khi cần, giảm thao tác trên cao, an toàn cao.\nĐúng.",
+          "studyContent_vi": "Đối với đề thi về lắp dựng, hãy nhớ đặc điểm và trình tự thi công của từng phương pháp. Đề thi có xu hướng đảo chữ — ví dụ mô tả lift-up nhưng dùng từ ‘cần trục’, hoặc tráo cụm từ — nên cần nhớ chính xác từng phương pháp đi với cụm từ nào.\n・Trượt: phù hợp với nhà dài và phẳng theo hướng di chuyển.\n・Sàn di động: lắp khung trên sàn di động, sàn trượt để dựng khung, CHỈ sàn di chuyển.\n・Khối: có thể thực hiện trước phần lắp ráp phức tạp dưới đất.\n・Lift-up: lắp trên mặt đất/sàn thao tác rồi dùng kích nâng theo phương đứng, giảm việc trên cao nên an toàn cao."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 木工事",
+      "vocabulary": "木質軸組構法 - phương pháp khung gỗ trục\nアンカーボルト - bu lông neo\n土台 - dầm cái (đế móng gỗ)\n緊結 - liên kết chặt\nねじ山 - ren bu lông\nナット - đai ốc\nラグスクリュー - vít lag (vít gỗ cỡ lớn)\n先孔 - lỗ mồi (khoan trước)\nスパナ - cờ lê\nスクリュー部 - phần thân vít\n接合金物 - phụ kiện liên kết\nボルト - bu lông\n座金 - vòng đệm\nめり込む - lún vào\nトルク - mô-men siết",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "木質軸組構法に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "アンカーボルトと土台の繁結は、アンカーボルトのねじ山がナットの外に3山以上出るようにした。",
+            "接合に用いるラグスクリューは、先孔にスパナを用いて回しながら締め付けた。",
+            "ラグスクリューのスクリュー部の先孔の径は、スクリュー径の＋2mmとした。",
+            "接合金物のボルトの締付けは、座金が木材へ軽くめり込む程度とした。"
+          ],
+          "answer": "3",
+          "explanation": "木質軸組構法の問題について、解説します。\n\n選択肢1. アンカーボルトと土台の繁結は、アンカーボルトのねじ山がナットの外に3山以上出るようにした。\nアンカーボルトのねじ山がナットの外に3山以上出るようにすることで、力学的にも十分な締結力を確保し、ボルトの緩みを防ぎます。また、ボルトの端部には、ねじ山の形が不完全な部分ができることがあります。この不完全な部分を避けるために、3山以上出すことが推奨されています。よって適当です。\n\n選択肢2. 接合に用いるラグスクリューは、先孔にスパナを用いて回しながら締め付けた。\nラグスクリューは、比較的太くて短いねじで、先端が鋭くなっており、先に孔を開けなくても木材に直接ねじ込むことができます。ねじ山は深くて太く、強い締結力を発揮します。これにより、木部材をしっかりと固定することができます。ヘッド部分は、スパナやドライバーで操作できる形状になっています。よってこの設問は適当です。\n\n選択肢3. ラグスクリューのスクリュー部の先孔の径は、スクリュー径の＋2mmとした。\nラグスクリューのスクリュー部の先孔の径については、一般的にスクリュー径の70%程度です。具体的には、スクリュー径が10mmの場合、先孔の径は約7mmとなります。よってこの設問は不適当です。\n\n選択肢4. 接合金物のボルトの締付けは、座金が木材へ軽くめり込む程度とした。\n木材を過度に圧迫せず、しっかりと固定するための一般的な方法です。よってこの設問は適当です。",
+          "studyContent": "木質軸組構法について、以下を覚えておきましょう。\n・木質軸組構法の特徴、他の構法との違いについて。\n・使用される材料（木材の種類や特性）やその選定基準。\n・軸組の構造設計（耐震性、耐風性など）に関する知識。\n・木材の接合部（金物、ボルトなど）の適切な施工方法や配置。\n・施工時の品質管理や工程管理について。\n・木材の乾燥状態や施工時の湿度管理。\nこの分野では、今回の選択肢の他にも、柱、梁の曲がりの許容度、ドリフトピンの孔あけ径など頻出問題が多いので、まとめて押えるようにしましょう。",
+          "question_vi": "Trong các mô tả về phương pháp khung gỗ trục, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Liên kết bu lông neo với dầm cái: phần ren của bu lông neo được làm sao cho lộ ra ngoài đai ốc ≥ 3 ren.",
+            "Vít lag dùng cho liên kết: dùng cờ lê vặn vào lỗ mồi trong khi siết.",
+            "Đường kính lỗ mồi của phần thân vít lag được lấy bằng đường kính vít + 2 mm.",
+            "Siết bu lông phụ kiện liên kết: chỉ siết đến mức vòng đệm hơi lún vào gỗ."
+          ],
+          "explanation_vi": "Giải thích bài tập về phương pháp khung gỗ trục.\n\nLựa chọn 1. Liên kết bu lông neo với dầm cái: ren bu lông lộ ngoài đai ốc ≥ 3 ren.\nKhi để ren bu lông lộ ngoài đai ốc ≥ 3 ren sẽ đảm bảo lực siết đầy đủ về mặt cơ học và chống tự lỏng. Phần đầu bu lông thường có ren không hoàn chỉnh; để tránh phần đó, khuyến nghị lộ ≥ 3 ren. Đúng.\n\nLựa chọn 2. Vít lag dùng cho liên kết: dùng cờ lê vặn vào lỗ mồi trong khi siết.\nVít lag là loại vít tương đối thô, ngắn, đầu nhọn, có thể xoáy trực tiếp vào gỗ không cần khoan trước. Ren sâu và to nên lực kẹp lớn, cố định gỗ chắc chắn. Đầu vít có hình dạng có thể siết bằng cờ lê hoặc tô-vít. Đúng.\n\nLựa chọn 3. Đường kính lỗ mồi của phần thân vít lag được lấy bằng đường kính vít + 2 mm.\nĐường kính lỗ mồi của phần thân vít lag thường khoảng 70% đường kính vít. Ví dụ vít φ10 mm → lỗ mồi khoảng φ7 mm. → Mô tả ‘+ 2 mm’ là SAI.\n\nLựa chọn 4. Siết bu lông phụ kiện liên kết: chỉ siết đến mức vòng đệm hơi lún vào gỗ.\nĐây là phương pháp thông thường để cố định chắc gỗ mà không nén quá mức. Đúng.",
+          "studyContent_vi": "Cần nhớ với phương pháp khung gỗ trục:\n・Đặc điểm của phương pháp khung gỗ trục và khác biệt với các phương pháp khác.\n・Vật liệu sử dụng (loại gỗ, đặc tính) và tiêu chí lựa chọn.\n・Thiết kế kết cấu (kháng chấn, kháng gió, v.v.).\n・Phương pháp thi công và bố trí mối liên kết gỗ (phụ kiện, bu lông).\n・Quản lý chất lượng và tiến độ khi thi công.\n・Trạng thái khô của gỗ và quản lý độ ẩm khi thi công.\nNgoài các lựa chọn trong câu hỏi này, đề thi cũng hay hỏi về dung sai cong vênh của cột/dầm, đường kính lỗ chốt drift pin, v.v., nên cần ôn tập tổng hợp."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 仮設計画",
+      "vocabulary": "工事用エレベーター - thang máy thi công\n定格速度 - tốc độ định mức\n非常止め装置 - cơ cấu hãm khẩn cấp\n次第ぎき - hãm dần (giảm tốc từ từ)\n早ぎき - hãm tức thời\nジブクレーン - cần trục cần ngang\n定格荷重 - tải trọng định mức\nフック - móc\nつり具 - thiết bị treo\nゴンドラ - gondola (cabin treo)\nアーム - cánh tay\n作業床 - sàn làm việc\n積載荷重 - tải trọng chất\nロングスパン工事用エレベーター - thang nâng thi công nhịp dài\n搬器 - sàn nâng\n勾配 - độ nghiêng",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "建設機械に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "工事用エレベーターは、定格速度が0.75m／sを超える場合、次第ぎき非常止め装置を設ける。",
+            "ジブクレーンの定格荷重とは、負荷させることができる最大の荷重から、フック等のつり具の重量に相当する荷重を控除したものをいう。",
+            "アームを有しないゴンドラの積載荷重とは、その構造上作業床に人又は荷をのせて上昇させることができる最大の荷重をいう。",
+            "ロングスパン工事用エレベーターは、搬器の傾きが1／8の勾配を超えた場合、動力を自動的に遮断する装置を設ける。"
+          ],
+          "answer": "4",
+          "explanation": "建設機械の問題について、解説します。\n\n選択肢1. 工事用エレベーターは、定格速度が0.75m／sを超える場合、次第ぎき非常止め装置を設ける。\n工事用エレベーターに関する規定についてですが、定格速度が0.75 m/sを超える場合、非常停止装置を設けることは正しいです。これは安全対策の一環として求められています。非常停止装置は、エレベーターが異常事態に陥った際に即座に停止させるための装置であり、これによって作業員や荷物の安全を確保することができます。定格速度が0.75m／s以下の場合、早ぎき非常止め装置を設ける必要があります。\n・次第ぎき非常止め装置…異常を感知すると、徐々にカゴを停止させる\n・早ぎき非常止め装置…異常を感知すると、瞬時にカゴを停止させる\nよってこの記述は適当です。\n\n選択肢2. ジブクレーンの定格荷重とは、負荷させることができる最大の荷重から、フック等のつり具の重量に相当する荷重を控除したものをいう。\nジブクレーンの定格荷重は、クレーンが安全に持ち上げることができる最大の荷重を指します。一般的には、この定格荷重にはフックやつり具の重量が含まれていません。そのため、実際に吊り上げることができる荷重は、定格荷重からフックやつり具の重量を引いた値になります。ジブクレーンとは比較的質量の大きい荷のつり上げに用いられ、狭い敷地での作業が可能です。よってこの記述は適当です。\n\n選択肢3. アームを有しないゴンドラの積載荷重とは、その構造上作業床に人又は荷をのせて上昇させることができる最大の荷重をいう。\nゴンドラは通常、吊り下げ式であり、アームを持たない場合、作業床に人や荷物を載せて上昇させる際の最大の荷重を指します。アームを最小の傾斜にした状態で、その構造上作業床に人又は荷をのせて上昇させることができる最大の荷重のことをいいます。よってこの記述は適当です。\n\n選択肢4. ロングスパン工事用エレベーターは、搬器の傾きが1／8の勾配を超えた場合、動力を自動的に遮断する装置を設ける。\nロングスパン工事用エレベーターは、搬器の傾きが1/10の勾配を超えた場合、動力を自動的に遮断する装置を設けます。よってこの記述は不適当です。",
+          "studyContent": "建設機械の問題の出題傾向として：\n・機械の種類と特徴：建設現場で使用される各種機械（ブルドーザー、ショベルカー、クレーンなど）の用途や特性、操作方法に関する問題が多く出題されます。\n・性能と仕様：機械の性能（出力、作業能力、作業範囲など）や、具体的な仕様に関する数値を問う問題もあります。\nまた、工事用エレベーターに関して下記のことを覚えておきましょう。\n・確定速度は毎分10m以下\n・搬器の昇降を知らせる警報装置を設ける必要があるが、安全上支障がない限りはこの限りではない\n・周囲に90cm以上の堅固な手すりと中さん・巾木が必要\nこの分野では、各建設機械の特徴、有効証の規程など重要なものが多いので、混乱せずに正確に覚えましょう。",
+          "question_vi": "Trong các mô tả về máy thi công, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Thang máy thi công khi tốc độ định mức vượt 0,75 m/s thì lắp cơ cấu hãm khẩn cấp loại hãm dần.",
+            "Tải trọng định mức của cần trục cần ngang là giá trị bằng tải tối đa có thể chịu trừ đi trọng lượng tương đương của móc và thiết bị treo.",
+            "Tải trọng chất của gondola không có cánh tay là tải lớn nhất có thể nâng lên với người hoặc hàng đặt trên sàn làm việc theo cấu tạo của nó.",
+            "Thang nâng thi công nhịp dài: lắp cơ cấu tự động ngắt nguồn khi độ nghiêng sàn nâng vượt độ dốc 1/8."
+          ],
+          "explanation_vi": "Giải thích bài tập về máy thi công.\n\nLựa chọn 1. Thang máy thi công khi tốc độ định mức vượt 0,75 m/s thì lắp cơ cấu hãm khẩn cấp loại hãm dần.\nVề quy định thang máy thi công: khi tốc độ định mức vượt 0,75 m/s, việc lắp cơ cấu hãm khẩn cấp là đúng. Đây là biện pháp an toàn bắt buộc, dừng thang ngay khi có bất thường, đảm bảo an toàn cho công nhân và hàng hóa. Khi tốc độ định mức ≤ 0,75 m/s, cần lắp cơ cấu hãm tức thời.\n・Hãm dần: phát hiện bất thường → dừng cabin TỪ TỪ.\n・Hãm tức thời: phát hiện bất thường → dừng cabin NGAY LẬP TỨC.\nĐúng.\n\nLựa chọn 2. Tải trọng định mức của cần trục cần ngang.\nTải trọng định mức của cần trục cần ngang là tải tối đa cần trục có thể nâng AN TOÀN. Thông thường, tải định mức KHÔNG bao gồm trọng lượng móc và thiết bị treo. Do đó, tải thực tế nâng được = tải định mức – trọng lượng móc & thiết bị treo. Cần trục cần ngang dùng để nâng tải tương đối nặng, có thể làm việc trong mặt bằng hẹp. Đúng.\n\nLựa chọn 3. Tải trọng chất của gondola không có cánh tay.\nGondola thường là loại treo. Khi không có cánh tay, tải trọng chất là tải lớn nhất có thể nâng người hoặc hàng đặt trên sàn làm việc theo cấu tạo của nó. (Với loại có cánh tay: ở trạng thái cánh tay nghiêng ít nhất.) Đúng.\n\nLựa chọn 4. Thang nâng thi công nhịp dài.\nThang nâng thi công nhịp dài cần lắp cơ cấu tự động ngắt nguồn khi độ nghiêng sàn nâng vượt độ dốc 1/10. → ‘1/8’ là SAI.",
+          "studyContent_vi": "Khuynh hướng đề về máy thi công:\n・Chủng loại và đặc điểm máy: máy ủi, máy xúc, cần trục, v.v., công dụng, đặc tính và cách vận hành.\n・Hiệu năng và thông số: công suất, năng lực làm việc, phạm vi, các con số cụ thể.\nVề thang máy thi công, cần nhớ thêm:\n・Tốc độ giới hạn ≤ 10 m/phút (đối với loại 確定速度).\n・Cần lắp thiết bị báo động khi sàn nâng lên/xuống, trừ trường hợp không ảnh hưởng an toàn.\n・Xung quanh cần lan can chắc chắn ≥ 90 cm có thanh giữa và thanh chân.\nLĩnh vực này có nhiều con số và quy định quan trọng — cần ghi nhớ chính xác để khỏi nhầm lẫn."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 防水工事 / シート防水",
+      "vocabulary": "合成高分子系ルーフィングシート - màng phòng thấm cao phân tử tổng hợp\n加硫ゴム系 - cao su lưu hóa\n立上り部 - phần đứng (chân tường)\n平場部 - phần mặt phẳng\n接合部 - phần nối\n重ね幅 - bề rộng chồng mí\n塩化ビニル樹脂系 - nhựa PVC\n熱風融着 - hàn nhiệt khí nóng\n溶着剤 - keo dán hòa tan\n出入隅角 - góc trong/ngoài\n成形役物 - phụ kiện định hình\nエチレン酢酸ビニル樹脂系 - nhựa EVA\n密着工法 - phương pháp dán chặt\n接着工法 - phương pháp dán\n非加硫系ゴムシート - tấm cao su chưa lưu hóa",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "合成高分子系ルーフィングシート防水に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "加硫ゴム系シート防水の接着工法において、立上り部と平場部の接合部のシートの重ね幅は150mm以上とした。",
+            "塩化ビニル樹脂系シート防水の接着工法において、シート相互を熱風融着で接合した。",
+            "塩化ビニル樹脂系シート防水の接着工法において、出入隅角の処理は、シートの張付け前に成形役物を張り付けた。",
+            "エチレン酢酸ビニル樹脂系シート防水の密着工法において、平場部の接合部のシートの重ね幅は、幅方向、長手方向とも100mm以上とした。"
+          ],
+          "answer": "3",
+          "explanation": "合成高分子系ルーフィングシート防水に関する記述について解説します。\n\n選択肢1. 加硫ゴム系シート防水の接着工法において、立上り部と平場部の接合部のシートの重ね幅は150mm以上とした。\n加硫ゴム系シート防水は、合成高分子ルーフィング防水の一つで、エチレンプロピレンゴムやブチルゴムを成分としたシートを接着剤で下地に貼り付けて防水層を形成する工法です。加硫ゴム系シート防水接着工法において、立上り部と平場部の接合部のシートの重ね幅は150mm以上で適当です。この重ね幅は、防水性能を確保するために重要であり、接合部からの水の浸入を防ぐために設けられています。十分な重ね幅を確保することで、シート同士の接着が強固になり、長期にわたって防水効果を維持することができます。加硫ゴム系シートの場合、平場部の接合重ね幅は100mm以上、立ち上がり部と平場部の重ね幅は150mm以上です。\n\n選択肢2. 塩化ビニル樹脂系シート防水の接着工法において、シート相互を熱風融着で接合した。\n熱風融着は、塩化ビニル樹脂系シートの接合部を熱風を用いて溶かし、一体化させる方法です。これにより、シート同士が強固に接合され、水密性が高まります。熱風融着は、特にジョイント部の信頼性を高めるために重要です。塩化ビニル樹脂系シート相互の接合部は、熱風融着または接着剤により行います。塩化ビニル樹脂系シートの接合部重ね幅は幅方向・長手方向ともに40mm以上です。よってこの記述は適当です。\n\n選択肢3. 塩化ビニル樹脂系シート防水の接着工法において、出入隅角の処理は、シートの張付け前に成形役物を張り付けた。\n塩化ビニル樹脂系シート防水の接着工法において、出入隅角の処理は、シートの張付け後に成形役物を張り付けます。加硫ゴム系シート防水では、シートの張付け前に、出隅角に非加硫系ゴムシートを増し張りします。よってこの記述は不適当です。\n\n選択肢4. エチレン酢酸ビニル樹脂系シート防水の密着工法において、平場部の接合部のシートの重ね幅は、幅方向、長手方向とも100mm以上とした。\nエチレン酢酸ビニル樹脂系シート防水の密着工法において、平場部の接合部のシートの重ね幅は、幅方向、長手方向とも100mm以上で施工します。浮きが出てしまった部分は接着剤等を充填します。よってこの記述は適当です。",
+          "studyContent": "防水工事に関する問題の出題傾向は、以下のようなポイントが挙げられます。\n・防水材料の種類と特性：各種防水材（加硫ゴム系、塩化ビニル樹脂系、アスファルト系など）の特性や適用範囲について。\n・施工方法：各種防水工法（接着工法、熱風融着、重ね貼りなど）の手順や注意点について。\n・設計・計画：防水工事における設計基準や、施工計画の立案に関する問題。\n・検査と品質管理：防水工事の品質を確保するための検査方法や、施工後の点検手法について。\n・施工現場の安全管理：防水工事における安全対策や、作業環境に関する法律、規則についての知識が求められます。\n・施工不良とその対策：防水工事における代表的な施工不良（剥がれ、漏水、ひび割れなど）と、その原因や対策。\nこれらのポイントを踏まえ、過去問題や模擬試験を通じて、具体的な出題傾向を確認しながら学習を進めることが重要です。シートの種類で施工方法が変わるので、正確に覚えるようにしましょう。",
+          "question_vi": "Trong các mô tả về phòng thấm bằng màng cao phân tử tổng hợp, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương pháp dán cho màng cao su lưu hóa: bề rộng chồng mí ở chỗ nối giữa phần đứng và phần phẳng ≥ 150 mm.",
+            "Phương pháp dán cho màng PVC: nối các tấm bằng hàn nhiệt khí nóng.",
+            "Phương pháp dán cho màng PVC: xử lý góc trong/ngoài bằng cách dán phụ kiện định hình TRƯỚC khi dán màng.",
+            "Phương pháp dán chặt cho màng EVA: bề rộng chồng mí ở phần phẳng theo cả phương rộng và phương dài ≥ 100 mm."
+          ],
+          "explanation_vi": "Giải thích bài tập về phòng thấm bằng màng cao phân tử tổng hợp.\n\nLựa chọn 1. Phương pháp dán cho màng cao su lưu hóa.\nMàng phòng thấm cao su lưu hóa là một loại trong họ màng cao phân tử tổng hợp; dùng tấm có thành phần là cao su EPDM hoặc butyl, dán bằng keo lên lớp nền tạo lớp phòng thấm. Trong phương pháp dán, bề rộng chồng mí ở chỗ nối phần đứng × phẳng ≥ 150 mm là phù hợp. Bề rộng này giúp ngăn nước thấm từ chỗ nối; đủ rộng để các tấm dán chắc và duy trì hiệu quả phòng thấm lâu dài. Với cao su lưu hóa: phần phẳng ≥ 100 mm; phần đứng × phẳng ≥ 150 mm. Đúng.\n\nLựa chọn 2. Phương pháp dán cho màng PVC: nối tấm bằng hàn nhiệt khí nóng.\nHàn nhiệt khí nóng là làm nóng chảy chỗ nối tấm PVC để hợp nhất hai tấm. Nhờ đó các tấm dán chắc với nhau, tăng độ kín nước. Hàn nhiệt khí nóng đặc biệt quan trọng để tăng độ tin cậy ở chỗ nối. Chỗ nối các tấm PVC dùng hàn nhiệt khí nóng hoặc keo dán hòa tan. Bề rộng chồng mí PVC ≥ 40 mm theo cả phương rộng và dài. Đúng.\n\nLựa chọn 3. Phương pháp dán cho màng PVC: xử lý góc bằng cách dán phụ kiện định hình TRƯỚC khi dán màng.\nVới màng PVC, phụ kiện định hình ở góc trong/ngoài được dán SAU khi dán màng. (Với cao su lưu hóa thì TRƯỚC khi dán màng, người ta dán tăng cường bằng tấm cao su CHƯA lưu hóa tại góc.) → SAI.\n\nLựa chọn 4. Phương pháp dán chặt cho màng EVA.\nVới phương pháp dán chặt cho màng EVA, bề rộng chồng mí ở phần phẳng ≥ 100 mm theo cả phương rộng và dài. Nếu phát sinh chỗ bong cần trám keo dán bổ sung. Đúng.",
+          "studyContent_vi": "Khuynh hướng đề thi về công tác phòng thấm gồm các điểm sau:\n・Chủng loại và đặc tính vật liệu phòng thấm: đặc tính và phạm vi áp dụng của các loại (cao su lưu hóa, PVC, asphalt, v.v.).\n・Phương pháp thi công: trình tự và lưu ý của các phương pháp (dán, hàn nhiệt khí nóng, dán chồng, v.v.).\n・Thiết kế / lập kế hoạch: tiêu chuẩn thiết kế và lập kế hoạch thi công phòng thấm.\n・Kiểm tra và quản lý chất lượng: phương pháp kiểm tra để đảm bảo chất lượng và kiểm tra sau thi công.\n・Quản lý an toàn tại công trường: biện pháp an toàn, luật và quy định về môi trường làm việc.\n・Lỗi thi công và biện pháp xử lý: các lỗi điển hình (bong, dột, nứt) và nguyên nhân, cách xử lý.\nLuyện qua đề cũ để nắm khuynh hướng. Phương pháp thi công thay đổi theo loại màng — cần nhớ chính xác."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 屋根工事",
+      "vocabulary": "長尺亜鉛鉄板葺 - lợp tôn kẽm dài\n塗装溶融亜鉛めっき鋼板 - tôn mạ kẽm nhúng nóng sơn\nドリリングタッピンねじ - vít taro tự khoan\nステンレス鋼釘 - đinh inox\n心木なし瓦棒葺 - lợp tôn sống không có gỗ lõi\n通し吊子 - thanh kẹp xuyên suốt\n平座金 - vòng đệm phẳng\n下葺材 - lớp lót\n野地板 - ván nền mái\n鉄骨母屋 - xà gồ thép\n横葺 - lợp ngang\n継手 - mối nối\n千鳥 - bố trí so le\n平葺 - lợp phẳng\n上はぜ - mối ghép trên\n下はぜ - mối ghép dưới\n折返し幅 - bề rộng gập\n毛細管現象 - hiện tượng mao dẫn",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "長尺亜鉛鉄板葺に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "塗装溶融亜鉛めっき鋼板を用いた際の留付け用のドリリングタッピンねじは、亜鉛めっき製品を使用した。",
+            "心木なし瓦棒葺の通し吊子は、平座金を付けたドリリングタッピンねじで、下葺材、野地板を貫通させて鉄骨母屋に固定した。",
+            "横葺の葺板の継手位置は、縦に一直線状とならないように、千鳥に配置した。",
+            "平葺の葺板の上はぜと下はぜは、折返し幅を同寸法とした。"
+          ],
+          "answer": "4",
+          "explanation": "長尺亜鉛鉄板葺に関する記述に付いての問題を解説していきます。\n\n選択肢1. 塗装溶融亜鉛めっき鋼板を用いた際の留付け用のドリリングタッピンねじは、亜鉛めっき製品を使用した。\n塗装溶融亜鉛めっき鋼板を用いた金属板葺きの留めつけ用釘類は、溶融亜鉛めっき釘もしくはステンレス鋼釘とするため、この記述は適当です。亜鉛メッキ製を使用することで、さびや腐食を発生させません。\n\n選択肢2. 心木なし瓦棒葺の通し吊子は、平座金を付けたドリリングタッピンねじで、下葺材、野地板を貫通させて鉄骨母屋に固定した。\nドリリングタッピンねじは、下葺材や野地板を貫通させて鉄骨母屋に直接固定するため、しっかりとした固定力が得られます。平座金を使用することで、ねじの締結時に荷重が広がり、固定部分の破損や板の損傷を防ぐ役割を果たします。心木なし瓦棒葺の通し吊子は、通し吊子をマーキングに合わせて、平座金を付けたドリリングタッピンねじで、下葺材、野地板を貫通させて鉄骨母屋に固定します。よってこの記述は適当です。\n\n選択肢3. 横葺の葺板の継手位置は、縦に一直線状とならないように、千鳥に配置した。\n設問の通り、横葺の葺板の継手位置は、一文字継ぎ、目違い継ぎ、廻し継ぎとし、一直線状となる直接継ぎは排水性が悪いため施工しません。よってこの記述は適当です。\n\n選択肢4. 平葺の葺板の上はぜと下はぜは、折返し幅を同寸法とした。\n平葺（一文字葺）の葺板は、上はぜと下はぜの折り返し幅を同じにしません。目安として、上はぜは15mm程度、下はぜは18mm程度とします。これは雨水の毛細管現象（隙間の小さい場所に雨水が入り込んだ際、少量の水量で雨水が上昇すること）による雨漏れ等を防ぐためです。よってこの記述は不適当です。",
+          "studyContent": "折板屋根工事の出題傾向として：\n・材料の特性：長尺亜鉛鉄板の材質や特性（耐久性、耐腐食性など）についての理解が求められます。\n・施工方法：長尺亜鉛鉄板葺の具体的な施工手順や注意点、施工に必要な工具や機材についての問題が出題されます。\n・取り付け技術：瓦棒葺や縦葺き、横葺きなどの取り付け方法や、それぞれの適用場面について理解していることが求められます。\n・接合部の処理：つなぎ目や接合部の処理方法、特に防水処理に関する問題が出ることが多いです。\n施工の流れと工法を理解しましょう。この分野では、覚えにくい用語が出てくるので、画像や写真などを参考にイメージで覚えると記憶しやすくなります。",
+          "question_vi": "Trong các mô tả về lợp tôn kẽm dài, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi dùng tôn mạ kẽm nhúng nóng sơn, vít taro tự khoan dùng để cố định được dùng loại sản phẩm mạ kẽm.",
+            "Thanh kẹp xuyên suốt của lợp tôn sống không có gỗ lõi được cố định vào xà gồ thép bằng vít taro tự khoan có vòng đệm phẳng, xuyên qua lớp lót và ván nền mái.",
+            "Vị trí mối nối tấm tôn lợp ngang được bố trí so le, không tạo thành đường thẳng theo phương dọc.",
+            "Mối ghép trên và mối ghép dưới của tấm tôn lợp phẳng có bề rộng gập BẰNG nhau."
+          ],
+          "explanation_vi": "Giải thích bài tập về lợp tôn kẽm dài.\n\nLựa chọn 1. Vít taro tự khoan loại mạ kẽm.\nVới lợp kim loại dùng tôn mạ kẽm nhúng nóng sơn, đinh và vít cố định là loại đinh mạ kẽm nhúng nóng hoặc đinh inox. Dùng sản phẩm mạ kẽm để không gỉ và ăn mòn. Đúng.\n\nLựa chọn 2. Thanh kẹp xuyên suốt của lợp tôn sống không có gỗ lõi.\nVít taro tự khoan xuyên qua lớp lót và ván nền mái, cố định trực tiếp vào xà gồ thép, tạo lực giữ chắc chắn. Việc dùng vòng đệm phẳng giúp phân tán lực siết, tránh hỏng chỗ cố định và rách tấm tôn. Theo dấu đã đánh, dùng vít taro tự khoan có vòng đệm phẳng để cố định thanh kẹp xuyên suốt vào xà gồ thép qua lớp lót và ván nền. Đúng.\n\nLựa chọn 3. Vị trí mối nối lợp ngang bố trí so le.\nVị trí mối nối tấm tôn lợp ngang phải dùng kiểu nối chữ nhất (一文字), nối lệch (目違い), nối vòng (廻し継ぎ); không nối thẳng theo phương dọc vì thoát nước kém. Đúng.\n\nLựa chọn 4. Mối ghép trên và mối ghép dưới của tấm tôn lợp phẳng có bề rộng gập BẰNG nhau.\nVới lợp phẳng (一文字葺), KHÔNG để bề rộng gập của mối ghép trên và dưới bằng nhau. Tham khảo: mối ghép trên ≈ 15 mm, mối ghép dưới ≈ 18 mm. Quy định này nhằm ngăn dột do hiện tượng mao dẫn (nước mưa lọt vào khe hẹp, do lực mao dẫn nước dâng lên dù lượng ít). → SAI.",
+          "studyContent_vi": "Khuynh hướng đề về lợp mái tôn:\n・Đặc tính vật liệu: hiểu vật liệu và đặc tính của tôn kẽm dài (độ bền, chống ăn mòn, v.v.).\n・Phương pháp thi công: trình tự thi công cụ thể, lưu ý, dụng cụ và thiết bị cần thiết.\n・Kỹ thuật lắp đặt: cách lắp các kiểu (tôn sống, lợp đứng, lợp ngang), phạm vi áp dụng.\n・Xử lý mối nối: cách xử lý chỗ nối và mối ghép, đặc biệt là chống thấm.\nNắm được trình tự và phương pháp thi công. Lĩnh vực này có nhiều thuật ngữ khó nhớ — hãy dùng hình ảnh để dễ hình dung và ghi nhớ."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 内装工事",
+      "vocabulary": "軽量鉄骨壁下地 - khung xương thép nhẹ vách\n間仕切壁 - vách ngăn\n出入口開口部 - ô cửa ra vào\n補強材 - thanh gia cường\n軽量鉄骨天井下地 - khung xương thép nhẹ trần\nランナ - ray (runner)\nスタッド - thanh đứng (stud)\n区分記号 - mã phân loại\nスペーサ - thanh cữ (spacer)\nコンクリート壁 - vách bê tông\n打込みピン - đinh đóng\n梁下 - dưới dầm\nスラブ下 - dưới sàn",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "軽量鉄骨壁下地に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "間仕切壁の出入口開口部の縦の補強材は、上端部を軽量鉄骨天井下地に取り付けたランナに固定した。",
+            "スタッドの高さが4.5mであったため、区分記号90形のスタッドを用いた。",
+            "スペーサは、スタッドの端部を押さえ、間隔600mm程度に留め付けた。",
+            "コンクリート壁に添え付くスタッドは、上下のランナに差し込み、コンクリート壁に打込みピンで固定した。"
+          ],
+          "answer": "1",
+          "explanation": "軽量鉄骨壁下地に関する記述の問題を解説していきます。\n\n選択肢1. 間仕切壁の出入口開口部の縦の補強材は、上端部を軽量鉄骨天井下地に取り付けたランナに固定した。\n間仕切壁の出入口開口部の縦の補強材は、上端部を軽量鉄骨天井下地に取り付けたランナに固定するのではなく、上部は梁下もしくはスラブ下に固定とします。床から梁下またはスラブ下までの長さとします。もし、上部ランナーが軽量鉄骨天井下地に取り付け可能な場合も、補強材は梁下またはスラブ下まで伸ばします。よってこの記述は不適当です。\n\n選択肢2. スタッドの高さが4.5mであったため、区分記号90形のスタッドを用いた。\nスタッドの高さが4.5mの場合、区分記号90形のスタッドを使用するのは適切です。90形のスタッドは4mを超え4.5m以下の場合に使用されるため、スタッドの高さが4.5mの場合、90形のスタッドを使用します。よってこの記述は適当です。\n\n選択肢3. スペーサは、スタッドの端部を押さえ、間隔600mm程度に留め付けた。\nスペーサは、スタッドの端部を押さえ、間隔600mm程度に留め付けます。よってこの記述は適当です。\n\n選択肢4. コンクリート壁に添え付くスタッドは、上下のランナに差し込み、コンクリート壁に打込みピンで固定した。\nコンクリート壁に添え付くスタッドは、上下のランナに差し込み、コンクリート壁に打込みピンで固定します。よってこの記述は適当です。",
+          "studyContent": "軽量鉄骨壁下地に関する問題の出題傾向は以下のようなポイントがあります。\n・材料と規格：軽量鉄骨の種類や特性、使用される材料の規格について。スタッドやランナの仕様、厚さ、強度について。\n・施工方法：スタッドの取り付け方法や間隔、固定方法について。具体的な施工手順や注意点についての理解が重要です。\n・耐震性・耐火性：軽量鉄骨壁下地の設計における耐震性や耐火性に関する知識も重要です。基準や規定についての理解が求められることがあります。\n軽量鉄骨下地は、天井の下地としても用いられます。ランナー、スタッド、スペーサーなど数値を覚える項目が多いので、混乱しないようにしましょう。",
+          "question_vi": "Trong các mô tả về khung xương thép nhẹ vách, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Thanh gia cường đứng tại ô cửa của vách ngăn: đầu trên được cố định vào ray (runner) gắn trên khung xương thép nhẹ trần.",
+            "Vì chiều cao thanh đứng là 4,5 m nên dùng thanh đứng mã phân loại 90.",
+            "Spacer được lắp giữ đầu thanh đứng, khoảng cách khoảng 600 mm.",
+            "Thanh đứng áp vào vách bê tông được lắp vào ray trên/dưới và cố định vào vách bê tông bằng đinh đóng."
+          ],
+          "explanation_vi": "Giải thích bài tập về khung xương thép nhẹ vách.\n\nLựa chọn 1. Thanh gia cường đứng tại ô cửa.\nThanh gia cường đứng tại ô cửa của vách ngăn KHÔNG được cố định đầu trên vào ray của khung xương thép nhẹ trần; thay vào đó, phần trên phải được cố định vào dưới dầm hoặc dưới sàn. Chiều dài từ sàn đến dưới dầm/sàn. Ngay cả khi ray trên có thể bắt vào khung xương trần, thanh gia cường vẫn phải kéo dài đến dưới dầm hoặc dưới sàn. → SAI.\n\nLựa chọn 2. Chiều cao thanh đứng 4,5 m → dùng mã 90.\nKhi chiều cao thanh đứng là 4,5 m, dùng mã 90 là phù hợp. Mã 90 dùng cho chiều cao > 4 m và ≤ 4,5 m. → Đúng.\n\nLựa chọn 3. Spacer khoảng cách ~600 mm.\nSpacer giữ đầu thanh đứng, lắp với khoảng cách khoảng 600 mm. Đúng.\n\nLựa chọn 4. Thanh đứng áp vách bê tông.\nThanh đứng áp vào vách bê tông được lắp vào ray trên/dưới và cố định vào vách bê tông bằng đinh đóng. Đúng.",
+          "studyContent_vi": "Khuynh hướng đề về khung xương thép nhẹ vách:\n・Vật liệu và quy cách: chủng loại và đặc tính của thép nhẹ, quy cách vật liệu; quy cách, chiều dày, cường độ của thanh đứng và ray.\n・Phương pháp thi công: cách lắp, khoảng cách, cách cố định thanh đứng. Quan trọng là hiểu trình tự và lưu ý cụ thể.\n・Kháng chấn / chống cháy: kiến thức về kháng chấn và chống cháy trong thiết kế khung xương thép nhẹ vách. Cần hiểu tiêu chuẩn và quy định.\nKhung xương thép nhẹ cũng được dùng làm khung trần. Có nhiều con số cần nhớ (ray, thanh đứng, spacer, v.v.) — cần học cẩn thận tránh nhầm lẫn."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 塗装工事",
+      "vocabulary": "防水形合成樹脂エマルション系複層仕上塗材 - vữa phun nhiều lớp gốc nhũ tương nhựa tổng hợp dạng phòng thấm\n防水形複層塗材E - vữa phòng thấm dạng E (đa lớp)\nプレキャストコンクリート - bê tông đúc sẵn (PC)\n下地調整 - chuẩn bị bề mặt\n下塗材 - lớp lót\n合成樹脂エマルションシーラー - keo sealer nhũ tương nhựa tổng hợp\nALCパネル - tấm ALC\n下地調整材C-1 - vữa chuẩn bị bề mặt C-1\n主材 - vật liệu chính\n基層塗り - lớp nền\n模様塗り - lớp tạo họa tiết\nゆず肌状 - dạng vỏ chanh\nローラー塗り - thi công lăn rulô\nだれ - chảy nhỏ giọt\nピンホール - lỗ kim",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "防水形合成樹脂エマルション系複層仕上塗材（防水形複層塗材E）仕上げに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "プレキャストコンクリート面の下地調整において、仕上塗材の下塗材で代用ができたため、合成樹脂エマルションシーラーを省略した。",
+            "屋外に面するALCパネル面の下地調整において、合成樹脂エマルションシーラーを塗り付けた上に、下地調整材C−1を塗り付けた。",
+            "主材の基層塗りは、1.7kg／m2を1回塗りとし、下地を覆うように塗り付けた。",
+            "主材の模様塗りは、1.0kg／m2を1回塗りとし、ローラー塗りによりゆず肌状に仕上げた。"
+          ],
+          "answer": "3",
+          "explanation": "防水形合成樹脂エマルション系複層仕上塗材（防水形複層塗材E）仕上げに関する記述に関する問題について解説します。\n\n選択肢1. プレキャストコンクリート面の下地調整において、仕上塗材の下塗材で代用ができたため、合成樹脂エマルションシーラーを省略した。\nプレキャストコンクリート面の下地調整において、仕上塗材の下塗材で代用ができれば、合成樹脂エマルションシーラーを省略して問題ありません。よってこの記述は適当です。\n\n選択肢2. 屋外に面するALCパネル面の下地調整において、合成樹脂エマルションシーラーを塗り付けた上に、下地調整材C−1を塗り付けた。\n屋外に面するALCパネル面の下地調整において、合成樹脂エマルションシーラーを塗り付けた上に、下地調整材C−1を塗り付ける施工は正しいです。ALCは塗装の際、表面の材質が塗装の吸い込み強く色むらが出やすいため、C-1の下地処理が必要となります。よってこの記述は適当です。\n\n選択肢3. 主材の基層塗りは、1.7kg／m2を1回塗りとし、下地を覆うように塗り付けた。\n主材の基層塗りは2回とし、基層塗りは、1.7kg／m2以上とし、塗り残しの無いようにします。だれ、ピンホール、塗り残しなどがないように、下地を覆うように施工します。よってこの記述は不適当です。\n\n選択肢4. 主材の模様塗りは、1.0kg／m2を1回塗りとし、ローラー塗りによりゆず肌状に仕上げた。\n主材の模様塗りは、1.0kg／m2を1回塗りとし、ローラー塗りによりゆず肌状に仕上げます。見本の模様通りとなるように施工します。ゆず肌状に仕上げる場合、0.6～1.2kg／m2で一回塗りとします。よってこの記述は適当です。",
+          "studyContent": "防水形合成樹脂エマルション系複層仕上塗材（防水形複層塗材E）に関する記述問題の出題傾向は以下のようなポイントです。\n・材料の特性：防水形合成樹脂エマルションの化学的特性や物理的特性について、耐候性、柔軟性、耐水性などの特性について。\n・施工手順：複層仕上げの具体的な施工手順や工程について、各層の塗布方法や乾燥時間、重ね塗りの間隔などが問われることが多いです。\n・下地処理：適切な下地処理の方法や注意点について、下地の種類や状態に応じた処理方法や、使用する下地調整材についての問題が出題されることがあります。\n防水形複層塗材Eは下地への密着性・耐久性に優れています。細かい数値や塗装の手順など、覚える箇所が多いので繰り返し確認するようにしましょう。",
+          "question_vi": "Trong các mô tả về vữa phòng thấm đa lớp gốc nhũ tương nhựa tổng hợp (loại E), đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Bề mặt bê tông đúc sẵn: vì lớp lót của vữa hoàn thiện có thể thay thế, đã lược bỏ keo sealer nhũ tương nhựa tổng hợp.",
+            "Bề mặt tấm ALC ngoài trời: sau khi quét keo sealer nhũ tương nhựa tổng hợp, quét lớp vữa chuẩn bị bề mặt C-1.",
+            "Lớp nền của vật liệu chính: 1,7 kg/m² thi công 1 LẦN, phủ kín bề mặt.",
+            "Lớp tạo họa tiết của vật liệu chính: 1,0 kg/m² thi công 1 lần, lăn rulô thành dạng vỏ chanh."
+          ],
+          "explanation_vi": "Giải thích bài tập về vữa phòng thấm đa lớp loại E.\n\nLựa chọn 1. Bề mặt bê tông đúc sẵn: lược bỏ sealer.\nKhi chuẩn bị bề mặt PC, nếu lớp lót của vữa hoàn thiện có thể thay thế được thì lược bỏ keo sealer nhũ tương nhựa tổng hợp cũng không sao. Đúng.\n\nLựa chọn 2. Bề mặt tấm ALC ngoài trời: sealer → C-1.\nKhi chuẩn bị bề mặt tấm ALC ngoài trời, quét keo sealer nhũ tương nhựa tổng hợp rồi quét lớp C-1 là phương pháp đúng. ALC khi sơn dễ hút sơn không đều, gây loang màu, nên cần xử lý C-1. Đúng.\n\nLựa chọn 3. Lớp nền: 1,7 kg/m² thi công 1 lần.\nLớp nền của vật liệu chính phải thi công 2 LẦN, với tổng ≥ 1,7 kg/m², phủ kín không bỏ sót. Thi công sao cho không có hiện tượng chảy nhỏ giọt, lỗ kim hay bỏ sót, phủ kín bề mặt. → SAI.\n\nLựa chọn 4. Lớp họa tiết: 1,0 kg/m² × 1 lần, lăn rulô vỏ chanh.\nLớp tạo họa tiết của vật liệu chính: 1,0 kg/m² × 1 lần, lăn rulô tạo dạng vỏ chanh, đúng như mẫu. Khi tạo dạng vỏ chanh: 0,6–1,2 kg/m² × 1 lần. Đúng.",
+          "studyContent_vi": "Khuynh hướng đề về vữa phòng thấm đa lớp loại E:\n・Đặc tính vật liệu: đặc tính hoá lý của nhũ tương nhựa tổng hợp phòng thấm — kháng thời tiết, dẻo, kháng nước, v.v.\n・Trình tự thi công: trình tự cụ thể của thi công đa lớp — cách thi công từng lớp, thời gian khô, khoảng cách lớp.\n・Xử lý bề mặt: phương pháp và lưu ý xử lý bề mặt theo loại nền và tình trạng nền; vật liệu xử lý dùng.\nVữa phòng thấm loại E có độ bám và độ bền tốt với nền. Có nhiều con số và bước nhỏ — cần ôn nhiều lần."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 建具工事",
+      "vocabulary": "アルミニウム製建具 - cửa nhôm\n外部建具 - cửa ngoài\n充填モルタル - vữa chèn\n除塩 - khử muối\nNaCl 換算 - quy đổi NaCl\n海砂 - cát biển\n建具枠 - khung cửa\nアンカー - bu lông neo\n水切り - tấm chắn nước\n下枠 - khung dưới\n取合い - vị trí tiếp giáp\nシーリング材 - vật liệu trám khe\n隅部 - phần góc\n突付け - đối đầu\n小ねじ - vít nhỏ\nシート状の防水材 - vật liệu chống thấm dạng tấm",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "アルミニウム製建具工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "外部建具周囲の充填モルタルは、NaCl 換算0.04％（質量比）以下まで除塩した海砂を使用した。",
+            "建具枠に付くアンカーは、両端から逃げた位置にあるアンカーから、間隔を600mmで取り付けた。",
+            "水切りと下枠との取合いは、建具枠回りと同一のシーリング材を使用した。",
+            "建具の組立てにおいて、隅部の突付け小ねじ締め部分にはシーリング材を充填した。"
+          ],
+          "answer": "2",
+          "explanation": "アルミニウム製建具工事に関する記述問題について、解説します。\n\n選択肢1. 外部建具周囲の充填モルタルは、NaCl 換算0.04％（質量比）以下まで除塩した海砂を使用した。\n海砂には塩分が含まれるため、コンクリートやモルタルの劣化を引き起こす可能性があります。NaCl換算0.04％以下の基準は、耐久性を確保するための重要な指標です。外部建具周囲の充填モルタルは、海砂を使用する場合、NaCl 換算0.04％（質量比）以下まで除塩しなければなりません。よってこの記述は適当です。\n\n選択肢2. 建具枠に付くアンカーは、両端から逃げた位置にあるアンカーから、間隔を600mmで取り付けた。\n建具枠に付くアンカーは、開口部から150mm内外を端部とし、中間は500mm内外の間隔とします。建具枠のアンカーは、枠を確実に固定するため、間隔は500mm以下で取り付けます。よってこの記述は不適当です。\n\n選択肢3. 水切りと下枠との取合いは、建具枠回りと同一のシーリング材を使用した。\n建具枠回りと同じシーリング材を使用することで、材料の特性や性能が一致し、全体の防水性や気密性を向上させることができます。水切りと下枠との取合いは、建具枠回りと同一のシーリング材を使用します。よってこの記述は適当です。\n\n選択肢4. 建具の組立てにおいて、隅部の突付け小ねじ締め部分にはシーリング材を充填した。\nシーリング材を充填することで、隅部からの水の侵入を防ぎ、建具の耐久性を向上させることができます。特に外部に面する部分では、雨水などの影響を受けやすいため、重要です。建具の組立てにおいて、隅部の突付け小ねじ締め部分には、シーリング材の充填もしくはシート状の防水材を使用します。よってこの記述は適当です。",
+          "studyContent": "アルミニウム製建具工事に関する記述問題では、以下のようなポイントがよく出題されます。\n・材料特性：アルミニウムの物理的特性（軽量性、耐腐食性、強度など）や、他の材料との比較について。\n・施工方法：アルミニウム製建具の設置手順や、取り付けに関する具体的な方法（シーリング、固定方法、調整方法など）について。\n・ジョイントと接合部：アルミニウム建具のジョイント部分や接合部の処理方法、シーリング材の使用についての知識が求められます。特に、防水性や気密性を確保するための施工ポイントが重要です。\nアルミニウム建具は一般的に窓に利用されることが多いです。この分野では、他にもシャッター、サッシの問題など頻出問題があるので、併せて確認しておきましょう。",
+          "question_vi": "Trong các mô tả về thi công cửa nhôm, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Vữa chèn quanh cửa ngoài: dùng cát biển đã khử muối đến mức ≤ 0,04% NaCl (theo khối lượng).",
+            "Bu lông neo trên khung cửa: từ bu lông ở vị trí lùi vào khỏi hai đầu, các bu lông neo được lắp với khoảng cách 600 mm.",
+            "Vị trí tiếp giáp giữa tấm chắn nước và khung dưới: dùng cùng loại vật liệu trám khe với chu vi khung cửa.",
+            "Trong lắp ráp khung cửa: phần góc nơi đối đầu và siết bằng vít nhỏ được trám vật liệu trám khe."
+          ],
+          "explanation_vi": "Giải thích bài tập về thi công cửa nhôm.\n\nLựa chọn 1. Vữa chèn quanh cửa ngoài.\nCát biển chứa muối nên có thể gây xuống cấp bê tông/vữa. Tiêu chuẩn ≤ 0,04% NaCl là chỉ số quan trọng để đảm bảo độ bền. Khi dùng cát biển cho vữa chèn quanh cửa ngoài, phải khử muối đến ≤ 0,04% NaCl (khối lượng). Đúng.\n\nLựa chọn 2. Bu lông neo khung cửa.\nBu lông neo của khung cửa được bố trí: vị trí đầu cách 2 đầu ô cửa khoảng 150 mm, phần giữa với khoảng cách khoảng 500 mm. Để cố định khung chắc chắn, bu lông neo phải lắp với khoảng cách ≤ 500 mm. → ‘600 mm’ là SAI.\n\nLựa chọn 3. Vị trí tiếp giáp tấm chắn nước × khung dưới.\nDùng cùng loại vật liệu trám khe với chu vi khung cửa giúp đồng nhất đặc tính và hiệu năng, nâng cao tính chống thấm và tính kín gió tổng thể. Vị trí tiếp giáp giữa tấm chắn nước và khung dưới dùng cùng loại vật liệu trám khe với chu vi khung cửa. Đúng.\n\nLựa chọn 4. Trám tại góc đối đầu / vít nhỏ.\nTrám vật liệu trám khe để ngăn nước thấm từ góc, tăng độ bền của khung cửa. Đặc biệt với phần tiếp xúc bên ngoài, dễ bị ảnh hưởng nước mưa nên rất quan trọng. Tại phần góc đối đầu và siết bằng vít nhỏ, có thể trám vật liệu trám khe hoặc dùng vật liệu chống thấm dạng tấm. Đúng.",
+          "studyContent_vi": "Các điểm thường ra trong đề về thi công cửa nhôm:\n・Đặc tính vật liệu: đặc tính vật lý của nhôm (nhẹ, chống ăn mòn, cường độ, v.v.) và so sánh với vật liệu khác.\n・Phương pháp thi công: trình tự lắp đặt cửa nhôm và cách thực hiện cụ thể (trám khe, cố định, điều chỉnh, v.v.).\n・Mối nối và chỗ liên kết: cách xử lý mối nối / chỗ liên kết của cửa nhôm, kiến thức về vật liệu trám khe. Quan trọng là các điểm thi công đảm bảo chống thấm và kín gió.\nCửa nhôm thường dùng cho cửa sổ. Trong lĩnh vực này còn các đề thường gặp về cửa cuốn, sash — ôn tập cùng nhau."
+        }
+      ]
+    }
+  ]
+}
