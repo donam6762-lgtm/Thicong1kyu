@@ -1,0 +1,542 @@
+{
+  "topics": [
+    {
+      "path": "04_仕上施工 / 建具工事",
+      "vocabulary": [
+        "鋼製建具 (こうせいたてぐ) - cửa thép",
+        "両面フラッシュ戸 (りょうめんフラッシュど) - cánh cửa phẳng hai mặt",
+        "表面板 (ひょうめんばん) - tấm mặt cửa",
+        "見込み部 (みこみぶ) - phần cạnh dày của cửa",
+        "たて枠 (たてわく) - khung đứng",
+        "丁番 (ちょうばん) - bản lề",
+        "ピポットヒンジ - bản lề trục xoay",
+        "補強板 (ほきょうばん) - tấm gia cường",
+        "有効開口 (ゆうこうかいこう) - khoảng mở thông thủy"
+      ],
+      "questions": [
+        {
+          "label": "Q36",
+          "question": "鋼製建具に関する記述として、最も不適当なものはどれか。ただし、1枚の戸の有効開口は、幅950mm、高さ2,400mmとする。",
+          "choices": [
+            "外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとした。",
+            "外部に面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包んだ。",
+            "たて枠は鋼板製とし、厚さを1.6mmとした。",
+            "丁番やピポットヒンジ等により、大きな力が加わる建具枠の補強板は、厚さを2.3mmとした。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとする。記述は適当。\n選択肢2：外部に面する両面フラッシュ戸の見込み部は、下部を除いた三方（上部および左右）を表面板で包む必要がある。上下部を除いた左右2方とするのは内部建具の仕様であり、外部建具では誤り。よって正解は2。\n選択肢3：たて枠は鋼板製とし、厚さを1.6mmとする。記述は適当。\n選択肢4：丁番やピポットヒンジ等により大きな力が加わる建具枠の補強板は、厚さを2.3mmとする。記述は適当。",
+          "studyContent": "外部に面する両面フラッシュ戸の見込み部は下部を除いた上部・左右の三方を表面板で包む。内部用は上下部を除いた左右2方を包む。ステンレス製建具の鋼板類厚さは、一般部1.5mm、くつずり1.5mm、裏板1.6mm以上、補強板の類2.3mm以上。まとめて覚えておく。",
+          "question_vi": "Trong các mô tả về cửa thép sau đây, mô tả nào KHÔNG phù hợp nhất? Biết khoảng mở thông thủy của một cánh cửa là rộng 950mm, cao 2,400mm.",
+          "choices_vi": [
+            "Tấm mặt cánh cửa phẳng hai mặt phía ngoài làm bằng thép tấm, dày 1.6mm.",
+            "Phần cạnh (見込み部) của cánh cửa phẳng hai mặt phía ngoài được bọc bằng tấm mặt theo hai phía trái-phải (trừ trên và dưới).",
+            "Khung đứng làm bằng thép tấm, dày 1.6mm.",
+            "Tấm gia cường khung cửa tại vị trí bản lề, bản lề trục xoay (chịu lực lớn) dày 2.3mm."
+          ],
+          "explanation_vi": "Đáp án 1: Cánh cửa phẳng hai mặt phía ngoài có tấm mặt thép dày 1.6mm. → Đúng.\nĐáp án 2: Phần cạnh cánh cửa phía NGOÀI phải được bọc theo BA phía (trên, trái, phải - trừ phía dưới). Hai phía trái-phải là quy định cho cửa NỘI THẤT. → SAI. Đáp án đúng là 2.\nĐáp án 3: Khung đứng thép tấm dày 1.6mm. → Đúng.\nĐáp án 4: Tấm gia cường tại vị trí bản lề, bản lề trục xoay dày 2.3mm. → Đúng.",
+          "studyContent_vi": "Cánh cửa phẳng hai mặt phía ngoài: bọc 3 phía (trên + trái + phải, trừ dưới). Cửa nội thất: bọc 2 phía trái-phải (trừ trên + dưới). Cửa thép không gỉ: tấm tổng quát 1.5mm, ngưỡng cửa 1.5mm, tấm lưng ≥1.6mm, tấm gia cường ≥2.3mm."
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / 塗装工事",
+      "vocabulary": [
+        "塗装工事 (とそうこうじ) - thi công sơn",
+        "アクリル樹脂系非水分散形塗料 (アクリルじゅしけいひすいぶんさんがたとりょう) - sơn nhựa acrylic phân tán không nước",
+        "研磨紙 (けんまし) - giấy nhám",
+        "せっこうボード - tấm thạch cao",
+        "合成樹脂エマルションペイント (ごうせいじゅしエマルションペイント) - sơn nhũ tương nhựa tổng hợp",
+        "木材保護塗料 (もくざいほごとりょう) - sơn bảo vệ gỗ",
+        "原液 (げんえき) - dung dịch nguyên (chưa pha)",
+        "希釈 (きしゃく) - pha loãng",
+        "亜鉛めっき鋼面 (あえんめっきこうめん) - bề mặt thép mạ kẽm",
+        "ふっ素樹脂エナメル (ふっそじゅしエナメル) - sơn men nhựa fluor",
+        "変性エポキシ樹脂プライマー (へんせいエポキシじゅしプライマー) - sơn lót epoxy biến tính"
+      ],
+      "questions": [
+        {
+          "label": "Q37",
+          "question": "塗装工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "アクリル樹脂系非水分散形塗料塗りにおいて、中塗りを行う前に研磨紙P220を用いて研磨した。",
+            "せっこうボード面の合成樹脂エマルションペイント塗りにおいて、気温が20℃であったため、中塗り後3時間経過してから、次の工程に入った。",
+            "屋外の木質系素地面の木材保護塗料塗りにおいて、原液を水で希釈し、よく攪拌して使用した。",
+            "亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りにおいて、下塗りに変性エポキシ樹脂プライマーを使用した。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：アクリル樹脂系非水分散形塗料塗りでは、中塗りの前に研磨紙P220～240で研磨する。記述は適当。\n選択肢2：せっこうボード面の合成樹脂エマルションペイント塗りで気温20℃の場合、中塗り後3時間経過してから次の工程に入る。記述は適当。\n選択肢3：屋外の木質系素地面の木材保護塗料塗りは、原液をそのまま使用することが基本であり、水で希釈しない。よって誤りで正解は3。\n選択肢4：亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りの下塗りには、変性エポキシ樹脂プライマーを使用する。記述は適当。",
+          "studyContent": "屋外の木質系素地面の木材保護塗料塗り(WP)はJASS 18 M-307に規定され、原液で使用するのが原則。塗装工事は希釈の有無・気温・経過時間・各塗料の下塗り材を整理して覚える。",
+          "question_vi": "Trong các mô tả về thi công sơn sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi sơn loại sơn nhựa acrylic phân tán không nước, trước khi sơn lớp giữa đã chà nhám bằng giấy nhám P220.",
+            "Khi sơn nhũ tương nhựa tổng hợp lên mặt tấm thạch cao, nhiệt độ là 20℃ nên đã chờ 3 giờ sau lớp sơn giữa rồi mới sang công đoạn tiếp theo.",
+            "Khi sơn sơn bảo vệ gỗ lên bề mặt gỗ ngoài trời, đã pha loãng dung dịch nguyên với nước, khuấy đều rồi sử dụng.",
+            "Khi sơn men nhựa fluor khô ở nhiệt độ thường lên bề mặt thép mạ kẽm, lớp sơn lót sử dụng sơn lót epoxy biến tính."
+          ],
+          "explanation_vi": "Đáp án 1: Trước lớp sơn giữa, chà bằng giấy nhám P220-240. → Đúng.\nĐáp án 2: Mặt thạch cao + sơn nhũ tương, ở 20℃ chờ 3h sau lớp giữa. → Đúng.\nĐáp án 3: Sơn bảo vệ gỗ ngoài trời SỬ DỤNG NGUYÊN DUNG DỊCH, KHÔNG pha loãng với nước. → SAI. Đáp án đúng là 3.\nĐáp án 4: Bề mặt thép mạ kẽm + sơn men fluor, lớp lót dùng primer epoxy biến tính. → Đúng.",
+          "studyContent_vi": "Sơn bảo vệ gỗ ngoài trời (WP) theo JASS 18 M-307: dùng nguyên, không pha loãng. Cần nhớ: có/không pha loãng, nhiệt độ thi công, thời gian chờ, loại sơn lót cho từng nền."
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / ALCパネル工事",
+      "vocabulary": [
+        "ALCパネル - tấm ALC (bê tông khí chưng áp)",
+        "床版敷設筋構法 (しょうばんしきせつきんこうほう) - phương pháp tấm sàn cốt thép trải",
+        "横壁アンカー構法 (よこかべアンカーこうほう) - phương pháp neo tường ngang",
+        "縦壁フットプレート構法 (たてかべフットプレートこうほう) - phương pháp tấm chân cột tường đứng",
+        "目地鉄筋 (めじてっきん) - thép cốt khe nối",
+        "自重受け金物 (じじゅううけかなもの) - phụ kiện đỡ trọng lượng bản thân",
+        "間仕切チャンネル (まじきりチャンネル) - thanh chữ U phân vách",
+        "デッキプレート - tấm tôn sàn (deck plate)",
+        "角座金 (かくざがね) - long đền vuông",
+        "孔あけ加工 (あなあけかこう) - gia công khoan lỗ"
+      ],
+      "questions": [
+        {
+          "label": "Q38",
+          "question": "ALCパネル工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "床版敷設筋構法において、床パネルへの設備配管等の孔あけ加工は1枚当たり1か所とし、主筋の位置を避け、直径100mmの大きさとした。",
+            "横壁アンカー構法において、地震時等における躯体の変形に追従できるよう、ALCパネル積上げ段数3段ごとに自重受け金物を設けた。",
+            "縦壁フットプレート構法において、ALC取付け用間仕切チャンネルをデッキプレート下面の溝方向に取り付ける場合、下地として平鋼をデッキプレート下面にアンカーを用いて取り付けた。",
+            "床版敷設筋構法において、建物周辺部、隅角部等で目地鉄筋により床パネルの固定ができない箇所は、ボルトと角座金を用いて取り付けた。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：床版敷設筋構法における床パネルの孔あけは1枚当たり1か所、主筋を避け、直径は50mm以下とする。直径100mmは大きすぎるため誤り。よって正解は1（ALC協会 ALCパネル取付け構法標準・同解説参照）。\n選択肢2：横壁アンカー構法では、躯体変形に追従できるようALCパネル積上げ段数3～5段ごとに自重受け金物を設ける。記述は適当。\n選択肢3：縦壁フットプレート構法でALC取付け用間仕切チャンネルをデッキプレート下面の溝方向に取り付ける場合、下地として平鋼をアンカーでデッキプレート下面に取り付ける。記述は適当。\n選択肢4：床版敷設筋構法で、建物周辺部・隅角部等で目地鉄筋により床パネル固定ができない箇所はボルトと角座金で取り付ける。記述は適当。",
+          "studyContent": "ALC床パネル穴あけ：1枚あたり1か所、主筋を切断しない範囲で直径50mm以下。横壁アンカー構法の自重受け金物は3～5段ごと。外壁パネル構法も頻出するため整理して覚える。",
+          "question_vi": "Trong các mô tả về thi công tấm ALC sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong phương pháp床版敷設筋: lỗ khoan cho ống thiết bị trên tấm sàn là 1 lỗ/tấm, tránh vị trí cốt thép chính, đường kính 100mm.",
+            "Trong phương pháp横壁アンカー: để chống biến dạng kết cấu khi có động đất, bố trí phụ kiện đỡ trọng lượng cứ mỗi 3 lớp tấm ALC xếp chồng.",
+            "Trong phương pháp縦壁フットプレート: khi lắp thanh chữ U phân vách dùng cho ALC theo phương rãnh dưới tấm tôn sàn, sử dụng thép dẹt làm nền và bắt bằng neo vào mặt dưới tấm tôn sàn.",
+            "Trong phương pháp床版敷設筋: vị trí quanh chu vi và góc công trình mà không cố định được tấm sàn bằng cốt thép khe nối, đã dùng bu lông và long đền vuông để lắp."
+          ],
+          "explanation_vi": "Đáp án 1: Lỗ khoan ALC: 1 lỗ/tấm, tránh cốt thép chính, đường kính ≤ 50mm. 100mm là QUÁ LỚN → SAI. Đáp án đúng là 1.\nĐáp án 2: 横壁アンカー: phụ kiện đỡ trọng lượng mỗi 3-5 lớp. → Đúng.\nĐáp án 3: 縦壁フットプレート với rãnh deck plate: dùng thép dẹt làm nền + neo. → Đúng.\nĐáp án 4: Vị trí biên/góc không gắn được bằng目地鉄筋: dùng bu lông + long đền vuông. → Đúng.",
+          "studyContent_vi": "Khoan lỗ tấm sàn ALC: 1 lỗ/tấm, tránh cốt thép chính, ≤ 50mm. 横壁アンカー: phụ kiện đỡ trọng lượng cứ 3-5 lớp. Cần học thêm các phương pháp lắp tấm ngoài."
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / 改修工事",
+      "vocabulary": [
+        "内装改修工事 (ないそうかいしゅうこうじ) - thi công cải tạo nội thất",
+        "ビニル床シート - tấm sàn vinyl",
+        "下地モルタル (したじモルタル) - vữa lớp nền",
+        "ダイヤモンドカッター - lưỡi cắt kim cương",
+        "合成樹脂塗床 (ごうせいじゅしぬりゆか) - sàn sơn nhựa tổng hợp",
+        "目荒し (めあらし) - làm nhám bề mặt",
+        "防火認定壁紙 (ぼうかにんていかべがみ) - giấy dán tường được chứng nhận chống cháy",
+        "裏打紙 (うらうちがみ) - lớp giấy lót sau",
+        "床タイル (ゆかタイル) - gạch sàn",
+        "ディスクサンダー - máy mài đĩa",
+        "アスベスト - amiăng"
+      ],
+      "questions": [
+        {
+          "label": "Q39",
+          "question": "内装改修工事に関する記述として、最も不適当なものはどれか。ただし、既存部分は、アスベストを含まないものとする。",
+          "choices": [
+            "ビニル床シートの撤去後に既存下地モルタルの浮き部分を撤去する際、健全部分と縁を切るために用いるダイヤモンドカッターの刃の出は、モルタル厚さ以下とした。",
+            "既存合成樹脂塗床面の上に同じ塗床材を塗り重ねる際、接着性を高めるよう、既存仕上げ材の表面を目荒しした。",
+            "防火認定の壁紙の張替えは、既存壁紙の裏打紙を残した上に防火認定の壁紙を張り付けた。",
+            "既存下地面に残ったビニル床タイルの接着剤は、ディスクサンダーを用いて除去した。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：ビニル床シート撤去後に既存下地モルタル浮き部分を撤去する際、健全部分と縁を切るためのダイヤモンドカッターの刃の出はモルタル厚さ以下とする。記述は適当。\n選択肢2：既存合成樹脂塗床面に同じ塗床材を塗り重ねる際は、接着性を高めるため既存仕上げ材表面を目荒しする。記述は適当。\n選択肢3：防火認定の壁紙の張替えは、既存壁紙の裏打紙を完全に撤去して下地基材面を露出させてから張り付ける必要がある。裏打紙を残したまま張り付けると防火材料として認定されない。よって誤りで正解は3。\n選択肢4：既存下地面に残ったビニル床タイルの接着剤はディスクサンダーで除去する。記述は適当。",
+          "studyContent": "改修工事は床仕上げ材ごと（ビニル床シート・合成樹脂塗床材・フローリング・床タイル・床組）に撤去工法が異なる。防火認定壁紙の張替えは裏打紙まで完全撤去が必須。",
+          "question_vi": "Trong các mô tả về thi công cải tạo nội thất sau đây, mô tả nào KHÔNG phù hợp nhất? Giả định phần hiện hữu không chứa amiăng.",
+          "choices_vi": [
+            "Khi tháo dỡ phần vữa nền bê tông bong sau khi đã bóc tấm sàn vinyl, để cách ly với phần còn lành lặn, đã dùng lưỡi cắt kim cương với độ nhô của lưỡi không vượt quá độ dày của lớp vữa.",
+            "Khi sơn chồng cùng loại vật liệu sơn sàn nhựa lên trên mặt sàn sơn nhựa hiện hữu, đã làm nhám bề mặt vật liệu hoàn thiện cũ để tăng độ kết dính.",
+            "Khi dán lại giấy dán tường chống cháy, đã dán lớp giấy chống cháy mới đè lên lớp giấy lót phía sau (裏打紙) còn lại của giấy dán cũ.",
+            "Đã sử dụng máy mài đĩa để loại bỏ keo gạch sàn vinyl còn dính lại trên bề mặt nền hiện hữu."
+          ],
+          "explanation_vi": "Đáp án 1: Độ nhô của lưỡi kim cương ≤ độ dày lớp vữa. → Đúng.\nĐáp án 2: Làm nhám bề mặt cũ để tăng kết dính. → Đúng.\nĐáp án 3: Khi dán lại giấy chống cháy, PHẢI bóc hết lớp裏打紙 cũ, để lộ nền mới được công nhận chống cháy. → SAI. Đáp án đúng là 3.\nĐáp án 4: Loại bỏ keo gạch vinyl bằng máy mài đĩa. → Đúng.",
+          "studyContent_vi": "Cải tạo nội thất: mỗi loại vật liệu sàn (tấm vinyl/sơn nhựa/sàn gỗ công nghiệp/gạch sàn/khung sàn) có phương pháp tháo dỡ khác nhau. Giấy chống cháy: phải bóc hết lớp裏打紙 cũ rồi mới dán lại."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 施工計画",
+      "vocabulary": [
+        "事前調査 (じぜんちょうさ) - khảo sát trước thi công",
+        "公共下水道 (こうきょうげすいどう) - hệ thống thoát nước công cộng",
+        "タワークレーン - cẩu tháp",
+        "電波障害 (でんぱしょうがい) - nhiễu sóng vô tuyến",
+        "ベンチマーク - mốc chuẩn (benchmark)",
+        "コンクリートポンプ車 (コンクリートポンプしゃ) - xe bơm bê tông",
+        "道路使用許可 (どうろしようきょか) - giấy phép sử dụng đường",
+        "道路占用許可 (どうろせんようきょか) - giấy phép chiếm dụng đường",
+        "所轄警察署長 (しょかつけいさつしょちょう) - trưởng đồn cảnh sát quản hạt",
+        "道路管理者 (どうろかんりしゃ) - cơ quan quản lý đường"
+      ],
+      "questions": [
+        {
+          "label": "Q40",
+          "question": "事前調査や準備作業に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "地下水の排水計画に当たり、公共下水道の排水方式の調査を行った。",
+            "タワークレーン設置による電波障害が予想されたため、近隣に対する説明を行って了解を得た。",
+            "ベンチマークは、移動のおそれのない箇所に、相互にチェックできるよう複数か所設けた。",
+            "コンクリートポンプ車を前面道路に設置するため、道路使用許可申請書を道路管理者に提出した。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：地下水の排水計画にあたり、公共下水道の排水方式の調査を行う。記述は適当。\n選択肢2：タワークレーン設置による電波障害が予想される場合は、近隣に説明し了解を得る必要がある。記述は適当。\n選択肢3：ベンチマークは移動のおそれのない箇所に、相互にチェックできるよう複数箇所設ける。記述は適当。\n選択肢4：コンクリートポンプ車を前面道路に設置する場合の道路使用許可申請書は、所轄警察署長に提出する。道路管理者に提出するのは道路占用許可申請。よって誤りで正解は4（道路使用許可は通常1週間前、最長2週間程度で許可される）。",
+          "studyContent": "事前調査には地盤調査・埋設物調査・配管調査・近隣調査等がある。道路使用許可申請は所轄警察署長、道路占用許可申請は道路管理者に提出する点を混同しないよう注意。",
+          "question_vi": "Trong các mô tả về khảo sát trước thi công và công tác chuẩn bị sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi lập kế hoạch thoát nước ngầm, đã khảo sát phương thức thoát nước của hệ thống thoát nước công cộng.",
+            "Do dự đoán có nhiễu sóng do lắp cẩu tháp, đã giải thích và xin sự đồng ý của khu dân cư lân cận.",
+            "Mốc chuẩn (benchmark) được đặt ở vị trí không có nguy cơ dịch chuyển, đặt nhiều điểm để kiểm tra chéo lẫn nhau.",
+            "Để đặt xe bơm bê tông trên đường trước công trình, đã nộp đơn xin phép sử dụng đường (道路使用許可) cho cơ quan quản lý đường (道路管理者)."
+          ],
+          "explanation_vi": "Đáp án 1: Khảo sát hệ thống thoát nước công cộng. → Đúng.\nĐáp án 2: Giải thích cho khu dân cư về nhiễu sóng do cẩu tháp. → Đúng.\nĐáp án 3: Đặt nhiều mốc chuẩn để kiểm tra chéo. → Đúng.\nĐáp án 4: 道路使用許可 phải nộp cho TRƯỞNG ĐỒN CẢNH SÁT QUẢN HẠT (所轄警察署長), KHÔNG phải道路管理者. 道路管理者 chỉ nhận đơn 道路占用許可. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Khảo sát trước thi công gồm: nền đất, vật chôn ngầm, đường ống, lân cận... Phân biệt rõ: 道路使用許可 → cảnh sát quản hạt; 道路占用許可 → cơ quan quản lý đường."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 仮設計画",
+      "vocabulary": [
+        "仮設設備 (かせつせつび) - thiết bị lán trại tạm",
+        "仮設便所 (かせつべんじょ) - nhà vệ sinh tạm",
+        "小便所 (しょうべんじょ) - tiểu tiện",
+        "大便所 (だいべんじょ) - đại tiện",
+        "工事用電気設備 (こうじようでんきせつび) - thiết bị điện thi công",
+        "幹線 (かんせん) - đường dây trục chính",
+        "立上げ (たちあげ) - đường dẫn đứng đi lên",
+        "仮設電力契約 (かせつでんりょくけいやく) - hợp đồng điện tạm",
+        "臨時電力契約 (りんじでんりょくけいやく) - hợp đồng điện tạm thời (ngắn hạn)",
+        "給水設備 (きゅうすいせつび) - thiết bị cấp nước",
+        "工事事務所 (こうじじむしょ) - văn phòng công trường"
+      ],
+      "questions": [
+        {
+          "label": "Q41",
+          "question": "仮設設備の計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "作業員の仮設男性用小便所数は、同時に就業する男性作業員40人以内ごとに1個を設置する計画とした。",
+            "工事用電気設備の建物内幹線の立上げは、上下交通の中心で最終工程まで支障の少ない階段室に計画した。",
+            "仮設電力契約は、工事完了まで変更しない計画とし、短期的に電力需要が増加した場合は、臨時電力契約を併用した。",
+            "仮設の給水設備において、工事事務所の使用水量は、1人1日当たり50Lを見込む計画とした。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：作業員の仮設男性用小便所数は、同時就業男性作業員30人以内ごとに1個を設置する計画とする。40人ごとは誤り。なお男性用大便所は60人以内ごとに1個、女性用便房は20人以内ごとに1個。よって正解は1。\n選択肢2：工事用電気設備の建物内幹線の立上げは、上下交通の中心で最終工程まで支障の少ない階段室に計画する。記述は適当。\n選択肢3：仮設電力契約は工事完了まで変更しない計画とし、短期的に電力需要が増加した場合は臨時電力契約を併用してよい。記述は適当。\n選択肢4：仮設の給水設備において、工事事務所の使用水量は1人1日当たり50Lを見込む。記述は適当。",
+          "studyContent": "仮設便所の設置数：男性用小便所＝30人以内/個、男性用大便所＝60人以内/個、女性用便房＝20人以内/個。工事事務所用水量＝50L/人/日。仮設電力は通常契約＋必要時臨時契約。",
+          "question_vi": "Trong các mô tả về kế hoạch thiết bị lán trại tạm sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Số nhà vệ sinh tiểu tiện tạm cho nam công nhân được lên kế hoạch 1 phòng/40 nam công nhân cùng làm việc.",
+            "Đường dẫn đứng của đường dây trục chính điện thi công trong tòa nhà được bố trí tại buồng cầu thang, là trung tâm giao thông lên xuống và ít vướng đến công đoạn cuối.",
+            "Hợp đồng điện tạm được lập theo kế hoạch không thay đổi đến khi hoàn thành công trình, khi nhu cầu điện tăng đột biến trong ngắn hạn thì sử dụng kết hợp hợp đồng điện tạm thời (臨時電力契約).",
+            "Trong thiết bị cấp nước tạm, lượng nước sử dụng tại văn phòng công trường được tính 50L/người/ngày."
+          ],
+          "explanation_vi": "Đáp án 1: Tiểu tiện nam: 1 phòng cho mỗi 30 NAM công nhân, KHÔNG phải 40. (Đại tiện nam: 60 người/phòng; nữ: 20 người/phòng). → SAI. Đáp án đúng là 1.\nĐáp án 2: Đường điện trục chính đi đứng trong buồng cầu thang. → Đúng.\nĐáp án 3: Hợp đồng điện không đổi + kết hợp臨時 khi cần. → Đúng.\nĐáp án 4: Văn phòng công trường: 50L/người/ngày. → Đúng.",
+          "studyContent_vi": "Số nhà vệ sinh tạm: tiểu tiện nam 1/30 người, đại tiện nam 1/60 người, nữ 1/20 người. Lượng nước văn phòng công trường: 50L/người/ngày."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 材料管理",
+      "vocabulary": [
+        "材料保管 (ざいりょうほかん) - bảo quản vật liệu",
+        "長尺ビニル床シート (ちょうじゃくビニルゆかシート) - tấm sàn vinyl khổ dài",
+        "縦置き (たておき) - đặt đứng",
+        "砂付ストレッチルーフィング - tấm phòng nước co giãn có cát phủ",
+        "ラップ部 (ラップぶ) - phần chồng mí",
+        "フローリング類 (フローリングるい) - các loại ván sàn gỗ",
+        "角材 (かくざい) - thanh gỗ vuông",
+        "木製建具 (もくせいたてぐ) - cửa gỗ",
+        "障子 (しょうじ) - cửa lùa Nhật (giấy)",
+        "襖 (ふすま) - cửa lùa Nhật (vải/giấy dày)",
+        "フラッシュ戸 (フラッシュど) - cánh cửa phẳng",
+        "平積み (ひらづみ) - xếp nằm"
+      ],
+      "questions": [
+        {
+          "label": "Q42",
+          "question": "工事現場における材料の保管に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "長尺のビニル床シートは、屋内の乾燥した場所に直射日光を避けて縦置きにして保管した。",
+            "砂付ストレッチルーフィングは、ラップ部（張付け時の重ね部分）を下に向けて縦置きにして保管した。",
+            "フローリング類は、屋内のコンクリートの床にシートを敷き、角材を並べた上に保管した。",
+            "木製建具は、取付け工事直前に搬入し、障子や襖は縦置き、フラッシュ戸は平積みにして保管した。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：長尺のビニル床シートは屋内の乾燥した場所で直射日光を避けて縦置きにする。記述は適当。\n選択肢2：砂付ストレッチルーフィングは、ラップ部（張付け時の重ね部分）を上に向けて縦置きにし、ラップ部保護のため2段積みは行わない。下向きは誤りで正解は2。\n選択肢3：フローリング類は、屋内のコンクリート床にシートを敷き、角材を並べた上に保管する。記述は適当。\n選択肢4：木製建具は取付け直前に搬入し、障子・襖は縦置き、フラッシュ戸は平積み保管とする。記述は適当。",
+          "studyContent": "材料保管はひっかけ問題が多い。砂付ストレッチルーフィングはラップ部を「上」に向け縦置き・2段積みしない。ビニル床シート・フローリング・木製建具の置き方も覚えておく。",
+          "question_vi": "Trong các mô tả về bảo quản vật liệu tại công trường sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tấm sàn vinyl khổ dài được bảo quản đặt đứng, tránh ánh nắng trực tiếp, ở nơi khô ráo trong nhà.",
+            "Tấm phòng nước co giãn có cát phủ được bảo quản đặt đứng, hướng phần chồng mí (lúc dán) XUỐNG DƯỚI.",
+            "Ván sàn gỗ được bảo quản trên sàn bê tông trong nhà, trải tấm bạt và đặt trên các thanh gỗ vuông.",
+            "Cửa gỗ được vận chuyển đến ngay trước công đoạn lắp đặt; cửa lùa giấy/cửa lùa襖 đặt đứng, cánh cửa phẳng (フラッシュ戸) xếp nằm."
+          ],
+          "explanation_vi": "Đáp án 1: Tấm vinyl khổ dài đặt đứng, tránh nắng. → Đúng.\nĐáp án 2: Tấm 砂付ストレッチルーフィング: phần chồng mí phải hướng LÊN TRÊN (để bảo vệ), KHÔNG xếp 2 lớp chồng. → SAI. Đáp án đúng là 2.\nĐáp án 3: Ván sàn trên thanh gỗ vuông + bạt. → Đúng.\nĐáp án 4: Cửa gỗ: 障子/襖 đứng, フラッシュ戸 nằm. → Đúng.",
+          "studyContent_vi": "Bảo quản vật liệu có nhiều câu đánh lừa. Tấm phòng nước có cát: phần chồng mí HƯỚNG LÊN, đặt đứng, không xếp 2 tầng."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 労働安全衛生法",
+      "vocabulary": [
+        "労働安全衛生法 (ろうどうあんぜんえいせいほう) - Luật An toàn vệ sinh lao động",
+        "労働基準監督署長 (ろうどうきじゅんかんとくしょちょう) - trưởng cơ quan giám sát lao động",
+        "都道府県労働局長 (とどうふけんろうどうきょくちょう) - giám đốc cục lao động cấp tỉnh",
+        "共同企業体 (きょうどうきぎょうたい) - liên danh nhà thầu (JV)",
+        "つり上げ荷重 (つりあげかじゅう) - tải trọng nâng",
+        "石綿 (せきめん) - amiăng",
+        "計画届 (けいかくとどけ) - bản kế hoạch khai báo",
+        "設置届 (せっちとどけ) - bản khai báo lắp đặt"
+      ],
+      "questions": [
+        {
+          "label": "Q43",
+          "question": "建築工事に係る届出に関する記述として、「労働安全衛生法」上、誤っているものはどれか。",
+          "choices": [
+            "高さが31mを超える建築物を建設する場合、その計画を当該仕事の開始の日の14日前までに、労働基準監督署長に届け出なければならない。",
+            "共同連帯として請け負う際の共同企業体代表者届を提出する場合、当該届出に係る仕事の開始の日の14日前までに、労働基準監督署長を経由して都道府県労働局長に届け出なければならない。",
+            "つり上げ荷重が3t以上であるクレーンの設置届を提出する場合、その計画を当該工事の開始の日の14日前までに、労働基準監督署長に届け出なければならない。",
+            "耐火建築物に吹き付けられた石綿を除去する場合、その計画を当該仕事の開始の日の14日前までに、労働基準監督署長に届け出なければならない。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：高さ31mを超える建築物を建設する場合は、仕事開始日の14日前までに労働基準監督署長に届け出る。記述は適当。\n選択肢2：共同連帯として請け負う際の共同企業体代表者届は、仕事開始日の14日前までに労働基準監督署長を経由して都道府県労働局長に届け出る。記述は適当。\n選択肢3：つり上げ荷重3t以上のクレーン設置届は、工事開始日の30日前までに労働基準監督署長に届け出る必要がある。14日前は誤りで正解は3。\n選択肢4：耐火建築物に吹き付けられた石綿を除去する場合は、仕事開始日の14日前までに労働基準監督署長に届け出る。記述は適当。",
+          "studyContent": "労働安全衛生法の届出：原則は14日前、労働基準監督署長提出。例外：クレーン等の設置届は30日前、共同企業体代表者届は労働基準監督署長経由で都道府県労働局長に届出。",
+          "question_vi": "Trong các mô tả về việc khai báo liên quan đến công trình xây dựng, mô tả nào sau đây SAI theo Luật An toàn vệ sinh lao động?",
+          "choices_vi": [
+            "Khi xây dựng công trình có chiều cao trên 31m, phải nộp kế hoạch cho trưởng cơ quan giám sát lao động chậm nhất 14 ngày trước ngày bắt đầu công việc.",
+            "Khi nộp khai báo người đại diện liên danh (共同企業体代表者届), phải nộp cho giám đốc cục lao động cấp tỉnh thông qua trưởng cơ quan giám sát lao động chậm nhất 14 ngày trước ngày bắt đầu.",
+            "Khi nộp khai báo lắp đặt cẩu có tải trọng nâng từ 3 tấn trở lên, phải nộp kế hoạch cho trưởng cơ quan giám sát lao động chậm nhất 14 ngày trước ngày bắt đầu thi công.",
+            "Khi tháo bỏ amiăng phun trên công trình chịu lửa, phải nộp kế hoạch cho trưởng cơ quan giám sát lao động chậm nhất 14 ngày trước ngày bắt đầu công việc."
+          ],
+          "explanation_vi": "Đáp án 1: Công trình >31m: nộp 14 ngày trước. → Đúng.\nĐáp án 2: 共同企業体代表者届: 14 ngày trước, qua労働基準監督署長 → 都道府県労働局長. → Đúng.\nĐáp án 3: Cẩu tải trọng ≥3 tấn: phải nộp 30 NGÀY TRƯỚC (KHÔNG phải 14 ngày). → SAI. Đáp án đúng là 3.\nĐáp án 4: Tháo amiăng: 14 ngày trước. → Đúng.",
+          "studyContent_vi": "Luật An toàn vệ sinh lao động: nguyên tắc 14 ngày trước, nộp cho労働基準監督署長. Ngoại lệ: lắp cẩu ≥3 tấn → 30 ngày trước; 共同企業体代表者届 → qua労働基準監督署長 đến都道府県労働局長."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 工程管理",
+      "vocabulary": [
+        "工程計画 (こうていけいかく) - kế hoạch tiến độ",
+        "手順計画 (てじゅんけいかく) - kế hoạch trình tự",
+        "日程計画 (にっていけいかく) - kế hoạch lịch trình",
+        "山崩し (やまくずし) - san bằng đỉnh (resource leveling)",
+        "クリティカルパス - đường găng",
+        "鉄骨建方 (てっこつたてかた) - lắp dựng kết cấu thép",
+        "地組 (じぐみ) - lắp ráp dưới đất",
+        "ユニット化 (ユニットか) - mô-đun hóa",
+        "所要工期 (しょようこうき) - thời gian thi công cần thiết",
+        "ガスシールドアーク溶接 (ガスシールドアークようせつ) - hàn hồ quang khí bảo vệ",
+        "タワークレーンクライミング - cẩu tháp leo (climbing)",
+        "建方用機械 (たてかたようきかい) - máy phục vụ lắp dựng",
+        "トルシア形高力ボルト (トルシアがたこうりょくボルト) - bu lông cường độ cao kiểu Torshear",
+        "最早開始時刻 (もはやかいしじこく) EST - thời điểm bắt đầu sớm nhất",
+        "最早終了時刻 (もはやしゅうりょうじこく) EFT - thời điểm kết thúc sớm nhất",
+        "最遅開始時刻 (もおそかいしじこく) LST - thời điểm bắt đầu trễ nhất",
+        "最遅終了時刻 (もおそしゅうりょうじこく) LFT - thời điểm kết thúc trễ nhất",
+        "トータルフロート TF - tổng độ thư thả",
+        "フリーフロート FF - độ thư thả tự do"
+      ],
+      "questions": [
+        {
+          "label": "Q44",
+          "question": "工程計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "工程計画では、各作業の手順計画を立て、次に日程計画を決定した。",
+            "工程計画では、工事用機械が連続して作業を実施し得るように作業手順を定め、工事用機械の不稼働をできるだけ少なくした。",
+            "工期短縮を図るため、作業員、工事用機械、資機材等の供給量のピークが一定の量を超えないように山崩しを検討した。",
+            "工期短縮を図るため、クリティカルパス上の鉄骨建方において、部材を地組してユニット化し、建方のピース数を減らすよう検討した。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：工程計画では、まず各作業の手順計画を立て、次に日程計画を決定する。記述は適当。\n選択肢2：工事用機械が連続して作業を実施し得るように作業手順を定め、不稼働をできるだけ少なくする（リース費用低減・クリティカル対策のため）。記述は適当。\n選択肢3：山崩しは作業員・工事用機械・資機材等の供給ピークを一定量以下に平準化して経済性・作業効率を高める手法であり、結果として工期は伸びる傾向にある。工期短縮の手法ではない。よって誤りで正解は3。\n選択肢4：クリティカルパス上の鉄骨建方では、部材を地組してユニット化し、建方ピース数を減らせば工期短縮に寄与する。記述は適当。",
+          "studyContent": "工程計画の手順：手順計画→日程計画。工期短縮は資源投入増加・地組ユニット化等で行う。山崩しは経済性・平準化目的（工期は伸びる傾向）。鉄骨建方は揚重機能力＝1日ピース数がクリティカル。",
+          "question_vi": "Trong các mô tả về kế hoạch tiến độ sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong kế hoạch tiến độ, đã lập kế hoạch trình tự cho từng công việc trước, sau đó mới quyết định kế hoạch lịch trình.",
+            "Trong kế hoạch tiến độ, đã sắp xếp trình tự sao cho máy thi công có thể làm việc liên tục, giảm tối đa thời gian máy ngừng.",
+            "Để rút ngắn thời gian thi công, đã thực hiện việc san bằng đỉnh (山崩し) sao cho đỉnh cung ứng nhân công, máy thi công và vật tư không vượt một mức nhất định.",
+            "Để rút ngắn thời gian thi công, ở công đoạn lắp dựng thép trên đường găng, đã xem xét lắp ráp dưới đất thành các mô-đun để giảm số lượng cấu kiện cần dựng."
+          ],
+          "explanation_vi": "Đáp án 1: Lập手順計画 → 日程計画. → Đúng.\nĐáp án 2: Máy chạy liên tục, giảm ngừng. → Đúng.\nĐáp án 3: 山崩し là biện pháp BÌNH ỔN tài nguyên (giảm đỉnh) → KÉO DÀI THỜI GIAN, KHÔNG phải rút ngắn. → SAI. Đáp án đúng là 3.\nĐáp án 4: Ghép mô-đun dưới đất → giảm số piece lắp dựng. → Đúng.",
+          "studyContent_vi": "Tiến độ: trình tự → lịch trình. Rút ngắn: tăng tài nguyên, ghép mô-đun. 山崩し: bình ổn để tiết kiệm (thường kéo dài thời gian). Lắp dựng thép bị giới hạn bởi năng lực cẩu trục mỗi ngày."
+        },
+        {
+          "label": "Q45",
+          "question": "一般的な事務所ビルの鉄骨工事において、所要工期算出のために用いる各作業の能率に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "鉄骨のガスシールドアーク溶接による現場溶接の作業能率は、1人1日当たり6mm換算溶接長さで80mとして計画した。",
+            "タワークレーンのクライミングに要する日数は、1回当たり1.5日として計画した。",
+            "建方用機械の鉄骨建方作業占有率は、60％として計画した。",
+            "トルシア形高力ボルトの締付け作業能率は、1人1日当たり300本として計画した。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：鉄骨のガスシールドアーク溶接による現場溶接の作業能率は、1人1日当たり6mm換算溶接長さで80mとして計画する。記述は適当。\n選択肢2：タワークレーンのクライミングに要する日数は、1回当たり1.5日として計画する。記述は適当。\n選択肢3：建方用機械の鉄骨建方作業占有率は、60％として計画する。記述は適当。\n選択肢4：トルシア形高力ボルトの締付け作業能率は1人1日当たり150～200本として計画する（3人1組）。ビルで450～700本/組、工場で400～600本/組。300本/人は多すぎ誤り。よって正解は4。",
+          "studyContent": "鉄骨工程の能率値（暗記）：現場溶接80m/人/日（6mm換算）、タワークレーンクライミング1.5日/回、建方作業占有率60％、トルシア形高力ボルト150～200本/人/日。",
+          "question_vi": "Trong thi công kết cấu thép tòa nhà văn phòng thông thường, các mô tả về năng suất công việc dùng để tính thời gian thi công yêu cầu, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Năng suất hàn tại hiện trường bằng hàn hồ quang khí bảo vệ cho kết cấu thép được lập kế hoạch 80m chiều dài hàn quy đổi 6mm/người/ngày.",
+            "Số ngày cần để cẩu tháp leo (climbing) một lần được lập kế hoạch 1.5 ngày/lần.",
+            "Tỷ lệ chiếm dụng cho công tác lắp dựng kết cấu thép của máy lắp dựng được lập kế hoạch 60%.",
+            "Năng suất xiết bu lông cường độ cao kiểu Torshear được lập kế hoạch 300 bu lông/người/ngày."
+          ],
+          "explanation_vi": "Đáp án 1: Hàn hiện trường 80m/người/ngày (quy đổi 6mm). → Đúng.\nĐáp án 2: Cẩu tháp climbing 1.5 ngày/lần. → Đúng.\nĐáp án 3: Tỷ lệ chiếm dụng máy lắp dựng 60%. → Đúng.\nĐáp án 4: Bu lông Torshear: 150-200 BU LÔNG/người/ngày (1 tổ 3 người). 300 bu lông là QUÁ NHIỀU. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Số liệu năng suất thép: hàn hiện trường 80m/người/ngày, climbing cẩu tháp 1.5 ngày/lần, chiếm dụng máy lắp dựng 60%, bu lông Torshear 150-200 cái/người/ngày."
+        },
+        {
+          "label": "Q46",
+          "question": "ネットワーク工程表に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "一つの作業の最早終了時刻（EFT）は、その作業の最早開始時刻（EST）に作業日数（D）を加えて得られる。",
+            "一つの作業の最遅開始時刻（LST）は、その作業の最遅終了時刻（LFT）から作業日数（D）を減じて得られる。",
+            "一つの作業でトータルフロート（TF）が0である場合、その作業ではフリーフロート（FF）は0になる。",
+            "一つの作業でフリーフロート（FF）を使い切ってしまうと、後続作業のトータルフロート（TF）に影響を及ぼす。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：最早終了時刻（EFT）＝最早開始時刻（EST）＋作業日数（D）。記述は適当。\n選択肢2：最遅開始時刻（LST）＝最遅終了時刻（LFT）－作業日数（D）。記述は適当。\n選択肢3：トータルフロート（TF）が0であれば、その作業は余裕がないためフリーフロート（FF）も0となる。記述は適当。\n選択肢4：フリーフロート（FF）は使い切っても後続作業のトータルフロート（TF）に影響を及ぼさない余裕日数のこと。FFを超えて使うと後続作業に影響する。よって誤りで正解は4。\nFF＝後続作業の最早開始時刻－当該作業の最早終了時刻。",
+          "studyContent": "EFT=EST+D、LST=LFT-D。TF=0ならFF=0。FFは後続作業に影響しない余裕、TFは経路全体の余裕。実際にネットワーク図を書いて理解すると2次試験対策にもなる。",
+          "question_vi": "Trong các mô tả về biểu đồ tiến độ kiểu mạng (Network) sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Thời điểm kết thúc sớm nhất (EFT) của một công việc = thời điểm bắt đầu sớm nhất (EST) cộng với số ngày làm việc (D).",
+            "Thời điểm bắt đầu trễ nhất (LST) của một công việc = thời điểm kết thúc trễ nhất (LFT) trừ số ngày làm việc (D).",
+            "Nếu tổng độ thư thả (TF) của một công việc bằng 0 thì độ thư thả tự do (FF) của công việc đó cũng bằng 0.",
+            "Nếu dùng hết độ thư thả tự do (FF) của một công việc thì sẽ ảnh hưởng đến tổng độ thư thả (TF) của công việc kế tiếp."
+          ],
+          "explanation_vi": "Đáp án 1: EFT = EST + D. → Đúng.\nĐáp án 2: LST = LFT - D. → Đúng.\nĐáp án 3: TF=0 → FF=0. → Đúng.\nĐáp án 4: FF là độ thư thả KHÔNG ảnh hưởng đến công việc kế tiếp dù có dùng HẾT. Chỉ khi vượt FF (dùng quá) mới ảnh hưởng. → SAI. Đáp án đúng là 4.\nFF = EST công việc kế tiếp - EFT công việc hiện tại.",
+          "studyContent_vi": "EFT=EST+D, LST=LFT-D. TF=0 thì FF=0. FF: không ảnh hưởng kế tiếp. TF: độ thư thả toàn đường. Vẽ thử Network diagram giúp hiểu sâu (cũng có ích cho thi 2次)."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 品質管理",
+      "vocabulary": [
+        "管理値 (かんりち) - giá trị quản lý",
+        "スタッド溶接 (スタッドようせつ) - hàn đinh tán shear stud",
+        "傾きの許容差 (かたむきのきょようさ) - dung sai độ nghiêng",
+        "断面寸法 (だんめんすんぽう) - kích thước tiết diện",
+        "管理許容差 (かんりきょようさ) - dung sai quản lý",
+        "限界許容差 (げんかいきょようさ) - dung sai giới hạn",
+        "平坦さ (へいたんさ) - độ phẳng",
+        "ヒストグラム - biểu đồ histogram",
+        "管理図 (かんりず) - biểu đồ kiểm soát",
+        "散布図 (さんぷず) - biểu đồ phân tán",
+        "パレート図 (パレートず) - biểu đồ Pareto",
+        "系統図 (けいとうず) - biểu đồ hệ thống",
+        "中間検査 (ちゅうかんけんさ) - kiểm tra trung gian",
+        "完成検査 (かんせいけんさ) - kiểm tra hoàn thành",
+        "無試験検査 (むしけんけんさ) - kiểm tra không thử nghiệm",
+        "購入検査 (こうにゅうけんさ) - kiểm tra mua vào",
+        "抜取検査 (ぬきとりけんさ) - kiểm tra mẫu (lấy mẫu)",
+        "ロット - lô"
+      ],
+      "questions": [
+        {
+          "label": "Q47",
+          "question": "建築施工の品質を確保するための管理値に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "鉄骨工事において、スタッド溶接後のスタッドの傾きの許容差は、5°以内とした。",
+            "構造体コンクリートの部材の仕上がりにおいて、柱、梁、壁の断面寸法の許容差は、0〜＋20mmとした。",
+            "鉄骨梁の製品検査において、梁の長さの許容差は、±7mmとした。",
+            "コンクリート工事において、薄いビニル床シートの下地コンクリート面の仕上がりの平坦さは、3mにつき7mm以下とした。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：鉄骨工事におけるスタッド溶接後のスタッドの傾きの許容差は5°以内。施工後打撃曲げ試験は15°以内、施工前打撃曲げ試験は30°以内。記述は適当。\n選択肢2：構造体コンクリート部材の柱・梁・壁の断面寸法許容差は0～＋20mm（マイナス側は断面欠損になるため許容しない）。記述は適当。\n選択肢3：鉄骨梁の製品検査での梁の長さの管理許容差は±3mm、限界許容差は±5mm。±7mmは大きすぎ誤り。よって正解は3。\n選択肢4：薄いビニル床シートの下地コンクリート面の仕上がり平坦さは3mにつき7mm以下。記述は適当。",
+          "studyContent": "管理値の暗記：スタッド傾き5°以内、柱・梁・壁の断面寸法0～＋20mm、鉄骨梁長さ管理±3mm／限界±5mm、薄いビニル床シート下地3mにつき7mm以下。",
+          "question_vi": "Trong các mô tả về giá trị quản lý nhằm đảm bảo chất lượng thi công, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong công tác kết cấu thép, dung sai độ nghiêng của đinh shear stud sau khi hàn được lấy trong phạm vi 5°.",
+            "Đối với hoàn thiện cấu kiện bê tông kết cấu, dung sai kích thước tiết diện cột, dầm, tường là 0 đến +20mm.",
+            "Trong kiểm tra sản phẩm dầm thép, dung sai chiều dài dầm là ±7mm.",
+            "Trong công tác bê tông, độ phẳng bề mặt bê tông lớp nền cho tấm sàn vinyl mỏng là ≤7mm/3m."
+          ],
+          "explanation_vi": "Đáp án 1: Độ nghiêng shear stud ≤ 5°. → Đúng.\nĐáp án 2: Tiết diện bê tông: 0 đến +20mm (không cho âm). → Đúng.\nĐáp án 3: Chiều dài dầm thép: dung sai quản lý ±3mm, dung sai giới hạn ±5mm. ±7mm QUÁ LỚN. → SAI. Đáp án đúng là 3.\nĐáp án 4: Sàn vinyl mỏng: ≤7mm/3m. → Đúng.",
+          "studyContent_vi": "Cần nhớ: Stud nghiêng ≤5°, tiết diện bê tông 0~+20mm, dầm thép quản lý ±3mm/giới hạn ±5mm, sàn vinyl mỏng ≤7mm/3m."
+        },
+        {
+          "label": "Q48",
+          "question": "品質管理に用いる図表に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ヒストグラムは、観測値若しくは統計量を時間順又はサンプル番号順に表し、工程が管理状態にあるかどうかを評価するために用いられる。",
+            "散布図は、対応する2つの特性を横軸と縦軸にとり、観測値を打点して作るグラフ表示で、主に2つの変数間の相関関係を調べるために用いられる。",
+            "パレート図は、項目別に層別して、出現度数の大きさの順に並べるとともに、累積和を示した図である。",
+            "系統図は、設定した目的や目標と、それを達成するための手段を系統的に展開した図である。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：ヒストグラムはデータを階級・範囲ごとに分類し、各階級の度数を棒グラフで表したもの（柱状図・度数分布表）で、データのばらつきを調べるために用いる。設問の「観測値・統計量を時間順又はサンプル番号順に表し、工程が管理状態にあるかどうかを評価する図」は管理図の説明であり、誤り。よって正解は1。\n選択肢2：散布図は2つの特性を横軸・縦軸にとり、観測値を打点したグラフ表示で、2変数間の相関関係を調べる。記述は適当。\n選択肢3：パレート図は項目別に層別し、出現度数の大きさ順に並べるとともに累積和を示した図（棒グラフ＋折れ線）。記述は適当。\n選択肢4：系統図は目的や目標とそれを達成する手段を系統的に展開した図。記述は適当。",
+          "studyContent": "QC七つ道具・新QC七つ道具の主な図表：ヒストグラム＝度数分布、管理図＝時間順折れ線、散布図＝相関、パレート図＝項目別＋累積、系統図＝目的-手段展開。",
+          "question_vi": "Trong các mô tả về các loại biểu đồ dùng trong quản lý chất lượng, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Histogram là biểu đồ thể hiện giá trị quan sát hoặc thống kê theo thứ tự thời gian hoặc thứ tự mẫu, dùng để đánh giá liệu quy trình có ở trạng thái được kiểm soát hay không.",
+            "Biểu đồ phân tán đặt 2 đặc tính tương ứng lên trục ngang và trục dọc, vẽ các điểm quan sát, chủ yếu dùng để tìm mối tương quan giữa 2 biến số.",
+            "Biểu đồ Pareto phân tầng theo từng hạng mục, sắp xếp theo độ lớn của tần số xuất hiện, đồng thời thể hiện tổng tích lũy.",
+            "Biểu đồ hệ thống là biểu đồ triển khai một cách hệ thống mục tiêu/mục đích đã đặt ra và các biện pháp để đạt được nó."
+          ],
+          "explanation_vi": "Đáp án 1: Mô tả này LÀ của biểu đồ KIỂM SOÁT (管理図), KHÔNG phải Histogram. Histogram dùng phân tích PHÂN BỐ (柱状図). → SAI. Đáp án đúng là 1.\nĐáp án 2: Biểu đồ phân tán → tương quan 2 biến. → Đúng.\nĐáp án 3: Pareto: tần số xuất hiện + lũy tích. → Đúng.\nĐáp án 4: Biểu đồ hệ thống: triển khai mục tiêu - biện pháp. → Đúng.",
+          "studyContent_vi": "7 công cụ QC: Histogram = phân bố, Quản lý图 = đường thời gian, Phân tán = tương quan, Pareto = hạng mục + lũy tích, Hệ thống = mục tiêu-biện pháp."
+        },
+        {
+          "label": "Q49",
+          "question": "品質管理における検査に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "中間検査は、製品として完成したものが要求事項を満足しているかどうかを判定する場合に適用する。",
+            "無試験検査は、サンプルの試験を行わず、品質情報、技術情報等に基づいてロットの合格、不合格を判定する。",
+            "購入検査は、提出された検査ロットを、購入してよいかどうかを判定するために行う検査で、品物を外部から受け入れる場合に適用する。",
+            "抜取検査は、ロットからあらかじめ定められた検査の方式に従ってサンプルを抜き取って試験し、その結果に基づいて、そのロットの合格、不合格を判定する。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：中間検査は、製作途中のものが要求事項を満足しているかを判定する検査であり、不良ロットが次工程に渡らないように事前に取り除く目的で行う。設問の内容（製品として完成したものを判定）は完成検査の説明であるため誤り。よって正解は1。\n選択肢2：無試験検査はサンプルの試験を行わず、品質情報・技術情報等に基づいてロットの合否を判定する。記述は適当。\n選択肢3：購入検査は提出された検査ロットを購入してよいか判定する検査で、品物を外部から受け入れる場合に適用する。記述は適当。\n選択肢4：抜取検査はロットからあらかじめ定められた検査方式に従ってサンプルを抜き取り試験し、結果に基づいてロットの合否を判定する。記述は適当。",
+          "studyContent": "検査の種類：中間検査＝製作途中の合否判定、完成検査＝完成品の合否判定、無試験検査＝情報による判定、購入検査＝外部受入時の判定、抜取検査＝ロットからサンプル抽出。",
+          "question_vi": "Trong các mô tả về kiểm tra trong quản lý chất lượng, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Kiểm tra trung gian (中間検査) áp dụng cho trường hợp xác định sản phẩm đã hoàn thành có đáp ứng yêu cầu hay không.",
+            "Kiểm tra không thử nghiệm (無試験検査) là việc không thử nghiệm mẫu, mà phán đoán đậu/rớt của lô dựa trên thông tin chất lượng, thông tin kỹ thuật v.v.",
+            "Kiểm tra mua vào (購入検査) là kiểm tra để xác định lô kiểm tra được nộp có thể mua hay không, áp dụng khi tiếp nhận hàng từ bên ngoài.",
+            "Kiểm tra mẫu (抜取検査) là rút mẫu từ lô theo phương thức đã định trước, thử nghiệm và dựa vào kết quả để phán đoán đậu/rớt của lô đó."
+          ],
+          "explanation_vi": "Đáp án 1: Mô tả này LÀ của 完成検査 (kiểm tra hoàn thành), KHÔNG phải中間検査. 中間検査 là kiểm tra trong QUÁ TRÌNH sản xuất để loại lô lỗi sớm. → SAI. Đáp án đúng là 1.\nĐáp án 2: 無試験検査 dựa trên thông tin. → Đúng.\nĐáp án 3: 購入検査 khi nhận hàng. → Đúng.\nĐáp án 4: 抜取検査 lấy mẫu. → Đúng.",
+          "studyContent_vi": "Phân loại kiểm tra: 中間検査 = giữa quá trình, 完成検査 = sản phẩm hoàn thành, 無試験検査 = dựa thông tin, 購入検査 = nhận hàng, 抜取検査 = lấy mẫu."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 安全管理",
+      "vocabulary": [
+        "公衆災害 (こうしゅうさいがい) - tai nạn cho công chúng",
+        "敷地境界線 (しきちきょうかいせん) - đường ranh giới đất",
+        "ダストシュート - máng đổ rác",
+        "防護棚 (ぼうごだな) - giàn che bảo vệ (朝顔 - asagao)",
+        "外部足場 (がいぶあしば) - giàn giáo bên ngoài",
+        "はね出し長さ (はねだしながさ) - chiều dài đua ra",
+        "水平面となす角度 (すいへいめんとなすかくど) - góc so với mặt phẳng ngang",
+        "鋼板製仮囲い (こうばんせいかりかこい) - hàng rào tạm bằng tấm thép",
+        "土台コンクリート (どだいコンクリート) - bê tông móng/đế",
+        "歩車道分離道路 (ほしゃどうぶんりどうろ) - đường tách biệt vỉa hè và lòng đường",
+        "幅員 (ふくいん) - bề rộng",
+        "道路占用 (どうろせんよう) - chiếm dụng đường"
+      ],
+      "questions": [
+        {
+          "label": "Q50",
+          "question": "市街地の建築工事における公衆災害防止対策に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "敷地境界線からの水平距離が5mで、地盤面からの高さが3mの場所からごみを投下する際、飛散を防止するためにダストシュートを設けた。",
+            "防護棚は、外部足場の外側からのはね出し長さを水平距離で2mとし、水平面となす角度を15°とした。",
+            "工事現場周囲の道路に傾斜があったため、高さ3mの鋼板製仮囲いの下端は、隙間を土台コンクリートで塞いだ。",
+            "歩車道分離道路において、幅員3.6mの歩道に仮囲いを設置するため、道路占用の幅は、路端から1mとした。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：敷地境界線からの水平距離5m、地盤面からの高さ3mの場所からごみを投下する際、飛散防止のためダストシュートを設ける。記述は適当。\n選択肢2：防護棚（朝顔）は、外部足場の外側からはね出し長さを水平距離で2m以上突き出させ、水平面となす角度は20°以上とする必要がある。15°では上から落下した物が跳ねて外に落ちる恐れがあり誤り。よって正解は2。\n選択肢3：工事現場周囲の道路に傾斜がある場合、高さ3mの鋼板製仮囲いの下端の隙間を土台コンクリートで塞ぐ。記述は適当（歩行者が隙間に足を挟む事故防止）。\n選択肢4：歩車道分離道路において、幅員3.6mの歩道に仮囲いを設置する場合、道路占用幅は路端から1mとする（道路占用許可基準により、有効幅員の3分の2以上かつ1.5m以上の余地、公共目的かつ交通支障がない場合は1.0m以上の余地で可）。記述は適当。",
+          "studyContent": "公衆災害防止：ダストシュート（高所投下時の飛散防止）、防護棚（朝顔）＝はね出し2m以上、角度20°以上、仮囲い下端の隙間は土台コンクリートで閉塞。歩道での道路占用：余地は原則1.5m以上、公共目的等で交通支障なければ1.0m以上で可。",
+          "question_vi": "Trong các mô tả về biện pháp phòng chống tai nạn cho công chúng tại công trình xây dựng đô thị, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi đổ rác từ vị trí cách đường ranh giới đất theo phương ngang 5m, cao 3m so với mặt đất, đã lắp máng đổ rác (ダストシュート) để chống văng.",
+            "Giàn che bảo vệ (防護棚) được thiết kế với chiều dài đua ra từ mặt ngoài giàn giáo bên ngoài là 2m theo phương ngang, góc nghiêng so với mặt phẳng ngang là 15°.",
+            "Do đường xung quanh công trường có độ dốc, phần đáy của hàng rào tạm bằng tấm thép cao 3m đã được lấp khe hở bằng bê tông đế.",
+            "Trên đường có tách biệt vỉa hè và lòng đường, để lắp hàng rào tạm trên vỉa hè rộng 3.6m, chiều rộng chiếm dụng đường được lấy 1m tính từ mép đường."
+          ],
+          "explanation_vi": "Đáp án 1: Máng đổ rác khi đổ từ cao 3m, cách ranh giới 5m. → Đúng.\nĐáp án 2: 防護棚 (giàn che / 朝顔): đua ≥ 2m, GÓC ≥ 20° (KHÔNG phải 15°). Góc nhỏ làm vật rơi xuống có thể nảy văng ra ngoài. → SAI. Đáp án đúng là 2.\nĐáp án 3: Lấp khe hở đáy hàng rào tạm bằng bê tông đế. → Đúng (tránh kẹt chân người đi bộ).\nĐáp án 4: Vỉa hè 3.6m, chiếm 1m từ mép → tuân thủ tiêu chuẩn chiếm dụng đường. → Đúng.",
+          "studyContent_vi": "Phòng tai nạn công chúng: máng đổ rác cho cao ≥3m, ranh ≤5m; giàn che (朝顔) đua ≥2m & góc ≥20°; lấp khe đáy hàng rào tạm bằng bê tông; chiếm dụng vỉa hè: chừa lối ≥1.5m (hoặc ≥1.0m nếu mục đích công cộng & không gây cản giao thông)."
+        }
+      ]
+    }
+  ]
+}
