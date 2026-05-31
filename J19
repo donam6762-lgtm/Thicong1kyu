@@ -1,0 +1,371 @@
+    {
+      "path": "03_躯体施工 / コンクリート工事",
+      "questions": [
+        {
+          "label": "Q26",
+          "question": "コンクリートの調合に関する記述として、最も不適当なものはどれか。\n\n1. 普通コンクリートに再生骨材Hを用いる場合の水セメント比の最大値は、60％とする。\n2. コンクリートの調合強度を定める際に使用するコンクリートの圧縮強度の標準偏差は、コンクリート工場に実績がない場合、1.5N／mm2とする。\n3. 単位水量は、185kg／m3以下とし、コンクリートの品質が得られる範囲内で、できるだけ小さくする。\n4. 高強度コンクリートに含まれる塩化物量は、塩化物イオン量として0.30kg／m3以下とする。",
+          "choices": [
+            "普通コンクリートに再生骨材Hを用いる場合の水セメント比の最大値は、60％とする。",
+            "コンクリートの調合強度を定める際に使用するコンクリートの圧縮強度の標準偏差は、コンクリート工場に実績がない場合、1.5N／mm2とする。",
+            "単位水量は、185kg／m3以下とし、コンクリートの品質が得られる範囲内で、できるだけ小さくする。",
+            "高強度コンクリートに含まれる塩化物量は、塩化物イオン量として0.30kg／m3以下とする。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1（〇 適当）：水セメント比の最大値\n・普通・早強・中庸熱ポルトランドセメント、混合セメントA種：65％\n・低熱ポルトランドセメント、混合セメントB種：60％\n・普通エコセメント：55％\n・ただし、再生骨材Hを使用する場合は60％\n（公共建築工事標準仕様書6.3.2）\n\n選択肢2（✖ 不適当）：標準偏差は強度のばらつきを表す。発注するレディーミクストコンクリート工場の実績に基づいた値を用いればよいが、生産実績が少ないなどの場合は「2.5N/mm2」または調合管理強度Fmの0.1倍の大きい方の値を用いる。設問の「1.5N/mm2」は誤り。\n\n選択肢3（〇 適当）：単位水量の最大値は185kg/m3とし、コンクリートの品質が得られる範囲内でできるだけ小さくする。単位水量が大きくなると乾燥収縮やひび割れが起きやすい。\n\n選択肢4（〇 適当）：高強度コンクリートに含まれる塩化物量は、塩化物イオン量として0.30kg/m3以下とする。0.30kg/m3を超える値が測定された場合は、次の運搬車から各運搬車ごとに試験を行い0.30kg/m3以下を確認したのちに使用する。",
+          "studyContent": "コンクリートの調合 主要数値:\n■水セメント比 最大値\n・普通/早強/中庸熱/混合A種：65%\n・低熱/混合B種、再生骨材H：60%\n・普通エコセメント：55%\n・高強度コンクリート：50%以下\n\n■単位水量\n・185kg/m3以下（できるだけ小さく）\n\n■塩化物イオン量\n・普通コンクリート：0.30kg/m3以下\n・高強度コンクリート：0.30kg/m3以下\n・PC：0.30kg/m3以下\n\n■標準偏差（調合強度算定用）\n・実績あり：その値\n・実績なし：2.5N/mm2 または 0.1Fm の大きい方",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về cấp phối bê tông (コンクリートの調合)?\n\n1. Trị số lớn nhất của tỷ lệ nước/xi măng khi dùng cốt liệu tái chế H trong bê tông thông thường là 60%.\n2. Độ lệch chuẩn của cường độ chịu nén dùng để xác định cường độ điều phối, trong trường hợp nhà máy bê tông không có thành tích, lấy 1.5 N/mm².\n3. Lượng nước đơn vị lấy ≤ 185 kg/m³, và càng nhỏ càng tốt trong phạm vi đảm bảo chất lượng bê tông.\n4. Hàm lượng clorua trong bê tông cường độ cao tính theo ion clorua phải ≤ 0.30 kg/m³.",
+          "choices_vi": [
+            "Tỷ lệ W/C tối đa khi dùng cốt liệu tái chế H trong bê tông thường là 60%.",
+            "Độ lệch chuẩn cường độ chịu nén khi nhà máy không có thành tích lấy 1.5 N/mm².",
+            "Lượng nước đơn vị ≤ 185 kg/m³, càng nhỏ càng tốt.",
+            "Hàm lượng ion clorua trong bê tông cường độ cao ≤ 0.30 kg/m³."
+          ],
+          "explanation_vi": "Lựa chọn 1 (〇 Đúng): Trị số lớn nhất của W/C:\n・Xi măng portland thường/đông kết nhanh/nhiệt trung bình, xi măng hỗn hợp loại A: 65%\n・Xi măng portland nhiệt thấp, xi măng hỗn hợp loại B: 60%\n・Xi măng eco thường: 55%\n・Khi dùng cốt liệu tái chế H: 60%\n\nLựa chọn 2 (✖ KHÔNG đúng): Độ lệch chuẩn biểu thị độ phân tán cường độ. Có thể dùng giá trị thực tế của nhà máy bê tông trộn sẵn, nhưng nếu thành tích sản xuất ít thì dùng '2.5 N/mm²' hoặc 0.1 lần cường độ quản lý cấp phối Fm (lấy giá trị lớn hơn). Đề bài '1.5 N/mm²' là sai.\n\nLựa chọn 3 (〇 Đúng): Lượng nước đơn vị tối đa 185 kg/m³, càng nhỏ càng tốt trong phạm vi đảm bảo chất lượng bê tông. Lượng nước lớn dễ gây co ngót khô và nứt.\n\nLựa chọn 4 (〇 Đúng): Hàm lượng ion clorua trong bê tông cường độ cao ≤ 0.30 kg/m³. Khi đo được vượt 0.30 kg/m³, từ xe vận chuyển kế tiếp phải thử nghiệm từng xe, xác nhận ≤ 0.30 kg/m³ mới dùng.",
+          "studyContent_vi": "Số liệu chính của cấp phối bê tông:\n■ Tỷ lệ W/C tối đa\n・Thường/đông kết nhanh/nhiệt trung bình/hỗn hợp A: 65%\n・Nhiệt thấp/hỗn hợp B, cốt liệu tái chế H: 60%\n・Eco thường: 55%\n・Bê tông cường độ cao: ≤ 50%\n\n■ Lượng nước đơn vị\n・≤ 185 kg/m³ (càng nhỏ càng tốt)\n\n■ Hàm lượng ion clorua\n・Bê tông thường: ≤ 0.30 kg/m³\n・Bê tông cường độ cao: ≤ 0.30 kg/m³\n・Bê tông PC: ≤ 0.30 kg/m³\n\n■ Độ lệch chuẩn (cho cường độ điều phối)\n・Có thành tích: dùng giá trị thực\n・Không có thành tích: 2.5 N/mm² hoặc 0.1Fm (lấy lớn hơn)"
+        }
+      ]
+    },
+    {
+      "path": "03_躯体施工 / 鉄骨工事",
+      "vocabulary": [
+        "高力ボルト接合 (こうりきボルトせつごう) - mối nối bằng bu lông cường độ cao",
+        "トルシア形高力ボルト (トルシアがたこうりきボルト) - bu lông cường độ cao loại torshear (S10T)",
+        "ねじの呼び (ねじのよび) - tên gọi ren / cỡ ren (M16, M20, M22...)",
+        "余長 (よちょう) - chiều dài thừa (ren nhô ra khỏi đai ốc)",
+        "ねじ山 (ねじやま) - đường ren / vòng ren",
+        "締付け長さ (しめつけながさ) - chiều dài siết",
+        "肌すき (はだすき) - khe hở mặt tiếp xúc",
+        "フィラープレート (フィラープレート) - tấm chêm (filler plate)",
+        "ナット回転法 (ナットかいてんほう) - phương pháp xoay đai ốc",
+        "本締め (ほんじめ) - siết chính (siết cuối)",
+        "1次締付け (いちじしめつけ) - siết lần đầu (primary tightening)",
+        "ナット回転量 (ナットかいてんりょう) - góc xoay đai ốc",
+        "ピンテール (ピンテール) - đuôi pin (phần đứt của bu lông torshear)",
+        "マーキング (マーキング) - đánh dấu (để kiểm tra siết)",
+        "とも回り (ともまわり) - co-rotation (đai ốc và bu lông quay cùng nhau - lỗi)",
+        "軸回り (じくまわり) - axis rotation (bu lông quay theo trục - lỗi)",
+        "大空間鉄骨架構 (だいくうかんてっこつかこう) - kết cấu thép không gian lớn",
+        "リフトアップ工法 (リフトアップこうほう) - phương pháp lift-up (kéo lên)",
+        "地組み (じぐみ) - lắp ráp dưới mặt đất",
+        "総足場工法 (そうあしばこうほう) - phương pháp giàn giáo toàn bộ",
+        "移動構台工法 (いどうこうだいこうほう) - phương pháp sàn công tác di động",
+        "スライド工法 (スライドこうほう) - phương pháp trượt (sliding)",
+        "ブロック工法 (ブロックこうほう) - phương pháp lắp khối (block)",
+        "ジャッキアップ (ジャッキアップ) - kích nâng lên",
+        "ジャッキダウン (ジャッキダウン) - kích hạ xuống"
+      ],
+      "questions": [
+        {
+          "label": "Q27",
+          "question": "高力ボルト接合に関する記述として、最も不適当なものはどれか。\n\n1. 締付け後の高力ボルトの余長は、ねじ1山から6山までの範囲であることを確認した。\n2. ねじの呼びがM22のトルシア形高力ボルトの長さは、締付け長さに35mmを加えた値を標準とした。\n3. 高力ボルトの接合部で肌すきが1mmを超えたため、フィラープレートを入れた。\n4. ナット回転法による締付け完了後の検査は、1次締付け後の本締めによるナット回転量が120°±45°の範囲にあるものを合格とした。",
+          "choices": [
+            "締付け後の高力ボルトの余長は、ねじ1山から6山までの範囲であることを確認した。",
+            "ねじの呼びがM22のトルシア形高力ボルトの長さは、締付け長さに35mmを加えた値を標準とした。",
+            "高力ボルトの接合部で肌すきが1mmを超えたため、フィラープレートを入れた。",
+            "ナット回転法による締付け完了後の検査は、1次締付け後の本締めによるナット回転量が120°±45°の範囲にあるものを合格とした。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1（〇 適当）：締付け後の高力ボルトの余長は、ナット面から突き出た長さがねじ1山から6山までの範囲を合格とする。普通ボルトの場合はねじ山3山以上出るように材料を選定する。\n\n選択肢2（〇 適当）：トルシア形高力ボルトの長さは、ねじの呼びM22の場合、締付け長さに35mmを加えた値を標準とし、認定を受けたものの基準寸法のうち最も近い寸法とする。\n\n選択肢3（〇 適当）：接合部の材厚の差等により1mmを超える肌すきはフィラープレートを用いて補う。1mm以下は入れなくても大丈夫。\n\n選択肢4（✖ 不適当）：ナット回転法による締付け完了後の検査は、ナット回転量が「120°±30°」の範囲（M12は−0°〜+30°）を合格とする。設問の「±45°」は誤り。ナット回転量に著しいばらつきが認められる群については平均回転角度を算出し、平均回転角度±30°の範囲のものを合格とする。",
+          "studyContent": "高力ボルト接合の重要事項:\n■種類別の検査方法\n・トルシア形（S10T）：ピンテール破断＋ナット回転量＋マーキングのずれで合否確認\n・高力六角ボルト（F10T）：ナット回転法 または トルクコントロール法\n\n■主要数値\n・余長：1〜6山（ナット面から突き出し）\n・トルシア形長さ：締付け長さ+ねじの呼び数値+α（M22→+35mm）\n・肌すき1mm超：フィラープレート挿入\n・ナット回転量：120°±30°（M12は−0°〜+30°）\n\n■摩擦面処理\n・赤錆発生（自然発錆またはブラスト）\n・すべり係数0.45以上",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về mối nối bu lông cường độ cao (高力ボルト接合)?\n\n1. Chiều dài thừa của bu lông sau khi siết được xác nhận nằm trong phạm vi 1〜6 vòng ren.\n2. Chiều dài bu lông cường độ cao loại torshear cỡ ren M22 lấy bằng chiều dài siết + 35mm làm tiêu chuẩn.\n3. Khe hở mặt tiếp xúc của mối nối vượt quá 1mm nên đã chèn tấm filler.\n4. Kiểm tra sau khi siết hoàn thành bằng phương pháp xoay đai ốc: góc xoay đai ốc trong siết chính sau siết lần đầu nằm trong phạm vi 120°±45° được công nhận đạt.",
+          "choices_vi": [
+            "Chiều dài thừa sau siết: 1〜6 vòng ren.",
+            "Bu lông torshear M22: chiều dài = chiều dài siết + 35mm.",
+            "Khe hở > 1mm: chèn tấm filler.",
+            "Phương pháp xoay đai ốc: góc xoay 120°±45° đạt."
+          ],
+          "explanation_vi": "Lựa chọn 1 (〇 Đúng): Chiều dài thừa sau siết tính từ mặt đai ốc nhô ra trong phạm vi 1〜6 vòng ren được công nhận đạt. Bu lông thường thì cần nhô ≥ 3 vòng ren.\n\nLựa chọn 2 (〇 Đúng): Chiều dài bu lông torshear cỡ M22 lấy bằng chiều dài siết + 35mm làm tiêu chuẩn, sau đó chọn cỡ gần nhất trong các kích thước cơ sở đã được công nhận.\n\nLựa chọn 3 (〇 Đúng): Khi chênh lệch độ dày vật liệu... gây khe hở > 1mm thì dùng tấm filler để bù. Khe hở ≤ 1mm không cần chèn.\n\nLựa chọn 4 (✖ KHÔNG đúng): Kiểm tra sau khi siết bằng phương pháp xoay đai ốc: góc xoay đai ốc trong phạm vi '120°±30°' được công nhận đạt (M12 là −0°〜+30°). Đề bài '±45°' là sai. Đối với nhóm có sự phân tán đáng kể về góc xoay đai ốc, tính góc xoay trung bình rồi áp dụng ±30° quanh giá trị trung bình.",
+          "studyContent_vi": "Các vấn đề quan trọng về mối nối bu lông cường độ cao:\n■ Phương pháp kiểm tra theo loại\n・Torshear (S10T): pin tail bị đứt + góc xoay đai ốc + lệch đánh dấu\n・Bu lông lục giác cường độ cao (F10T): phương pháp xoay đai ốc hoặc trục mô-men kiểm soát\n\n■ Các số liệu chính\n・Chiều dài thừa: 1〜6 vòng ren (nhô khỏi đai ốc)\n・Chiều dài bu lông torshear: chiều dài siết + giá trị cỡ ren + α (M22→+35mm)\n・Khe hở > 1mm: chèn tấm filler\n・Góc xoay đai ốc: 120°±30° (M12 là −0°〜+30°)\n\n■ Xử lý mặt ma sát\n・Tạo gỉ đỏ (gỉ tự nhiên hoặc phun bi)\n・Hệ số trượt ≥ 0.45"
+        },
+        {
+          "label": "Q28",
+          "question": "大空間鉄骨架構の建方に関する記述として、最も不適当なものはどれか。\n\n1. リフトアップ工法は、地組みした所定の大きさのブロックをクレーン等で吊り上げて架構を構築する工法である。\n2. 総足場工法は、必要な高さまで足場を組み立てて、作業用の構台を全域にわたり設置し、架構を構築する工法である。\n3. 移動構台工法は、移動構台上で所定の部分の屋根鉄骨を組み立てた後、構台を移動させ、順次架構を構築する工法である。\n4. スライド工法は、作業構台上で所定の部分の屋根鉄骨を組み立てた後、そのユニットを所定位置まで順次滑動横引きしていき、最終的に架構全体を構築する工法である。",
+          "choices": [
+            "リフトアップ工法は、地組みした所定の大きさのブロックをクレーン等で吊り上げて架構を構築する工法である。",
+            "総足場工法は、必要な高さまで足場を組み立てて、作業用の構台を全域にわたり設置し、架構を構築する工法である。",
+            "移動構台工法は、移動構台上で所定の部分の屋根鉄骨を組み立てた後、構台を移動させ、順次架構を構築する工法である。",
+            "スライド工法は、作業構台上で所定の部分の屋根鉄骨を組み立てた後、そのユニットを所定位置まで順次滑動横引きしていき、最終的に架構全体を構築する工法である。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1（✖ 不適当）：リフトアップ工法は、屋根鉄骨などの構造物を地上で組立てた後、「油圧ジャッキ」を使用して引き上げる工法である。「クレーン等で吊り上げる」のは「ブロック工法」のこと。クレーン2台で両端を同時に吊り上げるのは非常に危険であり、リフトアップは主にジャッキを使用する。\n\n選択肢2（〇 適当）：総足場工法は、必要な高さまで足場を組み立てて、作業構台を全域にわたり設置し、架構を構築する工法。\n\n選択肢3（〇 適当）：移動構台工法は、移動構台（可動式）上で所定の部分の屋根鉄骨を組み立てた後、構台を移動させて順次架構を構築する工法。\n\n選択肢4（〇 適当）：スライド工法は、作業構台（固定式）上で所定の部分の屋根鉄骨を組み立てた後、スライド用レールを利用してそのユニットを所定位置まで順次滑動横引きし、最終的に架構全体を構築する工法。",
+          "studyContent": "大空間鉄骨架構の主要建方工法:\n■リフトアップ工法\n・地上で組立後、油圧ジャッキで持ち上げ\n・体育館、駅の大屋根などに採用\n\n■ブロック工法\n・地組みしたブロックをクレーンで吊り上げ\n・小〜中規模に適する\n\n■総足場工法\n・全域に足場・構台を設置して組立\n・小規模だが足場費用大\n\n■移動構台工法\n・可動式構台上で組立 → 構台移動 → 次を組立\n・連続性のある屋根構造に有効\n\n■スライド工法\n・固定構台上で組立 → ユニットをレールで横引き\n・端部で組立、定位置へスライド\n\n■ジャッキダウン工法\n・上で組立後、ジャッキでゆっくり下ろす",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về phương pháp dựng kết cấu thép không gian lớn (大空間鉄骨架構の建方)?\n\n1. Phương pháp lift-up (リフトアップ工法) là phương pháp lắp ráp các khối có kích thước nhất định dưới mặt đất rồi dùng cần trục v.v. nâng lên để dựng kết cấu.\n2. Phương pháp giàn giáo toàn bộ (総足場工法) là phương pháp dựng giàn giáo đến chiều cao cần thiết, lắp sàn công tác trên toàn bộ khu vực để dựng kết cấu.\n3. Phương pháp sàn công tác di động (移動構台工法) lắp ráp một phần khung thép mái trên sàn công tác di động, sau đó di chuyển sàn công tác để lần lượt dựng kết cấu.\n4. Phương pháp trượt (スライド工法) lắp ráp một phần khung thép mái trên sàn công tác, sau đó trượt ngang đơn vị đó đến vị trí quy định, cuối cùng dựng toàn bộ kết cấu.",
+          "choices_vi": [
+            "Lift-up: lắp khối dưới đất rồi dùng cần trục nâng lên.",
+            "Giàn giáo toàn bộ: dựng giàn giáo và sàn công tác trên toàn khu vực.",
+            "Sàn công tác di động: lắp trên sàn → di chuyển sàn → lắp tiếp.",
+            "Trượt: lắp tại 1 vị trí → trượt ngang đến vị trí quy định."
+          ],
+          "explanation_vi": "Lựa chọn 1 (✖ KHÔNG đúng): Phương pháp lift-up (リフトアップ工法) là phương pháp lắp ráp kết cấu (khung thép mái...) dưới mặt đất rồi dùng 'kích thủy lực (油圧ジャッキ)' kéo lên. 'Dùng cần trục nâng lên' là 'phương pháp lắp khối (ブロック工法)'. Việc dùng 2 cần trục nâng đồng thời 2 đầu là rất nguy hiểm, nên lift-up chủ yếu dùng kích.\n\nLựa chọn 2 (〇 Đúng): Phương pháp giàn giáo toàn bộ là phương pháp dựng giàn giáo đến chiều cao cần thiết, lắp sàn công tác trên toàn bộ khu vực để dựng kết cấu.\n\nLựa chọn 3 (〇 Đúng): Phương pháp sàn công tác di động lắp ráp một phần khung thép mái trên sàn công tác (kiểu di động) sau đó di chuyển sàn để lần lượt dựng kết cấu.\n\nLựa chọn 4 (〇 Đúng): Phương pháp trượt lắp ráp một phần khung thép mái trên sàn công tác (kiểu cố định), sau đó sử dụng đường ray trượt kéo ngang đơn vị đến vị trí quy định, cuối cùng dựng toàn bộ kết cấu.",
+          "studyContent_vi": "Các phương pháp dựng kết cấu thép không gian lớn chính:\n■ Lift-up\n・Lắp dưới đất rồi nâng bằng kích thủy lực\n・Dùng cho mái lớn của sân vận động, ga tàu\n\n■ Block (Lắp khối)\n・Lắp các khối dưới đất rồi cẩu lên\n・Phù hợp công trình quy mô nhỏ-vừa\n\n■ Giàn giáo toàn bộ\n・Lắp giàn giáo và sàn công tác trên toàn khu vực\n・Quy mô nhỏ nhưng tốn chi phí giàn giáo\n\n■ Sàn công tác di động\n・Lắp trên sàn di động → di chuyển → lắp tiếp\n・Hiệu quả với mái liên tục\n\n■ Phương pháp trượt\n・Lắp tại sàn cố định → trượt ngang đến vị trí quy định\n・Lắp ở đầu rồi trượt vào vị trí\n\n■ Jack-down\n・Lắp trên cao rồi dùng kích hạ xuống từ từ"
+        }
+      ]
+    },
+    {
+      "path": "03_躯体施工 / 木工事",
+      "vocabulary": [
+        "木質軸組構法 (もくしつじくぐみこうほう) - kết cấu khung gỗ trục (post-and-beam construction)",
+        "構造用面材 (こうぞうようめんざい) - tấm gỗ kết cấu (structural board)",
+        "耐力壁 (たいりょくへき) - tường chịu lực",
+        "胴差 (どうさし) - dầm vành ngang giữa các tầng (dầm cô-tét)",
+        "あき (あき) - khe hở",
+        "ラグスクリュー (ラグスクリュー) - vít lag (lag screw)",
+        "先孔 (さきあな) - lỗ khoan trước",
+        "スパナ (スパナ) - cờ lê",
+        "接合金物 (せつごうかなもの) - phụ kiện liên kết bằng kim loại",
+        "座金 (ざがね) - vòng đệm (washer)",
+        "めり込み (めりこみ) - lún sâu / chìm vào",
+        "乾燥収縮 (かんそうしゅうしゅく) - co ngót do khô",
+        "集成材 (しゅうせいざい) - gỗ ép tổng hợp (glulam)",
+        "ボルト孔 (ボルトあな) - lỗ bu lông",
+        "許容誤差 (きょようごさ) - sai số cho phép",
+        "ドリフトピン (ドリフトピン) - chốt dẫn hướng (drift pin)",
+        "大壁造 (おおかべづくり) - kiểu tường lớn (tường bao kín cột)"
+      ],
+      "questions": [
+        {
+          "label": "Q29",
+          "question": "木質軸組構法に関する記述として、最も不適当なものはどれか。\n\n1. 1階及び2階の上下同位置に構造用面材の耐力壁を設けるため、胴差部において、構造用面材相互間に、6mmのあきを設けた。\n2. 接合に用いるラグスクリューは、先孔にスパナを用いて回しながら締め付けた。\n3. 接合金物のボルトの締付けは、座金が木材へ軽くめり込む程度とし、工事中、木材の乾燥収縮により緩んだナットは締め直した。\n4. 集成材にあけるボルト孔の間隔は、許容誤差を±5mmとした。",
+          "choices": [
+            "1階及び2階の上下同位置に構造用面材の耐力壁を設けるため、胴差部において、構造用面材相互間に、6mmのあきを設けた。",
+            "接合に用いるラグスクリューは、先孔にスパナを用いて回しながら締め付けた。",
+            "接合金物のボルトの締付けは、座金が木材へ軽くめり込む程度とし、工事中、木材の乾燥収縮により緩んだナットは締め直した。",
+            "集成材にあけるボルト孔の間隔は、許容誤差を±5mmとした。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1（〇 適当）：大壁造の面材耐力壁において、上下階の上下同位置に構造用面材の耐力壁を設ける場合、胴差部において構造用面材相互間に5〜6mm以上の空きを設ける（公共建築木造工事標準仕様書5.9.3）。\n\n選択肢2（〇 適当）：接合に用いるラグスクリューは、先孔にスパナを用いて回しながら締め付ける。たたき込みによる挿入は行ってはいけない（公共建築木造工事標準仕様書6.5.12）。\n\n選択肢3（〇 適当）：接合金物のボルト締付けは、座金が木材へ軽くめり込む程度とし、工事中に木材の乾燥収縮により緩んだナットは締め直す（公共建築木造工事標準仕様書6.5.11）。\n\n選択肢4（✖ 不適当）：集成材にあける標準的なボルト孔の心ずれの許容誤差は「±2mm」とする。設問の「±5mm」は誤り。間隔としては −2−2＝−4mm または +2+2＝+4mm が最大許容誤差。",
+          "studyContent": "木質軸組構法の重要事項:\n■耐力壁\n・大壁造の面材耐力壁：上下同位置に設ける場合、胴差部で5〜6mm以上の空き\n・釘打ち間隔・縁あき距離も規定あり\n\n■接合金物\n・ラグスクリュー：先孔にスパナで回しながら締付け（叩き込み禁止）\n・ボルト：座金が木材に軽くめり込む程度\n・乾燥収縮で緩んだナット：締め直し有効\n\n■集成材の加工精度\n・ボルト孔の心ずれ：±2mm\n・ドリフトピン孔径：±0mm（ピンと同径）\n\n■関連法令\n・建築物における木材の利用の促進に関する法律（公共建築物等木材利用促進法）\n・今後出題頻度が高まる可能性大",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về kết cấu khung gỗ trục (木質軸組構法)?\n\n1. Để lắp tường chịu lực bằng tấm gỗ kết cấu ở cùng vị trí giữa tầng 1 và tầng 2, đã chừa khe hở 6mm giữa các tấm gỗ kết cấu tại vị trí dầm vành ngang (胴差部).\n2. Vít lag (ラグスクリュー) dùng để liên kết được siết vào lỗ khoan trước (先孔) bằng cách dùng cờ lê xoay.\n3. Việc siết bu lông của phụ kiện liên kết: vòng đệm hơi lún vào gỗ một chút, đai ốc bị lỏng do gỗ co ngót khô trong quá trình thi công được siết lại.\n4. Sai số cho phép của khoảng cách lỗ bu lông trên gỗ ép tổng hợp (集成材) lấy ±5mm.",
+          "choices_vi": [
+            "Lắp tường chịu lực cùng vị trí tầng 1-2: khe hở 6mm tại 胴差部.",
+            "Vít lag: dùng cờ lê xoay vào lỗ khoan trước.",
+            "Bu lông phụ kiện: vòng đệm hơi lún, siết lại đai ốc bị lỏng do co ngót.",
+            "Sai số khoảng cách lỗ bu lông trên gỗ ép tổng hợp: ±5mm."
+          ],
+          "explanation_vi": "Lựa chọn 1 (〇 Đúng): Với tường chịu lực bằng tấm gỗ kết cấu kiểu 大壁造, khi lắp ở cùng vị trí trên - dưới giữa các tầng, tại vị trí 胴差部 phải chừa khe hở ≥ 5〜6mm giữa các tấm gỗ kết cấu.\n\nLựa chọn 2 (〇 Đúng): Vít lag dùng để liên kết phải được siết vào lỗ khoan trước bằng cách dùng cờ lê xoay. KHÔNG được đóng vào bằng búa.\n\nLựa chọn 3 (〇 Đúng): Siết bu lông phụ kiện liên kết: chỉ siết đến mức vòng đệm hơi lún vào gỗ. Đai ốc bị lỏng do gỗ co ngót khô trong thi công cần được siết lại.\n\nLựa chọn 4 (✖ KHÔNG đúng): Sai số cho phép của độ lệch tâm lỗ bu lông tiêu chuẩn trên gỗ ép tổng hợp là '±2mm', không phải '±5mm'. Khoảng cách giữa các lỗ tối đa có sai số ±4mm.",
+          "studyContent_vi": "Các điểm quan trọng về kết cấu khung gỗ trục:\n■ Tường chịu lực\n・Tường 大壁造 lắp cùng vị trí trên dưới: khe hở ≥ 5〜6mm tại 胴差部\n・Cũng có quy định về khoảng cách đóng đinh và khoảng cách biên\n\n■ Phụ kiện liên kết\n・Vít lag: siết bằng cờ lê vào lỗ khoan trước (cấm đóng)\n・Bu lông: vòng đệm hơi lún vào gỗ\n・Đai ốc lỏng do co ngót: siết lại có hiệu quả\n\n■ Độ chính xác gia công gỗ ép tổng hợp\n・Lệch tâm lỗ bu lông: ±2mm\n・Đường kính lỗ chốt dẫn hướng: ±0mm (đồng kích với chốt)\n\n■ Pháp lý liên quan\n・Luật khuyến khích sử dụng gỗ trong công trình xây dựng\n・Khả năng cao sẽ ra thi nhiều hơn trong tương lai"
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / 防水・シーリング工事",
+      "vocabulary": [
+        "合成高分子系ルーフィングシート防水 (ごうせいこうぶんしけいルーフィングシートぼうすい) - chống thấm bằng tấm rooofing polymer tổng hợp",
+        "加硫ゴム系シート (かりゅうゴムけいシート) - tấm cao su lưu hóa (EPDM)",
+        "非加硫ゴム系シート (ひかりゅうゴムけいシート) - tấm cao su không lưu hóa (dùng tăng cường)",
+        "接着工法 (せっちゃくこうほう) - phương pháp dán keo",
+        "塩化ビニル樹脂系シート (えんかビニルじゅしけいシート) - tấm PVC",
+        "エチレン酢酸ビニル樹脂系シート (エチレンさくさんビニルじゅしけいシート) - tấm EVA",
+        "密着工法 (みっちゃくこうほう) - phương pháp dán sát (fully adhered)",
+        "重ね幅 (かさねはば) - chiều rộng chồng mép",
+        "平場部 (ひらばぶ) - phần mặt phẳng",
+        "立上り部 (たちあがりぶ) - phần đứng lên",
+        "出隅角 (でずみかど) - góc lồi",
+        "入隅 (いりすみ) - góc lõm",
+        "増張り (ましばり) - dán tăng cường",
+        "プライマー (プライマー) - lớp lót / primer",
+        "ALCパネル (エーエルシーパネル) - tấm ALC (Autoclaved Lightweight Concrete)",
+        "シーリング工事 (シーリングこうじ) - công tác keo trám",
+        "3面接着 (さんめんせっちゃく) - dán 3 mặt (cao su trám tiếp xúc 3 mặt)",
+        "2面接着 (にめんせっちゃく) - dán 2 mặt (cao su trám tiếp xúc 2 mặt - cho khe biến dạng)",
+        "ワーキングジョイント (ワーキングジョイント) - khe biến dạng (working joint - 2 mặt)",
+        "ノンワーキングジョイント (ノンワーキングジョイント) - khe không biến dạng (3 mặt)",
+        "ポリウレタン系 (ポリウレタンけい) - hệ polyurethane",
+        "ポリサルファイド系 (ポリサルファイドけい) - hệ polysulfide",
+        "シリコーン系 (シリコーンけい) - hệ silicone",
+        "変成シリコーン系 (へんせいシリコーンけい) - hệ silicone biến tính",
+        "2成分形 (にせいぶんがた) - loại 2 thành phần",
+        "そぎ継ぎ (そぎつぎ) - mối nối vát chéo",
+        "可使時間 (かしじかん) - thời gian sử dụng (pot life)"
+      ],
+      "questions": [
+        {
+          "label": "Q31",
+          "question": "合成高分子系ルーフィングシート防水に関する記述として、最も不適当なものはどれか。\n\n1. 加硫ゴム系シート防水の接着工法において、平場部の接合部のシートの重ね幅は100mm以上とし、立上り部と平場部との重ね幅は150mm以上とした。\n2. 加硫ゴム系シート防水の接着工法において、出隅角の処理は、シートの張付け前に加硫ゴム系シートで増張りを行った。\n3. 塩化ビニル樹脂系シート防水の接着工法において、下地がALCパネルのため、プライマーを塗布した。\n4. エチレン酢酸ビニル樹脂系シート防水の密着工法において、接合部のシートの重ね幅は、幅方向、長手方向とも100mm以上とした。",
+          "choices": [
+            "加硫ゴム系シート防水の接着工法において、平場部の接合部のシートの重ね幅は100mm以上とし、立上り部と平場部との重ね幅は150mm以上とした。",
+            "加硫ゴム系シート防水の接着工法において、出隅角の処理は、シートの張付け前に加硫ゴム系シートで増張りを行った。",
+            "塩化ビニル樹脂系シート防水の接着工法において、下地がALCパネルのため、プライマーを塗布した。",
+            "エチレン酢酸ビニル樹脂系シート防水の密着工法において、接合部のシートの重ね幅は、幅方向、長手方向とも100mm以上とした。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1（〇 適当）：加硫ゴム系シート防水の接着工法では、平場部の接合部の重ね幅は100mm以上、立上り部と平場部の重ね幅は150mm以上とする（公共建築工事標準仕様書9.4）。\n\n選択肢2（✖ 不適当）：出隅角の処理は、加硫ゴム系シートではなく「非加硫ゴム系シート（増張り用シート）」を用いて増張りする。隅角部は加硫ゴム系シートは伸びて厚みが薄くなり弱点となりやすいので、それを補うために非加硫ゴム系シートを使用する（公共建築工事標準仕様書9.4.4）。\n\n選択肢3（〇 適当）：塩化ビニル樹脂系シート防水の接着工法では、下地がALCパネルの場合はプライマーを塗布する。\n\n選択肢4（〇 適当）：エチレン酢酸ビニル樹脂系シート防水の密着工法では、接合部のシートの重ね幅は幅方向・長手方向とも100mm以上とする。",
+          "studyContent": "合成高分子系シート防水の主要数値:\n■加硫ゴム系（EPDM）接着工法\n・平場重ね幅：100mm以上\n・立上り×平場重ね幅：150mm以上\n・出隅角増張り：非加硫ゴム系シートを使用（シート張付け前）\n\n■塩化ビニル樹脂系シート（PVC）\n・接着工法・機械固定工法あり\n・下地ALCパネル：プライマー塗布必要\n・接合：熱融着または溶剤溶着\n\n■エチレン酢酸ビニル樹脂系（EVA）\n・密着工法：重ね幅 幅方向・長手方向とも100mm以上\n・保護工法に使用\n\n■防水の種類\n・アスファルト防水\n・改質アスファルトシート防水\n・合成高分子系ルーフィングシート防水\n・塗膜防水\n・ケイ酸質系塗布防水",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về chống thấm bằng tấm roofing polymer tổng hợp (合成高分子系ルーフィングシート防水)?\n\n1. Trong phương pháp dán keo chống thấm bằng tấm cao su lưu hóa, chiều rộng chồng mép tại phần mặt phẳng ≥ 100mm, chiều rộng chồng giữa phần đứng và phần mặt phẳng ≥ 150mm.\n2. Trong phương pháp dán keo chống thấm bằng tấm cao su lưu hóa, xử lý góc lồi (出隅角) bằng cách dán tăng cường bằng tấm cao su lưu hóa trước khi dán tấm chính.\n3. Trong phương pháp dán keo chống thấm bằng tấm PVC, do nền là tấm ALC nên đã quét lớp lót (プライマー).\n4. Trong phương pháp dán sát chống thấm bằng tấm EVA, chiều rộng chồng mép tại mối nối ≥ 100mm theo cả chiều rộng và chiều dài.",
+          "choices_vi": [
+            "Cao su lưu hóa dán keo: mặt phẳng ≥ 100mm, đứng-phẳng ≥ 150mm.",
+            "Cao su lưu hóa dán keo: tăng cường góc lồi bằng tấm cao su lưu hóa.",
+            "PVC dán keo trên nền ALC: quét lớp lót.",
+            "EVA dán sát: chồng mép ≥ 100mm cả 2 chiều."
+          ],
+          "explanation_vi": "Lựa chọn 1 (〇 Đúng): Phương pháp dán keo bằng cao su lưu hóa: chồng mép phần phẳng ≥ 100mm, chồng giữa phần đứng và phẳng ≥ 150mm.\n\nLựa chọn 2 (✖ KHÔNG đúng): Xử lý góc lồi KHÔNG dùng tấm cao su lưu hóa, mà dùng 'tấm cao su không lưu hóa (非加硫ゴム系シート)' để dán tăng cường. Tại góc, tấm cao su lưu hóa bị kéo căng và mỏng đi, dễ thành điểm yếu, nên dùng tấm cao su không lưu hóa để bù.\n\nLựa chọn 3 (〇 Đúng): Phương pháp dán keo bằng tấm PVC: khi nền là tấm ALC thì phải quét lớp lót.\n\nLựa chọn 4 (〇 Đúng): Phương pháp dán sát bằng tấm EVA: chồng mép ≥ 100mm cả theo chiều rộng và chiều dài.",
+          "studyContent_vi": "Số liệu chính của chống thấm tấm polymer:\n■ Cao su lưu hóa (EPDM) - dán keo\n・Chồng mép phần phẳng: ≥ 100mm\n・Chồng đứng × phẳng: ≥ 150mm\n・Tăng cường góc lồi: dùng tấm cao su KHÔNG lưu hóa (trước khi dán tấm chính)\n\n■ Tấm PVC\n・Có phương pháp dán keo và cố định cơ học\n・Nền ALC: bắt buộc quét lớp lót\n・Mối nối: hàn nhiệt hoặc hàn dung môi\n\n■ Tấm EVA\n・Dán sát: chồng mép ≥ 100mm cả 2 chiều\n・Dùng trong phương pháp bảo vệ\n\n■ Các loại chống thấm\n・Chống thấm bitum\n・Chống thấm tấm bitum cải tiến\n・Chống thấm tấm polymer\n・Chống thấm bằng lớp phủ\n・Chống thấm silicate"
+        },
+        {
+          "label": "Q32",
+          "question": "シーリング工事に関する記述として、最も不適当なものはどれか。\n\n1. 外壁ALCパネル張りに取り付けるアルミニウム製建具の周囲の目地シーリングは、3面接着とした。\n2. 先打ちしたポリウレタン系シーリング材に、ポリサルファイド系シーリング材を打ち継いだ。\n3. シーリング材の打継ぎ箇所は、目地の交差部及びコーナー部を避け、そぎ継ぎとした。\n4. コンクリートの水平打継ぎ目地のシーリングは、2成分形変成シリコーン系シーリング材を用いた。",
+          "choices": [
+            "外壁ALCパネル張りに取り付けるアルミニウム製建具の周囲の目地シーリングは、3面接着とした。",
+            "先打ちしたポリウレタン系シーリング材に、ポリサルファイド系シーリング材を打ち継いだ。",
+            "シーリング材の打継ぎ箇所は、目地の交差部及びコーナー部を避け、そぎ継ぎとした。",
+            "コンクリートの水平打継ぎ目地のシーリングは、2成分形変成シリコーン系シーリング材を用いた。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1（✖ 不適当）：外壁ALCパネル張りに取り付けるアルミニウム製建具の周囲の目地シーリングは「2面接着」とする。ALCパネルは構造上動く構造（ワーキングジョイント）となりやすいため、2面接着とし、ムーブメント追従性を確保する。3面接着は防水性は高いが動きに弱く切れやすい。\n\n選択肢2（〇 適当）：先打ちしたポリウレタン系シーリング材に、ポリサルファイド系シーリング材を打ち継ぐことは可能。「シリコーン系」と他のシーリング材の打継ぎは不可だが、シリコーン系以外同士は基本的に可能。\n\n選択肢3（〇 適当）：シーリング材の打継ぎ箇所は、目地の交差部・コーナー部で打継ぐと充填不良や水の浸入が懸念されるため避け、そぎ継ぎ（斜め切り）とする。\n\n選択肢4（〇 適当）：コンクリートの水平打継ぎ目地のシーリングは、2成分形変成シリコーン系シーリング材を用いることができる（変成シリコーンはほとんどの個所で使用可能）。",
+          "studyContent": "シーリング工事の重要事項:\n■3面接着 vs 2面接着\n・3面接着（ノンワーキングジョイント）：動きの小さい打継ぎ目地、ひび割れ誘発目地、建具枠回り等\n・2面接着（ワーキングジョイント）：外壁ALCパネル、カーテンウォール等の動く構造\n・3面接着の方が防水性は高いが動きに弱い\n\n■シーリング材の種類と用途\n・シリコーン系：ガラス面、キッチンパネル、浴槽など水回り（他材と打継ぎ不可）\n・変成シリコーン系：ほぼ全所で使用可能（万能）\n・ポリウレタン系：塗装などの仕上げをする部位\n・ポリサルファイド系：耐油・耐薬品性に優れる\n\n■施工ポイント\n・打継ぎ箇所：交差部・コーナー避け、そぎ継ぎ\n・2成分形：配合練混ぜ後、可使時間内に使用",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về công tác keo trám (シーリング工事)?\n\n1. Keo trám tại khe xung quanh cửa nhôm gắn vào tường ngoài ốp tấm ALC dùng phương pháp dán 3 mặt (3面接着).\n2. Keo trám hệ polysulfide được trám tiếp nối vào keo trám hệ polyurethane đã trám trước.\n3. Vị trí trám tiếp nối tránh giao điểm và góc của khe, dùng mối nối vát chéo (そぎ継ぎ).\n4. Keo trám cho khe đổ bê tông ngang dùng keo silicone biến tính loại 2 thành phần.",
+          "choices_vi": [
+            "Khe cửa nhôm trên tường ALC ngoài: dán 3 mặt.",
+            "Polyurethane trám trước, polysulfide trám tiếp.",
+            "Trám tiếp nối: tránh giao điểm và góc, mối nối vát chéo.",
+            "Khe bê tông ngang: silicone biến tính 2 thành phần."
+          ],
+          "explanation_vi": "Lựa chọn 1 (✖ KHÔNG đúng): Keo trám khe xung quanh cửa nhôm gắn vào tường ngoài ốp ALC phải là 'dán 2 mặt (2面接着)'. Tấm ALC có kết cấu dễ chuyển động (working joint), nên dùng 2 mặt để đảm bảo khả năng theo chuyển động. 3 mặt có độ kín nước cao hơn nhưng yếu với chuyển động, dễ bị đứt.\n\nLựa chọn 2 (〇 Đúng): Có thể trám tiếp polysulfide vào polyurethane đã trám trước. 'Silicone' với các loại keo khác KHÔNG được trám tiếp nối, nhưng các loại khác silicone với nhau về cơ bản có thể trám tiếp nối.\n\nLựa chọn 3 (〇 Đúng): Vị trí trám tiếp nối tại giao điểm hoặc góc khe sẽ gây lo ngại về việc trám không đầy và thấm nước, nên tránh và dùng mối nối vát chéo (cắt xiên).\n\nLựa chọn 4 (〇 Đúng): Có thể dùng silicone biến tính loại 2 thành phần cho keo trám khe bê tông đổ ngang (silicone biến tính dùng được hầu hết các vị trí).",
+          "studyContent_vi": "Các điểm quan trọng về công tác keo trám:\n■ Dán 3 mặt vs Dán 2 mặt\n・Dán 3 mặt (khe không biến dạng): khe đổ bê tông biến dạng ít, khe gây nứt, khung cửa v.v.\n・Dán 2 mặt (khe biến dạng): tấm ALC ngoài, curtain wall v.v. - kết cấu biến dạng\n・Dán 3 mặt kín nước hơn nhưng yếu với biến dạng\n\n■ Loại keo trám và phạm vi sử dụng\n・Silicone: mặt kính, panel bếp, bồn tắm - khu vực có nước (không nối được với loại khác)\n・Silicone biến tính: dùng được hầu hết các vị trí (đa năng)\n・Polyurethane: vị trí có hoàn thiện sơn\n・Polysulfide: chịu dầu, chịu hóa chất tốt\n\n■ Điểm thi công\n・Vị trí trám tiếp: tránh giao điểm/góc, dùng mối nối vát chéo\n・Loại 2 thành phần: sau khi trộn phải dùng trong thời gian sử dụng (pot life)"
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / タイル工事",
+      "vocabulary": [
+        "壁タイル後張り工法 (かべタイルあとばりこうほう) - phương pháp dán gạch tường sau (after-attaching)",
+        "セメントモルタル (セメントモルタル) - vữa xi măng",
+        "密着張り (みっちゃくばり) - dán sát (close attaching, dùng máy vibrator)",
+        "張付けモルタル (はりつけモルタル) - vữa dán",
+        "2度塗り (にどぬり) - sơn/trát 2 lớp",
+        "ヴィブラート (ヴィブラート) - máy rung (vibrator)",
+        "モザイクタイル張り (モザイクタイルばり) - dán gạch khảm (mosaic)",
+        "こて圧 (こてあつ) - lực miết bay trát",
+        "改良積上げ張り (かいりょうつみあげばり) - dán xếp chồng cải tiến",
+        "改良圧着張り (かいりょうあっちゃくばり) - dán ép cải tiến",
+        "塗り厚 (ぬりあつ) - chiều dày lớp trát",
+        "下地モルタル (したじモルタル) - vữa nền",
+        "目地深さ (めじふかさ) - chiều sâu mạch",
+        "たたき押え (たたきおさえ) - đập miết / búa miết",
+        "心木なし瓦棒葺 (しんぎなしかわらぼうぶき) - lợp kim loại kiểu thanh ngói không lõi gỗ",
+        "吊子 (つりこ) - móc treo (clip)",
+        "通し吊子 (とおしつりこ) - móc treo liên tục",
+        "母屋 (もや) - xà gồ",
+        "下葺材 (したぶきざい) - vật liệu lót dưới",
+        "野地板 (のじいた) - ván sàn mái",
+        "雨押え (あまおさえ) - flashing chống mưa",
+        "壁際立上り (かべぎわたちあがり) - phần đứng lên giáp tường",
+        "棟部 (むねぶ) - phần nóc",
+        "溝板 (みぞいた) - tấm máng",
+        "八千代折 (やちよおり) - gấp kiểu yachiyo (gấp 4 nếp)",
+        "水返し (みずがえし) - chỗ chặn nước",
+        "棟包み (むねづつみ) - bao bọc nóc",
+        "けらば部 (けらばぶ) - phần đầu hồi (gable end của mái)",
+        "瓦棒 (かわらぼう) - thanh ngói (rib)",
+        "働き幅 (はたらきはば) - chiều rộng làm việc / chiều rộng hữu hiệu",
+        "ケラバ唐草 (ケラバからくさ) - karakusa đầu hồi (mép trang trí)"
+      ],
+      "questions": [
+        {
+          "label": "Q33",
+          "question": "セメントモルタルによる壁タイル後張り工法に関する記述として、最も不適当なものはどれか。\n\n1. 密着張りの張付けモルタルは2度塗りとし、タイルは、上から下に1段置きに数段張り付けた後、それらの間のタイルを張った。\n2. モザイクタイル張りの張付けモルタルは2度塗りとし、1層目はこて圧をかけて塗り付けた。\n3. 改良積上げ張りの張付けモルタルは、下地モルタル面に塗り厚4mmで塗り付けた。\n4. 改良圧着張りの下地面への張付けモルタルは2度塗りとし、その合計の塗り厚を5mmとした。",
+          "choices": [
+            "密着張りの張付けモルタルは2度塗りとし、タイルは、上から下に1段置きに数段張り付けた後、それらの間のタイルを張った。",
+            "モザイクタイル張りの張付けモルタルは2度塗りとし、1層目はこて圧をかけて塗り付けた。",
+            "改良積上げ張りの張付けモルタルは、下地モルタル面に塗り厚4mmで塗り付けた。",
+            "改良圧着張りの下地面への張付けモルタルは2度塗りとし、その合計の塗り厚を5mmとした。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1（〇 適当）：密着張り工法（ヴィブラート工法）\n・張付けモルタルは下地面へ2層（合計5〜8mm）\n・目地深さはタイル厚の半分以下\n・水糸を使い、上から下へ1段おきに張り、隙間はあとで張る\n・ヴィブラート（振動）はタイル両端と中央部でモルタルが目地部に盛り上がるまで行う\n\n選択肢2（〇 適当）：モザイクタイル張り工法\n・張付けモルタルは下地面へ2層（3〜5mm）\n・1層目はこて圧をかけて薄く塗付け\n・たたき押えはモルタルが表紙を濡らすまで行う\n\n選択肢3（✖ 不適当）：改良積上げ張り工法では、張付けモルタルは「下地モルタル面」ではなく「タイル裏面」に7〜10mmの厚塗りとする。下地に塗らずタイル裏面にモルタルを乗せて張りつける。積上げ張りなので下から上へ張り、木槌で叩いて締める。\n\n選択肢4（〇 適当）：改良圧着張り工法\n・モルタルは下地面へ2層（4〜6mm）、タイル裏面にも3〜4mm\n・すぐに叩き押えで圧着\n・モルタルの1回あたりの塗付け面積は2㎡以下とする",
+          "studyContent": "タイル後張り工法 比較表:\n■密着張り（ヴィブラート）\n・モルタル位置：下地面のみ 2層\n・塗り厚：5〜8mm\n・張り方向：上から下、1段おき\n\n■モザイクタイル張り\n・モルタル位置：下地面のみ 2層\n・塗り厚：3〜5mm\n・1層目：こて圧で薄塗り\n\n■改良積上げ張り\n・モルタル位置：タイル裏面のみ（厚塗り）\n・塗り厚：7〜10mm\n・張り方向：下から上\n・締付け：木槌\n\n■改良圧着張り\n・モルタル位置：下地面 + タイル裏面の両方\n・下地面塗り厚：4〜6mm（2層）\n・タイル裏面：3〜4mm\n・1回塗付け面積：2㎡以下\n\n張付けモルタルをどちらに塗るか？1層か2層か？張付けは上からか下からか？合計厚さは？で整理。",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về phương pháp dán gạch tường sau bằng vữa xi măng (セメントモルタルによる壁タイル後張り工法)?\n\n1. Dán sát (密着張り): vữa dán quét 2 lớp; gạch được dán từ trên xuống dưới cách hàng vài hàng trước, sau đó dán các viên ở giữa.\n2. Dán gạch mosaic (モザイクタイル張り): vữa dán 2 lớp, lớp 1 trát với lực bay miết.\n3. Dán xếp chồng cải tiến (改良積上げ張り): vữa dán quét lên mặt vữa nền với chiều dày 4mm.\n4. Dán ép cải tiến (改良圧着張り): vữa dán quét lên mặt nền 2 lớp với tổng chiều dày 5mm.",
+          "choices_vi": [
+            "Dán sát: vữa 2 lớp; gạch dán từ trên xuống, cách hàng trước, sau dán giữa.",
+            "Dán mosaic: vữa 2 lớp, lớp 1 với lực bay miết.",
+            "Dán xếp chồng cải tiến: vữa quét lên mặt vữa nền dày 4mm.",
+            "Dán ép cải tiến: vữa quét lên nền 2 lớp tổng 5mm."
+          ],
+          "explanation_vi": "Lựa chọn 1 (〇 Đúng): Phương pháp dán sát (ヴィブラート):\n・Vữa dán lên mặt nền 2 lớp (tổng 5〜8mm)\n・Chiều sâu mạch ≤ 1/2 chiều dày gạch\n・Dùng dây mực, dán từ trên xuống cách hàng, các khoảng trống dán sau\n・Máy rung cho rung 2 đầu và giữa gạch đến khi vữa trào lên khe mạch\n\nLựa chọn 2 (〇 Đúng): Phương pháp dán mosaic:\n・Vữa dán lên mặt nền 2 lớp (3〜5mm)\n・Lớp 1 trát mỏng với lực bay miết\n・Đập miết đến khi vữa thấm ướt mặt giấy bọc\n\nLựa chọn 3 (✖ KHÔNG đúng): Phương pháp dán xếp chồng cải tiến KHÔNG quét vữa lên 'mặt vữa nền' mà lên 'MẶT SAU CỦA GẠCH' với độ dày 7〜10mm. Không trát nền, đặt vữa lên lưng gạch để dán. Đây là dán xếp chồng nên dán từ dưới lên, dùng búa gỗ gõ chặt.\n\nLựa chọn 4 (〇 Đúng): Phương pháp dán ép cải tiến:\n・Vữa lên mặt nền 2 lớp (4〜6mm), thêm lưng gạch 3〜4mm\n・Đập miết ép ngay\n・Diện tích quét vữa mỗi lần ≤ 2 m²",
+          "studyContent_vi": "Bảng so sánh phương pháp dán gạch sau:\n■ Dán sát (Vibrator)\n・Vị trí vữa: chỉ mặt nền, 2 lớp\n・Chiều dày: 5〜8mm\n・Hướng dán: trên xuống, cách hàng\n\n■ Dán mosaic\n・Vị trí vữa: chỉ mặt nền, 2 lớp\n・Chiều dày: 3〜5mm\n・Lớp 1: trát mỏng với lực bay miết\n\n■ Dán xếp chồng cải tiến\n・Vị trí vữa: CHỈ LƯNG GẠCH (dày)\n・Chiều dày: 7〜10mm\n・Hướng dán: dưới lên\n・Ép chặt: búa gỗ\n\n■ Dán ép cải tiến\n・Vị trí vữa: CẢ mặt nền VÀ lưng gạch\n・Chiều dày mặt nền: 4〜6mm (2 lớp)\n・Lưng gạch: 3〜4mm\n・Diện tích quét mỗi lần: ≤ 2 m²\n\nHệ thống hóa theo: vữa quét vào đâu? 1 hay 2 lớp? dán từ trên hay từ dưới? tổng chiều dày là bao nhiêu?"
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / 屋根工事",
+      "vocabulary": [
+        "金属板葺 (きんぞくいたぶき) - lợp tấm kim loại",
+        "立て平葺 (たてひらぶき) - lợp dọc bằng (vertical seam)",
+        "横葺 (よこぶき) - lợp ngang",
+        "折板屋根 (せっぱんやね) - mái tấm gập (folded plate roofing)",
+        "ドリルねじ (ドリルねじ) - vít tự khoan",
+        "平座金 (ひらざがね) - vòng đệm phẳng",
+        "はぜ締め (はぜじめ) - siết mép kép (seam folding)"
+      ],
+      "questions": [
+        {
+          "label": "Q34",
+          "question": "心木なし瓦棒葺に関する記述として、最も不適当なものはどれか。\n\n1. 水上部分と壁との取合い部に設ける雨押えは、壁際立上りを45mmとした。\n2. 通し吊子の鉄骨母屋への取付けは、平座金を付けたドリルねじで、下葺材、野地板を貫通させ母屋に固定した。\n3. 棟部の納めは、溝板の水上端部に八千代折とした水返しを設け、棟包みを取り付けた。\n4. けらば部の溝板の幅は、瓦棒の働き幅の1／2以下とした。",
+          "choices": [
+            "水上部分と壁との取合い部に設ける雨押えは、壁際立上りを45mmとした。",
+            "通し吊子の鉄骨母屋への取付けは、平座金を付けたドリルねじで、下葺材、野地板を貫通させ母屋に固定した。",
+            "棟部の納めは、溝板の水上端部に八千代折とした水返しを設け、棟包みを取り付けた。",
+            "けらば部の溝板の幅は、瓦棒の働き幅の1／2以下とした。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1（✖ 不適当）：水上部分と壁との取合い部に設ける雨押えの壁際立上り寸法は「120mm以上」とする。設問の「45mm」は誤り。溝板には水返しを設ける。\n\n選択肢2（〇 適当）：通し吊子は1本おきに配置（マーキングしておく）し、平座金を付けたドリルねじで、下葺材・野地板を貫通させ母屋に固定する。キャップをかぶせてはぜ締めで取り付ける。\n\n選択肢3（〇 適当）：棟包みでは、溝板の水上端部に八千代折りとした水返しを取り付け、棟包みを設置する。棟包みの継手は瓦棒に近い位置に設ける。\n\n選択肢4（〇 適当）：けらば部は、溝板の端部をケラバ唐草に掴みこんで納める。けらば納めの端部となる溝板の幅は、瓦棒の働き幅の1/2以下とする。",
+          "studyContent": "心木なし瓦棒葺の重要数値・部位:\n■雨押え（壁との取合い）\n・壁際立上り：120mm以上\n・溝板に水返し設置\n\n■通し吊子\n・1本おきに配置\n・平座金付ドリルねじで母屋に固定\n・下葺材・野地板貫通\n・キャップ＋はぜ締め\n\n■棟部\n・溝板水上端部：八千代折りの水返し\n・棟包み取付け（継手は瓦棒近く）\n\n■けらば部\n・溝板幅：瓦棒の働き幅の1/2以下\n・ケラバ唐草で端部納め\n\n■軒先\n・溝板を軒先唐草に巻き込む\n\n■金属板葺の種類\n・心木なし瓦棒葺、平葺、立て平葺、横葺、金属折板葺",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về lợp thanh ngói không lõi gỗ (心木なし瓦棒葺)?\n\n1. Tấm flashing chống mưa (雨押え) tại điểm tiếp giáp giữa phần thượng nguồn và tường có chiều cao đứng lên giáp tường là 45mm.\n2. Lắp móc treo liên tục (通し吊子) vào xà gồ thép bằng vít tự khoan có vòng đệm phẳng, xuyên qua vật liệu lót dưới và ván sàn mái, cố định vào xà gồ.\n3. Phần nóc được hoàn thiện bằng cách bố trí chỗ chặn nước gấp kiểu yachiyo ở đầu thượng nguồn của tấm máng, sau đó lắp bao bọc nóc.\n4. Chiều rộng tấm máng ở phần đầu hồi (けらば部) ≤ 1/2 chiều rộng làm việc của thanh ngói.",
+          "choices_vi": [
+            "Flashing chống mưa tiếp giáp tường: đứng lên giáp tường 45mm.",
+            "Móc treo liên tục: vít tự khoan có vòng đệm, xuyên lót/ván mái, cố định xà gồ.",
+            "Phần nóc: gấp yachiyo ở đầu thượng nguồn tấm máng + bao bọc nóc.",
+            "Tấm máng đầu hồi: chiều rộng ≤ 1/2 chiều rộng làm việc thanh ngói."
+          ],
+          "explanation_vi": "Lựa chọn 1 (✖ KHÔNG đúng): Kích thước chiều cao đứng lên giáp tường của flashing chống mưa tại điểm tiếp giáp giữa phần thượng nguồn và tường phải là '120mm trở lên'. Đề bài '45mm' là sai. Trên tấm máng có chỗ chặn nước.\n\nLựa chọn 2 (〇 Đúng): Móc treo liên tục bố trí cách 1 (đánh dấu trước), dùng vít tự khoan có vòng đệm phẳng xuyên qua vật liệu lót dưới và ván sàn mái cố định vào xà gồ. Đậy nắp và siết mép kép.\n\nLựa chọn 3 (〇 Đúng): Tại phần nóc, lắp chỗ chặn nước gấp kiểu yachiyo ở đầu thượng nguồn tấm máng, sau đó lắp bao bọc nóc. Mối nối bao bọc nóc đặt gần thanh ngói.\n\nLựa chọn 4 (〇 Đúng): Tại phần đầu hồi, kẹp đầu tấm máng vào karakusa đầu hồi. Chiều rộng tấm máng ở đầu hồi phải ≤ 1/2 chiều rộng làm việc thanh ngói.",
+          "studyContent_vi": "Số liệu và bộ phận quan trọng của lợp thanh ngói không lõi gỗ:\n■ Flashing chống mưa (tiếp giáp tường)\n・Đứng lên giáp tường: ≥ 120mm\n・Lắp chỗ chặn nước trên tấm máng\n\n■ Móc treo liên tục\n・Bố trí cách 1\n・Vít tự khoan có vòng đệm phẳng, cố định vào xà gồ\n・Xuyên qua vật liệu lót dưới và ván sàn mái\n・Đậy nắp + siết mép kép\n\n■ Phần nóc\n・Đầu thượng nguồn tấm máng: chỗ chặn nước gấp yachiyo\n・Lắp bao bọc nóc (mối nối gần thanh ngói)\n\n■ Phần đầu hồi\n・Chiều rộng tấm máng: ≤ 1/2 chiều rộng làm việc thanh ngói\n・Kẹp vào karakusa đầu hồi\n\n■ Phần mái hiên\n・Tấm máng cuốn vào karakusa mái hiên\n\n■ Các loại lợp kim loại\n・心木なし瓦棒葺, 平葺, 立て平葺, 横葺, 金属折板葺"
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / 左官工事",
+      "vocabulary": [
+        "防水形複層塗材E (ぼうすいがたふくそうとざいE) - vật liệu trát phủ phức hợp loại chống thấm E (Acrylic tile/エマルション系)",
+        "合成樹脂エマルション (ごうせいじゅしエマルション) - nhũ tương nhựa tổng hợp",
+        "上塗材 (うわぬりざい) - vật liệu trát lớp trên",
+        "主材 (しゅざい) - vật liệu chính (lớp giữa)",
+        "下塗材 (したぬりざい) - vật liệu trát lớp dưới (lót)",
+        "基層塗り (きそうぬり) - trát lớp nền (lớp đầu của vật liệu chính)",
+        "模様塗り (もようぬり) - trát tạo hoa văn (lớp thứ 2 của vật liệu chính)",
+        "出隅 (でずみ) - góc lồi",
+        "入隅 (いりすみ) - góc lõm",
+        "目地部 (めじぶ) - phần khe mạch",
+        "開口部 (かいこうぶ) - phần ô cửa",
+        "増塗り (ましぬり) - trát tăng cường",
+        "凹凸状 (おうとつじょう) - dạng lồi lõm",
+        "吹付け工法 (ふきつけこうほう) - phương pháp phun",
+        "ローラー塗り (ローラーぬり) - sơn bằng con lăn",
+        "ゆず肌状 (ゆずはだじょう) - dạng vỏ bưởi",
+        "凸部処理 (とつぶしょり) - xử lý phần lồi"
+      ],
+      "questions": [
+        {
+          "label": "Q35",
+          "question": "防水形合成樹脂エマルション系複層仕上塗材（防水形複層塗材E）仕上げに関する記述として、最も不適当なものはどれか。\n\n1. 上塗材は、0.3kg／m2を2回塗りとした。\n2. 主材の基層塗りは、1.7kg／m2を2回塗りとした。\n3. 出隅、入隅、目地部、開口部まわり等に行う増塗りは、主材塗りの後に行った。\n4. 主材の凹凸状の模様塗りは、見本と同様になるように、吹付け工法により行った。",
+          "choices": [
+            "上塗材は、0.3kg／m2を2回塗りとした。",
+            "主材の基層塗りは、1.7kg／m2を2回塗りとした。",
+            "出隅、入隅、目地部、開口部まわり等に行う増塗りは、主材塗りの後に行った。",
+            "主材の凹凸状の模様塗りは、見本と同様になるように、吹付け工法により行った。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1（〇 適当）：上塗材は0.3kg/m² × 2回塗りとする。色むらに注意して塗付ける。下塗り以外は基本2回塗り。\n\n選択肢2（〇 適当）：主材の基層塗りは1.7kg/m² × 2回塗りとする。なお主材の模様塗りは1.0kg/m² × 1回塗り。\n\n選択肢3（✖ 不適当）：出隅、入隅、目地部、開口部まわり等に行う増塗りは、主材塗りの「前」に行う。設問は「後」となっており誤り。出入隅、目地、開口部まわり等を刷毛やローラーを使って不陸（段違い）にならないように塗付ける。\n\n選択肢4（〇 適当）：主材の凹凸状の模様塗りは、見本と同様の模様になるように吹付け工法により行う。模様塗り後の凸部処理は1時間以内に行う。ゆず肌状の模様塗りはローラー塗りとする。",
+          "studyContent": "防水形複層塗材E（アクリルタイル）の工程順序:\n1. 下塗り（プライマー）\n2. 増塗り（出入隅・目地・開口部まわり、刷毛/ローラー）← 主材塗り「前」\n3. 主材 基層塗り：1.7kg/m² × 2回\n4. 主材 模様塗り：1.0kg/m² × 1回（吹付け、見本通り）\n5. 凸部処理：模様塗り後1時間以内\n6. 上塗り：0.3kg/m² × 2回（色むら注意）\n\n■仕上げ方法\n・凹凸状模様塗り → 吹付け工法\n・ゆず肌状模様塗り → ローラー塗り\n\n■その他複層塗材\n・複層塗材E（一般、エマルション系）\n・複層塗材CE（セメント系）\n・複層塗材Si（シリカ系）\n・複層塗材RE（反応硬化形）\n\n左官工事 第15章 公共建築工事標準仕様書",
+          "question_vi": "Câu nào sau đây mô tả KHÔNG đúng nhất về hoàn thiện bằng vật liệu trát phủ phức hợp hệ nhũ tương nhựa tổng hợp loại chống thấm (防水形複層塗材E)?\n\n1. Vật liệu trát lớp trên (上塗材): 0.3 kg/m² × 2 lượt.\n2. Trát lớp nền của vật liệu chính (主材の基層塗り): 1.7 kg/m² × 2 lượt.\n3. Trát tăng cường (増塗り) tại góc lồi/lõm, phần khe mạch, xung quanh ô cửa v.v. được thực hiện SAU khi trát vật liệu chính.\n4. Trát hoa văn lồi lõm của vật liệu chính được thực hiện bằng phương pháp phun để giống mẫu.",
+          "choices_vi": [
+            "Vật liệu trát lớp trên: 0.3 kg/m² × 2 lượt.",
+            "Trát lớp nền của vật liệu chính: 1.7 kg/m² × 2 lượt.",
+            "Trát tăng cường tại góc lồi/lõm, khe mạch, ô cửa: thực hiện SAU khi trát vật liệu chính.",
+            "Trát hoa văn lồi lõm của vật liệu chính: bằng phương pháp phun, giống mẫu."
+          ],
+          "explanation_vi": "Lựa chọn 1 (〇 Đúng): Vật liệu trát lớp trên: 0.3 kg/m² × 2 lượt. Chú ý vết loang màu. Ngoại trừ lớp lót, các lớp khác về cơ bản đều trát 2 lượt.\n\nLựa chọn 2 (〇 Đúng): Trát lớp nền của vật liệu chính: 1.7 kg/m² × 2 lượt. Trát hoa văn của vật liệu chính: 1.0 kg/m² × 1 lượt.\n\nLựa chọn 3 (✖ KHÔNG đúng): Trát tăng cường tại góc lồi/lõm, phần khe mạch, xung quanh ô cửa v.v. phải thực hiện 'TRƯỚC' khi trát vật liệu chính, không phải 'sau'. Dùng cọ hoặc con lăn trát các vị trí góc, khe mạch, ô cửa để bề mặt không bị gồ ghề chênh lệch.\n\nLựa chọn 4 (〇 Đúng): Trát hoa văn lồi lõm của vật liệu chính được thực hiện bằng phương pháp phun (吹付け工法) để giống mẫu. Xử lý phần lồi sau khi trát hoa văn phải làm trong vòng 1 giờ. Trát hoa văn dạng vỏ bưởi (ゆず肌状) thì dùng sơn con lăn.",
+          "studyContent_vi": "Trình tự thi công của 防水形複層塗材E (Acrylic tile):\n1. Lớp lót (下塗り / primer)\n2. Trát tăng cường (góc lồi/lõm, khe mạch, ô cửa - dùng cọ/con lăn) ← TRƯỚC khi trát vật liệu chính\n3. Vật liệu chính - lớp nền: 1.7 kg/m² × 2 lượt\n4. Vật liệu chính - hoa văn: 1.0 kg/m² × 1 lượt (phun, giống mẫu)\n5. Xử lý phần lồi: trong vòng 1 giờ sau khi trát hoa văn\n6. Lớp trên: 0.3 kg/m² × 2 lượt (chú ý vết loang)\n\n■ Phương pháp hoàn thiện\n・Hoa văn lồi lõm → phương pháp phun (吹付け工法)\n・Hoa văn vỏ bưởi → sơn con lăn (ローラー塗り)\n\n■ Các loại vật liệu phủ phức hợp khác\n・複層塗材E (thường, hệ nhũ tương)\n・複層塗材CE (hệ xi măng)\n・複層塗材Si (hệ silica)\n・複層塗材RE (loại đông cứng phản ứng)\n\nTài liệu: Công tác trát Chương 15, Tiêu chuẩn kỹ thuật công trình công cộng"
+        }
+      ]
+    }
+  ]
+}
