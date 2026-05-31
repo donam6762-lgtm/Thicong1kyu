@@ -1,0 +1,389 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 塗装工事",
+      "vocabulary": "塗装 (とそう) - sơn\n下塗り (したぬり) - lớp sơn lót\n中塗り (なかぬり) - lớp sơn giữa\n上塗り (うわぬり) - lớp sơn phủ\n合成樹脂エマルションペイント (ごうせいじゅしエマルションペイント) - sơn nhũ tương nhựa tổng hợp\n希釈 (きしゃく) - pha loãng",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "塗装工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "コンクリート面のアクリル樹脂系非水分散形塗料塗りにおいて、下塗り、中塗り、上塗りともに同一材料を使用し、塗付け量はそれぞれ0.10kg／m2とした。",
+            "常温乾燥形ふっ素樹脂エナメル塗りにおいて、塗料を素地に浸透させるため、下塗りはローラーブラシ塗りとした。",
+            "2液形ポリウレタンエナメル塗りにおいて、気温が20°Cであったため、中塗り後から上塗りまでの工程間隔時間を16時間とした。",
+            "合成樹脂エマルションペイント塗りにおいて、流動性を上げるため、有機溶剤で希釈して使用した。"
+          ],
+          "answer": "4",
+          "explanation": "この過去問の解説\n01\n塗装工事に関する記述問題について解説する。\n\n選択肢1. コンクリート面にアクリル樹脂系非水分散形塗料を使用する際、下塗り・中塗り・上塗りを同一材料で行い、各工程で0.10kg／m²ずつ塗り付ける。よって適当である。\n\n選択肢2. 常温乾燥形ふっ素樹脂エナメル塗りの下塗りは、ローラーブラシを使用して均一に塗料を塗布する。よって適当である。\n\n選択肢3. 2液形ポリウレタンエナメル塗料は、気温20°Cであれば中塗りから上塗りまでの工程間隔時間を16時間とするのが適切である。よって適当である。\n\n選択肢4. 合成樹脂エマルションペイントは水系塗料であり、希釈する場合は水（加水）を用いる。有機溶剤で希釈するのは不適当である。",
+          "studyContent": "まとめ\n塗装工事の出題傾向として、塗装材料の知識（各種塗料の特性、塗料の調合や希釈）、施工方法（下塗り・中塗り・上塗りの基本、各塗装方法の特徴）、施工時の注意点や不具合対応、品質管理（塗膜厚さや均一性の確認、乾燥状態の確認、検査基準）などが多く出題される。それぞれの特性を理解しておくこと。",
+          "question_vi": "Trong các mô tả về công tác sơn, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi sơn loại sơn phân tán không nước gốc nhựa acrylic lên bề mặt bê tông, dùng cùng một vật liệu cho lớp lót, lớp giữa và lớp phủ, mỗi lớp định mức 0,10kg/m².",
+            "Khi sơn men nhựa fluorine loại khô ở nhiệt độ thường, để sơn thấm vào bề mặt nền, lớp lót được sơn bằng con lăn (roller brush).",
+            "Khi sơn men polyurethane 2 thành phần, do nhiệt độ là 20°C nên khoảng cách thời gian giữa lớp giữa và lớp phủ được lấy là 16 giờ.",
+            "Khi sơn nhũ tương nhựa tổng hợp, để tăng độ lỏng (tính chảy) đã pha loãng bằng dung môi hữu cơ."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích về câu hỏi liên quan đến công tác sơn.\n\nLựa chọn 1. Khi sơn sơn phân tán không nước gốc acrylic lên bê tông, dùng cùng vật liệu cho cả ba lớp và mỗi lớp 0,10kg/m². Vậy mô tả là đúng.\n\nLựa chọn 2. Lớp lót của sơn men fluorine khô ở nhiệt độ thường được sơn bằng con lăn để sơn đều và thấm vào nền. Vậy mô tả là đúng.\n\nLựa chọn 3. Với sơn men polyurethane 2 thành phần, ở 20°C lấy khoảng cách giữa lớp giữa và lớp phủ là 16 giờ là hợp lý. Vậy mô tả là đúng.\n\nLựa chọn 4. Sơn nhũ tương nhựa tổng hợp là sơn gốc nước, khi pha loãng phải dùng NƯỚC chứ không dùng dung môi hữu cơ. Vì vậy mô tả này KHÔNG phù hợp.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề công tác sơn gồm: kiến thức vật liệu sơn (đặc tính từng loại sơn, cách pha trộn/pha loãng), phương pháp thi công (cơ bản về lớp lót/giữa/phủ, đặc điểm từng cách sơn), lưu ý khi thi công và xử lý khuyết tật, quản lý chất lượng (kiểm tra độ dày và độ đồng đều màng sơn, kiểm tra tình trạng khô, tiêu chuẩn nghiệm thu). Cần hiểu rõ đặc tính của từng loại."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 内装工事 / 床仕上げ",
+      "vocabulary": "合成樹脂塗床 (ごうせいじゅしぬりゆか) - sàn phủ nhựa tổng hợp\nエポキシ樹脂 (エポキシじゅし) - nhựa epoxy\n弾性ウレタン樹脂 (だんせいウレタンじゅし) - nhựa urethane đàn hồi\n流しのべ工法 (ながしのべこうほう) - phương pháp đổ tràn (tự san phẳng)\nプライマー (ぷらいまー) - lớp lót (primer)\n金ごて仕上げ (かなごてしあげ) - hoàn thiện bằng bay sắt",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "合成樹脂塗床に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "厚膜型のエポキシ樹脂系塗床の主剤と硬化剤の1回の練混ぜ量は、30分で使い切れる量とした。",
+            "弾性ウレタン樹脂系塗床のウレタン樹脂の1回の塗布量は、2kg／m2を超えないようにした。",
+            "エポキシ樹脂系塗床の流しのベ工法では、塗床材の自己水平性が高いため、下地コンクリートは木ごて仕上げとした。",
+            "プライマー塗りにおいて、下地への吸込みが激しい部分は、プライマーを再塗布した。"
+          ],
+          "answer": "3",
+          "explanation": "この過去問の解説\n01\n塗床とは、下地コンクリートに塗装を塗って仕上げる床材であり、耐久性や耐薬品性を向上させる特徴がある。\n\n選択肢1. 厚膜型のエポキシ樹脂系塗床の主剤と硬化剤の1回の練混ぜ量は、30分で使い切れる量とする。よって適当である。\n\n選択肢2. 弾性ウレタン樹脂系塗床のウレタン樹脂の1回の塗布量は、2kg／m²以下とする。塗厚が厚いと硬化時のガスがたまり施工不良を起こすためである。よって適当である。\n\n選択肢3. 流しのべ工法では平滑に施工するため、下地コンクリートは木ごてではなく金ごて仕上げとし、脆弱層は研磨機等で削る必要がある。よって不適当である。\n\n選択肢4. プライマーの吸込みが激しく塗膜を形成しない場合は、吸込みが止まるまで再塗布する。よって適当である。",
+          "studyContent": "まとめ\n合成樹脂塗床の出題傾向として、材料特性（エポキシ・ウレタン樹脂の特性、用途）、施工技術（塗装手順、プライマーの選定・塗布、乾燥時間や塗布量の管理）、現場管理（温度・湿度等の環境条件の影響、施工後の管理）が問われる。また、気泡・剥がれ・艶の不均一などの不具合とその対策も出題される。",
+          "question_vi": "Trong các mô tả về sàn phủ nhựa tổng hợp, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Lượng trộn một lần của chất chính và chất đóng rắn của sàn epoxy loại màng dày được lấy bằng lượng dùng hết trong 30 phút.",
+            "Lượng quét một lần của nhựa urethane cho sàn urethane đàn hồi được giữ không vượt quá 2kg/m².",
+            "Trong phương pháp đổ tràn của sàn epoxy, do vật liệu có tính tự san phẳng cao nên nền bê tông được hoàn thiện bằng bay gỗ.",
+            "Khi quét lớp lót (primer), phần nền hút mạnh thì quét lại primer."
+          ],
+          "answer_note_vi": null,
+          "explanation_vi": "Giải thích đề thi này\n01\nSàn phủ là loại sàn hoàn thiện bằng cách phủ sơn lên nền bê tông, có đặc điểm tăng độ bền và khả năng kháng hóa chất.\n\nLựa chọn 1. Lượng trộn một lần chất chính và chất đóng rắn của sàn epoxy màng dày được lấy bằng lượng dùng hết trong 30 phút. Vậy mô tả là đúng.\n\nLựa chọn 2. Lượng quét một lần của nhựa urethane đàn hồi giữ ≤ 2kg/m²; nếu quá dày, khí sinh ra khi đóng rắn sẽ tích lại gây lỗi thi công. Vậy mô tả là đúng.\n\nLựa chọn 3. Trong phương pháp đổ tràn, để thi công phẳng, nền bê tông phải hoàn thiện bằng BAY SẮT (không phải bay gỗ) và lớp yếu phải mài bỏ. Vì vậy mô tả này KHÔNG phù hợp.\n\nLựa chọn 4. Nơi nền hút primer mạnh, không tạo được màng thì quét lại cho đến khi ngừng hút. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề sàn phủ nhựa tổng hợp gồm: đặc tính vật liệu (đặc tính và công dụng của nhựa epoxy, urethane), kỹ thuật thi công (trình tự sơn, chọn và quét primer, quản lý thời gian khô và định mức quét), quản lý hiện trường (ảnh hưởng của nhiệt độ/độ ẩm, quản lý sau thi công). Ngoài ra còn ra đề về các khuyết tật (bọt khí, bong tróc, độ bóng không đều) và biện pháp khắc phục."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工",
+      "vocabulary": "断熱工事 (だんねつこうじ) - công tác cách nhiệt\n硬質ウレタンフォーム (こうしつウレタンフォーム) - bọt urethane cứng\n吹付け工法 (ふきつけこうほう) - phương pháp phun\n押出成形セメント板 (おしだしせいけいセメントばん) - tấm xi măng ép đùn (ECP)\nZクリップ (ゼットクリップ) - kẹp Z (gối đỡ tấm)\n自重受け金物 (じじゅううけかなもの) - phụ kiện đỡ tải trọng bản thân\n外壁改修 (がいへきかいしゅう) - cải tạo tường ngoài\nひび割れ (ひびわれ) - vết nứt\nUカットシール材充填工法 (ユーカットシールざいじゅうてんこうほう) - phương pháp cắt chữ U rồi bơm vật liệu trám",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "鉄筋コンクリート構造の建物内部の断熱工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "硬質ウレタンフォーム吹付け工法において、随時吹付け厚さを測定しながら作業し、厚さの許容誤差を−5mmから＋10mmとして管理した。",
+            "硬質ウレタンフォーム吹付け工法において、ウレタンフォームには自己接着性があるため、コンクリート面に接着剤を塗布しなかった。",
+            "押出法ポリスチレンフォーム張付け工法において、下地面の不陸が最大3mmであったため、接着剤を厚くして調整することで不陸に対応した。",
+            "押出法ポリスチレンフォーム打込み工法において、断熱材の継目にコンクリートがはみ出している箇所は、Vカットした後に断熱材現場発泡工法により補修した。"
+          ],
+          "answer": "1",
+          "explanation": "この過去問の解説\n01\n鉄筋コンクリート構造の建物内部の断熱工事に関する記述問題について解説する。\n\n選択肢1. 硬質ウレタンフォームの厚みの許容誤差は0mm〜＋10mmである。計画厚みより薄くなったり、＋10mmを超えて厚くなるのはNGである。よって不適当である。\n\n選択肢2. ウレタンフォームには自己接着性があるため、基本的に接着剤は不要である。接着力を引き出すにはコンクリート面の清掃が重要である。よって適当である。\n\n選択肢3. 押出法ポリスチレンフォーム張付け工法で下地不陸が最大3mmであれば、接着剤の厚みを調整して対応できる。よって適当である。\n\n選択肢4. 継目にコンクリートがはみ出している箇所は、Vカットして形状を整えた後、現場発泡工法で補修する。よって適当である。",
+          "studyContent": "まとめ\n断熱工事の出題傾向は、断熱材の種類と特性（硬質ウレタンフォーム、ポリスチレンフォーム等の特性・選定基準）、施工方法（吹付け工法、張付け工法、現場発泡工法のメリット・デメリットや注意点）、断熱性能の計算（厚さ・熱抵抗・熱伝導率の計算）が中心である。",
+          "question_vi": "Trong các mô tả về công tác cách nhiệt bên trong công trình kết cấu bê tông cốt thép, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong phương pháp phun bọt urethane cứng, vừa thi công vừa đo độ dày phun, và quản lý sai số cho phép của độ dày là từ −5mm đến +10mm.",
+            "Trong phương pháp phun bọt urethane cứng, do bọt urethane có tính tự kết dính nên không quét keo lên bề mặt bê tông.",
+            "Trong phương pháp dán tấm bọt polystyrene ép đùn, do độ không phẳng của nền tối đa 3mm nên đã tăng độ dày keo dán để xử lý độ không phẳng.",
+            "Trong phương pháp đổ chèn tấm bọt polystyrene ép đùn, nơi bê tông tràn ra mạch nối tấm cách nhiệt thì cắt chữ V rồi sửa bằng phương pháp tạo bọt tại chỗ."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về công tác cách nhiệt bên trong công trình BTCT.\n\nLựa chọn 1. Sai số cho phép độ dày bọt urethane cứng là 0mm đến +10mm. Mỏng hơn thiết kế hoặc dày quá +10mm đều không đạt. Vì vậy mô tả này KHÔNG phù hợp.\n\nLựa chọn 2. Bọt urethane có tính tự kết dính nên về cơ bản không cần keo; cần làm sạch bề mặt bê tông để phát huy lực bám. Vậy mô tả là đúng.\n\nLựa chọn 3. Với độ không phẳng nền tối đa 3mm, có thể điều chỉnh độ dày keo để xử lý. Vậy mô tả là đúng.\n\nLựa chọn 4. Nơi bê tông tràn ra mạch nối thì cắt chữ V chỉnh hình rồi sửa bằng phương pháp tạo bọt tại chỗ. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề công tác cách nhiệt: chủng loại và đặc tính vật liệu cách nhiệt (bọt urethane cứng, bọt polystyrene… đặc tính và tiêu chí lựa chọn), phương pháp thi công (ưu nhược điểm và lưu ý của phun, dán, tạo bọt tại chỗ), tính toán hiệu năng cách nhiệt (độ dày, nhiệt trở, hệ số dẫn nhiệt)."
+        },
+        {
+          "label": "Q2",
+          "question": "外壁の押出成形セメント板横張り工法に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "高湿度の環境となる部分に用いるパネル取付け金物（Zクリップ）は、溶融亜鉛めっき処理を行ったものを使用した。",
+            "パネルは、層間変形に対してスライドにより追随するため、縦目地を15mm、横目地を10mmとした。",
+            "パネル取付け金物（Zクリップ）は、パネル左右端部の位置に取り付け、下地鋼材に溶接した。",
+            "パネルは、積上げ枚数5枚ごとに構造体に固定した自重受け金物で受けた。"
+          ],
+          "answer": "4",
+          "explanation": "この過去問の解説\n01\n外壁の押出成形セメント板横張り工法に関する記述問題について解説する。\n\n選択肢1. 高湿度の環境となる部分のZクリップは、耐腐食性のある溶融亜鉛めっき処理品を使用する。よって適当である。\n\n選択肢2. 横張り工法では長辺側（横目地）を10mm、短辺側（縦目地）を15mmとするのが標準である。よって適当である。\n\n選択肢3. Zクリップはパネル左右端部の位置に取り付け、下地鋼材に溶接する。よって適当である。\n\n選択肢4. 横張り工法では、パネルは積上げ枚数3枚以下ごとに、構造体に固定した自重受け金物で受ける。5枚ごとは不適当である。",
+          "studyContent": "まとめ\n押出成形セメント板に関する問題は、材料特性（材質、使用するセメントや添加剤）、施工方法（取付け金物、目地幅、自重受け金物の間隔等の手順）、品質管理、法規制と基準が問われる。施工に関する数値（目地幅・自重受け枚数等）を正確に覚えること。",
+          "question_vi": "Trong các mô tả về phương pháp dán ngang tấm xi măng ép đùn cho tường ngoài, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Kẹp Z lắp tấm dùng ở khu vực môi trường độ ẩm cao được dùng loại đã mạ kẽm nhúng nóng.",
+            "Để tấm trượt theo biến dạng giữa các tầng, lấy mạch dọc 15mm và mạch ngang 10mm.",
+            "Kẹp Z được lắp tại vị trí hai mép trái phải của tấm và hàn vào thép nền.",
+            "Tấm được đỡ bằng phụ kiện chịu tải trọng bản thân cố định vào kết cấu, cứ mỗi 5 tấm xếp chồng."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về phương pháp dán ngang tấm xi măng ép đùn cho tường ngoài.\n\nLựa chọn 1. Kẹp Z ở khu vực độ ẩm cao dùng loại mạ kẽm nhúng nóng có khả năng kháng ăn mòn. Vậy mô tả là đúng.\n\nLựa chọn 2. Phương pháp dán ngang lấy mạch ngang (cạnh dài) 10mm và mạch dọc (cạnh ngắn) 15mm là tiêu chuẩn. Vậy mô tả là đúng.\n\nLựa chọn 3. Kẹp Z lắp ở hai mép trái phải của tấm và hàn vào thép nền. Vậy mô tả là đúng.\n\nLựa chọn 4. Trong phương pháp dán ngang, tấm phải được đỡ bằng phụ kiện chịu tải cứ mỗi ≤ 3 tấm xếp chồng. Cứ 5 tấm là KHÔNG phù hợp.",
+          "studyContent_vi": "Tổng kết\nĐề về tấm xi măng ép đùn hỏi về: đặc tính vật liệu (chất liệu, xi măng và phụ gia), phương pháp thi công (phụ kiện lắp, bề rộng mạch, khoảng cách phụ kiện đỡ tải), quản lý chất lượng, quy định và tiêu chuẩn pháp luật. Cần nhớ chính xác các con số thi công (bề rộng mạch, số tấm đỡ tải…)."
+        },
+        {
+          "label": "Q3",
+          "question": "鉄筋コンクリート構造の建築物の外壁改修工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "小口タイル張り仕上げにおいて、タイル陶片のみ浮きが発生している部分は、浮いているタイルを無振動ドリルで穿孔して、注入口付アンカーピンニングエポキシ樹脂注入タイル固定工法で改修した。",
+            "小口タイル張り仕上げにおいて、下地モルタルを含むタイル陶片の剥落欠損が発生していたため、ポリマーセメントモルタルを用いたタイル張替え工法で改修した。",
+            "外壁コンクリート打放し仕上げにおいて、生じたひび割れの幅が2.0mmで挙動のおそれがあったため、可とう性エポキシ樹脂を用いたUカットシール材充填工法で改修した。",
+            "外壁コンクリート打放し仕上げにおいて生じたひび割れの幅が0.1mmで挙動のおそれがなかったため、パテ状エポキシ樹脂を用いたシール工法で改修した。"
+          ],
+          "answer": "3",
+          "explanation": "この過去問の解説\n01\n外壁改修工事に関する記述問題について解説する。\n\n選択肢1. タイル陶片のみの浮きは、無振動ドリルで穿孔し、注入口付アンカーピンニングエポキシ樹脂注入タイル固定工法で改修する。よって適当である。\n\n選択肢2. 下地モルタルを含むタイル陶片の剥落欠損は、ポリマーセメントモルタルを用いたタイル張替え工法で改修する。よって適当である。\n\n選択肢3. Uカットシール充填工法は、挙動する0.2mm以上1.0mm以下のひび割れ等に使用する。挙動のおそれがある場合は可とう性エポキシ樹脂等を用いるが、幅2.0mmで挙動のおそれがある場合はシーリング材を充填するため、記述は不適当である。\n\n選択肢4. 幅0.1mmで挙動のおそれがない場合は、パテ状エポキシ樹脂を用いたシール工法で処置するのは適当である。",
+          "studyContent": "まとめ\n外壁改修工事の出題傾向は、劣化の種類（ひび割れ、剥落、腐食など）に応じた改修工法の選定理由・施工手順・使用材料である。特にひび割れの幅、挙動の有無による改修方法の違いを混同しないように覚えること。",
+          "question_vi": "Trong các mô tả về công tác cải tạo tường ngoài của công trình BTCT, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Với ốp gạch nhỏ, nơi chỉ phồng phần phiến gạch, khoan viên gạch phồng bằng mũi khoan không rung rồi cải tạo bằng phương pháp cố định gạch bơm nhựa epoxy có chốt neo và cửa bơm.",
+            "Với ốp gạch nhỏ, do xảy ra bong tróc khuyết phiến gạch kèm vữa nền nên cải tạo bằng phương pháp thay gạch dùng vữa polymer xi măng.",
+            "Với tường bê tông trần, do vết nứt rộng 2,0mm và có nguy cơ chuyển động nên cải tạo bằng phương pháp cắt chữ U trám vật liệu dùng nhựa epoxy dẻo.",
+            "Với tường bê tông trần, do vết nứt rộng 0,1mm và không có nguy cơ chuyển động nên cải tạo bằng phương pháp trám (seal) dùng nhựa epoxy dạng bột nhão."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về cải tạo tường ngoài.\n\nLựa chọn 1. Chỉ phồng phần phiến gạch thì khoan bằng mũi không rung rồi cố định bằng phương pháp bơm epoxy có chốt neo và cửa bơm. Vậy mô tả là đúng.\n\nLựa chọn 2. Bong tróc khuyết kèm vữa nền thì cải tạo bằng phương pháp thay gạch dùng vữa polymer xi măng. Vậy mô tả là đúng.\n\nLựa chọn 3. Phương pháp cắt chữ U dùng epoxy dẻo áp dụng cho vết nứt chuyển động 0,2–1,0mm; với vết nứt rộng 2,0mm có nguy cơ chuyển động phải trám bằng vật liệu sealing (Uカット rồi bơm sealing). Vì vậy mô tả này KHÔNG phù hợp.\n\nLựa chọn 4. Vết nứt 0,1mm không chuyển động thì xử lý bằng phương pháp trám dùng epoxy dạng bột nhão là đúng.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề cải tạo tường ngoài: lý do chọn phương pháp, trình tự thi công và vật liệu tương ứng với loại xuống cấp (nứt, bong tróc, ăn mòn). Đặc biệt cần nhớ kỹ sự khác nhau của phương pháp theo bề rộng vết nứt và có/không có chuyển động, tránh nhầm lẫn."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法",
+      "vocabulary": "事前調査 (じぜんちょうさ) - khảo sát trước\n施工計画 (せこうけいかく) - kế hoạch thi công\n山留め (やまどめ) - chống vách hố đào\n逆打ち工法 (さかうちこうほう) - phương pháp thi công ngược (top-down)\n施工体系図 (せこうたいけいず) - sơ đồ hệ thống thi công\n完成図 (かんせいず) - bản vẽ hoàn công\n建入れ直し (たていれなおし) - chỉnh lại độ thẳng đứng (sau lắp dựng)",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "建築工事における事前調査や準備作業に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "掘削深さや地盤条件に応じた山留めを設けることとしたため、隣接建物の基礎構造形式の調査を省略した。",
+            "軒の高さが9mの木造住宅の解体工事計画に当たって、石綿等を含有する建材がなかったため、建設工事計画届は提出しないこととした。",
+            "敷地内の排水工事計画に当たって、排水管の勾配が公設桝まで確保できるか調査することとした。",
+            "請負代金が1,000万円のアスファルト舗装駐車場の撤去工事計画に当たって、再資源化施設の場所を調査することとした。"
+          ],
+          "answer": "1",
+          "explanation": "この過去問の解説\n01\n事前調査や準備作業に関する記述問題について解説する。\n\n選択肢1. 山留めを設ける場合でも、隣接建物の倒壊やひび割れ等のおそれがあるため、隣接建物の基礎構造形式や深さを必ず調査する。調査を省略するのは不適当である。\n\n選択肢2. 建設工事計画届は、耐火・準耐火建築物で石綿等が吹き付けられているものの除去作業等の場合に必要であり、石綿等を含有する建材がない場合は提出不要である。よって適当である。\n\n選択肢3. 排水工事計画では、排水管の勾配が公設桝まで確保できるか調査することは重要である。よって適当である。\n\n選択肢4. 撤去工事で発生する解体材の再資源化はリサイクル法により定められ、施設の場所等を把握する。よって適当である。",
+          "studyContent": "まとめ\n事前調査・準備作業の出題傾向は、事前調査の重要性（敷地調査、周辺環境、法令・規制の調査）、計画書への調査結果の反映、安全管理（リスクアセスメント）、環境への配慮（廃棄物処理の準備）である。工事の内容・規模により適用法令が変わる点に注意すること。",
+          "question_vi": "Trong các mô tả về khảo sát trước và công tác chuẩn bị của công trình xây dựng, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Vì đã bố trí chống vách phù hợp với độ sâu đào và điều kiện địa chất nên đã lược bỏ việc khảo sát hình thức kết cấu móng của công trình liền kề.",
+            "Khi lập kế hoạch phá dỡ nhà gỗ có chiều cao hiên 9m, do không có vật liệu chứa amiăng nên không nộp bản đăng ký kế hoạch thi công xây dựng.",
+            "Khi lập kế hoạch thoát nước trong khuôn viên, đã khảo sát xem độ dốc ống thoát có đảm bảo đến hố ga công cộng hay không.",
+            "Khi lập kế hoạch tháo dỡ bãi đỗ xe trải nhựa asphalt có giá hợp đồng 10 triệu yên, đã khảo sát vị trí cơ sở tái chế."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về khảo sát trước và công tác chuẩn bị.\n\nLựa chọn 1. Dù có bố trí chống vách, vẫn phải khảo sát hình thức và độ sâu móng của công trình liền kề vì có nguy cơ sụp đổ, nứt. Lược bỏ khảo sát là KHÔNG phù hợp.\n\nLựa chọn 2. Bản đăng ký kế hoạch thi công chỉ bắt buộc khi có tháo dỡ amiăng trong công trình chịu lửa/bán chịu lửa…; không có vật liệu chứa amiăng thì không cần nộp. Vậy mô tả là đúng.\n\nLựa chọn 3. Khảo sát độ dốc ống thoát đến hố ga công cộng là quan trọng. Vậy mô tả là đúng.\n\nLựa chọn 4. Việc tái chế vật liệu phá dỡ được Luật tái chế quy định, cần nắm vị trí cơ sở tái chế. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề: tầm quan trọng của khảo sát trước (khảo sát mặt bằng, môi trường xung quanh, pháp luật/quy định), phản ánh kết quả khảo sát vào bản kế hoạch, quản lý an toàn (đánh giá rủi ro), bảo vệ môi trường (chuẩn bị xử lý chất thải). Lưu ý luật áp dụng thay đổi theo nội dung và quy mô công trình."
+        },
+        {
+          "label": "Q2",
+          "question": "施工計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "大深度の土工事において、不整形な平面形状であったため、逆打ち工法とした。",
+            "土工事において、3次元の測量データ、設計データ及び衛星位置情報を活用するICT建設機械による自動掘削とした。",
+            "鉄筋工事において、工期短縮のため、柱や梁の鉄筋を先組み工法とし、継手は機械式継手とする計画とした。",
+            "鉄骨工事において、鉄骨の建方精度を確保するため、できるだけ大きなブロックにまとめて建入れ直しを行う計画とした。"
+          ],
+          "answer": "4",
+          "explanation": "この過去問の解説\n01\n施工計画に関する記述問題について解説する。\n\n選択肢1. 逆打ち工法は不整形な平面形状や大深度の掘削に適し、安定した施工が可能である。よって適当である。\n\n選択肢2. 3次元データと衛星位置情報を活用するICT建設機械による自動掘削は、精度・工期短縮・省人化に有効である。よって適当である。\n\n選択肢3. 鉄筋の先組み工法と機械式継手は、現場作業の削減・精度向上・工期短縮に寄与する。よって適当である。\n\n選択肢4. 鉄骨の建方精度を確保するには、小規模のブロックで建入れ直し（歪み直し）を行う。大きなブロックでは建入れ直しが困難なため、不適当である。",
+          "studyContent": "まとめ\n施工計画の出題傾向は、施工計画書の構成要素（目的・工程・資材・人員・設備・安全・環境）、工期設定や工程表作成、安全対策・リスクアセスメント、品質管理手法、環境影響評価や工事中の環境保護対策である。",
+          "question_vi": "Trong các mô tả về kế hoạch thi công, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong công tác đất ở độ sâu lớn, do mặt bằng có hình dạng không đều nên áp dụng phương pháp thi công ngược (top-down).",
+            "Trong công tác đất, áp dụng đào tự động bằng máy xây dựng ICT sử dụng dữ liệu trắc địa 3D, dữ liệu thiết kế và thông tin vị trí vệ tinh.",
+            "Trong công tác cốt thép, để rút ngắn tiến độ, lập kế hoạch lắp ráp trước (tổ hợp sẵn) cốt thép cột và dầm, mối nối dùng mối nối cơ khí.",
+            "Trong công tác kết cấu thép, để đảm bảo độ chính xác lắp dựng, lập kế hoạch gom thành khối càng lớn càng tốt để chỉnh lại độ thẳng đứng."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về kế hoạch thi công.\n\nLựa chọn 1. Phương pháp thi công ngược phù hợp với mặt bằng không đều và đào sâu, cho thi công ổn định. Vậy mô tả là đúng.\n\nLựa chọn 2. Đào tự động bằng máy ICT dùng dữ liệu 3D và vị trí vệ tinh giúp tăng độ chính xác, rút ngắn tiến độ và giảm nhân công. Vậy mô tả là đúng.\n\nLựa chọn 3. Lắp ráp trước cốt thép và dùng mối nối cơ khí giúp giảm việc tại hiện trường, tăng độ chính xác và rút ngắn tiến độ. Vậy mô tả là đúng.\n\nLựa chọn 4. Để đảm bảo độ chính xác lắp dựng kết cấu thép, phải chỉnh độ thẳng đứng theo các khối NHỎ; khối lớn rất khó chỉnh. Vì vậy mô tả này KHÔNG phù hợp.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề kế hoạch thi công: các thành phần của bản kế hoạch (mục đích, tiến độ, vật tư, nhân lực, thiết bị, an toàn, môi trường), thiết lập tiến độ và lập bảng tiến độ, biện pháp an toàn và đánh giá rủi ro, phương pháp quản lý chất lượng, đánh giá tác động và bảo vệ môi trường trong thi công."
+        },
+        {
+          "label": "Q3",
+          "question": "施工者が作成する工事の記録等に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "発注者から直接工事を請け負った建設業者が作成した発注者との打合せ記録のうち、発注者と相互に交付したものではないものは、保存しないこととした。",
+            "建設工事の施工において作成した施工体系図は、元請の特定建設業者が当該建設工事の目的物の引渡しをしたときから10年間保存することとした。",
+            "建設工事の施工において必要に応じて作成した完成図は、元請の建設業者が建設工事の目的物の引渡しをしたときから5年間保存することとした。",
+            "設計図書に定められた内容に疑義が生じたため、監理者と協議を行った結果、設計図書の訂正に至らない事項について、記録を整備することとした。"
+          ],
+          "answer": "3",
+          "explanation": "この過去問の解説\n01\n施工者が作成する工事の記録等に関する記述問題について解説する。\n\n選択肢1. 発注者と相互に交付した打合せ記録は保存が必要だが、相互に交付していないものは建設業法上の保存義務はない。よって適当である。\n\n選択肢2. 施工体系図は、元請の特定建設業者が目的物の引渡しをしたときから10年間保存する。よって適当である。\n\n選択肢3. 完成図は、目的物の引渡しをしたときから10年間保存する必要があり、5年間とするのは不適当である。\n\n選択肢4. 設計図書の訂正に至らない協議事項についても、後のトラブル防止のため記録を整備する。よって適当である。",
+          "studyContent": "まとめ\n工事記録の出題傾向は、工事記録の目的・重要性、各種記録（日報・工程表・出来高記録・安全管理記録等）の種類と内容、保存期間や保管方法である。「発注者」と「受注者」、保存年数の入れ替え問題が多いので正確に覚えること。",
+          "question_vi": "Trong các mô tả về hồ sơ thi công do nhà thầu lập, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong các biên bản họp với chủ đầu tư do nhà thầu nhận thầu trực tiếp lập, những biên bản không được giao nhận tương hỗ với chủ đầu tư thì không lưu giữ.",
+            "Sơ đồ hệ thống thi công lập trong quá trình thi công được nhà thầu chính (nhà thầu xây dựng đặc định) lưu giữ 10 năm kể từ khi bàn giao đối tượng công trình.",
+            "Bản vẽ hoàn công lập khi cần trong quá trình thi công được nhà thầu chính lưu giữ 5 năm kể từ khi bàn giao đối tượng công trình.",
+            "Do phát sinh nghi vấn về nội dung quy định trong hồ sơ thiết kế, sau khi hội ý với người giám sát, đã lập hồ sơ ghi chép cho các hạng mục không dẫn đến chỉnh sửa hồ sơ thiết kế."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về hồ sơ thi công do nhà thầu lập.\n\nLựa chọn 1. Biên bản họp được giao nhận tương hỗ với chủ đầu tư thì phải lưu; loại không giao nhận tương hỗ thì không có nghĩa vụ lưu theo Luật xây dựng. Vậy mô tả là đúng.\n\nLựa chọn 2. Sơ đồ hệ thống thi công lưu 10 năm kể từ khi bàn giao. Vậy mô tả là đúng.\n\nLựa chọn 3. Bản vẽ hoàn công phải lưu 10 năm kể từ khi bàn giao; lấy 5 năm là KHÔNG phù hợp.\n\nLựa chọn 4. Các hạng mục hội ý không dẫn đến chỉnh sửa thiết kế vẫn cần lập hồ sơ để phòng tranh chấp về sau. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nXu hướng ra đề hồ sơ thi công: mục đích và tầm quan trọng của hồ sơ, chủng loại và nội dung các loại hồ sơ (nhật ký, bảng tiến độ, hồ sơ khối lượng, hồ sơ an toàn…), thời hạn và cách lưu giữ. Đề hay đảo chữ giữa 'chủ đầu tư' và 'nhà thầu' cũng như số năm lưu giữ nên cần nhớ chính xác."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 工程管理",
+      "vocabulary": "工程管理 (こうていかんり) - quản lý tiến độ\nタクト手法 (タクトしゅほう) - phương pháp takt\n建方 (たてかた) - lắp dựng (kết cấu thép)\nタワークレーン (たわーくれーん) - cần trục tháp\n歩掛り (ぶがかり) - định mức năng suất\nピース (ぴーす) - cấu kiện (đơn vị thanh thép)",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "工程の実施計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "高層集合住宅のタクト手法による工程計画において、作業期間がタクト期間の2倍となる作業には、その作業の作業班を2班投入して、切れ目のない工程とした。",
+            "高層事務所ビルの鉄骨建方計画において、タワークレーンによる鉄骨の取付け歩掛りは、1台1日当たり80ピースとして計画した。",
+            "一般的な事務所ビルの鉄骨建方計画において、建方用機械の鉄骨建方作業での稼働時間を1台1日当たり5時間30分として計画した。",
+            "一般的な事務所ビルの鉄骨建方計画において、タワークレーンの鉄骨建方作業のみに占める時間の割合を、65％として計画した。"
+          ],
+          "answer": "2",
+          "explanation": "この過去問の解説\n01\n工程の実施計画に関する記述問題について解説する。\n\n選択肢1. タクト手法では、作業期間がタクト期間の2倍となる作業に作業班を2班投入して切れ目のない工程とするのは適当である。\n\n選択肢2. タワークレーンによる鉄骨の取付け歩掛りは、1台1日当たり40〜45ピースとする（トラッククレーンは30〜35ピース）。80ピースは不適当である。\n\n選択肢3. 建方用機械の鉄骨建方作業での稼働時間を1台1日当たり5時間30分とするのは適当である。\n\n選択肢4. タワークレーンの鉄骨建方作業のみに占める時間の割合を65％とするのは適当である。",
+          "studyContent": "まとめ\n工程の実施計画では、工程組立の手法（タクト手法等）や順番、クレーン計画、建設機械の性能による違い（歩掛り・稼働時間・作業割合等の数値）を正確に覚えておくこと。",
+          "question_vi": "Trong các mô tả về kế hoạch thực hiện tiến độ, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong kế hoạch tiến độ theo phương pháp takt cho chung cư cao tầng, với công việc có thời gian gấp 2 lần chu kỳ takt thì bố trí 2 tổ thi công cho công việc đó để tiến độ liên tục không gián đoạn.",
+            "Trong kế hoạch lắp dựng kết cấu thép tòa văn phòng cao tầng, định mức lắp đặt thép bằng cần trục tháp được lấy là 80 cấu kiện/máy/ngày.",
+            "Trong kế hoạch lắp dựng thép tòa văn phòng thông thường, thời gian vận hành thi công lắp dựng của máy được lấy là 5 giờ 30 phút/máy/ngày.",
+            "Trong kế hoạch lắp dựng thép tòa văn phòng thông thường, tỷ lệ thời gian chỉ dành cho thao tác lắp dựng thép của cần trục tháp được lấy là 65%."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về kế hoạch thực hiện tiến độ.\n\nLựa chọn 1. Theo phương pháp takt, với công việc gấp 2 lần chu kỳ takt thì bố trí 2 tổ để tiến độ liên tục là đúng.\n\nLựa chọn 2. Định mức lắp đặt thép bằng cần trục tháp là 40–45 cấu kiện/máy/ngày (cần trục bánh xích 30–35). Lấy 80 là KHÔNG phù hợp.\n\nLựa chọn 3. Thời gian vận hành lắp dựng của máy 5 giờ 30 phút/máy/ngày là hợp lý. Vậy mô tả là đúng.\n\nLựa chọn 4. Tỷ lệ thời gian chỉ dành cho lắp dựng của cần trục tháp khoảng 60–65% là hợp lý. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nKế hoạch thực hiện tiến độ cần nhớ chính xác: phương pháp tổ chức tiến độ (như phương pháp takt) và trình tự, kế hoạch cần trục, và sự khác nhau theo năng lực máy xây dựng (định mức, thời gian vận hành, tỷ lệ thời gian thao tác…)."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 品質管理",
+      "vocabulary": "品質管理 (ひんしつかんり) - quản lý chất lượng\n品質計画 (ひんしつけいかく) - kế hoạch chất lượng\n施工計画書 (せこうけいかくしょ) - văn bản kế hoạch thi công\n前工程 (まえこうてい) - công đoạn trước\n後工程 (あとこうてい) - công đoạn sau",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "品質管理に関する記述として、最も適当なものはどれか。",
+          "choices": [
+            "品質管理は、品質計画の目標のレベルに係わらず、緻密な管理を行う。",
+            "品質管理は、品質の目標値を大幅に上回る品質が確保されていれば、優れた管理といえる。",
+            "品質管理は、品質計画を施工計画書に具体的に記述し、そのとおりに実施することである。",
+            "品質管理は、前工程より後工程に管理の重点を置くほうがよい。"
+          ],
+          "answer": "3",
+          "explanation": "この過去問の解説\n01\n品質には材料や仕上がり、機能等が含まれる。本問は「最も適当なもの」を選ぶ問題である。\n\n選択肢1. 品質計画の目標レベルに係わらず緻密な管理を行うのは、工期やコスト面から適当な品質管理とはいえない。よって不適当である。\n\n選択肢2. 目標値を大幅に上回る品質は過剰品質であり、工期やコストの面から優れた管理とはいえない。よって不適当である。\n\n選択肢3. 品質管理は、品質計画を施工計画書に具体的に記述し、そのとおりに実施することである。よって最も適当である。\n\n選択肢4. 問題発生の予防のため、後工程より前工程に管理の重点を置くほうがよい。よって不適当である。",
+          "studyContent": "まとめ\n品質を確保するために、計画段階の重要性と、どのように性能を確保するか（保管方法・記録方法の明確化など）を押さえておくこと。語句の意味の理解や、実施段階であらかじめ規定する内容が多いので混同しないようにする。",
+          "question_vi": "Trong các mô tả về quản lý chất lượng, đâu là mô tả phù hợp nhất (đúng nhất)?",
+          "choices_vi": [
+            "Quản lý chất lượng là tiến hành quản lý tỉ mỉ bất kể mức mục tiêu của kế hoạch chất lượng.",
+            "Quản lý chất lượng, nếu đảm bảo được chất lượng vượt xa giá trị mục tiêu thì được coi là quản lý xuất sắc.",
+            "Quản lý chất lượng là ghi cụ thể kế hoạch chất lượng vào văn bản kế hoạch thi công và thực hiện đúng như vậy.",
+            "Quản lý chất lượng nên đặt trọng tâm quản lý vào công đoạn sau hơn là công đoạn trước."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nChất lượng bao gồm vật liệu, độ hoàn thiện, chức năng… Câu này chọn mô tả 'phù hợp nhất'.\n\nLựa chọn 1. Quản lý tỉ mỉ bất kể mức mục tiêu là không hợp lý xét về tiến độ và chi phí. Vậy KHÔNG phù hợp.\n\nLựa chọn 2. Chất lượng vượt xa mục tiêu là quá mức (over-quality), gây tốn chi phí và thời gian, không phải quản lý xuất sắc. Vậy KHÔNG phù hợp.\n\nLựa chọn 3. Quản lý chất lượng là ghi cụ thể kế hoạch chất lượng vào văn bản kế hoạch thi công và thực hiện đúng như vậy. Đây là mô tả PHÙ HỢP NHẤT.\n\nLựa chọn 4. Nên đặt trọng tâm vào công đoạn TRƯỚC để phòng ngừa sự cố. Vậy KHÔNG phù hợp.",
+          "studyContent_vi": "Tổng kết\nĐể đảm bảo chất lượng, cần nắm tầm quan trọng của giai đoạn lập kế hoạch và cách đảm bảo tính năng (làm rõ phương pháp bảo quản, ghi chép…). Lĩnh vực này nhiều nội dung về hiểu nghĩa thuật ngữ và quy định trước ở giai đoạn thực hiện nên cần tránh nhầm lẫn."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 環境管理",
+      "vocabulary": "解体工事 (かいたいこうじ) - công tác phá dỡ\n振動レベル (しんどうレベル) - mức độ rung\n騒音 (そうおん) - tiếng ồn\n防音壁 (ぼうおんへき) - tường cách âm\nコンクリートカッター (こんくりーとかったー) - máy cắt bê tông\nガラ (がら) - phế liệu/xà bần",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "鉄筋コンクリート構造の建築物の解体工事における振動対策及び騒音対策に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "周辺環境保全に配慮し、振動や粉塵の発生が抑えられるコンクリートカッターを用いる切断工法を採用した。",
+            "内部スパン周りを先に解体し、外周スパンを最後まで残すことにより、解体する予定の躯体を防音壁として利用した。",
+            "振動レベル計の指示値が周期的に変動したため、変動ごとの指示値の最大値と最小値の平均を求め、その中の最大の値を振動レベルとした。",
+            "壁等を転倒解体する際の振動対策として、先行した解体作業で発生したガラを床部分に敷き、クッション材として利用した。"
+          ],
+          "answer": "3",
+          "explanation": "この過去問の解説\n01\n解体工事における振動対策及び騒音対策に関する記述問題について解説する。\n\n選択肢1. 振動や粉塵の発生を抑えるため、コンクリートカッターやワイヤーソー等を用いる切断工法は適当である。\n\n選択肢2. 内部スパン周りを先に解体し、外周スパンを最後まで残すことで、躯体を防音壁として利用できる。よって適当である。\n\n選択肢3. 振動レベル計の指示値が周期的に変動する場合は、変動ごとの指示値の最大値の平均を求め、その値を振動レベルとする。最大値と最小値の平均とするのは不適当である。\n\n選択肢4. 転倒解体時の振動対策として、先行解体で発生したガラを床に敷きクッション材として利用するのは適当である。",
+          "studyContent": "まとめ\n解体工事の振動・騒音対策のポイントは、解体計画、騒音振動の管理値、具体的な解体手法である。特に振動レベル値の算出方法は語句を入れ替えて出題されやすいので確実に覚えること。",
+          "question_vi": "Trong các mô tả về biện pháp chống rung và chống ồn trong phá dỡ công trình BTCT, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Quan tâm bảo vệ môi trường xung quanh, áp dụng phương pháp cắt dùng máy cắt bê tông giúp hạn chế phát sinh rung và bụi.",
+            "Phá dỡ phần nhịp bên trong trước, để lại nhịp ngoài cùng đến cuối nhằm dùng phần kết cấu sắp phá làm tường cách âm.",
+            "Do chỉ số máy đo mức rung biến động theo chu kỳ nên lấy trung bình của giá trị lớn nhất và nhỏ nhất mỗi chu kỳ rồi lấy giá trị lớn nhất trong số đó làm mức rung.",
+            "Để chống rung khi phá dỡ tường bằng cách lật đổ, rải phế liệu (xà bần) phát sinh từ công tác phá dỡ trước lên sàn để làm vật đệm."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về biện pháp chống rung và chống ồn khi phá dỡ.\n\nLựa chọn 1. Dùng phương pháp cắt bằng máy cắt bê tông, máy cưa dây để hạn chế rung và bụi là đúng.\n\nLựa chọn 2. Phá nhịp trong trước, để lại nhịp ngoài làm tường cách âm là hợp lý. Vậy mô tả là đúng.\n\nLựa chọn 3. Khi chỉ số máy đo rung biến động theo chu kỳ, phải lấy TRUNG BÌNH CỦA CÁC GIÁ TRỊ LỚN NHẤT mỗi chu kỳ làm mức rung. Lấy trung bình của max và min là KHÔNG phù hợp.\n\nLựa chọn 4. Dùng xà bần rải làm vật đệm khi phá dỡ lật đổ là biện pháp chống rung hợp lý. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nĐiểm mấu chốt của biện pháp chống rung/ồn khi phá dỡ là: kế hoạch phá dỡ, giá trị quản lý ồn-rung và phương pháp phá dỡ cụ thể. Đặc biệt cách tính trị số mức rung hay bị ra đề bằng cách đảo chữ nên cần nhớ thật chắc."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 安全管理 / 足場",
+      "vocabulary": "足場 (あしば) - giàn giáo\nくさび緊結式足場 (くさびきんけつしきあしば) - giàn giáo chốt nêm\nつり足場 (つりあしば) - giàn giáo treo\n建地 (たてじ) - cột đứng giàn giáo\n移動はしご (いどうはしご) - thang di động\n幅木 (はばき) - ván chân chắn rơi",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "足場に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "くさび緊結式足場の建地の間隔は、桁行方向2m、梁間方向1.2mとした。",
+            "つり足場の作業床は、幅を40cm以上とし、かつ、隙間がないようにした。",
+            "移動はしごは、丈夫な構造とし、幅は30cm以上とした。",
+            "移動式足場の作業床の周囲は、高さ90cmで中桟付きの丈夫な手すり及び高さ10cmの幅木を設置した。"
+          ],
+          "answer": "1",
+          "explanation": "この過去問の解説\n01\n足場に関する記述問題について解説する。\n\n選択肢1. くさび緊結式足場の建地の間隔は、桁行方向1.85m、梁間方向1.5mとする。桁行方向2m・梁間方向1.2mは不適当である。\n\n選択肢2. つり足場の作業床は、幅を40cm以上とし、かつ、床材間の隙間がないようにする。よって適当である。\n\n選択肢3. 移動はしごは、丈夫な構造とし、幅は30cm以上とする。よって適当である。\n\n選択肢4. 移動式足場の作業床の周囲は、高さ90cmで中桟付きの丈夫な手すり及び高さ10cmの幅木を設置する。よって適当である。",
+          "studyContent": "まとめ\n足場についてのポイントは、各部材の名称や組立て方法、安全衛生法令の内容（建地間隔・作業床幅・手すり高さ・幅木高さ等の数値）である。数値を問う問題が多く混乱しやすいので、繰り返し復習して覚えること。",
+          "question_vi": "Trong các mô tả về giàn giáo, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khoảng cách cột đứng của giàn giáo chốt nêm được lấy là 2m theo phương dọc dầm và 1,2m theo phương ngang nhịp.",
+            "Sàn thao tác của giàn giáo treo có bề rộng từ 40cm trở lên và không có khe hở.",
+            "Thang di động có cấu tạo chắc chắn và bề rộng từ 30cm trở lên.",
+            "Xung quanh sàn thao tác của giàn giáo di động bố trí lan can chắc chắn cao 90cm có thanh giữa và ván chân cao 10cm."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về giàn giáo.\n\nLựa chọn 1. Khoảng cách cột đứng của giàn giáo chốt nêm là 1,85m theo phương dọc dầm và 1,5m theo phương ngang nhịp. Lấy 2m và 1,2m là KHÔNG phù hợp.\n\nLựa chọn 2. Sàn giàn giáo treo rộng ≥ 40cm và không có khe hở giữa các tấm sàn. Vậy mô tả là đúng.\n\nLựa chọn 3. Thang di động cấu tạo chắc chắn, bề rộng ≥ 30cm. Vậy mô tả là đúng.\n\nLựa chọn 4. Quanh sàn giàn giáo di động bố trí lan can cao 90cm có thanh giữa và ván chân cao 10cm. Vậy mô tả là đúng.",
+          "studyContent_vi": "Tổng kết\nĐiểm mấu chốt về giàn giáo: tên gọi các bộ phận, cách lắp dựng và nội dung pháp luật an toàn vệ sinh (các trị số: khoảng cách cột đứng, bề rộng sàn, chiều cao lan can, chiều cao ván chân…). Đề hỏi nhiều về con số và dễ nhầm, nên ôn đi ôn lại để nhớ chắc."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 労働安全衛生法",
+      "vocabulary": "特定元方事業者 (とくていもとかたじぎょうしゃ) - nhà thầu chính được chỉ định\n関係請負人 (かんけいうけおいにん) - nhà thầu liên quan\n安全衛生教育 (あんぜんえいせいきょういく) - giáo dục an toàn vệ sinh\nゴンドラ (ごんどら) - gondola (nôi treo)\n検査証 (けんさしょう) - giấy chứng nhận kiểm tra\n酸素欠乏 (さんそけつぼう) - thiếu oxy\n作業主任者 (さぎょうしゅにんしゃ) - chủ nhiệm công tác",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "特定元方事業者の講ずべき措置として、「労働安全衛生規則」上、定められていないものはどれか。",
+          "choices": [
+            "特定元方事業者と関係請負人との間及び関係請負人相互間における、作業間の連絡及び調整を随時行なうこと。",
+            "有機溶剤等を入れてある容器を集積する箇所を統一的に定め、これを関係請負人に周知させること。",
+            "関係請負人が新たに雇い入れた労働者に対し、雇入れ時の安全衛生教育を行なうこと。",
+            "作業用の仮設の建設物の配置に関する計画の作成を行なうこと。"
+          ],
+          "answer": "3",
+          "explanation": "この過去問の解説\n01\n特定元方事業者の講ずべき措置に関する記述問題について解説する。\n\n選択肢1. 特定元方事業者と関係請負人との間及び関係請負人相互間における作業間の連絡及び調整を随時行なうことは、定められている措置である。よって定められている。\n\n選択肢2. 有機溶剤等を入れてある容器を集積する箇所を統一的に定め、関係請負人に周知させることは定められている措置である。\n\n選択肢3. 新たに雇い入れた労働者に対する雇入れ時の安全衛生教育は、雇い入れた事業者が行なう措置であり、特定元方事業者の措置ではない。よって定められていない（本問の正解）。\n\n選択肢4. 作業用の仮設の建設物の配置に関する計画の作成は、定められている措置である。",
+          "studyContent": "まとめ\n労働安全衛生規則の内容をよく理解し、「特定元方事業者」と「事業者」それぞれが講ずべき措置（誰が何をするか）を正確に覚えておくこと。",
+          "question_vi": "Theo 'Quy tắc an toàn vệ sinh lao động', biện pháp nào KHÔNG được quy định là biện pháp mà nhà thầu chính được chỉ định phải thực hiện?",
+          "choices_vi": [
+            "Thực hiện kịp thời việc liên lạc và điều phối giữa các công việc giữa nhà thầu chính và các nhà thầu liên quan, và giữa các nhà thầu liên quan với nhau.",
+            "Quy định thống nhất nơi tập kết các thùng chứa dung môi hữu cơ và phổ biến cho các nhà thầu liên quan.",
+            "Thực hiện giáo dục an toàn vệ sinh khi tuyển dụng cho người lao động mới được nhà thầu liên quan tuyển dụng.",
+            "Lập kế hoạch về bố trí các công trình tạm phục vụ thi công."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về biện pháp nhà thầu chính được chỉ định phải thực hiện.\n\nLựa chọn 1. Liên lạc và điều phối giữa các công việc là biện pháp được quy định. Vậy CÓ được quy định.\n\nLựa chọn 2. Quy định thống nhất nơi tập kết thùng chứa dung môi hữu cơ và phổ biến cho nhà thầu liên quan là biện pháp được quy định.\n\nLựa chọn 3. Giáo dục an toàn vệ sinh khi tuyển dụng cho lao động mới là biện pháp của NHÀ THẦU TRỰC TIẾP TUYỂN DỤNG, không phải của nhà thầu chính. Vì vậy đây là điều KHÔNG được quy định (đáp án đúng).\n\nLựa chọn 4. Lập kế hoạch bố trí công trình tạm là biện pháp được quy định.",
+          "studyContent_vi": "Tổng kết\nHiểu rõ nội dung Quy tắc an toàn vệ sinh lao động và nhớ chính xác biện pháp mà 'nhà thầu chính được chỉ định' và 'nhà thầu (người sử dụng lao động)' phải thực hiện (ai làm gì)."
+        },
+        {
+          "label": "Q2",
+          "question": "ゴンドラに関する記述として、「ゴンドラ安全規則」上、誤っているものはどれか。",
+          "choices": [
+            "ゴンドラを使用して作業するときは、原則として、1月以内ごとに1回、定期に、自主検査を行なわなければならない。",
+            "ゴンドラを使用する作業を、操作する者に単独で行なわせるときは、操作の合図を定めなくてもよい。",
+            "ゴンドラを使用して作業を行なう場所については、当該作業を安全に行なうため必要な照度を保持しなければならない。",
+            "ゴンドラの検査証の有効期間は2年であり、保管状況が良好であれば1年を超えない範囲内で延長することができる。"
+          ],
+          "answer": "4",
+          "explanation": "この過去問の解説\n01\nゴンドラに関する記述問題について解説する。\n\n選択肢1. ゴンドラを使用して作業するときは、原則として1月以内ごとに1回、定期に自主検査を行なわなければならない。よって正しい。\n\n選択肢2. ゴンドラを操作する者に単独で行なわせるときは、操作の合図を定めなくてもよい。よって正しい。\n\n選択肢3. ゴンドラを使用して作業を行なう場所については、安全に行なうため必要な照度を保持しなければならない。よって正しい。\n\n選択肢4. ゴンドラの検査証の有効期間は1年であり、保管状況が良好であれば1年を超えない範囲内で延長できる。有効期間2年とするのは誤りである。",
+          "studyContent": "まとめ\nゴンドラに関するポイントは、安全管理（設置・運用の安全対策や法令・規則）、技術的知識（構造・機能・種類）、施工計画（使用条件・運用の最適化）である。自主検査・合図・検査証の有効期間など頻出事項を確実に覚えること。",
+          "question_vi": "Theo 'Quy tắc an toàn gondola', mô tả nào về gondola là SAI?",
+          "choices_vi": [
+            "Khi làm việc bằng gondola, về nguyên tắc phải tiến hành tự kiểm tra định kỳ ít nhất 1 lần trong mỗi 1 tháng.",
+            "Khi để một người thao tác gondola thực hiện công việc một mình, có thể không cần quy định tín hiệu thao tác.",
+            "Đối với nơi làm việc bằng gondola, phải duy trì độ rọi sáng cần thiết để thực hiện công việc đó an toàn.",
+            "Thời hạn hiệu lực của giấy chứng nhận kiểm tra gondola là 2 năm, và nếu tình trạng bảo quản tốt thì có thể gia hạn trong phạm vi không quá 1 năm."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về gondola.\n\nLựa chọn 1. Khi làm việc bằng gondola, về nguyên tắc phải tự kiểm tra định kỳ ít nhất 1 lần mỗi tháng. Vậy đúng.\n\nLựa chọn 2. Khi để một người thao tác gondola làm một mình thì có thể không cần quy định tín hiệu. Vậy đúng.\n\nLựa chọn 3. Phải duy trì độ rọi cần thiết để làm việc an toàn tại nơi sử dụng gondola. Vậy đúng.\n\nLựa chọn 4. Thời hạn hiệu lực giấy chứng nhận kiểm tra gondola là 1 NĂM, nếu bảo quản tốt thì gia hạn không quá 1 năm. Nói thời hạn 2 năm là SAI.",
+          "studyContent_vi": "Tổng kết\nĐiểm mấu chốt về gondola: quản lý an toàn (biện pháp an toàn lắp đặt/vận hành và pháp luật/quy tắc), kiến thức kỹ thuật (cấu tạo, chức năng, chủng loại), kế hoạch thi công (điều kiện sử dụng, tối ưu vận hành). Cần nhớ chắc các nội dung hay ra: tự kiểm tra, tín hiệu, thời hạn giấy chứng nhận kiểm tra."
+        },
+        {
+          "label": "Q3",
+          "question": "酸素欠乏危険作業に労働者を従事させるときの事業者の責務に関する記述として、「酸素欠乏症等防止規則」上、誤っているものはどれか。",
+          "choices": [
+            "酸素欠乏危険場所で空気中の酸素の濃度測定を行ったときは、その記録を3年間保存しなければならない。",
+            "酸素欠乏危険場所では、原則として、空気中の酸素の濃度を15％以上に保つように換気しなければならない。",
+            "酸素欠乏危険作業については、所定の技能講習を修了した者のうちから、酸素欠乏危険作業主任者を選任しなければならない。",
+            "酸素欠乏危険作業に就かせる労働者に対して、酸素欠乏危険作業に係る特別の教育を行わなければならない。"
+          ],
+          "answer": "2",
+          "explanation": "この過去問の解説\n01\n酸素欠乏危険作業における事業者の責務に関する記述問題について解説する。\n\n選択肢1. 酸素欠乏危険場所で酸素の濃度測定を行ったときは、その記録を3年間保存しなければならない（測定は6か月に1回）。よって正しい。\n\n選択肢2. 酸素欠乏危険場所で労働者を従事させる場合、酸素濃度を18％以上に保つように換気しなければならない。15％以上とするのは誤りである。\n\n選択肢3. 酸素欠乏危険作業については、所定の技能講習を修了した者のうちから酸素欠乏危険作業主任者を選任しなければならない。よって正しい。\n\n選択肢4. 酸素欠乏危険作業に就かせる労働者に対して、特別の教育を行わなければならない。よって正しい。",
+          "studyContent": "まとめ\n酸素欠乏症等防止規則の内容を理解し、事業者・作業主任者それぞれの責務、酸素濃度（18％以上）、記録の保存期間（3年間）などを間違えないように覚えること。",
+          "question_vi": "Theo 'Quy tắc phòng chống chứng thiếu oxy', mô tả nào về trách nhiệm của người sử dụng lao động khi cho lao động làm công việc nguy hiểm thiếu oxy là SAI?",
+          "choices_vi": [
+            "Khi đo nồng độ oxy trong không khí tại nơi nguy hiểm thiếu oxy thì phải lưu giữ hồ sơ đó trong 3 năm.",
+            "Tại nơi nguy hiểm thiếu oxy, về nguyên tắc phải thông gió để giữ nồng độ oxy trong không khí từ 15% trở lên.",
+            "Đối với công việc nguy hiểm thiếu oxy, phải bổ nhiệm chủ nhiệm công tác nguy hiểm thiếu oxy từ những người đã hoàn thành khóa huấn luyện kỹ năng quy định.",
+            "Phải thực hiện giáo dục đặc biệt về công việc nguy hiểm thiếu oxy cho người lao động được giao công việc đó."
+          ],
+          "explanation_vi": "Giải thích đề thi này\n01\nGiải thích câu hỏi về trách nhiệm của người sử dụng lao động trong công việc nguy hiểm thiếu oxy.\n\nLựa chọn 1. Khi đo nồng độ oxy tại nơi nguy hiểm thiếu oxy thì phải lưu hồ sơ 3 năm (đo 6 tháng/lần). Vậy đúng.\n\nLựa chọn 2. Khi cho lao động làm việc tại nơi nguy hiểm thiếu oxy, phải thông gió để giữ nồng độ oxy từ 18% trở lên. Nói 15% trở lên là SAI.\n\nLựa chọn 3. Phải bổ nhiệm chủ nhiệm công tác từ người đã hoàn thành huấn luyện kỹ năng quy định. Vậy đúng.\n\nLựa chọn 4. Phải giáo dục đặc biệt cho lao động được giao công việc nguy hiểm thiếu oxy. Vậy đúng.",
+          "studyContent_vi": "Tổng kết\nHiểu nội dung Quy tắc phòng chống chứng thiếu oxy; nhớ không nhầm trách nhiệm của người sử dụng lao động và chủ nhiệm công tác, nồng độ oxy (≥ 18%), thời hạn lưu hồ sơ (3 năm)."
+        }
+      ]
+    }
+  ]
+}
