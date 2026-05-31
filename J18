@@ -1,0 +1,468 @@
+{
+  "topics": [
+    {
+      "path": "01_建築学等 / 環境工学",
+      "vocabulary": [
+        "換気 (かんき) - thông gió",
+        "必要換気量 (ひつようかんきりょう) - lượng thông gió cần thiết",
+        "自然換気 (しぜんかんき) - thông gió tự nhiên",
+        "機械換気 (きかいかんき) - thông gió cơ khí",
+        "中性帯 (ちゅうせいたい) - dải trung tính (áp suất bằng nhau)",
+        "全熱交換器 (ぜんねつこうかんき) - bộ trao đổi nhiệt toàn phần",
+        "給気口 (きゅうきこう) - cửa cấp khí",
+        "排気口 (はいきこう) - cửa thoát khí",
+        "伝熱 (でんねつ) - truyền nhiệt",
+        "熱放射 (ねつほうしゃ) - bức xạ nhiệt",
+        "電磁波 (でんじは) - sóng điện từ",
+        "含湿率 (がんしつりつ) - tỷ lệ chứa ẩm",
+        "熱伝導率 (ねつでんどうりつ) - hệ số dẫn nhiệt",
+        "熱伝達抵抗 (ねつでんたつていこう) - trở kháng truyền nhiệt (đối lưu)",
+        "熱伝導抵抗 (ねつでんどうていこう) - trở kháng dẫn nhiệt",
+        "熱貫流率 (ねつかんりゅうりつ) - hệ số thấm nhiệt tổng",
+        "容積比熱 (ようせきひねつ) - nhiệt dung riêng theo thể tích",
+        "音波 (おんぱ) - sóng âm",
+        "媒質粒子 (ばいしつりゅうし) - hạt môi chất",
+        "縦波 (たてなみ) - sóng dọc",
+        "音速 (おんそく) - tốc độ âm thanh",
+        "回折 (かいせつ) - nhiễu xạ",
+        "周波数 (しゅうはすう) - tần số",
+        "マスキング効果 (マスキングこうか) - hiệu ứng che lấp âm thanh"
+      ],
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "必要換気量は、1時間当たりに必要な室内の空気を入れ替える量で表される。",
+            "温度差による自然換気は、冬期には中性帯より下部から外気が流入し、上部から流出する。",
+            "全熱交換器は、冷暖房を行う部屋で換気設備に用いると、換気による熱損失や熱取得を軽減できる。",
+            "室内の効率的な換気は、給気口から排気口に至る換気経路を短くするほうがよい。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：必要換気量は、室内空気環境を良好に保つために1時間当りに必要とする外気との換気量で、CO₂発生量／（許容濃度ー外気濃度）で計算する。記述は適当。\n選択肢2：温度差による自然換気は、室内が暖かい冬期には外気は下から入り上から出る。中性帯（室内外気圧差ゼロ）より下から流入、上から流出する。記述は適当。\n選択肢3：全熱交換器は排気の熱エネルギー（温度＋湿度）を新鮮な空気と交換することで、換気による熱損失や熱取得を軽減できる。記述は適当。\n選択肢4：効率的な換気は、給気口と排気口の高低差を大きくし、経路を長くするほど良い。温度差による自然換気量は高低差の平方根に比例する。経路を短くすると、新鮮な空気をすぐに排出してしまい非効率。よって誤りで正解は4。",
+          "studyContent": "換気の要点：①自然換気（風力・重力）と機械換気（第1種・第2種・第3種）の特徴、②換気量・換気回数の計算、③室内環境基準（汚染物質の許容濃度）。成人1人当たり必要換気量は約30m³/時。",
+          "question_vi": "Trong các mô tả về thông gió sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Lượng thông gió cần thiết được biểu thị bằng lượng không khí trong phòng cần được thay thế mỗi giờ.",
+            "Thông gió tự nhiên theo chênh lệch nhiệt độ: vào mùa đông, không khí ngoài trời chảy vào từ phần dưới dải trung tính và chảy ra từ phần trên.",
+            "Bộ trao đổi nhiệt toàn phần (全熱交換器) khi dùng trong phòng có điều hòa giúp giảm tổn thất nhiệt và thu nhiệt do thông gió.",
+            "Thông gió hiệu quả trong phòng nên có đường thông gió từ cửa cấp đến cửa thoát NGẮN hơn."
+          ],
+          "explanation_vi": "Đáp án 1: Lượng thông gió/giờ. → Đúng.\nĐáp án 2: Mùa đông: vào từ dưới, ra từ trên (đảo lại với mùa hè). → Đúng.\nĐáp án 3: 全熱交換器 trao đổi nhiệt + độ ẩm → giảm tổn thất nhiệt. → Đúng.\nĐáp án 4: Hiệu quả thông gió cần đường thông gió DÀI để xả không khí bẩn. Đường ngắn → không khí mới bị xả ra ngay. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Thông gió: tự nhiên (gió + chênh nhiệt độ) và cơ khí (loại 1/2/3). Tính toán lượng và số lần thông gió. Tiêu chuẩn môi trường trong nhà. Lượng thông gió cần thiết ≈ 30m³/h/người trưởng thành."
+        },
+        {
+          "label": "Q2",
+          "question": "伝熱に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "熱放射は、電磁波による熱の移動現象で、真空中においても生じる。",
+            "壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。",
+            "壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。",
+            "物質の単位体積当たりの熱容量を、容積比熱という。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：熱の伝わり方には伝導・対流・放射の3パターンあり、熱放射は電磁波による伝熱で、太陽熱のように真空中でも生じる。記述は適当。\n選択肢2：熱伝導率は固体＞液体＞気体の順となり、水の熱伝導率は空気より大きい。壁体の含湿率が増加すると空気の代わりに水分が増え、熱伝導率は大きくなる。よって誤りで正解は2。\n選択肢3：壁の断面で外気→外壁面（熱伝達）→壁内（熱伝導）→内壁面→室内（熱伝達）と熱が通り抜けるのが熱貫流。熱貫流抵抗＝熱伝達抵抗＋熱伝導抵抗。熱貫流率＝1／（熱伝達抵抗＋熱伝導抵抗）で「和の逆数」。記述は適当。\n選択肢4：比熱は単位質量当たりの熱容量（質量比熱）。容積比熱は単位容積（体積）当たりの熱容量で「容積比熱＝比熱×密度」。記述は適当。",
+          "studyContent": "伝熱3形態：伝導・対流・放射。熱伝導率：固体＞液体＞気体（水＞空気）。含湿率上昇→熱伝導率増加。熱貫流率＝1/(熱伝達抵抗＋熱伝導抵抗)。容積比熱＝比熱×密度。短期>長期、短期×2/3＝長期。",
+          "question_vi": "Trong các mô tả về truyền nhiệt sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Bức xạ nhiệt là hiện tượng di chuyển nhiệt bằng sóng điện từ, xảy ra ngay cả trong chân không.",
+            "Khi tỷ lệ chứa ẩm của tường tăng, hệ số dẫn nhiệt của tường đó GIẢM.",
+            "Nghịch đảo của tổng trở kháng truyền nhiệt và trở kháng dẫn nhiệt của tường được gọi là hệ số thấm nhiệt tổng (熱貫流率).",
+            "Nhiệt dung trên đơn vị thể tích của vật chất gọi là 容積比熱 (nhiệt dung thể tích)."
+          ],
+          "explanation_vi": "Đáp án 1: Bức xạ qua sóng điện từ, có trong chân không (như ánh nắng mặt trời). → Đúng.\nĐáp án 2: Hệ số dẫn nhiệt: rắn > lỏng > khí. Nước > không khí. Tường ẩm hơn → nước thay không khí → hệ số dẫn nhiệt TĂNG, không giảm. → SAI. Đáp án đúng là 2.\nĐáp án 3: 熱貫流率 = 1/(熱伝達抵抗 + 熱伝導抵抗). → Đúng.\nĐáp án 4: 容積比熱 = nhiệt dung/đơn vị thể tích. → Đúng.",
+          "studyContent_vi": "3 loại truyền nhiệt: dẫn/đối lưu/bức xạ. Hệ số dẫn nhiệt: rắn>lỏng>khí. Ẩm tăng → dẫn nhiệt tăng. 熱貫流率 = nghịch đảo tổng trở. 容積比熱 = 比熱 × 密度."
+        },
+        {
+          "label": "Q3",
+          "question": "音に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "音波は、媒質粒子の振動方向と波の伝搬方向が等しい縦波である。",
+            "音速は、気温が高くなるほど速くなる。",
+            "音波が障害物の背後に回り込む現象を回折といい、低い周波数よりも高い周波数の音のほうが回折しやすい。",
+            "ある音が別の音によって聞き取りにくくなるマスキング効果は、両者の周波数が近いほどその影響が大きい。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：縦波は振動方向と伝搬方向が同じ波。音波は空気の疎密により伝わる縦波である。記述は適当。\n選択肢2：音速＝331.5＋0.6t（m/s、tは気温）。気温1℃上昇で音速0.6m/s増加するため、気温が高いほど音速は速い。記述は適当。\n選択肢3：波は波長が長い（周波数が低い）ほど回折しやすい。障害物の長さより波長が長い場合は特に回折する。よって「高い周波数のほうが回折しやすい」は誤りで、正解は3。\n選択肢4：マスキング効果は、聞きたい音と妨害音の周波数が近いほど大きくなる。記述は適当。",
+          "studyContent": "音の性質：縦波（疎密波）、音速＝331.5＋0.6t、回折は低周波（長波長）ほど大きい、マスキング効果は周波数が近いほど大。波長と周波数は反比例。建材の遮音・吸音性能や音の減衰（dB）も理解。",
+          "question_vi": "Trong các mô tả về âm thanh sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Sóng âm là sóng dọc, có hướng dao động của hạt môi chất trùng với hướng truyền sóng.",
+            "Tốc độ âm thanh CÀNG NHANH khi nhiệt độ không khí càng cao.",
+            "Hiện tượng sóng âm đi vòng ra sau vật cản gọi là nhiễu xạ, và âm có tần số CAO dễ nhiễu xạ hơn âm có tần số thấp.",
+            "Hiệu ứng che lấp âm thanh (マスキング効果), khi một âm bị âm khác làm khó nghe, càng lớn khi tần số của hai âm CÀNG GẦN nhau."
+          ],
+          "explanation_vi": "Đáp án 1: Sóng âm là sóng dọc. → Đúng.\nĐáp án 2: 音速 = 331.5 + 0.6t. → Đúng.\nĐáp án 3: Bước sóng càng DÀI (tần số càng THẤP) → càng dễ nhiễu xạ. Tần số CAO khó nhiễu xạ. → SAI. Đáp án đúng là 3.\nĐáp án 4: Tần số càng gần → che lấp càng lớn. → Đúng.",
+          "studyContent_vi": "Âm thanh: sóng dọc. 音速 = 331.5 + 0.6t. Nhiễu xạ: tần số thấp/bước sóng dài → dễ. マスキング: tần số gần → mạnh. Bước sóng ⇔ tần số (tỷ lệ nghịch)."
+        }
+      ]
+    },
+    {
+      "path": "01_建築学等 / 一般構造",
+      "vocabulary": [
+        "鉄筋コンクリート造 (てっきんコンクリートぞう) - kết cấu bê tông cốt thép (RC)",
+        "ねじれ剛性 (ねじれごうせい) - độ cứng chống xoắn",
+        "耐震壁 (たいしんへき) - tường chịu địa chấn",
+        "剛心 (ごうしん) - tâm cứng",
+        "重心 (じゅうしん) - tâm trọng",
+        "開口周比 (かいこうしゅうひ) - tỷ lệ chu vi mở",
+        "エキスパンションジョイント - khe co dãn (joint dãn nở)",
+        "不同沈下 (ふどうちんか) - lún không đều",
+        "脆性破壊 (ぜいせいはかい) - phá hủy giòn",
+        "靭性 (じんせい) - tính dẻo",
+        "軸方向圧縮応力度 (じくほうこうあっしゅくおうりょくど) - ứng suất nén dọc trục",
+        "木質構造 (もくしつこうぞう) - kết cấu gỗ",
+        "通し柱 (とおしばしら) - cột thông tầng",
+        "燃えしろ設計 (もえしろせっけい) - thiết kế phần cháy hao hụt",
+        "直交集成板 (ちょっこうしゅうせいばん) - ván dán chéo (CLT)",
+        "鉄骨構造 (てっこつこうぞう) - kết cấu thép",
+        "ラーメン構造 (ラーメンこうぞう) - kết cấu khung cứng (rahmen)",
+        "座屈長さ (ざくつながさ) - chiều dài tới hạn (oằn)",
+        "トラス構造 (トラスこうぞう) - kết cấu giàn",
+        "ピン接合 (ピンせつごう) - liên kết khớp",
+        "柱脚 (ちゅうきゃく) - chân cột",
+        "根巻き形式 (ねまきけいしき) - kiểu chân cột bọc bê tông",
+        "露出形式 (ろしゅつけいしき) - kiểu chân cột lộ",
+        "圧密沈下 (あつみつちんか) - lún cố kết",
+        "独立基礎 (どくりつきそ) - móng đơn",
+        "べた基礎 (べたきそ) - móng bè",
+        "液状化 (えきじょうか) - hóa lỏng (đất)",
+        "間隙水圧 (かんげきすいあつ) - áp lực nước lỗ rỗng",
+        "風力係数 (ふうりょくけいすう) - hệ số gió",
+        "外圧係数 (がいあつけいすう) - hệ số áp suất ngoài",
+        "内圧係数 (ないあつけいすう) - hệ số áp suất trong",
+        "積雪荷重 (せきせつかじゅう) - tải trọng tuyết",
+        "積載荷重 (せきさいかじゅう) - tải trọng chất tải",
+        "基準風速 (きじゅんふうそく) - tốc độ gió chuẩn"
+      ],
+      "questions": [
+        {
+          "label": "Q4",
+          "question": "鉄筋コンクリート造の建築物の構造計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ねじれ剛性は、耐震壁等の耐震要素を、平面上の中心部に配置するよりも外側に均一に配置したほうが高まる。",
+            "壁に換気口等の小開口がある場合でも、その壁を耐震壁として扱うことができる。",
+            "平面形状が極めて長い建築物には、コンクリートの乾燥収縮や不同沈下等による問題が生じやすいため、エキスパンションジョイントを設ける。",
+            "柱は、地震時の脆性破壊の危険を避けるため、軸方向圧縮応力度が大きくなるようにする。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：ねじれ剛性は建物をねじる方向への剛性。剛心と重心がずれているとねじれが発生する。耐震壁を中心部より外周部に均一配置するとねじれ剛性は大きくなる。記述は適当。\n選択肢2：建築基準法により、耐震壁に開口がある場合でも、開口周比0.4以下なら耐震壁とみなすことができる。記述は適当。\n選択肢3：エキスパンションジョイントは構造上分割された建物を一体的に使用するための部材。細長い建物はコンクリートの伸縮や不同沈下リスクが高いため、構造上は複数に分割しEJで結ぶ。記述は適当。\n選択肢4：脆性破壊は変形せずに突然破壊する致命的な壊れ方。RC柱は軸方向圧縮応力度が大きいほど靭性が低下し、脆性破壊しやすくなる。よって、避けるためには軸方向圧縮応力度を「小さく」する。誤りで正解は4。",
+          "studyContent": "RC造構造計画：①ねじれ剛性は耐震壁を外周配置で増加、②開口周比0.4以下なら耐震壁扱い、③長大建物にはエキスパンションジョイント、④脆性破壊を避けるには軸方向圧縮応力度を小さくする（せん断破壊回避には帯筋・あばら筋）。",
+          "question_vi": "Trong các mô tả về quy hoạch kết cấu công trình RC sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Độ cứng chống xoắn cao hơn khi bố trí các yếu tố chịu địa chấn như tường chịu địa chấn ở mép ngoài đều đặn hơn là tập trung ở tâm mặt bằng.",
+            "Khi tường có lỗ mở nhỏ như cửa thông gió, vẫn có thể xem tường đó là tường chịu địa chấn.",
+            "Đối với công trình có mặt bằng cực dài, vì dễ phát sinh vấn đề do co ngót khô hoặc lún không đều, cần lắp đặt khe co dãn (エキスパンションジョイント).",
+            "Cột nên có ứng suất nén dọc trục LỚN để tránh nguy cơ phá hủy giòn khi động đất."
+          ],
+          "explanation_vi": "Đáp án 1: Tường chịu địa chấn đặt mép ngoài đều → ねじれ剛性 cao. → Đúng.\nĐáp án 2: 開口周比 ≤ 0.4 → vẫn là tường chịu địa chấn. → Đúng.\nĐáp án 3: Công trình dài → cần EJ. → Đúng.\nĐáp án 4: Ứng suất nén dọc trục càng LỚN → tính dẻo giảm → phá hủy giòn dễ xảy ra. Phải làm NHỎ để tránh. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "RC: tường chịu địa chấn đặt mép ngoài để chống xoắn. 開口周比 ≤ 0.4 OK. Công trình dài → EJ. Tránh phá hủy giòn → ứng suất nén dọc trục NHỎ."
+        },
+        {
+          "label": "Q5",
+          "question": "木質構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "同一の接合部にボルトと釘を併用する場合の許容耐力は、両者を加算することができる。",
+            "2階建ての建築物における隅柱は、接合部を通し柱と同等以上の耐力を有するように補強した場合、通し柱としなくてもよい。",
+            "燃えしろ設計は、木質材料の断面から所定の燃えしろ寸法を除いた断面に、長期荷重により生じる応力度が、短期の許容応力度を超えないことを検証するものである。",
+            "直交集成板（CLT）の弾性係数、基準強度は、強軸方向であっても、一般的な製材、集成材等の繊維方向の値と比べて小さくなっている。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：ボルトと釘は耐力発揮のタイミングが異なる。釘は最初から耐力を発揮するが、ボルト接合は材が少し滑ってボルト軸にせん断力が働いてから耐力を発揮する。ボルトが効き始める頃には釘は既に降伏している可能性があり、補完し合わない。両者は加算できず、一方を許容耐力とする。よって誤りで正解は1。\n選択肢2：2階建ての隅柱は通し柱とするのが原則だが、接合部を通し柱と同等以上の耐力を有するよう補強した場合は通し柱としなくてもよい。記述は適当。\n選択肢3：燃えしろ設計は、火災時に表面が炭化して燃焼が進まなくなる性質を考慮し、断面からもえしろ寸法を控除した残断面が長期荷重により生じる応力度が短期許容応力度を超えないことを検証する。記述は適当。\n選択肢4：CLTは繊維方向が直交するように積層接着した材料。強軸方向でも、繊維方向の弾性係数や基準強度は一般的な製材・集成材より小さい。記述は適当。",
+          "studyContent": "木構造：①ボルト＋釘は耐力加算不可（一方のみ採用）、②2階建隅柱は補強で通し柱不要可、③燃えしろ設計は残断面で長期応力度≦短期許容応力度、④CLTは繊維方向の弾性係数・基準強度が製材・集成材より小。短期＝長期×3/2。",
+          "question_vi": "Trong các mô tả về kết cấu gỗ sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi sử dụng đồng thời bu lông và đinh tại cùng một mối nối, sức chịu cho phép có thể CỘNG GỘP cả hai.",
+            "Đối với cột góc của công trình 2 tầng, nếu mối nối được gia cường có sức chịu tương đương hoặc cao hơn cột thông tầng thì KHÔNG cần làm cột thông tầng.",
+            "Thiết kế phần cháy hao hụt (燃えしろ設計) là việc kiểm chứng rằng ứng suất phát sinh do tải trọng dài hạn trên tiết diện đã trừ phần cháy hao hụt không vượt quá ứng suất cho phép ngắn hạn.",
+            "Hệ số đàn hồi và cường độ chuẩn của ván dán chéo (CLT) ngay cả theo hướng trục mạnh cũng NHỎ HƠN so với hướng thớ của vật liệu gỗ và gỗ ghép thông thường."
+          ],
+          "explanation_vi": "Đáp án 1: Bu lông và đinh phát huy sức chịu KHÔNG cùng lúc → KHÔNG cộng gộp được, chỉ lấy MỘT làm sức chịu cho phép. → SAI. Đáp án đúng là 1.\nĐáp án 2: Gia cường mối nối → không cần cột thông tầng. → Đúng.\nĐáp án 3: Tiết diện trừ phần cháy: ứng suất dài hạn ≤ ứng suất cho phép ngắn hạn. → Đúng.\nĐáp án 4: CLT < gỗ thường về hệ số đàn hồi/cường độ chuẩn theo hướng thớ. → Đúng.",
+          "studyContent_vi": "Gỗ: bu lông + đinh KHÔNG cộng. Cột góc 2 tầng có thể không thông tầng nếu gia cường mối nối. 燃えしろ設計: tiết diện còn lại chịu được tải dài hạn. CLT yếu hơn gỗ ghép thường."
+        },
+        {
+          "label": "Q6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "梁の材質をSN400AからSN490Bに変えても、部材断面と荷重条件が同一ならば、構造計算上、梁のたわみは同一である。",
+            "節点の水平移動が拘束されているラーメン構造では、柱の座屈長さは、設計上、節点間の距離に等しくとることができる。",
+            "トラス構造の節点は、構造計算上、すべてピン接合として扱う。",
+            "柱脚に高い回転拘束力をもたせるためには、根巻き形式ではなく露出形式とする。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：たわみはヤング係数・断面二次モーメント・梁長さ・荷重で決まり、鋼材のヤング係数はSN400AもSN490Bも同じ。部材断面と荷重条件が同じならたわみは同一。記述は適当。\n選択肢2：ラーメン構造は柱梁が剛接合され節点の水平移動が拘束される。座屈長さは①両端固定L×0.5、②片端固定・片端ピンL×0.7、③両端ピンL×1.0。水平移動拘束のラーメンでは設計上、節点間距離に等しくとれる。記述は適当。\n選択肢3：トラス構造は三角形に組まれた鋼材を単位とし、すべてピン接合として扱う。これにより軸方向の圧縮・引張のみが発生し、曲げモーメントが発生しない構造となる。記述は適当。\n選択肢4：S造の柱脚は①露出、②根巻き、③埋込みの3種類。回転拘束力（回転剛性）は埋込型＞根巻き＞露出の順。高い回転拘束力を持たせるには根巻きまたは埋込みにする。露出にするのは逆。よって誤りで正解は4。",
+          "studyContent": "S造：①鋼材のヤング係数は材質によらず同一→たわみ同一、②水平移動拘束ラーメンは座屈長さ＝節点間距離、③トラス節点は全てピン接合、④柱脚の回転拘束：埋込＞根巻き＞露出。SN材＝建築構造用圧延鋼材（A種は溶接しない、B/C種は溶接性改善）。",
+          "question_vi": "Trong các mô tả về kết cấu thép sau đây, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Đổi vật liệu dầm từ SN400A sang SN490B, nếu tiết diện và điều kiện tải giống nhau thì độ võng của dầm theo tính toán kết cấu LÀ NHƯ NHAU.",
+            "Trong kết cấu khung cứng (Rahmen) có nút bị ràng buộc chuyển vị ngang, chiều dài tới hạn của cột có thể lấy bằng khoảng cách giữa các nút trong thiết kế.",
+            "Nút của kết cấu giàn (trass) đều được xử lý như liên kết khớp trong tính toán kết cấu.",
+            "Để chân cột có lực ràng buộc xoay CAO, chọn dạng LỘ (露出形式) thay vì dạng bọc bê tông (根巻き形式)."
+          ],
+          "explanation_vi": "Đáp án 1: Hệ số Young giống nhau → độ võng giống nhau. → Đúng.\nĐáp án 2: Ràng buộc ngang →座屈長さ = khoảng cách nút. → Đúng.\nĐáp án 3: Trass: nút khớp. → Đúng.\nĐáp án 4: Lực ràng buộc xoay: 埋込 > 根巻き > 露出. Muốn cao hơn → chọn 根巻き hoặc 埋込み, KHÔNG chọn 露出. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Thép: hệ số Young như nhau → võng như nhau. Rahmen ràng buộc ngang: 座屈長さ = khoảng cách nút. Trass: tất cả khớp. Chân cột: 埋込 > 根巻き > 露出 về cứng xoay."
+        },
+        {
+          "label": "Q7",
+          "question": "地盤及び基礎構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "圧密沈下の許容値は、独立基礎のほうがべた基礎に比べて大きい。",
+            "粘性土地盤の圧密沈下は、地中の応力の増加により長時間かかって土中の水が絞り出され、間隙が減少するために生じる。",
+            "直接基礎の滑動抵抗は、基礎底面の摩擦抵抗が主体となるが、基礎の根入れを深くすることで基礎側面の受動土圧も期待できる。",
+            "地盤の液状化は、地下水面下の緩い砂地盤が地震時に繰り返しせん断を受けることにより間隙水圧が上昇し、水中に砂粒子が浮遊状態となる現象である。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：圧密沈下の許容値は荷重を受ける面積が大きいほど大きくなる。許容沈下量はべた基礎10～15cm＞布基礎＞独立基礎5cmの順となるため、独立基礎よりべた基礎のほうが大きい。「独立基礎のほうがべた基礎に比べて大きい」は誤りで正解は1。\n選択肢2：圧密沈下は粘性土層に荷重がかかり、長時間かけて水や空気が絞り出され空隙が減少して沈下する現象（豆腐に重しを乗せると水が抜けるイメージ）。記述は適当。\n選択肢3：直接基礎の滑動抵抗は基礎底面の摩擦抵抗が主体だが、不足する場合は根入れを深くして基礎側面からの受動土圧で補える。記述は適当。\n選択肢4：液状化は地下水位の高い緩い砂質土地盤で起きやすい。地震時の繰り返しせん断により砂粒子の結合が緩み、間隙水圧が上昇して水中に砂粒子が浮遊する現象。記述は適当。",
+          "studyContent": "地盤・基礎：①圧密沈下許容値はべた>布>独立、②圧密沈下は粘性土での水排出で発生、③直接基礎の滑動抵抗は底面摩擦＋根入れ深いと側面受動土圧、④液状化は地下水位高い緩い砂地盤で発生。",
+          "question_vi": "Trong các mô tả về nền đất và kết cấu móng, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Giá trị cho phép của lún cố kết: móng ĐƠN LỚN HƠN móng bè.",
+            "Lún cố kết của nền đất sét xảy ra do ứng suất trong đất tăng, làm nước trong đất bị ép ra trong thời gian dài và khoảng rỗng giảm.",
+            "Lực kháng trượt của móng nông chủ yếu là ma sát đáy móng, nhưng nếu chôn móng sâu hơn thì có thể trông cậy thêm áp lực đất bị động từ mặt bên móng.",
+            "Hóa lỏng đất là hiện tượng nền cát rời nằm dưới mực nước ngầm, khi chịu cắt lặp đi lặp lại khi động đất, làm áp lực nước lỗ rỗng tăng và hạt cát ở trạng thái lơ lửng trong nước."
+          ],
+          "explanation_vi": "Đáp án 1: 圧密沈下 cho phép: べた (10~15cm) > 布 > 独立 (5cm). Móng đơn NHỎ HƠN móng bè. → SAI. Đáp án đúng là 1.\nĐáp án 2: Đất sét: nước bị ép ra → lún. → Đúng.\nĐáp án 3: Móng nông: ma sát đáy + áp lực bị động bên. → Đúng.\nĐáp án 4: Hóa lỏng đất do động đất. → Đúng.",
+          "studyContent_vi": "Móng: lún cho phép べた > 布 > 独立. Lún cố kết của đất sét. Lực kháng trượt = ma sát đáy + áp lực bị động bên. Hóa lỏng: cát rời + nước ngầm + động đất."
+        },
+        {
+          "label": "Q8",
+          "question": "建築物に作用する荷重及び外力に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "風圧力を求めるために用いる風力係数は、建築物の外圧係数と内圧係数の積により算出する。",
+            "雪下ろしを行う慣習のある地方において、垂直積雪量が1mを超える場合、積雪荷重は、雪下ろしの実況に応じ垂直積雪量を1mまで減らして計算することができる。",
+            "劇場、映画館等の客席の単位床面積当たりの積載荷重は、実況に応じて計算しない場合、固定席のほうが固定されていない場合より小さくすることができる。",
+            "速度圧の計算に用いる基準風速は、原則として、その地方の再現期間50年の10分間平均風速値に相当する。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：風圧力＝速度圧×風力係数。風力係数は「外圧係数－内圧係数」（差）で算出する。「積」ではない。よって誤りで正解は1。\n選択肢2：雪下ろしを行う慣習のある地方で、垂直積雪量が1mを超える場合、雪下ろしの実況に応じ垂直積雪量を1mまで減らして計算できる。記述は適当。\n選択肢3：劇場・映画館等の客席で「固定されていない」場合は人が集中しやすく荷重が大きくなる。固定席は2,900N/㎡、自由席は3,500N/㎡と固定席のほうが小さい。記述は適当。\n選択肢4：速度圧の基準風速は、原則としてその地方の再現期間50年の10分間平均風速値に相当する（年最大風速の50年換算の10分平均）。記述は適当。",
+          "studyContent": "荷重・外力：①風力係数＝外圧係数－内圧係数（差）、②雪下ろし地方は垂直積雪量を1mまで減算可、③積載荷重は固定席2,900N/㎡＜自由席3,500N/㎡、④基準風速＝再現期間50年の10分間平均風速。",
+          "question_vi": "Trong các mô tả về tải trọng và ngoại lực tác dụng lên công trình, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Hệ số gió dùng để tính áp lực gió được tính bằng TÍCH của hệ số áp suất ngoài và hệ số áp suất trong của công trình.",
+            "Ở vùng có tập quán dọn tuyết, khi lượng tuyết tích lũy thẳng đứng vượt 1m, tải trọng tuyết có thể được tính toán bằng cách giảm lượng tuyết tích lũy thẳng đứng xuống còn 1m tùy theo tình hình dọn tuyết thực tế.",
+            "Tải trọng chất tải trên đơn vị diện tích sàn của khán phòng nhà hát/rạp chiếu phim, khi không tính theo tình hình thực tế, ghế cố định có thể NHỎ HƠN ghế không cố định.",
+            "Tốc độ gió chuẩn dùng để tính áp lực vận tốc về nguyên tắc tương đương tốc độ gió trung bình 10 phút với chu kỳ tái diễn 50 năm của địa phương đó."
+          ],
+          "explanation_vi": "Đáp án 1: 風力係数 = 外圧係数 - 内圧係数 (HIỆU, không phải tích). → SAI. Đáp án đúng là 1.\nĐáp án 2: Dọn tuyết: giảm còn 1m. → Đúng.\nĐáp án 3: Ghế cố định: 2,900N/㎡; tự do: 3,500N/㎡. → Đúng.\nĐáp án 4: Gió chuẩn = chu kỳ 50 năm, trung bình 10 phút. → Đúng.",
+          "studyContent_vi": "Tải trọng/gió: 風力係数 = 外圧 - 内圧 (HIỆU). Dọn tuyết: cắt còn 1m. 積載荷重: cố định < tự do. 基準風速: 50 năm, 10 phút trung bình."
+        }
+      ]
+    },
+    {
+      "path": "01_建築学等 / 構造力学",
+      "vocabulary": [
+        "3ヒンジラーメン (さんヒンジラーメン) - khung khớp 3 (3-hinge frame)",
+        "集中荷重 (しゅうちゅうかじゅう) - tải trọng tập trung",
+        "等分布荷重 (とうぶんぷかじゅう) - tải trọng phân bố đều",
+        "水平反力 (すいへいはんりょく) - phản lực ngang",
+        "鉛直反力 (えんちょくはんりょく) - phản lực đứng",
+        "支点 (してん) - điểm tựa",
+        "つり合い (つりあい) - cân bằng",
+        "モーメント - moment",
+        "単純梁 (たんじゅんばり) - dầm đơn",
+        "曲げモーメント図 (まげモーメントず) - biểu đồ moment uốn",
+        "引張側 (ひっぱりがわ) - phía chịu kéo"
+      ],
+      "questions": [
+        {
+          "label": "Q9",
+          "question": "図に示す3ヒンジラーメン架構のAD間及びDC間に集中荷重が同時に作用するとき、支点Bに生じる水平反力HB、鉛直反力VBの値の大きさの組合せとして、正しいものはどれか。",
+          "choices": [
+            "HB＝2kN、VB＝6kN",
+            "HB＝3kN、VB＝9kN",
+            "HB＝4kN、VB＝12kN",
+            "HB＝5kN、VB＝15kN"
+          ],
+          "answer": "1",
+          "explanation": "3ヒンジラーメンでは、A端とB端の不明な反力Ha、Va、Hb、Vbの4つを、垂直方向ΣV=0、水平方向ΣH=0、モーメントのつり合いMa=0、Mb=0、Mc=0で求める。\n\n■Vbを求める（Ma=0）：\n6kN×4m＋6kN×2m－Vb×6m＝0\n24＋12－6Vb＝0\n∴Vb＝6kN\n\n■Hbを求める（右側CEBでMc=0）：\n-Vb×2＋Hb×6m＝0\n-12＋6Hb＝0\n∴Hb＝2kN\n\nよって正解は1（Hb＝2kN、Vb＝6kN）。",
+          "studyContent": "3ヒンジラーメン解法：①ΣH=0、ΣV=0で全体つり合い、②Ma=0で反対側支点の反力算出、③Mc=0で中央ヒンジ点の左右どちらかでつり合い→もう一つの反力算出。Mc=0が左右別々に成立することが鍵。",
+          "question_vi": "Trong khung khớp 3 Rahmen như hình vẽ, khi tải trọng tập trung tác dụng đồng thời lên đoạn AD và đoạn DC, tổ hợp đúng của phản lực ngang HB và phản lực đứng VB tại điểm tựa B là gì?",
+          "choices_vi": [
+            "HB＝2kN、VB＝6kN",
+            "HB＝3kN、VB＝9kN",
+            "HB＝4kN、VB＝12kN",
+            "HB＝5kN、VB＝15kN"
+          ],
+          "explanation_vi": "Khung 3 khớp có 4 ẩn (Ha, Va, Hb, Vb), giải bằng ΣV=0, ΣH=0, Ma=0, Mb=0, Mc=0.\n\n■Tìm Vb (Ma=0):\n6×4 + 6×2 - Vb×6 = 0\n24 + 12 = 6Vb → Vb = 6kN\n\n■Tìm Hb (xét nửa phải CEB, Mc=0):\n-Vb×2 + Hb×6 = 0\n-12 + 6Hb = 0 → Hb = 2kN\n\nĐáp án đúng là 1 (Hb=2kN, Vb=6kN).",
+          "studyContent_vi": "Giải 3ヒンジラーメン: ΣH=0, ΣV=0 cho toàn khung; Ma=0 cho phản lực phía đối diện; Mc=0 (tại khớp giữa) xét nửa trái hoặc nửa phải để tìm ẩn còn lại."
+        },
+        {
+          "label": "Q10",
+          "question": "図に示す単純梁ABのCD間に等分布荷重wが、点Eに集中荷重Pが同時に作用するときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは、材の引張側に描くものとする。",
+          "choices": [
+            "選択肢1の曲げモーメント図",
+            "選択肢2の曲げモーメント図",
+            "選択肢3の曲げモーメント図",
+            "選択肢4の曲げモーメント図"
+          ],
+          "answer": "2",
+          "explanation": "曲げモーメント図は引張側に直線または曲線で表す。荷重区間で図形が変わる：\n・AC間：直線（荷重なし）\n・CD間：曲線（等分布荷重）\n・DE間：直線（荷重なし）\n・EB間：直線（荷重なし）\n\n等分布荷重を集中荷重置換すると2×2＝4kN。反力を上向と仮定：\nΣMA=0：4×3＋6×6－VB×8＝0 → 12＋36＝8VB → VB＝6kN\nΣY=0：VA－4＋(-6)＋6＝0 → VA＝4kN\n\n各点モーメント（下凸）：\nMC＝VA×2＝8kN\nMD＝VA×4－4×1＝12kN\nME＝-VB×2＝-12kN（絶対値12kN）\n\nD点とE点が同値（12kN）でCはより小さい。AC直線、CD曲線、DE直線、EB直線という形状条件と一致するのは選択肢2。",
+          "studyContent": "曲げモーメント図のポイント：荷重なし区間→直線、等分布荷重区間→曲線（放物線）、集中荷重点→折れ曲がり。引張側に描く。荷重パターンと図形の関係を整理することが重要。",
+          "question_vi": "Trên dầm đơn AB, đoạn CD chịu tải trọng phân bố đều w, điểm E chịu tải trọng tập trung P. Biểu đồ moment uốn nào ĐÚNG? (vẽ moment ở phía chịu kéo)",
+          "choices_vi": [
+            "Biểu đồ moment uốn 1",
+            "Biểu đồ moment uốn 2",
+            "Biểu đồ moment uốn 3",
+            "Biểu đồ moment uốn 4"
+          ],
+          "explanation_vi": "Biểu đồ moment uốn theo đoạn:\n・AC: thẳng (không tải)\n・CD: cong (等分布)\n・DE: thẳng (không tải)\n・EB: thẳng (không tải)\n\nĐổi 等分布 → tập trung: 2×2 = 4kN. Phản lực:\nΣMA=0: 4×3 + 6×6 - VB×8 = 0 → VB = 6kN\nΣY=0: VA = 4kN\n\nMoment các điểm (lồi xuống):\nMC = 4×2 = 8kN\nMD = 4×4 - 4×1 = 12kN\nME = -6×2 = -12kN (giá trị tuyệt đối 12kN)\n\nD và E cùng 12, C nhỏ hơn. Hình AC thẳng + CD cong + DE/EB thẳng → đáp án 2.",
+          "studyContent_vi": "Biểu đồ moment uốn: đoạn không tải = thẳng, 等分布 = cong (parabol), điểm tập trung = gãy khúc. Vẽ phía chịu kéo."
+        }
+      ]
+    },
+    {
+      "path": "01_建築学等 / 建築材料",
+      "vocabulary": [
+        "鋼材 (こうざい) - vật liệu thép",
+        "焼入れ (やきいれ) - tôi (nhiệt luyện)",
+        "炭素量 (たんそりょう) - lượng carbon",
+        "靱性 (じんせい) - tính dẻo dai",
+        "炭素当量 (たんそとうりょう) - carbon đương lượng",
+        "溶接性 (ようせつせい) - tính hàn",
+        "低降伏点鋼 (ていこうふくてんこう) - thép cường độ chảy thấp",
+        "モリブデン - Molybden",
+        "延性 (えんせい) - tính dẻo",
+        "左官材料 (さかんざいりょう) - vật liệu trát",
+        "しっくい - vữa shikkui (vôi)",
+        "消石灰 (しょうせっかい) - vôi thủy phân",
+        "気硬性 (きこうせい) - tính khô cứng (CO₂)",
+        "せっこうプラスター - thạch cao plaster",
+        "水硬性 (すいこうせい) - tính thủy hóa",
+        "セルフレベリング材 - vật liệu tự san phẳng",
+        "ドロマイトプラスター - dolomite plaster",
+        "板ガラス (いたガラス) - kính tấm",
+        "フロート板ガラス - kính float",
+        "複層ガラス (ふくそうガラス) - kính nhiều lớp (kính hộp)",
+        "熱線吸収板ガラス (ねっせんきゅうしゅういたガラス) - kính hấp thụ tia nhiệt",
+        "倍強度ガラス (ばいきょうどガラス) - kính cường độ gấp đôi",
+        "シーリング材 - vật liệu trám",
+        "1成分形シーリング材 - vật liệu trám 1 thành phần",
+        "2成分形シーリング材 - vật liệu trám 2 thành phần",
+        "湿気硬化 (しっきこうか) - khô cứng do ẩm",
+        "乾燥硬化 (かんそうこうか) - khô cứng do khô",
+        "2面接着 (にめんせっちゃく) - dán 2 mặt",
+        "基剤 (きざい) - chất nền",
+        "硬化剤 (こうかざい) - chất đóng rắn",
+        "内装材料 (ないそうざいりょう) - vật liệu nội thất",
+        "コンポジションビニル床タイル - gạch vinyl composition",
+        "単層ビニル床タイル (たんそうビニルゆかタイル) - gạch vinyl đơn lớp (ホモジニアス)",
+        "バインダー含有率 (バインダーがんゆうりつ) - tỷ lệ binder",
+        "段通 (だんつう) - thảm dệt tay (cao cấp)",
+        "ロックウール化粧吸音板 - tấm hút âm trang trí bằng rockwool",
+        "強化せっこうボード - tấm thạch cao gia cường"
+      ],
+      "questions": [
+        {
+          "label": "Q11",
+          "question": "鋼材に関する一般的な記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ある特定の温度以上まで加熱した後、急冷する焼入れ処理により、鋼は硬くなり、強度が増加する。",
+            "鋼は、炭素量が多くなると、引張強さは増加し、靱性は低下する。",
+            "SN490BやSN490Cは、炭素当量等の上限を規定して溶接性を改善した鋼材である。",
+            "低降伏点鋼は、モリブデン等の元素を添加することで、強度を低くし延性を高めた鋼材である。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：鋼材の熱処理4種「焼入れ・焼き戻し・焼きなまし・焼きならし」のうち、焼入れは加熱後急冷することで鋼を硬く（引張強度を増加）させる処理。記述は適当。\n選択肢2：鋼は炭素量が増えると硬くなり（引張強さ増加）粘り（靱性・伸び）が低下する。記述は適当。\n選択肢3：SN鋼（建築構造用圧延鋼材）はA/B/C種があり、A種は溶接しない部材、B・C種は炭素当量の上限を規定して溶接性を改善した鋼材。記述は適当。\n選択肢4：低降伏点鋼はモリブデン等の添加元素を極力低減した純鉄に近い鋼で、強度が低く延性を高めた鋼材。「モリブデン等の元素を添加することで」が誤り。なお、モリブデン添加で耐火性を高めるのはFR鋼（Fire Resistant）。よって誤りで正解は4。",
+          "studyContent": "鋼材：①熱処理4種（焼入れ＝硬く、焼戻し＝靭性、焼なまし＝柔らかく、焼ならし＝均一）、②炭素量増→硬く・脆く、③SN材A/B/C種、④低降伏点鋼は純鉄に近く強度低・延性高（FR鋼はモリブデン添加で耐火）。",
+          "question_vi": "Trong các mô tả chung về vật liệu thép, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Sau khi nung nóng quá nhiệt độ nhất định rồi làm nguội nhanh (tôi/焼入れ), thép trở nên cứng hơn và cường độ tăng.",
+            "Thép khi tăng lượng carbon thì cường độ chịu kéo tăng và tính dẻo dai (靱性) giảm.",
+            "SN490B và SN490C là thép quy định giới hạn carbon đương lượng để cải thiện tính hàn.",
+            "Thép cường độ chảy thấp (低降伏点鋼) là thép được THÊM CÁC NGUYÊN TỐ NHƯ MOLYBDEN để hạ cường độ và tăng tính dẻo."
+          ],
+          "explanation_vi": "Đáp án 1: 焼入れ → cứng + cường độ tăng. → Đúng.\nĐáp án 2: Carbon tăng → cứng, dẻo dai giảm. → Đúng.\nĐáp án 3: SN490B/C: giảm carbon đương lượng → tính hàn cải thiện. → Đúng.\nĐáp án 4: 低降伏点鋼 = thép GIẢM nguyên tố thêm (gần thép nguyên chất), KHÔNG phải thêm Molybden. Molybden thêm vào là FR鋼 (chống cháy). → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Thép: 4 cách nhiệt luyện. Carbon tăng → cứng/giòn. SN材 B/C: hàn tốt. 低降伏点鋼: gần thép nguyên chất, độ dẻo cao. FR鋼: thêm Molybden để chống cháy."
+        },
+        {
+          "label": "Q12",
+          "question": "左官材料に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "しっくいは、消石灰を主たる結合材料とした気硬性を有する材料である。",
+            "せっこうプラスターは、水硬性であり、主に多湿で通気不良の場所の仕上げで使用される。",
+            "セルフレベリング材は、せっこう組成物やセメント組成物に骨材や流動化剤等を添加した材料である。",
+            "ドロマイトプラスターは、保水性が良いため、こて塗りがしやすく作業性に優れる。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：しっくいは消石灰を主たる結合材料とし、二酸化炭素と反応して硬化する気硬性の材料。アルカリ性、耐水性が低い、乾燥収縮が大きい、のり剤（海藻系）必要などの特性がある。記述は適当。\n選択肢2：せっこうプラスターは水硬性（水和反応で硬化）であるため、多湿で通気不良の場所では硬化不良を起こす。逆に乾燥が必要な場所に適する。「多湿で通気不良の場所の仕上げ」は誤りで正解は2。乾燥・硬化に伴う収縮が小さい特徴がある。\n選択肢3：セルフレベリング材はせっこう組成物やセメント組成物に骨材や流動化剤等を添加した材料。床面に流し込みでならすだけで平坦・平滑な床下地を作れる。記述は適当。\n選択肢4：ドロマイトプラスターは保水性が良いためこて塗りがしやすく作業性に優れる。粘度が高くのり剤なしでも使用可。気硬性の左官材料で主に内装用。記述は適当。",
+          "studyContent": "左官材料：①しっくい＝気硬性（CO₂反応）、消石灰主原料、のり剤必要、②せっこうプラスター＝水硬性、乾燥収縮小、多湿不可、③セルフレベリング材＝床下地用、④ドロマイトプラスター＝気硬性、保水性高くのり剤不要、内装用。",
+          "question_vi": "Trong các mô tả về vật liệu trát (左官材料), mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "しっくい (shikkui) là vật liệu có tính khô cứng do CO₂ với vôi thủy phân (消石灰) làm chất kết dính chủ yếu.",
+            "せっこうプラスター (thạch cao plaster) có tính thủy hóa, được sử dụng chủ yếu để hoàn thiện ở những nơi NHIỀU ẨM, THÔNG GIÓ KÉM.",
+            "Vật liệu tự san phẳng (セルフレベリング材) là vật liệu thêm cốt liệu và phụ gia làm chảy vào hợp chất thạch cao hoặc xi măng.",
+            "ドロマイトプラスター (dolomite plaster) có tính giữ nước tốt nên dễ trát bằng bay (こて塗り), khả thi công vượt trội."
+          ],
+          "explanation_vi": "Đáp án 1: しっくい = 気硬性 (CO₂), 消石灰. → Đúng.\nĐáp án 2: せっこうプラスター thủy hóa → cần KHÔ để cứng. Nơi ẨM thông gió KÉM → cứng kém. → SAI. Đáp án đúng là 2.\nĐáp án 3: セルフレベリング材 cho sàn. → Đúng.\nĐáp án 4: ドロマイト giữ nước tốt → dễ trát. → Đúng.",
+          "studyContent_vi": "Vữa trát: しっくい (CO₂), せっこう (thủy hóa, kỵ ẩm), セルフレベリング (sàn), ドロマイト (giữ nước, không cần keo)."
+        },
+        {
+          "label": "Q13",
+          "question": "建築用板ガラスに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "フロート板ガラスは、溶融した金属の上に浮かべて製板する透明、かつ、平滑なガラスである。",
+            "複層ガラスは、複数枚の板ガラスの間に間隙を設け、大気圧に近い圧力の乾燥気体を満たし、その周辺を密閉したもので、断熱効果のあるガラスである。",
+            "熱線吸収板ガラスは、板ガラスの表面に金属皮膜を形成したもので、冷房負荷の軽減の効果が高いガラスである。",
+            "倍強度ガラスは、フロート板ガラスを軟化点まで加熱後、両表面から空気を吹き付けて冷却加工するなどにより、強度を約2倍に高めたガラスである。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：フロート板ガラスは溶融した金属（スズ）の上にガラス素材を流し込んで連続製造する平滑で透明なガラス。最も流通している板ガラス。記述は適当。\n選択肢2：複層ガラスは複数枚の板ガラスの間に間隙を設け乾燥気体を密封して断熱性を高めたガラス。ペアガラスとも呼ばれ結露対策に有効。記述は適当。\n選択肢3：熱線吸収板ガラスは板ガラス組織の中（製造時）に金属成分（鉄やニッケル等）を微量添加したガラスで、長波長の熱線を吸収して冷房負荷を軽減する。「表面に金属皮膜を形成したもの」は熱線反射ガラスの説明。よって誤りで正解は3。\n選択肢4：倍強度ガラスはフロート板ガラスを軟化点まで加熱後、両表面から空気を吹き付けて冷却加工することで表面に圧縮応力を持たせ、同厚さのフロートガラスに比べ約2倍の強度を有する。記述は適当。",
+          "studyContent": "板ガラスの種類：①フロート＝平滑透明、②複層＝中空層で断熱、③熱線吸収＝金属成分を組織内に添加、④熱線反射＝表面に金属皮膜コーティング、⑤倍強度＝熱処理で強度2倍、⑥強化ガラス＝倍強度より圧縮応力大。",
+          "question_vi": "Trong các mô tả về kính tấm xây dựng, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Kính float là kính trong suốt và phẳng được tạo bằng cách nổi trên kim loại nóng chảy.",
+            "Kính nhiều lớp (kính hộp) là kính có hiệu quả cách nhiệt, được tạo bằng cách đặt nhiều tấm kính cách khoảng, lấp khí khô gần áp suất khí quyển và niêm phong xung quanh.",
+            "Kính hấp thụ tia nhiệt (熱線吸収板ガラス) là kính được TẠO LỚP MÀNG KIM LOẠI TRÊN BỀ MẶT kính, có hiệu quả giảm tải làm lạnh cao.",
+            "Kính cường độ gấp đôi (倍強度ガラス) là kính được tăng cường độ khoảng 2 lần bằng cách nung kính float đến điểm mềm rồi phun gió làm nguội cả hai bề mặt."
+          ],
+          "explanation_vi": "Đáp án 1: Float = nổi trên kim loại lỏng. → Đúng.\nĐáp án 2: Kính hộp = nhiều lớp + khí khô. → Đúng.\nĐáp án 3: 熱線吸収板ガラス = THÊM thành phần kim loại VÀO TRONG kính khi sản xuất, KHÔNG phải tạo màng kim loại trên bề mặt (đó là 熱線反射ガラス). → SAI. Đáp án đúng là 3.\nĐáp án 4: 倍強度: nung + làm nguội bằng gió → mạnh gấp 2. → Đúng.",
+          "studyContent_vi": "Kính: float (phẳng), kính hộp (cách nhiệt), 熱線吸収 (thêm kim loại bên trong), 熱線反射 (màng kim loại bề mặt), 倍強度 (mạnh 2 lần), 強化 (mạnh hơn nữa)."
+        },
+        {
+          "label": "Q14",
+          "question": "建築用シーリング材に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "シーリング材のクラスは、目地幅に対する拡大率及び縮小率で区分が設定されている。",
+            "1成分形シーリング材の硬化機構には、湿気硬化、乾燥硬化及び非硬化がある。",
+            "2面接着とは、シーリング材が相対する2面で被着体と接着している状態をいう。",
+            "2成分形シーリング材は、基剤と着色剤の2成分を施工直前に練り混ぜて使用するシーリング材である。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：シーリング材のクラスは目地幅に対する拡大率および縮小率、引張応力や弾性復元性等で区分されている。記述は適当。\n選択肢2：1成分形シーリング材の硬化機構は①湿気硬化型（シリコン、変性シリコン、ポリサルファイド系等）、②乾燥硬化型（アクリル、ブチルゴム系）、③非硬化型（油性系）。記述は適当。\n選択肢3：2面接着はワーキングジョイントでの施工法で、目地を正面から見て左右2面で接着させ、目地底とは接着させない。動きの大きい目地に対応する施工法。3面接着は動きのないノンワーキングジョイント用。記述は適当。\n選択肢4：2成分形シーリング材は基剤と「硬化剤」の2成分を施工直前に練り混ぜて使用するシーリング材であり、化学反応により硬化する。「着色剤」ではなく「硬化剤」。よって誤りで正解は4。",
+          "studyContent": "シーリング材：①クラスは目地幅の拡大率・縮小率等で区分、②1成分形＝湿気硬化／乾燥硬化／非硬化、③2成分形＝基剤＋硬化剤（化学反応で硬化）、④2面接着＝ワーキング、3面接着＝ノンワーキング。",
+          "question_vi": "Trong các mô tả về vật liệu trám (シーリング材) xây dựng, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Cấp (クラス) của vật liệu trám được phân loại theo tỷ lệ giãn nở và co lại đối với chiều rộng joint.",
+            "Cơ chế đóng rắn của vật liệu trám 1 thành phần gồm: khô cứng do ẩm, khô cứng do khô và không đóng rắn.",
+            "Dán 2 mặt nghĩa là trạng thái vật liệu trám dán vào vật bị dán tại 2 mặt đối diện.",
+            "Vật liệu trám 2 thành phần là vật liệu trộn 2 thành phần - chất nền và CHẤT TẠO MÀU - ngay trước khi thi công để sử dụng."
+          ],
+          "explanation_vi": "Đáp án 1: Cấp = tỷ lệ giãn/co. → Đúng.\nĐáp án 2: 1 thành phần: 3 cơ chế (ẩm/khô/không). → Đúng.\nĐáp án 3: 2 mặt = 2 mặt đối diện, không dán đáy. → Đúng.\nĐáp án 4: 2 thành phần = 基剤 + CHẤT ĐÓNG RẮN (硬化剤), KHÔNG phải chất tạo màu. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Vật liệu trám: 1 thành phần (ẩm/khô/không cứng), 2 thành phần (基剤 + 硬化剤). Dán 2 mặt cho joint động (ワーキング), dán 3 mặt cho joint không động."
+        },
+        {
+          "label": "Q15",
+          "question": "内装材料に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "コンポジションビニル床タイルは、単層ビニル床タイルよりバインダー含有率を高くした床タイルである。",
+            "段通は、製造法による分類では、織りカーペットの手織りに分類される。",
+            "ロックウール化粧吸音板は、ロックウールのウールを主材料とし、結合材、混和材を用いて成形し、表面化粧をしたものである。",
+            "強化せっこうボードは、せっこうボードの芯に無機質繊維等を混入したもので、性能項目として耐衝撃性や耐火炎性等が規定されている。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：コンポジションビニル床タイルは単層ビニル床タイル（ホモジニアス）よりバインダー含有率を「低く」した床タイル。コンポジションとホモジニアスの違いはバインダー含有量で、コンポジション＜30%（単層基準）、ホモジニアス≧30%（複層）。よって「高くした」は誤りで正解は1。\n選択肢2：段通は織りカーペットの手織りに分類される（手織り＝段通、機械織り＝ウィルトン）。最高級品の一つ。記述は適当。\n選択肢3：ロックウール化粧吸音板は吸音材であるロックウールを主材料とし、結合材・混和材を用いて成形し表面化粧をしたもの。商品名「ソーラトン」など。不燃材料で内装制限を受けない。記述は適当。\n選択肢4：強化せっこうボードはせっこうボード芯材に無機質繊維等（石綿を除く）を混入し、防火性・耐火性や耐衝撃性を向上させたもの。耐火・準耐火・防火構造材として使用可能。記述は適当。",
+          "studyContent": "内装材料：①コンポジションビニル＜30%（バインダー少）、ホモジニアス≧30%、②段通＝手織りカーペット、③ロックウール化粧吸音板＝不燃材料、④強化せっこうボード＝無機質繊維混入で耐衝撃性・耐火炎性向上。",
+          "question_vi": "Trong các mô tả về vật liệu nội thất, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Gạch vinyl composition (コンポジションビニル床タイル) là gạch sàn có tỷ lệ binder CAO HƠN gạch vinyl đơn lớp (ホモジニアス).",
+            "段通 (thảm dệt tay cao cấp) được phân loại là thảm dệt theo phương pháp dệt tay.",
+            "Tấm hút âm trang trí rockwool (ロックウール化粧吸音板) được tạo bằng rockwool làm vật liệu chính, dùng chất kết dính và chất phụ gia để định hình rồi trang trí bề mặt.",
+            "Tấm thạch cao gia cường (強化せっこうボード) là tấm thạch cao có lõi trộn thêm sợi vô cơ, được quy định các chỉ tiêu hiệu năng như khả năng chịu va đập và chịu lửa."
+          ],
+          "explanation_vi": "Đáp án 1: コンポジション binder <30% (ÍT), ホモジニアス ≥30% (NHIỀU). コンポジション THẤP hơn, không cao. → SAI. Đáp án đúng là 1.\nĐáp án 2: 段通 = dệt tay cao cấp. → Đúng.\nĐáp án 3: ロックウール化粧吸音板. → Đúng.\nĐáp án 4: 強化せっこうボード = trộn sợi vô cơ. → Đúng.",
+          "studyContent_vi": "Nội thất: コンポジション binder <30%, ホモジニアス ≥30%. 段通 dệt tay. ロックウール吸音板 không cháy. 強化せっこうボード thêm sợi vô cơ chịu va đập/cháy."
+        }
+      ]
+    }
+  ]
+}
