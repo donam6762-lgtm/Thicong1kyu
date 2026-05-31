@@ -1,0 +1,421 @@
+{
+  "topics": [
+    {
+      "path": "06_法規 / 労働安全衛生法",
+      "vocabulary": [
+        "作業主任者 (さぎょうしゅにんしゃ) - người chủ trì công việc",
+        "鉄骨の組立て等作業主任者 (てっこつのくみたてとうさぎょうしゅにんしゃ) - chủ trì lắp dựng kết cấu thép",
+        "有機溶剤作業主任者 (ゆうきようざいさぎょうしゅにんしゃ) - chủ trì công việc dung môi hữu cơ",
+        "土止め支保工作業主任者 (つちどめしほこうさぎょうしゅにんしゃ) - chủ trì chống đất / chống vách",
+        "足場の組立て等作業主任者 (あしばのくみたてとうさぎょうしゅにんしゃ) - chủ trì lắp dựng giàn giáo",
+        "要求性能墜落制止用器具 (ようきゅうせいのうついらくせいしようきぐ) - thiết bị chống rơi đạt yêu cầu (tên mới của 安全帯/dây an toàn từ 2022/01/02)",
+        "保護帽 (ほごぼう) - mũ bảo hộ",
+        "特定元方事業者 (とくていもとかたじぎょうしゃ) - chủ thầu chính đặc định",
+        "関係請負人 (かんけいうけおいにん) - các nhà thầu liên quan",
+        "協議組織 (きょうぎそしき) - tổ chức hiệp thương",
+        "つり足場 (つりあしば) - giàn giáo treo",
+        "巡視 (じゅんし) - tuần tra"
+      ],
+      "questions": [
+        {
+          "label": "Q51",
+          "question": "作業主任者の職務として、「労働安全衛生法」上、定められていないものはどれか。",
+          "choices": [
+            "建築物等の鉄骨の組立て等作業主任者は、器具、工具、要求性能墜落制止用器具等及び保護帽の機能を点検し、不良品を取り除くこと。",
+            "有機溶剤作業主任者は、作業に従事する労働者が有機溶剤により汚染され、又はこれを吸入しないように、作業の方法を決定し、労働者を指揮すること。",
+            "土止め支保工作業主任者は、要求性能墜落制止用器具等及び保護帽の使用状況を監視すること。",
+            "足場の組立て等作業主任者は、組立ての時期、範囲及び順序を当該作業に従事する労働者に周知させること。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：鉄骨の組立て等作業主任者は、器具・工具・要求性能墜落制止用器具・保護帽の機能を点検し、不良品を取り除く。記述は適当。\n選択肢2：有機溶剤作業主任者は、労働者が有機溶剤により汚染・吸入しないよう、作業方法を決定し労働者を指揮する。記述は適当。\n選択肢3：土止め支保工作業主任者は、要求性能墜落制止用器具及び保護帽の使用状況を監視する。記述は適当。\n選択肢4：足場の組立て等作業主任者の職務は①材料の欠点点検と不良品除去 ②器具・工具・要求性能墜落制止用器具・保護帽の機能点検と不良品除去 ③作業方法及び労働者配置の決定と作業進行状況監視 ④要求性能墜落制止用器具・保護帽の使用状況監視。組立ての時期・範囲・順序の周知は事業者の責務であり、作業主任者の職務には含まれない。よって正解は4。なお安衛令の改正（2022年1月2日施行）により「安全帯」の名称が「要求性能墜落制止用器具」に改められた。",
+          "studyContent": "作業主任者ごとの職務を整理して暗記する。足場の組立て等作業主任者は「材料・器具点検」「作業方法と労働者配置決定」「使用状況監視」が中心であり、組立ての時期・範囲・順序の周知は事業者責務。安全帯は法改正で「要求性能墜落制止用器具」に改名。",
+          "question_vi": "Trong các mô tả về nhiệm vụ của người chủ trì công việc, mô tả nào KHÔNG được quy định theo Luật An toàn vệ sinh lao động?",
+          "choices_vi": [
+            "Người chủ trì lắp dựng kết cấu thép công trình kiểm tra chức năng của dụng cụ, đồ nghề, thiết bị chống rơi đạt yêu cầu và mũ bảo hộ, loại bỏ vật bị lỗi.",
+            "Người chủ trì công việc dung môi hữu cơ quyết định phương pháp làm việc và chỉ huy người lao động, sao cho người lao động không bị nhiễm hoặc hít phải dung môi hữu cơ.",
+            "Người chủ trì công việc chống đất giám sát tình trạng sử dụng thiết bị chống rơi đạt yêu cầu và mũ bảo hộ.",
+            "Người chủ trì lắp dựng giàn giáo thông báo cho người lao động về thời điểm, phạm vi và trình tự lắp dựng."
+          ],
+          "explanation_vi": "Đáp án 1: Người chủ trì lắp dựng thép kiểm tra dụng cụ/thiết bị an toàn. → Đúng.\nĐáp án 2: Chủ trì dung môi hữu cơ quyết định phương pháp và chỉ huy. → Đúng.\nĐáp án 3: Chủ trì 土止め支保工 giám sát sử dụng thiết bị bảo hộ. → Đúng.\nĐáp án 4: Nhiệm vụ của chủ trì lắp giàn giáo gồm: ① kiểm tra vật liệu loại bỏ lỗi ② kiểm tra chức năng dụng cụ/thiết bị bảo hộ ③ quyết định phương pháp & bố trí + giám sát tiến độ ④ giám sát sử dụng thiết bị bảo hộ. Việc THÔNG BÁO thời điểm/phạm vi/trình tự lắp dựng là TRÁCH NHIỆM của CHỦ DOANH NGHIỆP, KHÔNG phải của chủ trì. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Phân biệt nhiệm vụ từng loại 作業主任者. 足場の組立て等作業主任者: kiểm tra vật liệu & dụng cụ, quyết định phương pháp & bố trí, giám sát sử dụng thiết bị bảo hộ. Việc thông báo lịch trình lắp dựng là của chủ doanh nghiệp. Lưu ý: \"安全帯\" đã đổi tên thành \"要求性能墜落制止用器具\" từ 2022/01/02."
+        }
+      ]
+    },
+    {
+      "path": "05_施工管理法 / 安全管理",
+      "vocabulary": [
+        "枠組足場 (わくぐみあしば) - giàn giáo khung",
+        "踊場 (おどりば) - chiếu nghỉ",
+        "作業床 (さぎょうゆか) - sàn công tác",
+        "床材 (ゆかざい) - vật liệu sàn",
+        "建地 (たてじ) - cột đứng giàn giáo",
+        "単管足場 (たんかんあしば) - giàn giáo ống đơn",
+        "壁つなぎ (かべつなぎ) - liên kết neo vào tường",
+        "脚立 (きゃたつ) - thang chữ A",
+        "踏さん (ふみさん) - bậc thang",
+        "足場板 (あしばいた) - ván giàn giáo"
+      ],
+      "questions": [
+        {
+          "label": "Q52",
+          "question": "足場に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "枠組足場に設ける高さ8m以上の階段には、7m以内ごとに踊場を設けた。",
+            "作業床は、つり足場の場合を除き、床材間の隙間は3cm以下、床材と建地の隙間は12cm未満とした。",
+            "単管足場の壁つなぎの間隔は、垂直方向5.5m以下、水平方向5m以下とした。",
+            "脚立を使用した足場における足場板は、踏さん上で重ね、その重ね長さを20cm以上とした。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：枠組足場の高さ8m以上の階段には7m以内ごとに踊場を設ける（最下段まで転落を防ぐため）。記述は適当。\n選択肢2：作業床は、つり足場の場合を除き、床材間の隙間は3cm以下、床材と建地の隙間は12cm未満とする。記述は適当。\n選択肢3：単管足場の壁つなぎの間隔は、垂直方向5m以下、水平方向5.5m以下とする必要がある。垂直・水平が逆で誤り。よって正解は3。なお枠組足場（高さ5m未満を除く）の壁つなぎは垂直方向9m以下・水平方向8m以下。\n選択肢4：脚立を使用した足場における足場板は、踏さん上で重ね、重ね長さを20cm以上とする。記述は適当。",
+          "studyContent": "足場の数値暗記：枠組足場の階段＝高さ8m以上で7m以内に踊場、作業床の隙間＝3cm以下／建地との隙間＝12cm未満、単管足場壁つなぎ＝垂直5m以下・水平5.5m以下、枠組足場壁つなぎ＝垂直9m以下・水平8m以下、脚立足場の足場板重ね長さ＝20cm以上。",
+          "question_vi": "Trong các mô tả về giàn giáo, mô tả nào KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Cầu thang cao trên 8m trong giàn giáo khung đã bố trí chiếu nghỉ mỗi 7m.",
+            "Sàn công tác (trừ giàn giáo treo): khe hở giữa các tấm sàn ≤ 3cm, khe hở giữa tấm sàn và cột đứng < 12cm.",
+            "Khoảng cách neo tường của giàn giáo ống đơn là phương đứng ≤ 5.5m, phương ngang ≤ 5m.",
+            "Trong giàn giáo dùng thang chữ A, ván giàn giáo được nối chồng trên bậc thang, độ chồng ≥ 20cm."
+          ],
+          "explanation_vi": "Đáp án 1: Chiếu nghỉ mỗi 7m cho cầu thang ≥ 8m. → Đúng.\nĐáp án 2: Khe sàn ≤ 3cm, sàn-cột < 12cm. → Đúng.\nĐáp án 3: Giàn giáo ống đơn neo tường: ĐỨNG ≤ 5m, NGANG ≤ 5.5m (đề bài ghi ngược). → SAI. Đáp án đúng là 3. (Giàn giáo khung: đứng ≤ 9m, ngang ≤ 8m).\nĐáp án 4: Chồng ván giàn giáo 20cm trên bậc thang chữ A. → Đúng.",
+          "studyContent_vi": "Cần nhớ: cầu thang ≥ 8m → chiếu nghỉ mỗi 7m. Khe sàn ≤ 3cm, sàn-cột < 12cm. Neo tường ống đơn: đứng 5m / ngang 5.5m. Neo tường khung: đứng 9m / ngang 8m. Chồng ván ≥ 20cm."
+        },
+        {
+          "label": "Q53",
+          "question": "事業者又は特定元方事業者の講ずべき措置に関する記述として、「労働安全衛生法」上、誤っているものはどれか。",
+          "choices": [
+            "特定元方事業者は、特定元方事業者及びすべての関係請負人が参加する協議組織を設置し、会議を定期的に開催しなければならない。",
+            "事業者は、つり足場における作業を行うときは、その日の作業を開始する前に、脚部の沈下及び滑動の状態について点検を行わなければならない。",
+            "事業者は、高さが2m以上の箇所で作業を行う場合、作業に従事する労働者が墜落するおそれのあるときは、作業床を設けなければならない。",
+            "特定元方事業者は、作業場所の巡視を、毎作業日に少なくとも1回行わなければならない。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：特定元方事業者は、特定元方事業者及びすべての関係請負人が参加する協議組織を設置し、会議を定期的に開催しなければならない。記述は適当。\n選択肢2：つり足場は上部から吊材で支持し地上から浮いているため、脚部は存在しない。よって脚部の沈下及び滑動の状態の点検は不要であり誤り。正解は2。なお、つり足場で点検義務があるのは、錆や変形・伸びや曲がり等の状態。一般の足場では作業開始前に脚部の沈下・滑動状態を点検する。\n選択肢3：高さが2m以上の箇所で作業を行う場合、墜落おそれのあるときは作業床を設けなければならない。記述は適当。\n選択肢4：特定元方事業者は、作業場所の巡視を毎作業日に少なくとも1回行わなければならない。記述は適当。",
+          "studyContent": "つり足場は脚部なし→沈下・滑動の点検対象外、代わりに錆・変形・伸び・曲がりを点検。高所作業＝2m以上で作業床要。特定元方事業者は協議組織設置・定期会議・毎作業日1回以上巡視が義務。",
+          "question_vi": "Trong các mô tả về biện pháp phải thực hiện bởi chủ doanh nghiệp hoặc chủ thầu chính đặc định, mô tả nào SAI theo Luật An toàn vệ sinh lao động?",
+          "choices_vi": [
+            "Chủ thầu chính đặc định phải lập tổ chức hiệp thương có sự tham gia của chủ thầu chính đặc định và tất cả các nhà thầu liên quan, định kỳ tổ chức cuộc họp.",
+            "Khi thi công trên giàn giáo treo, chủ doanh nghiệp phải kiểm tra tình trạng lún và trượt của phần chân trước khi bắt đầu công việc trong ngày.",
+            "Khi thi công ở độ cao từ 2m trở lên và có nguy cơ người lao động rơi xuống, chủ doanh nghiệp phải bố trí sàn công tác.",
+            "Chủ thầu chính đặc định phải tuần tra nơi làm việc ít nhất 1 lần mỗi ngày làm việc."
+          ],
+          "explanation_vi": "Đáp án 1: Tổ chức hiệp thương + họp định kỳ. → Đúng.\nĐáp án 2: Giàn giáo TREO được TREO từ trên cao, KHÔNG có phần chân, do đó không có việc kiểm tra lún/trượt của chân. Đối với giàn giáo treo cần kiểm tra rỉ, biến dạng, giãn, cong. → SAI. Đáp án đúng là 2.\nĐáp án 3: ≥ 2m + có nguy cơ rơi → bố trí sàn công tác. → Đúng.\nĐáp án 4: Tuần tra ≥ 1 lần/ngày. → Đúng.",
+          "studyContent_vi": "Giàn giáo treo: không có chân nên không kiểm tra lún/trượt, chỉ kiểm tra rỉ, biến dạng, giãn, cong. Cao ≥ 2m + nguy cơ rơi → cần sàn công tác. Chủ thầu chính đặc định: lập tổ chức hiệp thương + họp + tuần tra ≥1 lần/ngày."
+        },
+        {
+          "label": "Q54",
+          "question": "クレーンに関する記述として、「クレーン等安全規則」上、誤っているものはどれか。",
+          "choices": [
+            "つり上げ荷重が0.5t以上のクレーンの玉掛用具として使用するワイヤロープは、安全係数が6以上のものを使用した。",
+            "つり上げ荷重が3t以上の移動式クレーンを用いて作業を行うため、当該クレーンに、その移動式クレーン検査証を備え付けた。",
+            "設置しているクレーンについて、その使用を廃止したため、遅滞なくクレーン検査証を所轄労働基準監督署長に返還した。",
+            "移動式クレーンの運転についての合図の方法は、事業者に指名された合図を行う者が定めた。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：つり上げ荷重0.5t以上のクレーンの玉掛用具に使用するワイヤロープは、安全係数6以上のものを使用する。記述は適当。\n選択肢2：つり上げ荷重3t以上の移動式クレーンを用いて作業を行うため、当該クレーンに移動式クレーン検査証を備え付ける。記述は適当。\n選択肢3：クレーンの使用を廃止した場合は、遅滞なくクレーン検査証を所轄労働基準監督署長に返還する。記述は適当。\n選択肢4：移動式クレーンの運転についての合図の方法は、事業者が定めなければならない。「事業者に指名された合図を行う者」が定めるのではないため誤り。よって正解は4。なお、運転者に単独で作業を行わせるときはこの限りではない。",
+          "studyContent": "クレーン等安全規則の重要数値：玉掛ワイヤロープ安全係数6以上（つり上げ0.5t以上）、3t以上移動式クレーンは検査証備え付け、廃止時は遅滞なく労基署長へ返還、合図方法は事業者が定める。",
+          "question_vi": "Trong các mô tả về cẩu, mô tả nào SAI theo \"Quy tắc an toàn cẩu\"?",
+          "choices_vi": [
+            "Cáp thép dùng làm dụng cụ móc cẩu (玉掛) cho cẩu có tải trọng nâng ≥ 0.5t đã sử dụng loại có hệ số an toàn ≥ 6.",
+            "Để thi công bằng cẩu di động có tải trọng nâng ≥ 3t, đã trang bị giấy chứng nhận kiểm định cẩu di động trên cẩu đó.",
+            "Khi ngừng sử dụng cẩu đã lắp đặt, đã trả lại giấy chứng nhận kiểm định cho trưởng cơ quan giám sát lao động quản hạt mà không chậm trễ.",
+            "Phương pháp ra hiệu khi vận hành cẩu di động được người ra hiệu (do chủ doanh nghiệp chỉ định) quyết định."
+          ],
+          "explanation_vi": "Đáp án 1: Cáp móc cẩu ≥ 0.5t: hệ số an toàn ≥ 6. → Đúng.\nĐáp án 2: Cẩu di động ≥ 3t: mang giấy chứng nhận kiểm định. → Đúng.\nĐáp án 3: Ngừng sử dụng → trả giấy cho cơ quan giám sát lao động. → Đúng.\nĐáp án 4: Phương pháp ra hiệu phải do CHỦ DOANH NGHIỆP (事業者) quyết định, KHÔNG phải do người ra hiệu quyết định. → SAI. Đáp án đúng là 4. (Trừ trường hợp người vận hành làm việc một mình).",
+          "studyContent_vi": "Cẩu: cáp móc cẩu ≥ 0.5t hệ số an toàn ≥6. Cẩu di động ≥3t mang giấy kiểm định. Ngừng dùng → trả giấy cho 労基署長 không chậm trễ. Phương pháp ra hiệu do CHỦ DOANH NGHIỆP quy định."
+        }
+      ]
+    },
+    {
+      "path": "07_応用能力 / 鉄筋工事",
+      "vocabulary": [
+        "異形鉄筋 (いけいてっきん) - thép cốt có gờ",
+        "あき寸法 (あきすんぽう) - khoảng hở giữa các thanh thép",
+        "粗骨材 (そこつざい) - cốt liệu thô",
+        "内法直径 (うちのりちょっけい) - đường kính lọt lòng (uốn thép)",
+        "折曲げ加工 (おりまげかこう) - gia công uốn",
+        "あばら筋 (あばらきん) - thép đai dầm (stirrup)",
+        "帯筋 (おびきん) - thép đai cột (hoop)",
+        "フック - móc",
+        "余長 (よちょう) - chiều dài dư của móc",
+        "重ね継手 (かさねつぎて) - mối nối chồng",
+        "水平打継ぎ (すいへいうちつぎ) - mối nối đổ bê tông theo phương ngang"
+      ],
+      "questions": [
+        {
+          "label": "Q55",
+          "question": "鉄筋の加工及び組立てに関する記述として、不適当なものを2つ選べ。ただし、鉄筋は異形鉄筋とし、dは呼び名の数値とする。",
+          "choices": [
+            "D16の鉄筋相互のあき寸法の最小値は、粗骨材の最大寸法が20mmのため、25mmとした。",
+            "D25の鉄筋を90°折曲げ加工する場合の内法直径は、3dとした。",
+            "梁せいが2mの基礎梁を梁断面内でコンクリートの水平打継ぎとするため、上下に分割したあばら筋の継手は、180°フック付きの重ね継手とした。",
+            "末端部の折曲げ角度が135°の帯筋のフックの余長は、4dとした。",
+            "あばら筋の加工において、一辺の寸法の許容差は、±5mmとした。"
+          ],
+          "answer": "2,4",
+          "explanation": "選択肢1：鉄筋相互のあき寸法の最小値は、①鉄筋径×1.5（24mm）、②粗骨材最大寸法×1.25（25mm）、③25mmの最大値。本問では25mmとなり適当。\n選択肢2：D25の鉄筋を90°折曲げ加工する場合の内法直径は4d以上が必要。3dは誤り。\n選択肢3：基礎梁断面内で水平打継ぎとするため、上下に分割したあばら筋の継手を180°フック付き重ね継手とするのは適当。\n選択肢4：末端部折曲げ角度135°の帯筋のフック余長は6d必要。4dは誤り（90°の場合は8d、180°の場合は4d）。\n選択肢5：あばら筋の加工において、一辺の寸法の許容差は±5mm。記述は適当。\nよって不適当なものは2と4。",
+          "studyContent": "鉄筋のあき寸法＝鉄筋径×1.5、粗骨材最大寸法×1.25、25mmの最大値。折曲げ内法直径：D16以下は3d以上、D19～D25は4d以上、D29～D41は5d以上。フック余長：135°→6d、90°→8d、180°→4d。あばら筋・帯筋加工許容差：±5mm。",
+          "question_vi": "Trong các mô tả về gia công và lắp ráp thép cốt sau đây, chọn 2 mô tả KHÔNG phù hợp. Thép là thép có gờ và d là giá trị tên gọi.",
+          "choices_vi": [
+            "Khoảng hở tối thiểu giữa các thanh D16 được lấy 25mm vì cốt liệu thô có kích thước tối đa 20mm.",
+            "Đường kính lọt lòng khi uốn 90° thép D25 được lấy là 3d.",
+            "Dầm móng cao 2m, để đổ bê tông theo mối nối ngang trong tiết diện dầm, mối nối thép đai dầm trên-dưới được làm dạng nối chồng có móc 180°.",
+            "Chiều dài dư của móc 135° trên thép đai cột được lấy là 4d.",
+            "Trong gia công thép đai dầm, dung sai một cạnh là ±5mm."
+          ],
+          "explanation_vi": "Đáp án 1: Khoảng hở = max(d×1.5=24, cốt liệu×1.25=25, 25) = 25mm. → Đúng.\nĐáp án 2: D25 uốn 90°: đường kính lọt lòng ≥ 4d. 3d → SAI.\nĐáp án 3: Nối chồng 180° hook cho thép đai dầm tại mối nối ngang. → Đúng.\nĐáp án 4: Móc 135°: chiều dài dư ≥ 6d. 4d → SAI. (Móc 90° → 8d, móc 180° → 4d).\nĐáp án 5: Dung sai một cạnh ±5mm. → Đúng.\nVậy 2 đáp án KHÔNG phù hợp là 2 và 4.",
+          "studyContent_vi": "Khoảng hở thép = max(d×1.5, cốt liệu×1.25, 25mm). Đường kính lọt lòng uốn: D16↓ ≥ 3d; D19-D25 ≥ 4d; D29-D41 ≥ 5d. Chiều dài dư móc: 135°→6d, 90°→8d, 180°→4d. Dung sai thép đai: ±5mm."
+        }
+      ]
+    },
+    {
+      "path": "07_応用能力 / コンクリート工事",
+      "vocabulary": [
+        "普通コンクリート (ふつうコンクリート) - bê tông thường",
+        "調合 (ちょうごう) - cấp phối",
+        "粗骨材 (そこつざい) - cốt liệu thô",
+        "ワーカビリティー - tính dễ thi công",
+        "AE剤 (AEざい) - phụ gia tạo khí AE",
+        "AE減水剤 (AEげんすいざい) - phụ gia giảm nước AE",
+        "高性能AE減水剤 (こうせいのうAEげんすいざい) - phụ gia giảm nước AE cao cấp",
+        "空気量 (くうきりょう) - lượng khí",
+        "アルカリシリカ反応 (アルカリシリカはんのう) - phản ứng kiềm-silica",
+        "アルカリ総量 (アルカリそうりょう) - tổng lượng kiềm",
+        "調合管理強度 (ちょうごうかんりきょうど) - cường độ quản lý cấp phối",
+        "品質基準強度 (ひんしつきじゅんきょうど) - cường độ tiêu chuẩn chất lượng",
+        "構造体強度補正値 (こうぞうたいきょうどほせいち) - giá trị hiệu chỉnh cường độ kết cấu",
+        "スランプ - độ sụt"
+      ],
+      "questions": [
+        {
+          "label": "Q56",
+          "question": "普通コンクリートの調合に関する記述として、不適当なものを2つ選べ。",
+          "choices": [
+            "粗骨材は、偏平なものを用いるほうが、球形に近い骨材を用いるよりもワーカビリティーがよい。",
+            "AE剤、AE減水剤又は高性能AE減水剤を用いる場合、調合を定める際の空気量を4.5％とする。",
+            "アルカリシリカ反応性試験で無害でないものと判定された骨材であっても、コンクリート中のアルカリ総量を3.0kg／m3以下とすれば使用することができる。",
+            "調合管理強度は、品質基準強度に構造体強度補正値を加えたものである。",
+            "調合管理強度が21N／mm2のスランプは、一般に21cmとする。"
+          ],
+          "answer": "1,5",
+          "explanation": "選択肢1：粗骨材は、偏平・細長なものや角立ったものを用いるとワーカビリティーが悪くなる。球形に近い骨材を用いる方がワーカビリティーがよいため誤り。\n選択肢2：AE剤・AE減水剤・高性能AE減水剤を用いる場合、調合を定める際の空気量は4.5％とする。記述は適当。\n選択肢3：アルカリシリカ反応性試験で無害でないと判定された骨材も、コンクリート中のアルカリ総量を3.0kg/m³以下とすれば使用可。記述は適当。\n選択肢4：調合管理強度＝品質基準強度＋構造体強度補正値。記述は適当。\n選択肢5：調合管理強度21N/mm²のスランプは一般に18cmとする（8, 10, 12, 15, 18cmの範囲）。21cmは33N/mm²以上で用いられるため誤り。\nよって不適当なものは1と5。",
+          "studyContent": "粗骨材：球形に近いほどワーカビリティーが良い。空気量：AE剤類使用時4.5％。アルカリ総量：3.0kg/m³以下なら反応性骨材使用可。調合管理強度＝品質基準強度＋構造体強度補正値。スランプ：21N/mm²→18cm、33N/mm²以上→21cm。",
+          "question_vi": "Trong các mô tả về cấp phối bê tông thường sau đây, chọn 2 mô tả KHÔNG phù hợp.",
+          "choices_vi": [
+            "Cốt liệu thô dạng dẹt có tính dễ thi công tốt hơn so với cốt liệu hình cầu.",
+            "Khi sử dụng phụ gia AE, AE減水剤 hoặc 高性能AE減水剤, lượng khí khi xác định cấp phối lấy là 4.5%.",
+            "Ngay cả khi cốt liệu bị đánh giá KHÔNG vô hại trong thử nghiệm phản ứng kiềm-silica, vẫn có thể sử dụng nếu tổng lượng kiềm trong bê tông ≤ 3.0kg/m³.",
+            "Cường độ quản lý cấp phối = cường độ tiêu chuẩn chất lượng + giá trị hiệu chỉnh cường độ kết cấu.",
+            "Độ sụt của bê tông có cường độ quản lý cấp phối 21N/mm² thường lấy là 21cm."
+          ],
+          "explanation_vi": "Đáp án 1: Cốt liệu DẸT/góc cạnh LÀM GIẢM tính dễ thi công. Cốt liệu CẦU TRÒN mới tốt hơn. → SAI.\nĐáp án 2: Khí 4.5% khi dùng AE. → Đúng.\nĐáp án 3: Tổng kiềm ≤ 3.0kg/m³ cho phép dùng cốt liệu không vô hại. → Đúng.\nĐáp án 4: 調合管理強度 = 品質基準強度 + 構造体強度補正値. → Đúng.\nĐáp án 5: 21N/mm² → độ sụt thường 18cm (8, 10, 12, 15, 18cm). 21cm dành cho ≥ 33N/mm². → SAI.\nVậy 2 đáp án KHÔNG phù hợp là 1 và 5.",
+          "studyContent_vi": "Cốt liệu càng tròn → tính dễ thi công càng tốt. AE → khí 4.5%. Tổng kiềm ≤ 3.0kg/m³ cho phép dùng cốt liệu phản ứng. 調合管理強度 = 品質基準強度 + 構造体強度補正値. Độ sụt: 21N/mm² → 18cm; ≥33N/mm² → 21cm."
+        }
+      ]
+    },
+    {
+      "path": "07_応用能力 / 鉄骨工事",
+      "vocabulary": [
+        "溶接 (ようせつ) - hàn",
+        "表面割れ (ひょうめんわれ) - vết nứt bề mặt",
+        "斫り取り (はつりとり) - đục bỏ",
+        "補修溶接 (ほしゅうようせつ) - hàn sửa chữa",
+        "裏当て金 (うらあてがね) - tấm lót sau",
+        "母材 (ぼざい) - vật liệu nền",
+        "突合せ継手 (つきあわせつぎて) - mối nối đối đầu",
+        "食い違いの許容差 (くいちがいのきょようさ) - dung sai lệch mặt",
+        "被覆アーク溶接 (ひふくアークようせつ) - hàn hồ quang có vỏ bọc",
+        "低水素系溶接棒 (ていすいそけいようせつぼう) - que hàn loại ít hydro"
+      ],
+      "questions": [
+        {
+          "label": "Q57",
+          "question": "鉄骨の溶接に関する記述として、不適当なものを2つ選べ。",
+          "choices": [
+            "溶接部の表面割れは、割れの範囲を確認した上で、その両端から50mm以上溶接部を斫り取り、補修溶接した。",
+            "裏当て金は、母材と同等の鋼種の平鋼を用いた。",
+            "溶接接合の突合せ継手の食い違いの許容差は、鋼材の厚みにかかわらず同じ値とした。",
+            "490N／mm2級の鋼材の組立て溶接を被覆アーク溶接で行うため、低水素系溶接棒を使用した。",
+            "溶接作業場所の気温が−5℃を下回っていたため、溶接部より100mmの範囲の母材部分を加熱して作業を行った。"
+          ],
+          "answer": "3,5",
+          "explanation": "選択肢1：溶接部の表面割れは、割れの範囲を確認した上で、その両端から50mm以上溶接部を斫り取り、補修溶接する。記述は適当。\n選択肢2：裏当て金は、母材と同等の鋼種の平鋼を用いる。記述は適当。\n選択肢3：溶接接合の突合せ継手の食い違いの許容差は、鋼材の厚みによって変化する（厚さ15mm以下：管理許容差e≦1mm、限界許容差e≦1.5mm）。鋼材の厚みにかかわらず同じ値とするのは誤り。\n選択肢4：490N/mm²級の鋼材の組立て溶接を被覆アーク溶接で行うため、低水素系溶接棒を使用する。記述は適当。\n選択肢5：溶接作業場所の気温が-5℃を下回る場合は、溶接を行ってはならない（割れ発生のおそれ）。-5℃から5℃の場合は溶接部より100mmの範囲の母材部分を加熱して作業を行う。設問では-5℃を「下回っている」とあるため誤り。\nよって不適当なものは3と5。",
+          "studyContent": "溶接の重要事項：表面割れ補修は両端から50mm以上斫り取り→補修溶接。裏当て金は母材と同等鋼種の平鋼。突合せ継手食い違い許容差は板厚で変化（15mm以下：管理±1mm/限界±1.5mm）。490N級は低水素系溶接棒。気温：-5℃未満→溶接禁止、-5℃～5℃→母材100mm範囲加熱、5℃以上→通常。",
+          "question_vi": "Trong các mô tả về hàn kết cấu thép sau đây, chọn 2 mô tả KHÔNG phù hợp.",
+          "choices_vi": [
+            "Vết nứt bề mặt mối hàn được kiểm tra phạm vi, đục bỏ mối hàn từ hai đầu vết nứt ≥ 50mm rồi hàn sửa.",
+            "Tấm lót sau (裏当て金) sử dụng thép dẹt cùng chủng loại với vật liệu nền.",
+            "Dung sai lệch mặt của mối nối đối đầu được lấy cùng một giá trị bất kể độ dày thép.",
+            "Hàn lắp ráp thép cấp 490N/mm² bằng hàn hồ quang có vỏ bọc đã sử dụng que hàn loại ít hydro.",
+            "Nhiệt độ nơi hàn xuống dưới -5℃ nên đã làm nóng phần vật liệu nền trong phạm vi 100mm từ mối hàn rồi thi công."
+          ],
+          "explanation_vi": "Đáp án 1: Đục ≥ 50mm từ hai đầu + hàn sửa. → Đúng.\nĐáp án 2: 裏当て金 cùng chủng thép với母材. → Đúng.\nĐáp án 3: Dung sai lệch mặt THAY ĐỔI theo độ dày thép (≤15mm: ±1mm/±1.5mm). KHÔNG cùng giá trị. → SAI.\nĐáp án 4: Thép 490N + hàn vỏ bọc + que ít hydro. → Đúng.\nĐáp án 5: Khi nhiệt độ DƯỚI -5℃ thì PHẢI NGỪNG HÀN. -5℃~5℃ mới được làm nóng母材 100mm để hàn. → SAI.\nVậy 2 đáp án KHÔNG phù hợp là 3 và 5.",
+          "studyContent_vi": "Hàn: sửa vết nứt đục ≥50mm hai đầu. 裏当て金 cùng chủng. Dung sai lệch mặt khác nhau theo độ dày (≤15mm: ±1/±1.5mm). 490N → que ít hydro. Nhiệt độ: < -5℃ CẤM hàn; -5℃~5℃ làm nóng母材 100mm; >5℃ thường."
+        }
+      ]
+    },
+    {
+      "path": "07_応用能力 / シーリング工事",
+      "vocabulary": [
+        "シーリング材 (シーリングざい) - vật liệu sealant",
+        "ボンドブレーカー - băng cách ly",
+        "シリコーン系 (シリコーンけい) - hệ silicone",
+        "ポリスチレンテープ - băng polystyrene",
+        "異種シーリング材 (いしゅシーリングざい) - sealant khác loại",
+        "ポリサルファイド系 - hệ polysulfide",
+        "変成シリコーン系 (へんせいシリコーンけい) - hệ silicone biến tính",
+        "ワーキングジョイント - khe co giãn (working joint)",
+        "バックアップ材 (バックアップざい) - vật liệu chèn lót",
+        "目地幅 (めじはば) - chiều rộng khe",
+        "目地深さ (めじふかさ) - chiều sâu khe",
+        "そぎ継ぎ (そぎつぎ) - mối nối vạt chéo"
+      ],
+      "questions": [
+        {
+          "label": "Q58",
+          "question": "シーリング工事に関する記述として、不適当なものを2つ選べ。",
+          "choices": [
+            "ボンドブレーカーは、シリコーン系シーリング材を充填するため、シリコーンコーティングされたテープを用いた。",
+            "異種シーリング材を打ち継ぐ際、先打ちしたポリサルファイド系シーリング材の硬化後に、変成シリコーン系シーリング材を後打ちした。",
+            "ワーキングジョイントに装填する丸形のバックアップ材は、目地幅より20％大きい直径のものとした。",
+            "ワーキングジョイントの目地幅が20mmであったため、目地深さは12mmとした。",
+            "シーリング材の充填は、目地の交差部から始め、打継ぎ位置も交差部とした。"
+          ],
+          "answer": "1,5",
+          "explanation": "選択肢1：シリコーン系シーリング材を充填する場合のボンドブレーカーには、ポリスチレンテープのボンドブレーカーを用いる。シリコーンコーティングされたテープは同種のため接着してしまい誤り。\n選択肢2：異種シーリング材を打ち継ぐ際は、先打ちしたポリサルファイド系の硬化後に変成シリコーン系を後打ちする。記述は適当。\n選択肢3：ワーキングジョイントに装填する丸形のバックアップ材は、目地幅より20％大きい直径のものを用いる（クッション性で押しつぶしながら挿入）。記述は適当。\n選択肢4：ワーキングジョイントの目地幅20mmに対し目地深さ12mmは適当。\n選択肢5：シーリング材の充填は、原則として目地の交差部又は角部から始める。ただし打継ぎは交差部や角部を避け、そぎ継ぎとする必要がある。設問は打継ぎ位置も交差部としているため誤り。\nよって不適当なものは1と5。",
+          "studyContent": "ボンドブレーカー：シリコーン系シーリングにはポリスチレンテープを用いる（同種接着回避）。異種打継ぎ：先打ち硬化後に後打ち。バックアップ材：目地幅×1.2の直径。シーリング充填：交差部・角部から始めるが、打継ぎは交差部・角部を避けてそぎ継ぎ。",
+          "question_vi": "Trong các mô tả về thi công sealant sau đây, chọn 2 mô tả KHÔNG phù hợp.",
+          "choices_vi": [
+            "Băng cách ly (ボンドブレーカー) sử dụng băng phủ silicone do trám sealant hệ silicone.",
+            "Khi nối hai loại sealant khác nhau, sau khi sealant hệ polysulfide đổ trước đông cứng, đã đổ sau sealant hệ silicone biến tính.",
+            "Vật liệu chèn lót dạng tròn cho khe co giãn (ワーキングジョイント) sử dụng đường kính lớn hơn chiều rộng khe 20%.",
+            "Khe co giãn rộng 20mm thì chiều sâu khe lấy là 12mm.",
+            "Trám sealant bắt đầu từ giao điểm của khe, vị trí mối nối tiếp cũng đặt tại giao điểm."
+          ],
+          "explanation_vi": "Đáp án 1: Sealant silicone phải dùng băng POLYSTYRENE, KHÔNG dùng băng phủ silicone (vì cùng loại sẽ dính). → SAI.\nĐáp án 2: Nối khác loại: chờ polysulfide đông rồi đổ silicone biến tính. → Đúng.\nĐáp án 3: Lót tròn lớn hơn khe 20%. → Đúng.\nĐáp án 4: Khe 20mm → sâu 12mm. → Đúng.\nĐáp án 5: Bắt đầu trám từ giao điểm/góc OK, nhưng mối nối tiếp PHẢI TRÁNH giao điểm/góc, dùng そぎ継ぎ (mối nối vạt chéo). → SAI.\nVậy 2 đáp án KHÔNG phù hợp là 1 và 5.",
+          "studyContent_vi": "ボンドブレーカー: silicone → băng polystyrene (tránh cùng loại). Nối khác loại: chờ lớp trước đông. Lót tròn = khe × 1.2. Trám bắt đầu từ giao/góc nhưng mối nối tiếp TRÁNH giao/góc, dùng そぎ継ぎ vạt chéo."
+        }
+      ]
+    },
+    {
+      "path": "07_応用能力 / 内装工事",
+      "vocabulary": [
+        "ビニル床シート (ビニルゆかシート) - tấm sàn vinyl",
+        "張付け (はりつけ) - dán",
+        "採暖 (さいだん) - sưởi ấm",
+        "巻きぐせ (まきぐせ) - vết quăn do cuộn",
+        "気泡 (きほう) - bọt khí",
+        "ローラー圧着 (ローラーあっちゃく) - ép bằng con lăn",
+        "熱溶接工法 (ねつようせつこうほう) - phương pháp hàn nhiệt",
+        "溝切り (みぞきり) - cắt rãnh",
+        "溶接棒 (ようせつぼう) - que hàn",
+        "熱風 (ねっぷう) - khí nóng"
+      ],
+      "questions": [
+        {
+          "label": "Q59",
+          "question": "内装ビニル床シート張りに関する記述として、不適当なものを2つ選べ。",
+          "choices": [
+            "寒冷期の施工で、張付け時の室温が5℃以下になることが予想されたため、採暖を行い、室温を10℃以上に保った。",
+            "床シートは、張付けに先立ち裁断して仮敷きし、巻きぐせをとるために8時間放置した。",
+            "床シートは、張付けに際し、気泡が残らないよう空気を押し出した後、45kgローラーで圧着した。",
+            "熱溶接工法における溶接部の溝切りの深さは、床シート厚の1／3とした。",
+            "熱溶接工法における溶接部は、床シートの溝部分と溶接棒を180〜200℃の熱風で同時に加熱溶融した。"
+          ],
+          "answer": "2,4",
+          "explanation": "選択肢1：寒冷期で張付け時の室温が5℃以下になることが予想される場合、採暖を行い室温10℃以上に保つ。記述は適当。\n選択肢2：床シートは張付けに先立ち裁断して仮敷きし、巻きぐせをとるため24時間以上放置する必要がある。8時間は短すぎ誤り。\n選択肢3：床シートは張付けに際し、気泡が残らないよう空気を押し出した後、45kgローラーで圧着する。記述は適当。\n選択肢4：熱溶接工法における溶接部の溝切りの深さは、床シート厚の2/3とする必要がある。1/3は浅すぎ誤り。\n選択肢5：熱溶接工法における溶接部は、床シートの溝部分と溶接棒を180～200℃の熱風で同時に加熱溶融する。記述は適当。\nよって不適当なものは2と4。",
+          "studyContent": "ビニル床シート張りの重要数値：寒冷期室温10℃以上、巻きぐせとり24時間以上放置（床表面温度20℃以上）、圧着45kgローラー、熱溶接溝切深さ＝床シート厚の2/3、加熱溶融温度＝180～200℃。",
+          "question_vi": "Trong các mô tả về dán tấm sàn vinyl nội thất sau đây, chọn 2 mô tả KHÔNG phù hợp.",
+          "choices_vi": [
+            "Thi công mùa lạnh, dự kiến nhiệt độ phòng khi dán xuống dưới 5℃ nên đã sưởi ấm và duy trì nhiệt độ phòng ≥ 10℃.",
+            "Tấm sàn được cắt và trải tạm trước khi dán, để khử vết quăn đã để yên 8 giờ.",
+            "Khi dán tấm sàn, sau khi đẩy hết không khí để không còn bọt khí, đã ép bằng con lăn 45kg.",
+            "Trong phương pháp hàn nhiệt, độ sâu cắt rãnh tại vị trí hàn được lấy là 1/3 độ dày tấm sàn.",
+            "Trong phương pháp hàn nhiệt, vị trí hàn được làm nóng chảy đồng thời rãnh tấm sàn và que hàn bằng khí nóng 180-200℃."
+          ],
+          "explanation_vi": "Đáp án 1: Mùa lạnh duy trì ≥ 10℃. → Đúng.\nĐáp án 2: Khử vết quăn cần ≥ 24 GIỜ (1 ngày), 8 giờ QUÁ NGẮN. → SAI.\nĐáp án 3: Ép con lăn 45kg, không có bọt. → Đúng.\nĐáp án 4: Độ sâu cắt rãnh = 2/3 độ dày tấm sàn, KHÔNG phải 1/3 (1/3 quá nông). → SAI.\nĐáp án 5: Nung chảy đồng thời rãnh + que hàn ở 180-200℃. → Đúng.\nVậy 2 đáp án KHÔNG phù hợp là 2 và 4.",
+          "studyContent_vi": "Sàn vinyl: mùa lạnh ≥10℃; khử quăn ≥24h (mặt sàn ≥20℃); ép lăn 45kg; cắt rãnh hàn = 2/3 độ dày tấm; nung 180-200℃."
+        }
+      ]
+    },
+    {
+      "path": "07_応用能力 / 仕上工事検査",
+      "vocabulary": [
+        "防水形仕上塗材 (ぼうすいがたしあげぬりざい) - vật liệu sơn hoàn thiện chống nước",
+        "塗厚 (ぬりあつ) - chiều dày lớp sơn",
+        "シーリング材接着性試験 (シーリングざいせっちゃくせいしけん) - thử nghiệm độ kết dính sealant",
+        "ホルムアルデヒド - formaldehyde",
+        "パッシブサンプラ - passive sampler (bộ lấy mẫu thụ động)",
+        "アスファルト防水 (アスファルトぼうすい) - phòng nước bằng asphalt",
+        "渦電流式測定計 (うずでんりゅうしきそくていけい) - máy đo dòng xoáy (eddy current)",
+        "高周波水分計 (こうしゅうはすいぶんけい) - máy đo độ ẩm sóng cao tần",
+        "壁タイル (かべタイル) - gạch tường",
+        "打音検査 (だおんけんさ) - kiểm tra âm thanh khi gõ",
+        "リバウンドハンマー / シュミットハンマー - búa thử rebound / búa Schmidt",
+        "打音ハンマー (だおんハンマー) - búa kiểm tra âm gõ"
+      ],
+      "questions": [
+        {
+          "label": "Q60",
+          "question": "仕上工事における試験及び検査に関する記述として、不適当なものを2つ選べ。",
+          "choices": [
+            "防水形仕上塗材仕上げの塗厚の確認は、単位面積当たりの使用量を基に行った。",
+            "シーリング材の接着性試験は、同一種類のものであっても、製造所ごとに行った。",
+            "室内空気中に含まれるホルムアルデヒドの濃度測定は、パッシブサンプラを用いて行った。",
+            "アスファルト防水下地となるコンクリート面の乾燥状態の確認は、渦電流式測定計を用いて行った。",
+            "壁タイルの浮きの打音検査は、リバウンドハンマー（シュミットハンマー）を用いて行った。"
+          ],
+          "answer": "4,5",
+          "explanation": "選択肢1：防水形仕上塗材仕上げの塗厚の確認は、定規で測れないため単位面積当たりの使用量を基に行う。記述は適当。\n選択肢2：シーリング材の接着性試験は、同一種類のものであっても、製造所ごとに行う。記述は適当。\n選択肢3：室内空気中に含まれるホルムアルデヒドの濃度測定は、パッシブサンプラを用いて行う。記述は適当。\n選択肢4：アスファルト防水下地となるコンクリート面の乾燥状態の確認は、高周波水分計を用いて行う。渦電流式測定計は金属の膜厚を計測するための機器で誤り。\n選択肢5：壁タイルの浮きの打音検査は、打音ハンマー（タイル用テストハンマー）を用いて行う。リバウンドハンマー（シュミットハンマー）はコンクリート強度を計測する機器で誤り。\nよって不適当なものは4と5。",
+          "studyContent": "試験機器の用途を覚える：防水形仕上塗材塗厚→単位面積使用量、シーリング接着試験→製造所ごと、ホルムアルデヒド濃度→パッシブサンプラ、コンクリート乾燥状態→高周波水分計、タイル浮き打音→打音ハンマー、コンクリート強度→リバウンドハンマー、膜厚（金属）→渦電流式測定計。",
+          "question_vi": "Trong các mô tả về thử nghiệm và kiểm tra trong công tác hoàn thiện sau đây, chọn 2 mô tả KHÔNG phù hợp.",
+          "choices_vi": [
+            "Kiểm tra chiều dày lớp sơn hoàn thiện chống nước được thực hiện dựa trên lượng sử dụng trên đơn vị diện tích.",
+            "Thử nghiệm độ kết dính của sealant được thực hiện theo từng nhà sản xuất, ngay cả khi cùng chủng loại.",
+            "Đo nồng độ formaldehyde trong không khí trong phòng được thực hiện bằng passive sampler.",
+            "Kiểm tra tình trạng khô của mặt bê tông là nền phòng nước asphalt được thực hiện bằng máy đo dòng xoáy (渦電流式測定計).",
+            "Kiểm tra âm thanh khi gõ để phát hiện gạch tường bị bong được thực hiện bằng búa rebound (búa Schmidt)."
+          ],
+          "explanation_vi": "Đáp án 1: Chiều dày sơn → đo qua lượng dùng/diện tích. → Đúng.\nĐáp án 2: Thử kết dính sealant theo từng nhà sx. → Đúng.\nĐáp án 3: Formaldehyde → passive sampler. → Đúng.\nĐáp án 4: Độ khô mặt bê tông phải dùng máy đo độ ẩm SÓNG CAO TẦN (高周波水分計). Máy đo DÒNG XOÁY dùng đo độ dày màng kim loại. → SAI.\nĐáp án 5: Kiểm tra gạch bong phải dùng BÚA GÕ (打音ハンマー). Búa Schmidt/Rebound dùng đo CƯỜNG ĐỘ BÊ TÔNG. → SAI.\nVậy 2 đáp án KHÔNG phù hợp là 4 và 5.",
+          "studyContent_vi": "Phân biệt thiết bị: sơn dày → lượng/diện tích; sealant kết dính → theo nhà sx; formaldehyde → passive sampler; độ khô bê tông → 高周波水分計; tile bong → 打音ハンマー; cường độ bê tông → rebound/Schmidt; độ dày màng kim loại → 渦電流式測定計."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 建築基準法",
+      "vocabulary": [
+        "用語の定義 (ようごのていぎ) - định nghĩa thuật ngữ",
+        "建築基準法 (けんちくきじゅんほう) - Luật tiêu chuẩn xây dựng",
+        "間仕切壁 (まじきりかべ) - tường ngăn",
+        "大規模の模様替 (だいきぼのもようがえ) - cải tạo quy mô lớn",
+        "主要構造部 (しゅようこうぞうぶ) - bộ phận kết cấu chính",
+        "工作物 (こうさくぶつ) - công trình kiến trúc/cấu trúc",
+        "観覧 (かんらん) - khán đài/quan sát",
+        "居室 (きょしつ) - phòng ở/sinh hoạt",
+        "百貨店 (ひゃっかてん) - bách hóa"
+      ],
+      "questions": [
+        {
+          "label": "Q61",
+          "question": "用語の定義に関する記述として、「建築基準法」上、誤っているものはどれか。",
+          "choices": [
+            "建築物の構造上重要でない間仕切壁の過半の模様替は、大規模の模様替である。",
+            "建築物の屋根は、主要構造部である。",
+            "観覧のための工作物は、建築物である。",
+            "百貨店の売場は、居室である。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：建築物の構造上重要でない間仕切壁は主要構造部ではないため、その過半の模様替は大規模の模様替ではない。大規模の模様替とは建築物の主要構造部（壁・柱・床・梁・屋根・階段）の一種以上について行う過半の模様替をいう。よって誤りで正解は1。\n選択肢2：建築物の屋根は主要構造部に含まれる（壁・柱・床・梁・屋根・階段）。記述は適当。\n選択肢3：観覧のための工作物は、屋根がついていなくても建築物として扱われる。記述は適当。\n選択肢4：居室とは「居住、執務、作業、集会、娯楽その他これらに類する目的のために継続的に使用する室」と定義され、百貨店の売場は居室に該当する。記述は適当。なお玄関・廊下・トイレは居室ではない。",
+          "studyContent": "主要構造部＝壁・柱・床・梁・屋根・階段。「構造上重要でない」間仕切壁・間柱・最下階の床・小ばり・庇・局部的小階段・屋外階段等は除外される。観覧用工作物（屋根なしでも）は建築物。居室＝継続使用の室、玄関・廊下・トイレは居室でない。",
+          "question_vi": "Trong các mô tả về định nghĩa thuật ngữ sau đây, mô tả nào SAI theo Luật tiêu chuẩn xây dựng?",
+          "choices_vi": [
+            "Việc cải tạo trên một nửa các tường ngăn không quan trọng về kết cấu của công trình là cải tạo quy mô lớn (大規模の模様替).",
+            "Mái của công trình thuộc bộ phận kết cấu chính.",
+            "Công trình dùng để khán đài quan sát là công trình xây dựng (建築物).",
+            "Khu vực bán hàng của bách hóa là phòng sinh hoạt (居室)."
+          ],
+          "explanation_vi": "Đáp án 1: Tường ngăn KHÔNG QUAN TRỌNG VỀ KẾT CẤU thì KHÔNG thuộc bộ phận kết cấu chính, do đó cải tạo nó KHÔNG phải 大規模の模様替. 大規模の模様替 chỉ áp dụng cho các bộ phận kết cấu chính (tường, cột, sàn, dầm, mái, cầu thang). → SAI. Đáp án đúng là 1.\nĐáp án 2: Mái thuộc bộ phận kết cấu chính. → Đúng.\nĐáp án 3: Công trình khán đài quan sát thuộc 建築物 (kể cả không có mái). → Đúng.\nĐáp án 4: Khu vực bán hàng bách hóa = 居室 (vì sử dụng liên tục cho mua bán). Sảnh, hành lang, toilet KHÔNG phải 居室. → Đúng.",
+          "studyContent_vi": "主要構造部 = tường + cột + sàn + dầm + mái + cầu thang. Các bộ phận không quan trọng về kết cấu (tường ngăn, cột phụ, sàn tầng dưới cùng, dầm phụ, mái che ngoài, cầu thang nhỏ cục bộ, cầu thang ngoài trời) KHÔNG được tính. Công trình khán đài (kể cả không mái) vẫn là 建築物. 居室 = phòng sử dụng liên tục, sảnh/hành lang/toilet không phải居室."
+        }
+      ]
+    }
+  ]
+}
