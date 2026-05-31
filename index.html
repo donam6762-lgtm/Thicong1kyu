@@ -801,6 +801,29 @@
       .qs-section       { break-inside: auto; page-break-inside: auto; }
     }
 
+    /* ── Practice Mode ── */
+    .pm-progress-track { height: 6px; background: var(--line); border-radius: 3px; margin: 10px 0 4px; }
+    .pm-progress-fill  { height: 100%; background: var(--primary); border-radius: 3px; transition: width 0.35s ease; }
+    .pm-choice-btn {
+      width: 100%; padding: 14px 18px; margin-top: 10px;
+      border: 2px solid var(--line); border-radius: 12px;
+      background: var(--surface); color: var(--text);
+      text-align: left; font: inherit; font-size: 14px; font-weight: 500;
+      cursor: pointer; line-height: 1.55; transition: all 0.18s ease;
+      white-space: pre-wrap;
+    }
+    .pm-choice-btn:hover:not(:disabled) { background: var(--surface-soft); border-color: var(--accent); transform: translateX(4px); }
+    .pm-choice-btn:disabled { cursor: default; }
+    .pm-choice-btn.pm-correct { border-color: var(--good);   background: rgba(61,120,68,0.1);  color: var(--good);   font-weight: 700; }
+    .pm-choice-btn.pm-wrong   { border-color: var(--danger); background: rgba(176,64,51,0.1); color: var(--danger); }
+    .pm-result {
+      margin-top: 16px; padding: 14px 20px; border-radius: 12px;
+      font-weight: 700; font-size: 15px; text-align: center;
+    }
+    .pm-result.ok  { background: rgba(61,120,68,0.1);  color: var(--good);   border: 1px solid var(--good);   }
+    .pm-result.bad { background: rgba(176,64,51,0.1); color: var(--danger); border: 1px solid var(--danger); }
+    .pm-expl { margin-top: 14px; padding: 16px; background: var(--surface-soft); border-radius: 12px; border: 1px solid var(--line); font-size: 13px; line-height: 1.75; }
+
     /* Scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
@@ -1008,6 +1031,14 @@
           <div class="mgmt-info">
             <h4>Xem tất cả đường dẫn hợp lệ</h4>
             <p>Hiển thị toàn bộ đường dẫn (path) có thể dùng trong file JSON.</p>
+          </div>
+        </div>
+
+        <div id="mgmtPracticeBtn" class="mgmt-card">
+          <span>🎯</span>
+          <div class="mgmt-info">
+            <h4>Luyện tập (Practice)</h4>
+            <p>Làm bài từng câu hỏi — 4 hoặc 5 lựa chọn, xem đáp án ngay.</p>
           </div>
         </div>
       </div>
@@ -1278,6 +1309,47 @@
         <div class="qs-print-title">📋 Hệ thống câu hỏi — 1級建築施工管理技士</div>
         <div class="qs-print-sub" id="qsStatsPrint"></div>
         <div id="qsTopicsContainer"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Practice Mode Modal -->
+  <div id="practiceModal" class="modal hidden">
+    <div class="modal-content" style="width: min(760px, 100%); max-height: 92vh; display: flex; flex-direction: column; padding: 24px; gap: 0;">
+      <!-- Header -->
+      <div style="flex-shrink: 0; padding-bottom: 14px; border-bottom: 1px solid var(--line); margin-bottom: 18px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;">
+          <div>
+            <div class="modal-title" style="margin-bottom: 6px;">🎯 Luyện tập</div>
+            <div style="display: flex; gap: 14px; align-items: center; font-size: 13px; flex-wrap: wrap;">
+              <span id="pmProgress" style="font-weight: 700; color: var(--primary);"></span>
+              <span id="pmStats" style="color: var(--muted);"></span>
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px; flex-shrink: 0;">
+            <button id="pmShuffleBtn" class="btn btn-secondary" type="button" style="padding: 8px 14px; font-size: 13px;">🔀</button>
+            <button id="pmAllBtn" class="btn btn-secondary" type="button" style="padding: 8px 14px; font-size: 13px;">Tất cả</button>
+            <button id="closePracticeBtn" class="btn btn-secondary" type="button">Đóng</button>
+          </div>
+        </div>
+        <div class="pm-progress-track"><div id="pmProgressBar" class="pm-progress-fill" style="width:0%"></div></div>
+        <select id="pmTopicSelect" class="question-select" style="font-size:12px;padding:6px 10px;margin-top:6px;width:100%;"></select>
+        <div id="pmTopic" style="font-size: 11px; color: var(--muted); margin-top: 2px;"></div>
+      </div>
+
+      <!-- Body (scrollable) -->
+      <div id="pmBody" style="flex: 1; overflow-y: auto; padding-right: 4px;">
+        <div id="pmQuestionText"></div>
+        <div id="pmChoices"></div>
+        <div id="pmResult"></div>
+        <div id="pmExpl"></div>
+      </div>
+
+      <!-- Nav -->
+      <div style="display: flex; gap: 10px; padding-top: 14px; border-top: 1px solid var(--line); margin-top: 14px; flex-shrink: 0;">
+        <button id="pmPrevBtn" class="btn btn-secondary" type="button" disabled>← Trước</button>
+        <div style="flex:1"></div>
+        <button id="pmNextBtn" class="btn btn-primary" type="button">Tiếp →</button>
       </div>
     </div>
   </div>
@@ -3555,6 +3627,199 @@ ${pathList}
       document.body.appendChild(temp);
       window.print();
       setTimeout(() => temp.remove(), 1000);
+    });
+
+    // ── Practice Mode ──
+    let practiceQuestions = [];
+    let practiceIndex = 0;
+    const practiceAnswers = {};
+
+    function buildPracticeQuestions(topicFilter) {
+      const all = getAllTopicsWithQuestions();
+      const src = topicFilter
+        ? all.filter(t => t.path === topicFilter || t.path.startsWith(topicFilter + " / "))
+        : all;
+      const pool = src.length > 0 ? src : all; // fallback về tất cả nếu filter không khớp
+
+      const list = [];
+      pool.forEach(({ path: tp, labels }) => {
+        labels.forEach(label => {
+          const qp = getQuestionPath(tp, label);
+          // Đọc thẳng từ localStorage để tránh mất dữ liệu qua normalize
+          const raw = localStorage.getItem(`${questionStoragePrefix}${qp}`);
+          let qd = null;
+          if (raw) {
+            try { qd = normalizeQuestionData(JSON.parse(raw)); } catch(e) {}
+          }
+          if (!qd) qd = getEffectiveQuestion(qp);
+          // Chỉ cần có đề bài là đủ để luyện tập
+          if (qd && qd.prompt) {
+            list.push({ topicPathKey: tp, label, questionPathKey: qp, qData: qd });
+          }
+        });
+      });
+      return list;
+    }
+
+    function populatePracticeTopicSelect(selectedFilter) {
+      const sel = document.getElementById("pmTopicSelect");
+      if (!sel) return;
+      const all = getAllTopicsWithQuestions();
+      const total = all.reduce((s, t) => s + t.labels.length, 0);
+      sel.innerHTML = `<option value="">📚 Tất cả (${total} câu)</option>`;
+      all.forEach(t => {
+        const opt = document.createElement("option");
+        opt.value = t.path;
+        opt.textContent = `${t.path.replace(treeRootLabel + " / ", "")} (${t.labels.length})`;
+        if (t.path === selectedFilter) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    }
+
+    function openPracticeModal(topicFilter) {
+      practiceQuestions = buildPracticeQuestions(topicFilter || null);
+      if (!practiceQuestions.length) {
+        showToast("Chưa có câu hỏi nào có đủ dữ liệu. Hãy nhập JSON qua ⚙️ → Nhập dữ liệu.", "error", 5000);
+        return;
+      }
+      practiceIndex = 0;
+      Object.keys(practiceAnswers).forEach(k => delete practiceAnswers[k]);
+      managementModal.classList.add("hidden");
+      populatePracticeTopicSelect(topicFilter || "");
+      renderPracticeQuestion();
+      document.getElementById("practiceModal").classList.remove("hidden");
+    }
+
+    function renderPracticeQuestion() {
+      if (!practiceQuestions.length || practiceIndex >= practiceQuestions.length) return;
+      const total = practiceQuestions.length;
+      const { topicPathKey, label, questionPathKey, qData } = practiceQuestions[practiceIndex];
+      const prevAnswer = practiceAnswers[questionPathKey];
+      const correctIdx = parseInt(qData.answer) - 1;
+
+      // Header
+      document.getElementById("pmProgress").textContent = `${practiceIndex + 1} / ${total}`;
+      document.getElementById("pmProgressBar").style.width = `${Math.round((practiceIndex + 1) / total * 100)}%`;
+      document.getElementById("pmTopic").textContent = topicPathKey.replace(treeRootLabel + " / ", "");
+
+      // Stats
+      const answered = practiceQuestions.filter(q => practiceAnswers[q.questionPathKey] !== undefined);
+      const correct  = answered.filter(q => practiceAnswers[q.questionPathKey] === parseInt(q.qData.answer) - 1).length;
+      document.getElementById("pmStats").textContent = answered.length
+        ? `⭕ ${correct}  ❌ ${answered.length - correct}  (${answered.length}/${total} đã làm)`
+        : "";
+
+      // Question text
+      document.getElementById("pmQuestionText").innerHTML = `
+        <div style="font-size:11px;font-weight:700;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">${escapeHtml(label)}</div>
+        <div style="font-size:15px;line-height:1.75;color:var(--text);font-weight:500;">${escapeHtml(qData.prompt)}</div>
+        ${qData.prompt_vi ? `<div style="font-size:13px;color:var(--muted);margin-top:8px;line-height:1.6;padding-top:8px;border-top:1px dashed var(--line);">${escapeHtml(qData.prompt_vi)}</div>` : ""}
+        ${qData.image ? `<div class="question-image-container" style="max-height:220px;margin-top:12px;"><img src="${escapeHtml(qData.image)}" alt=""></div>` : ""}
+      `;
+
+      // Choices
+      const choicesEl = document.getElementById("pmChoices");
+      choicesEl.innerHTML = "";
+      qData.choices.forEach((choice, idx) => {
+        if (!choice) return;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "pm-choice-btn";
+        let text = `${idx + 1}.  ${choice}`;
+        if (qData.choices_vi && qData.choices_vi[idx]) text += `\n     ${qData.choices_vi[idx]}`;
+        btn.textContent = text;
+        if (prevAnswer !== undefined) {
+          if (idx === correctIdx) btn.classList.add("pm-correct");
+          else if (idx === prevAnswer) btn.classList.add("pm-wrong");
+          btn.disabled = true;
+        } else {
+          btn.addEventListener("click", () => {
+            practiceAnswers[questionPathKey] = idx;
+            renderPracticeQuestion();
+            document.getElementById("pmBody").scrollTop = 0;
+          });
+        }
+        choicesEl.appendChild(btn);
+      });
+
+      // Result + explanation
+      const resultEl = document.getElementById("pmResult");
+      const explEl   = document.getElementById("pmExpl");
+      if (prevAnswer !== undefined) {
+        const isOk = prevAnswer === correctIdx;
+        resultEl.className = `pm-result ${isOk ? "ok" : "bad"}`;
+        resultEl.innerHTML = isOk
+          ? `⭕ <strong>正解！ Chính xác!</strong> &nbsp;·&nbsp; Đáp án: <strong>${qData.answer}</strong>`
+          : `❌ <strong>不正解！ Sai rồi!</strong> &nbsp;·&nbsp; Đáp án đúng: <strong>${qData.answer}</strong> &nbsp;·&nbsp; Bạn chọn: <strong>${prevAnswer + 1}</strong>`;
+        explEl.innerHTML = qData.explanation ? `
+          <div class="pm-expl">
+            <div style="font-weight:700;color:var(--primary);margin-bottom:8px;">💡 Giải thích / 解説</div>
+            <div style="white-space:pre-wrap;">${escapeHtml(qData.explanation)}</div>
+            ${qData.explanation_vi ? `<hr style="margin:12px 0;border:none;border-top:1px dashed var(--line);"><div style="white-space:pre-wrap;color:var(--muted);">${escapeHtml(qData.explanation_vi)}</div>` : ""}
+          </div>` : "";
+      } else {
+        resultEl.className = "pm-result";
+        resultEl.style.display = "none";
+        resultEl.innerHTML = "";
+        explEl.innerHTML = "";
+      }
+      if (prevAnswer !== undefined) resultEl.style.display = "";
+
+      // Nav
+      const prevBtn = document.getElementById("pmPrevBtn");
+      const nextBtn = document.getElementById("pmNextBtn");
+      prevBtn.disabled = practiceIndex === 0;
+      prevBtn.onclick = () => { practiceIndex--; renderPracticeQuestion(); document.getElementById("pmBody").scrollTop = 0; };
+
+      if (practiceIndex === total - 1) {
+        nextBtn.textContent = "🏁 Kết thúc";
+        nextBtn.onclick = () => {
+          const ans = practiceQuestions.filter(q => practiceAnswers[q.questionPathKey] !== undefined);
+          const cor = ans.filter(q => practiceAnswers[q.questionPathKey] === parseInt(q.qData.answer) - 1).length;
+          showToast(`🏁 Kết thúc! ${cor}/${ans.length} câu đúng.`, "success", 4000);
+          document.getElementById("practiceModal").classList.add("hidden");
+        };
+      } else {
+        nextBtn.textContent = prevAnswer !== undefined ? "Tiếp →" : "Bỏ qua →";
+        nextBtn.onclick = () => { practiceIndex++; renderPracticeQuestion(); document.getElementById("pmBody").scrollTop = 0; };
+      }
+    }
+
+    document.getElementById("closePracticeBtn").addEventListener("click", () => {
+      document.getElementById("practiceModal").classList.add("hidden");
+    });
+
+    document.getElementById("pmShuffleBtn").addEventListener("click", () => {
+      practiceQuestions = shuffleArray(practiceQuestions);
+      practiceIndex = 0;
+      Object.keys(practiceAnswers).forEach(k => delete practiceAnswers[k]);
+      renderPracticeQuestion();
+      showToast("🔀 Đã xáo trộn!", "info");
+    });
+
+    document.getElementById("pmAllBtn").addEventListener("click", () => {
+      Object.keys(practiceAnswers).forEach(k => delete practiceAnswers[k]);
+      practiceQuestions = buildPracticeQuestions(null);
+      practiceIndex = 0;
+      populatePracticeTopicSelect("");
+      renderPracticeQuestion();
+      showToast(`📚 Đã tải ${practiceQuestions.length} câu từ tất cả chủ đề.`, "info");
+    });
+
+    document.getElementById("pmTopicSelect").addEventListener("change", (e) => {
+      const filter = e.target.value || null;
+      Object.keys(practiceAnswers).forEach(k => delete practiceAnswers[k]);
+      practiceQuestions = buildPracticeQuestions(filter);
+      practiceIndex = 0;
+      renderPracticeQuestion();
+      document.getElementById("pmBody").scrollTop = 0;
+    });
+
+    document.getElementById("mgmtPracticeBtn").addEventListener("click", () => {
+      const topicFilter = activePath !== treeRootLabel
+        ? (isQuestionPath(activePath) ? getParentPathKey(activePath) : activePath)
+        : null;
+      openPracticeModal(topicFilter);
     });
 
     // ── Global error handler ──
