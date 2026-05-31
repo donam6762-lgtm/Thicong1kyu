@@ -1,0 +1,424 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 植栽",
+      "vocabulary": "植栽 - cây trồng/cảnh quan\n枝張り - tán cành (sải cành)\n四方面 - bốn phương\n樹木 - cây\n支柱 - cọc chống\n根部の活着 - bám rễ\n移植 - cấy/di chuyển cây\n根巻き - bọc rễ\n吸水量 / 蒸散量 - lượng hút nước / thoát hơi\n枝抜き剪定 - tỉa thưa cành\n植付け - trồng\n現場搬入 - đưa vào công trường\n仮植え / 保護養生 - trồng tạm / che chắn bảo vệ",
+      "questions": [
+        {
+          "label": "Q16",
+          "question": "植栽に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "枝張りは、樹木の四方面に伸長した枝の幅をいい、測定方向により長短がある場合は、最短の幅とする。",
+            "支柱は、風による樹木の倒れや傾きを防止するとともに、根部の活着を助けるために取り付ける。",
+            "樹木の移植において、根巻き等で大きく根を減らす場合、吸水量と蒸散量とのバランスをとるために枝抜き剪定を行う。",
+            "樹木の植付けは、現場搬入後、仮植えや保護養生してから植え付けるよりも、速やかに行うほうがよい。"
+          ],
+          "answer": "1",
+          "explanation": "植栽工事に関する出題です。\n\n選択肢1. 枝張りは、樹木の四方面に伸長した枝の幅をいい、測定方向により長短がある場合は、最短の幅とする。\n誤りです。測定方向により長短がある場合は、一般的に最短ではなく、最長と最短の平均値とします。\n\n選択肢2. 支柱は、風による樹木の倒れや傾きを防止するとともに、根部の活着を助けるために取り付ける。\n設問の通りです。支柱は風などによる倒れや傾きを防ぎ、根部がしっかりと地中に活着するのを助けるために取り付けます。根部が正常に活着するまで（通常3〜4年）取り付けます。\n\n選択肢3. 樹木の移植において、根巻き等で大きく根を減らす場合、吸水量と蒸散量とのバランスをとるために枝抜き剪定を行う。\n設問の通りです。樹木の移植時に根を大きく切る場合、蒸散量を減らすために枝抜き剪定を行い、吸水量と蒸散量のバランスをとります。根を大きく切った際に余分な枝が多いという状況は避けなければなりません。\n\n選択肢4. 樹木の植付けは、現場搬入後、仮植えや保護養生してから植え付けるよりも、速やかに行うほうがよい。\n設問の通りです。樹木の植付けは、現場に搬入された後、できるだけ速やかに行う方が樹木にとってストレスが少なく良好な成長を促します。仮植えや保護養生を行わずに植え付けを行うことは、樹木にストレスを与えないだけでなく、余分な経費の削減にもつながります。",
+          "studyContent": "植栽の分野は、なじみのない方も多く、毎年出題はされるものの出題数は多くありません。余裕があれば勉強するようにしましょう。枝張りの計測は「最長と最短の平均」、支柱は風対策＋根の活着支援、移植時の根減＝枝抜き剪定で吸水・蒸散バランス、植付けは速やかに行う、というポイントは押さえておきましょう。",
+          "question_vi": "Trong các mô tả về trồng cây cảnh quan, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Sải cành (枝張り) là bề rộng của các cành vươn theo bốn phương; khi đo các hướng có chênh dài-ngắn, lấy bề rộng NGẮN NHẤT.",
+            "Cọc chống được lắp để ngăn cây đổ/nghiêng do gió, đồng thời giúp rễ bám đất.",
+            "Khi cấy cây mà bọc rễ làm mất nhiều rễ, cần tỉa thưa cành để cân bằng giữa lượng hút nước và lượng thoát hơi.",
+            "Trồng cây sau khi đưa vào công trường nên thực hiện ngay, tốt hơn là trồng tạm hoặc che chắn bảo vệ trước khi trồng."
+          ],
+          "explanation_vi": "Bài về thi công trồng cây.\n\nLựa chọn 1. Sải cành lấy bề rộng ngắn nhất.\nSAI. Khi đo các hướng có chênh dài-ngắn, thường lấy GIÁ TRỊ TRUNG BÌNH giữa dài nhất và ngắn nhất, không phải lấy ngắn nhất.\n\nLựa chọn 2. Cọc chống.\nĐúng. Cọc chống dùng để ngăn cây đổ/nghiêng do gió và giúp rễ bám chắc vào đất. Thường duy trì cho đến khi rễ bám tốt (3-4 năm).\n\nLựa chọn 3. Tỉa cành khi cấy cây.\nĐúng. Khi cấy cây mà cắt nhiều rễ, cần tỉa bớt cành để giảm lượng thoát hơi, cân bằng với lượng hút nước. Tránh tình trạng đã cắt nhiều rễ mà cành lại quá nhiều.\n\nLựa chọn 4. Trồng ngay sau khi đưa vào công trường.\nĐúng. Đưa vào công trường thì trồng ngay sẽ ít stress cho cây hơn, giúp cây phát triển tốt. Không qua bước trồng tạm/che chắn cũng giảm chi phí.",
+          "studyContent_vi": "Mảng cây cảnh quan ít quen với nhiều thí sinh, ra đề hàng năm nhưng số lượng câu ít — có thời gian thì học. Nhớ: sải cành = trung bình dài-ngắn; cọc chống = chống đổ + hỗ trợ rễ bám; cấy mất rễ → tỉa cành cân bằng hút/thoát; trồng càng sớm càng tốt."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 設備 / 電気設備",
+      "vocabulary": "合成樹脂製可とう電線管 - ống luồn dây điện nhựa mềm\nPF管 - ống PF (Plastic Flexible, tự dập tắt cháy)\nCD管 - ống CD (chôn trong bê tông, không kháng cháy)\n自己消火性 - tính tự dập tắt cháy\n屋内隠ぺい配管 - đường ống đi ngầm trong nhà\n電圧の種別 - phân loại điện áp\n低圧 / 高圧 / 特別高圧 - điện áp thấp / cao / đặc biệt cao\n直流 / 交流 - DC / AC\n低圧屋内配線 - đi dây hạ áp trong nhà\n金属管 - ống kim loại\n接地工事 - thi công nối đất\nD種接地工事 - nối đất loại D",
+      "questions": [
+        {
+          "label": "Q17",
+          "question": "電気設備に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "合成樹脂製可とう電線管のうちPF管は、自己消火性があり、屋内隠ぺい配管に用いることができる。",
+            "電圧の種別で低圧とは、直流にあっては600V以下、交流にあっては750V以下のものをいう。",
+            "低圧屋内配線のための金属管は、規定値未満の厚さのものをコンクリートに埋め込んではならない。",
+            "低圧屋内配線の使用電圧が300Vを超える場合における金属製の電線接続箱には、接地工事を施さなければならない。"
+          ],
+          "answer": "2",
+          "explanation": "電気設備に関する出題です。電圧の種別と境界値を暗記しましょう。\n\n選択肢1. 合成樹脂製可とう電線管のうちPF管は、自己消火性があり、屋内隠ぺい配管に用いることができる。\n設問の通りです。PF管（ポリフレキシブル管）は自己消火性があり、屋内の隠蔽配管に使用されることが一般的です。\n\n選択肢2. 電圧の種別で低圧とは、直流にあっては600V以下、交流にあっては750V以下のものをいう。\n誤りです。電圧は低圧、高圧、特別高圧の3種類に区分されます。低圧は直流で750V以下、交流で600V以下です。設問は直流と交流の値が逆になっています。\n\n選択肢3. 低圧屋内配線のための金属管は、規定値未満の厚さのものをコンクリートに埋め込んではならない。\n設問の通りです。金属管をコンクリートに埋め込む場合、低圧屋内配線のための金属管の厚さは、1.2mm未満としてはなりません。\n\n選択肢4. 低圧屋内配線の使用電圧が300Vを超える場合における金属製の電線接続箱には、接地工事を施さなければならない。\n設問の通りです。電気設備の技術基準の解釈の第158条3項五号イにおいて、低圧屋内配線の使用電圧が300V以下の場合は、ボックス又は粉じん防爆型フレキシブルフィッチングにD種接地工事を施すこととあります。",
+          "studyContent": "CD管についても学んでおきましょう。CD管はコンクリートへの埋設用です。PF管と異なり耐燃性がありません。電圧の種別：低圧（直流750V以下、交流600V以下）、高圧（直流750V〜7,000V、交流600V〜7,000V）、特別高圧（7,000V超）。",
+          "question_vi": "Trong các mô tả về thiết bị điện, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong các ống luồn dây điện nhựa mềm, ống PF có tính tự dập tắt cháy, có thể dùng cho đi ống ngầm trong nhà.",
+            "Theo phân loại điện áp, điện áp thấp là dòng DC ≤ 600V, dòng AC ≤ 750V.",
+            "Ống kim loại dùng đi dây hạ áp trong nhà không được chôn vào bê tông nếu có độ dày dưới trị số quy định.",
+            "Khi điện áp sử dụng đi dây hạ áp trong nhà vượt 300V, hộp nối dây kim loại phải được thi công nối đất."
+          ],
+          "explanation_vi": "Bài về thiết bị điện.\n\nLựa chọn 1. Ống PF.\nĐúng. Ống PF (Plastic Flexible) có tính tự dập tắt cháy, thường dùng cho đường ống ngầm trong nhà.\n\nLựa chọn 2. Điện áp thấp.\nSAI. Điện áp được chia 3 loại: thấp, cao, đặc biệt cao. Điện áp THẤP là DC ≤ 750V, AC ≤ 600V. Đề đã đảo ngược giá trị DC và AC.\n\nLựa chọn 3. Ống kim loại.\nĐúng. Khi chôn ống kim loại trong bê tông cho đi dây hạ áp trong nhà, độ dày phải ≥ 1,2 mm (không được dưới quy định).\n\nLựa chọn 4. Nối đất.\nĐúng. Theo Quy chuẩn kỹ thuật điện điều 158 mục 3-5 (a), khi điện áp đi dây hạ áp trong nhà > 300V, hộp đấu nối kim loại phải thi công nối đất (loại D).",
+          "studyContent_vi": "Nhớ thêm về ống CD: ống CD dùng để chôn trong bê tông, khác PF là KHÔNG kháng cháy. Phân loại điện áp: Thấp (DC ≤750V, AC ≤600V); Cao (DC 750V–7.000V, AC 600V–7.000V); Đặc biệt cao (>7.000V)."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 設備 / 給排水設備",
+      "vocabulary": "給排水設備 - cấp thoát nước\n高置水槽方式 - phương thức bể nước trên cao\n受水槽 - bể nhận nước\n揚水 - bơm lên\n重力 - trọng lực\n圧力水槽方式 - phương thức bể áp lực\n加圧 - tạo áp\n自然流下式 - tự chảy theo trọng lực\n横走り排水管 - ống thoát nước nằm ngang\n勾配 - độ dốc\n管径 - đường kính ống\n排水槽 - bể thoát nước\n吸い込みピット - hố hút",
+      "questions": [
+        {
+          "label": "Q18",
+          "question": "給排水設備に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "高置水槽方式は、一度受水槽に貯留した水をポンプで建物高所の高置水槽に揚水し、高置水槽からは重力によって各所に給水する方式である。",
+            "圧力水槽方式は、受水槽の水をポンプで圧力水槽に送水し、圧力水槽内の空気を加圧して、その圧力によって各所に給水する方式である。",
+            "屋内の自然流下式横走り排水管の最小勾配は、管径が100mmの場合、1／100とする。",
+            "排水槽の底の勾配は、吸い込みピットに向かって1／100とする。"
+          ],
+          "answer": "4",
+          "explanation": "給排水設備に関する出題です。勾配の限界値を暗記しましょう。\n\n選択肢1. 高置水槽方式は、一度受水槽に貯留した水をポンプで建物高所の高置水槽に揚水し、高置水槽からは重力によって各所に給水する方式である。\n設問の通りです。安定した水圧を確保することができます。\n\n選択肢2. 圧力水槽方式は、受水槽の水をポンプで圧力水槽に送水し、圧力水槽内の空気を加圧して、その圧力によって各所に給水する方式である。\n設問の通りです。\n\n選択肢3. 屋内の自然流下式横走り排水管の最小勾配は、管径が100mmの場合、1／100とする。\n設問の通りです。屋内の横走り排水管の勾配の最小値については、管径65mm以下の場合1／50、管径75mm・100mmは最小1／100、管径125mmは最小1／150とします。\n\n選択肢4. 排水槽の底の勾配は、吸い込みピットに向かって1／100とする。\n誤りです。排水槽の底の勾配は、吸い込みピットに向かって1／15以上1／10以下とする必要があります。水が流れるように下限値の1／15、点検や清掃時に人が作業出来るように上限値の1／10と定めています。",
+          "studyContent": "勾配1/100は配管の勾配であることに注意してください。配管の径によって最小勾配が変わります。太いほど緩い勾配となります。\n屋内横走り排水管：管径65mm以下→1/50、管径75・100mm→1/100、管径125mm以上→1/150。\n排水槽の底→吸い込みピットに向かって1/15以上1/10以下。",
+          "question_vi": "Trong các mô tả về thiết bị cấp thoát nước, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương thức bể nước trên cao: nước được trữ ở bể nhận, bơm lên bể nước trên cao của công trình, từ đó cấp nước đến các điểm bằng trọng lực.",
+            "Phương thức bể áp lực: bơm nước từ bể nhận vào bể áp lực, tạo áp không khí bên trong bể áp lực rồi dùng áp đó cấp nước đến các điểm.",
+            "Độ dốc tối thiểu của ống thoát nước nằm ngang kiểu tự chảy trong nhà, đường kính 100 mm, là 1/100.",
+            "Độ dốc đáy bể thoát nước hướng về hố hút là 1/100."
+          ],
+          "explanation_vi": "Bài về cấp thoát nước.\n\nLựa chọn 1. Bể nước trên cao.\nĐúng. Đảm bảo áp lực nước ổn định.\n\nLựa chọn 2. Bể áp lực.\nĐúng. Mô tả cơ chế hoạt động của bể áp lực.\n\nLựa chọn 3. Ống thoát ngang tự chảy.\nĐúng. Độ dốc tối thiểu: đường kính ≤65 mm → 1/50; đường kính 75–100 mm → 1/100; đường kính 125 mm → 1/150.\n\nLựa chọn 4. Đáy bể thoát nước.\nSAI. Độ dốc đáy bể thoát nước hướng về hố hút phải nằm trong khoảng 1/15 đến 1/10 (chứ không phải 1/100). Cận dưới 1/15 đảm bảo nước chảy; cận trên 1/10 để người có thể vào kiểm tra/vệ sinh.",
+          "studyContent_vi": "Lưu ý 1/100 là độ dốc ống cấp/thoát. Đường kính ống càng lớn, độ dốc tối thiểu càng nhỏ.\nỐng thoát ngang trong nhà: ≤65 mm → 1/50; 75–100 mm → 1/100; ≥125 mm → 1/150.\nĐáy bể thoát nước hướng về hố hút: 1/15 đến 1/10."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 設備 / 昇降機",
+      "vocabulary": "エレベーター - thang máy\n乗用エレベーター - thang máy chở người\n停電時 - khi mất điện\n床面 / 照度 - sàn / độ rọi\n1ルクス - 1 lux\n最大定員 - số người tối đa\n標識 - biển báo\n火災時管制運転 - vận hành điều khiển khi cháy\n避難階 - tầng sơ tán\n最寄階 - tầng gần nhất\n地震時管制運転 - vận hành điều khiển khi động đất\n群管理方式 - phương thức quản lý theo nhóm",
+      "questions": [
+        {
+          "label": "Q19",
+          "question": "建築物に設けるエレベーターに関する記述として、最も不適当なものはどれか。ただし、特殊な構造又は使用形態のものは除くものとする。",
+          "choices": [
+            "乗用エレベーターには、停電時に床面で1ルクス以上の照度を確保することができる照明装置を設ける。",
+            "乗用エレベーターには、1人当たりの体重を65kgとして計算した最大定員を明示した標識を掲示する。",
+            "火災時管制運転は、火災発生時にエレベーターを最寄階に停止させる機能である。",
+            "群管理方式は、エレベーターを複数台まとめた群としての運転操作方式で、交通需要の変動に応じて効率的な運転管理を行うことができる。"
+          ],
+          "answer": "3",
+          "explanation": "エレベーターに関する出題です。地震時と火災時のエレベーターの停止させる階の違いを覚えましょう。\n\n選択肢1. 乗用エレベーターには、停電時に床面で1ルクス以上の照度を確保することができる照明装置を設ける。\n設問の通りです。非常照明の床面照度と同じ値です。\n\n選択肢2. 乗用エレベーターには、1人当たりの体重を65kgとして計算した最大定員を明示した標識を掲示する。\n設問の通りです。乗用・寝台エレベータは、用途・積載量・最大定員を明示した標識をかご内に掲示する必要があります（建築基準法施行令第129条の6 5項）。最大定員は1人当たりの体重を65kgとして計算した定員となります。\n\n選択肢3. 火災時管制運転は、火災発生時にエレベーターを最寄階に停止させる機能である。\n誤りです。火災時管制運転は、火災発生時に防災センターの切り替えスイッチの作動や火災報知器の防災信号によりエレベータを「避難階」に停止する機能です。なお、地震時管制運転は、地震発生時にエレベーターを「最寄階」に停止させる機能です。火災の場合は避難を優先させ、地震の場合は扉の変形による閉じ込めの防止を優先させます。\n\n選択肢4. 群管理方式は、エレベーターを複数台まとめた群としての運転操作方式で、交通需要の変動に応じて効率的な運転管理を行うことができる。\n設問の通りです。エレベータの運転操作方式は、乗合全自動方式、群乗合全自動方式、全自動群管理方式等があります。順次同方向の利用者の乗場の呼びに応じて停止する乗合全自動方式に比べて、全自動群管理方式は利用状況の変動に応じて稼働台数や割り当てを適切に配分するため効率的な運転管理となります。",
+          "studyContent": "火災時管制運転は、地震感知器との連動による地震時管制運転の機能と混同しやすいので注意してください。\n・火災時管制運転：避難階に停止（避難優先）\n・地震時管制運転：最寄階に停止（閉じ込め防止）\n建築基準法34条1項、建築基準法施行令129条の3以降の「昇降機」の規定も覚えておきましょう。",
+          "question_vi": "Trong các mô tả về thang máy lắp đặt trong công trình, đâu là mô tả KHÔNG phù hợp nhất? (Loại trừ kết cấu hoặc dạng sử dụng đặc biệt.)",
+          "choices_vi": [
+            "Thang máy chở người phải có thiết bị chiếu sáng có thể đảm bảo độ rọi ≥ 1 lux ở mặt sàn khi mất điện.",
+            "Thang máy chở người phải có biển hiển thị số người tối đa, tính với 1 người là 65 kg.",
+            "Vận hành điều khiển khi cháy là chức năng làm thang máy dừng ở tầng GẦN NHẤT khi xảy ra cháy.",
+            "Phương thức quản lý theo nhóm là phương thức vận hành nhiều thang máy theo nhóm, có thể quản lý vận hành hiệu quả theo biến động nhu cầu giao thông."
+          ],
+          "explanation_vi": "Bài về thang máy.\n\nLựa chọn 1. Đèn khi mất điện.\nĐúng. Cùng trị số với đèn chiếu sáng khẩn cấp tại mặt sàn (≥ 1 lux).\n\nLựa chọn 2. Số người tối đa.\nĐúng. Theo Luật Tiêu chuẩn xây dựng (điều 129-6 mục 5), thang máy chở người/giường bệnh phải hiển thị: mục đích, tải trọng, số người tối đa. Số người tối đa tính 1 người = 65 kg.\n\nLựa chọn 3. Vận hành điều khiển khi cháy.\nSAI. Vận hành điều khiển khi cháy = dừng thang máy ở \"TẦNG SƠ TÁN\" (thường tầng 1), bằng tín hiệu từ trung tâm phòng cháy hoặc báo cháy. Còn vận hành khi ĐỘNG ĐẤT mới là dừng ở \"tầng gần nhất\". Cháy: ưu tiên sơ tán; Động đất: ưu tiên tránh kẹt người do biến dạng cửa.\n\nLựa chọn 4. Quản lý nhóm.\nĐúng. Có các phương thức: tự động ghép chung, tự động ghép chung nhóm, tự động quản lý nhóm hoàn toàn. Quản lý nhóm hoàn toàn phân bổ số thang máy hoạt động và lượt theo biến động sử dụng → vận hành hiệu quả hơn.",
+          "studyContent_vi": "Đừng nhầm: vận hành điều khiển khi CHÁY = dừng ở tầng SƠ TÁN; vận hành khi ĐỘNG ĐẤT = dừng ở tầng GẦN NHẤT. Cũng nên đọc thêm Luật Tiêu chuẩn xây dựng điều 34 mục 1 và Nghị định thi hành điều 129-3 trở đi."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 契約・規格 / 公共工事標準請負契約約款",
+      "vocabulary": "請負契約 - hợp đồng nhận thầu\n公共工事標準請負契約約款 - điều khoản tiêu chuẩn hợp đồng công trình công\n設計図書 - hồ sơ thiết kế\n図面 / 仕様書 - bản vẽ / quy cách kỹ thuật\n現場説明書 - tài liệu thuyết minh hiện trường\n質問回答書 - bản trả lời câu hỏi\n発注者 / 受注者 - chủ đầu tư / nhà thầu\n工事の完成 - hoàn thành công trình\n破壊検査 - thử nghiệm phá hoại\n工期 - thời gian thi công\n騒音、振動、地盤沈下 - tiếng ồn, rung động, lún đất\n第三者 - bên thứ ba",
+      "questions": [
+        {
+          "label": "Q20",
+          "question": "請負契約に関する記述として、「公共工事標準請負契約約款」上、誤っているものはどれか。",
+          "choices": [
+            "設計図書とは、図面及び仕様書をいい、現場説明書及び現場説明に対する質問回答書は含まない。",
+            "発注者は、工事の完成を確認するために必要があると認められるときは、その理由を受注者に通知して、工事目的物を最小限度破壊して検査することができる。",
+            "工期の変更については、発注者と受注者が協議して定める。ただし、予め定めた期間内に協議が整わない場合には、発注者が定め、受注者に通知する。",
+            "工事の施工に伴い通常避けることができない騒音、振動、地盤沈下、地下水の断絶等の理由により第三者に損害を及ぼしたときは、原則として、発注者がその損害を負担しなければならない。"
+          ],
+          "answer": "1",
+          "explanation": "公共工事標準請負契約約款に関する出題です。設計図書の構成要素の4点を覚えましょう。\n\n選択肢1. 設計図書とは、図面及び仕様書をいい、現場説明書及び現場説明に対する質問回答書は含まない。\n誤りです。設計図書とは、仕様書・図面・現場説明書・現場説明に対する質問回答書の4点を指します。設計図書には現場説明書と質問回答書も含みます。\n\n選択肢2. 発注者は、工事の完成を確認するために必要があると認められるときは、その理由を受注者に通知して、工事目的物を最小限度破壊して検査することができる。\n設問の通りです。なお破壊・修繕費用は、検査の結果合格の場合発注者負担、不合格の場合は受注者負担となるのが一般的です（事前協議や約款がある場合はそれに従います）。\n\n選択肢3. 工期の変更については、発注者と受注者が協議して定める。ただし、予め定めた期間内に協議が整わない場合には、発注者が定め、受注者に通知する。\n設問の通りです。\n\n選択肢4. 工事の施工に伴い通常避けることができない騒音、振動、地盤沈下、地下水の断絶等の理由により第三者に損害を及ぼしたときは、原則として、発注者がその損害を負担しなければならない。\n設問の通りです。",
+          "studyContent": "設計図書についての優先順位を問う問題もありますので、よく覚えておきましょう。\n優先順位：質問回答書＞現場説明書＞特記仕様書＞実施設計図＞標準仕様書\n設計図書の4要素：①図面 ②仕様書 ③現場説明書 ④質問回答書",
+          "question_vi": "Theo \"Điều khoản tiêu chuẩn hợp đồng nhận thầu công trình công\", đâu là mô tả SAI về hợp đồng nhận thầu?",
+          "choices_vi": [
+            "Hồ sơ thiết kế gồm bản vẽ và quy cách kỹ thuật, KHÔNG bao gồm tài liệu thuyết minh hiện trường và bản trả lời câu hỏi.",
+            "Khi cần xác nhận hoàn thành công trình, chủ đầu tư có thể thông báo lý do cho nhà thầu rồi kiểm tra bằng cách phá hoại tối thiểu đối tượng công trình.",
+            "Việc thay đổi thời gian thi công do chủ đầu tư và nhà thầu thoả thuận. Nếu không thoả thuận được trong thời hạn đã định, chủ đầu tư xác định và thông báo cho nhà thầu.",
+            "Khi gây thiệt hại cho bên thứ ba do tiếng ồn, rung động, lún đất, gián đoạn mạch nước ngầm v.v. không thể tránh khỏi trong thi công, về nguyên tắc chủ đầu tư phải gánh chịu thiệt hại đó."
+          ],
+          "explanation_vi": "Bài về Điều khoản tiêu chuẩn hợp đồng công trình công.\n\nLựa chọn 1. Hồ sơ thiết kế.\nSAI. Hồ sơ thiết kế gồm 4 thành phần: bản vẽ + quy cách kỹ thuật + tài liệu thuyết minh hiện trường + bản trả lời câu hỏi. Cả tài liệu thuyết minh hiện trường và bản trả lời câu hỏi cũng thuộc hồ sơ thiết kế.\n\nLựa chọn 2. Phá hoại để kiểm tra.\nĐúng. Khi kiểm tra mà đạt → chủ đầu tư chịu chi phí phá hoại/sửa chữa, nếu không đạt → nhà thầu chịu (theo thông lệ; có thoả thuận riêng thì theo thoả thuận).\n\nLựa chọn 3. Thay đổi thời gian thi công.\nĐúng.\n\nLựa chọn 4. Thiệt hại bên thứ ba.\nĐúng. Nguyên tắc: thiệt hại do tiếng ồn, rung động, lún đất, gián đoạn mạch nước ngầm... không tránh được → chủ đầu tư gánh chịu.",
+          "studyContent_vi": "Có đề hỏi thứ tự ưu tiên của các tài liệu trong hồ sơ thiết kế. Thứ tự: Bản trả lời câu hỏi > Tài liệu thuyết minh hiện trường > Quy cách đặc biệt > Bản vẽ thi công > Quy cách tiêu chuẩn. 4 thành phần hồ sơ thiết kế: ① Bản vẽ ② Quy cách kỹ thuật ③ Tài liệu thuyết minh hiện trường ④ Bản trả lời câu hỏi."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 仮設計画",
+      "vocabulary": "乗入れ構台 - sàn công tác xe ra/vào\n荷受け構台 - sàn nhận vật liệu\n支柱 - cột chống\n基礎、柱、梁、耐力壁 - móng, cột, dầm, tường chịu lực\n大引下端 - đáy dầm cái\n床スラブ上端 - mặt trên sàn\n作業荷重 - tải tác nghiệp\n自重 / 積載荷重 - trọng lượng bản thân / tải chất xếp\n全スパン - toàn nhịp\n荷重の分布 - phân bố tải",
+      "questions": [
+        {
+          "label": "Q21",
+          "question": "乗入れ構台及び荷受け構台の計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "乗入れ構台の支柱の位置は、基礎、柱、梁及び耐力壁を避け、5m間隔とした。",
+            "乗入れ構台の高さは、大引下端が床スラブ上端より10cm上になるようにした。",
+            "荷受け構台の作業荷重は、自重と積載荷重の合計の10％とした。",
+            "荷受け構台への積載荷重の偏りは、構台の全スパンの60％にわたって荷重が分布するものとした。"
+          ],
+          "answer": "2",
+          "explanation": "乗入れ構台及び荷受け構台に関する出題です。各種数値を覚えましょう。\n\n選択肢1. 乗入れ構台の支柱の位置は、基礎、柱、梁及び耐力壁を避け、5m間隔とした。\n設問の通りです。乗入れ構台の支柱の間隔は3〜6m以内とするため、5mは適切です。基礎・柱・梁及び耐力壁を避けるのは、将来乗入れ構台の支柱盛替えを最小限とするためです。\n\n選択肢2. 乗入れ構台の高さは、大引下端が床スラブ上端より10cm上になるようにした。\n誤りです。乗入れ構台がある状態で、床スラブを打設し、スラブ天端を押える必要があります。手が入って作業性が確保できる高さは20〜30cmとされているため、10cmでは不足します。乗入れ構台下の均しコンクリート作業を踏まえ、大引下端が床スラブ上端より30cm程度の空間を確保します。\n\n選択肢3. 荷受け構台の作業荷重は、自重と積載荷重の合計の10％とした。\n設問の通りです。\n\n選択肢4. 荷受け構台への積載荷重の偏りは、構台の全スパンの60％にわたって荷重が分布するものとした。\n設問の通りです。",
+          "studyContent": "乗入れ構台とは建築現場で設置する地下工事等の施工に欠かせない仮設の構造物です。荷受け構台とは地上の各階に資材を搬入するために足場などを使って作る構台です。\n・乗入れ構台支柱間隔：3〜6m\n・大引下端〜床スラブ上端：30cm程度\n・荷受け構台作業荷重：自重+積載荷重の10％\n・積載荷重の偏り分布：全スパンの60％",
+          "question_vi": "Trong các mô tả về quy hoạch sàn xe ra/vào và sàn nhận vật liệu, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Vị trí cột chống của sàn xe ra/vào tránh móng, cột, dầm và tường chịu lực, đặt cách 5 m một cột.",
+            "Chiều cao sàn xe ra/vào sao cho đáy dầm cái CAO HƠN mặt trên sàn 10 cm.",
+            "Tải tác nghiệp của sàn nhận vật liệu lấy bằng 10% tổng của trọng lượng bản thân và tải chất xếp.",
+            "Sự lệch tải chất xếp lên sàn nhận vật liệu được coi như phân bố trên 60% toàn nhịp của sàn."
+          ],
+          "explanation_vi": "Bài về sàn xe ra/vào và sàn nhận vật liệu.\n\nLựa chọn 1. Khoảng cách cột chống 5 m.\nĐúng. Khoảng cách cột chống của sàn xe ra/vào nên trong khoảng 3–6 m, nên 5 m là phù hợp. Tránh móng/cột/dầm/tường chịu lực để hạn chế việc dời cột chống về sau.\n\nLựa chọn 2. Khoảng cách 10 cm.\nSAI. Khi sàn xe đã có rồi mới đổ sàn bê tông, cần ép đầu mặt sàn. Để tay có thể vào và đảm bảo thao tác, cần 20–30 cm. 10 cm là không đủ. Tiêu chuẩn: đáy dầm cái cách mặt trên sàn khoảng 30 cm.\n\nLựa chọn 3. 10% tải.\nĐúng.\n\nLựa chọn 4. 60% nhịp.\nĐúng.",
+          "studyContent_vi": "Sàn xe ra/vào (乗入れ構台) là kết cấu phụ thiết yếu khi thi công ngầm. Sàn nhận vật liệu là sàn dùng giàn giáo để đưa vật liệu lên các tầng.\n• Khoảng cột chống sàn xe: 3–6 m\n• Đáy dầm cái–mặt sàn: khoảng 30 cm\n• Tải tác nghiệp sàn nhận vật liệu: 10% (tự trọng + tải chất xếp)\n• Phân bố lệch tải: 60% toàn nhịp"
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 土工事 / 地下水処理",
+      "vocabulary": "地下水処理工法 - phương pháp xử lý nước ngầm\nディープウェル工法 - phương pháp giếng sâu (deep well)\n安定期 - giai đoạn ổn định\n排水量 - lượng thoát nước\n透水性 - tính thấm nước\n粘性土 / 砂質土 - đất sét / đất cát\nウェルポイント工法 - phương pháp well point\n粗砂層 / シルト質細砂層 - lớp cát thô / lớp cát mịn pha silt\n気密保持 - duy trì kín khí\n漏気 - rò khí",
+      "questions": [
+        {
+          "label": "Q22",
+          "question": "地下水処理工法に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ディープウェル工法は、初期のほうが安定期よりも地下水の排水量が多い。",
+            "ディープウェル工法は、透水性の低い粘性土地盤の地下水位を低下させる場合に用いられる。",
+            "ウェルポイント工法は、透水性の高い粗砂層から低いシルト質細砂層までの地盤に用いられる。",
+            "ウェルポイント工法は、気密保持が重要であり、パイプの接続箇所で漏気が発生しないようにする。"
+          ],
+          "answer": "2",
+          "explanation": "地下水処理工法に関する出題です。各種工法について覚えましょう。\n\n選択肢1. ディープウェル工法は、初期のほうが安定期よりも地下水の排水量が多い。\n設問の通りです。初期のほうが地下水排水量が多く、安定期は初期よりも排水量が減ります。\n\n選択肢2. ディープウェル工法は、透水性の低い粘性土地盤の地下水位を低下させる場合に用いられる。\n誤りです。ディープウェル工法は深井戸工法とも呼ばれ、深井戸に集まった浸透水をポンプで揚排水する工法です。透水性のよい砂質土地盤の地下水位を低下させる場合に用いられます。透水性が低い地盤ですと、穴の中に水が集まりません。\n\n選択肢3. ウェルポイント工法は、透水性の高い粗砂層から低いシルト質細砂層までの地盤に用いられる。\n設問の通りです。ウェルポイント工法は、地面に一定の間隔で数多くのポンプを差し込むものです。\n\n選択肢4. ウェルポイント工法は、気密保持が重要であり、パイプの接続箇所で漏気が発生しないようにする。\n設問の通りです。パイプの気密保持が重要であり、パイプの接続箇所で漏気が発生すると、水がしっかりと排出できません。",
+          "studyContent": "ディープウェル工法は深井戸工法とも呼ばれ、深井戸に集まった浸透水をポンプで揚排水する工法。透水性が良い（砂質土）地盤に用いられる。\nウェルポイント工法は小さな井戸（ウェル）を多数設置し井戸ポンプで揚排水する工法。透水性の高い粗砂層から低いシルト質細砂層までの地盤に用いられる。気密保持が重要。",
+          "question_vi": "Trong các mô tả về phương pháp xử lý nước ngầm, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương pháp giếng sâu: lượng nước thoát ra giai đoạn đầu nhiều hơn giai đoạn ổn định.",
+            "Phương pháp giếng sâu dùng để hạ mực nước ngầm trong nền ĐẤT SÉT có tính thấm nước THẤP.",
+            "Phương pháp well point dùng cho nền từ lớp cát thô có tính thấm cao đến lớp cát mịn pha silt có tính thấm thấp.",
+            "Phương pháp well point cần duy trì kín khí; không để rò khí tại các điểm nối ống."
+          ],
+          "explanation_vi": "Bài về phương pháp xử lý nước ngầm.\n\nLựa chọn 1. Giai đoạn đầu lượng nước nhiều hơn.\nĐúng. Giai đoạn đầu lượng nước ngầm rút ra nhiều, sau đó giai đoạn ổn định thì giảm.\n\nLựa chọn 2. Giếng sâu cho đất sét thấm kém.\nSAI. Giếng sâu (deep well) là khoan giếng sâu, dùng bơm chìm để hút nước thấm vào. Phù hợp với nền ĐẤT CÁT có tính thấm CAO. Đất sét thấm kém thì nước không tụ vào giếng được.\n\nLựa chọn 3. Well point.\nĐúng. Well point cắm nhiều ống bơm nhỏ với khoảng cách đều xuống đất, phù hợp với loạt nền cát thô (thấm cao) đến cát mịn pha silt (thấm thấp).\n\nLựa chọn 4. Kín khí.\nĐúng. Phải kín khí tại điểm nối ống; nếu rò khí thì không hút được nước hiệu quả.",
+          "studyContent_vi": "Giếng sâu (deep well) = giếng sâu, bơm chìm hút nước thấm; dùng cho nền cát (thấm tốt).\nWell point = nhiều giếng nhỏ, ống bơm hút; dùng cho nền cát thô → cát mịn pha silt. Cần kín khí."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 杭工事 / 既製コンクリート杭",
+      "vocabulary": "既製コンクリート杭 - cọc bê tông đúc sẵn\n荷降ろし - dỡ hàng\n吊り上げ - cẩu lên\n杭長 - chiều dài cọc\n2点支持 - đỡ 2 điểm\n現場溶接継手 - mối nối hàn tại hiện trường\nアーク溶接 - hàn hồ quang\n継ぎ杭 - cọc nối\n下杭 / 上杭 - cọc dưới / cọc trên\n建て込み - dựng đặt cọc\n保持装置 - thiết bị giữ cọc\nPHC杭 - cọc PHC (Pretensioned High-strength Concrete)\nプレストレス - ứng lực trước\n補強 - gia cường",
+      "questions": [
+        {
+          "label": "Q23",
+          "question": "既製コンクリート杭の施工に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "荷降ろしのため杭を吊り上げる場合、安定するように杭の両端から杭長の1／10の2点を支持して吊り上げる。",
+            "杭に現場溶接継手を設ける際には、原則として、アーク溶接とする。",
+            "継ぎ杭で、下杭の上に杭を建て込む際には、接合中に下杭が動くことがないように、保持装置に固定する。",
+            "PHC杭の頭部を切断した場合、切断面から350mm程度まではプレストレスが減少しているため、補強を行う必要がある。"
+          ],
+          "answer": "1",
+          "explanation": "既製コンクリート杭の施工に関する出題です。\n\n選択肢1. 荷降ろしのため杭を吊り上げる場合、安定するように杭の両端から杭長の1／10の2点を支持して吊り上げる。\n誤りです。既製コンクリート杭の吊り上げは、支持点（杭の両端から杭長の1／5の点）近くの2点で支持します。1／10だと、杭の端に寄りすぎです。\n\n選択肢2. 杭に現場溶接継手を設ける際には、原則として、アーク溶接とする。\n設問の通りです。杭に現場溶接継手を設ける際は原則としてアーク溶接です。\n\n選択肢3. 継ぎ杭で、下杭の上に杭を建て込む際には、接合中に下杭が動くことがないように、保持装置に固定する。\n設問の通りです。継ぎ杭で下杭の上に杭を建て込む際には、接合中に下杭が動くことがないように、保持装置に固定します。保持装置に固定しなければ、下杭と上杭が繋がらなくなる可能性があります。\n\n選択肢4. PHC杭の頭部を切断した場合、切断面から350mm程度まではプレストレスが減少しているため、補強を行う必要がある。\n設問の通りです。PHC杭（遠心力高強度プレストレストコンクリート杭）はプレストレストコンクリートが使われており、頭部を切断するとプレストレスが減少するため、設計図書により補強を行う必要があります。",
+          "studyContent": "既製杭は杭工事でよく使われます。その中でもよく使われるのがPHC杭です。\n・杭の吊り上げ：両端から杭長の1／5の2点を支持\n・現場溶接：原則アーク溶接\n・継ぎ杭：下杭を保持装置に固定\n・PHC杭頭部切断時：350mmまで補強必要\n・杭の建て込み精度：傾斜1/100以内、杭径の1/4以内かつ100mm以内",
+          "question_vi": "Trong các mô tả về thi công cọc bê tông đúc sẵn, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi cẩu cọc để dỡ hàng, để ổn định, đỡ ở 2 điểm cách hai đầu cọc 1/10 chiều dài cọc.",
+            "Khi tạo mối nối hàn tại hiện trường cho cọc, về nguyên tắc dùng hàn hồ quang.",
+            "Với cọc nối, khi dựng cọc lên trên cọc dưới, để cọc dưới không di động trong quá trình nối, phải cố định cọc dưới bằng thiết bị giữ.",
+            "Khi cắt đầu cọc PHC, vì ứng lực trước đã giảm trong khoảng 350 mm tính từ mặt cắt nên cần gia cường."
+          ],
+          "explanation_vi": "Bài về thi công cọc bê tông đúc sẵn.\n\nLựa chọn 1. Đỡ 2 điểm 1/10 chiều dài.\nSAI. Cẩu cọc bê tông đúc sẵn phải đỡ ở 2 điểm gần điểm đỡ (cách 2 đầu = 1/5 chiều dài cọc). Nếu 1/10 thì gần đầu quá → kém ổn định.\n\nLựa chọn 2. Hàn hồ quang.\nĐúng. Mối nối hàn hiện trường cho cọc, theo nguyên tắc là hàn hồ quang.\n\nLựa chọn 3. Thiết bị giữ.\nĐúng. Khi dựng cọc trên cọc dưới, phải cố định cọc dưới bằng thiết bị giữ để không bị di chuyển trong quá trình nối — nếu không, cọc dưới và trên có thể không liền được.\n\nLựa chọn 4. PHC 350 mm.\nĐúng. Cọc PHC (cọc bê tông ứng lực trước cường độ cao quay ly tâm) dùng bê tông ứng lực trước; cắt đầu cọc làm giảm ứng lực trước nên cần gia cường theo hồ sơ thiết kế.",
+          "studyContent_vi": "Cọc đúc sẵn dùng nhiều, đặc biệt PHC. Nhớ:\n• Cẩu cọc: đỡ 2 điểm cách 2 đầu = 1/5 chiều dài cọc.\n• Hàn hiện trường: nguyên tắc là hàn hồ quang.\n• Cọc nối: cố định cọc dưới bằng thiết bị giữ.\n• Đầu cọc PHC bị cắt: gia cường trong khoảng 350 mm.\n• Sai số dựng cọc: nghiêng ≤ 1/100; lệch ≤ 1/4 đường kính cọc và ≤ 100 mm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 鉄筋工事 / 機械式継手",
+      "vocabulary": "機械式継手 - mối nối cơ khí (cốt thép)\nねじ節継手 - mối nối nút ren\nトルク方式 - phương thức siết mô men\nグラウト方式 - phương thức bơm vữa\nカップラー - bộ nối ren (coupler)\nロックナット - đai ốc khoá\nグラウト - vữa rót\n充填継手 - mối nối lấp đầy\n異形鉄筋 - cốt thép gân\n鋼管 (スリーブ) - ống thép (sleeve)\n端部ねじ継手 - mối nối ren đầu cốt\n圧接 - hàn áp lực\n雌ねじ加工 - gia công ren cái\n鋼管圧着継手 - mối nối ép ống thép",
+      "questions": [
+        {
+          "label": "Q24",
+          "question": "鉄筋の機械式継手に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "トルク方式のねじ節継手とは、カップラーを用いて鉄筋を接合する工法で、ロックナットを締め付けることで鉄筋とカップラーとの間の緩みを解消する。",
+            "グラウト方式のねじ節継手とは、カップラーを用いて鉄筋を接合する工法で、鉄筋とカップラーの節との空隙にグラウトを注入することで緩みを解消する。",
+            "充填継手とは、異形鉄筋の端部に鋼管（スリーブ）をかぶせた後、外側から加圧して鉄筋表面の節にスリーブを食い込ませて接合する工法である。",
+            "端部ねじ継手とは、端部をねじ加工した異形鉄筋、あるいは加工したねじ部を端部に圧接した異形鉄筋を使用し、雌ねじ加工されたカップラーを用いて接合する工法である。"
+          ],
+          "answer": "3",
+          "explanation": "鉄筋の機械式継手に関する出題です。建設省告示の「鉄筋の継手の構造方法を定める件」をよく理解しておきましょう。\n\n選択肢1. トルク方式のねじ節継手とは、カップラーを用いて鉄筋を接合する工法で、ロックナットを締め付けることで鉄筋とカップラーとの間の緩みを解消する。\n設問の通りです。トルク方式のねじ節継手は、ロックナットを締め付けることで鉄筋とカップラーとの間の緩みを解消し、カップラーを用いて鉄筋を接合する工法です。比較的単純な工法です。\n\n選択肢2. グラウト方式のねじ節継手とは、カップラーを用いて鉄筋を接合する工法で、鉄筋とカップラーの節との空隙にグラウトを注入することで緩みを解消する。\n設問の通りです。グラウト方式のねじ節継手は、鉄筋とカップラーの節との空隙にグラウトを注入することで緩みを解消し、カップラーを用いて鉄筋を接合する工法です。\n\n選択肢3. 充填継手とは、異形鉄筋の端部に鋼管（スリーブ）をかぶせた後、外側から加圧して鉄筋表面の節にスリーブを食い込ませて接合する工法である。\n誤りです。設問の内容は鋼管（スリーブ）圧着継手です。充填継手とは、内面の凹凸のついた比較的径の大きいスリーブに異形鉄筋の端部を挿入した後、スリーブ内に高強度の無収縮モルタル等を充填する方法です。\n\n選択肢4. 端部ねじ継手とは、端部をねじ加工した異形鉄筋、あるいは加工したねじ部を端部に圧接した異形鉄筋を使用し、雌ねじ加工されたカップラーを用いて接合する工法である。\n設問の通りです。",
+          "studyContent": "機械式継手は天候に左右されない施工方法である上、高い施工技術も不要です。様々な現場で採用されており、試験でも出題が増える可能性があります。\n・トルク方式ねじ節継手：ロックナット締付け\n・グラウト方式ねじ節継手：節空隙にグラウト注入\n・充填継手：スリーブ＋モルタル充填\n・鋼管圧着継手：スリーブを外側から加圧\n・端部ねじ継手：端部ねじ加工＋雌ねじカップラー",
+          "question_vi": "Trong các mô tả về mối nối cơ khí của cốt thép, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Mối nối nút ren phương thức mô men: dùng coupler nối cốt thép; siết đai ốc khoá để khử khe hở giữa cốt thép và coupler.",
+            "Mối nối nút ren phương thức vữa rót: dùng coupler nối cốt thép; bơm vữa vào khe hở giữa nút cốt thép và coupler để khử lỏng.",
+            "Mối nối lấp đầy: chụp ống thép (sleeve) lên đầu cốt thép gân, sau đó tạo áp từ bên ngoài cho sleeve cắn vào các gân bề mặt cốt thép để nối.",
+            "Mối nối ren đầu cốt: dùng cốt thép gân đã gia công ren đầu hoặc đã hàn áp lực ren ở đầu, nối qua coupler có gia công ren cái."
+          ],
+          "explanation_vi": "Bài về mối nối cơ khí của cốt thép.\n\nLựa chọn 1. Nút ren phương thức mô men.\nĐúng. Dùng coupler nối, siết đai ốc khoá để khử khe hở giữa cốt thép và coupler. Phương pháp khá đơn giản.\n\nLựa chọn 2. Nút ren phương thức vữa.\nĐúng. Nối qua coupler rồi bơm vữa vào khe hở giữa nút và coupler để khử lỏng.\n\nLựa chọn 3. Mối nối lấp đầy.\nSAI. Mô tả trong đề là MỐI NỐI ÉP ỐNG THÉP (鋼管圧着継手). Mối nối lấp đầy thực chất là: đưa đầu cốt thép gân vào sleeve có đường kính tương đối lớn, mặt trong có nhám, sau đó BƠM VỮA cường độ cao không co ngót vào trong sleeve.\n\nLựa chọn 4. Ren đầu cốt.\nĐúng. Dùng cốt thép gân đã gia công ren đầu (hoặc hàn áp lực phần ren vào đầu), nối qua coupler có ren cái.",
+          "studyContent_vi": "Mối nối cơ khí không phụ thuộc thời tiết, không cần tay nghề cao — ngày càng được ưa chuộng, có thể ra đề nhiều hơn.\n• Nút ren mô men: siết đai ốc khoá.\n• Nút ren vữa: bơm vữa.\n• Mối nối lấp đầy: sleeve + bơm vữa.\n• Mối nối ép ống thép: sleeve + ép ngoài.\n• Ren đầu cốt: ren đầu + coupler ren cái."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 型枠工事 / 型枠支保工",
+      "vocabulary": "型枠支保工 - giàn chống ván khuôn\n支柱 - cột chống\nパイプサポート - pipe support\n水平つなぎ - thanh nối ngang\n2方向 - 2 phương\n鋼管枠 - khung ống thép\n最上層 / 5層以内 - tầng trên cùng / trong vòng 5 tầng\n上端 - đầu trên\n作業荷重 - tải tác nghiệp\n鉛直荷重 - tải đứng\n水平荷重 - tải ngang\n安全な構造 - kết cấu an toàn",
+      "questions": [
+        {
+          "label": "Q25",
+          "question": "型枠支保工に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "支柱として用いるパイプサポートの高さが3.5mを超える場合、高さ2.5m以内ごとに水平つなぎを2方向に設けなければならない。",
+            "支柱として用いる鋼管枠は、最上層及び5層以内ごとに水平つなぎを設けなければならない。",
+            "支柱としてパイプサポートを用いる型枠支保工は、上端に作業荷重を含む鉛直荷重の5／100に相当する水平荷重が作用しても安全な構造でなければならない。",
+            "支柱として鋼管枠を用いる型枠支保工は、上端に作業荷重を含む鉛直荷重の2.5／100に相当する水平荷重が作用しても安全な構造でなければならない。"
+          ],
+          "answer": "1",
+          "explanation": "型枠支保工に関する出題です。型枠支保工とはコンクリートの型枠を支えて保持するために設置する仮設物です。\n\n選択肢1. 支柱として用いるパイプサポートの高さが3.5mを超える場合、高さ2.5m以内ごとに水平つなぎを2方向に設けなければならない。\n誤りです。支柱として用いるパイプサポートの高さが3.5mを超える場合は、高さ2.0m以内ごとに水平つなぎを2方向に設ける且つ、変位を防止しなければなりません。\n\n選択肢2. 支柱として用いる鋼管枠は、最上層及び5層以内ごとに水平つなぎを設けなければならない。\n設問の通りです。\n\n選択肢3. 支柱としてパイプサポートを用いる型枠支保工は、上端に作業荷重を含む鉛直荷重の5／100に相当する水平荷重が作用しても安全な構造でなければならない。\n設問の通りです。\n\n選択肢4. 支柱として鋼管枠を用いる型枠支保工は、上端に作業荷重を含む鉛直荷重の2.5／100に相当する水平荷重が作用しても安全な構造でなければならない。\n設問の通りです。",
+          "studyContent": "型枠支保工は数値の問題が多いので他の数値と混同しないように注意しましょう。\n・支柱が鋼管の場合：高さ2.0m以内ごとに水平つなぎを2方向\n・パイプサポートの場合：高さ3.5m超→高さ2.0m以内ごとに水平つなぎを2方向\n・組立鋼柱の場合：高さ4.0m超→高さ4.0m以内ごとに水平つなぎを2方向\n・水平荷重：パイプサポート5/100、鋼管枠2.5/100（鉛直荷重に対し）",
+          "question_vi": "Trong các mô tả về giàn chống ván khuôn, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi pipe support dùng làm cột chống cao quá 3,5 m, phải đặt thanh nối ngang theo 2 phương cứ mỗi 2,5 m chiều cao trở lại.",
+            "Khi dùng khung ống thép làm cột chống, phải đặt thanh nối ngang ở tầng trên cùng và cứ mỗi 5 tầng trở lại.",
+            "Giàn chống ván khuôn dùng pipe support phải có kết cấu an toàn cả khi đầu trên chịu tải ngang bằng 5/100 tải đứng (bao gồm tải tác nghiệp).",
+            "Giàn chống ván khuôn dùng khung ống thép phải có kết cấu an toàn cả khi đầu trên chịu tải ngang bằng 2,5/100 tải đứng (bao gồm tải tác nghiệp)."
+          ],
+          "explanation_vi": "Bài về giàn chống ván khuôn — kết cấu phụ để đỡ ván khuôn bê tông.\n\nLựa chọn 1. Pipe support cao >3,5 m, 2,5 m.\nSAI. Khi cao >3,5 m, phải đặt thanh nối ngang theo 2 phương cứ mỗi 2,0 m (không phải 2,5 m), đồng thời chống dịch chuyển.\n\nLựa chọn 2. Khung ống thép.\nĐúng.\n\nLựa chọn 3. Tải ngang 5/100.\nĐúng.\n\nLựa chọn 4. Tải ngang 2,5/100.\nĐúng.",
+          "studyContent_vi": "Số liệu nhiều — cẩn thận đừng nhầm:\n• Cột chống ống thép: thanh nối ngang 2 phương mỗi 2,0 m.\n• Pipe support cao >3,5 m: thanh nối ngang 2 phương mỗi 2,0 m.\n• Cột thép lắp ráp cao >4,0 m: thanh nối ngang 2 phương mỗi 4,0 m.\n• Tải ngang: pipe support 5/100, khung ống thép 2,5/100 (so với tải đứng)."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / コンクリート工事 / 打込み",
+      "vocabulary": "圧送 - bơm áp\nモルタル - vữa\n型枠内 - trong ván khuôn\n富調合 - tỉ lệ giàu (vữa)\n粗骨材 - cốt liệu thô\n最大寸法 - kích thước lớn nhất\n輸送管 - ống vận chuyển\n呼び寸法100A - cỡ danh nghĩa 100A\nコンクリート棒形振動機 - đầm dùi bê tông\n加振 - đầm\nセメントペースト - hồ xi măng\n練混ぜ開始 - bắt đầu trộn\n打込み終了 - kết thúc đổ\n外気温 - nhiệt độ không khí ngoài",
+      "questions": [
+        {
+          "label": "Q26",
+          "question": "コンクリートの運搬、打込み及び締固めに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "コンクリートの圧送開始前に圧送するモルタルは、型枠内に打ち込まないが、富調合のものとした。",
+            "圧送するコンクリートの粗骨材の最大寸法が20mmのため、呼び寸法100Aの輸送管を使用した。",
+            "コンクリート棒形振動機の加振は、セメントペーストが浮き上がるまでとした。",
+            "外気温が25℃を超えていたため、練混ぜ開始から打込み終了までの時間を120分以内とした。"
+          ],
+          "answer": "4",
+          "explanation": "コンクリートの運搬、打込み及び締固めに関する出題です。\n\n選択肢1. コンクリートの圧送開始前に圧送するモルタルは、型枠内に打ち込まないが、富調合のものとした。\n設問の通りです。圧送開始前に圧送するモルタル（先行モルタル）は、コンクリートを圧送する配管の流動性の確保を目的とし、型枠に打ち込まずに廃棄するのが一般的です。モルタルが富調合である分には全く問題ありません。\n\n選択肢2. 圧送するコンクリートの粗骨材の最大寸法が20mmのため、呼び寸法100Aの輸送管を使用した。\n設問の通りです。圧送するコンクリートの粗骨材の最大寸法が20、25mmの場合、呼び寸法100Aの輸送管を使用し、粗骨材の最大寸法が40mmの場合や軽量骨材である場合は、呼び寸法125Aの輸送管を使用します。\n\n選択肢3. コンクリート棒形振動機の加振は、セメントペーストが浮き上がるまでとした。\n設問の通りです。加振時間は一箇所あたり5秒から15秒程度となりますので、加振のし過ぎには注意が必要です。長時間加振すると、コンクリートの材料が分離してしまいます。\n\n選択肢4. 外気温が25℃を超えていたため、練混ぜ開始から打込み終了までの時間を120分以内とした。\n誤りです。練混ぜ開始から打込み終了までの時間の限度は、外気温25℃未満では120分以内、25℃以上では90分以内となります。なお、コンクリートを打継ぐ時間間隔としては、外気温25℃超に対し、120分以内で問題ありません。引っかからないように注意しましょう。",
+          "studyContent": "コンクリート工事は、品質に直結する重要分野です。\n・先行モルタル：富調合・型枠に打ち込まない\n・粗骨材20-25mm→輸送管100A、40mm or 軽量→125A\n・棒形振動機：セメントペーストが浮き上がるまで、5-15秒/箇所\n・練混ぜ〜打込み終了：外気温25℃未満で120分以内、25℃以上で90分以内\n・打継時間間隔：外気温25℃超で120分以内（別概念）",
+          "question_vi": "Trong các mô tả về vận chuyển, đổ và đầm bê tông, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Vữa bơm trước khi bắt đầu bơm bê tông không đổ vào ván khuôn mà dùng vữa tỉ lệ giàu.",
+            "Vì cốt liệu thô lớn nhất của bê tông được bơm là 20 mm, đã dùng ống vận chuyển cỡ danh nghĩa 100A.",
+            "Đầm bằng đầm dùi bê tông cho đến khi hồ xi măng nổi lên.",
+            "Vì nhiệt độ không khí ngoài >25 ℃, đã đặt thời gian từ lúc bắt đầu trộn đến lúc kết thúc đổ trong 120 phút."
+          ],
+          "explanation_vi": "Bài về vận chuyển/đổ/đầm bê tông.\n\nLựa chọn 1. Vữa bơm trước.\nĐúng. Vữa bơm trước (先行モルタル) chỉ để đảm bảo tính lưu động của đường ống bơm bê tông, thường bỏ đi không đổ vào ván khuôn. Vữa giàu cũng không vấn đề gì.\n\nLựa chọn 2. Ống 100A cho cốt liệu 20 mm.\nĐúng. Cốt liệu lớn nhất 20–25 mm → 100A; cốt liệu 40 mm hoặc cốt liệu nhẹ → 125A.\n\nLựa chọn 3. Đầm đến khi hồ xi măng nổi lên.\nĐúng. Thời gian đầm 5–15 giây/điểm. Đầm quá lâu sẽ làm phân tách vật liệu.\n\nLựa chọn 4. 120 phút khi >25 ℃.\nSAI. Thời gian từ lúc bắt đầu trộn đến lúc kết thúc đổ: <25 ℃ → trong 120 phút; ≥25 ℃ → trong 90 phút. (Lưu ý: thời gian giữa các lần đổ tiếp nối — \"khoảng cách đổ tiếp\" — thì 25 ℃ trở lên vẫn 120 phút; đừng nhầm hai khái niệm này.)",
+          "studyContent_vi": "Bê tông là phần ảnh hưởng trực tiếp đến chất lượng — phải nhớ chính xác:\n• Vữa bơm trước: giàu, KHÔNG đổ vào ván khuôn.\n• Cốt liệu 20–25 mm → ống 100A; 40 mm hoặc cốt liệu nhẹ → 125A.\n• Đầm dùi đến khi hồ xi măng nổi, 5–15 giây/điểm.\n• Trộn → đổ xong: <25 ℃ trong 120 phút; ≥25 ℃ trong 90 phút.\n• Khoảng cách đổ tiếp: >25 ℃ trong 120 phút (khái niệm khác)."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 鉄骨工事 / 建方",
+      "vocabulary": "鉄骨建方 - dựng kết cấu thép\n架構の倒壊防止 - chống đổ khung\nワイヤロープ - dây cáp\n建入れ直し - hiệu chỉnh dựng đứng\nスパンの寸法誤差 - sai số kích thước nhịp\n工場寸法検査 - kiểm tra kích thước tại nhà máy\n累積値 - giá trị tích lũy\nベースモルタル - vữa đế cột\n養生期間 - thời gian dưỡng hộ\nフランジ / ウェブ - cánh / bụng\n溶接接合 / 高力ボルト接合 - liên kết hàn / liên kết bu lông cường độ cao\n混用接合 - liên kết hỗn hợp\n仮ボルト - bu lông tạm\n1群 - 1 cụm\n2本以上 - 2 bu lông trở lên",
+      "questions": [
+        {
+          "label": "Q27",
+          "question": "鉄骨の建方に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "架構の倒壊防止用に使用するワイヤロープは、建入れ直し用に兼用してもよい。",
+            "スパンの寸法誤差が工場寸法検査で計測された各部材の寸法誤差の累積値以内となるよう、建入れ直し前にスパン調整を行う。",
+            "建方に先立って施工するベースモルタルは、養生期間を3日間以上とする。",
+            "梁のフランジを溶接接合、ウェブをボルトの配列が1列の高力ボルト接合とする混用接合の仮ボルトは、ボルト1群に対して1／3程度、かつ、2本以上締め付ける。"
+          ],
+          "answer": "4",
+          "explanation": "鉄骨の建方に関する出題です。\n\n選択肢1. 架構の倒壊防止用に使用するワイヤロープは、建入れ直し用に兼用してもよい。\n設問の通りです。架構の倒壊防止用に使用するワイヤロープ（仮設）は、建入れ直し用に兼用しても大丈夫です。建方時の予期しない外力に備えて、1日の建方終了ごとに所定の補強ワイヤを張ります。ただし、本設のターンバックル筋かいを用いて建入れ直しを行うのはダメです。\n\n選択肢2. スパンの寸法誤差が工場寸法検査で計測された各部材の寸法誤差の累積値以内となるよう、建入れ直し前にスパン調整を行う。\n設問の通りです。スパン間の計測寸法が正規より小さい場合は、ワイヤによる建入れ直しの前に、梁の接合部のクリアランスへのくさびの打込み等により押し広げてスパンを調整します。\n\n選択肢3. 建方に先立って施工するベースモルタルは、養生期間を3日間以上とする。\n設問の通りです。ベースモルタルは、十分強度が出てからでないと、建方を行ってはなりません。\n\n選択肢4. 梁のフランジを溶接接合、ウェブをボルトの配列が1列の高力ボルト接合とする混用接合の仮ボルトは、ボルト1群に対して1／3程度、かつ、2本以上締め付ける。\n誤りです。設問の内容は一般的な高力ボルト継手の場合です。混用接合や併用継手ではボルト1群に対して1／2程度、かつ、2本以上締め付けます。",
+          "studyContent": "鉄骨の建方手順をよく覚えておきましょう。\n・倒壊防止用ワイヤ：建入れ直しに兼用可（本設筋かいは不可）\n・スパン調整：建入れ直し前\n・ベースモルタル養生期間：3日間以上\n・仮ボルト本数：一般的な高力ボルト継手→1/3程度かつ2本以上、混用接合・併用継手→1/2程度かつ2本以上\n・混用接合は原則として高力ボルトを先に締め付け、その後溶接",
+          "question_vi": "Trong các mô tả về dựng kết cấu thép, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Dây cáp dùng để chống đổ khung có thể dùng kiêm cho việc hiệu chỉnh dựng đứng.",
+            "Để sai số nhịp nằm trong tổng tích lũy sai số đo của từng cấu kiện ở kiểm tra kích thước tại nhà máy, tiến hành điều chỉnh nhịp trước khi hiệu chỉnh dựng đứng.",
+            "Vữa đế cột thi công trước khi dựng phải dưỡng hộ ≥ 3 ngày.",
+            "Bu lông tạm cho mối nối hỗn hợp (cánh dầm hàn, bụng dầm dùng liên kết bu lông cường độ cao 1 hàng), siết khoảng 1/3 mỗi cụm bu lông và ≥ 2 bu lông."
+          ],
+          "explanation_vi": "Bài về dựng kết cấu thép.\n\nLựa chọn 1. Dây cáp dùng kiêm.\nĐúng. Dây cáp chống đổ khung (kết cấu tạm) có thể dùng kiêm cho hiệu chỉnh dựng đứng. Lưu ý: không được dùng giằng turnbuckle vĩnh viễn để hiệu chỉnh dựng đứng.\n\nLựa chọn 2. Điều chỉnh nhịp.\nĐúng. Nếu kích thước nhịp đo được nhỏ hơn quy định, trước khi hiệu chỉnh dựng đứng bằng cáp, dùng nêm chèn vào khe nối dầm để mở rộng và điều chỉnh nhịp.\n\nLựa chọn 3. Vữa đế cột.\nĐúng. Vữa đế cột phải đủ cường độ mới dựng — dưỡng hộ ≥ 3 ngày.\n\nLựa chọn 4. Bu lông tạm 1/3.\nSAI. 1/3 là cho mối nối bu lông cường độ cao thông thường. Với mối nối HỖN HỢP hoặc kết hợp, bu lông tạm cần ≥ 1/2 mỗi cụm bu lông VÀ ≥ 2 bu lông.",
+          "studyContent_vi": "Nhớ trình tự dựng kết cấu thép:\n• Cáp chống đổ: dùng kiêm hiệu chỉnh được (giằng turnbuckle vĩnh viễn thì không).\n• Điều chỉnh nhịp: trước hiệu chỉnh dựng đứng.\n• Vữa đế cột: dưỡng hộ ≥ 3 ngày.\n• Bu lông tạm: bu lông cường độ cao thông thường → 1/3 và ≥ 2; hỗn hợp/kết hợp → 1/2 và ≥ 2.\n• Mối hỗn hợp tại hiện trường: nguyên tắc siết bu lông cường độ cao trước, hàn sau."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 木工事 / 大断面集成材",
+      "vocabulary": "大断面集成材 - gỗ dán thanh tiết diện lớn (glulam)\n梁材 - dầm\n曲がり - cong\n許容誤差 - sai số cho phép\nドリフトピン - chốt dẫn (drift pin)\n下孔径 / 公称軸径 - đường kính lỗ chuẩn bị / đường kính danh nghĩa trục\nボルト孔の心ずれ - lệch tâm lỗ bu lông\n接合金物 - kim loại liên kết\nねじの呼び - cỡ danh nghĩa của ren (M16, ...)\n公称軸径 - đường kính danh nghĩa trục",
+      "questions": [
+        {
+          "label": "Q28",
+          "question": "大断面集成材を用いた木造建築物に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "梁材の曲がりの許容誤差は、長さの1／1,000とした。",
+            "集成材にあけるドリフトピンの下孔径は、ドリフトピンの公称軸径に2mmを加えたものとした。",
+            "集成材にあける標準的なボルト孔の心ずれは、許容誤差を±2mmとした。",
+            "接合金物にあけるボルト孔の大きさは、ねじの呼びがM16未満の場合は公称軸径に1mmを、M16以上の場合は1.5mmを加えたものとした。"
+          ],
+          "answer": "2",
+          "explanation": "大断面集成材を用いた木造建築物に関する出題です。\n\n選択肢1. 梁材の曲がりの許容誤差は、長さの1／1,000とした。\n設問の通りです。\n\n選択肢2. 集成材にあけるドリフトピンの下孔径は、ドリフトピンの公称軸径に2mmを加えたものとした。\n誤りです。集成材にあけるドリフトピンの下孔径は、特記がなければピン径（公称軸径）と同径とします。ドリフトピンの孔の径の許容誤差はありません。\n\n選択肢3. 集成材にあける標準的なボルト孔の心ずれは、許容誤差を±2mmとした。\n設問の通りです。\n\n選択肢4. 接合金物にあけるボルト孔の大きさは、ねじの呼びがM16未満の場合は公称軸径に1mmを、M16以上の場合は1.5mmを加えたものとした。\n設問の通りです。",
+          "studyContent": "今後大型建築物においても木材を使用する機会が多くなります。SDGsなどが重要性を増してきている昨今、こういった問題は増える傾向にあります。\n・梁材の曲がり許容誤差：長さの1/1,000\n・ドリフトピン下孔径：公称軸径と同径\n・ボルト孔心ずれ：±2mm\n・接合金物のボルト孔径：M16未満は+1mm、M16以上は+1.5mm",
+          "question_vi": "Trong các mô tả về công trình gỗ dùng gỗ dán thanh tiết diện lớn (glulam), đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Sai số cho phép của độ cong của dầm là 1/1000 chiều dài.",
+            "Đường kính lỗ chuẩn bị cho chốt dẫn (drift pin) khoan vào glulam lấy bằng đường kính danh nghĩa trục chốt CỘNG 2 mm.",
+            "Lệch tâm cho phép của lỗ bu lông tiêu chuẩn khoan vào glulam là ±2 mm.",
+            "Đường kính lỗ bu lông khoan trên kim loại liên kết: với cỡ ren <M16 thì cộng 1 mm, ≥M16 thì cộng 1,5 mm vào đường kính danh nghĩa trục."
+          ],
+          "explanation_vi": "Bài về công trình gỗ dùng glulam tiết diện lớn.\n\nLựa chọn 1. Cong dầm 1/1000.\nĐúng.\n\nLựa chọn 2. Lỗ drift pin +2 mm.\nSAI. Nếu không có quy định riêng, đường kính lỗ chuẩn bị cho drift pin trên glulam phải BẰNG đường kính danh nghĩa trục chốt (không cộng 2 mm). Lỗ drift pin không có sai số cho phép.\n\nLựa chọn 3. Lệch tâm bu lông ±2 mm.\nĐúng.\n\nLựa chọn 4. Lỗ trên kim loại liên kết.\nĐúng. <M16 → +1 mm; ≥M16 → +1,5 mm.",
+          "studyContent_vi": "Trong tương lai gỗ sẽ được dùng nhiều cho cả công trình lớn (xu hướng SDGs). Nhớ:\n• Cong dầm: 1/1000 chiều dài.\n• Lỗ drift pin: BẰNG đường kính danh nghĩa trục.\n• Lệch tâm bu lông: ±2 mm.\n• Lỗ trên kim loại liên kết: <M16 → +1 mm; ≥M16 → +1,5 mm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 建設機械",
+      "vocabulary": "建設機械 - máy thi công\nブルドーザー - máy ủi\n盛土 / 押土 / 整地 - đắp / dồn / san phẳng\nホイールクレーン - cẩu bánh lốp\n運転室 - cabin lái\n機動性 - tính cơ động\nアースドリル掘削機 - máy khoan earth drill\nリバース掘削機 - máy khoan đảo ngược (reverse)\n掘削能力 - năng lực khoan\nバックホウ - máy xúc gàu nghịch (backhoe)\n水中掘削 - đào dưới nước\n高い山の切取り - bóc đỉnh núi cao",
+      "questions": [
+        {
+          "label": "Q29",
+          "question": "建設機械に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ブルドーザーは、盛土、押土、整地の作業に適している。",
+            "ホイールクレーンは、同じ運転室内でクレーンと走行の操作ができ、機動性に優れている。",
+            "アースドリル掘削機は、一般にリバース掘削機に比べ、より深い掘削能力がある。",
+            "バックホウは、機械の位置より低い場所の掘削に適し、水中掘削も可能だが、高い山の切取りには適さない。"
+          ],
+          "answer": "3",
+          "explanation": "建設機械に関する出題です。それぞれの役目をよく理解してください。\n\n選択肢1. ブルドーザーは、盛土、押土、整地の作業に適している。\n設問の通りです。\n\n選択肢2. ホイールクレーンは、同じ運転室内でクレーンと走行の操作ができ、機動性に優れている。\n設問の通りです。\n\n選択肢3. アースドリル掘削機は、一般にリバース掘削機に比べ、より深い掘削能力がある。\n誤りです。アースドリル掘削機より、リバース掘削機の方がより深い掘削能力があります。機種と孔径によって異なりますが、アースドリルの掘削能力は50m程度、リバースの掘削能力は70m程度です。\n\n選択肢4. バックホウは、機械の位置より低い場所の掘削に適し、水中掘削も可能だが、高い山の切取りには適さない。\n設問の通りです。",
+          "studyContent": "建設機械の名称・用途を写真や動画で確認しましょう。\n・ブルドーザー：盛土・押土・整地\n・ホイールクレーン：機動性に優れる\n・アースドリル：掘削能力50m程度\n・リバース掘削機：掘削能力70m程度（深い掘削）\n・バックホウ：低位置・水中掘削可、高所不可\n建設機械の問題はひっかけ問題を作りやすいので、呼称と用途をよく把握しておきましょう。",
+          "question_vi": "Trong các mô tả về máy thi công, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Máy ủi (bulldozer) thích hợp cho các công tác đắp đất, dồn đất, san phẳng.",
+            "Cẩu bánh lốp (wheel crane) có thể vừa điều khiển cẩu vừa di chuyển từ cùng cabin, có tính cơ động tốt.",
+            "Máy khoan earth drill nói chung có năng lực khoan SÂU HƠN máy khoan đảo ngược (reverse).",
+            "Máy xúc gàu nghịch (backhoe) thích hợp với đào ở vị trí thấp hơn vị trí máy, có thể đào dưới nước, nhưng không thích hợp cho bóc đỉnh núi cao."
+          ],
+          "explanation_vi": "Bài về máy thi công.\n\nLựa chọn 1. Bulldozer.\nĐúng.\n\nLựa chọn 2. Wheel crane.\nĐúng.\n\nLựa chọn 3. Earth drill vs reverse.\nSAI. Máy khoan REVERSE có năng lực khoan SÂU HƠN earth drill. Tuỳ loại máy và đường kính lỗ, nhưng tham khảo: earth drill ~50 m, reverse ~70 m.\n\nLựa chọn 4. Backhoe.\nĐúng. Phù hợp đào dưới vị trí máy, có thể đào dưới nước, không phù hợp bóc đỉnh núi cao.",
+          "studyContent_vi": "Xem tên và công dụng máy thi công qua ảnh/video. Nhớ:\n• Bulldozer: đắp/dồn/san phẳng.\n• Wheel crane: cơ động cao.\n• Earth drill: khoan ~50 m.\n• Reverse: khoan ~70 m (sâu hơn).\n• Backhoe: đào dưới vị trí máy, đào dưới nước được, không phù hợp đào đỉnh cao.\nMáy thi công hay bị làm bẫy → nắm chắc tên và công dụng."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 改修工事 / 耐震改修",
+      "vocabulary": "鉄筋コンクリート造の耐震改修工事 - cải tạo kháng chấn công trình BTCT\n現場打ち鉄筋コンクリート耐震壁の増設工事 - thi công bổ sung tường kháng chấn BTCT đổ tại chỗ\n増設壁上部 - đầu trên tường bổ sung\n既存梁下 - đáy dầm hiện hữu\nグラウト材 - vật liệu vữa rót\n練上り時の温度 - nhiệt độ khi trộn xong\nあと施工アンカー - neo lắp sau\n接着系アンカー - neo dán\n上向き - hướng lên\nくさび - nêm\nアンカー筋 - thanh neo\nコンクリート圧入工法 - phương pháp ép bê tông\n打継ぎ面 - mặt nối\n目荒し - làm nhám bề mặt\n電動ピック - búa điện",
+      "questions": [
+        {
+          "label": "Q30",
+          "question": "鉄筋コンクリート造の耐震改修工事における現場打ち鉄筋コンクリート耐震壁の増設工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "増設壁上部と既存梁下との間に注入するグラウト材の練上り時の温度は、練り混ぜる水の温度を管理し、10〜35℃の範囲とする。",
+            "あと施工アンカー工事において、接着系アンカーを既存梁下端に上向きで施工する場合、くさび等を打ってアンカー筋の脱落防止の処置を行う。",
+            "コンクリートポンプ等の圧送力を利用するコンクリート圧入工法は、既存梁下との間に隙間が生じやすいため、採用しない。",
+            "増設壁との打継ぎ面となる既存柱や既存梁に施す目荒しの面積の合計は、電動ピック等を用いて、打継ぎ面の15〜30％程度となるようにする。"
+          ],
+          "answer": "3",
+          "explanation": "RC造の耐震改修工事における耐震壁増設工事に関する出題です。\n\n選択肢1. 増設壁上部と既存梁下との間に注入するグラウト材の練上り時の温度は、練り混ぜる水の温度を管理し、10〜35℃の範囲とする。\n設問の通りです。水の温度が管理値を超えると硬化後の強度が保証されません。\n\n選択肢2. あと施工アンカー工事において、接着系アンカーを既存梁下端に上向きで施工する場合、くさび等を打ってアンカー筋の脱落防止の処置を行う。\n設問の通りです。\n\n選択肢3. コンクリートポンプ等の圧送力を利用するコンクリート圧入工法は、既存梁下との間に隙間が生じやすいため、採用しない。\n誤りです。コンクリート圧入工法は、ポンプなどで圧力を加えながら型枠内部に打ち込む工法で、既存梁下と耐震増設壁との接合をより確実に行えます。採用できます。その際、片側から圧入し、反対側からコンクリートが漏れ出てくるのを目視する必要があります。両側から圧入をすると、梁下の中央部に空隙が残る恐れがあるためです。\n\n選択肢4. 増設壁との打継ぎ面となる既存柱や既存梁に施す目荒しの面積の合計は、電動ピック等を用いて、打継ぎ面の15〜30％程度となるようにする。\n設問の通りです。",
+          "studyContent": "RC造の耐震改修工事における基礎的な問題となります。\n・グラウト材練上り温度：10〜35℃\n・接着系アンカー上向き施工：くさびで脱落防止\n・コンクリート圧入工法：採用可、片側から圧入、ポンプの脈動が少ないものを選ぶ\n・打継ぎ面の目荒し：打継ぎ面の15〜30％程度",
+          "question_vi": "Trong các mô tả về thi công bổ sung tường kháng chấn BTCT đổ tại chỗ trong công trình cải tạo kháng chấn RC, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Nhiệt độ vữa rót giữa đầu trên tường bổ sung và đáy dầm hiện hữu khi trộn xong cần kiểm soát nhiệt độ nước trộn, trong khoảng 10–35 ℃.",
+            "Thi công neo lắp sau, khi neo dán hướng lên ở đáy dầm hiện hữu, phải đóng nêm v.v. để chống tuột thanh neo.",
+            "Phương pháp ép bê tông dùng lực bơm của bơm bê tông KHÔNG ÁP DỤNG vì dễ tạo khe hở với đáy dầm hiện hữu.",
+            "Tổng diện tích làm nhám trên cột/dầm hiện hữu tại mặt nối với tường bổ sung, dùng búa điện v.v., khoảng 15–30% mặt nối."
+          ],
+          "explanation_vi": "Bài về thi công bổ sung tường kháng chấn BTCT đổ tại chỗ trong cải tạo kháng chấn.\n\nLựa chọn 1. Vữa rót 10–35 ℃.\nĐúng. Nếu nhiệt độ nước vượt giá trị kiểm soát thì cường độ sau đông cứng không được đảm bảo.\n\nLựa chọn 2. Neo dán hướng lên.\nĐúng.\n\nLựa chọn 3. Phương pháp ép bê tông.\nSAI. Phương pháp ép bê tông (vừa bơm vừa đổ với áp lực) GIÚP NỐI CHẮC CHẮN giữa tường bổ sung và đáy dầm hiện hữu, nên CÓ THỂ áp dụng. Lưu ý: ép từ một bên, quan sát bê tông trào ra từ bên đối diện. Ép cả hai bên sẽ tạo khoảng trống ở giữa đáy dầm. Chọn loại bơm ít rung mạch.\n\nLựa chọn 4. Làm nhám 15–30%.\nĐúng.",
+          "studyContent_vi": "Bài cơ bản về cải tạo kháng chấn RC, nhớ:\n• Vữa rót: nhiệt độ trộn xong 10–35 ℃ (qua kiểm soát nhiệt độ nước).\n• Neo dán hướng lên: dùng nêm chống tuột.\n• Phương pháp ép bê tông: ÁP DỤNG ĐƯỢC, ép một bên, quan sát đối diện; chọn bơm ít rung mạch.\n• Làm nhám mặt nối: 15–30% diện tích."
+        }
+      ]
+    }
+  ]
+}
