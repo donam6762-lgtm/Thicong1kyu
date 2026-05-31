@@ -1,0 +1,358 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 01_建築学等 / 環境工学",
+      "vocabulary": "日照 (にっしょう) - nắng/chiếu nắng\n日射 (にっしゃ) - bức xạ mặt trời\n北緯 (ほくい) - vĩ độ Bắc\n南面 (なんめん) - mặt Nam\n垂直壁面 (すいちょくへきめん) - mặt tường thẳng đứng\n可照時間 (かしょうじかん) - giờ có thể chiếu nắng\n夏至日 (げしび) - ngày hạ chí\n冬至日 (とうじび) - ngày đông chí\n日影規制 (にちえいきせい) - quy định bóng đổ\n中高層建築物 (ちゅうこうそうけんちくぶつ) - công trình trung-cao tầng\n敷地境界線 (しきちきょうかいせん) - đường ranh đất\n水平ルーバー (すいへいるーばー) - lam ngang\n縦ルーバー (たてるーばー) - lam đứng\n東西面 (とうざいめん) - mặt Đông Tây\n全天日射 (ぜんてんにっしゃ) - bức xạ toàn bầu trời\n直達日射 (ちょくたつにっしゃ) - bức xạ trực tiếp\n天空日射 (てんくうにっしゃ) - bức xạ bầu trời (khuếch tán)\n採光 (さいこう) - lấy sáng\n照明 (しょうめい) - chiếu sáng\n横幅 (よこはば) - chiều ngang\n奥行き (おくゆき) - chiều sâu\n光源 (こうげん) - nguồn sáng\n作業面 (さぎょうめん) - mặt làm việc\n室指数 (しつしすう) - chỉ số phòng\n全天空照度 (ぜんてんくうしょうど) - độ rọi toàn bầu trời\n快晴 (かいせい) - trời quang\n薄曇り (うすぐもり) - mây mỏng\n照度 (しょうど) - độ rọi (lux)\nルクス (るくす) - lux (lx)\n受照面 (じゅしょうめん) - mặt nhận sáng\n入射光束 (にゅうしゃこうそく) - quang thông tới\n光度 (こうど) - cường độ sáng\nカンデラ (かんでら) - candela (cd)\n輝度 (きど) - độ chói\n吸音 (きゅうおん) - tiêu âm/hấp thụ âm\n遮音 (しゃおん) - cách âm\n音響透過率 (おんきょうとうかりつ) - tỉ lệ truyền âm\n遮音性能 (しゃおんせいのう) - hiệu năng cách âm\n多孔質 (たこうしつ) - dạng xốp/nhiều lỗ\n低音域 (ていおんいき) - vùng tần thấp\n高音域 (こうおんいき) - vùng tần cao\n単層壁 (たんそうへき) - tường đơn lớp\n面密度 (めんみつど) - mật độ bề mặt\n音響透過損失 (おんきょうとうかそんしつ) - tổn thất truyền âm\n室間音圧レベル差 (しつかんおんあつれべるさ) - chênh lệch mức áp âm giữa phòng\n遮音等級 (しゃおんとうきゅう) - cấp cách âm\nD値 (Dち) - giá trị D",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "日照及び日射に関する記述として、最も不適当なものはどれか。\n1. 北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。\n2. 日影規制は、中高層建築物が敷地境界線から一定の距離を超える範囲に生じさせる、冬至日における日影の時間を制限している。\n3. 水平ルーバーは東西面の日射を遮るのに効果があり、縦ルーバーは南面の日射を遮るのに効果がある。\n4. 全天日射は、直達日射と天空日射を合計したものである。",
+          "choices": [
+            "北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。",
+            "日影規制は、中高層建築物が敷地境界線から一定の距離を超える範囲に生じさせる、冬至日における日影の時間を制限している。",
+            "水平ルーバーは東西面の日射を遮るのに効果があり、縦ルーバーは南面の日射を遮るのに効果がある。",
+            "全天日射は、直達日射と天空日射を合計したものである。"
+          ],
+          "answer": "3",
+          "explanation": "日照・日射・日影に関する出題です。\n\n選択肢1. 北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。\n北緯35°における南面の垂直壁面の可照時間は、太陽高度の高い夏至が最短となります。春秋分>冬至>夏至。逆に、水平面の可照時間は夏至日のほうが冬至日より長くなりますので、併せて覚えましょう。\n\n選択肢2. 日影規制は、中高層建築物が敷地境界線から一定の距離を超える範囲に生じさせる、冬至日における日影の時間を制限している。\n設問の通りです。冬至日において、中高層建築物は大きな影を発生させます。このため、冬至日における日影の時間を制限する「日影規制」があります。具体的な数値は条例などで定められています。\n\n選択肢3. 水平ルーバーは東西面の日射を遮るのに効果があり、縦ルーバーは南面の日射を遮るのに効果がある。\n誤りです。縦ルーバーは東西面の日射を遮るのに効果があり、水平ルーバーは南面の日射を遮るのに効果があります。水平ルーバーを南面に設置すれば、夏は日差しを遮ってくれます。加えて、冬には、高度が低くなった太陽からの日差しが入ってくるため、部屋を暖かくすることができます。ルーバーは、方角に応じて使い分けましょう。\n\n選択肢4. 全天日射は、直達日射と天空日射を合計したものである。\n設問の通りです。全天日射＝直達日射+天空日射となります。",
+          "studyContent": "ルーバーの方角別効果（水平=南、縦=東西）、可照時間の季節差（南面垂直壁は冬至が最長）、全天日射の構成（直達+天空）を確実に押さえましょう。",
+          "question_vi": "Trong các nội dung về nắng và bức xạ mặt trời, nội dung nào KHÔNG phù hợp nhất?\n1. Tại vĩ độ Bắc 35°, giờ chiếu nắng mặt tường đứng hướng Nam dài hơn vào ngày đông chí so với ngày hạ chí.\n2. Quy định bóng đổ giới hạn thời gian bóng đổ ngày đông chí phạm vi vượt khoảng cách nhất định từ đường ranh đất, do công trình trung-cao tầng tạo ra.\n3. Lam ngang có hiệu quả che bức xạ mặt Đông/Tây; lam đứng có hiệu quả che bức xạ mặt Nam.\n4. Bức xạ toàn bầu trời là tổng bức xạ trực tiếp và bức xạ bầu trời khuếch tán.",
+          "choices_vi": [
+            "Vĩ độ 35°, mặt tường Nam dài giờ nắng vào đông chí hơn hạ chí.",
+            "Quy định bóng đổ giới hạn bóng đổ ngày đông chí.",
+            "Lam ngang chắn Đông/Tây; lam đứng chắn Nam.",
+            "Bức xạ toàn bầu trời = trực tiếp + bầu trời."
+          ],
+          "explanation_vi": "Lựa chọn 1: ĐÚNG. Mặt tường đứng hướng Nam có giờ nắng dài nhất vào đông chí (do mặt trời lên thấp). Ngược lại, mặt phẳng ngang dài nhất vào hạ chí.\n\nLựa chọn 2: ĐÚNG. Quy định bóng đổ tính theo ngày đông chí.\n\nLựa chọn 3: SAI. NGƯỢC LẠI: lam ĐỨNG chắn Đông/Tây (mặt trời thấp); lam NGANG chắn Nam (mặt trời cao vào hè).\n\nLựa chọn 4: ĐÚNG. Toàn bầu trời = trực tiếp + khuếch tán.",
+          "studyContent_vi": "Nhớ: lam NGANG → Nam (chắn mặt trời cao); lam ĐỨNG → Đông/Tây (chắn mặt trời thấp)."
+        },
+        {
+          "label": "Q2",
+          "question": "採光及び照明に関する記述として、最も不適当なものはどれか。\n1. 横幅と奥行きが同じ室において、光源と作業面の距離が離れるほど、室指数は小さくなる。\n2. 設計用全天空照度は、快晴の青空のときのほうが薄曇りのときよりも小さな値となる。\n3. 照度は、単位をルクス（lx）で示し、受照面の単位面積当たりの入射光束のことをいう。\n4. 光度は、単位をカンデラ（cd）で示し、反射面を有する受照面の光の面積密度のことをいう。",
+          "choices": [
+            "横幅と奥行きが同じ室において、光源と作業面の距離が離れるほど、室指数は小さくなる。",
+            "設計用全天空照度は、快晴の青空のときのほうが薄曇りのときよりも小さな値となる。",
+            "照度は、単位をルクス（lx）で示し、受照面の単位面積当たりの入射光束のことをいう。",
+            "光度は、単位をカンデラ（cd）で示し、反射面を有する受照面の光の面積密度のことをいう。"
+          ],
+          "answer": "4",
+          "explanation": "採光・照明についての出題です。\n\n選択肢1. 横幅と奥行きが同じ室において、光源と作業面の距離が離れるほど、室指数は小さくなる。\n室指数の値が小さいほど、室が天井高に比べて水平方向に狭い形状であるので、光源と作業面の距離が離れるほど、室指数は小さくなります。部屋の形状によって、同じ光源でも、まったく違う明るさになります。このように、部屋の形状が照度に与える影響を数値化したものが、室指数になります。\n\n選択肢2. 設計用全天空照度は、快晴の青空のときのほうが薄曇りのときよりも小さな値となる。\n設問の通りです。薄曇りの日には、空に広がる雲に太陽の光が乱反射し、照度が高くなります。\n\n選択肢3. 照度は、単位をルクス（lx）で示し、受照面の単位面積当たりの入射光束のことをいう。\n設問の通りです。照度は、光束/面積で求めるものです。ちなみに目で見た明るさと直接的に関係があるのは、輝度です。\n\n選択肢4. 光度は、単位をカンデラ（cd）で示し、反射面を有する受照面の光の面積密度のことをいう。\n誤りです。反射面を有する受照面の光の面積密度のことは輝度です。光度は単位立体角あたりの光束をいいます。輝度はディスプレイの明るさなどを表す際に用いられる指標です。一方、光度は単位立体角あたりの光束をいい、電灯や星の明るさを表す際に用いられる指標です。",
+          "studyContent": "光に関する4指標（光束lm、光度cd、照度lx、輝度cd/m²）を正確に区別して覚えましょう。光度は単位立体角あたりの光束、輝度は単位面積あたりの光度。",
+          "question_vi": "Trong các nội dung về lấy sáng và chiếu sáng, nội dung nào KHÔNG phù hợp nhất?\n1. Trong phòng có chiều ngang và chiều sâu bằng nhau, khoảng cách nguồn sáng đến mặt làm việc càng lớn thì chỉ số phòng càng nhỏ.\n2. Độ rọi toàn bầu trời thiết kế ở trời quang xanh nhỏ hơn lúc mây mỏng.\n3. Độ rọi đơn vị là lux (lx), là quang thông tới trên đơn vị diện tích mặt nhận sáng.\n4. Cường độ sáng đơn vị candela (cd), là mật độ ánh sáng trên đơn vị diện tích mặt nhận có phản xạ.",
+          "choices_vi": [
+            "Khoảng cách nguồn sáng-mặt làm việc tăng → chỉ số phòng giảm.",
+            "Trời quang có độ rọi thiết kế nhỏ hơn mây mỏng.",
+            "Độ rọi = lux, là quang thông trên diện tích mặt nhận.",
+            "Cường độ sáng = candela, là mật độ ánh sáng mặt nhận có phản xạ."
+          ],
+          "explanation_vi": "Lựa chọn 1: ĐÚNG. Khoảng cách càng xa → chỉ số phòng nhỏ.\n\nLựa chọn 2: ĐÚNG. Trời quang có độ rọi thiết kế nhỏ hơn vì mây tán xạ ánh sáng làm tăng độ rọi bầu trời.\n\nLựa chọn 3: ĐÚNG. Định nghĩa chuẩn của độ rọi.\n\nLựa chọn 4: SAI. Mật độ ánh sáng mặt nhận có phản xạ là ĐỘ CHÓI (輝度, đơn vị cd/m²), KHÔNG phải cường độ sáng. Cường độ sáng (光度, cd) là quang thông trên đơn vị góc khối.",
+          "studyContent_vi": "Phân biệt 4 đại lượng: quang thông (lm), cường độ sáng (cd), độ rọi (lx), độ chói (cd/m²)."
+        },
+        {
+          "label": "Q3",
+          "question": "吸音及び遮音に関する記述として、最も不適当なものはどれか。\n1. 吸音材は、音響透過率が高いため、遮音性能は低い。\n2. 多孔質の吸音材は、一般に低音域より高音域の吸音に効果がある。\n3. 単層壁において、面密度が大きいほど、音響透過損失は小さくなる。\n4. 室間音圧レベル差の遮音等級はD値で表され、D値が大きいほど遮音性能は高い。",
+          "choices": [
+            "吸音材は、音響透過率が高いため、遮音性能は低い。",
+            "多孔質の吸音材は、一般に低音域より高音域の吸音に効果がある。",
+            "単層壁において、面密度が大きいほど、音響透過損失は小さくなる。",
+            "室間音圧レベル差の遮音等級はD値で表され、D値が大きいほど遮音性能は高い。"
+          ],
+          "answer": "3",
+          "explanation": "音に関する出題です。\n\n選択肢1. 吸音材は、音響透過率が高いため、遮音性能は低い。\n設問の通りです。遮音材は入射音に対して透過する音が小さく、吸音材は入射する音に対して反射する音が小さくなります。吸音材は音を吸収するために音響透過率が高く、遮音性能は一般的に低いです。吸音材の効果を最大限に発揮するためには、遮音材などと組み合わせる必要があります。\n\n選択肢2. 多孔質の吸音材は、一般に低音域より高音域の吸音に効果がある。\n設問の通りです。多孔質の吸音材（グラスウール）は、一般に低音域より高音域の吸音に効果があります。一般的に、低音域の音を排除することは、極めて困難であると言われています。\n\n選択肢3. 単層壁において、面密度が大きいほど、音響透過損失は小さくなる。\n誤りです。質量則により、面密度が大きいほど、音響透過損失は大きくなります。基本的に、どのような壁でも、面密度が大きいほど、音を通しにくくなります。音響透過損失は、読んで字のごとく、音が損失することです。\n\n選択肢4. 室間音圧レベル差の遮音等級はD値で表され、D値が大きいほど遮音性能は高い。\n音源室と受音室の音圧レベル差を測定し、D値で評価します。D値が大きいほど遮音性能は高くなります。",
+          "studyContent": "吸音及び遮音に関して、用語の定義をよく確認することが重要です。音響透過損失や音響透過率など、音が透過するのか透過しないのか紛らわしい用語もありますので、よく注意するようにしましょう。質量則：面密度↑→透過損失↑。",
+          "question_vi": "Trong các nội dung về tiêu âm và cách âm, nội dung nào KHÔNG phù hợp nhất?\n1. Vật liệu tiêu âm có tỉ lệ truyền âm cao nên hiệu năng cách âm thấp.\n2. Vật liệu tiêu âm dạng xốp nói chung có hiệu quả tiêu âm vùng tần cao hơn vùng tần thấp.\n3. Đối với tường đơn lớp, mật độ bề mặt càng lớn thì tổn thất truyền âm càng nhỏ.\n4. Cấp cách âm chênh lệch mức áp âm giữa phòng biểu thị bằng giá trị D; D càng lớn thì hiệu năng cách âm càng cao.",
+          "choices_vi": [
+            "Vật liệu tiêu âm có truyền âm cao → cách âm thấp.",
+            "Vật liệu tiêu âm xốp hiệu quả với tần cao hơn tần thấp.",
+            "Tường đơn lớp: mật độ bề mặt lớn → tổn thất truyền âm nhỏ.",
+            "Cấp cách âm dùng giá trị D; D lớn → cách âm cao."
+          ],
+          "explanation_vi": "Lựa chọn 1: ĐÚNG.\n\nLựa chọn 2: ĐÚNG. Vật liệu xốp hiệu quả với tần cao.\n\nLựa chọn 3: SAI. Theo định luật khối lượng, mật độ bề mặt càng LỚN thì tổn thất truyền âm càng LỚN (truyền âm khó hơn), KHÔNG phải nhỏ.\n\nLựa chọn 4: ĐÚNG. D càng lớn → cách âm tốt.",
+          "studyContent_vi": "Định luật khối lượng: mật độ bề mặt ↑ → tổn thất truyền âm ↑ → cách âm tốt."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 01_建築学等 / 各種構造",
+      "vocabulary": "免震構造 (めんしんこうぞう) - kết cấu cách chấn\nアイソレータ (あいそれーた) - bộ cách ly\n上部構造 (じょうぶこうぞう) - kết cấu phần trên\n水平変形 (すいへいへんけい) - biến dạng ngang\n復元力 (ふくげんりょく) - lực phục hồi\n免震部材 (めんしんぶざい) - cấu kiện cách chấn\n重心 (じゅうしん) - tâm trọng lực\n剛心 (ごうしん) - tâm cứng\nねじれ応答 (ねじれおうとう) - phản ứng xoắn\n免震層 (めんしんそう) - tầng cách chấn\nクリアランス (くりあらんす) - khe hở\n地盤 (じばん) - nền đất\nダンパー (だんぱー) - bộ giảm chấn\n鉄筋コンクリート構造 (てっきんこんくりーとこうぞう) - kết cấu BTCT\n柱 (はしら) - cột\n最小径 (さいしょうけい) - đường kính nhỏ nhất\n構造耐力上 (こうぞうたいりょくじょう) - về mặt chịu lực\n主要 (しゅよう) - chính/chủ yếu\n支点間 (してんかん) - giữa các điểm tựa\n耐震壁 (たいしんへき) - tường chịu lực động đất\nせん断補強筋比 (せんだんほきょうきんひ) - tỉ lệ thép gia cường cắt\n直交 (ちょっこう) - vuông góc\n床スラブ (ゆかすらぶ) - sàn slab\n配筋 (はいきん) - bố trí thép\n全幅 (ぜんぷく) - toàn chiều rộng\n全断面積 (ぜんだんめんせき) - tổng diện tích mặt cắt\n梁貫通孔 (はりかんつうこう) - lỗ xuyên dầm\n梁端部 (はりたんぶ) - đầu dầm\n孔径 (こうけい) - đường kính lỗ\n梁せい (はりせい) - chiều cao dầm\n鉄骨構造 (てっこつこうぞう) - kết cấu thép\n角形鋼管柱 (かくがたこうかんばしら) - cột ống thép vuông\n内ダイアフラム (うちだいあふらむ) - vách ngăn trong\nせい - chiều cao mặt cắt\n梁 (はり) - dầm\nH形鋼 (H-がたこう) - thép hình H\nフランジ (ふらんじ) - cánh\nウェブ (うぇぶ) - bụng\n幅厚比 (はばあつひ) - tỉ lệ rộng/dày\n局部座屈 (きょくぶざくつ) - oằn cục bộ\nシヤコネクタ (しやこねくた) - đầu nối cắt\nコンクリートスラブ (こんくりーとすらぶ) - sàn bê tông\n上端圧縮 (じょうたんあっしゅく) - chịu nén ở mép trên\n曲げ応力 (まげおうりょく) - ứng suất uốn\n横座屈 (よこざくつ) - oằn ngang\n引張力 (ひっぱりりょく) - lực kéo\nボルト孔 (ぼるとこう) - lỗ bulông\n応力集中 (おうりょくしゅうちゅう) - tập trung ứng suất\n高力ボルト摩擦接合 (こうりょくぼるとまさつせつごう) - liên kết bulông cường độ cao bằng ma sát\n普通ボルト接合 (ふつうぼるとせつごう) - liên kết bulông thường\n杭基礎 (くいきそ) - móng cọc\n沈下 (ちんか) - lún\n負の摩擦力 (ふのまさつりょく) - lực ma sát âm\n支持杭 (しじぐい) - cọc chống\n摩擦杭 (まさつぐい) - cọc ma sát\n中心間隔 (ちゅうしんかんかく) - khoảng cách tâm\n杭径 (くいけい) - đường kính cọc\n埋込み杭 (うめこみぐい) - cọc khoan nhồi/ép sẵn\n打込み杭 (うちこみぐい) - cọc đóng\n極限鉛直支持力 (きょくげんえんちょくしじりょく) - sức chịu tải đứng cực hạn\n極限先端支持力 (きょくげんせんたんしじりょく) - sức chịu mũi cực hạn\n極限周面摩擦力 (きょくげんしゅうめんまさつりょく) - lực ma sát bề mặt chu vi cực hạn\n引抜き抵抗力 (ひきぬきていこうりょく) - sức chống nhổ\n自重 (じじゅう) - tự trọng\n地下水位 (ちかすいい) - mực nước ngầm\n浮力 (ふりょく) - lực đẩy nổi",
+      "questions": [
+        {
+          "label": "Q4",
+          "question": "免震構造に関する一般的な記述として、最も不適当なものはどれか。\n1. アイソレータは、上部構造の重量を支持しつつ水平変形に追従し、適切な復元力を持つ。\n2. 免震部材の配置を調整し、上部構造の重心と免震層の剛心を合わせることで、ねじれ応答を低減できる。\n3. 地下部分に免震層を設ける場合は、上部構造と周囲の地盤との間にクリアランスが必要である。\n4. ダンパーは、上部構造の垂直方向の変位を抑制する役割を持つ。",
+          "choices": [
+            "アイソレータは、上部構造の重量を支持しつつ水平変形に追従し、適切な復元力を持つ。",
+            "免震部材の配置を調整し、上部構造の重心と免震層の剛心を合わせることで、ねじれ応答を低減できる。",
+            "地下部分に免震層を設ける場合は、上部構造と周囲の地盤との間にクリアランスが必要である。",
+            "ダンパーは、上部構造の垂直方向の変位を抑制する役割を持つ。"
+          ],
+          "answer": "4",
+          "explanation": "免震構造に関する出題です。\n\n選択肢1. アイソレータは、上部構造の重量を支持しつつ水平変形に追従し、適切な復元力を持つ。\n免震装置の一部であるアイソレータは、上部構造の重量を支持しつつ、横揺れを長めの周期の揺れに変換し水平変形に追従し、適切な復元力を持ちます。地震発生時の水平変形に追従し、元の位置に戻る復元力を持ち合わせています。\n\n選択肢2. 免震部材の配置を調整し、上部構造の重心と免震層の剛心を合わせることで、ねじれ応答を低減できる。\n積層ゴムやダンパーなどの免震部材の配置を調整し、上部構造の重心と免震層の剛心を合わせることで、ねじれ応答を低減することができます。免震構造に限らず、重心と剛心を一致させることは重要です。\n\n選択肢3. 地下部分に免震層を設ける場合は、上部構造と周囲の地盤との間にクリアランスが必要である。\n設問の通りです。地震が発生した際に、建物が水平に動き、周囲の地盤などとぶつかってしまわないようにするためです。\n\n選択肢4. ダンパーは、上部構造の垂直方向の変位を抑制する役割を持つ。\n誤りです。ダンパーは、上部構造が地震や風で生じる水平方向の変位を短時間で抑制するエネルギー吸収装置です。垂直方向ではなく、水平方向の変位を抑制するものです。",
+          "studyContent": "免震構造の3要素：アイソレータ（支持＋復元）、ダンパー（水平方向のエネルギー吸収）、クリアランス（変位用の隙間）。ダンパーは水平方向であって垂直ではないことを必ず覚えましょう。",
+          "question_vi": "Trong các nội dung chung về kết cấu cách chấn, nội dung nào KHÔNG phù hợp nhất?\n1. Bộ cách ly (isolator) đỡ trọng lượng kết cấu phần trên đồng thời theo biến dạng ngang và có lực phục hồi phù hợp.\n2. Điều chỉnh bố trí cấu kiện cách chấn cho trùng tâm trọng lực kết cấu trên và tâm cứng tầng cách chấn để giảm phản ứng xoắn.\n3. Khi đặt tầng cách chấn ở phần ngầm, cần có khe hở giữa kết cấu trên và nền đất xung quanh.\n4. Bộ giảm chấn (damper) có vai trò ức chế chuyển vị phương thẳng đứng của kết cấu phần trên.",
+          "choices_vi": [
+            "Isolator: đỡ trọng lượng, theo biến dạng ngang, có lực phục hồi.",
+            "Trùng tâm trọng và tâm cứng → giảm phản ứng xoắn.",
+            "Tầng cách chấn ngầm cần khe hở với nền đất.",
+            "Damper ức chế chuyển vị thẳng đứng."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3: ĐÚNG.\n\nLựa chọn 4: SAI. Damper ức chế chuyển vị NGANG (do động đất, gió) - HẤP THỤ NĂNG LƯỢNG, KHÔNG ức chế chuyển vị thẳng đứng. Chuyển vị thẳng đứng do isolator đảm nhận.",
+          "studyContent_vi": "Damper = chuyển vị NGANG. Đây là điểm dễ nhầm cần nhớ kỹ."
+        },
+        {
+          "label": "Q5",
+          "question": "鉄筋コンクリート構造の建築物の構造計画に関する一般的な記述として、最も不適当なものはどれか。\n1. 普通コンクリートを使用する場合の柱の最小径は、その構造耐力上主要な支点間の距離の1／15以上とする。\n2. 耐震壁とする壁板のせん断補強筋比は、直交する各方向に関して、それぞれ0.25％以上とする。\n3. 床スラブの配筋は、各方向の全幅について、コンクリート全断面積に対する鉄筋全断面積の割合を0.1％以上とする。\n4. 梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1／3以下とする。",
+          "choices": [
+            "普通コンクリートを使用する場合の柱の最小径は、その構造耐力上主要な支点間の距離の1／15以上とする。",
+            "耐震壁とする壁板のせん断補強筋比は、直交する各方向に関して、それぞれ0.25％以上とする。",
+            "床スラブの配筋は、各方向の全幅について、コンクリート全断面積に対する鉄筋全断面積の割合を0.1％以上とする。",
+            "梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1／3以下とする。"
+          ],
+          "answer": "3",
+          "explanation": "鉄筋コンクリート造に関する出題です。\n\n選択肢1. 普通コンクリートを使用する場合の柱の最小径は、その構造耐力上主要な支点間の距離の1／15以上とする。\n設問の通り、普通コンクリートを使用する場合の柱の最小径は、その構造耐力上主要な支点間の距離（内法寸法）の1／15以上とします。\n\n選択肢2. 耐震壁とする壁板のせん断補強筋比は、直交する各方向に関して、それぞれ0.25％以上とする。\n設問の通りです。耐震壁のせん断補強筋比は、直交する各方向に関して、それぞれ0.25％以上としなければなりません。\n\n選択肢3. 床スラブの配筋は、各方向の全幅について、コンクリート全断面積に対する鉄筋全断面積の割合を0.1％以上とする。\n誤りです。床スラブの配筋は、長方形スラブでは、短辺方向を主筋とします。各方向の全幅について、コンクリート全断面積に対する鉄筋全断面積の割合を0.2％以上とします。0.1％は基準として低すぎます。\n\n選択肢4. 梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1／3以下とする。\n梁の地震時の応力は、材端部で大きくなるので、梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1／3以下とします。",
+          "studyContent": "RC構造主要数値：柱径=支点間距離の1/15以上、耐震壁せん断補強筋比0.25％以上、床スラブ鉄筋比0.2％以上、梁貫通孔は梁せいの1/3以下かつ梁端部回避。",
+          "question_vi": "Trong các nội dung chung về kế hoạch kết cấu BTCT, nội dung nào KHÔNG phù hợp nhất?\n1. Khi dùng bê tông thường, đường kính nhỏ nhất của cột ≥1/15 khoảng cách giữa các điểm tựa chính chịu lực.\n2. Tỉ lệ thép gia cường cắt tường chịu lực động đất ≥0.25% theo mỗi phương vuông góc.\n3. Bố trí thép sàn slab: tỉ lệ tổng diện tích thép/tổng diện tích bê tông ≥0.1% toàn chiều rộng mỗi phương.\n4. Lỗ xuyên dầm tránh đầu dầm, đường kính lỗ ≤1/3 chiều cao dầm.",
+          "choices_vi": [
+            "Đường kính cột tối thiểu ≥1/15 khoảng cách điểm tựa.",
+            "Tỉ lệ thép cắt tường ≥0.25%.",
+            "Sàn slab: tỉ lệ thép ≥0.1%.",
+            "Lỗ xuyên dầm tránh đầu, ≤1/3 chiều cao dầm."
+          ],
+          "explanation_vi": "Lựa chọn 1: ĐÚNG. 1/15.\n\nLựa chọn 2: ĐÚNG. 0.25%.\n\nLựa chọn 3: SAI. Sàn slab tỉ lệ thép ≥0.2% (KHÔNG phải 0.1%). 0.1% quá thấp.\n\nLựa chọn 4: ĐÚNG. ≤1/3 chiều cao dầm, tránh đầu dầm vì ứng suất tập trung khi động đất.",
+          "studyContent_vi": "Sàn slab: 0.2% (không phải 0.1%). Cột 1/15. Tường cắt 0.25%. Lỗ dầm 1/3."
+        },
+        {
+          "label": "Q6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。\n1. 角形鋼管柱の内ダイアフラムは、せいの異なる梁を1本の柱に取り付ける場合等に用いられる。\n2. H形鋼は、フランジやウェブの幅厚比が大きくなると局部座屈を生じにくい。\n3. シヤコネクタでコンクリートスラブと結合された鉄骨梁は、上端圧縮となる曲げ応力に対して横座屈を生じにくい。\n4. 部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合より普通ボルト接合のほうが大きい。",
+          "choices": [
+            "角形鋼管柱の内ダイアフラムは、せいの異なる梁を1本の柱に取り付ける場合等に用いられる。",
+            "H形鋼は、フランジやウェブの幅厚比が大きくなると局部座屈を生じにくい。",
+            "シヤコネクタでコンクリートスラブと結合された鉄骨梁は、上端圧縮となる曲げ応力に対して横座屈を生じにくい。",
+            "部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合より普通ボルト接合のほうが大きい。"
+          ],
+          "answer": "2",
+          "explanation": "鉄骨構造に関する出題です。\n\n選択肢1. 角形鋼管柱の内ダイアフラムは、せいの異なる梁を1本の柱に取り付ける場合等に用いられる。\n角形鋼管柱の内ダイアフラムは、柱内部の梁の上下のフランジ位置にダイアフラムを入れる形式です。せいの異なる梁を1本の柱に取り付ける場合等に用いられます。柱の中に厚い鉄板が入っているというイメージで、柱を補強する目的で使用されるものです。\n\n選択肢2. H形鋼は、フランジやウェブの幅厚比が大きくなると局部座屈を生じにくい。\n誤りです。幅厚比が大きくなると、幅に対して板厚が薄くなってしまうので、局部座屈が生じやすくなります。幅厚比とは、端的に言えば「幅／厚」のことです。\n\n選択肢3. シヤコネクタでコンクリートスラブと結合された鉄骨梁は、上端圧縮となる曲げ応力に対して横座屈を生じにくい。\nシヤコネクタでコンクリートスラブと結合された鉄骨梁を合成梁といいます。合成梁は上端圧縮となる曲げ応力に対して横座屈を生じにくい構造です。ちなみに、シヤコネクタでよく使われるのは、「頭付きスタッド」です。\n\n選択肢4. 部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合より普通ボルト接合のほうが大きい。\n高力ボルト摩擦接合は、伝達面積が広いので、ボルト孔周辺に生じる応力集中が少なくなります。部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合より普通ボルト接合のほうが大きくなります。",
+          "studyContent": "幅厚比＝幅/厚。幅厚比が大きい→板が薄い→局部座屈しやすい。これは原則として必ず押さえましょう。",
+          "question_vi": "Trong các nội dung về kết cấu thép, nội dung nào KHÔNG phù hợp nhất?\n1. Vách ngăn trong cột ống thép vuông dùng khi gắn các dầm có chiều cao khác nhau vào 1 cột.\n2. Thép hình H, tỉ lệ rộng/dày cánh hoặc bụng càng lớn thì khó xảy ra oằn cục bộ.\n3. Dầm thép liên kết với sàn bê tông bằng đầu nối cắt khó xảy ra oằn ngang khi chịu uốn nén mép trên.\n4. Mức tập trung ứng suất quanh lỗ bulông do lực kéo cấu kiện lớn hơn ở liên kết bulông thường so với liên kết bulông cường độ cao bằng ma sát.",
+          "choices_vi": [
+            "Vách ngăn trong cột ống vuông cho dầm khác chiều cao.",
+            "Thép H: rộng/dày lớn → khó oằn cục bộ.",
+            "Dầm composite khó oằn ngang khi nén mép trên.",
+            "Bulông thường tập trung ứng suất quanh lỗ lớn hơn ma sát."
+          ],
+          "explanation_vi": "Lựa chọn 1, 3, 4: ĐÚNG.\n\nLựa chọn 2: SAI. Tỉ lệ rộng/dày LỚN nghĩa là bản mỏng → DỄ oằn cục bộ. Quan hệ ngược: rộng/dày tăng → dễ oằn (chứ KHÔNG phải khó).",
+          "studyContent_vi": "Tỉ lệ rộng/dày = rộng/dày. Lớn = bản mỏng = DỄ oằn cục bộ."
+        },
+        {
+          "label": "Q7",
+          "question": "杭基礎に関する記述として、最も不適当なものはどれか。\n1. 杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、支持杭より摩擦杭のほうが大きい。\n2. 杭と杭の中心間隔は、杭径が同一の場合、埋込み杭のほうが打込み杭より小さくすることができる。\n3. 杭の極限鉛直支持力は、極限先端支持力と極限周面摩擦力との和で表す。\n4. 杭の引抜き抵抗力に杭の自重を加える場合、地下水位以下の部分の浮力を考慮する。",
+          "choices": [
+            "杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、支持杭より摩擦杭のほうが大きい。",
+            "杭と杭の中心間隔は、杭径が同一の場合、埋込み杭のほうが打込み杭より小さくすることができる。",
+            "杭の極限鉛直支持力は、極限先端支持力と極限周面摩擦力との和で表す。",
+            "杭の引抜き抵抗力に杭の自重を加える場合、地下水位以下の部分の浮力を考慮する。"
+          ],
+          "answer": "1",
+          "explanation": "杭基礎に関する出題です。\n\n選択肢1. 杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、支持杭より摩擦杭のほうが大きい。\n誤りです。摩擦杭は、杭と周辺地盤が共に沈下するので、杭と地盤の相対変位が生じない為、負の摩擦力は小さくなります。支持杭に関しては、杭が支持層に到達しているため、地盤と一緒に沈下しにくいので、大きな負の摩擦力が加わります。よって、杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、支持杭より摩擦杭のほうが小さくなります。\n\n選択肢2. 杭と杭の中心間隔は、杭径が同一の場合、埋込み杭のほうが打込み杭より小さくすることができる。\n杭の間隔の目安は次の通りです。\n① 打ち込み杭 杭径の2.5倍以上かつ75cm以上\n② 埋め込み杭 杭径の2倍以上\n打込み杭は、周囲の地盤に影響を与えることから、中心間隔を小さくすると、締まった地盤に阻まれて、杭がしっかりと入らない可能性があります。埋込み杭は、アースオーガーなどで事前に掘削してから杭を挿入する工法ですので、周囲の地盤への影響は少なく、打込み杭よりも間隔を小さくできます。\n\n選択肢3. 杭の極限鉛直支持力は、極限先端支持力と極限周面摩擦力との和で表す。\n設問の通りです。\n\n選択肢4. 杭の引抜き抵抗力に杭の自重を加える場合、地下水位以下の部分の浮力を考慮する。\n杭の引き抜き抵抗力は、杭の摩擦抵抗＋杭の自重で評価します。杭の引抜き抵抗力に杭の自重を加える場合、地下水位以下の部分の浮力を考慮します。",
+          "studyContent": "負の摩擦力（ネガティブフリクション）は支持杭で大きく、摩擦杭では小さい。杭間隔は打込み杭2.5d以上、埋込み杭2d以上。",
+          "question_vi": "Trong các nội dung về móng cọc, nội dung nào KHÔNG phù hợp nhất?\n1. Khi nền đất xung quanh cọc lún, lực ma sát âm tác dụng lên cọc của cọc ma sát lớn hơn cọc chống.\n2. Khoảng cách tâm các cọc cùng đường kính, cọc khoan nhồi/ép sẵn có thể nhỏ hơn cọc đóng.\n3. Sức chịu tải đứng cực hạn của cọc = sức chịu mũi cực hạn + lực ma sát bề mặt chu vi cực hạn.\n4. Khi cộng tự trọng cọc vào sức chống nhổ, phải xét lực đẩy nổi của phần dưới mực nước ngầm.",
+          "choices_vi": [
+            "Lực ma sát âm: cọc ma sát > cọc chống.",
+            "Khoảng cách tâm: cọc khoan < cọc đóng.",
+            "Sức chịu tải = mũi + ma sát bên.",
+            "Tự trọng cọc xét lực đẩy nổi dưới nước ngầm."
+          ],
+          "explanation_vi": "Lựa chọn 1: SAI. Lực ma sát âm: cọc CHỐNG > cọc MA SÁT (ngược lại đề). Lý do: cọc ma sát lún cùng nền nên ít chênh lệch, cọc chống đứng vững trên tầng chống nên nền xung quanh kéo xuống tạo ma sát âm lớn.\n\nLựa chọn 2: ĐÚNG. Cọc khoan 2d, cọc đóng 2.5d.\n\nLựa chọn 3: ĐÚNG.\n\nLựa chọn 4: ĐÚNG.",
+          "studyContent_vi": "Ma sát âm: CỌC CHỐNG > CỌC MA SÁT (ngược trực giác). Khoảng cách: đóng 2.5d, khoan 2d."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 01_建築学等 / 構造力学",
+      "vocabulary": "柱 (はしら) - cột\n図心 (ずしん) - tâm hình học\n鉛直荷重 (えんちょくかじゅう) - tải trọng đứng\n水平荷重 (すいへいかじゅう) - tải trọng ngang\n底部 (ていぶ) - đáy\n引張縁応力度 (ひっぱりえんおうりょくど) - ứng suất biên kéo\n自重 (じじゅう) - tự trọng\n断面係数 (だんめんけいすう) - mô đun chống uốn\n曲げモーメント (まげもーめんと) - mô-men uốn\n軸方向応力度 (じくほうこうおうりょくど) - ứng suất dọc trục\n3ヒンジラーメン架構 (3ひんじらーめんかこう) - khung ramen 3 khớp\n等分布荷重 (とうぶんぷかじゅう) - tải phân bố đều\n支点 (してん) - điểm tựa\n水平反力 (すいへいはんりょく) - phản lực ngang\n鉛直反力 (えんちょくはんりょく) - phản lực đứng\nヒンジ (ひんじ) - khớp/bản lề\nつり合い (つりあい) - cân bằng\nピン接合 (ぴんせつごう) - liên kết khớp\n固定端 (こていたん) - đầu ngàm\n剛節点 (ごうせってん) - nút cứng\n材の引張側 (ざいのひっぱりがわ) - phía chịu kéo của cấu kiện\n曲げモーメント図 (まげもーめんとず) - biểu đồ mô-men uốn",
+      "questions": [
+        {
+          "label": "Q8",
+          "question": "図に示す柱ABの図心Gに鉛直荷重Pと水平荷重Qが作用したとき、底部における引張縁応力度の値の大きさとして、正しいものはどれか。ただし、柱の自重は考慮しないものとする。\n（条件：P=180kN（鉛直）、Q=15kN（水平）、柱断面 300mm×200mm、柱高さ 2000mm）",
+          "choices": [
+            "3N／mm2",
+            "7N／mm2",
+            "10N／mm2",
+            "13N／mm2"
+          ],
+          "answer": "2",
+          "explanation": "鉛直荷重Pと水平荷重Qのそれぞれの応力状態を検討し、重ね合わせて求めます。\n\nまず、Pについて求めます。底面積をAとすると、δ＝P/A より A＝300×200、δ＝3N/mm² （圧縮）①\n\n次にQについて、曲げモーメント M＝Q×2000mm\n断面係数 Z＝bh²/6 より、Z＝3000000\nδ＝M／Z＝10N／mm² （引張縁では+10、圧縮縁では-10）②\n\n①と②を重ね合わせ、引張縁の応力度は：\n-3＋10 ＝ 7N／mm²\n\nしたがって、引張縁応力度の大きさは「7N／mm²」となります。\n\n【検証】\n選択肢1 (3N/mm²)：これは鉛直荷重Pのみの軸応力。誤り。\n選択肢2 (7N/mm²)：曲げ応力10 - 圧縮応力3 = 7。正解。\n選択肢3 (10N/mm²)：曲げ応力のみで圧縮分を引いていない。誤り。\n選択肢4 (13N/mm²)：曲げ応力と圧縮応力を足し算してしまった値（圧縮縁の値）。誤り。",
+          "studyContent": "鉛直荷重と水平荷重が同時に作用する場合：軸応力δ＝P/A、曲げ応力δ＝M/Z、引張縁＝（曲げ応力）－（圧縮応力）。引っかけ問題なので符号に注意。",
+          "question_vi": "Khi tải trọng đứng P và tải ngang Q tác dụng vào tâm hình học G của cột AB, giá trị ứng suất biên kéo tại đáy là bao nhiêu? (Bỏ qua tự trọng cột. P=180kN, Q=15kN, tiết diện 300×200mm, cao 2000mm)",
+          "choices_vi": [
+            "3N／mm²",
+            "7N／mm²",
+            "10N／mm²",
+            "13N／mm²"
+          ],
+          "explanation_vi": "Ứng suất dọc trục do P: δ = P/A = 180,000/(300×200) = 3 N/mm² (nén)\n\nMô-men uốn do Q: M = Q × 2000 = 15,000 × 2000 = 30,000,000 N·mm\nMô đun chống uốn: Z = bh²/6 = 200×300²/6 = 3,000,000 mm³\nỨng suất uốn: δ = M/Z = 10 N/mm²\n\nBiên kéo: δ_kéo = -3 + 10 = **7 N/mm²** → Đáp án 2.\n\nLựa chọn 1: Chỉ ứng suất nén → SAI.\nLựa chọn 3: Chỉ ứng suất uốn → SAI.\nLựa chọn 4: 10+3 = 13 (đây là biên nén, không phải biên kéo) → SAI.",
+          "studyContent_vi": "Công thức: δ_kéo biên = M/Z - P/A. Cẩn thận với dấu khi tổ hợp tải trọng đứng và uốn."
+        },
+        {
+          "label": "Q9",
+          "question": "図に示す3ヒンジラーメン架構のDE間に等分布荷重wが作用したとき、支点Aの水平反力HA及び支点Bの水平反力HBの値として、正しいものはどれか。ただし、反力は右向きを「＋」、左向きを「−」とする。",
+          "choices": [
+            "HA＝＋9kN",
+            "HA＝−6kN",
+            "HB＝0kN",
+            "HB＝−4kN"
+          ],
+          "answer": "4",
+          "explanation": "3ヒンジラーメンの問題は、X,Y,Mの釣り合いの条件に加えて、中央のヒンジ部分でモーメントがゼロになる性質を用いて、反力を求めます。\n\n応力を簡略に求めるために、等分布荷重をP1（ヒンジCより左）とP2（ヒンジCより右）に置き換えます。\nP1＝3×4＝12kN\nP2＝3×2＝6kN\n\n支点反力を仮定し\nΣX＝Ha＋Hb＝0\nΣY＝Va＋Vb－P1－P2＝0\nΣMa＝12×2＋6×5－Vb×6＝0  → Va＝9、Vb＝9\n\nC点の右側架構のモーメントが0であるので\nΣMc＝6×1－Hb×3－9×2＝0\nHb＝－4　Ha＝＋4\n\nしたがって、HB＝－4kN が正解。\n\n【検証】\n選択肢1 HA=+9kN：鉛直反力（Va=9）と混同。誤り。\n選択肢2 HA=-6kN：プラスマイナス逆かつ値も誤り。誤り。\n選択肢3 HB=0kN：3ヒンジラーメンで水平方向の力がゼロになることは、まずない。誤り。\n選択肢4 HB=-4kN：正解。",
+          "studyContent": "3ヒンジラーメンの解法手順：①全体つり合い（ΣX, ΣY, ΣM）で支点反力を求める、②中央ヒンジで切断し、片側のみのモーメントつり合いで水平反力を求める。",
+          "question_vi": "Trong khung ramen 3 khớp, khi tải phân bố đều w tác dụng đoạn DE, giá trị nào ĐÚNG cho phản lực ngang HA tại điểm A và HB tại điểm B? (Phản lực hướng phải = +, hướng trái = -)",
+          "choices_vi": [
+            "HA＝＋9kN",
+            "HA＝−6kN",
+            "HB＝0kN",
+            "HB＝−4kN"
+          ],
+          "explanation_vi": "Khung ramen 3 khớp dùng 3 điều kiện cân bằng tổng thể + điều kiện mô-men = 0 tại khớp giữa.\n\nThay tải phân bố: P1 = 3×4 = 12 kN (trái khớp C), P2 = 3×2 = 6 kN (phải khớp C).\n\nCân bằng tổng thể:\n- ΣX: Ha + Hb = 0\n- ΣMa: 12×2 + 6×5 - Vb×6 = 0 → Va = 9, Vb = 9\n\nCắt tại khớp C, lấy mô-men phải C = 0:\n- ΣMc = 6×1 - Hb×3 - 9×2 = 0 → **Hb = -4 kN**, Ha = +4 kN\n\nLựa chọn 4: ĐÚNG.\n\nLựa chọn 1: nhầm với phản lực đứng. Lựa chọn 2: sai dấu. Lựa chọn 3: không thể bằng 0.",
+          "studyContent_vi": "Quy trình: cân bằng tổng thể trước (X, Y, M) → cắt tại khớp giữa, lấy mô-men 1 nửa = 0 để tìm phản lực ngang."
+        },
+        {
+          "label": "Q10",
+          "question": "図に示す3ヒンジラーメン架構の点Dにモーメント荷重Mが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
+          "choices": [
+            "選択肢1の曲げモーメント図",
+            "選択肢2の曲げモーメント図",
+            "選択肢3の曲げモーメント図",
+            "選択肢4の曲げモーメント図"
+          ],
+          "answer": "2",
+          "explanation": "モーメント図の形の正誤を判定する問題は、各支点、節点の特徴から絞り込みます。\n①ピンの場合、モーメントは生じない。\n②固定端の場合、回転角は0。\n③剛節点の場合、接合角度は変わらない。\n以上からどちら側が引っ張り側になるか考え、モーメント図を描きます。\n\n選択肢1：D点で時計回りのモーメントが加わっているとき、ADの部材の左側に曲げモーメントの図が書いてあるならば、DCの部材においては、下側に書かれるべき。この選択肢は誤り。\n選択肢2：D点の曲げモーメントの図の方向が正しい。正解。\n選択肢3：AD材とBE材に曲げモーメントの図が全く描かれていない。これはあり得ない。誤り。\n選択肢4：ADの部材とDCの部材の曲げモーメントの図が、どちらとも内側の方に入っている。誤り。",
+          "studyContent": "曲げモーメント図の3原則：①ピン接合＝モーメント0、②固定端＝回転角0、③剛節点＝接合角度不変。引張側に図を描くルールを守る。",
+          "question_vi": "Khi mô-men M tác dụng tại điểm D của khung ramen 3 khớp, biểu đồ mô-men uốn nào ĐÚNG? (Biểu đồ vẽ phía chịu kéo của cấu kiện)",
+          "choices_vi": [
+            "Biểu đồ 1",
+            "Biểu đồ 2",
+            "Biểu đồ 3",
+            "Biểu đồ 4"
+          ],
+          "explanation_vi": "Nguyên tắc:\n① Khớp pin: mô-men = 0\n② Đầu ngàm: góc xoay = 0\n③ Nút cứng: góc liên kết không đổi\n\nLựa chọn 1: SAI. Hướng biểu đồ tại D không tương thích với chiều quay mô-men.\nLựa chọn 2: ĐÚNG. Biểu đồ tại D đúng chiều.\nLựa chọn 3: SAI. Cấu kiện AD và BE không có biểu đồ - không thể.\nLựa chọn 4: SAI. Biểu đồ AD và DC đều hướng vào trong - không đúng.",
+          "studyContent_vi": "Quy tắc vẽ M: pin = 0, ngàm = không xoay, nút cứng = không đổi góc. Vẽ phía chịu kéo."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 01_建築学等 / 建築材料",
+      "vocabulary": "減水剤 (げんすいざい) - phụ gia giảm nước\n耐凍害性 (たいとうがいせい) - khả năng chống nứt do đóng băng\n流動化剤 (りゅうどうかざい) - phụ gia hóa lỏng\nレディーミクストコンクリート (れでぃーみくすとこんくりーと) - bê tông tươi (ready-mix)\n早強ポルトランドセメント (そうきょうぽるとらんどせめんと) - xi măng Portland cường độ sớm\n普通ポルトランドセメント (ふつうぽるとらんどせめんと) - xi măng Portland thông thường\n硬化初期 (こうかしょき) - giai đoạn đóng rắn đầu\n水和発熱量 (すいわはつねつりょう) - nhiệt thủy hóa\n冬期 (とうき) - mùa đông\n高炉セメントB種 (こうろせめんとBしゅ) - xi măng lò cao loại B\n耐海水性 (たいかいすいせい) - chống nước biển\n化学抵抗性 (かがくていこうせい) - chống hóa chất\n地下構造物 (ちかこうぞうぶつ) - công trình ngầm\nAE剤 (AEざい) - phụ gia AE (cuốn khí)\nステンレス鋼 (すてんれすこう) - thép không gỉ\nニッケル (にっける) - nickel\nクロム (くろむ) - chromium\n炭素量 (たんそりょう) - hàm lượng cacbon\n耐食性 (たいしょくせい) - chống ăn mòn\n銅 (どう) - đồng\n熱伝導率 (ねつでんどうりつ) - dẫn nhiệt\n電気伝導率 (でんきでんどうりつ) - dẫn điện\n緑青 (ろくしょう) - patina/gỉ xanh của đồng\n鉛 (なまり) - chì\nX線遮断 (Xせんしゃだん) - chắn tia X\n酸 (さん) - axit\n薬液 (やくえき) - dung dịch hóa chất\n抵抗性 (ていこうせい) - tính kháng\n耐アルカリ性 (たいあるかりせい) - chống kiềm\nチタン (ちたん) - titan\n鋼材 (こうざい) - vật liệu thép\n密度 (みつど) - mật độ\n花崗岩 (かこうがん) - granite\n結晶質 (けっしょうしつ) - tinh thể\n耐摩耗性 (たいまもうせい) - chống mài mòn\n耐久性 (たいきゅうせい) - bền\n大理石 (だいりせき) - đá cẩm thạch\n緻密 (ちみつ) - dày đặc/mịn\n光沢 (こうたく) - bóng\n内装用 (ないそうよう) - dùng nội thất\n粘板岩 (ねんばんがん) - slate (đá phiến)\nスレート (すれーと) - slate\n吸水率 (きゅうすいりつ) - tỉ lệ hút nước\n剥がれる (はがれる) - bóc tách\n屋根材 (やねざい) - vật liệu lợp mái\n床材 (ゆかざい) - vật liệu lát sàn\n石灰岩 (せっかいがん) - đá vôi\n曲げ強度 (まげきょうど) - cường độ uốn\n耐水性 (たいすいせい) - chống thấm nước\n耐酸性 (たいさんせい) - chống axit\n外装用 (がいそうよう) - dùng ngoại thất\n2成分形 (2せいぶんけい) - dạng 2 thành phần\nウレタンゴム系防水材 (うれたんごむけいぼうすいざい) - vật liệu chống thấm cao su urethan\n主剤 (しゅざい) - chất chính\n硬化剤 (こうかざい) - chất đóng rắn\n硬化促進剤 (こうかそくしんざい) - phụ gia thúc đẩy đóng rắn\n充填材 (じゅうてんざい) - vật liệu lấp\n防水工事用アスファルト (ぼうすいこうじようあすふぁると) - asphalt cho thi công chống thấm\nフラースぜい化点 (ふらーすぜいかてん) - điểm hóa giòn Fraass\n低温特性 (ていおんとくせい) - đặc tính nhiệt độ thấp\nストレッチルーフィング (すとれっちるーふぃんぐ) - stretch roofing\n抗張積 (こうちょうせき) - tích kéo (= cường độ kéo × tỉ lệ giãn)\n引張強さ (ひっぱりつよさ) - cường độ kéo\n伸び率 (のびりつ) - tỉ lệ giãn\n改質アスファルトルーフィングシート (かいしつあすふぁるとるーふぃんぐしーと) - tấm roofing asphalt cải tiến\n温度特性 (おんどとくせい) - đặc tính nhiệt độ\nⅠ類 (1るい) - loại I\nⅡ類 (2るい) - loại II\n耐折り曲げ性 (たいおりまげせい) - chống gập\nアクリル樹脂系非水分散形塗料 (あくりるじゅしけいひすいぶんさんがたとりょう) - sơn nhựa acrylic phân tán không nước (NAD)\nモルタル面 (もるたるめん) - mặt vữa\nせっこうボード面 (せっこうぼーどめん) - mặt tấm thạch cao\nクリヤラッカー (くりやらっかー) - sơn trong (clear lacquer)\n木部 (もくぶ) - phần gỗ\nコンクリート面 (こんくりーとめん) - mặt bê tông\nつや有合成樹脂エマルションペイント (つやありごうせいじゅしえまるしょんぺいんと) - sơn nhũ tương nhựa tổng hợp bóng\n鉄鋼面 (てっこうめん) - mặt thép\n2液形ポリウレタンワニス (2えきがたぽりうれたんわにす) - varnish polyurethan 2 thành phần\nALCパネル面 (ALCぱねるめん) - mặt panel ALC",
+      "questions": [
+        {
+          "label": "Q11",
+          "question": "コンクリート材料の特性に関する記述として、最も不適当なものはどれか。\n1. 減水剤は、コンクリートの耐凍害性を向上させることができる。\n2. 流動化剤は、工事現場で添加することで、レディーミクストコンクリートの流動性を増すことができる。\n3. 早強ポルトランドセメントを用いたコンクリートは、普通ポルトランドセメントを用いた場合より硬化初期の水和発熱量が大きく、冬期の工事に適している。\n4. 高炉セメントB種を用いたコンクリートは、普通ポルトランドセメントを用いた場合より耐海水性や化学抵抗性が大きく、地下構造物に適している。",
+          "choices": [
+            "減水剤は、コンクリートの耐凍害性を向上させることができる。",
+            "流動化剤は、工事現場で添加することで、レディーミクストコンクリートの流動性を増すことができる。",
+            "早強ポルトランドセメントを用いたコンクリートは、普通ポルトランドセメントを用いた場合より硬化初期の水和発熱量が大きく、冬期の工事に適している。",
+            "高炉セメントB種を用いたコンクリートは、普通ポルトランドセメントを用いた場合より耐海水性や化学抵抗性が大きく、地下構造物に適している。"
+          ],
+          "answer": "1",
+          "explanation": "コンクリート材料に関する出題です。\n\n選択肢1. 減水剤は、コンクリートの耐凍害性を向上させることができる。\n誤りです。設問はAE剤に関する出題です。減水剤はセメント粒子の分散作用によって、所定の流動性を得るのに必要な単位水量を減らすことができます。凍害のおそれのある場合は、AE剤等を使用するべきです。\n\n選択肢2. 流動化剤は、工事現場で添加することで、レディーミクストコンクリートの流動性を増すことができる。\n設問の通りです。水の量を増やさずに、流動性を向上させることができるので、大変好ましいことであるといえます。\n\n選択肢3. 早強ポルトランドセメントを用いたコンクリートは、普通ポルトランドセメントを用いた場合より硬化初期の水和発熱量が大きく、冬期の工事に適している。\n設問の通りです。早強セメントは早期にコンクリートを硬化させる必要がある場合に用いられるセメントです。冬季においては、コンクリートの硬化時間が遅かったりすることがありますが、早強ポルトランドセメントを使用することにより、この問題を解決できます。\n\n選択肢4. 高炉セメントB種を用いたコンクリートは、普通ポルトランドセメントを用いた場合より耐海水性や化学抵抗性が大きく、地下構造物に適している。\n設問の通りです。高炉セメントB種は、製鉄所の溶鉱炉などから出てくるスラグ等を添加したものです。スラグ等を添加することにより、耐海水性や化学抵抗性を大きくすることができます。",
+          "studyContent": "AE剤＝耐凍害性向上。減水剤＝水量削減のみ。流動化剤＝流動性向上（水増し不要）。早強セメント＝冬季・初期発熱大。高炉B種＝耐海水性・化学抵抗。",
+          "question_vi": "Trong các nội dung về đặc tính vật liệu bê tông, nội dung nào KHÔNG phù hợp nhất?\n1. Phụ gia giảm nước có thể nâng cao khả năng chống nứt do đóng băng của bê tông.\n2. Phụ gia hóa lỏng thêm tại công trường có thể tăng tính chảy của bê tông tươi.\n3. Bê tông dùng xi măng Portland cường độ sớm có nhiệt thủy hóa giai đoạn đóng rắn đầu lớn hơn xi măng Portland thông thường, phù hợp công trình mùa đông.\n4. Bê tông dùng xi măng lò cao loại B có khả năng chống nước biển và chống hóa chất cao hơn xi măng Portland thông thường, phù hợp công trình ngầm.",
+          "choices_vi": [
+            "Phụ gia giảm nước → nâng cao chống nứt đông.",
+            "Phụ gia hóa lỏng → tăng tính chảy.",
+            "Xi măng cường độ sớm → phù hợp mùa đông.",
+            "Xi măng lò cao B → chống nước biển/hóa chất."
+          ],
+          "explanation_vi": "Lựa chọn 1: SAI. Phụ gia giảm nước (減水剤) CHỈ giảm lượng nước cần thiết. Để nâng cao chống nứt đông, cần dùng PHỤ GIA AE (AE剤, cuốn khí).\n\nLựa chọn 2, 3, 4: ĐÚNG.",
+          "studyContent_vi": "Nhớ phân biệt: AE剤 = chống nứt đông; 減水剤 = giảm nước; 流動化剤 = tăng tính chảy."
+        },
+        {
+          "label": "Q12",
+          "question": "建築に用いられる金属材料に関する記述として、最も不適当なものはどれか。\n1. ステンレス鋼は、ニッケルやクロムを含み、炭素量が少ないものほど耐食性が良い。\n2. 銅は、熱や電気の伝導率が高く、湿気中では緑青を生じ耐食性が増す。\n3. 鉛は、X線遮断効果が大きく、酸その他の薬液に対する抵抗性や耐アルカリ性にも優れている。\n4. チタンは、鋼材に比べ密度が小さく、耐食性に優れている。",
+          "choices": [
+            "ステンレス鋼は、ニッケルやクロムを含み、炭素量が少ないものほど耐食性が良い。",
+            "銅は、熱や電気の伝導率が高く、湿気中では緑青を生じ耐食性が増す。",
+            "鉛は、X線遮断効果が大きく、酸その他の薬液に対する抵抗性や耐アルカリ性にも優れている。",
+            "チタンは、鋼材に比べ密度が小さく、耐食性に優れている。"
+          ],
+          "answer": "3",
+          "explanation": "その他金属についての出題です。\n\n選択肢1. ステンレス鋼は、ニッケルやクロムを含み、炭素量が少ないものほど耐食性が良い。\nステンレス鋼は、ニッケルやクロムを含み、炭素量が少ないものほど軟質で耐食性が良くなります。加工性はアルミや銅より硬く、耐食性は鉄やアルミより優れています。\n\n選択肢2. 銅は、熱や電気の伝導率が高く、湿気中では緑青を生じ耐食性が増す。\n設問の通り、銅は、熱や電気の伝導率が高く、湿気中では緑青を生じ耐食性が増します。ですが、アルカリ性には弱い性質を持ちます。湿気に強いことから、台所の三角コーナーに使われたりもします。\n\n選択肢3. 鉛は、X線遮断効果が大きく、酸その他の薬液に対する抵抗性や耐アルカリ性にも優れている。\n誤りです。鉛は、X線遮断効果が大きく、酸その他の薬液に対する抵抗性は大きいが、耐アルカリ性は劣ります。\n\n選択肢4. チタンは、鋼材に比べ密度が小さく、耐食性に優れている。\n設問の通りです。チタンは極めて優れた金属であり、加工が難しいという点と、高価であるという点を除けば、ほとんど欠点がありません。",
+          "studyContent": "鉛＝X線遮断・耐酸OK・耐アルカリ✕。銅＝湿気強い・アルカリ✕。ステンレス＝炭素少ないほど耐食性UP。チタン＝軽量・耐食性高。",
+          "question_vi": "Trong các nội dung về vật liệu kim loại dùng trong xây dựng, nội dung nào KHÔNG phù hợp nhất?\n1. Thép không gỉ chứa nickel và chromium, hàm lượng cacbon càng ít thì chống ăn mòn càng tốt.\n2. Đồng có hệ số dẫn nhiệt và dẫn điện cao, trong môi trường ẩm sinh patina (gỉ xanh) làm tăng chống ăn mòn.\n3. Chì có hiệu quả chắn tia X cao, chống axit và chống kiềm đều tốt.\n4. Titan có mật độ nhỏ hơn vật liệu thép, chống ăn mòn tốt.",
+          "choices_vi": [
+            "Thép không gỉ: ít cacbon → chống ăn mòn tốt.",
+            "Đồng: dẫn nhiệt/điện tốt, patina tăng chống ăn mòn.",
+            "Chì: chắn tia X, chống axit và kiềm tốt.",
+            "Titan: nhẹ, chống ăn mòn tốt."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 4: ĐÚNG.\n\nLựa chọn 3: SAI. Chì chắn tia X TỐT, chống axit TỐT, NHƯNG KÉM CHỐNG KIỀM (耐アルカリ性✕). Đây là điểm cần nhớ.",
+          "studyContent_vi": "Chì: ✓X-quang, ✓axit, ✗kiềm. Đồng: ✓ẩm, ✗kiềm."
+        },
+        {
+          "label": "Q13",
+          "question": "石材に関する一般的な記述として、最も不適当なものはどれか。\n1. 花崗岩は、結晶質で硬く耐摩耗性や耐久性に優れ、壁、床、階段等に多く用いられる。\n2. 大理石は、酸には弱いが、緻密であり磨くと光沢が出るため、主に内装用として用いられる。\n3. 粘板岩（スレート）は、吸水率が小さく耐久性に優れ、層状に剥がれる性質があり、屋根材や床材として用いられる。\n4. 石灰岩は、柔らかく曲げ強度は低いが、耐水性や耐酸性に優れ、主に外装用として用いられる。",
+          "choices": [
+            "花崗岩は、結晶質で硬く耐摩耗性や耐久性に優れ、壁、床、階段等に多く用いられる。",
+            "大理石は、酸には弱いが、緻密であり磨くと光沢が出るため、主に内装用として用いられる。",
+            "粘板岩（スレート）は、吸水率が小さく耐久性に優れ、層状に剥がれる性質があり、屋根材や床材として用いられる。",
+            "石灰岩は、柔らかく曲げ強度は低いが、耐水性や耐酸性に優れ、主に外装用として用いられる。"
+          ],
+          "answer": "4",
+          "explanation": "石材に関する出題です。\n\n選択肢1. 花崗岩は、結晶質で硬く耐摩耗性や耐久性に優れ、壁、床、階段等に多く用いられる。\n花崗岩は、耐火性に劣りますが、結晶質で硬く耐摩耗性や耐久性に優れ、壁、床、階段等に多く用いられます。建築材として最も多く用いられます。墓石に使われたりもします。\n\n選択肢2. 大理石は、酸には弱いが、緻密であり磨くと光沢が出るため、主に内装用として用いられる。\n大理石は、耐酸性・耐火性に乏しく、緻密であり磨くと光沢が出るため、主に内装用として用いられる装飾石材です。\n\n選択肢3. 粘板岩（スレート）は、吸水率が小さく耐久性に優れ、層状に剥がれる性質があり、屋根材や床材として用いられる。\n粘板岩（スレート）は、吸水率が小さく耐久性に優れ、層状に剥がれる性質があり、容易に層状に割裂できることから、屋根材や床材として用いられます。\n\n選択肢4. 石灰岩は、柔らかく曲げ強度は低いが、耐水性や耐酸性に優れ、主に外装用として用いられる。\n誤りです。石灰岩は、大部分が炭酸カルシウムからなり、大理石に比べ粗粒ですが、独特の風合いを持ちます。柔らかく加工はしやすいが、耐水性に劣り、主に内装用として用いられます。石灰岩は、耐久性が低いのはもちろん、耐酸性や耐候性も優れていません。",
+          "studyContent": "石材：花崗岩＝硬く屋外OK、大理石＝内装専用（酸弱）、スレート＝屋根/床、石灰岩＝内装用（耐水性✕）。",
+          "question_vi": "Trong các nội dung chung về đá vật liệu, nội dung nào KHÔNG phù hợp nhất?\n1. Đá granite có cấu trúc tinh thể cứng, chống mài mòn và bền, dùng nhiều cho tường, sàn, cầu thang.\n2. Đá cẩm thạch yếu với axit nhưng mịn, đánh bóng tạo độ sáng, dùng nội thất là chính.\n3. Đá phiến slate hút nước thấp, bền, có tính bóc tách lớp, dùng vật liệu lợp mái và lát sàn.\n4. Đá vôi mềm, cường độ uốn thấp nhưng chống nước và chống axit tốt, dùng ngoại thất là chính.",
+          "choices_vi": [
+            "Granite: cứng, dùng tường/sàn/cầu thang.",
+            "Cẩm thạch: yếu axit, mịn, nội thất.",
+            "Slate: hút nước thấp, bóc lớp, lợp mái/sàn.",
+            "Đá vôi: chống nước/axit tốt, ngoại thất."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3: ĐÚNG.\n\nLựa chọn 4: SAI. Đá vôi chủ yếu là canxi cacbonat → KÉM chống nước, KÉM chống axit. Dùng cho NỘI THẤT, KHÔNG phải ngoại thất.",
+          "studyContent_vi": "Đá vôi: yếu chống nước, yếu axit (giống cẩm thạch) → nội thất. Granite mới dùng ngoại thất."
+        },
+        {
+          "label": "Q14",
+          "question": "日本産業規格（JIS）に規定する防水材料に関する記述として、不適当なものはどれか。\n1. 2成分形のウレタンゴム系防水材は、施工直前に主剤、硬化剤の2成分に、必要によって硬化促進剤や充填材等を混合して使用する。\n2. 防水工事用アスファルトは、フラースぜい化点の温度が低いものほど低温特性のよいアスファルトである。\n3. ストレッチルーフィング1000の数値1000は、製品の抗張積（引張強さと最大荷重時の伸び率との積）を表している。\n4. 改質アスファルトルーフィングシートは、温度特性によりⅠ類とⅡ類に区分され、低温時の耐折り曲げ性がよいものはⅠ類である。",
+          "choices": [
+            "2成分形のウレタンゴム系防水材は、施工直前に主剤、硬化剤の2成分に、必要によって硬化促進剤や充填材等を混合して使用する。",
+            "防水工事用アスファルトは、フラースぜい化点の温度が低いものほど低温特性のよいアスファルトである。",
+            "ストレッチルーフィング1000の数値1000は、製品の抗張積（引張強さと最大荷重時の伸び率との積）を表している。",
+            "改質アスファルトルーフィングシートは、温度特性によりⅠ類とⅡ類に区分され、低温時の耐折り曲げ性がよいものはⅠ類である。"
+          ],
+          "answer": "4",
+          "explanation": "防水材料についての出題です。\n\n選択肢1. 2成分形のウレタンゴム系防水材は、施工直前に主剤、硬化剤の2成分に、必要によって硬化促進剤や充填材等を混合して使用する。\n2成分形のウレタンゴム系防水材は、施工直前に主剤、硬化剤の2成分に、必要によって硬化促進剤や充填材等を混合し、ゴム弾性のある塗膜を形成する材料です。ウレタンゴム系に限らず、2成分系の材料は、主剤と硬化剤の2種類を混合することが多いです。\n\n選択肢2. 防水工事用アスファルトは、フラースぜい化点の温度が低いものほど低温特性のよいアスファルトである。\n設問の通りです。フラースぜい化点とは、低温時の脆さを示すものです。\n\n選択肢3. ストレッチルーフィング1000の数値1000は、製品の抗張積（引張強さと最大荷重時の伸び率との積）を表している。\n設問の通りです。「1000」に関しては、製品の抗張積を示しています。\n\n選択肢4. 改質アスファルトルーフィングシートは、温度特性によりⅠ類とⅡ類に区分され、低温時の耐折り曲げ性がよいものはⅠ類である。\n誤りです。Ⅱ類の方が低温時の折り曲げ性能が優れています。低温時の耐折り曲げ性がよいものはⅡ類です。",
+          "studyContent": "改質アスファルトルーフィングシート：Ⅰ類とⅡ類のうち、低温時の耐折り曲げ性が良いのはⅡ類。フラースぜい化点が低い＝低温特性良好。",
+          "question_vi": "Trong các nội dung về vật liệu chống thấm theo JIS, nội dung nào KHÔNG phù hợp?\n1. Vật liệu chống thấm cao su urethan dạng 2 thành phần: trộn chất chính + chất đóng rắn (kèm phụ gia thúc đẩy đóng rắn/vật liệu lấp nếu cần) ngay trước khi thi công.\n2. Asphalt cho chống thấm: điểm hóa giòn Fraass càng thấp thì đặc tính nhiệt độ thấp càng tốt.\n3. Số 1000 trong stretch roofing 1000 biểu thị tích kéo (cường độ kéo × tỉ lệ giãn tại tải tối đa).\n4. Tấm roofing asphalt cải tiến chia loại I và II theo đặc tính nhiệt độ; loại I có khả năng chống gập ở nhiệt độ thấp tốt.",
+          "choices_vi": [
+            "Vật liệu 2 thành phần: trộn chính + đóng rắn ngay trước thi công.",
+            "Asphalt: Fraass thấp = đặc tính nhiệt độ thấp tốt.",
+            "Stretch roofing 1000 = tích kéo.",
+            "Roofing cải tiến: loại I chống gập nhiệt độ thấp."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3: ĐÚNG.\n\nLựa chọn 4: SAI. LOẠI II mới chống gập nhiệt độ thấp tốt, KHÔNG phải loại I. Loại I là chịu nhiệt độ cao tốt.",
+          "studyContent_vi": "Roofing cải tiến: Loại II = lạnh tốt, Loại I = nóng tốt."
+        },
+        {
+          "label": "Q15",
+          "question": "屋内で使用する塗料に関する記述として、最も不適当なものはどれか。\n1. アクリル樹脂系非水分散形塗料は、モルタル面に適しているが、せっこうボード面には適していない。\n2. クリヤラッカーは、木部に適しているが、コンクリート面には適していない。\n3. つや有合成樹脂エマルションペイントは、鉄鋼面に適しているが、モルタル面には適していない。\n4. 2液形ポリウレタンワニスは、木部に適しているが、ALCパネル面には適していない。",
+          "choices": [
+            "アクリル樹脂系非水分散形塗料は、モルタル面に適しているが、せっこうボード面には適していない。",
+            "クリヤラッカーは、木部に適しているが、コンクリート面には適していない。",
+            "つや有合成樹脂エマルションペイントは、鉄鋼面に適しているが、モルタル面には適していない。",
+            "2液形ポリウレタンワニスは、木部に適しているが、ALCパネル面には適していない。"
+          ],
+          "answer": "3",
+          "explanation": "塗料に関する出題です。\n\n選択肢1. アクリル樹脂系非水分散形塗料は、モルタル面に適しているが、せっこうボード面には適していない。\nアクリル樹脂系非水分散形塗料は、屋内のコンクリート面、モルタル面に適しているが、せっこうボード面には適していません。\n\n選択肢2. クリヤラッカーは、木部に適しているが、コンクリート面には適していない。\n設問の通りです。クリヤラッカーは、透明で木部によくなじむ塗料です。ただし、対候性に劣り、屋外に不向きです。\n\n選択肢3. つや有合成樹脂エマルションペイントは、鉄鋼面に適しているが、モルタル面には適していない。\n誤りです。つや有合成樹脂エマルションペイントは、コンクリート面、モルタル面、石膏ボード、木部、鉄鋼面に適しています。\n\n選択肢4. 2液形ポリウレタンワニスは、木部に適しているが、ALCパネル面には適していない。\n設問の通りです。ポリウレタンワニスは、木部に適しています。ALCパネル面に関しては、エマルションペイントなどが適しています。",
+          "studyContent": "塗料適用：エマルションペイント＝多用途（モルタル/コンクリート/石膏/木/鉄）、クリヤラッカー＝木専用、ポリウレタンワニス＝木専用、アクリルNAD＝モルタル/コンクリート（石膏✕）。",
+          "question_vi": "Trong các nội dung về sơn dùng nội thất, nội dung nào KHÔNG phù hợp nhất?\n1. Sơn nhựa acrylic phân tán không nước phù hợp mặt vữa nhưng không phù hợp mặt tấm thạch cao.\n2. Sơn trong (clear lacquer) phù hợp gỗ nhưng không phù hợp mặt bê tông.\n3. Sơn nhũ tương nhựa tổng hợp bóng phù hợp mặt thép nhưng không phù hợp mặt vữa.\n4. Varnish polyurethan 2 thành phần phù hợp gỗ nhưng không phù hợp mặt panel ALC.",
+          "choices_vi": [
+            "Acrylic NAD: vữa ✓, thạch cao ✗.",
+            "Lacquer trong: gỗ ✓, bê tông ✗.",
+            "Emulsion bóng: thép ✓, vữa ✗.",
+            "Polyurethan varnish: gỗ ✓, ALC ✗."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 4: ĐÚNG.\n\nLựa chọn 3: SAI. Sơn nhũ tương nhựa tổng hợp BÓNG là loại ĐA NĂNG: phù hợp với bê tông, VỮA, thạch cao, gỗ, thép. KHÔNG phải không phù hợp vữa.",
+          "studyContent_vi": "Sơn nhũ tương = đa năng (vữa, bê tông, gỗ, thép, thạch cao). Lacquer/varnish = chỉ gỗ. Acrylic NAD ✗ thạch cao."
+        }
+      ]
+    }
+  ]
+}
