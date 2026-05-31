@@ -781,13 +781,24 @@
     .qs-print-sub  { display: none; font-size: 13px; color: var(--muted); margin-bottom: 24px; }
 
     @media print {
-      body * { visibility: hidden; }
-      #questionSystemPrintArea, #questionSystemPrintArea * { visibility: visible; }
-      #questionSystemPrintArea { position: fixed; top: 0; left: 0; width: 100%; padding: 24px; background: #fff; overflow: visible !important; max-height: none !important; }
-      .qs-print-title, .qs-print-sub { display: block !important; visibility: visible; }
+      /* Ẩn toàn bộ, chỉ hiện vùng in tạm thời */
+      body > * { display: none !important; }
+      #__pdfPrintTemp {
+        display: block !important;
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        padding: 24px;
+        background: #fff;
+      }
+      #__pdfPrintTemp * { visibility: visible !important; }
+      .qs-print-title { display: block !important; font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+      .qs-print-sub   { display: block !important; font-size: 13px; color: #7f6e60; margin-bottom: 20px; }
       .qs-topic-header { -webkit-print-color-adjust: exact; print-color-adjust: exact; border-radius: 6px; }
+      /* 2 câu hỏi = 1 trang */
       .qs-question-item { break-inside: avoid; page-break-inside: avoid; }
-      .qs-section { break-inside: avoid; page-break-inside: avoid; }
+      .qs-page-break    { break-after: page; page-break-after: always; }
+      .qs-section       { break-inside: auto; page-break-inside: auto; }
     }
 
     /* Scrollbar */
@@ -2988,7 +2999,19 @@ ${pathList}
       const reader = new FileReader();
       reader.onload = (e) => {
         try {
-          let data = JSON.parse(e.target.result);
+          // Parse JSON, tự động bỏ văn bản rác (vd: link GitHub) ở đầu file nếu có
+          let rawText = e.target.result.trim();
+          let data;
+          try {
+            data = JSON.parse(rawText);
+          } catch (_) {
+            const firstBrace = rawText.indexOf('{');
+            if (firstBrace > 0) {
+              data = JSON.parse(rawText.slice(firstBrace));
+            } else {
+              throw new Error("File không phải JSON hợp lệ.");
+            }
+          }
           // Hỗ trợ cả format mảng thẳng [{path,questions,...}] lẫn {topics:[...]}
           if (Array.isArray(data)) {
             data = { topics: data };
@@ -3451,6 +3474,7 @@ ${pathList}
         return;
       }
 
+      let globalQuestionIndex = 0;
       topics.forEach(({ path: topicPathKey, labels }) => {
         const section = document.createElement("div");
         section.className = "qs-section";
@@ -3466,7 +3490,9 @@ ${pathList}
           const questionPathKey = getQuestionPath(topicPathKey, label);
           const qData = getEffectiveQuestion(questionPathKey);
           const item = document.createElement("div");
-          item.className = "qs-question-item";
+          // Mỗi câu hỏi = 1 trang PDF
+          item.className = "qs-question-item qs-page-break";
+          globalQuestionIndex++;
           const choicesHTML = qData.choices
             .map((c, i) => c ? `<div class="qs-choice">${i + 1}. ${escapeHtml(c)}</div>` : "")
             .join("");
@@ -3520,7 +3546,15 @@ ${pathList}
     });
 
     document.getElementById("printPdfBtn").addEventListener("click", () => {
+      // Clone nội dung ra ngoài modal để tránh bị cắt bởi overflow/max-height
+      const existing = document.getElementById("__pdfPrintTemp");
+      if (existing) existing.remove();
+      const temp = document.createElement("div");
+      temp.id = "__pdfPrintTemp";
+      temp.innerHTML = document.getElementById("questionSystemPrintArea").innerHTML;
+      document.body.appendChild(temp);
       window.print();
+      setTimeout(() => temp.remove(), 1000);
     });
 
     // ── Global error handler ──
