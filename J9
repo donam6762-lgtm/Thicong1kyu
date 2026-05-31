@@ -1,0 +1,284 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 防水工事",
+      "vocabulary": "防水工事 - thi công chống thấm\nアスファルト防水密着工法 - phương pháp chống thấm asphalt bám dính\n平場部 - phần mặt bằng\nルーフィング - tấm chống thấm (roofing)\n入隅 - góc lõm\nストレッチルーフィング - stretch roofing\n増張り - dán thêm\n改質アスファルトシート防水 - chống thấm tấm asphalt cải tiến\nトーチ工法 - phương pháp đốt khò\n重ね幅 - bề rộng chồng mép\n立上り部 - phần dựng đứng (chân tường)\n絶縁工法 - phương pháp cách ly\nALCパネル - tấm ALC\n目地 - mạch nối\n短辺接合部 - đoạn nối cạnh ngắn\n絶縁用テープ - băng cách ly",
+      "questions": [
+        {
+          "label": "Q31",
+          "question": "防水工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "アスファルト防水密着工法における平場部のルーフィングの張付けに先立ち、入隅は幅300mm程度のストレッチルーフィングを増張りした。",
+            "改質アスファルトシート防水トーチ工法における平場部の改質アスファルトシートの重ね幅は、縦横とも100mm以上とした。",
+            "アスファルト防水における立上り部のアスファルトルーフィング類は、平場部のアスファルトルーフィングを張り付けた後、150mm以上張り重ねた。",
+            "改質アスファルトシート防水絶縁工法におけるALCパネル目地の短辺接合部は、幅50mm程度のストレッチルーフィングを張り付けた。"
+          ],
+          "answer": "4",
+          "explanation": "防水層の重ね幅は基本100mm以上と覚えてください。\n\n選択肢1. アスファルト防水密着工法における平場部のルーフィングの張付けに先立ち、入隅は幅300mm程度のストレッチルーフィングを増張りした。\n設問の通りです。アスファルト防水密着工法では、まず入隅は幅300mm程度のストレッチルーフィングを増張りし、そのあとに平場部のルーフィングの張付けを行います。\n\n選択肢2. 改質アスファルトシート防水トーチ工法における平場部の改質アスファルトシートの重ね幅は、縦横とも100mm以上とした。\n設問の通りです。防水層の重ね幅は基本100mm以上と覚えてください。例外→シート防水の塩化ビニル樹脂系シート／ウレタンゴム系塗膜防水の補強布。\n\n選択肢3. アスファルト防水における立上り部のアスファルトルーフィング類は、平場部のアスファルトルーフィングを張り付けた後、150mm以上張り重ねた。\n設問の通りです。立上りと平場のアスファルトルーフィング類は別々に張り付け、立上り部は各層とも平場側に150mm以上張り重ねます。ただし、立上りの高さが400mm未満の場合は、平場のアスファルトルーフィング類をそのまま張り上げることができます。\n\n選択肢4. 改質アスファルトシート防水絶縁工法におけるALCパネル目地の短辺接合部は、幅50mm程度のストレッチルーフィングを張り付けた。\n誤りです。改質アスファルトシート防水絶縁工法におけるALCパネル目地の短辺接合部は、幅50mm程度の絶縁用テープを張り付けます。ストレッチルーフィングを張り付けた場合、地震の際にALCパネルと防水層の挙動が異なり、追従できない防水層にひび割れが発生して漏水の原因となるため、絶縁工法を採用し絶縁用テープを張ります。",
+          "studyContent": "防水層が絶縁かどうか、後貼りか先貼りか、重ね幅の寸法を覚えましょう。ALCパネルの短辺部の目地は、トーチ工法の種別により改質アスファルトシート張付けに先立ち、幅300mm程度の増張り用シートを両側に100mmずつ張り掛けて絶縁増張りとする場合もあります。",
+          "question_vi": "Trong các mô tả về thi công chống thấm, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong phương pháp asphalt bám dính, trước khi dán tấm chống thấm ở mặt bằng, đã dán thêm stretch roofing rộng khoảng 300 mm tại góc lõm.",
+            "Bề rộng chồng mép của tấm asphalt cải tiến phần mặt bằng trong phương pháp đốt khò ≥ 100 mm theo cả 2 chiều.",
+            "Tấm asphalt phần dựng đứng trong chống thấm asphalt được dán chồng lên tấm phần mặt bằng đã dán xong ≥ 150 mm.",
+            "Trong phương pháp chống thấm tấm asphalt cải tiến kiểu cách ly, đoạn nối cạnh ngắn của mạch tấm ALC được dán stretch roofing rộng khoảng 50 mm."
+          ],
+          "explanation_vi": "Bài về chống thấm. Nhớ: bề rộng chồng mép của lớp chống thấm cơ bản ≥ 100 mm.\n\nLựa chọn 1. Tăng cường góc lõm 300 mm.\nĐúng. Trong asphalt bám dính, dán thêm stretch roofing 300 mm tại góc lõm trước, rồi mới dán phần mặt bằng.\n\nLựa chọn 2. Chồng mép 100 mm.\nĐúng. Cơ bản chồng mép ≥ 100 mm. Ngoại lệ: tấm PVC; vải gia cường lớp phủ urethane.\n\nLựa chọn 3. Chồng phần dựng đứng 150 mm.\nĐúng. Tấm phần dựng đứng và phần mặt bằng dán riêng; chồng phần dựng đứng lên phần mặt bằng ≥ 150 mm. Nếu chiều cao dựng đứng <400 mm, có thể dán liền tấm phần mặt bằng lên.\n\nLựa chọn 4. Stretch roofing 50 mm cho mạch ALC.\nSAI. Phải dùng BĂNG CÁCH LY rộng khoảng 50 mm, không dùng stretch roofing. Nếu dùng stretch roofing, khi động đất ALC và lớp chống thấm chuyển vị khác nhau, lớp chống thấm không theo kịp sẽ nứt và rò nước; do đó dùng phương pháp cách ly với băng cách ly.",
+          "studyContent_vi": "Phân biệt: lớp chống thấm có cách ly hay không; dán trước hay dán sau; số đo bề rộng chồng mép. Với mạch cạnh ngắn của tấm ALC, tuỳ kiểu khò có thể dán thêm tấm tăng cường rộng 300 mm chồng 100 mm mỗi bên trước khi dán tấm asphalt cải tiến (cách ly tăng cường)."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 石工事 / 乾式工法",
+      "vocabulary": "乾式工法 - phương pháp khô\n外壁の張り石工事 - thi công ốp đá tường ngoài\nだぼ孔 - lỗ chốt (dowel)\n端あき寸法 - khoảng cách mép\nロッキング方式 - phương thức rocking\nファスナーの通しだぼ - chốt xuyên của fastener\n下地のコンクリート面の精度 - độ chính xác mặt bê tông nền\n調整範囲 - phạm vi điều chỉnh\nファスナー - fastener (móc nối)\n石材間の目地 - mạch giữa các viên đá\nシーリング材 - vật liệu sealant\nクリアランス - khe hở",
+      "questions": [
+        {
+          "label": "Q32",
+          "question": "乾式工法による外壁の張り石工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "厚さ30mm、大きさ500mm角の石材のだぼ孔の端あき寸法は、60mmとした。",
+            "ロッキング方式において、ファスナーの通しだぼは、径4mmのものを使用した。",
+            "下地のコンクリート面の精度を考慮し、調整範囲が±10mmのファスナーを使用した。",
+            "石材間の目地は、幅を10mmとしてシーリング材を充填した。"
+          ],
+          "answer": "1",
+          "explanation": "乾式工法も数字が多いです。キーワードとポイントをおさえて数字を覚えてください。\n\n選択肢1. 厚さ30mm、大きさ500mm角の石材のだぼ孔の端あき寸法は、60mmとした。\n誤りです。石材のだぼ孔の端あき寸法は石材の厚みの3倍とします。設問は30mmなので×3で90mm必要です。石材幅の辺長の1/4程度である125mm程度の位置にバランスよく設けます。端あき寸法の不足は、石材のひび割れの原因となります。\n\n選択肢2. ロッキング方式において、ファスナーの通しだぼは、径4mmのものを使用した。\n設問の通りです。ロッキング方式において、ファスナーの通しだぼは、径4mmのものを使用します。\n\n選択肢3. 下地のコンクリート面の精度を考慮し、調整範囲が±10mmのファスナーを使用した。\n設問の通りです。下地のコンクリート面の精度を考慮して、調整範囲が±10mmのファスナーを使用します。\n\n選択肢4. 石材間の目地は、幅を10mmとしてシーリング材を充填した。\n設問の通りです。石材間の目地は、幅を10mmとしてシーリング材を充填します。",
+          "studyContent": "外壁張り石工事は乾式、湿式それぞれの特徴を整理して覚えましょう。クリアランス、金物やダボ穴の径をしっかり覚えましょう。\n・だぼ孔の端あき寸法：石材厚みの3倍\n・ロッキング方式の通しだぼ：径4mm\n・ファスナーの調整範囲：±10mm程度\n・石材間目地：10mm、シーリング材充填",
+          "question_vi": "Trong các mô tả về thi công ốp đá tường ngoài theo phương pháp khô, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khoảng cách mép của lỗ chốt trên viên đá dày 30 mm, kích thước 500 mm vuông, là 60 mm.",
+            "Theo phương thức rocking, chốt xuyên của fastener dùng đường kính 4 mm.",
+            "Xét đến độ chính xác mặt bê tông nền, đã dùng fastener có phạm vi điều chỉnh ±10 mm.",
+            "Mạch giữa các viên đá có bề rộng 10 mm và bơm đầy sealant."
+          ],
+          "explanation_vi": "Bài về phương pháp khô — cũng nhiều số liệu, học theo từ khoá.\n\nLựa chọn 1. Khoảng cách mép 60 mm.\nSAI. Khoảng cách mép của lỗ chốt phải bằng 3 LẦN ĐỘ DÀY ĐÁ. Đá dày 30 mm → cần 30×3 = 90 mm (không phải 60 mm). Bố trí cân đối ở vị trí khoảng 1/4 bề dài cạnh đá (~125 mm). Nếu thiếu khoảng cách mép → đá dễ nứt.\n\nLựa chọn 2. Chốt xuyên 4 mm.\nĐúng. Phương thức rocking dùng chốt xuyên đường kính 4 mm.\n\nLựa chọn 3. Fastener ±10 mm.\nĐúng. Để bù sai số mặt bê tông nền, dùng fastener có phạm vi điều chỉnh ±10 mm.\n\nLựa chọn 4. Mạch 10 mm.\nĐúng. Mạch giữa các viên đá rộng 10 mm và bơm sealant.",
+          "studyContent_vi": "Phân biệt đặc điểm ốp đá phương pháp khô và phương pháp ướt. Nhớ chính xác khe hở, kích thước phụ kiện, đường kính lỗ chốt:\n• Khoảng cách mép lỗ chốt: 3 × độ dày đá.\n• Chốt xuyên kiểu rocking: đường kính 4 mm.\n• Phạm vi điều chỉnh fastener: ±10 mm.\n• Mạch giữa đá: 10 mm, bơm sealant."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 屋根工事 / 金属製折板葺",
+      "vocabulary": "金属製折板葺屋根工事 - thi công mái lợp tôn gập kim loại\n端部用タイトフレーム - tight frame đầu mép (kerba frame)\nけらば包み - bao kerba (diềm hồi)\n下地 - nền\n間隔 - khoảng cách\n重ね形折板 - tôn gập kiểu chồng mép\n重ね部分 - phần chồng mép\n緊結ボルト - bu lông siết\n流れ方向 - hướng dòng chảy\n軒先 - mép mái (hiên)\n落とし口 - cửa thoát\n折板の底幅 - bề rộng đáy tôn gập\nテーパー付きポンチ - đột có côn\n尾垂れ - phần đuôi rủ\nアール曲げ加工 - gia công uốn cong\n曲げ半径 - bán kính uốn",
+      "questions": [
+        {
+          "label": "Q33",
+          "question": "金属製折板葺屋根工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "端部用タイトフレームは、けらば包みの下地として、間隔を1,800mmで取り付けた。",
+            "重ね形折板の重ね部分の緊結ボルトは、流れ方向の間隔を600mmとした。",
+            "軒先の落とし口は、折板の底幅より小さく穿孔し、テーパー付きポンチで押し広げ、10mmの尾垂れを付けた。",
+            "軒先のアール曲げ加工は、曲げ半径を450mmとした。"
+          ],
+          "answer": "1",
+          "explanation": "金属製折板屋根葺工事は、各取り付け間隔の数値に注意しましょう。\n\n選択肢1. 端部用タイトフレームは、けらば包みの下地として、間隔を1,800mmで取り付けた。\n誤りです。端部用タイトフレームは、けらば包みを固定する下地として、1,000mm以下の間隔で取り付けます。1,800mmでは広すぎます。けらば包みは1m程度の間隔で下地に取り付けます。（参考：公共建築工事標準仕様書（建築工事編）13.3.3工法 p.159）端部用タイトフレームは、けらば用フレームともいいます。\n\n選択肢2. 重ね形折板の重ね部分の緊結ボルトは、流れ方向の間隔を600mmとした。\n設問の通りです。重ね形折板の重ね部分の緊結ボルトは、流れ方向の間隔を600mmとします。\n\n選択肢3. 軒先の落とし口は、折板の底幅より小さく穿孔し、テーパー付きポンチで押し広げ、10mmの尾垂れを付けた。\n設問の通りです。軒先の落とし口は、折板の底幅より小さく穿孔し、テーパー付きポンチで押し広げ、10mmの尾垂れを付けて問題ありません。5mmでも可能です。\n\n選択肢4. 軒先のアール曲げ加工は、曲げ半径を450mmとした。\n設問の通りです。軒先のアール曲げ加工は、曲げ半径を450mmとします。",
+          "studyContent": "数値と用語を覚えましょう。\n・端部用タイトフレーム（けらば用フレーム）：1,000mm以下\n・重ね部分の緊結ボルト：流れ方向600mm\n・落とし口の尾垂れ：5〜10mm\n・軒先のアール曲げ：半径450mm",
+          "question_vi": "Trong các mô tả về thi công mái lợp tôn gập kim loại, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tight frame đầu mép dùng làm nền cho bao kerba, lắp với khoảng cách 1.800 mm.",
+            "Bu lông siết phần chồng mép của tôn gập kiểu chồng có khoảng cách 600 mm theo hướng dòng chảy.",
+            "Cửa thoát ở mép mái được đột nhỏ hơn bề rộng đáy tôn gập, dùng đột có côn nong rộng, tạo đuôi rủ 10 mm.",
+            "Gia công uốn cong ở mép mái với bán kính uốn 450 mm."
+          ],
+          "explanation_vi": "Bài về tôn gập kim loại — chú ý các trị số khoảng cách.\n\nLựa chọn 1. Tight frame đầu mép 1.800 mm.\nSAI. Tight frame đầu mép (kerba frame) làm nền cố định bao kerba phải đặt với khoảng cách ≤ 1.000 mm (khoảng 1 m). 1.800 mm quá rộng.\n\nLựa chọn 2. Bu lông siết 600 mm.\nĐúng. Phần chồng mép của tôn gập kiểu chồng, bu lông siết khoảng 600 mm theo hướng dòng chảy.\n\nLựa chọn 3. Đuôi rủ 10 mm.\nĐúng. Đột nhỏ hơn bề rộng đáy tôn, dùng đột có côn nong rộng, tạo đuôi rủ 5–10 mm.\n\nLựa chọn 4. Uốn cong 450 mm.\nĐúng. Bán kính uốn mép mái 450 mm.",
+          "studyContent_vi": "Nhớ số liệu và thuật ngữ:\n• Tight frame đầu mép (kerba frame): ≤ 1.000 mm.\n• Bu lông siết chồng mép: 600 mm theo dòng chảy.\n• Đuôi rủ cửa thoát: 5–10 mm.\n• Uốn cong mép mái: bán kính 450 mm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 軽量鉄骨工事 / 天井下地",
+      "vocabulary": "特定天井 - trần đặc định\n軽量鉄骨天井下地工事 - thi công khung nền trần thép nhẹ\n天井のふところ - khoảng trống trên trần (plenum)\n吊りボルト - bu lông treo\n振れ止め - chống lắc\n水平方向の補強 - gia cố ngang\n下り壁 - tường rủ xuống (hạ trần)\n段違い部分 - phần chênh cao\n斜め補強 - giằng chéo gia cố\n下地張り - lớp ốp nền\n天井仕上げ - hoàn thiện trần\n野縁 - thanh khung trần\nダブル野縁 / シングル野縁 - thanh khung đôi / đơn\n野縁受 - thanh đỡ khung\nクリップ留め - cố định bằng kẹp\n突付け - chạm sát\nはね出し - phần thừa ra",
+      "questions": [
+        {
+          "label": "Q34",
+          "question": "特定天井に該当しない軽量鉄骨天井下地工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "天井のふところが1,500mm以上あったため、吊りボルトの振れ止めとなる水平方向の補強は、縦横間隔を1,800mm程度とした。",
+            "下り壁による天井の段違い部分は、2,700mm程度の間隔で斜め補強を行った。",
+            "下地張りのある天井仕上げの野縁は、ダブル野縁を1,800mm程度の間隔とし、その間に4本のシングル野縁を間隔を揃えて配置した。",
+            "野縁は、野縁受にクリップ留めし、野縁が壁と突付けとなる箇所は、野縁受からのはね出しを200mmとした。"
+          ],
+          "answer": "4",
+          "explanation": "軽量鉄骨天井下地については、数値に注意して問題を解いてください。\n\n選択肢1. 天井のふところが1,500mm以上あったため、吊りボルトの振れ止めとなる水平方向の補強は、縦横間隔を1,800mm程度とした。\n設問の通りです。天井のふところが1,500mm以上ある場合、吊りボルトの振れ止めとなる水平方向の補強は、縦横間隔を1,800mm程度とします。\n\n選択肢2. 下り壁による天井の段違い部分は、2,700mm程度の間隔で斜め補強を行った。\n設問の通りです。下り壁による天井の段違い部分は、2,700mm程度の間隔で斜め補強を行います。\n\n選択肢3. 下地張りのある天井仕上げの野縁は、ダブル野縁を1,800mm程度の間隔とし、その間に4本のシングル野縁を間隔を揃えて配置した。\n設問の通りです。下地張りのある天井仕上げの野縁は、ダブル野縁を1,800mm程度の間隔とし、その間に4本のシングル野縁を間隔を揃えて配置します。\n\n選択肢4. 野縁は、野縁受にクリップ留めし、野縁が壁と突付けとなる箇所は、野縁受からのはね出しを200mmとした。\n誤りです。野縁が壁と突付けとなる箇所は、野縁受からのはね出しを150mm以下とします。",
+          "studyContent": "・天井ふところ≧1,500mm：水平補強縦横1,800mm程度\n・段違い部分：斜め補強2,700mm程度\n・下地張りあり天井野縁：ダブル野縁1,800mm程度の間に4本のシングル野縁\n・野縁の壁突付けはね出し：150mm以下\n特定天井（高さ6m超、面積200㎡超等の天井）には別の基準が適用されますので注意。",
+          "question_vi": "Trong các mô tả về thi công khung nền trần thép nhẹ (KHÔNG thuộc trần đặc định), đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi khoảng trống trên trần ≥ 1.500 mm, gia cố ngang chống lắc bu lông treo có khoảng cách dọc/ngang khoảng 1.800 mm.",
+            "Phần chênh cao do tường rủ xuống được giằng chéo gia cố với khoảng cách khoảng 2.700 mm.",
+            "Với trần hoàn thiện có lớp ốp nền, thanh khung đôi đặt khoảng 1.800 mm, ở giữa bố trí 4 thanh đơn cách đều.",
+            "Thanh khung cố định bằng kẹp vào thanh đỡ; tại đoạn thanh khung chạm sát tường, phần thừa ra từ thanh đỡ là 200 mm."
+          ],
+          "explanation_vi": "Bài về khung nền trần thép nhẹ.\n\nLựa chọn 1. Plenum ≥ 1.500 mm.\nĐúng. Gia cố ngang chống lắc bu lông treo cách đều khoảng 1.800 mm theo cả 2 chiều.\n\nLựa chọn 2. Giằng chéo 2.700 mm.\nĐúng.\n\nLựa chọn 3. Bố trí thanh khung.\nĐúng. Thanh đôi 1.800 mm, ở giữa bố trí 4 thanh đơn cách đều.\n\nLựa chọn 4. Phần thừa 200 mm.\nSAI. Tại đoạn thanh khung chạm sát tường, phần thừa ra từ thanh đỡ phải ≤ 150 mm (không phải 200 mm).",
+          "studyContent_vi": "Số liệu cần nhớ:\n• Plenum ≥ 1.500 mm → gia cố ngang khoảng 1.800 mm.\n• Chênh cao do tường rủ → giằng chéo khoảng 2.700 mm.\n• Thanh khung trần có ốp nền: thanh đôi 1.800 mm, giữa có 4 thanh đơn.\n• Đoạn chạm sát tường, phần thừa ra ≤ 150 mm.\nTrần đặc định (cao >6 m, diện tích >200 m² v.v.) áp tiêu chuẩn khác — phải phân biệt."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 左官工事 / セメントモルタル塗り",
+      "vocabulary": "内壁コンクリート下地 - nền bê tông tường trong\nセメントモルタル塗り - trát vữa xi măng\n下塗り - lớp lót\n吸水調整材 - vật liệu điều chỉnh hút nước\n乾燥 - khô\n調合 - tỉ lệ phối trộn\n容積比 - tỉ lệ thể tích\nセメント / 砂 - xi măng / cát\n放置期間 - thời gian để yên\n硬化 - đông cứng\nむら直し - sửa độ phẳng (chỉnh không đều)\n中塗り / 上塗り - lớp trung / lớp hoàn thiện\n塗厚 - chiều dày trát",
+      "questions": [
+        {
+          "label": "Q35",
+          "question": "内壁コンクリート下地のセメントモルタル塗りに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "下塗りは、吸水調整材の塗布後、乾燥を確認してから行った。",
+            "下塗り用モルタルの調合は、容積比でセメント1：砂3とした。",
+            "下塗り後の放置期間は、モルタルの硬化が確認できたため、14日間より短縮した。",
+            "中塗りや上塗りの塗厚を均一にするため、下塗りの後に、むら直しを行った。"
+          ],
+          "answer": "2",
+          "explanation": "モルタル塗りの手順、各種数値、調合の割合をよく覚えてください。\n\n選択肢1. 下塗りは、吸水調整材の塗布後、乾燥を確認してから行った。\n設問の通りです。下塗りは、吸水調整材の塗布後、乾燥を確認してから行います。\n\n選択肢2. 下塗り用モルタルの調合は、容積比でセメント1：砂3とした。\n誤りです。下塗り用モルタルの調合は、容積比でセメント1：砂2.5とします。また、むら直し・中塗り・上塗りはセメント1：砂3です。\n\n選択肢3. 下塗り後の放置期間は、モルタルの硬化が確認できたため、14日間より短縮した。\n設問の通りです。下塗り後の放置期間はモルタルの硬化が確認できたため、14日間より短縮しても大丈夫です。\n\n選択肢4. 中塗りや上塗りの塗厚を均一にするため、下塗りの後に、むら直しを行った。\n設問の通りです。中塗りや上塗りの塗厚を均一にするため、下塗りの後に、むら直しを行います。",
+          "studyContent": "内壁コンクリート下地のセメントモルタル塗り：\n・下塗り：容積比セメント1：砂2.5\n・むら直し、中塗り、上塗り：容積比セメント1：砂3\n・1回の塗厚：7mm以下、全塗厚：20mm（標準）\n・下塗り放置期間：基本14日間、硬化確認後は短縮可\n・下塗り前：吸水調整材塗布→乾燥確認",
+          "question_vi": "Trong các mô tả về trát vữa xi măng trên nền bê tông tường trong, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Lớp lót được trát sau khi sơn vật liệu điều chỉnh hút nước và xác nhận đã khô.",
+            "Tỉ lệ phối trộn vữa lớp lót là xi măng 1 : cát 3 theo thể tích.",
+            "Thời gian để yên sau lớp lót đã được rút ngắn ngắn hơn 14 ngày vì đã xác nhận vữa đông cứng.",
+            "Để chiều dày lớp trung và lớp hoàn thiện đồng đều, sau lớp lót đã thực hiện sửa độ phẳng."
+          ],
+          "explanation_vi": "Bài về quy trình trát vữa và tỉ lệ phối trộn.\n\nLựa chọn 1. Lớp lót sau khi vật liệu điều chỉnh hút nước khô.\nĐúng.\n\nLựa chọn 2. Tỉ lệ 1 : 3.\nSAI. Vữa LỚP LÓT phải là xi măng 1 : cát 2,5 theo thể tích. Còn sửa phẳng/lớp trung/lớp hoàn thiện mới là 1 : 3.\n\nLựa chọn 3. Rút ngắn 14 ngày.\nĐúng. Đã xác nhận đông cứng thì có thể rút ngắn so với 14 ngày.\n\nLựa chọn 4. Sửa phẳng.\nĐúng. Sau lớp lót, sửa phẳng để chiều dày lớp trung và hoàn thiện đều.",
+          "studyContent_vi": "Trát vữa xi măng trên nền bê tông tường trong:\n• Lớp lót: xi măng 1 : cát 2,5 (thể tích).\n• Sửa phẳng/lớp trung/lớp hoàn thiện: xi măng 1 : cát 3.\n• 1 lần trát ≤ 7 mm; tổng chiều dày 20 mm (tiêu chuẩn).\n• Thời gian để yên sau lớp lót: cơ bản 14 ngày, có thể rút ngắn khi đã đông cứng.\n• Trước lớp lót: sơn vật liệu điều chỉnh hút nước → xác nhận khô."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 建具工事 / 鋼製建具",
+      "vocabulary": "鋼製建具 - cửa thép\n有効開口 - khoảng mở hữu dụng\n両面フラッシュ戸 - cánh flush 2 mặt\n表面板 - tấm bề mặt\n鋼板製 - chế tạo bằng tấm thép\n見込み部 - phần cạnh chiều dày (jamb)\n上下部を除いた左右2方 - 2 phương trái phải trừ trên dưới\n下部を除いた三方 - 3 phương trừ phần dưới\nたて枠 - khuôn dọc\n丁番 - bản lề\nピボットヒンジ - bản lề trục (pivot hinge)\n建具枠 - khung cửa\n補強板 - tấm gia cường",
+      "questions": [
+        {
+          "label": "Q36",
+          "question": "鋼製建具に関する記述として、最も不適当なものはどれか。ただし、1枚の戸の有効開口は、幅950mm、高さ2,400mmとする。",
+          "choices": [
+            "外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとした。",
+            "外部に面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包んだ。",
+            "たて枠は鋼板製とし、厚さを1.6mmとした。",
+            "丁番やピポットヒンジ等により、大きな力が加わる建具枠の補強板は、厚さを2.3mmとした。"
+          ],
+          "answer": "2",
+          "explanation": "外部に面する場合と、内部のみに面する場合とで各種数値が異なります。外部に面する場合の方が部材寸法が大きくなることに注意して覚えましょう。\n\n選択肢1. 外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとした。\n設問の通りです。\n\n選択肢2. 外部に面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包んだ。\n誤りです。外部に面する両面フラッシュ戸の見込み部は、下部を除いた三方（上部・左右）を表面板で包む必要があります。なお、内部のみに面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包みます。\n\n選択肢3. たて枠は鋼板製とし、厚さを1.6mmとした。\n設問の通りです。\n\n選択肢4. 丁番やピポットヒンジ等により、大きな力が加わる建具枠の補強板は、厚さを2.3mmとした。\n設問の通りです。",
+          "studyContent": "鋼製建具の数値：\n・外部に面する両面フラッシュ戸：見込み部は下部を除いた三方を表面板で包む\n・内部のみに面する両面フラッシュ戸：見込み部は上下部を除いた左右2方を表面板で包む\n・表面板・たて枠：厚さ1.6mm\n・補強板：厚さ2.3mm\n・ステンレス製建具：一般部1.5mm、くつずり1.5mm、裏板1.6mm以上、補強板2.3mm以上",
+          "question_vi": "Trong các mô tả về cửa thép, đâu là mô tả KHÔNG phù hợp nhất? Khoảng mở hữu dụng của 1 cánh là rộng 950 mm, cao 2.400 mm.",
+          "choices_vi": [
+            "Tấm bề mặt của cánh flush 2 mặt mặt ngoài làm bằng tấm thép, dày 1,6 mm.",
+            "Phần cạnh chiều dày của cánh flush 2 mặt MẶT NGOÀI được bọc tấm bề mặt theo 2 phương trái phải, trừ trên và dưới.",
+            "Khuôn dọc làm bằng tấm thép, dày 1,6 mm.",
+            "Tấm gia cường khung cửa nơi chịu lực lớn từ bản lề/pivot hinge dày 2,3 mm."
+          ],
+          "explanation_vi": "Bài về cửa thép. Mặt ngoài có số liệu lớn hơn mặt trong.\n\nLựa chọn 1. Tấm bề mặt 1,6 mm.\nĐúng.\n\nLựa chọn 2. Phần cạnh chiều dày mặt ngoài bọc 2 phương.\nSAI. Cánh flush 2 mặt MẶT NGOÀI phải bọc tấm bề mặt theo BA PHƯƠNG (trên + trái + phải), chỉ trừ phần DƯỚI. Còn cánh flush 2 mặt MẶT TRONG mới là bọc 2 phương trái phải, trừ trên dưới.\n\nLựa chọn 3. Khuôn dọc 1,6 mm.\nĐúng.\n\nLựa chọn 4. Tấm gia cường 2,3 mm.\nĐúng.",
+          "studyContent_vi": "Số liệu cửa thép:\n• Cánh flush 2 mặt MẶT NGOÀI: bọc 3 phương (trừ phía dưới).\n• Cánh flush 2 mặt MẶT TRONG: bọc 2 phương trái phải (trừ trên dưới).\n• Tấm bề mặt, khuôn dọc: 1,6 mm.\n• Tấm gia cường: 2,3 mm.\n• Cửa inox: thân chung 1,5 mm; ngưỡng 1,5 mm; tấm lưng ≥1,6 mm; tấm gia cường ≥2,3 mm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 塗装工事",
+      "vocabulary": "塗装工事 - thi công sơn\nアクリル樹脂系非水分散形塗料 - sơn phân tán không nước hệ acrylic\n研磨紙P220 - giấy nhám P220\nせっこうボード - tấm thạch cao\n合成樹脂エマルションペイント - sơn nhũ tương nhựa tổng hợp (EP)\n気温 - nhiệt độ không khí\n中塗り - lớp trung\n屋外 - ngoài trời\n木質系素地面 - bề mặt nền gỗ\n木材保護塗料 - sơn bảo vệ gỗ (WP)\n原液 - dung dịch nguyên\n希釈 - pha loãng\n攪拌 - khuấy đều\n亜鉛めっき鋼面 - bề mặt thép mạ kẽm\n常温乾燥形ふっ素樹脂エナメル - sơn enamel nhựa flo khô ở nhiệt độ thường\n下塗り - lớp lót\n変性エポキシ樹脂プライマー - primer epoxy biến tính",
+      "questions": [
+        {
+          "label": "Q37",
+          "question": "塗装工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "アクリル樹脂系非水分散形塗料塗りにおいて、中塗りを行う前に研磨紙P220を用いて研磨した。",
+            "せっこうボード面の合成樹脂エマルションペイント塗りにおいて、気温が20℃であったため、中塗り後3時間経過してから、次の工程に入った。",
+            "屋外の木質系素地面の木材保護塗料塗りにおいて、原液を水で希釈し、よく攪拌して使用した。",
+            "亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りにおいて、下塗りに変性エポキシ樹脂プライマーを使用した。"
+          ],
+          "answer": "3",
+          "explanation": "塗装工事では、希釈や温度、時間をメインに暗記してみるのがポイントです。\n\n選択肢1. アクリル樹脂系非水分散形塗料塗りにおいて、中塗りを行う前に研磨紙P220を用いて研磨した。\n設問の通りです。アクリル樹脂系非水分散形塗料塗りにおいては、中塗りを行う前に研磨紙P220〜240を用いて研磨します。\n\n選択肢2. せっこうボード面の合成樹脂エマルションペイント塗りにおいて、気温が20℃であったため、中塗り後3時間経過してから、次の工程に入った。\n設問の通りです。せっこうボード面の合成樹脂エマルションペイント塗りにおいて、気温が20℃であった場合、中塗り後3時間経過してから、次の工程に入ります。\n\n選択肢3. 屋外の木質系素地面の木材保護塗料塗りにおいて、原液を水で希釈し、よく攪拌して使用した。\n誤りです。木材保護塗料塗りは、原液で使用することを基本として希釈はしません。\n\n選択肢4. 亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りにおいて、下塗りに変性エポキシ樹脂プライマーを使用した。\n設問の通りです。亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りにおいて、下塗りには、変性エポキシ樹脂プライマーを使用します。",
+          "studyContent": "屋外の木質系素地面の木材保護塗料塗り（WP)については、JASS 18 M-307に規定されています。\n・アクリル非水分散形塗料：中塗り前に研磨紙P220〜240\n・EP（せっこうボード）：気温20℃で中塗り後3時間\n・木材保護塗料（WP）：原液使用、希釈しない\n・亜鉛めっき鋼面ふっ素エナメル：下塗りは変性エポキシ樹脂プライマー",
+          "question_vi": "Trong các mô tả về thi công sơn, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi sơn phân tán không nước hệ acrylic, trước khi sơn lớp trung đã đánh nhám bằng giấy P220.",
+            "Khi sơn EP trên bề mặt tấm thạch cao ở 20 ℃, sau lớp trung đã chờ 3 giờ rồi vào công đoạn tiếp theo.",
+            "Khi sơn bảo vệ gỗ cho bề mặt gỗ ngoài trời, đã pha loãng dung dịch nguyên bằng nước và khuấy đều rồi dùng.",
+            "Khi sơn enamel flo khô thường trên bề mặt thép mạ kẽm, lớp lót dùng primer epoxy biến tính."
+          ],
+          "explanation_vi": "Bài về sơn — chú ý pha loãng, nhiệt độ, thời gian.\n\nLựa chọn 1. Giấy nhám P220.\nĐúng. Sơn acrylic không nước: đánh nhám P220–240 trước lớp trung.\n\nLựa chọn 2. EP ở 20 ℃, chờ 3 giờ.\nĐúng.\n\nLựa chọn 3. Pha loãng sơn bảo vệ gỗ.\nSAI. Sơn bảo vệ gỗ (WP) dùng NGUYÊN DUNG DỊCH, KHÔNG pha loãng.\n\nLựa chọn 4. Primer epoxy biến tính cho thép mạ kẽm.\nĐúng.",
+          "studyContent_vi": "Sơn bảo vệ gỗ ngoài trời (WP) quy định trong JASS 18 M-307.\n• Sơn acrylic không nước: nhám P220–240 trước lớp trung.\n• EP trên thạch cao, 20 ℃: chờ 3 giờ.\n• Sơn bảo vệ gỗ (WP): nguyên dung dịch, không pha loãng.\n• Thép mạ kẽm + enamel flo: lớp lót dùng primer epoxy biến tính."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 外壁工事 / ALCパネル",
+      "vocabulary": "ALCパネル工事 - thi công tấm ALC\n床版敷設筋構法 - phương pháp cốt thép sàn (rebar bedding)\n床パネル - tấm sàn\n設備配管 - đường ống thiết bị\n孔あけ加工 - khoan lỗ\n主筋 - cốt chủ\n横壁アンカー構法 - phương pháp neo tường ngang\n躯体の変形 - biến dạng kết cấu chính\nALCパネル積上げ段数 - số tầng xếp tấm ALC\n自重受け金物 - phụ kiện đỡ tự trọng\n縦壁フットプレート構法 - phương pháp footplate tường dọc\n間仕切チャンネル - thanh channel ngăn\nデッキプレート - deck plate\n下面 - mặt dưới\n溝方向 - hướng rãnh\n平鋼 - thép thanh phẳng (flat bar)\nアンカー - neo\n建物周辺部、隅角部 - khu chu vi, góc công trình\n目地鉄筋 - cốt thép mạch\nボルトと角座金 - bu lông và đệm vuông",
+      "questions": [
+        {
+          "label": "Q38",
+          "question": "ALCパネル工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "床版敷設筋構法において、床パネルへの設備配管等の孔あけ加工は1枚当たり1か所とし、主筋の位置を避け、直径100mmの大きさとした。",
+            "横壁アンカー構法において、地震時等における躯体の変形に追従できるよう、ALCパネル積上げ段数3段ごとに自重受け金物を設けた。",
+            "縦壁フットプレート構法において、ALC取付け用間仕切チャンネルをデッキプレート下面の溝方向に取り付ける場合、下地として平鋼をデッキプレート下面にアンカーを用いて取り付けた。",
+            "床版敷設筋構法において、建物周辺部、隅角部等で目地鉄筋により床パネルの固定ができない箇所は、ボルトと角座金を用いて取り付けた。"
+          ],
+          "answer": "1",
+          "explanation": "ALCパネル工事の問題では主に数字や金物について理解するのがポイントです。\n\n選択肢1. 床版敷設筋構法において、床パネルへの設備配管等の孔あけ加工は1枚当たり1か所とし、主筋の位置を避け、直径100mmの大きさとした。\n誤りです。ALCパネルの穴あけ加工は、主筋を切断しない範囲で直径50mm以下とします。1枚当たり1か所で主筋の位置を避けるのは正しいですが、直径は50mm以下です。（参考：ALC協会 ALCパネル取付け構法標準・同解説）\n\n選択肢2. 横壁アンカー構法において、地震時等における躯体の変形に追従できるよう、ALCパネル積上げ段数3段ごとに自重受け金物を設けた。\n設問の通りです。横壁アンカー構法において、地震時等における躯体の変形に追従できるよう、ALCパネル積上げ段数3〜5段ごとに自重受け金物を設けます。\n\n選択肢3. 縦壁フットプレート構法において、ALC取付け用間仕切チャンネルをデッキプレート下面の溝方向に取り付ける場合、下地として平鋼をデッキプレート下面にアンカーを用いて取り付けた。\n設問の通りです。\n\n選択肢4. 床版敷設筋構法において、建物周辺部、隅角部等で目地鉄筋により床パネルの固定ができない箇所は、ボルトと角座金を用いて取り付けた。\n設問の通りです。",
+          "studyContent": "外壁パネル構法の問題も頻出するので、よく覚えておきましょう。\n・床パネル孔あけ：主筋を避け直径50mm以下\n・横壁アンカー：自重受け金物3〜5段ごと\n・縦壁フットプレート：間仕切チャンネル溝方向は平鋼下地+アンカー\n・床版敷設筋：周辺部・隅角部はボルト+角座金",
+          "question_vi": "Trong các mô tả về thi công tấm ALC, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Theo phương pháp cốt thép sàn, lỗ khoan đường ống thiết bị trên tấm sàn là 1 lỗ/tấm, tránh vị trí cốt chủ, đường kính 100 mm.",
+            "Theo phương pháp neo tường ngang, để theo kịp biến dạng kết cấu khi động đất, lắp phụ kiện đỡ tự trọng sau mỗi 3 tầng xếp tấm ALC.",
+            "Theo phương pháp footplate tường dọc, khi lắp thanh channel ngăn ALC theo hướng rãnh mặt dưới deck plate, lắp thép thanh phẳng làm nền vào mặt dưới deck plate bằng neo.",
+            "Theo phương pháp cốt thép sàn, ở khu chu vi/góc công trình không cố định tấm sàn bằng cốt thép mạch được thì gắn bằng bu lông và đệm vuông."
+          ],
+          "explanation_vi": "Bài về tấm ALC — chú ý số liệu và phụ kiện.\n\nLựa chọn 1. Đường kính 100 mm.\nSAI. Khoan lỗ trên tấm ALC phải tránh cắt cốt chủ, đường kính ≤ 50 mm (không phải 100 mm). 1 lỗ/tấm và tránh cốt chủ là đúng, nhưng đường kính phải ≤ 50 mm.\n\nLựa chọn 2. Phụ kiện đỡ tự trọng 3 tầng.\nĐúng. Phương pháp neo tường ngang: cứ 3–5 tầng xếp lại đặt một phụ kiện đỡ tự trọng.\n\nLựa chọn 3. Footplate + thép thanh phẳng.\nĐúng.\n\nLựa chọn 4. Bu lông và đệm vuông.\nĐúng.",
+          "studyContent_vi": "Học thêm phương pháp tấm tường ngoài. Nhớ:\n• Khoan lỗ tấm: tránh cốt chủ, đường kính ≤ 50 mm.\n• Neo tường ngang: phụ kiện đỡ tự trọng cứ 3–5 tầng.\n• Footplate tường dọc: thanh channel theo rãnh deck → thép thanh phẳng + neo làm nền.\n• Cốt thép sàn: chu vi/góc dùng bu lông + đệm vuông."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 改修工事 / 内装改修",
+      "vocabulary": "内装改修工事 - thi công cải tạo nội thất\nアスベスト - amiang\nビニル床シート - tấm sàn vinyl\n撤去 - tháo dỡ\n既存下地モルタル - vữa nền hiện hữu\n浮き部分 - phần phồng/bong\n健全部分 - phần lành\n縁を切る - cắt rời mép\nダイヤモンドカッター - máy cắt kim cương\n刃の出 - phần lưỡi nhô\nモルタル厚さ - chiều dày vữa\n既存合成樹脂塗床面 - bề mặt sơn sàn nhựa tổng hợp hiện hữu\n塗床材 - vật liệu sơn sàn\n塗り重ねる - phủ chồng lên\n接着性 - tính bám dính\n目荒し - làm nhám\n防火認定の壁紙 - giấy dán tường được công nhận chống cháy\n張替え - dán lại\n裏打紙 - giấy lót sau\nビニル床タイル - tấm vinyl sàn\n接着剤 - keo dán\nディスクサンダー - máy mài đĩa",
+      "questions": [
+        {
+          "label": "Q39",
+          "question": "内装改修工事に関する記述として、最も不適当なものはどれか。ただし、既存部分は、アスベストを含まないものとする。",
+          "choices": [
+            "ビニル床シートの撤去後に既存下地モルタルの浮き部分を撤去する際、健全部分と縁を切るために用いるダイヤモンドカッターの刃の出は、モルタル厚さ以下とした。",
+            "既存合成樹脂塗床面の上に同じ塗床材を塗り重ねる際、接着性を高めるよう、既存仕上げ材の表面を目荒しした。",
+            "防火認定の壁紙の張替えは、既存壁紙の裏打紙を残した上に防火認定の壁紙を張り付けた。",
+            "既存下地面に残ったビニル床タイルの接着剤は、ディスクサンダーを用いて除去した。"
+          ],
+          "answer": "3",
+          "explanation": "防火材についてよく理解するのがポイントです。\n\n選択肢1. ビニル床シートの撤去後に既存下地モルタルの浮き部分を撤去する際、健全部分と縁を切るために用いるダイヤモンドカッターの刃の出は、モルタル厚さ以下とした。\n設問の通りです。健全部分と縁を切るために用いるダイヤモンドカッターの刃の出は、モルタル厚さ以下とします。\n\n選択肢2. 既存合成樹脂塗床面の上に同じ塗床材を塗り重ねる際、接着性を高めるよう、既存仕上げ材の表面を目荒しした。\n設問の通りです。既存合成樹脂塗床面の上に同じ塗床材を塗り重ねる際は、接着性を高めるように既存仕上げ材の表面を目荒しします。\n\n選択肢3. 防火認定の壁紙の張替えは、既存壁紙の裏打紙を残した上に防火認定の壁紙を張り付けた。\n誤りです。既存の壁紙の裏打紙は完全に撤去する必要があります。撤去して下地基材面を露出して張替えないと防火材料に認定されません。\n\n選択肢4. 既存下地面に残ったビニル床タイルの接着剤は、ディスクサンダーを用いて除去した。\n設問の通りです。",
+          "studyContent": "既存床仕上げの撤去については主に、ビニル床シート、合成樹脂塗床材、フローリング張り床材、床タイル、床組みが対象となります。それぞれの部材によって撤去工法が異なります。\n・ダイヤモンドカッター刃の出：モルタル厚さ以下\n・塗床材重ね：目荒し\n・防火壁紙張替え：裏打紙完全撤去\n・床タイル接着剤：ディスクサンダー除去",
+          "question_vi": "Trong các mô tả về thi công cải tạo nội thất (phần hiện hữu không chứa amiang), đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Sau khi tháo tấm vinyl sàn, khi tháo phần vữa nền phồng/bong, dùng máy cắt kim cương để cắt rời với phần lành, phần lưỡi nhô ≤ chiều dày vữa.",
+            "Khi phủ chồng cùng loại vật liệu sơn sàn lên bề mặt sơn sàn nhựa tổng hợp hiện hữu, làm nhám bề mặt vật liệu hoàn thiện hiện hữu để tăng bám dính.",
+            "Dán lại giấy dán tường được công nhận chống cháy bằng cách dán giấy mới lên phần giấy lót sau của giấy cũ còn lại.",
+            "Lớp keo dán còn lại trên bề mặt nền hiện hữu từ tấm vinyl sàn được tẩy bằng máy mài đĩa."
+          ],
+          "explanation_vi": "Bài về cải tạo nội thất — chú ý chứng nhận chống cháy.\n\nLựa chọn 1. Lưỡi cắt kim cương.\nĐúng. Phần lưỡi nhô ≤ chiều dày vữa để không cắt vào kết cấu lành.\n\nLựa chọn 2. Làm nhám.\nĐúng. Tăng bám dính khi phủ chồng cùng vật liệu sơn sàn.\n\nLựa chọn 3. Để lại giấy lót cũ.\nSAI. Giấy lót sau của giấy cũ phải được TẨY HOÀN TOÀN. Phải tẩy lộ mặt nền cơ bản rồi mới dán giấy mới — nếu không, không đạt chứng nhận vật liệu chống cháy.\n\nLựa chọn 4. Máy mài đĩa.\nĐúng.",
+          "studyContent_vi": "Tháo dỡ vật liệu hoàn thiện sàn hiện hữu thường gồm: tấm vinyl, sơn sàn, ván sàn gỗ, tấm sàn, dàn sàn — phương pháp khác nhau.\n• Lưỡi cắt kim cương: nhô ≤ chiều dày vữa.\n• Phủ chồng sơn sàn: làm nhám trước.\n• Thay giấy dán tường chống cháy: TẨY HẾT giấy lót cũ.\n• Keo dán tấm vinyl: tẩy bằng máy mài đĩa."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 事前調査・準備",
+      "vocabulary": "事前調査 - khảo sát trước\n準備作業 - công tác chuẩn bị\n地下水の排水計画 - kế hoạch thoát nước ngầm\n公共下水道 - hệ thống thoát nước công cộng\n排水方式 - phương thức thoát nước\nタワークレーン - cẩu tháp\n電波障害 - nhiễu sóng vô tuyến\n近隣 - khu lân cận\n了解 - chấp thuận\nベンチマーク - mốc chuẩn (benchmark)\n移動のおそれ - nguy cơ dịch chuyển\n相互にチェック - kiểm tra chéo\nコンクリートポンプ車 - xe bơm bê tông\n前面道路 - đường trước nhà\n道路使用許可申請書 - đơn xin phép sử dụng đường\n道路占用許可申請 - đơn xin chiếm dụng đường\n所轄警察署長 - trưởng đồn cảnh sát phụ trách\n道路管理者 - người quản lý đường",
+      "questions": [
+        {
+          "label": "Q40",
+          "question": "事前調査や準備作業に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "地下水の排水計画に当たり、公共下水道の排水方式の調査を行った。",
+            "タワークレーン設置による電波障害が予想されたため、近隣に対する説明を行って了解を得た。",
+            "ベンチマークは、移動のおそれのない箇所に、相互にチェックできるよう複数か所設けた。",
+            "コンクリートポンプ車を前面道路に設置するため、道路使用許可申請書を道路管理者に提出した。"
+          ],
+          "answer": "4",
+          "explanation": "事前調査としては、地盤調査、埋設物調査、配管調査、近隣調査等があります。各種届出の提出相手を覚えましょう。\n\n選択肢1. 地下水の排水計画に当たり、公共下水道の排水方式の調査を行った。\n設問の通りです。地下水の排水計画に当たり、公共下水道の排水方式の調査を行います。\n\n選択肢2. タワークレーン設置による電波障害が予想されたため、近隣に対する説明を行って了解を得た。\n設問の通りです。タワークレーン設置による電波障害が予想される場合、近隣に対する説明を行って了解を得ることが必要です。\n\n選択肢3. ベンチマークは、移動のおそれのない箇所に、相互にチェックできるよう複数か所設けた。\n設問の通りです。ベンチマークは、移動のおそれのない箇所に、相互にチェックできるよう複数か所設けたほうが良いです。\n\n選択肢4. コンクリートポンプ車を前面道路に設置するため、道路使用許可申請書を道路管理者に提出した。\n誤りです。コンクリートポンプ車を前面道路に設置する場合、道路使用許可申請書は所轄警察署長に提出する必要があります。道路管理者に提出するものとしては、道路占用許可申請書があります。なお、道路使用許可申請書は一般的に、使用する1週間前に提出すれば許可を取れることが多く、長くて2週間かかる場合もあります。",
+          "studyContent": "道路管理者あてに提出するのは道路占用許可申請です。所轄警察署長あてに提出するのは道路使用許可申請です。混同しないように気を付けてください。\n・公共下水道排水方式：地下水排水計画前に調査\n・タワークレーン電波障害：近隣説明・了解\n・ベンチマーク：移動おそれ無い場所に複数か所\n・道路使用許可申請書：所轄警察署長へ（使用の1週間前～2週間前）\n・道路占用許可申請書：道路管理者へ",
+          "question_vi": "Trong các mô tả về khảo sát trước và công tác chuẩn bị, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi lập kế hoạch thoát nước ngầm, đã khảo sát phương thức thoát nước của hệ thống thoát nước công cộng.",
+            "Vì dự kiến cẩu tháp lắp đặt sẽ gây nhiễu sóng vô tuyến, đã giải thích cho khu lân cận và được chấp thuận.",
+            "Mốc chuẩn được đặt ở nhiều vị trí không có nguy cơ dịch chuyển và có thể kiểm tra chéo lẫn nhau.",
+            "Để đặt xe bơm bê tông trên đường trước nhà, đã nộp đơn xin phép sử dụng đường cho NGƯỜI QUẢN LÝ ĐƯỜNG."
+          ],
+          "explanation_vi": "Bài về khảo sát trước/chuẩn bị — nhớ rõ địa chỉ nộp các đơn.\n\nLựa chọn 1. Khảo sát thoát nước công cộng.\nĐúng.\n\nLựa chọn 2. Cẩu tháp gây nhiễu.\nĐúng. Phải giải thích và được khu lân cận chấp thuận.\n\nLựa chọn 3. Mốc chuẩn.\nĐúng. Đặt ở nhiều nơi không dịch chuyển, kiểm tra chéo.\n\nLựa chọn 4. Đơn xin phép sử dụng đường.\nSAI. Đơn xin phép SỬ DỤNG đường phải nộp cho TRƯỞNG ĐỒN CẢNH SÁT phụ trách (không phải người quản lý đường). Còn nộp cho người quản lý đường là đơn xin CHIẾM DỤNG đường. Đơn xin phép sử dụng thường nộp 1 tuần trước (có khi 2 tuần).",
+          "studyContent_vi": "Đừng nhầm hai đơn:\n• Đơn xin SỬ DỤNG đường (道路使用許可申請): nộp cho TRƯỞNG ĐỒN CẢNH SÁT phụ trách. Nộp 1–2 tuần trước.\n• Đơn xin CHIẾM DỤNG đường (道路占用許可申請): nộp cho NGƯỜI QUẢN LÝ ĐƯỜNG.\nKhác:\n• Trước khi lập kế hoạch thoát nước ngầm: khảo sát phương thức thoát nước công cộng.\n• Nhiễu sóng do cẩu tháp: giải thích, được khu lân cận chấp thuận.\n• Mốc chuẩn: đặt nhiều vị trí cố định, kiểm tra chéo."
+        }
+      ]
+    }
+  ]
+}
