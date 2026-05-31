@@ -1,0 +1,391 @@
+{
+  "topics": [
+    {
+      "path": "06_法規 / 建築基準法",
+      "vocabulary": [
+        "建築確認 (けんちくかくにん) - giấy xác nhận xây dựng",
+        "延べ面積 (のべめんせき) - tổng diện tích sàn",
+        "用途変更 (ようとへんこう) - thay đổi mục đích sử dụng",
+        "旅館 (りょかん) - khách sạn kiểu Nhật",
+        "特定行政庁 (とくていぎょうせいちょう) - cơ quan hành chính đặc định",
+        "仮使用 (かりしよう) - sử dụng tạm",
+        "検査済証 (けんさずみしょう) - giấy chứng nhận đã kiểm tra",
+        "避難施設 (ひなんしせつ) - cơ sở thoát hiểm",
+        "建築主事 (けんちくしゅじ) - chủ sự xây dựng",
+        "防火地域 (ぼうかちいき) - khu vực phòng hỏa",
+        "準防火地域 (じゅんぼうかちいき) - khu vực chuẩn phòng hỏa",
+        "界壁 (かいへき) - tường ngăn giữa các hộ",
+        "給水管 (きゅうすいかん) - ống cấp nước",
+        "不燃材料 (ふねんざいりょう) - vật liệu không cháy",
+        "耐火構造 (たいかこうぞう) - kết cấu chịu lửa",
+        "準耐火構造 (じゅんたいかこうぞう) - kết cấu chuẩn chịu lửa",
+        "スプリンクラー設備 - hệ thống phun nước chữa cháy",
+        "昇降機 (しょうこうき) - thang máy",
+        "昇降路 (しょうこうろ) - giếng thang máy",
+        "防火ダンパー (ぼうかダンパー) - van chặn lửa",
+        "換気設備 (かんきせつび) - thiết bị thông gió"
+      ],
+      "questions": [
+        {
+          "label": "Q62",
+          "question": "建築確認等の手続きに関する記述として、「建築基準法」上、誤っているものはどれか。",
+          "choices": [
+            "延べ面積が150m2の一戸建ての住宅の用途を変更して旅館にしようとする場合、建築確認を受ける必要はない。",
+            "鉄骨造2階建て、延べ面積200m2の建築物の新築工事において、特定行政庁の仮使用の承認を受けたときは、建築主は検査済証の交付を受ける前においても、仮に、当該建築物を使用することができる。",
+            "避難施設等に関する工事を含む建築物の完了検査を受けようとする建築主は、建築主事が検査の申請を受理した日から7日を経過したときは、検査済証の交付を受ける前であっても、仮に、当該建築物を使用することができる。",
+            "防火地域及び準防火地域内において、建築物を増築しようとする場合、その増築部分の床面積の合計が10m2以内のときは、建築確認を受ける必要はない。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：延べ面積150m²の一戸建て住宅の用途を変更して旅館にする場合、建築確認を受ける必要はない（200m²以上の場合は必要）。記述は適当。\n選択肢2：鉄骨造2階建て、延べ面積200m²の建築物の新築工事において、特定行政庁の仮使用の承認を受けたときは、建築主は検査済証の交付を受ける前でも当該建築物を仮使用できる。記述は適当。\n選択肢3：避難施設等に関する工事を含む建築物の完了検査を受けようとする建築主は、建築主事が検査の申請を受理した日から7日を経過したときは、検査済証の交付を受ける前でも仮使用できる。記述は適当。\n選択肢4：防火地域及び準防火地域内では、増築部分の床面積の合計が10m²以内であっても、建築確認を受ける必要がある（㎡数関係なく確認必要）。よって誤りで正解は4。なお、防火地域及び準防火地域外においては、10m²以内の増築であれば建築確認不要。",
+          "studyContent": "建築確認の要否：用途変更→200m²以上で必要。増築：防火・準防火地域内は面積関係なく必要、地域外は10m²超で必要。仮使用：特定行政庁の承認、または完了検査申請から7日経過で可。",
+          "question_vi": "Trong các mô tả về thủ tục xác nhận xây dựng sau đây, mô tả nào SAI theo Luật tiêu chuẩn xây dựng?",
+          "choices_vi": [
+            "Trường hợp thay đổi mục đích sử dụng nhà ở riêng lẻ có tổng diện tích sàn 150m² thành khách sạn kiểu Nhật, không cần nhận giấy xác nhận xây dựng.",
+            "Trong công trình mới kết cấu thép 2 tầng, tổng diện tích 200m², khi được cơ quan hành chính đặc định cấp phép sử dụng tạm thì chủ đầu tư có thể tạm sử dụng công trình trước khi nhận giấy chứng nhận đã kiểm tra.",
+            "Đối với công trình bao gồm hạng mục cơ sở thoát hiểm, chủ đầu tư khi muốn nhận kiểm tra hoàn thành, sau 7 ngày kể từ ngày 建築主事 tiếp nhận đơn kiểm tra thì có thể tạm sử dụng công trình ngay cả trước khi nhận giấy chứng nhận đã kiểm tra.",
+            "Trong khu vực phòng hỏa và chuẩn phòng hỏa, khi tăng diện tích công trình, nếu phần tăng có tổng diện tích sàn ≤ 10m² thì không cần nhận giấy xác nhận xây dựng."
+          ],
+          "explanation_vi": "Đáp án 1: Đổi mục đích sang khách sạn diện tích 150m² (< 200m²) → không cần xác nhận. → Đúng.\nĐáp án 2: Được cấp phép tạm sử dụng → dùng được trước khi nhận giấy kiểm tra. → Đúng.\nĐáp án 3: 7 ngày sau khi nộp đơn kiểm tra hoàn thành → tạm sử dụng được. → Đúng.\nĐáp án 4: Trong khu phòng hỏa/chuẩn phòng hỏa, tăng diện tích BẤT KỂ M² (kể cả ≤ 10m²) đều CẦN xác nhận xây dựng. KHÔNG đúng. → SAI. Đáp án đúng là 4. (Ngoài khu phòng hỏa: ≤10m² miễn xác nhận).",
+          "studyContent_vi": "Xác nhận xây dựng: đổi mục đích → ≥200m² cần; tăng diện tích → trong khu phòng hỏa/chuẩn phòng hỏa LUÔN cần (kể cả ≤10m²), ngoài khu vực này thì >10m² mới cần. Tạm sử dụng: được cấp phép từ đặc định hoặc 7 ngày sau khi nộp đơn kiểm tra hoàn thành."
+        },
+        {
+          "label": "Q63",
+          "question": "次の記述のうち、「建築基準法施行令」上、誤っているものはどれか。",
+          "choices": [
+            "共同住宅の各戸の界壁を給水管が貫通する場合においては、当該管と界壁との隙間をモルタルその他の不燃材料で埋めなければならない。",
+            "劇場の客席は、主要構造部を耐火構造とした場合であっても、スプリンクラー設備等を設けなければ、1,500m2以内ごとに区画しなければならない。",
+            "主要構造部を準耐火構造とした建築物で、3階以上の階に居室を有するものの昇降機の昇降路の部分とその他の部分は、原則として、準耐火構造の床若しくは壁又は防火設備で区画しなければならない。",
+            "換気設備のダクトが準耐火構造の防火区画を貫通する場合においては、火災により煙が発生した場合又は火災により温度が急激に上昇した場合に自動的に閉鎖する構造の防火ダンパーを設けなければならない。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：共同住宅の各戸の界壁を給水管が貫通する場合、当該管と界壁との隙間をモルタル等の不燃材料で埋めなければならない。記述は適当。\n選択肢2：劇場・映画館・演劇場・公会堂・集会場・客席・体育館・工場等、その他これらに類する用途の建築物は、1,500m²面積区画が免除されている。よって誤りで正解は2。\n選択肢3：主要構造部を準耐火構造とした建築物で、3階以上の階に居室を有するものの昇降機の昇降路の部分とその他の部分は、原則として準耐火構造の床若しくは壁又は防火設備で区画しなければならない。記述は適当。\n選択肢4：換気設備のダクトが準耐火構造の防火区画を貫通する場合、火災により煙が発生した場合又は火災により温度が急激に上昇した場合に自動的に閉鎖する構造の防火ダンパーを設けなければならない。記述は適当。",
+          "studyContent": "防火区画の例外：劇場・映画館・公会堂・集会場・体育館・工場等は1,500m²面積区画から免除。給水管が界壁を貫通する場合は不燃材料で隙間を埋める。昇降路は床・壁・防火設備で区画。換気ダクト貫通には防火ダンパー必須。",
+          "question_vi": "Trong các mô tả sau đây, mô tả nào SAI theo Nghị định thi hành Luật tiêu chuẩn xây dựng?",
+          "choices_vi": [
+            "Khi ống cấp nước xuyên qua tường ngăn giữa các hộ của chung cư, phải lấp khe hở giữa ống và tường bằng vữa hoặc vật liệu không cháy khác.",
+            "Khán phòng nhà hát, ngay cả khi đã làm kết cấu chính bằng kết cấu chịu lửa, nếu không lắp đặt thiết bị phun nước chữa cháy thì phải phân khu mỗi 1,500m².",
+            "Công trình có kết cấu chính là chuẩn chịu lửa, có phòng sinh hoạt từ tầng 3 trở lên, về nguyên tắc phải phân khu giữa giếng thang máy và các phần khác bằng sàn/tường chuẩn chịu lửa hoặc thiết bị phòng hỏa.",
+            "Khi ống thông gió xuyên qua phân khu phòng hỏa của kết cấu chuẩn chịu lửa, phải lắp van chặn lửa có cấu tạo tự động đóng khi có khói cháy hoặc nhiệt độ tăng đột ngột."
+          ],
+          "explanation_vi": "Đáp án 1: Lấp khe hở bằng vữa/vật liệu không cháy. → Đúng.\nĐáp án 2: Nhà hát, rạp chiếu phim, hội trường, khán phòng, nhà thi đấu, nhà máy... được MIỄN phân khu 1,500m². → SAI. Đáp án đúng là 2.\nĐáp án 3: Giếng thang máy + phần khác phân khu bằng sàn/tường chuẩn chịu lửa hoặc thiết bị phòng hỏa. → Đúng.\nĐáp án 4: Ống thông gió xuyên phân khu → cần van chặn lửa tự động. → Đúng.",
+          "studyContent_vi": "Ngoại lệ phân khu phòng hỏa: nhà hát/rạp phim/hội trường/thi đấu/nhà máy MIỄN phân khu 1,500m². Ống xuyên tường ngăn → lấp bằng vật liệu không cháy. Giếng thang máy cần phân khu. Ống thông gió xuyên phân khu cần van chặn lửa."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 建設業法",
+      "vocabulary": [
+        "建設業の許可 (けんせつぎょうのきょか) - giấy phép kinh doanh xây dựng",
+        "一般建設業 (いっぱんけんせつぎょう) - xây dựng nói chung",
+        "特定建設業 (とくていけんせつぎょう) - xây dựng đặc định",
+        "建築一式工事 (けんちくいっしきこうじ) - thi công xây dựng tổng hợp",
+        "請負代金 (うけおいだいきん) - tiền nhận thầu",
+        "営業所 (えいぎょうしょ) - văn phòng kinh doanh",
+        "変更届出書 (へんこうとどけでしょ) - đơn báo cáo thay đổi",
+        "国土交通大臣 (こくどこうつうだいじん) - Bộ trưởng Bộ Đất đai",
+        "都道府県知事 (とどうふけんちじ) - Tỉnh trưởng/Thị trưởng",
+        "下請負人 (したうけおいにん) - nhà thầu phụ",
+        "一括下請負 (いっかつしたうけおい) - thầu phụ trọn gói (cấm)",
+        "履行の遅滞 (りこうのちたい) - chậm trễ thực hiện",
+        "違約金 (いやくきん) - tiền phạt vi phạm",
+        "現場代理人 (げんばだいりにん) - người đại diện hiện trường",
+        "施工体制台帳 (せこうたいせいだいちょう) - sổ tay hệ thống thi công",
+        "主任技術者 (しゅにんぎじゅつしゃ) - kỹ thuật viên chủ nhiệm",
+        "特定専門工事 (とくていせんもんこうじ) - công tác chuyên môn đặc định"
+      ],
+      "questions": [
+        {
+          "label": "Q64",
+          "question": "建設業の許可に関する記述として、「建設業法」上、誤っているものはどれか。",
+          "choices": [
+            "許可に係る建設業者は、営業所の所在地に変更があった場合、30日以内に、その旨の変更届出書を国土交通大臣又は都道府県知事に提出しなければならない。",
+            "建築工事業で一般建設業の許可を受けた者が、建築工事業の特定建設業の許可を受けたときは、その者に対する建築工事業に係る一般建設業の許可は、その効力を失う。",
+            "木造住宅を建設する工事を除く建築一式工事であって、工事1件の請負代金の額が4,500万円に満たない工事を請け負う場合は、建設業の許可を必要としない。",
+            "内装仕上工事など建築一式工事以外の工事を請け負う建設業者であっても、特定建設業者となることができる。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：許可に係る建設業者は、営業所の所在地に変更があった場合、30日以内にその旨の変更届出書を国土交通大臣又は都道府県知事に提出しなければならない。記述は適当。\n選択肢2：建築工事業で一般建設業の許可を受けた者が、建築工事業の特定建設業の許可を受けたときは、当該一般建設業の許可は効力を失う。記述は適当。\n選択肢3：建設業の許可が不要なのは、工事1件の請負金額が500万円（建築一式工事は1,500万円）に満たない工事を請け負う場合のみ。建築一式工事で4,500万円に満たない工事を請け負う場合でも、1,500万円以上であれば建設業の許可が必要。よって誤りで正解は3。\n選択肢4：内装仕上工事など建築一式工事以外の工事を請け負う建設業者であっても、特定建設業者となることができる。記述は適当。",
+          "studyContent": "建設業許可不要の金額：通常工事500万円未満、建築一式工事1,500万円未満。営業所変更届出：30日以内に大臣／知事へ。一般→特定の許可取得で一般許可は失効。建築一式以外でも特定建設業者になれる。",
+          "question_vi": "Trong các mô tả về giấy phép kinh doanh xây dựng sau đây, mô tả nào SAI theo Luật xây dựng?",
+          "choices_vi": [
+            "Nhà thầu xây dựng được cấp phép, khi có thay đổi địa điểm văn phòng, phải nộp đơn báo cáo thay đổi cho Bộ trưởng Bộ Đất đai hoặc Tỉnh trưởng trong vòng 30 ngày.",
+            "Người được cấp phép một般建設業 ngành 建築工事業, khi được cấp phép 特定建設業 cùng ngành đó, thì giấy phép một般建設業 đối với ngành đó mất hiệu lực.",
+            "Đối với 建築一式工事 (trừ thi công nhà ở gỗ), khi nhận thầu công trình có tiền nhận thầu mỗi công trình dưới 45 triệu yên, KHÔNG cần giấy phép kinh doanh xây dựng.",
+            "Nhà thầu nhận thầu công tác không thuộc 建築一式工事 (như nội thất hoàn thiện) cũng có thể trở thành 特定建設業者."
+          ],
+          "explanation_vi": "Đáp án 1: Thay đổi văn phòng → báo cáo trong 30 ngày. → Đúng.\nĐáp án 2: Có 特定 thì 一般 cùng ngành mất hiệu lực. → Đúng.\nĐáp án 3: Giấy phép xây dựng được MIỄN khi tiền thầu < 5 triệu yên (thường) hoặc < 15 triệu yên (建築一式). Mức 45 triệu yên là SAI – ngưỡng đúng là 15 triệu yên cho建築一式. → SAI. Đáp án đúng là 3.\nĐáp án 4: Công tác ngoài 建築一式 vẫn có thể là 特定建設業者. → Đúng.",
+          "studyContent_vi": "Mức miễn phép xây dựng: thường <500 vạn yên; 建築一式 <1,500 vạn yên (15 triệu yên). Báo cáo thay đổi văn phòng: 30 ngày. Khi có 特定 → 一般 cùng ngành mất hiệu lực. 特定建設業者 không giới hạn ở 建築一式."
+        },
+        {
+          "label": "Q65",
+          "question": "請負契約に関する記述として、「建設業法」上、誤っているものはどれか。",
+          "choices": [
+            "注文者は、請負人に対して、建設工事の施工につき著しく不適当と認められる下請負人があるときは、あらかじめ注文者の書面等による承諾を得て選定した下請負人である場合を除き、その変更を請求することができる。",
+            "建設業者は、共同住宅を新築する建設工事を請け負った場合、いかなる方法をもってするかを問わず、一括して他人に請け負わせてはならない。",
+            "請負契約の当事者は、請負契約において、各当事者の履行の遅滞その他債務の不履行の場合における遅延利息、違約金その他の損害金に関する事項を書面に記載しなければならない。",
+            "請負人は、請負契約の履行に関し、工事現場に現場代理人を置く場合、注文者の承諾を得なければならない。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：注文者は、請負人に対して、建設工事の施工につき著しく不適当と認められる下請負人があるときは、あらかじめ注文者の書面等による承諾を得て選定した下請負人である場合を除き、その変更を請求することができる。記述は適当。\n選択肢2：建設業者は、共同住宅を新築する建設工事を請け負った場合、いかなる方法をもってするかを問わず、一括して他人に請け負わせてはならない。記述は適当。\n選択肢3：請負契約の当事者は、請負契約において、各当事者の履行の遅滞その他債務の不履行の場合における遅延利息、違約金その他の損害金に関する事項を書面に記載しなければならない。記述は適当。\n選択肢4：請負人は、現場代理人を置く場合、当該現場代理人の権限に関する事項及び当該現場代理人の行為についての注文者の請負人に対する意見の申出方法を書面により注文者に通知しなければならない。注文者の「承諾」を得る必要はなく、通知でよい。よって誤りで正解は4。",
+          "studyContent": "請負契約の重要事項：①不適当な下請負人の変更請求権、②共同住宅新築工事の一括下請負禁止（金額不問）、③契約書記載事項に遅延利息・違約金等を含む、④現場代理人設置は注文者への「書面通知」（承諾不要）。",
+          "question_vi": "Trong các mô tả về hợp đồng nhận thầu sau đây, mô tả nào SAI theo Luật xây dựng?",
+          "choices_vi": [
+            "Bên đặt hàng có thể yêu cầu thay đổi nhà thầu phụ đối với nhà thầu nếu nhà thầu phụ được công nhận là rất không phù hợp với việc thi công, trừ trường hợp nhà thầu phụ đó được chọn với sự đồng ý bằng văn bản trước của bên đặt hàng.",
+            "Nhà thầu khi nhận thi công xây mới chung cư, KHÔNG được giao thầu trọn gói cho người khác bằng bất kỳ phương pháp nào.",
+            "Các bên trong hợp đồng nhận thầu phải ghi vào văn bản các điều khoản liên quan đến lãi chậm, tiền phạt vi phạm và các khoản tổn thất khác trong trường hợp chậm trễ thực hiện hoặc không thực hiện nghĩa vụ.",
+            "Nhà thầu khi đặt người đại diện hiện trường trong việc thực hiện hợp đồng nhận thầu, phải nhận được sự ĐỒNG Ý của bên đặt hàng."
+          ],
+          "explanation_vi": "Đáp án 1: Yêu cầu đổi 下請負人 không phù hợp. → Đúng.\nĐáp án 2: Cấm 一括下請負 cho chung cư xây mới (bất kể cách nào). → Đúng.\nĐáp án 3: Hợp đồng phải ghi lãi chậm/phạt vi phạm. → Đúng.\nĐáp án 4: Đặt 現場代理人 chỉ cần THÔNG BÁO BẰNG VĂN BẢN cho bên đặt hàng (quyền hạn + cách bên đặt hàng nêu ý kiến), KHÔNG cần \"đồng ý\". → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Hợp đồng: được yêu cầu đổi下請負 không phù hợp. Chung cư xây mới: cấm一括下請負. Hợp đồng phải ghi lãi chậm/phạt. 現場代理人: chỉ cần THÔNG BÁO bằng văn bản, không cần \"đồng ý\"."
+        },
+        {
+          "label": "Q66",
+          "question": "次の記述のうち、「建設業法」上、誤っているものはどれか。",
+          "choices": [
+            "建設業者は、許可を受けた建設業に係る建設工事を請け負う場合においては、当該建設工事に附帯する他の建設業に係る建設工事を請け負うことができる。",
+            "特定建設業者は、発注者から建築一式工事を直接請け負った場合、当該工事に係る下請代金の総額が4,000万円以上のときは、施工体制台帳を作成しなければならない。",
+            "注文者は、前金払の定がなされた場合、工事1件の請負代金の総額が500万円以上のときは、建設業者に対して保証人を立てることを請求することができる。",
+            "特定専門工事の元請負人及び建設業者である下請負人は、その合意により、元請負人が置いた主任技術者が、その下請負に係る建設工事について主任技術者の行うべき職務を行うことができる場合、当該下請負人は主任技術者を置くことを要しない。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：建設業者は、許可を受けた建設業に係る建設工事を請け負う場合、当該建設工事に附帯する他の建設業に係る建設工事を請け負うことができる。記述は適当。\n選択肢2：特定建設業者は、発注者から建築一式工事を直接請け負った場合、民間工事では下請代金の総額が8,000万円以上のときに施工体制台帳を作成しなければならない（4,000万円ではない）。なお、公共工事では下請契約を締結した場合、金額にかかわらず作成必要。よって誤りで正解は2。※2023年法改正前の旧基準は6,000万円であった。\n選択肢3：注文者は、前金払の定がなされた場合、工事1件の請負代金の総額が500万円以上のときは、建設業者に対して保証人を立てることを請求することができる。記述は適当。\n選択肢4：特定専門工事の元請負人及び建設業者である下請負人は、その合意により、元請負人が置いた主任技術者がその下請負工事の主任技術者の職務を行える場合、下請負人は主任技術者を置く必要はない。記述は適当。",
+          "studyContent": "施工体制台帳の作成基準：①建築一式工事＝民間工事で下請代金総額8,000万円以上、②建築一式以外＝民間工事で下請代金総額4,500万円以上、③公共工事は下請契約あれば金額不問。前金払＋500万円以上→保証人請求可。特定専門工事は合意により下請主任技術者の省略可。",
+          "question_vi": "Trong các mô tả sau đây, mô tả nào SAI theo Luật xây dựng?",
+          "choices_vi": [
+            "Nhà thầu xây dựng, khi nhận thầu công trình thuộc ngành đã được cấp phép, có thể nhận thầu các công trình thuộc ngành khác có tính phụ trợ cho công trình đó.",
+            "特定建設業者 khi nhận thầu trực tiếp 建築一式工事 từ chủ đầu tư, khi tổng tiền 下請 từ 40 triệu yên trở lên thì phải lập 施工体制台帳.",
+            "Khi có quy định thanh toán trước, bên đặt hàng có thể yêu cầu nhà thầu lập người bảo lãnh nếu tổng tiền nhận thầu mỗi công trình từ 5 triệu yên trở lên.",
+            "Trong 特定専門工事, theo thỏa thuận giữa 元請 và 下請 là nhà thầu, nếu 主任技術者 do元請 đặt có thể thực hiện nhiệm vụ chủ nhiệm cho công trình 下請, thì 下請 không cần đặt 主任技術者."
+          ],
+          "explanation_vi": "Đáp án 1: Nhận công trình phụ trợ ngành khác. → Đúng.\nĐáp án 2: 建築一式工事 (公共 ngoài) → 施工体制台帳 chỉ bắt buộc khi 下請 tổng từ 80 TRIỆU YÊN trở lên, không phải 40 triệu. Công cộng thì luôn cần (bất kể số tiền). → SAI. Đáp án đúng là 2.\nĐáp án 3: Thanh toán trước + ≥5 triệu yên → có thể yêu cầu bảo lãnh. → Đúng.\nĐáp án 4: 特定専門工事 + thỏa thuận → 下請 không cần 主任技術者. → Đúng.",
+          "studyContent_vi": "施工体制台帳: 建築一式 dân doanh ≥80 triệu yên; ngoài 建築一式 dân doanh ≥45 triệu yên; công cộng luôn cần. Thanh toán trước + ≥5 triệu yên → yêu cầu bảo lãnh. 特定専門工事 cho phép gộp 主任技術者."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 労働基準法",
+      "vocabulary": [
+        "労働時間 (ろうどうじかん) - thời gian lao động",
+        "削岩機 (さくがんき) - máy khoan đá",
+        "振動 (しんどう) - rung động",
+        "災害 (さいがい) - tai họa",
+        "行政官庁 (ぎょうせいかんちょう) - cơ quan hành chính",
+        "休憩時間 (きゅうけいじかん) - thời gian nghỉ",
+        "留守番 (るすばん) - trông coi",
+        "有給休暇 (ゆうきゅうきゅうか) - nghỉ phép có lương",
+        "雇入れ (やといいれ) - tuyển dụng",
+        "全労働日 (ぜんろうどうび) - tổng số ngày làm việc"
+      ],
+      "questions": [
+        {
+          "label": "Q67",
+          "question": "労働時間等に関する記述として、「労働基準法」上、誤っているものはどれか。",
+          "choices": [
+            "使用者は、削岩機の使用によって身体に著しい振動を与える業務については、1日について2時間を超えて労働時間を延長してはならない。",
+            "使用者は、災害その他避けることのできない事由によって、臨時の必要がある場合においては、行政官庁の許可を受けて、法令に定められた労働時間を延長して労働させることができる。",
+            "使用者は、労働者の合意がある場合、休憩時間中であっても留守番等の軽微な作業であれば命ずることができる。",
+            "使用者は、その雇入れの日から起算して6箇月間継続勤務し全労働日の8割以上出勤した労働者に対して、10労働日の有給休暇を与えなければならない。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：使用者は、削岩機の使用によって身体に著しい振動を与える業務については、1日について2時間を超えて労働時間を延長してはならない。記述は適当。\n選択肢2：使用者は、災害その他避けることのできない事由によって、臨時の必要がある場合においては、行政官庁の許可を受けて、法令に定められた労働時間を延長して労働させることができる。記述は適当。\n選択肢3：休憩時間は労働者の自由に利用させなければならない。労働者の合意があっても、休憩時間中に留守番等の軽微な作業を命ずることはできない。よって誤りで正解は3。\n選択肢4：使用者は、その雇入れの日から起算して6箇月間継続勤務し全労働日の8割以上出勤した労働者に対して、10労働日の有給休暇を与えなければならない。記述は適当。",
+          "studyContent": "労働基準法重要数値：削岩機等の振動業務→1日2時間超の延長禁止。災害時臨時→行政官庁の許可で延長可。休憩時間は自由（合意でも作業命令不可）。年次有給休暇＝雇入れから6か月継続勤務＋全労働日の8割以上出勤で10労働日付与。",
+          "question_vi": "Trong các mô tả về thời gian lao động sau đây, mô tả nào SAI theo Luật tiêu chuẩn lao động?",
+          "choices_vi": [
+            "Người sử dụng lao động, đối với công việc gây rung động đáng kể lên cơ thể như sử dụng máy khoan đá, KHÔNG được kéo dài thời gian lao động quá 2 giờ mỗi ngày.",
+            "Người sử dụng lao động, trong trường hợp có nhu cầu tạm thời do tai họa hoặc lý do không thể tránh khỏi, có thể nhận được sự cho phép của cơ quan hành chính để kéo dài thời gian lao động vượt mức luật định.",
+            "Người sử dụng lao động, nếu có sự đồng ý của người lao động, có thể chỉ thị làm các việc nhẹ như trông coi ngay cả trong thời gian nghỉ.",
+            "Người sử dụng lao động, đối với người lao động làm việc liên tục 6 tháng kể từ ngày tuyển dụng và đi làm từ 80% tổng số ngày làm việc trở lên, phải cấp 10 ngày nghỉ phép có lương."
+          ],
+          "explanation_vi": "Đáp án 1: Máy khoan đá: tối đa kéo dài 2h/ngày. → Đúng.\nĐáp án 2: Tai họa + cho phép cơ quan → được kéo dài. → Đúng.\nĐáp án 3: Thời gian nghỉ phải để người lao động TỰ DO sử dụng. KHÔNG được giao việc dù người lao động ĐỒNG Ý. → SAI. Đáp án đúng là 3.\nĐáp án 4: Đủ 6 tháng + 80% → 10 ngày phép. → Đúng.",
+          "studyContent_vi": "Luật lao động: rung lớn (máy khoan đá) → kéo dài tối đa 2h/ngày. Tai họa + cho phép → kéo dài. Nghỉ giải lao TỰ DO (kể cả đồng ý cũng cấm giao việc). Phép năm = 6 tháng + 80% → 10 ngày."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 労働安全衛生法",
+      "vocabulary": [
+        "安全衛生推進者 (あんぜんえいせいすいしんしゃ) - người thúc đẩy an toàn vệ sinh",
+        "産業医 (さんぎょうい) - bác sĩ công nghiệp",
+        "統括安全衛生責任者 (とうかつあんぜんえいせいせきにんしゃ) - người chịu trách nhiệm tổng quát ATVS",
+        "安全衛生責任者 (あんぜんえいせいせきにんしゃ) - người chịu trách nhiệm ATVS",
+        "衛生委員会 (えいせいいいんかい) - ủy ban vệ sinh",
+        "安全衛生委員会 (あんぜんえいせいいいんかい) - ủy ban ATVS",
+        "勧告 (かんこく) - khuyến cáo",
+        "不整地運搬車 (ふせいちうんぱんしゃ) - xe vận chuyển địa hình",
+        "技能講習 (ぎのうこうしゅう) - khóa đào tạo kỹ năng",
+        "移動式クレーン (いどうしきクレーン) - cẩu di động",
+        "フォークリフト - xe nâng",
+        "クレーン・デリック運転士 - người vận hành cẩu/derrick",
+        "玉掛け (たまかけ) - móc cẩu"
+      ],
+      "questions": [
+        {
+          "label": "Q68",
+          "question": "建設業の事業場における安全衛生管理体制に関する記述として、「労働安全衛生法」上、誤っているものはどれか。",
+          "choices": [
+            "事業者は、常時10人の労働者を使用する事業場では、安全衛生推進者を選任しなければならない。",
+            "事業者は、常時50人の労働者を使用する事業場では、産業医を選任しなければならない。",
+            "事業者は、統括安全衛生責任者を選任すべきときは、同時に安全衛生責任者を選任しなければならない。",
+            "事業者は、産業医から労働者の健康を確保するため必要があるとして勧告を受けたときは、衛生委員会又は安全衛生委員会に当該勧告の内容等を報告しなければならない。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1：事業者は、常時10人の労働者を使用する事業場では、安全衛生推進者を選任しなければならない。記述は適当。\n選択肢2：事業者は、常時50人の労働者を使用する事業場では、産業医を選任しなければならない。記述は適当。\n選択肢3：統括安全衛生責任者を選任すべき事業者（元方事業者）は統括安全衛生責任者のみを選任し、安全衛生責任者は同時に選任する必要はない。安全衛生責任者を選任するのは、統括安全衛生責任者を選任すべき事業者「以外」の請負人で該当仕事を自ら行う者である。よって誤りで正解は3。\n選択肢4：事業者は、産業医から労働者の健康を確保するため必要があるとして勧告を受けたときは、衛生委員会又は安全衛生委員会に当該勧告の内容等を報告しなければならない。記述は適当。",
+          "studyContent": "安全衛生管理体制の人数基準：常時10人以上→安全衛生推進者、常時50人以上→産業医・衛生管理者・安全管理者。統括安全衛生責任者は元方事業者が選任、安全衛生責任者は元方以外の請負人が選任（同一事業者が両方を兼任しない）。産業医勧告は委員会へ報告義務。",
+          "question_vi": "Trong các mô tả về thể chế quản lý ATVS tại cơ sở kinh doanh xây dựng, mô tả nào SAI theo Luật ATVSLĐ?",
+          "choices_vi": [
+            "Chủ doanh nghiệp tại cơ sở thường xuyên sử dụng 10 người lao động phải bổ nhiệm người thúc đẩy an toàn vệ sinh (安全衛生推進者).",
+            "Chủ doanh nghiệp tại cơ sở thường xuyên sử dụng 50 người lao động phải bổ nhiệm bác sĩ công nghiệp (産業医).",
+            "Chủ doanh nghiệp khi phải bổ nhiệm 統括安全衛生責任者 thì ĐỒNG THỜI phải bổ nhiệm 安全衛生責任者.",
+            "Chủ doanh nghiệp khi nhận được khuyến cáo từ 産業医 vì cần thiết để đảm bảo sức khỏe người lao động, phải báo cáo nội dung khuyến cáo cho ủy ban vệ sinh hoặc ủy ban ATVS."
+          ],
+          "explanation_vi": "Đáp án 1: ≥10 người → 安全衛生推進者. → Đúng.\nĐáp án 2: ≥50 người → 産業医. → Đúng.\nĐáp án 3: 統括安全衛生責任者 do 元方事業者 bổ nhiệm. 安全衛生責任者 do NHÀ THẦU KHÁC (không phải元方) tự thực hiện công việc bổ nhiệm. KHÔNG cùng người/cùng lúc. → SAI. Đáp án đúng là 3.\nĐáp án 4: Khuyến cáo 産業医 → báo cáo ủy ban. → Đúng.",
+          "studyContent_vi": "Số lao động: ≥10 → 安全衛生推進者; ≥50 → 産業医 + 衛生/安全管理者. 統括安全衛生責任者 (元方) khác với 安全衛生責任者 (nhà thầu khác). Khuyến cáo bác sĩ → báo cáo ủy ban."
+        },
+        {
+          "label": "Q69",
+          "question": "建設現場における就業制限に関する記述として、「労働安全衛生法」上、誤っているものはどれか。",
+          "choices": [
+            "不整地運搬車運転技能講習を修了した者は、最大積載量が1t以上の不整地運搬車の運転の業務に就くことができる。",
+            "移動式クレーン運転士免許を受けた者は、つり上げ荷重が5t未満の移動式クレーンの運転の業務に就くことができる。",
+            "フォークリフト運転技能講習を修了した者は、最大荷重が1t以上のフォークリフトの運転の業務に就くことができる。",
+            "クレーン・デリック運転士免許を受けた者は、つり上げ荷重が1t以上のクレーンの玉掛けの業務に就くことができる。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：不整地運搬車運転技能講習を修了した者は、最大積載量が1t以上の不整地運搬車の運転の業務に就くことができる。記述は適当。\n選択肢2：移動式クレーン運転士免許を受けた者は、つり上げ荷重が5t未満の移動式クレーンの運転の業務に就くことができる。記述は適当。\n選択肢3：フォークリフト運転技能講習を修了した者は、最大荷重が1t以上のフォークリフトの運転の業務に就くことができる。記述は適当。\n選択肢4：つり上げ荷重1t以上のクレーンの玉掛け業務は、玉掛技能講習を修了した者でなければできない。クレーン・デリック運転士免許は運転業務のための免許であり、玉掛業務はできない。1t未満の玉掛業務は特別教育終了者で可。よって誤りで正解は4。",
+          "studyContent": "就業制限資格まとめ：不整地運搬車1t以上→技能講習、移動式クレーン5t未満→免許（運転士）、フォークリフト1t以上→技能講習、玉掛け1t以上→玉掛技能講習（クレーン運転免許とは別）、玉掛け1t未満→特別教育。",
+          "question_vi": "Trong các mô tả về giới hạn việc làm tại công trường xây dựng, mô tả nào SAI theo Luật ATVSLĐ?",
+          "choices_vi": [
+            "Người hoàn thành khóa đào tạo kỹ năng vận hành xe vận chuyển địa hình có thể làm công việc vận hành xe vận chuyển địa hình có tải trọng tối đa ≥ 1t.",
+            "Người có giấy phép vận hành cẩu di động có thể làm công việc vận hành cẩu di động có tải trọng nâng < 5t.",
+            "Người hoàn thành khóa đào tạo kỹ năng vận hành xe nâng có thể làm công việc vận hành xe nâng có tải trọng tối đa ≥ 1t.",
+            "Người có giấy phép vận hành cẩu/derrick có thể làm công việc móc cẩu (玉掛け) của cẩu có tải trọng nâng ≥ 1t."
+          ],
+          "explanation_vi": "Đáp án 1: 不整地運搬車 ≥1t → khóa đào tạo. → Đúng.\nĐáp án 2: Cẩu di động < 5t → có giấy phép. → Đúng.\nĐáp án 3: Xe nâng ≥1t → khóa đào tạo. → Đúng.\nĐáp án 4: 玉掛け ≥1t cần KHÓA ĐÀO TẠO MÓC CẨU (玉掛技能講習), KHÔNG phải giấy phép vận hành cẩu. < 1t thì cần 特別教育. → SAI. Đáp án đúng là 4.",
+          "studyContent_vi": "Chứng chỉ: 不整地運搬車 ≥1t / フォークリフト ≥1t → 技能講習; 移動式クレーン <5t → giấy phép; 玉掛け ≥1t → 玉掛技能講習; 玉掛け <1t → 特別教育."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 廃棄物処理法",
+      "vocabulary": [
+        "廃棄物 (はいきぶつ) - chất thải",
+        "産業廃棄物 (さんぎょうはいきぶつ) - chất thải công nghiệp",
+        "特別管理産業廃棄物 (とくべつかんりさんぎょうはいきぶつ) - chất thải công nghiệp quản lý đặc biệt",
+        "委託契約書 (いたくけいやくしょ) - hợp đồng ủy thác",
+        "環境省令 (かんきょうしょうれい) - lệnh Bộ Môi trường",
+        "多量排出事業者 (たりょうはいしゅつじぎょうしゃ) - chủ doanh nghiệp xả thải lớn",
+        "減量 (げんりょう) - giảm lượng",
+        "天日乾燥施設 (てんぴかんそうしせつ) - cơ sở phơi nắng",
+        "汚泥 (おでい) - bùn thải",
+        "乾燥処理施設 (かんそうしょりしせつ) - cơ sở xử lý sấy khô"
+      ],
+      "questions": [
+        {
+          "label": "Q70",
+          "question": "次の記述のうち、「廃棄物の処理及び清掃に関する法律」上、誤っているものはどれか。ただし、特別管理産業廃棄物を除くものとする。",
+          "choices": [
+            "事業者は、産業廃棄物の運搬又は処分を委託した場合、委託契約書及び環境省令で定める書面を、その契約の終了の日から5年間保存しなければならない。",
+            "事業者は、工事に伴って発生した産業廃棄物を自ら運搬する場合、管轄する都道府県知事の許可を受けなければならない。",
+            "多量排出事業者は、当該事業場に係る産業廃棄物の減量その他その処理に関する計画の実施の状況について、環境省令で定めるところにより、都道府県知事に報告しなければならない。",
+            "天日乾燥施設を除く汚泥の処理能力が1日当たり10m3を超える乾燥処理施設を設置する場合、管轄する都道府県知事の許可を受けなければならない。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：事業者は、産業廃棄物の運搬又は処分を委託した場合、委託契約書及び環境省令で定める書面を、その契約の終了の日から5年間保存しなければならない。記述は適当。\n選択肢2：事業者が自ら工事に伴って発生した産業廃棄物を運搬する場合は、都道府県知事の許可は不要。許可が必要なのは、産業廃棄物の収集または運搬を業として行う場合（他者から受託する場合）。よって誤りで正解は2。\n選択肢3：多量排出事業者は、当該事業場に係る産業廃棄物の減量その他その処理に関する計画の実施の状況について、環境省令で定めるところにより、都道府県知事に報告しなければならない。記述は適当。\n選択肢4：天日乾燥施設を除く汚泥の処理能力が1日当たり10m³を超える乾燥処理施設を設置する場合、管轄する都道府県知事の許可を受けなければならない。記述は適当。",
+          "studyContent": "廃棄物処理法重要事項：委託契約書類5年保存。事業者が自ら運搬→許可不要、業として運搬→許可必要。多量排出事業者は減量計画を都道府県知事へ報告。汚泥乾燥処理施設（天日除く）10m³/日超→都道府県知事許可。",
+          "question_vi": "Trong các mô tả sau đây, mô tả nào SAI theo Luật xử lý chất thải và làm sạch? (loại trừ chất thải công nghiệp quản lý đặc biệt)",
+          "choices_vi": [
+            "Chủ doanh nghiệp khi ủy thác vận chuyển hoặc xử lý chất thải công nghiệp phải lưu trữ hợp đồng ủy thác và văn bản theo lệnh Bộ Môi trường trong 5 năm kể từ ngày kết thúc hợp đồng.",
+            "Chủ doanh nghiệp khi TỰ vận chuyển chất thải công nghiệp phát sinh từ công trình phải được Tỉnh trưởng có thẩm quyền cấp phép.",
+            "Chủ doanh nghiệp xả thải lớn phải báo cáo Tỉnh trưởng về tình hình thực hiện kế hoạch giảm lượng và xử lý chất thải công nghiệp tại cơ sở, theo quy định của lệnh Bộ Môi trường.",
+            "Khi lắp đặt cơ sở xử lý sấy khô bùn thải (trừ cơ sở phơi nắng) có năng suất xử lý vượt 10m³/ngày, phải được Tỉnh trưởng có thẩm quyền cấp phép."
+          ],
+          "explanation_vi": "Đáp án 1: Lưu trữ hợp đồng 5 năm. → Đúng.\nĐáp án 2: Chủ doanh nghiệp TỰ vận chuyển chất thải công trình của MÌNH → KHÔNG cần phép. Chỉ cần phép khi kinh doanh thu gom/vận chuyển. → SAI. Đáp án đúng là 2.\nĐáp án 3: 多量排出事業者 báo cáo Tỉnh trưởng. → Đúng.\nĐáp án 4: Sấy bùn >10m³/ngày (trừ phơi nắng) → cần phép Tỉnh trưởng. → Đúng.",
+          "studyContent_vi": "Luật xử lý chất thải: lưu hợp đồng 5 năm. Tự vận chuyển: KHÔNG cần phép; kinh doanh vận chuyển: cần phép Tỉnh trưởng. 多量排出事業者: báo cáo kế hoạch giảm/xử lý. Sấy bùn >10m³/ngày: cần phép."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 宅地造成等規制法",
+      "vocabulary": [
+        "宅地造成 (たくちぞうせい) - cải tạo đất ở",
+        "工事規制区域 (こうじきせいくいき) - khu vực kiểm soát thi công",
+        "特定盛土等規制法 (とくていもりどとうきせいほう) - Luật kiểm soát đắp đất đặc định (tên mới của 宅地造成等規制法)",
+        "排水施設 (はいすいしせつ) - cơ sở thoát nước",
+        "崖 (がけ) - vách",
+        "盛土 (もりど) - đắp đất",
+        "切土 (きりど) - đào đất",
+        "擁壁 (ようへき) - tường chắn",
+        "水抜穴 (みずぬきあな) - lỗ thoát nước",
+        "透水層 (とうすいそう) - lớp thấm nước",
+        "勾配 (こうばい) - độ dốc",
+        "地表水 (ちひょうすい) - nước mặt đất",
+        "指定都市 (していとし) - thành phố được chỉ định",
+        "中核市 (ちゅうかくし) - thành phố trung tâm"
+      ],
+      "questions": [
+        {
+          "label": "Q71",
+          "question": "宅地造成工事規制区域内において行われる宅地造成工事に関する記述として、「宅地造成及び特定盛土等規制法（旧宅地造成等規制法）」上、誤っているものはどれか。なお、指定都市又は中核市の区域内の土地については、都道府県知事はそれぞれ指定都市又は中核市の長をいう。",
+          "choices": [
+            "宅地造成に関する工事の許可を受けていなかったため、地表水等を排除するための排水施設の一部を除却する工事に着手する日の7日前に、その旨を都道府県知事に届け出た。",
+            "高さが2mの崖を生ずる盛土を行う際、崖の上端に続く地盤面には、その崖の反対方向に雨水その他の地表水が流れるように勾配を付けた。",
+            "宅地造成に伴う災害を防止するために崖面に設ける擁壁には、壁面の面積3m2以内ごとに1個の水抜穴を設け、裏面の水抜穴周辺に砂利を用いて透水層を設けた。",
+            "切土又は盛土をする土地の面積が1,500m2を超える土地における排水設備の設置については、政令で定める資格を有する者が設計した。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：地表水等を排除するための排水施設の一部を除却する工事に着手する日の14日前までに、その旨を都道府県知事に届け出る必要がある。7日前ではない。よって誤りで正解は1。\n選択肢2：高さが2mの崖を生ずる盛土を行う際、崖の上端に続く地盤面には、その崖の反対方向に雨水その他の地表水が流れるように勾配を付ける。記述は適当。\n選択肢3：宅地造成に伴う災害を防止するために崖面に設ける擁壁には、壁面の面積3m²以内ごとに1個の水抜穴を設け、裏面の水抜穴周辺に砂利を用いて透水層を設ける。記述は適当。\n選択肢4：切土又は盛土をする土地の面積が1,500m²を超える土地における排水設備の設置については、政令で定める資格を有する者が設計する。記述は適当。",
+          "studyContent": "宅地造成等規制法重要数値：排水施設一部除却→14日前までに都道府県知事へ届出。崖上端地盤面は崖と反対方向に勾配。擁壁の水抜穴は壁面3m²以内ごとに1個＋砂利透水層。1,500m²超の排水設備は有資格者が設計。",
+          "question_vi": "Trong các mô tả về thi công cải tạo đất ở trong khu vực kiểm soát, mô tả nào SAI theo Luật cải tạo đất và kiểm soát đắp đất đặc định? (Tại khu vực thành phố được chỉ định/trung tâm, \"Tỉnh trưởng\" hiểu là thị trưởng tương ứng.)",
+          "choices_vi": [
+            "Vì chưa nhận giấy phép thi công cải tạo đất, đã thông báo cho Tỉnh trưởng 7 ngày trước khi bắt đầu thi công phá bỏ một phần cơ sở thoát nước nhằm xử lý nước mặt đất.",
+            "Khi đắp đất tạo vách cao 2m, mặt đất phía trên đầu vách được tạo độ dốc để nước mưa và nước mặt chảy theo hướng ngược với vách.",
+            "Tường chắn được lắp tại mặt vách để phòng tai họa do cải tạo đất gây ra: cứ ≤ 3m² mặt tường thì có 1 lỗ thoát nước, và mặt sau lỗ thoát nước được làm lớp thấm nước bằng sỏi.",
+            "Đối với việc lắp đặt thiết bị thoát nước trên đất có diện tích đào/đắp >1,500m², việc thiết kế do người có chứng chỉ theo Nghị định thực hiện."
+          ],
+          "explanation_vi": "Đáp án 1: Phá bỏ cơ sở thoát nước → phải thông báo 14 NGÀY TRƯỚC, KHÔNG phải 7 ngày. → SAI. Đáp án đúng là 1.\nĐáp án 2: Độ dốc ngược hướng vách. → Đúng.\nĐáp án 3: 1 lỗ/3m² + sỏi thấm. → Đúng.\nĐáp án 4: >1,500m² → người có chứng chỉ thiết kế. → Đúng.",
+          "studyContent_vi": "Cải tạo đất: phá thoát nước → thông báo 14 ngày trước cho Tỉnh trưởng. Đỉnh vách: dốc ngược. Tường chắn: 1 lỗ/3m² + sỏi thấm. >1,500m² thoát nước: thiết kế bởi người có chứng chỉ."
+        }
+      ]
+    },
+    {
+      "path": "06_法規 / 振動規制法",
+      "vocabulary": [
+        "振動規制法 (しんどうきせいほう) - Luật kiểm soát rung động",
+        "特定建設作業 (とくていけんせつさぎょう) - công tác xây dựng đặc định",
+        "油圧式 (ゆあつしき) - thủy lực",
+        "くい抜機 (くいぬきき) - máy rút cọc",
+        "くい打機 (くいうちき) - máy đóng cọc",
+        "もんけん - búa Monken (đóng cọc kiểu cũ)",
+        "圧入式 (あつにゅうしき) - kiểu ép vào",
+        "鋼球 (こうきゅう) - quả cầu thép",
+        "工作物 (こうさくぶつ) - công trình kiến trúc",
+        "ブレーカー - máy phá bê tông",
+        "手持式 (てもちしき) - kiểu cầm tay"
+      ],
+      "questions": [
+        {
+          "label": "Q72",
+          "question": "次の作業のうち、「振動規制法」上、特定建設作業に該当しないものはどれか。ただし、作業は開始した日に終わらないものとし、作業地点が連続的に移動する作業ではないものとする。",
+          "choices": [
+            "油圧式くい抜機を使用する作業",
+            "もんけん及び圧入式を除くくい打機を使用する作業",
+            "鋼球を使用して建築物その他の工作物を破壊する作業",
+            "手持式を除くブレーカーを使用する作業"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1：原則としてくい打機・くい抜機を使用する作業は特定建設作業に該当するが、もんけん・油圧式・圧入式のものは除かれる。油圧式は騒音・振動が小さいため除外される。よって油圧式くい抜機を使用する作業は特定建設作業に該当しない。正解は1。\n選択肢2：もんけん及び圧入式を除くくい打機を使用する作業は、特定建設作業に該当する。\n選択肢3：鋼球を使用して建築物その他の工作物を破壊する作業は、特定建設作業に該当する。\n選択肢4：手持式を除くブレーカーを使用する作業は、特定建設作業に該当する。",
+          "studyContent": "振動規制法の特定建設作業：①くい打機・くい抜機（もんけん・油圧式・圧入式を除く）、②鋼球による破壊作業、③舗装版破砕機、④ブレーカー（手持式を除く）。除外されるキーワード：もんけん、油圧式、圧入式、手持式。",
+          "question_vi": "Trong các công tác sau đây, công tác nào KHÔNG thuộc 特定建設作業 theo Luật kiểm soát rung động? (Giả định công việc không kết thúc trong ngày bắt đầu và không di chuyển liên tục.)",
+          "choices_vi": [
+            "Công tác sử dụng máy rút cọc THỦY LỰC.",
+            "Công tác sử dụng máy đóng cọc (trừ búa Monken và kiểu ép vào).",
+            "Công tác phá hủy công trình bằng quả cầu thép.",
+            "Công tác sử dụng máy phá bê tông (trừ kiểu cầm tay)."
+          ],
+          "explanation_vi": "Đáp án 1: Máy đóng/rút cọc thuộc 特定建設作業 NHƯNG kiểu thủy lực (油圧式), もんけん, kiểu ép vào (圧入式) đều ĐƯỢC LOẠI TRỪ vì ít rung/ồn. → Đáp án đúng là 1 (KHÔNG thuộc 特定建設作業).\nĐáp án 2: Máy đóng cọc (trừ もんけん, 圧入式) → thuộc. → Đúng (thuộc 特定建設作業).\nĐáp án 3: Phá bằng quả cầu thép → thuộc. → Đúng.\nĐáp án 4: Máy phá bê tông (trừ cầm tay) → thuộc. → Đúng.",
+          "studyContent_vi": "振動規制法 特定建設作業: ①máy đóng/rút cọc (loại trừ もんけん, 油圧式, 圧入式), ②phá bằng cầu thép, ③máy phá bản mặt, ④máy phá bê tông (trừ cầm tay). Từ khóa loại trừ: もんけん, 油圧式, 圧入式, 手持式."
+        }
+      ]
+    }
+  ]
+}
