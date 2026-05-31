@@ -1,0 +1,438 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 鉄筋工事 / ガス圧接",
+      "vocabulary": "ガス圧接 (がすあっせつ) - hàn áp lực bằng khí\n鉄筋 (てっきん) - cốt thép\nふくらみ - phần phình ra\n偏心量 (へんしんりょう) - lượng lệch tâm\n中性炎 (ちゅうせいえん) - ngọn lửa trung tính\n還元炎 (かんげんえん) - ngọn lửa khử\n面取り (めんとり) - vát mép\n縮み量 (ちぢみりょう) - lượng co ngắn\nSD345 - thép cốt cường độ 345 N/mm²",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "鉄筋のガス圧接に関する記述として、最も不適当なものはどれか。ただし、鉄筋はSD345とする。",
+          "choices": [
+            "径の異なる鉄筋のガス圧接部のふくらみの直径は、細いほうの径の1.4倍以上とする。",
+            "圧接継手において鉄筋の長さ方向の縮み量は、1か所当たり鉄筋径の1.0〜1.5倍を見込む。",
+            "同一径の鉄筋の圧接部における鉄筋中心軸の偏心量は、鉄筋径の1／5以下とする。",
+            "圧接端面は平滑に仕上げ、ばり等を除去するため、その周辺を軽く面取りを行う。",
+            "鉄筋の圧接部の加熱は、圧接端面が密着するまでは中性炎で行い、その後は還元炎で行う。"
+          ],
+          "answer": "5",
+          "explanation": "選択肢1. 径の異なる鉄筋のガス圧接部のふくらみ直径は細い方の径の1.4倍以上。→ 適当。\n選択肢2. 圧接継手の長さ方向の縮み量は1か所当たり鉄筋径の1.0〜1.5倍。→ 適当。\n選択肢3. 同一径の鉄筋圧接部の中心軸偏心量は鉄筋径の1／5以下。→ 適当。\n選択肢4. 圧接端面を平滑仕上げし、ばりを除去するため軽く面取り。→ 適当。\n選択肢5. 圧接部の加熱は、圧接端面が密着するまでは還元炎（アセチレン過剰炎）で行い、その後は中性炎（標準炎）で行う。記述は順序が逆で不適当。",
+          "studyContent": "まとめ\n・隣接する鉄筋の継手位置は400mm以上ずらす。\n・ガス圧接可能な径差は7mm以内。\n・ふくらみ直径は鉄筋径の1.4倍以上、ふくらみ長さは1.1倍以上。\n・偏心量は鉄筋径の1／5以下、縮み量は1.0〜1.5倍。\n・加熱順序：還元炎で密着 → 中性炎で本加熱。",
+          "question_vi": "Trong các mô tả sau về hàn áp lực bằng khí cốt thép, đâu là mô tả KHÔNG phù hợp nhất? Giả định cốt thép là SD345.",
+          "choices_vi": [
+            "Đối với mối hàn áp lực giữa các thanh thép có đường kính khác nhau, đường kính phần phình phải ≥ 1,4 lần đường kính của thanh nhỏ hơn.",
+            "Tại mối nối hàn áp lực, lượng co theo chiều dài dự kiến 1,0〜1,5 lần đường kính cốt thép cho mỗi điểm nối.",
+            "Đối với mối nối các thanh cùng đường kính, độ lệch tâm trục cốt thép ≤ 1/5 đường kính cốt thép.",
+            "Mặt đầu trước khi hàn được làm phẳng, loại bỏ bavia và vát mép nhẹ xung quanh.",
+            "Khi nung, ban đầu (đến khi hai mặt đầu khít) dùng ngọn lửa trung tính, sau đó chuyển sang ngọn lửa khử."
+          ],
+          "explanation_vi": "Lựa chọn 1. Đúng.\nLựa chọn 2. Đúng.\nLựa chọn 3. Đúng.\nLựa chọn 4. Đúng.\nLựa chọn 5. SAI. Trình tự đúng: ban đầu dùng ngọn lửa KHỬ (thừa acetylene) cho tới khi hai mặt đầu khít, sau đó mới chuyển sang ngọn lửa TRUNG TÍNH (nhiệt cao). Mô tả trong đề ngược lại nên không phù hợp.",
+          "studyContent_vi": "Tổng kết\n・Mối nối liền kề phải lệch ≥ 400 mm.\n・Chênh lệch đường kính cho phép ≤ 7 mm.\n・Đường kính phần phình ≥ 1,4 d; chiều dài phần phình ≥ 1,1 d.\n・Độ lệch tâm ≤ d/5; lượng co dọc trục 1,0〜1,5 d.\n・Trình tự nung: ngọn lửa khử → ngọn lửa trung tính."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / コンクリート工事 / 打込み",
+      "vocabulary": "打込み (うちこみ) - đổ bê tông\n締固め (しめがため) - đầm chặt\n暑中コンクリート - bê tông mùa nóng\nベント管 - ống cong\n打重ね - đổ chồng lớp\n再振動可能時間 - thời gian còn đầm lại được\n鉛直打継ぎ部 - mối nối thẳng đứng\n棒形振動機 - đầm dùi",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "コンクリートの運搬、打込み及び締固めに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "暑中コンクリートの荷卸し時のコンクリート温度は、35°C以下とした。",
+            "コンクリートの圧送負荷の算定に用いるベント管の水平換算距離は、ベント管の実長の3倍とした。",
+            "同一区画のコンクリート打込み時における打重ねは、先に打ち込まれたコンクリートの再振動可能時間以内に行った。",
+            "梁及びスラブの鉛直打継ぎ部は、スパンの中央付近に設けた。",
+            "コンクリート内部振動機（棒形振動機）による締固めにおいて、加振時間を1か所当たり60秒程度とした。"
+          ],
+          "answer": "5",
+          "explanation": "選択肢1. 暑中コンクリート荷卸し温度35°C以下。→ 適当。\n選択肢2. 圧送負荷算定のベント管水平換算距離は実長の3倍。→ 適当。\n選択肢3. 打重ねは再振動可能時間以内。→ 適当。\n選択肢4. 鉛直打継ぎ部はスパン中央付近（応力の小さい部分）。→ 適当。\n選択肢5. 棒形振動機の加振時間は1か所当たり5〜15秒程度。60秒では分離を招き不適当。挿入間隔は60cm以下。",
+          "studyContent": "まとめ\n・暑中コンクリート荷卸し温度：35°C以下。\n・ベント管水平換算距離：実長の3倍。\n・打重ねは再振動可能時間以内。\n・打継ぎ部はスパン中央付近または端から1/4付近。\n・棒形振動機：加振5〜15秒/か所、挿入間隔60cm以下。",
+          "question_vi": "Trong các mô tả sau về vận chuyển, đổ và đầm bê tông, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Nhiệt độ bê tông mùa nóng tại điểm dỡ tải ≤ 35°C.",
+            "Khoảng cách quy đổi theo phương ngang của ống cong khi tính tải áp suất bơm = 3 lần chiều dài thực.",
+            "Đổ chồng lớp trong cùng khu vực được thực hiện trong thời gian còn có thể đầm lại của lớp trước.",
+            "Mối nối thẳng đứng của dầm và sàn đặt ở gần giữa nhịp.",
+            "Khi đầm bằng đầm dùi trong bê tông, thời gian đầm mỗi vị trí ≈ 60 giây."
+          ],
+          "explanation_vi": "Lựa chọn 1〜4. Đúng.\nLựa chọn 5. SAI. Thời gian đầm bằng đầm dùi thông thường 5〜15 giây/vị trí. 60 giây quá lâu, gây phân tầng. Khoảng cách cắm ≤ 60 cm.",
+          "studyContent_vi": "Tổng kết\n・Bê tông mùa nóng khi dỡ tải: ≤ 35°C.\n・Ống cong: khoảng cách quy đổi = 3 lần chiều dài thực.\n・Đổ chồng lớp trong thời gian còn đầm lại được.\n・Mối nối thẳng đứng: gần giữa nhịp hoặc 1/4 từ đầu nhịp.\n・Đầm dùi: 5〜15 giây/vị trí, khoảng cách ≤ 60 cm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 03_躯体施工 / 鉄骨工事",
+      "vocabulary": "鉄骨 - kết cấu thép\n自動ガス切断機 - máy cắt khí tự động\n開先 - mép vát hàn\nダイアフラム - diaphragm\n空気孔 - lỗ thoát khí\n高力ボルト - bu lông cường độ cao\nドリル孔あけ - khoan lỗ\nせん断孔あけ - đột lỗ\nアンカーボルト - bu lông neo",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "鉄骨の加工及び組立てに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "鋼材は、自動ガス切断機で開先を加工し、著しい凹凸が生じた部分を修正した。",
+            "鉄骨鉄筋コンクリート構造において、鉄骨柱と鉄骨梁の接合部のダイアフラムに、コンクリートの充填性を考慮して、空気孔を設けた。",
+            "490N／mm2級の鋼材において、孔あけにより除去される箇所にポンチでけがきを行った。",
+            "公称軸径が24mmの高力ボルト用の孔あけ加工は、ドリル孔あけとし、径を27mmとした。",
+            "アンカーボルト用の孔あけ加工は、板厚が13mmであったため、せん断孔あけとした。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1. 自動ガス切断後の凹凸修正。→ 適当。\n選択肢2. SRC造でダイアフラムに空気孔。→ 適当。\n選択肢3. 490N/mm²級鋼材は除去される箇所にのみポンチ可。→ 適当。\n選択肢4. 高力ボルト孔径は公称軸径＜27mmで＋2mm（24→26mm）。27mmは＋3mmで不適当。\n選択肢5. 板厚13mm以下はせん断孔あけ可。→ 適当。",
+          "studyContent": "まとめ\n・自動ガス切断後、グラインダーで凹凸修正。\n・高力ボルト孔径：d＜27mm→＋2mm、d≧27mm→＋3mm。\n・490N/mm²級は孔あけ除去部以外のけがき・ポンチ禁止。\n・原則ドリル孔あけ、板厚13mm以下のアンカーボルト孔はせん断可。",
+          "question_vi": "Trong các mô tả về gia công và lắp dựng kết cấu thép, đâu là mô tả KHÔNG phù hợp?",
+          "choices_vi": [
+            "Thép được cắt mép vát bằng máy cắt khí tự động, các phần lồi lõm được sửa lại.",
+            "Trong kết cấu SRC, lỗ thoát khí được đặt trên diaphragm liên kết cột–dầm để bê tông đầy.",
+            "Đối với thép cấp 490 N/mm², có thể dùng punch tại vị trí sẽ bị bỏ đi do khoan lỗ.",
+            "Lỗ cho bu lông cường độ cao đường kính 24 mm được khoan với đường kính 27 mm.",
+            "Lỗ bu lông neo được đột vì bản thép dày 13 mm."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3, 5. Đúng.\nLựa chọn 4. SAI. Quy tắc: d < 27 mm → lỗ = d + 2 mm; d ≥ 27 mm → lỗ = d + 3 mm. Với d = 24 mm → lỗ phải là 26 mm, không phải 27 mm.",
+          "studyContent_vi": "Tổng kết\n・Sau cắt khí, dùng máy mài sửa lồi lõm.\n・Lỗ bu lông cường độ cao: d < 27 mm → +2 mm; d ≥ 27 mm → +3 mm.\n・Thép cấp 490 N/mm² không được để vết punch ngoài vùng sẽ khoan bỏ.\n・Nguyên tắc khoan; bản ≤ 13 mm có thể đột."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 防水工事 / ウレタン防水",
+      "vocabulary": "塗膜防水 - chống thấm bằng màng phủ\nウレタンゴム系 - hệ cao su urethane\n絶縁工法 - phương pháp cách ly\n通気緩衝シート - tấm thông khí\n補強布 - vải gia cường\n硬化物比重 - tỷ trọng vật chất sau đóng rắn\nゴムアスファルト系 - hệ asphalt cao su\n固形分 - hàm lượng chất rắn",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "塗膜防水に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ウレタンゴム系塗膜防水の絶縁工法において、立上り部の補強布は、平場部の通気緩衝シートの上に100mm張り掛けた。",
+            "ウレタンゴム系塗膜防水の絶縁工法において、平場部の防水材の総使用量は、硬化物比重が1.3だったため、3.9kg／m2とした。",
+            "ウレタンゴム系塗膜防水の絶縁工法において、通気緩衝シートの重ね幅は、50mmした。",
+            "ゴムアスファルト系塗膜防水工法において、補強布の重ね幅は、50mmとした。",
+            "ゴムアスファルト系防水材の室内平場部の総使用量は、固形分60％のものを使用するため、4.5kg／m2とした。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1. 立上り補強布を通気緩衝シートに100mm張り掛け。→ 適当。\n選択肢2. 比重1.0で3.0kg/㎡。比重1.3なら3.9kg/㎡。→ 適当。\n選択肢3. 通気緩衝シートは『突き付け張り』とし重ねない。突き付け部に織布テープを50mm以上貼る。よって不適当。\n選択肢4. ゴムアスファルト系の補強布重ね50mm。→ 適当。\n選択肢5. 固形分60%品で室内平場部4.5kg/㎡。→ 適当。",
+          "studyContent": "まとめ\n・ウレタン絶縁工法：通気緩衝シートは突き付け、織布テープ50mm以上。\n・補強布張り掛け：立上り→平場100mm。\n・ウレタン硬化物比重1.0で3.0kg/㎡（比重に比例）。\n・ゴムアスファルト系：補強布重ね50mm、固形分60％で4.5kg/㎡。",
+          "question_vi": "Trong các mô tả về chống thấm bằng màng phủ, đâu là mô tả KHÔNG phù hợp?",
+          "choices_vi": [
+            "Trong phương pháp cách ly urethane, vải gia cường ở vách đứng được phủ lên tấm thông khí ở mặt bằng 100 mm.",
+            "Trong phương pháp cách ly urethane, do tỷ trọng đóng rắn là 1,3, tổng lượng vật liệu ở mặt bằng là 3,9 kg/m².",
+            "Trong phương pháp cách ly urethane, độ chồng mép giữa các tấm thông khí là 50 mm.",
+            "Trong phương pháp chống thấm asphalt cao su, độ chồng mép vải gia cường là 50 mm.",
+            "Vì dùng vật liệu asphalt cao su 60% chất rắn, tổng lượng tại mặt bằng trong nhà là 4,5 kg/m²."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 4, 5. Đúng.\nLựa chọn 3. SAI. Trong phương pháp cách ly urethane, các tấm thông khí phải đặt SÁT ĐẦU (không chồng mép), trên mối nối dán băng vải dệt rộng ≥ 50 mm.",
+          "studyContent_vi": "Tổng kết\n・Cách ly urethane: tấm thông khí đặt sát đầu, băng vải dệt phủ mối nối ≥ 50 mm.\n・Vải gia cường phủ chồng từ vách đứng xuống mặt bằng 100 mm.\n・Tỷ trọng đóng rắn 1,0 → 3,0 kg/m².\n・Asphalt cao su: chồng vải 50 mm, 60% chất rắn → 4,5 kg/m² trong nhà."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / タイル工事 / 張付け",
+      "vocabulary": "セメントモルタル - vữa xi măng\n壁タイル - gạch ốp tường\n後張り工法 - phương pháp dán sau\n改良積上げ張り - dán xếp chồng cải tiến\n密着張り - dán ép sát\nモザイクタイル張り - dán mosaic\nマスク張り - dán dùng mặt nạ\n改良圧着張り - dán ép cải tiến\n張付けモルタル - vữa dán\nこて圧 - lực bay",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "セメントモルタルによる壁タイル後張り工法に関する記述として、最も不適当はどれか。",
+          "choices": [
+            "改良積上げ張りの張付けモルタルは、下地モルタル面に塗厚4mmで塗り付けた。",
+            "密着張りの張付けモルタルは、1回の塗付け面積を2m2以内とした。",
+            "モザイクタイル張りの張付けモルタルは、下地面に対する塗付けを2度塗りとし、1層目はこて圧をかけて塗り付けた。",
+            "マスク張りの張付けモルタルは、ユニットタイルの裏面に厚さ4mmのマスク板をあて、金ごてで塗り付けた。",
+            "改良圧着張りの張付けモルタルは、下地面に対する塗付けを2度塗りとし、その合計の塗厚を5mmとした。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1. 改良積上げ張りの張付けモルタルは『タイル裏面』に塗厚7〜10mm。下地モルタル面に4mmではないため不適当。1日の貼付高さ1.5m以内。\n選択肢2. 密着張り：1回塗付面積2㎡以内（30分以内）。→ 適当。\n選択肢3. モザイクタイル張り：2度塗り、1層目こて圧。→ 適当。\n選択肢4. マスク張り：マスク板4mm＋金ごて。→ 適当。\n選択肢5. 改良圧着張り：2度塗り合計4〜6mm（5mm）。→ 適当。",
+          "studyContent": "まとめ\n・改良積上げ張り：タイル裏面に7〜10mm、1日1.5m以内。\n・密着張り：2㎡以内/30分、合計塗厚5〜8mm。\n・モザイクタイル張り：2度塗り、1層目こて圧、1回3㎡以内。\n・マスク張り：マスク板4mm＋金ごて。\n・改良圧着張り：下地に2度塗り合計4〜6mm、タイル裏1〜3mm。",
+          "question_vi": "Trong các mô tả về phương pháp dán gạch tường (後張り) dùng vữa xi măng, đâu là mô tả KHÔNG phù hợp?",
+          "choices_vi": [
+            "Vữa dán trong xếp chồng cải tiến được phết lên mặt vữa nền dày 4 mm.",
+            "Vữa dán trong dán ép sát: diện tích phết mỗi lần ≤ 2 m².",
+            "Vữa dán mosaic được phết 2 lớp lên nền, lớp thứ nhất dùng lực bay.",
+            "Vữa dán mosaic dạng mặt nạ được phết bằng bay kim loại lên mặt sau tấm gạch unit sau khi đặt mặt nạ dày 4 mm.",
+            "Vữa dán trong ép cải tiến được phết 2 lớp lên nền, tổng dày 5 mm."
+          ],
+          "explanation_vi": "Lựa chọn 1. SAI. Trong xếp chồng cải tiến, vữa dán phết lên MẶT SAU của gạch với chiều dày 7〜10 mm, không phải phết lên nền 4 mm. Chiều cao dán/ngày ≤ 1,5 m.\nLựa chọn 2, 3, 4, 5. Đúng.",
+          "studyContent_vi": "Tổng kết\n・改良積上げ張り: mặt sau gạch 7〜10 mm, ≤ 1,5 m/ngày.\n・密着張り: ≤ 2 m²/lần (≤ 30 phút), tổng 5〜8 mm.\n・Mosaic: 2 lớp, lớp 1 dùng lực bay, ≤ 3 m²/lần.\n・Mặt nạ: tấm 4 mm + bay kim loại.\n・改良圧着張り: 2 lớp ở nền tổng 4〜6 mm, mặt sau gạch 1〜3 mm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 04_仕上施工 / 内装工事 / ボード",
+      "vocabulary": "せっこうボード - tấm thạch cao\n軽量鉄骨 - khung thép nhẹ\nドリリングタッピンねじ - vít drilling tapping\n留付け間隔 - khoảng cách bắt vít\n余長 - phần thừa\nロックウール化粧吸音板 - tấm tiêu âm rock wool trang trí\nステープル - đinh kẹp",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "内装工事におけるボード張りに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "せっこうボードを軽量鉄骨壁下地に張り付ける際、ドリリングタッピンねじの留付け間隔は、周辺部200mm程度、中間部300mm程度とした。",
+            "せっこうボードを軽量鉄骨天井下地に張り付ける際、ドリリングタッピンねじの長さは、下地材の裏面に5mm以上の余長が得られる長さとした。",
+            "せっこうボードを軽量鉄骨壁下地に張り付ける際、ボードの下端と床面の間を10mm程度浮かして張り付けた。",
+            "ロックウール化粧吸音板を天井せっこうボード下地に重ね張りする際、吸音板の目地は、下地ボードの目地と重ならないよう、50mm以上ずらして張り付けた。",
+            "厚さ9.5mmのせっこうボードを厚さ12.5mmの壁せっこうボード下地に接着剤を用いて重ね張りする際、併用するステープルの足の長さを20mmとした。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1. 周辺200／中間300mm。→ 適当。\n選択肢2. 天井下地のねじは下地材裏面に10mm以上の余長が必要。5mmでは不足のため不適当。\n選択肢3. ボード下端と床面10mm程度浮かす（湿気対策）。→ 適当。\n選択肢4. 吸音板目地は下地ボード目地と50mm以上ずらす。→ 適当。\n選択肢5. 接着剤＋ステープル足長20mm。→ 適当。",
+          "studyContent": "まとめ\n・ねじ留付け間隔：壁周辺200／中間300mm。\n・ねじ余長：下地材裏10mm以上。\n・ボード下端：床面から10mm程度浮かす。\n・吸音板と下地ボード目地：50mm以上ずらす。",
+          "question_vi": "Trong các mô tả về dán tấm trong thi công nội thất, đâu là mô tả KHÔNG phù hợp?",
+          "choices_vi": [
+            "Khi dán tấm thạch cao lên khung thép nhẹ tường, khoảng cách bắt vít ≈ 200 mm ở mép, 300 mm ở giữa.",
+            "Khi dán tấm thạch cao lên khung thép nhẹ trần, vít drilling tapping có phần thừa ≥ 5 mm ở mặt sau nền.",
+            "Khi dán tấm thạch cao lên khung thép nhẹ tường, mép dưới tấm cao hơn sàn ≈ 10 mm.",
+            "Khi dán chồng tấm tiêu âm rock wool lên nền thạch cao trần, mạch lệch ≥ 50 mm so với mạch nền.",
+            "Khi dán chồng tấm thạch cao 9,5 mm lên nền 12,5 mm bằng keo, đinh kẹp có chân dài 20 mm."
+          ],
+          "explanation_vi": "Lựa chọn 1, 3, 4, 5. Đúng.\nLựa chọn 2. SAI. Đối với trần, phần thừa của vít phải ≥ 10 mm ở mặt sau vật liệu nền, không phải 5 mm.",
+          "studyContent_vi": "Tổng kết\n・Khoảng cách vít: mép 200 / giữa 300 mm.\n・Phần thừa vít ≥ 10 mm ở mặt sau nền.\n・Mép dưới tấm cách sàn ≈ 10 mm.\n・Tấm tiêu âm lệch mạch ≥ 50 mm so với nền."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 02_共通 / 仮設計画",
+      "vocabulary": "仮設計画 - kế hoạch công trình tạm\n仮囲い - hàng rào tạm\n土台コンクリート - bệ bê tông\n道路管理者 - cơ quan quản lý đường\n所轄警察署 - sở cảnh sát phụ trách\n便房 - buồng vệ sinh\nガスボンベ - bình khí gas\n貯蔵小屋 - nhà kho",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "仮設計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "傾斜地に設置する仮囲いの下端の隙間を塞ぐため、土台コンクリートを設ける計画とした。",
+            "仮囲いは、工事現場の周辺や工事の状況により危害防止上支障がなかったため、設けない計画とした。",
+            "仮囲いは、道路管理者や所轄警察署の許可を得て、道路の一部を借用して設置する計画とした。",
+            "女性用便所は、同時に就業する女性労働者が45人見込まれたため、便房を2個設置する計画とした。",
+            "ガスボンベ類の貯蔵小屋は、通気を良くするため、壁の1面を開口とし、他の3面は上部に開口部を設ける計画とした。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1. 土台コンクリートで隙間を塞ぐ。→ 適当。\n選択肢2. 危害防止上支障なしなら仮囲い省略可。→ 適当。\n選択肢3. 道路一部借用は道路管理者・警察署の許可必要。→ 適当。\n選択肢4. 女性用便房は労働安全衛生規則で女性労働者20人以内ごとに1個以上。45人なら3個以上必要のため不適当。\n選択肢5. ガスボンベ小屋：1面開口＋他3面上部開口で通気。→ 適当。",
+          "studyContent": "まとめ\n・仮囲い：原則1.8m以上。\n・女性用便房：20人以内ごとに1個以上。\n・ガスボンベ貯蔵小屋：1面壁開口＋他3面上部開口。\n・道路占用：道路管理者と警察署長の許可。",
+          "question_vi": "Trong các mô tả về kế hoạch công trình tạm, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Để bịt khe mép dưới hàng rào tạm trên địa hình dốc, đổ bệ bê tông móng.",
+            "Vì không gây trở ngại an toàn, kế hoạch là không lắp hàng rào tạm.",
+            "Mượn một phần lòng đường để dựng hàng rào tạm sau khi xin phép cơ quan quản lý đường và cảnh sát.",
+            "Vì dự kiến 45 nữ công nhân, kế hoạch lắp 2 buồng vệ sinh nữ.",
+            "Kho bình gas: 1 mặt mở, 3 mặt còn lại mở cửa phía trên để thông gió."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3, 5. Đúng.\nLựa chọn 4. SAI. Theo quy định an toàn vệ sinh lao động, mỗi 20 nữ công nhân cần ≥ 1 buồng. Với 45 người cần ≥ 3 buồng, không phải 2.",
+          "studyContent_vi": "Tổng kết\n・Hàng rào tạm ≥ 1,8 m; có thể bỏ nếu không gây nguy hiểm.\n・Buồng vệ sinh nữ: ≥ 1 cho mỗi 20 nữ công nhân.\n・Kho bình gas: 1 mặt mở + 3 mặt còn lại mở phía trên.\n・Mượn đường: xin phép cơ quan quản lý + cảnh sát."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 原価管理 / コスト管理",
+      "vocabulary": "工期 - thời hạn thi công\n総工事費 - tổng chi phí\n直接費 - chi phí trực tiếp\n間接費 - chi phí gián tiếp\nノーマルタイム - normal time\nクラッシュタイム - crash time\n最適工期 - thời hạn tối ưu",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "建築工事における工期と費用に関する一般的な記述として、最も不適当なものはどれか。",
+          "choices": [
+            "総工事費は、工期に比例して増加する。",
+            "間接費は、工期の長短に相関して増減する。",
+            "直接費と間接費の和が最小となるときが、最適な工期となる。",
+            "ノーマルタイム（標準時間）とは、直接費が最小となるときに要する工期をいう。",
+            "クラッシュタイム（特急時間）とは、どんなに直接費を投入しても、ある限度以上には短縮できない工期をいう。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1. 総工事費は直接費＋間接費。工期短縮で直接費↑・間接費↓、工期延長でその逆。U字曲線で最適工期に最小。比例ではないため不適当。\n選択肢2. 間接費は工期と相関。→ 適当。\n選択肢3. 直接費＋間接費の和が最小＝最適工期。→ 適当。\n選択肢4. ノーマルタイム＝直接費最小の工期。→ 適当。\n選択肢5. クラッシュタイム＝直接費投入の限界で短縮できない工期。→ 適当。",
+          "studyContent": "まとめ\n・総工事費＝直接費＋間接費。\n・工期短縮：直接費↑、間接費↓。延長：逆。\n・最小の和＝最適工期。\n・ノーマルタイム＝直接費最小時の工期。\n・クラッシュタイム＝これ以上短縮不可の工期。",
+          "question_vi": "Trong các mô tả chung về thời hạn thi công và chi phí, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tổng chi phí công trình tăng tỷ lệ thuận với thời hạn thi công.",
+            "Chi phí gián tiếp tăng giảm tương quan với độ dài thời hạn thi công.",
+            "Khi tổng chi phí trực tiếp và gián tiếp nhỏ nhất là thời hạn tối ưu.",
+            "Normal time là thời hạn ứng với khi chi phí trực tiếp nhỏ nhất.",
+            "Crash time là thời hạn không thể rút ngắn thêm dù tăng chi phí trực tiếp."
+          ],
+          "explanation_vi": "Lựa chọn 1. SAI. Tổng chi phí có dạng đồ thị chữ U, đạt cực tiểu tại thời hạn tối ưu; KHÔNG tỷ lệ thuận.\nLựa chọn 2, 3, 4, 5. Đúng.",
+          "studyContent_vi": "Tổng kết\n・Tổng chi phí = trực tiếp + gián tiếp.\n・Rút ngắn: trực tiếp ↑, gián tiếp ↓.\n・Tổng nhỏ nhất = thời hạn tối ưu.\n・Normal time: lúc chi phí trực tiếp nhỏ nhất.\n・Crash time: không thể rút ngắn thêm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 品質管理 / 試験",
+      "vocabulary": "躯体工事 - thi công kết cấu\nフレッシュコンクリート - bê tông tươi\n荷卸し地点 - điểm dỡ tải\nスランプ試験 - thí nghiệm độ sụt\n許容差 - sai số cho phép\n塩化物含有量 - hàm lượng clorua\nガス圧接継手 - mối nối hàn áp lực khí\n超音波探傷試験 - kiểm tra siêu âm\nロット - lô",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "躯体工事における試験及び検査に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "フレッシュコンクリートの荷卸し地点での検査において、スランプ試験は、試料をスランプコーンに詰める際、ほぼ等しい量の3層に分けて詰めた。",
+            "フレッシュコンクリートの荷卸し地点での検査において、スランプ18cmのコンクリートのスランプの許容差は、±2.5cmとした。",
+            "フレッシュコンクリートの荷卸し地点での検査において、1回の試験における塩化物含有量は、同一試料からとった3個の分取試料についてそれぞれ1回ずつ測定し、その平均値とした。",
+            "鉄筋工事のガス圧接継手の超音波探傷試験において、抜取りの1ロットの大きさは、1組の作業班が1日に施工した圧接か所とした。",
+            "鉄筋工事のガス圧接継手の超音波探傷試験において、抜取りは、1ロットに対して無作為に3か所抽出して行った。"
+          ],
+          "answer": "5",
+          "explanation": "選択肢1〜4. 適当。\n選択肢5. ガス圧接継手の超音波探傷は1ロットに対して無作為に30か所抽出（3か所ではない）。不合格時は残り全数。よって不適当。",
+          "studyContent": "まとめ\n・スランプ試験：3層に分け、各層25回突き。\n・スランプ8〜18cmの許容差±2.5cm。\n・塩化物含有量：3個分取の平均、塩化物イオン量0.3kg/㎥以下。\n・ガス圧接超音波探傷：1ロット＝1班1日分、30か所無作為抽出。外観検査は全数。",
+          "question_vi": "Trong các mô tả về thí nghiệm và kiểm tra trong thi công kết cấu, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Mẫu bê tông tươi được nhồi vào côn sụt thành 3 lớp gần như bằng nhau.",
+            "Sai số cho phép của độ sụt 18 cm là ±2,5 cm.",
+            "Trong 1 lần thử clorua, lấy 3 mẫu phân tách, đo mỗi mẫu 1 lần và lấy trung bình.",
+            "1 lô lấy mẫu siêu âm = số mối nối 1 nhóm thợ thi công trong 1 ngày.",
+            "Trong kiểm tra siêu âm mối nối, lấy ngẫu nhiên 3 điểm/lô."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3, 4. Đúng.\nLựa chọn 5. SAI. Số mẫu lấy ngẫu nhiên/1 lô là 30 điểm (không phải 3). Nếu không đạt, kiểm tra siêu âm toàn bộ phần còn lại.",
+          "studyContent_vi": "Tổng kết\n・Độ sụt: nhồi 3 lớp, mỗi lớp 25 nhát.\n・Sai số ±2,5 cm với 8〜18 cm.\n・Clorua: 3 mẫu trung bình, ion clorua ≤ 0,3 kg/m³.\n・Siêu âm hàn áp lực khí: lô = 1 nhóm/ngày, ngẫu nhiên 30 điểm; ngoại quan kiểm toàn bộ."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 安全管理 / 災害防止",
+      "vocabulary": "労働災害 - tai nạn lao động\n公衆災害 - tai nạn công cộng\n休業日数 - số ngày nghỉ việc\n強度率 - chỉ số cường độ\n度数率 - tần suất tai nạn\n延労働時間 - tổng giờ lao động\n労働損失日数 - số ngày tổn thất lao động\n永久全労働不能 - mất hoàn toàn khả năng lao động vĩnh viễn",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "労働災害に関する用語の説明として、最も不適当なものはどれか。",
+          "choices": [
+            "労働災害とは、業務に起因して、労働者が負傷し、疾病にかかり、又は死亡することで、公衆災害は含まない。",
+            "休業日数は、労働災害により労働者が労働することができない日数で、休日であっても休業日数に含める。",
+            "強度率とは、労働者1,000人当たり1年間に発生した死傷者数を示す。",
+            "度数率とは、災害発生の頻度を表すもので、100万延労働時間当たりの労働災害による死傷者数を示す。",
+            "労働損失日数は、死亡及び身体障害が永久全労働不能の場合、1件につき7,500日とする。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1, 2, 4, 5. 適当。\n選択肢3. 強度率＝(労働損失日数/延労働時間)×1000で、1000延労働時間当たりの労働損失日数を示す重篤度の指標。1000人当たり死傷者数ではないため不適当。",
+          "studyContent": "まとめ\n・労働災害：業務起因、公衆災害含まず。\n・度数率＝死傷者数×1,000,000/延労働時間（頻度）。\n・強度率＝労働損失日数×1,000/延労働時間（重篤度）。\n・永久全労働不能：7,500日／件。",
+          "question_vi": "Trong các giải thích thuật ngữ tai nạn lao động, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tai nạn lao động: do công việc, không bao gồm tai nạn công cộng.",
+            "Số ngày nghỉ việc bao gồm cả ngày nghỉ lễ.",
+            "Chỉ số cường độ (強度率) thể hiện số người bị thương/tử vong trên 1.000 lao động/năm.",
+            "Tần suất tai nạn (度数率) = số người thương vong trên 1.000.000 giờ lao động.",
+            "Tổn thất lao động với tử vong / mất sức lao động vĩnh viễn = 7.500 ngày/vụ."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 4, 5. Đúng.\nLựa chọn 3. SAI. 強度率 = (Số ngày tổn thất / Tổng giờ lao động) × 1000, tức số ngày tổn thất trên 1.000 giờ lao động (thể hiện mức nghiêm trọng), KHÔNG phải số người thương trên 1.000 lao động.",
+          "studyContent_vi": "Tổng kết\n・Tai nạn lao động: do công việc, không tính công cộng.\n・度数率 = thương vong × 1.000.000 / tổng giờ.\n・強度率 = ngày tổn thất × 1.000 / tổng giờ.\n・Mất sức vĩnh viễn toàn phần: 7.500 ngày/vụ."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 建築基準法",
+      "vocabulary": "確認済証 - giấy chứng nhận đã thẩm định\n広告塔 - tháp quảng cáo\n除却 - phá dỡ\n防火地域 - khu vực phòng cháy\n準防火地域 - khu vực gần phòng cháy\n建築確認 - thẩm định xây dựng\n大規模の修繕 - sửa chữa quy mô lớn\n工事監理者 - người giám sát công trình\n一級建築士 - kiến trúc sư hạng 1\n軒の高さ - chiều cao mái hiên",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "次の記述のうち、「建築基準法」上、誤っているものはどれか。",
+          "choices": [
+            "高さが4mを超える広告塔を設置しようとする場合においては、確認済証の交付を受けなければならない。",
+            "床面積の合計が5m2の建築物を除却しようとする場合においては、当該除却工事の施工者は、その旨を都道府県知事に届け出る必要はない。",
+            "防火地域及び準防火地域内に建築物を増築しようとする場合においては、その増築部分の床面積の合計が10m2以内のときは、建築確認を受ける必要はない。",
+            "木造3階建ての戸建て住宅について、大規模の修繕をしようとする場合においては、確認済証の交付を受けなければならない。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1, 2, 4. 適当。\n選択肢3. 防火地域・準防火地域内の増築は床面積10㎡以内でも建築確認必要。10㎡以内で確認不要となるのは防火・準防火地域『外』に限るため誤り。",
+          "studyContent": "まとめ\n・10㎡以内の増築で確認不要：防火・準防火地域外のみ。\n・10㎡超の除却：都道府県知事届出。\n・高さ4m超の広告塔等：確認済証必要。\n・木造3階建ての大規模修繕：確認済証必要。",
+          "question_vi": "Trong các mô tả sau, đâu là mô tả SAI theo Luật Tiêu chuẩn xây dựng?",
+          "choices_vi": [
+            "Tháp quảng cáo cao > 4 m phải có giấy chứng nhận đã thẩm định.",
+            "Phá dỡ công trình tổng diện tích 5 m² không cần khai báo với Thống đốc tỉnh.",
+            "Khi mở rộng công trình trong khu phòng cháy / gần phòng cháy, nếu phần mở rộng ≤ 10 m² thì không cần xin thẩm định.",
+            "Sửa chữa quy mô lớn nhà gỗ riêng lẻ 3 tầng phải có giấy chứng nhận đã thẩm định."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 4. Đúng.\nLựa chọn 3. SAI. Trong khu phòng cháy / gần phòng cháy, mọi mở rộng đều phải xin thẩm định KỂ CẢ ≤ 10 m². Ngoại lệ ≤ 10 m² chỉ áp dụng ngoài khu phòng cháy / gần phòng cháy.",
+          "studyContent_vi": "Tổng kết\n・Miễn thẩm định ≤ 10 m² chỉ áp dụng ngoài khu phòng cháy / gần phòng cháy.\n・Phá dỡ > 10 m² phải khai báo với Thống đốc tỉnh.\n・Tháp quảng cáo > 4 m cần giấy chứng nhận.\n・Nhà gỗ 3 tầng sửa lớn cần giấy chứng nhận."
+        },
+        {
+          "label": "Q2",
+          "question": "次の記述のうち、「建築基準法」上、誤っているものはどれか。",
+          "choices": [
+            "特定行政庁は、建築物の工事施工者に対して、当該工事の施工の状況に関する報告を求めることができる。",
+            "特定行政庁は、原則として、建築物の敷地について、そのまま放置すれば保安上危険となり、又は衛生上有害となるおそれがあると認める場合、所有者に対して、その敷地の維持保全に関し必要な指導及び助言をすることができる。",
+            "建築主は、延べ面積が1,000m2を超え、かつ、階数が2以上の建築物を新築する場合、一級建築士である工事監理者を定めなければならない。",
+            "建築主は、軒の高さが9mを超える木造の建築物を新築する場合においては、二級建築士である工事監理者を定めなければならない。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1, 2, 3. 適当。\n選択肢4. 木造で高さ13m超または軒高9m超は『一級建築士』の工事監理者が必要。『二級』ではないため誤り。",
+          "studyContent": "まとめ\n・一級建築士の工事監理者が必要：\n  ・延べ面積1,000㎡超かつ階数2以上\n  ・木造で高さ13m超または軒高9m超\n  ・RC／S造で延べ300㎡以上または高さ13m／軒9m超",
+          "question_vi": "Trong các mô tả sau, đâu là mô tả SAI theo Luật Tiêu chuẩn xây dựng?",
+          "choices_vi": [
+            "Cơ quan hành chính đặc định có thể yêu cầu nhà thầu báo cáo tình hình thi công.",
+            "Cơ quan hành chính đặc định có thể chỉ đạo và tư vấn chủ sở hữu về bảo trì khu đất nếu nguy hiểm/nguy hại.",
+            "Khi xây mới công trình diện tích > 1.000 m² và ≥ 2 tầng, người giám sát phải là kiến trúc sư hạng 1.",
+            "Khi xây mới công trình gỗ có mái hiên > 9 m, người giám sát phải là kiến trúc sư hạng 2."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3. Đúng.\nLựa chọn 4. SAI. Đối với công trình gỗ cao > 13 m hoặc mái hiên > 9 m, người giám sát phải là kiến trúc sư HẠNG 1, không phải hạng 2.",
+          "studyContent_vi": "Tổng kết\n・KTS hạng 1 giám sát:\n  ・> 1.000 m² và ≥ 2 tầng;\n  ・Công trình gỗ > 13 m hoặc hiên > 9 m;\n  ・RC/S ≥ 300 m² hoặc cao > 13 m / hiên > 9 m."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 建築基準法 / 避難",
+      "vocabulary": "避難施設 - cơ sở thoát hiểm\n児童用の廊下 - hành lang dành cho học sinh\n居室 - phòng sử dụng\n集会場 - hội trường\n避難階 - tầng thoát hiểm\n直通階段 - cầu thang đi thẳng\n回り階段 - cầu thang xoắn\n踏面 - mặt bậc\n非常用の進入口 - cửa vào khẩn cấp",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "避難施設等に関する記述として、「建築基準法施行令」上、誤っているものはどれか。",
+          "choices": [
+            "小学校の児童用の廊下の幅は、両側に居室がある場合、1.8m以上としなければならない。",
+            "集会場で避難階以外の階に集会室を有するものは、その階から避難階又は地上に通ずる2以上の直通階段を設けなければならない。",
+            "回り階段の部分における踏面の寸法は、踏面の狭いほうの端から30cmの位置において測らなければならない。",
+            "建築物の高さ31m以下の部分にある3階以上の階には、原則として、非常用の進入口を設けなければならない。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1. 小・中学校の児童用廊下幅は両側居室で2.3m以上、片側居室で1.8m以上。1.8mは誤り。\n選択肢2, 3, 4. 適当。",
+          "studyContent": "まとめ\n・小・中学校児童用廊下：両側居室2.3m以上／片側1.8m以上。\n・避難階以外に集会室：直通階段2以上。\n・回り階段の踏面：狭い端から30cmで測定。\n・高さ31m以下の3階以上：非常用進入口。",
+          "question_vi": "Trong các mô tả về cơ sở thoát hiểm, đâu là mô tả SAI theo Nghị định thi hành Luật Tiêu chuẩn xây dựng?",
+          "choices_vi": [
+            "Chiều rộng hành lang học sinh tiểu học khi hai bên có phòng sử dụng phải ≥ 1,8 m.",
+            "Hội trường có phòng họp ở tầng khác tầng thoát hiểm phải có ≥ 2 cầu thang đi thẳng.",
+            "Mặt bậc cầu thang xoắn được đo cách 30 cm từ mép hẹp.",
+            "Tầng ≥ 3 trong phần cao ≤ 31 m về nguyên tắc phải có cửa vào khẩn cấp."
+          ],
+          "explanation_vi": "Lựa chọn 1. SAI. Hành lang học sinh tiểu/trung học sơ sở khi hai bên có phòng phải ≥ 2,3 m. 1,8 m chỉ là khi một bên có phòng.\nLựa chọn 2, 3, 4. Đúng.",
+          "studyContent_vi": "Tổng kết\n・Hành lang học sinh tiểu/trung học: hai bên phòng ≥ 2,3 m; một bên ≥ 1,8 m.\n・Phòng họp ở tầng khác tầng thoát hiểm: ≥ 2 cầu thang trực thông.\n・Mặt bậc cầu thang xoắn: đo cách 30 cm từ mép hẹp.\n・Tầng ≥ 3 trong phần cao ≤ 31 m: cần cửa khẩn cấp."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 建設業法",
+      "vocabulary": "建設業の許可 - giấy phép kinh doanh xây dựng\n特定建設業 - doanh nghiệp xây dựng đặc định\n建築一式工事 - thi công kiến trúc trọn gói\n内装仕上工事 - thi công hoàn thiện nội thất\n下請契約 - hợp đồng thầu phụ\n下請代金 - giá trị hợp đồng thầu phụ\n財産的基礎 - cơ sở tài chính\n営業所 - văn phòng kinh doanh\n国土交通大臣 - Bộ trưởng Bộ Quốc thổ Giao thông\n都道府県知事 - Thống đốc tỉnh",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "建設業の許可に関する記述として、「建設業法」上、誤っているものはどれか。",
+          "choices": [
+            "内装仕上工事等の建築一式工事以外の工事を請け負う建設業者であっても、特定建設業の許可を受けることができる。",
+            "特定建設業の許可を受けようとする者は、発注者との間の請負契約で、その請負代金の額が8,000万円以上であるものを履行するに足りる財産的基礎を有していなければならない。",
+            "特定建設業の許可を受けた者でなければ、発注者から直接請け負った建設工事を施工するために、建築工事業にあっては下請代金の額の総額が8,000万円以上となる下請契約を締結してはならない。",
+            "建設業の許可を受けようとする者は、複数の都道府県の区域内に営業所を設けて営業をしようとする場合、それぞれの都道府県知事の許可を受けなければならない。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1, 2, 3. 適当。\n選択肢4. 複数の都道府県に営業所を設ける場合は『国土交通大臣』の許可が必要。都道府県知事ごとではないため誤り。1つの都道府県内のみは知事許可。",
+          "studyContent": "まとめ\n・複数都道府県：国土交通大臣許可。1都道府県のみ：知事許可。\n・特定建設業：建築一式8,000万円以上／その他5,000万円以上の下請契約。\n・財産的基礎：請負代金8,000万円以上履行可能。",
+          "question_vi": "Trong các mô tả về giấy phép kinh doanh xây dựng, đâu là mô tả SAI theo Luật Kinh doanh xây dựng?",
+          "choices_vi": [
+            "Doanh nghiệp nhận thầu các công việc khác kiến trúc trọn gói cũng có thể được cấp giấy phép đặc định.",
+            "Người xin giấy phép đặc định phải có cơ sở tài chính đủ để thực hiện hợp đồng ≥ 80 triệu yen.",
+            "Đối với công trình nhận thầu trực tiếp, chỉ doanh nghiệp đặc định mới được ký hợp đồng thầu phụ tổng ≥ 80 triệu yen (kiến trúc).",
+            "Khi mở văn phòng tại nhiều tỉnh, phải xin giấy phép của từng Thống đốc tỉnh."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3. Đúng.\nLựa chọn 4. SAI. Mở văn phòng ở nhiều tỉnh cần giấy phép của BỘ TRƯỞNG Bộ Quốc thổ Giao thông, không phải xin từng Thống đốc tỉnh. Trong 1 tỉnh mới xin Thống đốc tỉnh đó.",
+          "studyContent_vi": "Tổng kết\n・Nhiều tỉnh → giấy phép Bộ trưởng Quốc thổ; 1 tỉnh → Thống đốc tỉnh.\n・Đặc định: kiến trúc trọn gói ≥ 80 triệu yen, loại khác ≥ 50 triệu yen.\n・Năng lực tài chính ≥ 80 triệu yen."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 建設業法 / 請負契約",
+      "vocabulary": "元請負人 - tổng thầu\n下請負人 - thầu phụ\n注文者 - bên đặt hàng\n請負契約 - hợp đồng thầu\n工程の細目 - chi tiết tiến độ\n手形 - hối phiếu\n割引 - chiết khấu\n労務費 - chi phí nhân công\n書面 - văn bản",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "請負契約に関する記述として、「建設業法」上、誤っているものはどれか。",
+          "choices": [
+            "元請負人は、その請け負った建設工事を施工するために必要な工程の細目、作業方法その他元請負人において定めるべき事項を定めようとするときは、あらかじめ、注文者の意見をきかなければならない。",
+            "特定建設業者は、当該特定建設業者が注文者となった下請契約に係る下請代金の支払につき、当該下請代金の支払期日までに一般の金融機関による割引を受けることが困難であると認められる手形を交付してはならない。",
+            "元請負人は、下請負人に対する下請代金のうち労務費に相当する部分については、現金で支払うよう適切な配慮をしなければならない。",
+            "注文者は、請負人に対して、建設工事の施工につき著しく不適当と認められる下請負人があるときは、あらかじめ注文者の書面等による承諾を得て選定した下請負人である場合を除き、その変更を請求することができる。"
+          ],
+          "answer": "1",
+          "explanation": "選択肢1. 元請負人が工程細目・作業方法を定める際は、あらかじめ『下請負人』の意見をきかなければならない（注文者ではない）。よって誤り。\n選択肢2, 3, 4. 適当。",
+          "studyContent": "まとめ\n・元請が工程細目・作業方法を定める→下請負人の意見聴取。\n・割引困難手形交付禁止。\n・労務費相当部分は現金払い配慮。\n・著しく不適当な下請の変更請求可。",
+          "question_vi": "Trong các mô tả về hợp đồng thầu, đâu là mô tả SAI theo Luật Kinh doanh xây dựng?",
+          "choices_vi": [
+            "Khi tổng thầu xác lập chi tiết tiến độ và phương pháp thi công, phải lấy ý kiến trước của BÊN ĐẶT HÀNG.",
+            "Doanh nghiệp đặc định khi là bên đặt hàng thầu phụ, không được giao hối phiếu khó được chiết khấu bởi ngân hàng thông thường.",
+            "Tổng thầu phải xem xét chi trả tiền mặt phần tương ứng với chi phí nhân công cho thầu phụ.",
+            "Bên đặt hàng có thể yêu cầu thay thầu phụ nếu thầu phụ rõ rệt không phù hợp (trừ khi đã được đồng ý lựa chọn bằng văn bản)."
+          ],
+          "explanation_vi": "Lựa chọn 1. SAI. Tổng thầu phải lấy ý kiến trước của THẦU PHỤ, không phải bên đặt hàng.\nLựa chọn 2, 3, 4. Đúng.",
+          "studyContent_vi": "Tổng kết\n・Tổng thầu lập tiến độ chi tiết → cần ý kiến trước của thầu phụ.\n・Đặc định: cấm giao hối phiếu khó chiết khấu.\n・Phần nhân công nên trả tiền mặt.\n・Có thể yêu cầu thay thầu phụ không phù hợp."
+        }
+      ]
+    }
+  ]
+}
