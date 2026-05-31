@@ -1,0 +1,166 @@
+{
+  "topics": [
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 建設業法 / 監理技術者",
+      "vocabulary": "監理技術者 - kỹ sư giám sát\n主任技術者 - kỹ sư chủ nhiệm\n特定建設業者 - doanh nghiệp xây dựng đặc định\n下請契約 - hợp đồng thầu phụ\n専任 (せんにん) - chuyên trách\n特定専門工事 - công trình chuyên môn đặc định\n指導監督的な実務 - kinh nghiệm hướng dẫn giám sát\n講習 - khóa học\n国土交通大臣の登録 - đăng ký Bộ trưởng Quốc thổ Giao thông",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "工事現場に置く技術者に関する記述として、「建設業法」上、誤っているものはどれか。（※ R7改題）",
+          "choices": [
+            "発注者から直接建築一式工事を請け負った特定建設業者は、下請契約の総額が8,000万円以上の工事を施工する場合、監理技術者を工事現場に置かなければならない。",
+            "特定専門工事の元請負人が置く主任技術者は、当該特定専門工事と同一の種類の建設工事に関し1年以上指導監督的な実務の経験を有する者でなければならない。",
+            "工事一件の請負代金の額が7,000万円である事務所の建築一式工事において、工事の施工の技術上の管理をつかさどるものは、工事現場ごとに専任の者でなければならない。",
+            "専任の者でなければならない監理技術者は、当該選任の期間中のいずれの日においても国土交通大臣の登録を受けた講習を受講した日の属する年の翌年から起算して5年を経過しない者でなければならない。"
+          ],
+          "answer": "3",
+          "explanation": "選択肢1. 建築一式で下請総額8,000万円以上は監理技術者配置必要（R7改正）。→ 適当。\n選択肢2. 特定専門工事の元請の主任技術者は同種工事で1年以上の指導監督的実務経験必要。→ 適当。\n選択肢3. R7改正により、専任が必要となる金額は建築一式9,000万円以上／その他4,500万円以上。請負代金7,000万円の建築一式は専任不要のため誤り。\n選択肢4. 監理技術者は登録講習受講日の翌年から5年以内であること。→ 適当。",
+          "studyContent": "まとめ（R7法改正後）\n・監理技術者配置：建築一式は下請総額8,000万円以上、その他は5,000万円以上で必要。\n・専任の必要性：建築一式9,000万円以上、その他4,500万円以上。\n・特定専門工事元請の主任技術者：同種工事で1年以上の指導監督的実務経験必要。\n・監理技術者：国交大臣登録講習を受講した翌年から5年以内。",
+          "question_vi": "Trong các mô tả về kỹ sư đặt tại công trường, đâu là mô tả SAI theo Luật Kinh doanh xây dựng? (Sửa đổi R7)",
+          "choices_vi": [
+            "Doanh nghiệp xây dựng đặc định nhận thầu trực tiếp công trình kiến trúc trọn gói phải đặt kỹ sư giám sát tại công trường nếu tổng hợp đồng thầu phụ ≥ 80 triệu yen.",
+            "Kỹ sư chủ nhiệm do tổng thầu công trình chuyên môn đặc định bổ nhiệm phải có ≥ 1 năm kinh nghiệm hướng dẫn giám sát ở cùng loại công trình chuyên môn đặc định đó.",
+            "Đối với công trình kiến trúc trọn gói cho văn phòng có giá trị hợp đồng 70 triệu yen, người phụ trách quản lý kỹ thuật thi công phải là người chuyên trách tại mỗi công trường.",
+            "Kỹ sư giám sát phải chuyên trách phải đảm bảo trong suốt thời gian chuyên trách, không quá 5 năm tính từ năm liền sau năm tham dự khóa học đã đăng ký với Bộ trưởng Quốc thổ Giao thông."
+          ],
+          "explanation_vi": "Lựa chọn 1. Kiến trúc trọn gói + tổng thầu phụ ≥ 80 triệu yen → cần kỹ sư giám sát (sửa đổi R7) → Đúng.\nLựa chọn 2. Kỹ sư chủ nhiệm cần ≥ 1 năm kinh nghiệm hướng dẫn → Đúng.\nLựa chọn 3. SAI. Sau sửa đổi R7, yêu cầu chuyên trách chỉ áp dụng khi kiến trúc trọn gói ≥ 90 triệu yen hoặc loại khác ≥ 45 triệu yen. Hợp đồng 70 triệu yen kiến trúc trọn gói KHÔNG yêu cầu chuyên trách.\nLựa chọn 4. Đúng — hiệu lực 5 năm từ năm liền sau năm dự khóa đăng ký.",
+          "studyContent_vi": "Tổng kết (sau sửa đổi R7)\n・Bổ nhiệm kỹ sư giám sát: kiến trúc trọn gói khi tổng thầu phụ ≥ 80 triệu yen; loại khác ≥ 50 triệu yen.\n・Yêu cầu chuyên trách: kiến trúc trọn gói ≥ 90 triệu yen; loại khác ≥ 45 triệu yen.\n・Kỹ sư chủ nhiệm tổng thầu công trình chuyên môn đặc định: ≥ 1 năm kinh nghiệm hướng dẫn cùng loại.\n・Kỹ sư giám sát: dự khóa học đăng ký với Bộ trưởng, hiệu lực 5 năm."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 労働基準法",
+      "vocabulary": "労働基準法 - Luật Tiêu chuẩn lao động\n満18才 - đủ 18 tuổi\n妊娠中の女性労働者 - lao động nữ đang mang thai\n墜落 - rơi ngã\n動力 - động lực\n土木建築用機械 - máy xây dựng và đất đá\n足場の組立て - lắp dựng giàn giáo\n補助作業 - công việc phụ trợ",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "次の記述のうち、「労働基準法」上、誤っているものはどれか。",
+          "choices": [
+            "満18才に満たない者を、原則として午後10時から午前5時までの間において使用してはならない。",
+            "満18才に満たない者を、高さが5m以上の場所で、墜落により危害を受けるおそれのあるところにおける業務に就かせてはならない。",
+            "満18才以上で妊娠中の女性労働者を、動力により駆動される土木建築用機械の運転の業務に就かせてはならない。",
+            "満18才以上で妊娠中の女性労働者を、足場の組立て、解体又は変更の業務のうち地上又は床上における補助作業の業務に就かせてはならない。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1. 18歳未満は原則22時〜5時の使用禁止（交代制勤務の16歳以上男性を除く）。→ 適当。\n選択肢2. 18歳未満は高さ5m以上の墜落危険業務禁止。→ 適当。\n選択肢3. 妊娠中の女性労働者は動力土木建築機械運転禁止（つり上げ5t以上のクレーン運転や玉掛も禁止）。→ 適当。\n選択肢4. 妊娠中の女性労働者は足場組立・解体・変更業務は禁止だが、『地上又は床上における補助作業』は就かせてもよい。よって誤り。",
+          "studyContent": "まとめ\n・18歳未満：22時〜5時の使用禁止（16歳以上男性交代制を除く）、高さ5m以上の墜落危険業務禁止。\n・妊娠中女性：動力土木建築機械運転、つり上げ5t以上クレーン運転・玉掛禁止。\n・足場組立・解体・変更業務：妊娠中は本作業禁止。地上・床上の補助作業は可。",
+          "question_vi": "Trong các mô tả sau, đâu là mô tả SAI theo Luật Tiêu chuẩn lao động?",
+          "choices_vi": [
+            "Về nguyên tắc, không được sử dụng lao động chưa đủ 18 tuổi trong khoảng từ 22h đến 5h.",
+            "Không được giao cho lao động chưa đủ 18 tuổi làm công việc tại vị trí cao ≥ 5 m có nguy cơ rơi ngã.",
+            "Không được giao cho lao động nữ đủ 18 tuổi trở lên đang mang thai vận hành máy xây dựng / máy đất đá chạy bằng động lực.",
+            "Không được giao cho lao động nữ đủ 18 tuổi trở lên đang mang thai làm công việc phụ trợ trên mặt đất hoặc mặt sàn trong các công việc lắp dựng, tháo dỡ, thay đổi giàn giáo."
+          ],
+          "explanation_vi": "Lựa chọn 1, 2, 3. Đúng.\nLựa chọn 4. SAI. Việc trực tiếp lắp dựng/tháo dỡ giàn giáo bị cấm với phụ nữ mang thai, nhưng công việc PHỤ TRỢ trên mặt đất hoặc mặt sàn vẫn được phép.",
+          "studyContent_vi": "Tổng kết\n・< 18 tuổi: cấm làm 22h–5h (trừ nam ≥ 16 ca kíp); cấm việc ở cao ≥ 5 m có nguy cơ rơi.\n・Phụ nữ mang thai: cấm vận hành máy xây dựng động lực; cấm vận hành cẩu ≥ 5 t, đánh dây.\n・Phụ nữ mang thai: cấm trực tiếp lắp/tháo giàn giáo; được làm phụ trợ trên mặt đất/sàn."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 労働安全衛生法",
+      "vocabulary": "労働安全衛生法 - Luật An toàn vệ sinh lao động\n統括安全衛生責任者 - người chịu trách nhiệm tổng quát an toàn vệ sinh\n元方事業者 - chủ thầu chính\n元方安全衛生管理者 - người quản lý an toàn vệ sinh của tổng thầu\n安全衛生責任者 - người trách nhiệm an toàn vệ sinh\n安全管理者 - người quản lý an toàn\n衛生管理者 - người quản lý vệ sinh\n専属 - chuyên thuộc\n免許 - giấy phép\n就業制限 - hạn chế tham gia làm việc\n作業主任者 - chủ nhiệm tác nghiệp\n職長 - đốc công\n高所作業車 - xe nâng người trên cao\n移動式クレーン - cần trục di động\n玉掛 - đánh dây buộc tải",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "建設業の事業場における安全衛生管理体制に関する記述として、「労働安全衛生法」上、誤っているものはどれか。",
+          "choices": [
+            "統括安全衛生責任者を選任した特定元方事業者は、元方安全衛生管理者を選任しなければならない。",
+            "安全衛生責任者は、安全管理者又は衛生管理者の資格を有する者でなければならない。",
+            "元方安全衛生管理者は、その事業場に専属の者でなければならない。",
+            "統括安全衛生責任者は、その事業の実施を統括管理する者でなければならない。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1. 統括安全衛生責任者を選任した特定元方事業者は元方安全衛生管理者の選任必要。→ 適当。\n選択肢2. 安全衛生責任者には資格要件は定められていない。安全／衛生管理者の資格は不要。よって誤り。\n選択肢3. 元方安全衛生管理者は事業場専属。→ 適当。\n選択肢4. 統括安全衛生責任者は事業実施を統括管理する者（常時50人以上で選任）。→ 適当。",
+          "studyContent": "まとめ\n・特定元方事業者：労働者常時50人以上で統括安全衛生責任者選任→さらに元方安全衛生管理者選任（事業場専属）。\n・安全衛生責任者：資格要件なし、各下請が選任。\n・統括安全衛生責任者：事業実施統括管理者。",
+          "question_vi": "Trong các mô tả về thể chế quản lý an toàn vệ sinh tại cơ sở xây dựng, đâu là mô tả SAI theo Luật An toàn vệ sinh lao động?",
+          "choices_vi": [
+            "Chủ thầu chính đặc định đã bổ nhiệm người chịu trách nhiệm tổng quát an toàn vệ sinh thì phải bổ nhiệm người quản lý an toàn vệ sinh của tổng thầu.",
+            "Người trách nhiệm an toàn vệ sinh (安全衛生責任者) phải là người có tư cách quản lý an toàn hoặc quản lý vệ sinh.",
+            "Người quản lý an toàn vệ sinh của tổng thầu phải chuyên thuộc cơ sở đó.",
+            "Người chịu trách nhiệm tổng quát an toàn vệ sinh phải là người quản lý chung việc thực hiện công việc."
+          ],
+          "explanation_vi": "Lựa chọn 1, 3, 4. Đúng.\nLựa chọn 2. SAI. Không có yêu cầu về tư cách (chứng chỉ quản lý an toàn / vệ sinh) đối với người trách nhiệm an toàn vệ sinh.",
+          "studyContent_vi": "Tổng kết\n・Khi ≥ 50 lao động cùng địa điểm: bổ nhiệm 統括安全衛生責任者 và thêm 元方安全衛生管理者 (chuyên thuộc).\n・安全衛生責任者: không yêu cầu chứng chỉ, do từng thầu phụ bổ nhiệm.\n・統括安全衛生責任者: người quản lý chung việc thực hiện công việc."
+        },
+        {
+          "label": "Q2",
+          "question": "労働者の就業に当たっての措置に関する記述として、「労働安全衛生法」上、正しいものはどれか。",
+          "choices": [
+            "事業者は、建設業の事業場において新たに職務に就くこととなった作業主任者に対し、作業方法の決定及び労働者の配置に関する事項について、安全又は衛生のための教育を行なわなければならない。",
+            "就業制限に係る業務に就くことができる者が当該業務に従事するときは、これに係る免許証その他その資格を証する書面の写しを携帯していなければならない。",
+            "作業床の高さが10m以上の高所作業車の運転の業務には、高所作業車運転技能講習を修了した者を就かせなければならない。",
+            "つり上げ荷重が5t以上の移動式クレーンの運転の業務には、クレーン・デリック運転士免許を受けた者を就かせなければならない。"
+          ],
+          "answer": "3",
+          "explanation": "本問は『正しいもの』を選ぶ問題。\n選択肢1. 作業方法の決定及び労働者の配置に関する教育は『職長（作業主任者を除く）』に対して行う。よって不適当。\n選択肢2. 就業制限業務時は免許証等の資格証明書面（本証）を携帯必須。写しは不可。よって不適当。\n選択肢3. 作業床高さ10m以上の高所作業車運転は技能講習修了者。10m未満は特別教育修了者。よって正しい。\n選択肢4. つり上げ荷重5t以上の移動式クレーン運転は移動式クレーン運転士免許が必要（クレーン・デリック運転士免許ではない）。よって不適当。",
+          "studyContent": "まとめ\n・職長教育：建設業で新たに職務に就いた職長等（作業主任者を除く）に対し、作業方法決定・労働者配置等を教育。\n・就業制限業務：免許証など資格証明書面（本証）を携帯。\n・高所作業車運転：作業床10m以上→技能講習修了者、10m未満→特別教育修了者。\n・つり上げ荷重5t以上の移動式クレーン：移動式クレーン運転士免許。",
+          "question_vi": "Trong các mô tả về biện pháp khi tham gia làm việc của người lao động, đâu là mô tả ĐÚNG theo Luật An toàn vệ sinh lao động?",
+          "choices_vi": [
+            "Chủ sử dụng phải tổ chức giáo dục an toàn / vệ sinh về việc quyết định phương pháp thi công và bố trí lao động cho chủ nhiệm tác nghiệp mới được giao nhiệm vụ tại cơ sở xây dựng.",
+            "Người được phép làm các công việc bị hạn chế khi tham gia công việc đó phải mang theo BẢN SAO giấy phép hoặc giấy tờ chứng minh tư cách.",
+            "Công việc vận hành xe nâng người trên cao có sàn làm việc ≥ 10 m chỉ được giao cho người đã hoàn thành khóa đào tạo kỹ năng vận hành xe nâng người trên cao.",
+            "Công việc vận hành cần trục di động có tải trọng nâng ≥ 5 t chỉ được giao cho người đã có giấy phép vận hành cần trục — derrick."
+          ],
+          "explanation_vi": "Đề yêu cầu chọn câu ĐÚNG.\nLựa chọn 1. SAI. Giáo dục về quyết định phương pháp / bố trí lao động dành cho 職長 (đốc công), KHÔNG bao gồm 作業主任者.\nLựa chọn 2. SAI. Phải mang BẢN GỐC giấy phép / giấy tờ chứng minh tư cách, không phải bản sao.\nLựa chọn 3. ĐÚNG. Sàn ≥ 10 m: cần khóa kỹ năng vận hành. < 10 m: chỉ cần khóa đào tạo đặc biệt.\nLựa chọn 4. SAI. Cần trục di động ≥ 5 t cần giấy phép VẬN HÀNH CẦN TRỤC DI ĐỘNG (移動式クレーン運転士免許), không phải giấy phép cần trục–derrick.",
+          "studyContent_vi": "Tổng kết\n・Giáo dục đốc công: cho 職長 mới (không kể 作業主任者) trong xây dựng, gồm quyết định phương pháp, bố trí lao động.\n・Công việc hạn chế: phải mang bản gốc giấy phép / chứng chỉ.\n・Xe nâng người trên cao: ≥ 10 m sàn → khóa kỹ năng; < 10 m → khóa đặc biệt.\n・Cần trục di động ≥ 5 t → giấy phép vận hành cần trục di động."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 06_法規 / 建設リサイクル法",
+      "vocabulary": "特定建設資材 - vật liệu xây dựng đặc định\n再資源化 - tái chế tài nguyên\n分別解体 - phá dỡ tách loại\n増築 - mở rộng\n耐震改修 - cải tạo chống động đất\n擁壁 - tường chắn đất\n解体工事 - thi công phá dỡ\n床面積 - diện tích sàn\n請負代金 - tiền nhận thầu",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "特定建設資材を用いた次の工事のうち、「建設工事に係る資材の再資源化等に関する法律」上、分別解体等をしなければならない建設工事に該当しないものはどれか。",
+          "choices": [
+            "建築物の増築工事であって、当該工事に係る部分の床面積の合計が500m2の工事",
+            "建築物の耐震改修工事であって、請負代金の額が8,000万円の工事",
+            "擁壁の解体工事であって、請負代金の額が500万円の工事",
+            "建築物の解体工事であって、当該工事に係る部分の床面積の合計が80m2の工事"
+          ],
+          "answer": "2",
+          "explanation": "分別解体等が必要となる工事：\n①床面積合計80㎡以上の解体工事\n②床面積合計500㎡以上の新築・増築工事\n③建築物修繕工事で請負金額1億円以上\n④建築物以外の解体・新築工事で請負金額500万円以上\n\n選択肢1. 増築500㎡：②該当。\n選択肢2. 耐震改修8,000万円：修繕は1億円以上が基準のため『該当しない』。よって正解。\n選択肢3. 擁壁解体500万円：④該当。\n選択肢4. 解体80㎡：①該当。",
+          "studyContent": "まとめ\n・分別解体等が必要な工事の基準：\n  ・解体：床面積合計80㎡以上\n  ・新築・増築：床面積合計500㎡以上\n  ・建築物修繕：請負金額1億円以上\n  ・建築物以外の解体・新築：請負金額500万円以上",
+          "question_vi": "Trong các công trình sử dụng vật liệu xây dựng đặc định sau, công trình nào KHÔNG thuộc diện phải phá dỡ tách loại theo Luật Tái chế vật liệu xây dựng?",
+          "choices_vi": [
+            "Công trình mở rộng nhà mà tổng diện tích sàn phần thi công liên quan là 500 m².",
+            "Công trình cải tạo chống động đất nhà có giá trị nhận thầu 80 triệu yen.",
+            "Công trình phá dỡ tường chắn đất có giá trị nhận thầu 5 triệu yen.",
+            "Công trình phá dỡ nhà mà tổng diện tích sàn phần thi công liên quan là 80 m²."
+          ],
+          "explanation_vi": "Tiêu chí phải tách loại:\n① Phá dỡ nhà: tổng sàn ≥ 80 m²\n② Xây mới / mở rộng nhà: tổng sàn ≥ 500 m²\n③ Sửa chữa nhà: hợp đồng ≥ 100 triệu yen\n④ Phá dỡ / xây mới công trình KHÔNG phải nhà: hợp đồng ≥ 5 triệu yen\n\nLựa chọn 1. Mở rộng 500 m² → áp dụng tiêu chí ② → Thuộc diện.\nLựa chọn 2. Cải tạo chống động đất 80 triệu yen: loại sửa chữa cần ≥ 100 triệu yen mới phải tách loại → KHÔNG thuộc diện → Đáp án đúng.\nLựa chọn 3. Phá dỡ tường chắn đất 5 triệu yen → áp dụng ④ → Thuộc diện.\nLựa chọn 4. Phá dỡ nhà 80 m² → áp dụng ① → Thuộc diện.",
+          "studyContent_vi": "Tổng kết\n・Tiêu chí phải tách loại:\n  ・Phá dỡ nhà: ≥ 80 m².\n  ・Xây mới / mở rộng nhà: ≥ 500 m².\n  ・Sửa chữa nhà: hợp đồng ≥ 100 triệu yen.\n  ・Phá dỡ / xây mới công trình khác nhà: hợp đồng ≥ 5 triệu yen."
+        }
+      ]
+    },
+    {
+      "path": "1級建築施工管理技士 / 05_施工管理法 / 環境管理 / 騒音",
+      "vocabulary": "騒音規制法 - Luật Kiểm soát tiếng ồn\n指定地域 - khu vực chỉ định\n特定建設作業 - tác nghiệp xây dựng đặc định\n実施の届出 - khai báo thực hiện\n原動機 - động cơ\n定格出力 - công suất định mức\nバックホウ - máy xúc gàu nghịch\nトラクターショベル - máy xúc lật\n空気圧縮機 - máy nén khí\nさく岩機 - máy khoan đá\n環境大臣 - Bộ trưởng Môi trường",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "指定地域内における特定建設作業において、「騒音規制法」上、実施の届出を必要としないものはどれか。ただし、作業はその作業を開始した日に終わらないものとする。",
+          "choices": [
+            "環境大臣が指定するものを除き、原動機の定格出力が80kW以上のバックホウを使用する作業",
+            "環境大臣が指定するものを除き、原動機の定格出力が70kW以上のトラクターショベルを使用する作業",
+            "さく岩機の動力として使用する作業を除き、電動機以外の原動機の定格出力が15kW以上の空気圧縮機を使用する作業",
+            "さく岩機を使用する作業であって、作業地点が連続的に移動し、1日における当該作業に係る2地点間の距離が50mを超える作業"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1. バックホウで定格出力80kW以上：届出必要。\n選択肢2. トラクターショベルで定格出力70kW以上：届出必要。\n選択肢3. 電動機以外で定格出力15kW以上の空気圧縮機：届出必要。\n選択肢4. さく岩機を使用する作業で、作業地点が連続移動し、1日における当該作業に係る2地点間の距離が50mを超える場合は特定建設作業から除外され、届出は不要。よってこの選択肢が『届出を必要としないもの』。",
+          "studyContent": "まとめ\n・特定建設作業（届出必要）：\n  ・バックホウ：原動機定格出力80kW以上（環境大臣指定品を除く）\n  ・トラクターショベル：原動機定格出力70kW以上（環境大臣指定品を除く）\n  ・ブルドーザー：原動機定格出力40kW以上（環境大臣指定品を除く）\n  ・空気圧縮機：電動機以外の原動機の定格出力15kW以上（さく岩機の動力用を除く）\n  ・さく岩機：1日における2地点間距離50m以下\n・指定地域内で作業開始日に終わらない作業が対象。届出は作業開始日の7日前までに市町村長へ。",
+          "question_vi": "Trong khu vực chỉ định, theo Luật Kiểm soát tiếng ồn, công việc nào sau đây KHÔNG cần khai báo thực hiện? Giả định công việc không kết thúc trong ngày bắt đầu.",
+          "choices_vi": [
+            "Công việc sử dụng máy xúc gàu nghịch có công suất định mức của động cơ ≥ 80 kW (trừ loại do Bộ trưởng Môi trường chỉ định).",
+            "Công việc sử dụng máy xúc lật có công suất định mức của động cơ ≥ 70 kW (trừ loại do Bộ trưởng Môi trường chỉ định).",
+            "Công việc sử dụng máy nén khí có công suất định mức ≥ 15 kW của động cơ không phải động cơ điện (trừ trường hợp dùng làm động lực cho máy khoan đá).",
+            "Công việc sử dụng máy khoan đá mà vị trí làm việc liên tục di chuyển, khoảng cách giữa 2 điểm trong cùng 1 ngày vượt quá 50 m."
+          ],
+          "explanation_vi": "Lựa chọn 1. Máy xúc gàu nghịch ≥ 80 kW: cần khai báo.\nLựa chọn 2. Máy xúc lật ≥ 70 kW: cần khai báo.\nLựa chọn 3. Máy nén khí (không phải động cơ điện) ≥ 15 kW: cần khai báo.\nLựa chọn 4. Máy khoan đá có vị trí làm việc liên tục di chuyển, khoảng cách giữa 2 điểm trong 1 ngày vượt 50 m thì được loại khỏi diện 'tác nghiệp xây dựng đặc định' nên KHÔNG cần khai báo. Đây là đáp án.",
+          "studyContent_vi": "Tổng kết\n・Tác nghiệp xây dựng đặc định cần khai báo:\n  ・Máy xúc gàu nghịch: động cơ ≥ 80 kW (trừ loại Bộ trưởng Môi trường chỉ định)\n  ・Máy xúc lật: động cơ ≥ 70 kW (trừ loại Bộ trưởng chỉ định)\n  ・Máy ủi: động cơ ≥ 40 kW (trừ loại Bộ trưởng chỉ định)\n  ・Máy nén khí: động cơ ≠ động cơ điện, công suất ≥ 15 kW (trừ làm động lực cho máy khoan đá)\n  ・Máy khoan đá: khoảng cách 2 điểm trong 1 ngày ≤ 50 m\n・Áp dụng trong khu vực chỉ định, công việc không kết thúc trong ngày bắt đầu. Khai báo với Thị trưởng/Trưởng xã chậm nhất 7 ngày trước khi bắt đầu."
+        }
+      ]
+    }
+  ]
+}
