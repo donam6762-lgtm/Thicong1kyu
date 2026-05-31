@@ -1,0 +1,87 @@
+{
+  "topics": [
+    {
+      "path": "04_仕上施工 / 軽量鉄骨工事",
+      "vocabulary": [
+        "軽量鉄骨天井下地 (けいりょうてっこつてんじょうしたじ) - khung trần thép nhẹ",
+        "特定天井 (とくていてんじょう) - trần đặc định (trần có quy định kỹ thuật riêng theo luật)",
+        "野縁 (のぶち) - thanh xương đỡ trực tiếp tấm trần",
+        "野縁受け (のぶちうけ) - thanh đỡ xương野縁 (xương chính)",
+        "吊りボルト (つりボルト) - bu lông treo trần",
+        "ハンガー - thanh kẹp nối bu lông treo với xương野縁受け",
+        "天井ふところ (てんじょうふところ) - khoảng hở giữa trần và sàn/dầm phía trên",
+        "水平補強 (すいへいほきょう) - gia cường ngang",
+        "斜め補強 (ななめほきょう) - gia cường chéo",
+        "下り壁 (さがりかべ) - tường thòng (tường ngắn rủ xuống từ trần)",
+        "段違い (だんちがい) - chênh cao độ",
+        "ダブル野縁 (ダブルのぶち) - xương野縁 đôi",
+        "シングル野縁 (シングルのぶち) - xương野縁 đơn",
+        "はね出し (はねだし) - phần đua/nhô ra ngoài (cantilever)"
+      ],
+      "questions": [
+        {
+          "label": "Q34",
+          "question": "特定天井に該当しない軽量鉄骨天井下地工事に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "天井のふところが1,500mm以上ある吊りボルトには、縦横方向に間隔1,800mm程度に水平補強、斜め補強を行った。",
+            "下り壁による天井の段違い部分は、2,700mm程度の間隔で斜め補強を行った。",
+            "ダブル野縁の間隔を1,800mm程度とし、その間に4本のシングル野縁を配置した。",
+            "野縁の壁との突付け部は、野縁受からのはね出しを200mmとした。"
+          ],
+          "answer": "4",
+          "explanation": "選択肢1：天井ふところが1,500mm以上ある場合、吊りボルトには縦横方向に間隔1,800mm程度で水平補強を行い、補強用部材又は溝形鋼で斜め補強を行う。記述は適当である。\n選択肢2：下り壁などにより天井に段違いが生じる部分は、2,700mm程度の間隔で斜め補強を行う。記述は適当である。\n選択肢3：野縁の間隔は、ダブル野縁を1,800mm程度の間隔とし、その間にシングル野縁を4本配置する（≒野縁間隔360mm程度）。記述は適当である。\n選択肢4：野縁の壁との突付け部は、野縁受からのはね出しを150mm以下とする必要がある。200mmは大きすぎるため不適当である。よって正解は4。",
+          "studyContent": "【軽量鉄骨天井下地（特定天井以外）の主な数値】\n・吊りボルトの間隔：900mm程度、周辺部は端から150mm以内。\n・野縁受けの間隔：900mm程度。\n・野縁の間隔：ダブル野縁1,800mm程度＋その間にシングル野縁4本（≒360mm程度間隔）。\n・天井ふところが1,500mm以上：吊りボルトに対して水平補強・斜め補強を1,800mm程度の間隔で実施。\n・下り壁等による段違い部：2,700mm程度の間隔で斜め補強。\n・野縁の壁突付け部：野縁受からのはね出しは150mm以下とする。",
+          "question_vi": "Trong thi công khung trần thép nhẹ (không thuộc loại 特定天井 - trần đặc định), mô tả nào sau đây KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Khi khoảng hở trần (天井ふところ) từ 1,500mm trở lên, đã thực hiện gia cường ngang và gia cường chéo cho các bu lông treo theo cả hai phương dọc - ngang với khoảng cách khoảng 1,800mm.",
+            "Tại vị trí trần chênh cao do tường thòng (下り壁), đã gia cường chéo với khoảng cách khoảng 2,700mm.",
+            "Bố trí xương野縁 đôi (ダブル野縁) với khoảng cách khoảng 1,800mm, ở giữa bố trí 4 xương野縁 đơn.",
+            "Tại vị trí xương野縁 chạm tường, phần đua ra (はね出し) từ thanh野縁受け được lấy là 200mm."
+          ],
+          "explanation_vi": "Đáp án 1: Khi 天井ふところ ≥ 1,500mm, thực hiện gia cường ngang khoảng 1,800mm và gia cường chéo bằng thép góc hoặc thép chữ U cho bu lông treo. → Đúng.\nĐáp án 2: Vị trí chênh cao trần do 下り壁 thực hiện gia cường chéo với khoảng cách 2,700mm. → Đúng.\nĐáp án 3: Khoảng cách野縁 đôi ~1,800mm, giữa bố trí 4 thanh野縁 đơn (≒ 360mm/thanh). → Đúng.\nĐáp án 4: Phần đua ra từ野縁受け tại vị trí野縁 giáp tường phải ≤ 150mm. 200mm là quá lớn → KHÔNG phù hợp. Vì vậy đáp án đúng là 4.",
+          "studyContent_vi": "【Các trị số chính của khung trần thép nhẹ (không phải特定天井)】\n・Khoảng cách bu lông treo: ~900mm, mép ngoài cách tường ≤150mm.\n・Khoảng cách野縁受け: ~900mm.\n・Khoảng cách野縁: ダブル野縁 ~1,800mm + ở giữa 4 thanh シングル野縁 (~360mm).\n・Khi 天井ふところ ≥ 1,500mm: bố trí gia cường ngang & chéo cho bu lông treo, khoảng cách ~1,800mm.\n・Vị trí chênh cao do 下り壁: gia cường chéo khoảng cách ~2,700mm.\n・Vị trí野縁 giáp tường: phần đua ra từ野縁受け ≤ 150mm."
+        }
+      ]
+    },
+    {
+      "path": "04_仕上施工 / 左官工事",
+      "vocabulary": [
+        "セメントモルタル塗り (セメントモルタルぬり) - trát vữa xi măng",
+        "コンクリート下地 (コンクリートしたじ) - lớp nền bê tông",
+        "吸水調整材 (きゅうすいちょうせいざい) - vật liệu điều chỉnh hút nước (primer chống hút nước nền)",
+        "下塗り (したぬり) - lớp trát lót",
+        "むら直し (むらなおし) - lớp sửa phẳng (xử lý không đồng đều)",
+        "中塗り (なかぬり) - lớp trát giữa",
+        "上塗り (うわぬり) - lớp trát hoàn thiện",
+        "容積比 (ようせきひ) - tỷ lệ theo thể tích",
+        "調合 (ちょうごう) - phối trộn cấp phối",
+        "放置期間 (ほうちきかん) - thời gian để khô / dưỡng hộ",
+        "塗厚 (ぬりあつ) - chiều dày lớp trát"
+      ],
+      "questions": [
+        {
+          "label": "Q35",
+          "question": "内壁コンクリート下地のセメントモルタル塗りに関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "下塗りは、吸水調整材塗布後に乾燥を確認してから行った。",
+            "下塗り用モルタルの調合は、容積比でセメント1:砂3とした。",
+            "下塗りの後、モルタル表面のドライアウトを防止するため、十分に水湿しを行い、14日間以上放置した期間を短縮した。",
+            "中塗り、上塗りの塗厚を均一にするため、下塗りの後、むら直しを行った。"
+          ],
+          "answer": "2",
+          "explanation": "選択肢1：吸水調整材を塗布した後、表面が乾燥していることを確認してから下塗りを行う。記述は適当である。\n選択肢2：下塗り用モルタルの調合は、容積比でセメント1：砂2.5が標準である。1：3は中塗り・上塗りなどの調合であり、下塗りには富調合（砂が少なめ）を用いるのが正しい。よって不適当であり正解は2。\n選択肢3：下塗り後の放置期間は通常14日以上とするが、ドライアウト防止のための十分な水湿しを行う等の処置をすれば短縮することができる。記述は適当である。\n選択肢4：下塗りの後、中塗り・上塗りの塗厚を均一にするため、むら直しを行う。記述は適当である。",
+          "studyContent": "【内壁セメントモルタル塗り（コンクリート下地）の調合・塗厚の目安】\n・下塗り：容積比でセメント1：砂2.5（富調合）。\n・むら直し、中塗り、上塗り：容積比でセメント1：砂3。\n・1回の塗厚：7mm以下を標準とする。\n・全塗厚：20mm程度を標準とする。\n・下塗りの放置期間：14日以上が原則。ただしドライアウト防止のための十分な水湿し等を行えば短縮可。\n・下塗り前：吸水調整材を塗布し乾燥確認後に下塗りを行う。",
+          "question_vi": "Trong thi công trát vữa xi măng trên nền bê tông cho tường trong nhà, mô tả nào sau đây KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Lớp trát lót (下塗り) được thi công sau khi bôi vật liệu điều chỉnh hút nước (吸水調整材) và xác nhận đã khô.",
+            "Cấp phối vữa lớp trát lót được lấy theo tỷ lệ thể tích là xi măng 1 : cát 3.",
+            "Sau lớp trát lót, để ngăn ngừa hiện tượng ドライアウト (mất nước sớm) trên bề mặt vữa, đã làm ẩm đầy đủ và rút ngắn thời gian để khô vốn quy định từ 14 ngày trở lên.",
+            "Để chiều dày lớp trát giữa (中塗り) và lớp hoàn thiện (上塗り) được đồng đều, sau lớp trát lót đã thực hiện công đoạn むら直し (sửa phẳng)."
+          ],
+          "explanation_vi": "Đáp án 1: Sau khi bôi 吸水調整材 và xác nhận bề mặt đã khô thì mới trát lớp下塗り. → Đúng.\nĐáp án 2: Cấp phối lớp trát lót theo thể tích chuẩn là xi măng 1 : cát 2.5 (cấp phối giàu xi măng). Tỷ lệ 1:3 là dùng cho むら直し / 中塗り / 上塗り. Vì vậy mô tả 1:3 cho lớp trát lót là SAI → đáp án đúng là 2.\nĐáp án 3: Thời gian để khô sau lớp trát lót thường ≥ 14 ngày, nhưng nếu làm ẩm đầy đủ để chống ドライアウト thì có thể rút ngắn. → Đúng.\nĐáp án 4: Sau lớp trát lót, thực hiện むら直し để chiều dày lớp 中塗り và 上塗り được đồng đều. → Đúng.",
+          "studyContent_vi": "【Cấp phối & chiều dày trát vữa xi măng tường trong nhà (nền bê tông)】\n・Lớp下塗り (trát lót): tỷ lệ thể tích xi măng 1 : cát 2.5 (cấp phối giàu).\n・Lớp むら直し / 中塗り / 上塗り: tỷ lệ thể tích xi măng 1 : cát 3.\n・Chiều dày mỗi lượt trát: ≤ 7mm.\n・Tổng chiều dày: ~20mm.\n・Thời gian để khô sau下塗り: nguyên tắc ≥ 14 ngày; có thể rút ngắn nếu thực hiện đầy đủ biện pháp chống ドライアウト (làm ẩm).\n・Trước khi下塗り: bôi 吸水調整材 và xác nhận đã khô."
+        }
+      ]
+    }
+  ]
+}
