@@ -652,6 +652,117 @@
       margin-bottom: 20px;
     }
 
+    .question-modal-content {
+      width: min(1080px, 100%);
+      max-height: 92vh;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .question-modal-header {
+      padding: 24px 28px 20px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #fffaf4 0%, #ffffff 100%);
+      flex-shrink: 0;
+    }
+
+    .question-modal-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+
+    .question-modal-lead {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 720px;
+    }
+
+    .question-modal-body {
+      padding: 24px 28px;
+      overflow-y: auto;
+      display: grid;
+      gap: 18px;
+      background: #fffdf9;
+    }
+
+    .form-section {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #ffffff;
+      padding: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+    }
+
+    .form-section-highlight {
+      background: var(--surface-soft);
+      border: 2px dashed var(--line);
+      box-shadow: none;
+    }
+
+    .form-section-header {
+      margin-bottom: 14px;
+    }
+
+    .form-section-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary-strong);
+      margin-bottom: 4px;
+    }
+
+    .form-section-note {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .form-grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .choice-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .choice-card {
+      padding: 16px;
+      border-radius: 16px;
+      background: var(--surface-soft);
+      border: 1px solid var(--line);
+    }
+
+    .choice-card.optional {
+      background: #fffaf6;
+      border-style: dashed;
+    }
+
+    .question-input,
+    .question-textarea,
+    .question-select {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--surface-soft);
+      color: var(--text);
+      font: inherit;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
     .field-label {
       display: block;
       margin-bottom: 8px;
@@ -660,20 +771,8 @@
       color: var(--text);
     }
 
-    .question-input,
-    .question-textarea,
-    .question-select {
-      width: 100%;
-      padding: 12px 16px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: var(--surface-soft);
-      color: var(--text);
-      font: inherit;
-    }
-
     .question-textarea {
-      min-height: 100px;
+      min-height: 120px;
       resize: vertical;
     }
 
@@ -683,6 +782,49 @@
       outline: none;
       border-color: var(--primary);
       background: #ffffff;
+      box-shadow: 0 0 0 4px rgba(139, 94, 60, 0.1);
+    }
+
+    .question-modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 28px 22px;
+      border-top: 1px solid var(--line);
+      background: #ffffff;
+      flex-shrink: 0;
+    }
+
+    .question-modal-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .question-modal-status {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .inline-action-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .image-input-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .image-input-row .question-input {
+      flex: 1;
+      min-width: 220px;
     }
 
     .hidden {
@@ -738,6 +880,14 @@
       .content-card { padding: 20px 16px; }
       .content-card h1 { font-size: 22px; }
       .question-list { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+      .question-modal-header,
+      .question-modal-body,
+      .question-modal-footer { padding-left: 16px; padding-right: 16px; }
+      .question-modal-topbar,
+      .question-modal-footer { flex-direction: column; align-items: stretch; }
+      .form-grid-2,
+      .choice-grid { grid-template-columns: 1fr; }
+      .question-modal-actions .btn { width: 100%; justify-content: center; }
     }
 
     /* ── Question count badge on tree ── */
@@ -838,6 +988,46 @@
     ::-webkit-scrollbar-thumb:hover {
       background: var(--accent);
     }
+
+    /* ── Highlight System ── */
+    #hlBrushBtn {
+      position: fixed; bottom: 30px; right: 96px; width: 56px; height: 56px;
+      border-radius: 50%; background: var(--surface); border: 2px solid var(--line);
+      cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; z-index: 100; transition: all 0.2s;
+      touch-action: manipulation;
+    }
+    #hlBrushBtn:hover { transform: scale(1.1); }
+    #hlBrushBtn.active {
+      background: var(--primary); border-color: var(--primary); color: #fff;
+      box-shadow: 0 4px 24px rgba(139,94,60,0.45);
+    }
+    .main.brush-mode { touch-action: none !important; }
+    #hlBar.pinned { bottom: 100px; top: auto !important; left: 50% !important; transform: translateX(-50%) !important; }
+    .hl-mark { border-radius: 3px; cursor: pointer; transition: filter 0.15s; }
+    .hl-mark:hover { filter: brightness(0.88); }
+    .hl-yellow { background: #ffd54f; }
+    .hl-green  { background: #a5d6a7; }
+    .hl-blue   { background: #90caf9; }
+    .hl-pink   { background: #f48fb1; }
+    #hlBar {
+      position: fixed; display: none; align-items: center; gap: 6px;
+      padding: 7px 12px; background: #fff; border: 1px solid var(--line);
+      border-radius: 24px; box-shadow: 0 6px 28px rgba(0,0,0,0.18); z-index: 9999;
+      user-select: none; -webkit-user-select: none;
+    }
+    .hl-dot {
+      width: 30px; height: 30px; border-radius: 50%; border: 2px solid rgba(0,0,0,0.08);
+      cursor: pointer; flex-shrink: 0; transition: transform 0.15s;
+      touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+    }
+    .hl-dot:active { transform: scale(0.88); }
+    .hl-dot-erase {
+      background: #f5efe7; border: 2px solid var(--line); font-size: 14px;
+      display: flex; align-items: center; justify-content: center; color: var(--muted);
+    }
+    .hl-sep { width: 1px; height: 20px; background: var(--line); flex-shrink: 0; }
   </style>
 </head>
 <body>
@@ -1037,8 +1227,8 @@
         <div id="mgmtPracticeBtn" class="mgmt-card">
           <span>🎯</span>
           <div class="mgmt-info">
-            <h4>Luyện tập (Practice)</h4>
-            <p>Làm bài từng câu hỏi — 4 hoặc 5 lựa chọn, xem đáp án ngay.</p>
+            <h4>Luyện Đúng/Sai</h4>
+            <p>Tách từng ý trong 4 hoặc 5 lựa chọn thành câu độc lập để luyện riêng.</p>
           </div>
         </div>
       </div>
@@ -1320,7 +1510,7 @@
       <div style="flex-shrink: 0; padding-bottom: 14px; border-bottom: 1px solid var(--line); margin-bottom: 18px;">
         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;">
           <div>
-            <div class="modal-title" style="margin-bottom: 6px;">🎯 Luyện tập</div>
+            <div class="modal-title" style="margin-bottom: 6px;">🎯 Luyện Đúng/Sai</div>
             <div style="display: flex; gap: 14px; align-items: center; font-size: 13px; flex-wrap: wrap;">
               <span id="pmProgress" style="font-weight: 700; color: var(--primary);"></span>
               <span id="pmStats" style="color: var(--muted);"></span>
@@ -1354,116 +1544,167 @@
     </div>
   </div>
 
+  <button id="hlBrushBtn" title="Chế độ tô màu bằng bút (kéo qua chữ)" type="button">🖊️</button>
   <button id="openManagementModalButton" class="management-btn" title="Quản lý dữ liệu" type="button">⚙️</button>
   <input type="file" id="importFileInput" accept=".json" class="hidden">
 
+  <!-- Highlight Toolbar -->
+  <div id="hlBar">
+    <button class="hl-dot" style="background:#ffd54f" data-c="yellow" title="Vàng"></button>
+    <button class="hl-dot" style="background:#a5d6a7" data-c="green"  title="Xanh lá"></button>
+    <button class="hl-dot" style="background:#90caf9" data-c="blue"   title="Xanh dương"></button>
+    <button class="hl-dot" style="background:#f48fb1" data-c="pink"   title="Hồng"></button>
+    <div class="hl-sep"></div>
+    <button class="hl-dot hl-dot-erase" data-c="erase" title="Xóa tô màu">✕</button>
+  </div>
+
   <div id="questionModal" class="modal hidden">
-    <div class="modal-content">
-      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 4px;">
-        <div class="modal-title" style="margin-bottom: 0;">Quản lý câu hỏi</div>
-        <div style="display: flex; gap: 10px; flex-shrink: 0;">
-          <button id="closeQuestionModalButton" class="btn btn-secondary" type="button">Hủy bỏ</button>
-          <button id="saveQuestionButton" class="btn btn-primary" type="button">💾 Lưu câu hỏi</button>
+    <div class="modal-content question-modal-content">
+      <div class="question-modal-header">
+        <div class="question-modal-topbar">
+          <div>
+            <div class="modal-title" style="margin-bottom: 0;">Quản lý câu hỏi</div>
+            <div id="questionModalSubtitle" class="modal-subtitle" style="margin: 8px 0 0;">Thêm hoặc chỉnh sửa câu hỏi cho chủ đề hiện tại.</div>
+          </div>
+          <div class="question-modal-actions">
+            <button id="closeQuestionModalButton" class="btn btn-secondary" type="button">Hủy bỏ</button>
+            <button id="saveQuestionButton" class="btn btn-primary" type="button">💾 Lưu câu hỏi</button>
+          </div>
+        </div>
+        <div class="question-modal-lead">Điền đề bài, lựa chọn và giải thích theo từng khối bên dưới. Form này vẫn giữ nguyên logic lưu câu hỏi hiện có, chỉ được tối ưu lại để dễ nhìn và dễ nhập hơn.</div>
+      </div>
+
+      <div class="question-modal-body">
+        <div class="form-section form-section-highlight">
+          <div class="form-section-header">
+            <div class="form-section-title">⚡ Nhập nhanh từ JSON</div>
+            <div class="form-section-note">Dán JSON từ ChatGPT hoặc chọn file `.json` để tự điền các trường bên dưới.</div>
+          </div>
+          <div class="inline-action-row">
+            <button id="modalJsonFileBtn" class="btn btn-secondary" type="button">📁 Chọn file JSON</button>
+            <input type="file" id="modalJsonFilePicker" accept=".json" class="hidden">
+          </div>
+          <textarea id="modalJsonPaste" class="question-textarea" style="min-height: 88px; font-size: 12px; font-family: monospace;" placeholder='Dán JSON vào đây... Ví dụ: {"question":"...","choices":["...","...","...","..."],"answer":"4","explanation":"..."}'></textarea>
+          <div class="inline-action-row" style="margin-top: 10px; margin-bottom: 0;">
+            <button id="modalJsonApplyBtn" class="btn btn-primary" type="button">✅ Áp dụng</button>
+            <button id="modalJsonClearBtn" class="btn btn-secondary" type="button">Xóa</button>
+          </div>
+          <div id="modalJsonStatus" style="margin-top: 8px; font-size: 12px;"></div>
+          <div id="modalViBadge" style="margin-top: 6px; font-size: 12px; font-weight: 600;"></div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-section-header">
+            <div class="form-section-title">📝 Thông tin câu hỏi</div>
+            <div class="form-section-note">Thiết lập vị trí lưu, tên câu hỏi và phần đề bài chính.</div>
+          </div>
+          <div class="form-grid form-grid-2">
+            <div class="field-group">
+              <label for="modalTopicPathSelect" class="field-label">📂 Lưu vào chủ đề</label>
+              <select id="modalTopicPathSelect" class="question-select"></select>
+              <div id="modalTopicPathInfo" style="font-size: 12px; margin-top: 6px; color: var(--muted);"></div>
+            </div>
+            <div class="field-group">
+              <label for="modalQuestionLabel" class="field-label">Tên câu hỏi</label>
+              <input type="text" id="modalQuestionLabel" class="question-input" placeholder="Q1">
+            </div>
+          </div>
+          <div class="field-group" style="margin-bottom: 0;">
+            <label for="modalQuestionPrompt" class="field-label">Đề bài (Tiếng Nhật/Việt)</label>
+            <textarea id="modalQuestionPrompt" class="question-textarea" placeholder="Nhập nội dung câu hỏi..."></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-section-header">
+            <div class="form-section-title">✅ Lựa chọn và đáp án đúng</div>
+            <div class="form-section-note">Nhập 4 lựa chọn bắt buộc, lựa chọn thứ 5 là tùy chọn cho các câu đặc biệt.</div>
+          </div>
+          <div class="choice-grid">
+            <div class="choice-card">
+              <label for="modalChoice1" class="field-label">Đáp án 1</label>
+              <input id="modalChoice1" class="question-input" placeholder="Lựa chọn 1">
+            </div>
+            <div class="choice-card">
+              <label for="modalChoice2" class="field-label">Đáp án 2</label>
+              <input id="modalChoice2" class="question-input" placeholder="Lựa chọn 2">
+            </div>
+            <div class="choice-card">
+              <label for="modalChoice3" class="field-label">Đáp án 3</label>
+              <input id="modalChoice3" class="question-input" placeholder="Lựa chọn 3">
+            </div>
+            <div class="choice-card">
+              <label for="modalChoice4" class="field-label">Đáp án 4</label>
+              <input id="modalChoice4" class="question-input" placeholder="Lựa chọn 4">
+            </div>
+          </div>
+          <div class="form-grid form-grid-2" style="margin-top: 16px;">
+            <div class="choice-card optional">
+              <label for="modalChoice5" class="field-label">Đáp án 5</label>
+              <input id="modalChoice5" class="question-input" placeholder="Để trống nếu chỉ có 4 lựa chọn">
+            </div>
+            <div class="choice-card">
+              <label for="modalCorrectAnswer" class="field-label">Đáp án đúng</label>
+              <select id="modalCorrectAnswer" class="question-select">
+                <option value="">-- Chọn số đáp án đúng --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-section-header">
+            <div class="form-section-title">💡 Giải thích</div>
+            <div class="form-section-note">Dùng để hiển thị lý do đúng/sai sau khi người học trả lời.</div>
+          </div>
+          <div class="field-group" style="margin-bottom: 0;">
+            <label for="modalExplanation" class="field-label">Giải thích chi tiết</label>
+            <textarea id="modalExplanation" class="question-textarea" style="min-height: 170px;" placeholder="Giải thích tại sao đáp án đó đúng/sai..."></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-section-header">
+            <div class="form-section-title">🖼️ Tài nguyên bổ sung</div>
+            <div class="form-section-note">Thêm hình ảnh, từ vựng và ghi chú để hỗ trợ học nhanh hơn.</div>
+          </div>
+          <div class="field-group">
+            <label class="field-label">Hình ảnh câu hỏi (URL hoặc Tải lên)</label>
+            <div class="image-input-row">
+              <input id="modalImageUrl" class="question-input" placeholder="Dán link ảnh tại đây...">
+              <button id="modalUploadBtn" class="btn btn-secondary" type="button">📁 Tải lên</button>
+              <input type="file" id="modalFilePicker" accept="image/*" class="hidden">
+            </div>
+            <div id="imagePreview" class="image-preview-area">
+              <span class="placeholder">Chưa có ảnh</span>
+            </div>
+            <button id="removeImageBtn" class="btn btn-danger hidden" style="margin-top: 10px; padding: 6px 12px; font-size: 12px;" type="button">Xóa ảnh</button>
+          </div>
+          <div class="form-grid form-grid-2">
+            <div class="field-group">
+              <label for="modalVocabulary" class="field-label">Từ vựng (単語)</label>
+              <textarea id="modalVocabulary" class="question-textarea" placeholder="Thêm từ vựng cho chủ đề này..."></textarea>
+            </div>
+            <div class="field-group">
+              <label for="modalStudyContent" class="field-label">Ghi chú quan trọng (Summary)</label>
+              <textarea id="modalStudyContent" class="question-textarea" placeholder="Tóm tắt ý chính cần nhớ..."></textarea>
+            </div>
+          </div>
         </div>
       </div>
-      <div id="questionModalSubtitle" class="modal-subtitle">Thêm hoặc chỉnh sửa câu hỏi cho chủ đề hiện tại.</div>
 
-      <div class="field-group" style="background: var(--surface-soft); border: 2px dashed var(--line); border-radius: 14px; padding: 16px;">
-        <div class="panel-title" style="margin-bottom: 6px;">⚡ Nhập nhanh từ JSON</div>
-        <div style="font-size: 12px; color: var(--muted); margin-bottom: 10px;">Dán JSON từ ChatGPT hoặc chọn file .json để tự điền các trường bên dưới.</div>
-        <div style="display: flex; gap: 10px; margin-bottom: 10px; flex-wrap: wrap;">
-          <button id="modalJsonFileBtn" class="btn btn-secondary" type="button">📁 Chọn file JSON</button>
-          <input type="file" id="modalJsonFilePicker" accept=".json" class="hidden">
-        </div>
-        <textarea id="modalJsonPaste" class="question-textarea" style="min-height: 80px; font-size: 12px; font-family: monospace;" placeholder='Dán JSON vào đây... Ví dụ: {"question":"...","choices":["...","...","...","..."],"answer":"4","explanation":"..."}'></textarea>
-        <div style="display: flex; gap: 10px; margin-top: 10px;">
-          <button id="modalJsonApplyBtn" class="btn btn-primary" type="button">✅ Áp dụng</button>
-          <button id="modalJsonClearBtn" class="btn btn-secondary" type="button">Xóa</button>
-        </div>
-        <div id="modalJsonStatus" style="margin-top: 8px; font-size: 12px;"></div>
-        <div id="modalViBadge" style="margin-top: 6px; font-size: 12px; font-weight: 600;"></div>
-      </div>
-
-      <div class="field-group">
-        <label for="modalTopicPathSelect" class="field-label">📂 Lưu vào chủ đề</label>
-        <select id="modalTopicPathSelect" class="question-select"></select>
-        <div id="modalTopicPathInfo" style="font-size: 12px; margin-top: 5px; color: var(--muted);"></div>
-      </div>
-
-      <div class="field-group">
-        <label for="modalQuestionLabel" class="field-label">Tên câu hỏi</label>
-        <input type="text" id="modalQuestionLabel" class="question-input" placeholder="Q1">
-      </div>
-
-      <div class="field-group">
-        <label for="modalQuestionPrompt" class="field-label">Đề bài (Tiếng Nhật/Việt)</label>
-        <textarea id="modalQuestionPrompt" class="question-textarea" placeholder="Nhập nội dung câu hỏi..."></textarea>
-      </div>
-
-      <div class="grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-        <div class="field-group">
-          <label for="modalChoice1" class="field-label">Đáp án 1</label>
-          <input id="modalChoice1" class="question-input" placeholder="Lựa chọn 1">
-        </div>
-        <div class="field-group">
-          <label for="modalChoice2" class="field-label">Đáp án 2</label>
-          <input id="modalChoice2" class="question-input" placeholder="Lựa chọn 2">
-        </div>
-        <div class="field-group">
-          <label for="modalChoice3" class="field-label">Đáp án 3</label>
-          <input id="modalChoice3" class="question-input" placeholder="Lựa chọn 3">
-        </div>
-        <div class="field-group">
-          <label for="modalChoice4" class="field-label">Đáp án 4</label>
-          <input id="modalChoice4" class="question-input" placeholder="Lựa chọn 4">
+      <div class="question-modal-footer">
+        <div id="modalStatus" class="question-modal-status">Dữ liệu được lưu tại trình duyệt này.</div>
+        <div class="question-modal-actions">
+          <button class="btn btn-secondary" type="button" id="closeQuestionModalButtonFooter">Hủy bỏ</button>
+          <button class="btn btn-primary" type="button" id="saveQuestionButtonFooter">💾 Lưu câu hỏi</button>
         </div>
       </div>
-      <div class="field-group">
-        <label for="modalChoice5" class="field-label">Đáp án 5 <span style="font-weight:400;color:var(--muted)">(tùy chọn — để trống nếu chỉ có 4 lựa chọn)</span></label>
-        <input id="modalChoice5" class="question-input" placeholder="Lựa chọn 5">
-      </div>
-
-      <div class="field-group">
-        <label for="modalCorrectAnswer" class="field-label">Đáp án đúng</label>
-        <select id="modalCorrectAnswer" class="question-select">
-          <option value="">-- Chọn số đáp án đúng --</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select>
-      </div>
-
-      <div class="field-group">
-        <label for="modalExplanation" class="field-label">Giải thích chi tiết</label>
-        <textarea id="modalExplanation" class="question-textarea" style="min-height: 150px;" placeholder="Giải thích tại sao đáp án đó đúng/sai..."></textarea>
-      </div>
-
-      <div class="field-group">
-        <label class="field-label">Hình ảnh câu hỏi (URL hoặc Tải lên)</label>
-        <div style="display: flex; gap: 10px; margin-bottom: 10px;">
-          <input id="modalImageUrl" class="question-input" placeholder="Dán link ảnh tại đây...">
-          <button id="modalUploadBtn" class="btn btn-secondary" type="button">📁 Tải lên</button>
-          <input type="file" id="modalFilePicker" accept="image/*" class="hidden">
-        </div>
-        <div id="imagePreview" class="image-preview-area">
-          <span class="placeholder">Chưa có ảnh</span>
-        </div>
-        <button id="removeImageBtn" class="btn btn-danger hidden" style="margin-top: 10px; padding: 6px 12px; font-size: 12px;" type="button">Xóa ảnh</button>
-      </div>
-
-      <div class="field-group">
-        <label for="modalVocabulary" class="field-label">Từ vựng (単語)</label>
-        <textarea id="modalVocabulary" class="question-textarea" placeholder="Thêm từ vựng cho chủ đề này..."></textarea>
-      </div>
-
-      <div class="field-group">
-        <label for="modalStudyContent" class="field-label">Ghi chú quan trọng (Summary)</label>
-        <textarea id="modalStudyContent" class="question-textarea" placeholder="Tóm tắt ý chính cần nhớ..."></textarea>
-      </div>
-
-      <div id="modalStatus" style="margin-top: 16px; font-size: 13px; color: var(--muted); text-align: center; border-top: 1px solid var(--line); padding-top: 16px;">Dữ liệu được lưu tại trình duyệt này.</div>
     </div>
   </div>
 
@@ -1741,7 +1982,9 @@
     const imagePreview = document.getElementById("imagePreview");
     const removeImageBtn = document.getElementById("removeImageBtn");
     const saveQuestionButton = document.getElementById("saveQuestionButton");
+    const saveQuestionButtonFooter = document.getElementById("saveQuestionButtonFooter");
     const closeQuestionModalButton = document.getElementById("closeQuestionModalButton");
+    const closeQuestionModalButtonFooter = document.getElementById("closeQuestionModalButtonFooter");
     const modalStatus = document.getElementById("modalStatus");
 
     const expandedPaths = new Set(studyTree.map(node => `${treeRootLabel} / ${node.label}`));
@@ -2029,7 +2272,8 @@
     function normalizeQuestionData(data) {
       function padChoices(arr) {
         if (!Array.isArray(arr)) return ["", "", "", ""];
-        return arr.length >= 4 ? arr : arr.concat(["", "", "", ""]).slice(0, 4);
+        const limited = arr.slice(0, 5);
+        return limited.length >= 4 ? limited : limited.concat(["", "", "", ""]).slice(0, 4);
       }
       return {
         prompt: data.prompt || data.question || "",
@@ -2396,6 +2640,7 @@
       if (prevState !== undefined) {
         answerResult.innerHTML = buildAnswerResultHTML(questionData, prevState.selectedIndex);
       }
+
     }
 
     function renderQuestionList() {
@@ -2475,6 +2720,7 @@
       renderSummaryTab();
       renderQuestionList();
       setActiveTab(activeTab);
+      requestAnimationFrame(hlRestore);
     }
 
     function updateSelection(path) {
@@ -3460,7 +3706,9 @@ ${pathList}
 
     importFileInput.addEventListener("change", importDataFromJson);
     closeQuestionModalButton.addEventListener("click", closeQuestionModal);
+    closeQuestionModalButtonFooter.addEventListener("click", closeQuestionModal);
     saveQuestionButton.addEventListener("click", saveQuestionFromModal);
+    saveQuestionButtonFooter.addEventListener("click", saveQuestionFromModal);
 
     // Debounced search
     searchInput.addEventListener("input", debounce(renderTree, 200));
@@ -3634,6 +3882,51 @@ ${pathList}
     let practiceIndex = 0;
     const practiceAnswers = {};
 
+    function getPracticeExplanation(explanationText, choiceNumber) {
+      const raw = String(explanationText || "").replace(/\r\n/g, "\n").trim();
+      if (!raw) return "";
+
+      const lines = raw.split("\n");
+      const sections = {};
+      let currentKey = null;
+      let intro = [];
+
+      lines.forEach(line => {
+        const trimmed = line.trim();
+        const markerMatch = trimmed.match(/^0?([1-9]\d?)$/);
+        if (markerMatch) {
+          currentKey = Number(markerMatch[1]);
+          sections[currentKey] = [];
+          return;
+        }
+
+        if (currentKey !== null) {
+          sections[currentKey].push(line);
+        } else if (trimmed && !/^この過去問の解説/.test(trimmed)) {
+          intro.push(line);
+        }
+      });
+
+      const picked = sections[choiceNumber]
+        ? sections[choiceNumber].join("\n").trim()
+        : "";
+
+      if (picked) return picked;
+      if (Object.keys(sections).length > 0) return "";
+      return intro.join("\n").trim() || raw;
+    }
+
+    function getPracticeTruthMode(promptText) {
+      const prompt = String(promptText || "");
+      if (/最も不適当なものはどれか|最も不適切なものはどれか|不適当なものはどれか|不適切なものはどれか/.test(prompt)) {
+        return "single_false";
+      }
+      if (/最も適当なものはどれか|最も適切なものはどれか|適当なものはどれか|適切なものはどれか/.test(prompt)) {
+        return "single_true";
+      }
+      return "single_true";
+    }
+
     function buildPracticeQuestions(topicFilter) {
       const all = getAllTopicsWithQuestions();
       const src = topicFilter
@@ -3652,10 +3945,35 @@ ${pathList}
             try { qd = normalizeQuestionData(JSON.parse(raw)); } catch(e) {}
           }
           if (!qd) qd = getEffectiveQuestion(qp);
-          // Chỉ cần có đề bài là đủ để luyện tập
-          if (qd && qd.prompt) {
-            list.push({ topicPathKey: tp, label, questionPathKey: qp, qData: qd });
-          }
+          if (!qd || !qd.prompt) return;
+
+          const choices = (Array.isArray(qd.choices) ? qd.choices : [])
+            .map((choice, idx) => ({
+              idx,
+              text: String(choice || "").trim()
+            }))
+            .filter(choice => choice.text);
+          const correctIdx = parseInt(qd.answer, 10) - 1;
+          const truthMode = getPracticeTruthMode(qd.prompt);
+
+          // Chỉ đưa vào luyện tập khi câu hỏi đủ dữ liệu 4/5 lựa chọn và có đáp án hợp lệ.
+          if (choices.length < 4 || choices.length > 5) return;
+          if (!Number.isInteger(correctIdx) || correctIdx < 0 || correctIdx >= choices.length) return;
+
+          choices.forEach(choice => {
+            list.push({
+              topicPathKey: tp,
+              label,
+              questionPathKey: qp,
+              practiceKey: `${qp}::__choice__${choice.idx}`,
+              qData: qd,
+              choiceNumber: choice.idx + 1,
+              choiceTotal: choices.length,
+              choiceText: choice.text,
+              truthMode,
+              isTrue: truthMode === "single_false" ? choice.idx !== correctIdx : choice.idx === correctIdx
+            });
+          });
         });
       });
       return list;
@@ -3665,27 +3983,39 @@ ${pathList}
       const sel = document.getElementById("pmTopicSelect");
       if (!sel) return;
       const all = getAllTopicsWithQuestions();
-      const total = all.reduce((s, t) => s + t.labels.length, 0);
-      sel.innerHTML = `<option value="">📚 Tất cả (${total} câu)</option>`;
+      const getPracticeCount = (topicPath) => buildPracticeQuestions(topicPath).length;
+      const total = buildPracticeQuestions(null).length;
+      sel.innerHTML = `<option value="">📚 Tất cả (${total} nhận định)</option>`;
       all.forEach(t => {
         const opt = document.createElement("option");
         opt.value = t.path;
-        opt.textContent = `${t.path.replace(treeRootLabel + " / ", "")} (${t.labels.length})`;
+        opt.textContent = `${t.path.replace(treeRootLabel + " / ", "")} (${getPracticeCount(t.path)})`;
         if (t.path === selectedFilter) opt.selected = true;
         sel.appendChild(opt);
       });
     }
 
     function openPracticeModal(topicFilter) {
-      practiceQuestions = buildPracticeQuestions(topicFilter || null);
+      const selectedFilter = topicFilter || null;
+      practiceQuestions = buildPracticeQuestions(selectedFilter);
+      let effectiveFilter = selectedFilter;
+
+      if (!practiceQuestions.length && selectedFilter) {
+        practiceQuestions = buildPracticeQuestions(null);
+        effectiveFilter = null;
+        if (practiceQuestions.length) {
+          showToast("Chủ đề đang chọn chưa có dữ liệu luyện hợp lệ, đã chuyển sang tất cả chủ đề.", "info", 4000);
+        }
+      }
+
       if (!practiceQuestions.length) {
-        showToast("Chưa có câu hỏi nào có đủ dữ liệu. Hãy nhập JSON qua ⚙️ → Nhập dữ liệu.", "error", 5000);
+        showToast("Chưa có câu nào đủ dữ liệu 4/5 lựa chọn và đáp án hợp lệ để luyện Đúng/Sai.", "error", 5000);
         return;
       }
       practiceIndex = 0;
       Object.keys(practiceAnswers).forEach(k => delete practiceAnswers[k]);
       managementModal.classList.add("hidden");
-      populatePracticeTopicSelect(topicFilter || "");
+      populatePracticeTopicSelect(effectiveFilter || "");
       renderPracticeQuestion();
       document.getElementById("practiceModal").classList.remove("hidden");
     }
@@ -3693,9 +4023,25 @@ ${pathList}
     function renderPracticeQuestion() {
       if (!practiceQuestions.length || practiceIndex >= practiceQuestions.length) return;
       const total = practiceQuestions.length;
-      const { topicPathKey, label, questionPathKey, qData } = practiceQuestions[practiceIndex];
-      const prevAnswer = practiceAnswers[questionPathKey];
-      const correctIdx = parseInt(qData.answer) - 1;
+      const {
+        topicPathKey,
+        label,
+        practiceKey,
+        qData,
+        choiceNumber,
+        choiceTotal,
+        choiceText,
+        truthMode,
+        isTrue
+      } = practiceQuestions[practiceIndex];
+      const prevAnswer = practiceAnswers[practiceKey];
+      const correctIdx = parseInt(qData.answer, 10) - 1;
+      const correctChoiceText = qData.choices[correctIdx] || "";
+      const practiceExplanation = getPracticeExplanation(qData.explanation, choiceNumber);
+      const practiceExplanationVi = getPracticeExplanation(qData.explanation_vi, choiceNumber);
+      const truthRuleText = truthMode === "single_false"
+        ? `Câu mẹ hỏi "最も不適当なものはどれか", nên lựa chọn gốc số ${escapeHtml(qData.answer)} là Sai, các lựa chọn còn lại là Đúng.`
+        : `Câu mẹ hỏi "最も適当なものはどれか", nên chỉ lựa chọn gốc số ${escapeHtml(qData.answer)} là Đúng, các lựa chọn còn lại là Sai.`;
 
       // Header
       document.getElementById("pmProgress").textContent = `${practiceIndex + 1} / ${total}`;
@@ -3703,38 +4049,39 @@ ${pathList}
       document.getElementById("pmTopic").textContent = topicPathKey.replace(treeRootLabel + " / ", "");
 
       // Stats
-      const answered = practiceQuestions.filter(q => practiceAnswers[q.questionPathKey] !== undefined);
-      const correct  = answered.filter(q => practiceAnswers[q.questionPathKey] === parseInt(q.qData.answer) - 1).length;
+      const answered = practiceQuestions.filter(q => practiceAnswers[q.practiceKey] !== undefined);
+      const correct  = answered.filter(q => practiceAnswers[q.practiceKey] === q.isTrue).length;
       document.getElementById("pmStats").textContent = answered.length
-        ? `⭕ ${correct}  ❌ ${answered.length - correct}  (${answered.length}/${total} đã làm)`
+        ? `⭕ ${correct}  ❌ ${answered.length - correct}  (${answered.length}/${total} câu đã làm)`
         : "";
 
       // Question text
       document.getElementById("pmQuestionText").innerHTML = `
-        <div style="font-size:11px;font-weight:700;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">${escapeHtml(label)}</div>
-        <div style="font-size:15px;line-height:1.75;color:var(--text);font-weight:500;">${escapeHtml(qData.prompt)}</div>
-        ${qData.prompt_vi ? `<div style="font-size:13px;color:var(--muted);margin-top:8px;line-height:1.6;padding-top:8px;border-top:1px dashed var(--line);">${escapeHtml(qData.prompt_vi)}</div>` : ""}
+        <div style="font-size:11px;font-weight:700;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">${escapeHtml(label)} · Nhận định ${choiceNumber}/${choiceTotal}</div>
         ${qData.image ? `<div class="question-image-container" style="max-height:220px;margin-top:12px;"><img src="${escapeHtml(qData.image)}" alt=""></div>` : ""}
+        <div style="margin-top:14px;padding:14px 16px;border-radius:12px;background:var(--surface-soft);border:1px solid var(--line);">
+          <div style="font-size:18px;line-height:1.8;color:var(--text);font-weight:600;">${choiceNumber}. ${escapeHtml(choiceText)}</div>
+        </div>
       `;
 
-      // Choices
+      // True / false actions
       const choicesEl = document.getElementById("pmChoices");
       choicesEl.innerHTML = "";
-      qData.choices.forEach((choice, idx) => {
-        if (!choice) return;
+      [
+        { label: "⭕ Đúng", value: true },
+        { label: "❌ Sai", value: false }
+      ].forEach(option => {
         const btn = document.createElement("button");
         btn.type = "button";
         btn.className = "pm-choice-btn";
-        let text = `${idx + 1}.  ${choice}`;
-        if (qData.choices_vi && qData.choices_vi[idx]) text += `\n     ${qData.choices_vi[idx]}`;
-        btn.textContent = text;
+        btn.textContent = option.label;
         if (prevAnswer !== undefined) {
-          if (idx === correctIdx) btn.classList.add("pm-correct");
-          else if (idx === prevAnswer) btn.classList.add("pm-wrong");
+          if (option.value === isTrue) btn.classList.add("pm-correct");
+          else if (option.value === prevAnswer) btn.classList.add("pm-wrong");
           btn.disabled = true;
         } else {
           btn.addEventListener("click", () => {
-            practiceAnswers[questionPathKey] = idx;
+            practiceAnswers[practiceKey] = option.value;
             renderPracticeQuestion();
             document.getElementById("pmBody").scrollTop = 0;
           });
@@ -3746,16 +4093,18 @@ ${pathList}
       const resultEl = document.getElementById("pmResult");
       const explEl   = document.getElementById("pmExpl");
       if (prevAnswer !== undefined) {
-        const isOk = prevAnswer === correctIdx;
+        const isOk = prevAnswer === isTrue;
         resultEl.className = `pm-result ${isOk ? "ok" : "bad"}`;
         resultEl.innerHTML = isOk
-          ? `⭕ <strong>正解！ Chính xác!</strong> &nbsp;·&nbsp; Đáp án: <strong>${qData.answer}</strong>`
-          : `❌ <strong>不正解！ Sai rồi!</strong> &nbsp;·&nbsp; Đáp án đúng: <strong>${qData.answer}</strong> &nbsp;·&nbsp; Bạn chọn: <strong>${prevAnswer + 1}</strong>`;
-        explEl.innerHTML = qData.explanation ? `
+          ? `⭕ <strong>正解！ Chính xác!</strong> &nbsp;·&nbsp; Nhận định này là: <strong>${isTrue ? "Đúng" : "Sai"}</strong>`
+          : `❌ <strong>不正解！ Sai rồi!</strong> &nbsp;·&nbsp; Nhận định này là: <strong>${isTrue ? "Đúng" : "Sai"}</strong> &nbsp;·&nbsp; Bạn chọn: <strong>${prevAnswer ? "Đúng" : "Sai"}</strong>`;
+        explEl.innerHTML = (practiceExplanation || practiceExplanationVi || correctChoiceText) ? `
           <div class="pm-expl">
             <div style="font-weight:700;color:var(--primary);margin-bottom:8px;">💡 Giải thích / 解説</div>
-            <div style="white-space:pre-wrap;">${escapeHtml(qData.explanation)}</div>
-            ${qData.explanation_vi ? `<hr style="margin:12px 0;border:none;border-top:1px dashed var(--line);"><div style="white-space:pre-wrap;color:var(--muted);">${escapeHtml(qData.explanation_vi)}</div>` : ""}
+            <div style="margin-bottom:10px;color:var(--muted);">${truthRuleText}</div>
+            ${correctChoiceText ? `<div style="margin-bottom:10px;"><strong>Đáp án gốc đúng:</strong> ${escapeHtml(qData.answer)}. ${escapeHtml(correctChoiceText)}</div>` : ""}
+            ${practiceExplanation ? `<div style="white-space:pre-wrap;">${escapeHtml(practiceExplanation)}</div>` : ""}
+            ${practiceExplanationVi ? `<hr style="margin:12px 0;border:none;border-top:1px dashed var(--line);"><div style="white-space:pre-wrap;color:var(--muted);">${escapeHtml(practiceExplanationVi)}</div>` : ""}
           </div>` : "";
       } else {
         resultEl.className = "pm-result";
@@ -3774,8 +4123,8 @@ ${pathList}
       if (practiceIndex === total - 1) {
         nextBtn.textContent = "🏁 Kết thúc";
         nextBtn.onclick = () => {
-          const ans = practiceQuestions.filter(q => practiceAnswers[q.questionPathKey] !== undefined);
-          const cor = ans.filter(q => practiceAnswers[q.questionPathKey] === parseInt(q.qData.answer) - 1).length;
+          const ans = practiceQuestions.filter(q => practiceAnswers[q.practiceKey] !== undefined);
+          const cor = ans.filter(q => practiceAnswers[q.practiceKey] === q.isTrue).length;
           showToast(`🏁 Kết thúc! ${cor}/${ans.length} câu đúng.`, "success", 4000);
           document.getElementById("practiceModal").classList.add("hidden");
         };
@@ -3803,7 +4152,7 @@ ${pathList}
       practiceIndex = 0;
       populatePracticeTopicSelect("");
       renderPracticeQuestion();
-      showToast(`📚 Đã tải ${practiceQuestions.length} câu từ tất cả chủ đề.`, "info");
+      showToast(`📚 Đã tải ${practiceQuestions.length} nhận định từ tất cả chủ đề.`, "info");
     });
 
     document.getElementById("pmTopicSelect").addEventListener("change", (e) => {
@@ -3847,6 +4196,270 @@ ${pathList}
           info += `📁 ${topic}\n   → ${labels.length} câu: ${labels.join(", ")}\n\n`;
         });
         alert(info);
+      }
+    });
+
+    // ── Highlight System ──
+    const HL_PRE = "hl::";
+    let hlTimer = null, hlMarkRef = null;
+    let hlBrushMode = false, hlBrushColor = "yellow", hlBrushStart = null;
+    const hlBar = document.getElementById("hlBar");
+
+    function hlPathKey() {
+      if (activeTab === "questions") return activeQuestionPath || activePath || treeRootLabel;
+      return (activePath || treeRootLabel) + "::" + activeTab;
+    }
+
+    function hlLoad(k) {
+      try { return JSON.parse(localStorage.getItem(HL_PRE + k) || "[]"); } catch { return []; }
+    }
+    function hlSave(k, v) { try { safeStore(HL_PRE + k, JSON.stringify(v)); } catch {} }
+
+    function hlPos(rect) {
+      hlBar.style.display = "flex";
+      const bw = hlBar.offsetWidth || 200, bh = hlBar.offsetHeight || 46;
+      let x = rect.left + rect.width / 2 - bw / 2;
+      let y = rect.top - bh - 10;
+      x = Math.max(8, Math.min(x, window.innerWidth - bw - 8));
+      if (y < 8) y = rect.bottom + 10;
+      hlBar.style.left = x + "px";
+      hlBar.style.top  = y + "px";
+    }
+
+    function hlHide() {
+      if (hlBrushMode) return;
+      hlBar.style.display = "none"; hlMarkRef = null;
+    }
+
+    function hlWrap(range, cls) {
+      const mark = document.createElement("mark");
+      mark.className = "hl-mark hl-" + cls;
+      mark.dataset.c = cls;
+      try {
+        range.surroundContents(mark);
+      } catch {
+        const frag = range.extractContents();
+        mark.appendChild(frag);
+        range.insertNode(mark);
+      }
+      return mark;
+    }
+
+    function hlApply(cls) {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed || !sel.rangeCount) return;
+      const text = sel.toString().trim();
+      if (!text) return;
+      const range = sel.getRangeAt(0);
+      const mainEl = document.querySelector(".main");
+      if (!mainEl || !mainEl.contains(range.commonAncestorContainer)) return;
+      const anc = range.commonAncestorContainer;
+      const el = anc.nodeType === 3 ? anc.parentElement : anc;
+      if (el.closest("input,textarea,select,.modal")) return;
+
+      hlWrap(range, cls);
+      sel.removeAllRanges();
+      hlHide();
+
+      const k = hlPathKey();
+      const list = hlLoad(k);
+      list.push({ t: text, c: cls });
+      hlSave(k, list);
+      showToast("✅ Đã tô màu", "success", 1200);
+    }
+
+    function hlErase(mark) {
+      if (!mark) return;
+      const text = mark.textContent, cls = mark.dataset.c;
+      const p = mark.parentNode;
+      while (mark.firstChild) p.insertBefore(mark.firstChild, mark);
+      p.removeChild(mark);
+      p.normalize();
+      hlHide();
+      const k = hlPathKey();
+      const list = hlLoad(k);
+      const i = list.findIndex(h => h.t === text && h.c === cls);
+      if (i !== -1) { list.splice(i, 1); hlSave(k, list); }
+      showToast("🗑️ Đã xóa tô màu", "info", 1200);
+    }
+
+    function hlRestoreOne(container, text, cls) {
+      const walk = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+        acceptNode(n) {
+          if (n.parentElement.closest(".hl-mark,input,textarea,select")) return NodeFilter.FILTER_REJECT;
+          return n.nodeValue.includes(text) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+        }
+      });
+      const n = walk.nextNode();
+      if (!n) return;
+      const idx = n.nodeValue.indexOf(text);
+      if (idx < 0) return;
+      try {
+        const r = document.createRange();
+        r.setStart(n, idx); r.setEnd(n, idx + text.length);
+        hlWrap(r, cls);
+      } catch {}
+    }
+
+    function hlRestore() {
+      const k = hlPathKey();
+      const list = hlLoad(k);
+      if (!list.length) return;
+      let target;
+      if (activeTab === "vocabulary") target = document.getElementById("vocabularyPreview");
+      else if (activeTab === "summary") target = document.getElementById("summaryPreview");
+      else target = document.getElementById("questionDetail");
+      if (!target) return;
+      list.forEach(({ t, c }) => { if (t && c) hlRestoreOne(target, t, c); });
+    }
+
+    // Toolbar button handler
+    function hlBtnHandler(btn) {
+      const c = btn.dataset.c;
+      if (c !== "erase") hlBrushColor = c;
+      if (c === "erase") {
+        hlErase(hlMarkRef);
+      } else if (hlMarkRef) {
+        const text = hlMarkRef.textContent, old = hlMarkRef.dataset.c;
+        hlMarkRef.className = "hl-mark hl-" + c;
+        hlMarkRef.dataset.c = c;
+        const k = hlPathKey(), list = hlLoad(k);
+        const i = list.findIndex(h => h.t === text && h.c === old);
+        if (i !== -1) { list[i].c = c; hlSave(k, list); }
+        showToast("🎨 Đã đổi màu", "success", 1200);
+        hlHide();
+      } else {
+        hlApply(c);
+      }
+    }
+
+    hlBar.querySelectorAll("[data-c]").forEach(btn => {
+      btn.addEventListener("mousedown", e => e.preventDefault());
+      btn.addEventListener("touchstart", e => e.preventDefault(), { passive: false });
+      btn.addEventListener("touchend", e => { e.preventDefault(); hlBtnHandler(btn); }, { passive: false });
+      btn.addEventListener("click", e => { e.stopPropagation(); hlBtnHandler(btn); });
+    });
+
+    // Tap on existing highlight mark
+    document.addEventListener("click", e => {
+      if (hlBar.contains(e.target)) return;
+      const mark = e.target.closest(".hl-mark");
+      if (mark) {
+        e.preventDefault();
+        hlMarkRef = mark;
+        hlPos(mark.getBoundingClientRect());
+      } else {
+        hlHide();
+      }
+    }, true);
+
+    // Show toolbar on text selection
+    function hlCheckSel() {
+      if (hlMarkRef) return;
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed || !sel.rangeCount) {
+        setTimeout(hlHide, 400);
+        return;
+      }
+      const text = sel.toString().trim();
+      if (!text) return;
+      const range = sel.getRangeAt(0);
+      const mainEl = document.querySelector(".main");
+      if (!mainEl || !mainEl.contains(range.commonAncestorContainer)) return;
+      const anc = range.commonAncestorContainer;
+      const el = anc.nodeType === 3 ? anc.parentElement : anc;
+      if (el.closest("input,textarea,select,.modal")) return;
+      const rect = range.getBoundingClientRect();
+      if (rect.width || rect.height) hlPos(rect);
+    }
+
+    document.addEventListener("selectionchange", () => {
+      if (hlBrushMode) return;
+      clearTimeout(hlTimer);
+      hlTimer = setTimeout(hlCheckSel, 200);
+    });
+
+    document.addEventListener("touchend", () => {
+      if (hlBrushMode) return;
+      clearTimeout(hlTimer);
+      hlTimer = setTimeout(hlCheckSel, 300);
+    }, { passive: true });
+
+    // ── Brush / Drag-to-Highlight Mode ──
+    function caretAt(x, y) {
+      if (document.caretRangeFromPoint) return document.caretRangeFromPoint(x, y);
+      if (document.caretPositionFromPoint) {
+        const pos = document.caretPositionFromPoint(x, y);
+        if (pos) {
+          const r = document.createRange();
+          r.setStart(pos.offsetNode, pos.offset);
+          r.collapse(true);
+          return r;
+        }
+      }
+      return null;
+    }
+
+    function toggleBrushMode() {
+      hlBrushMode = !hlBrushMode;
+      const btn = document.getElementById("hlBrushBtn");
+      const mainEl = document.querySelector(".main");
+      btn.classList.toggle("active", hlBrushMode);
+
+      if (hlBrushMode) {
+        hlBar.style.display = "flex";
+        hlBar.classList.add("pinned");
+        mainEl.classList.add("brush-mode");
+        showToast("🖊️ Kéo bút qua chữ để tô màu — bấm 🖊️ lần nữa để tắt", "info", 4000);
+      } else {
+        hlBar.classList.remove("pinned");
+        hlBar.style.display = "none";
+        mainEl.classList.remove("brush-mode");
+        window.getSelection()?.removeAllRanges();
+        hlBrushStart = null;
+        showToast("✅ Đã tắt chế độ tô màu", "info", 1500);
+      }
+    }
+
+    document.getElementById("hlBrushBtn").addEventListener("click", toggleBrushMode);
+
+    // Brush pointer events on main content
+    const hlMainEl = document.querySelector(".main");
+
+    hlMainEl.addEventListener("pointerdown", e => {
+      if (!hlBrushMode) return;
+      e.preventDefault();
+      hlMainEl.setPointerCapture(e.pointerId);
+      const r = caretAt(e.clientX, e.clientY);
+      if (r) hlBrushStart = { node: r.startContainer, offset: r.startOffset };
+    }, { passive: false });
+
+    hlMainEl.addEventListener("pointermove", e => {
+      if (!hlBrushMode || !hlBrushStart) return;
+      e.preventDefault();
+      const r = caretAt(e.clientX, e.clientY);
+      if (!r) return;
+      try {
+        const sel = window.getSelection();
+        const range = document.createRange();
+        const sn = hlBrushStart.node, so = hlBrushStart.offset;
+        const en = r.startContainer, eo = r.startOffset;
+        const after = sn === en ? eo >= so
+          : !!(sn.compareDocumentPosition(en) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (after) { range.setStart(sn, so); range.setEnd(en, eo); }
+        else        { range.setStart(en, eo); range.setEnd(sn, so); }
+        sel.removeAllRanges();
+        sel.addRange(range);
+      } catch {}
+    }, { passive: false });
+
+    hlMainEl.addEventListener("pointerup", e => {
+      if (!hlBrushMode || !hlBrushStart) return;
+      hlBrushStart = null;
+      const sel = window.getSelection();
+      if (sel && !sel.isCollapsed) {
+        const text = sel.toString().trim();
+        if (text) hlApply(hlBrushColor);
       }
     });
 
