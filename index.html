@@ -974,6 +974,67 @@
     .pm-result.bad { background: rgba(176,64,51,0.1); color: var(--danger); border: 1px solid var(--danger); }
     .pm-expl { margin-top: 14px; padding: 16px; background: var(--surface-soft); border-radius: 12px; border: 1px solid var(--line); font-size: 13px; line-height: 1.75; }
 
+    /* ── Free Draw Canvas ── */
+    #drawCanvas {
+      position: absolute; top: 0; left: 0; z-index: 5;
+      pointer-events: none; cursor: crosshair;
+      touch-action: none;
+    }
+    #drawCanvas.active { pointer-events: all; }
+
+    #drawModeBtn {
+      position: fixed; bottom: 30px; right: 162px; width: 56px; height: 56px;
+      border-radius: 50%; background: var(--surface); border: 2px solid var(--line);
+      cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; z-index: 100; transition: all 0.2s;
+      touch-action: manipulation;
+    }
+    #drawModeBtn:hover { transform: scale(1.1); }
+    #drawModeBtn.active {
+      background: #c0392b; border-color: #c0392b; color: #fff;
+      box-shadow: 0 4px 24px rgba(192,57,43,0.5);
+    }
+
+    #drawToolbar {
+      position: fixed; bottom: 100px; right: 20px; z-index: 9999;
+      background: #fff; border: 1px solid var(--line); border-radius: 18px;
+      padding: 12px 10px; box-shadow: 0 6px 28px rgba(0,0,0,0.18);
+      display: none; flex-direction: column; gap: 8px; align-items: center;
+      user-select: none; -webkit-user-select: none;
+    }
+    #drawToolbar.open { display: flex; }
+    .draw-color-dot {
+      width: 28px; height: 28px; border-radius: 50%; border: 2px solid rgba(0,0,0,0.1);
+      cursor: pointer; transition: transform 0.15s; flex-shrink: 0;
+    }
+    .draw-color-dot.selected { border: 3px solid #333; transform: scale(1.15); }
+    .draw-color-dot:hover:not(.selected) { transform: scale(1.1); }
+    .draw-sep { width: 24px; height: 1px; background: var(--line); }
+    .draw-size-btn {
+      width: 28px; height: 28px; border-radius: 50%; background: var(--surface-soft);
+      border: 2px solid var(--line); cursor: pointer; display: flex; align-items: center;
+      justify-content: center; font-size: 10px; font-weight: 700; color: var(--muted);
+      transition: all 0.15s; font-family: inherit;
+    }
+    .draw-size-btn.selected { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .draw-size-btn:hover:not(.selected) { border-color: var(--primary); }
+    .draw-action-btn {
+      width: 28px; height: 28px; border-radius: 8px; background: var(--surface-soft);
+      border: 2px solid var(--line); cursor: pointer; display: flex; align-items: center;
+      justify-content: center; font-size: 13px; transition: all 0.15s; font-family: inherit;
+    }
+    .draw-action-btn:hover { background: var(--surface); border-color: var(--primary); }
+    .draw-action-btn.erase-active { background: #fff3cd; border-color: #f0a500; }
+    #drawExitHint {
+      position: fixed; top: 14px; left: 50%; transform: translateX(-50%);
+      background: rgba(192,57,43,0.92); color: #fff; padding: 8px 20px;
+      border-radius: 20px; font-size: 13px; font-weight: 600;
+      z-index: 9998; display: none; pointer-events: none;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    }
+    #drawExitHint.show { display: block; }
+
     /* Scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
@@ -1544,6 +1605,25 @@
     </div>
   </div>
 
+  <canvas id="drawCanvas"></canvas>
+  <div id="drawExitHint">✏️ Chế độ vẽ tự do — Nhấn nút đỏ ✏️ hoặc Esc để thoát</div>
+  <button id="drawModeBtn" title="Chế độ vẽ tự do trên màn hình" type="button">✏️</button>
+  <div id="drawToolbar">
+    <button class="draw-color-dot selected" style="background:#1a1a1a" data-color="#1a1a1a" title="Đen"></button>
+    <button class="draw-color-dot" style="background:#c0392b" data-color="#c0392b" title="Đỏ"></button>
+    <button class="draw-color-dot" style="background:#2471a3" data-color="#2471a3" title="Xanh dương"></button>
+    <button class="draw-color-dot" style="background:#1e8449" data-color="#1e8449" title="Xanh lá"></button>
+    <button class="draw-color-dot" style="background:#d68910" data-color="#d68910" title="Cam"></button>
+    <button class="draw-color-dot" style="background:#7d3c98" data-color="#7d3c98" title="Tím"></button>
+    <div class="draw-sep"></div>
+    <button class="draw-size-btn" data-size="2" title="Nét mảnh">S</button>
+    <button class="draw-size-btn selected" data-size="4" title="Nét vừa">M</button>
+    <button class="draw-size-btn" data-size="9" title="Nét to">L</button>
+    <div class="draw-sep"></div>
+    <button class="draw-action-btn" id="drawEraseBtn" title="Tẩy xóa">⌫</button>
+    <button class="draw-action-btn" id="drawUndoBtn" title="Hoàn tác (Ctrl+Z)">↩</button>
+    <button class="draw-action-btn" id="drawClearBtn" title="Xóa tất cả">🗑</button>
+  </div>
   <button id="hlBrushBtn" title="Chế độ tô màu bằng bút (kéo qua chữ)" type="button">🖊️</button>
   <button id="openManagementModalButton" class="management-btn" title="Quản lý dữ liệu" type="button">⚙️</button>
   <input type="file" id="importFileInput" accept=".json" class="hidden">
@@ -2599,6 +2679,7 @@
         ${questionData.image ? `<div class="question-image-container"><img src="${escapeHtml(questionData.image)}" alt="${escapeHtml(questionLabel)}"></div>` : ""}
         <div id="choiceContainer"></div>
         <div id="answerResult"></div>
+        <div id="personalNoteSection"></div>
       `;
 
       document.getElementById("prevQuestionButton").addEventListener("click", () => goToAdjacentQuestion(-1));
@@ -2640,6 +2721,46 @@
       if (prevState !== undefined) {
         answerResult.innerHTML = buildAnswerResultHTML(questionData, prevState.selectedIndex);
       }
+
+      // ── Ghi chú cá nhân (lưu theo câu hỏi) ──
+      const noteKey  = `personalNote::${questionPathKey}`;
+      const pnSection = document.getElementById('personalNoteSection');
+      const savedNote = localStorage.getItem(noteKey) || '';
+      pnSection.innerHTML = `
+        <div style="margin-top:24px;border-top:2px dashed var(--line);padding-top:18px;">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;">
+            <strong style="color:var(--primary);font-size:14px;">📌 Ghi chú cá nhân</strong>
+            <span id="pnStatus" style="font-size:12px;font-weight:600;transition:color 0.2s;"></span>
+          </div>
+          <textarea id="pnTA"
+            placeholder="Viết ghi chú tại đây... Tự động lưu sau khi gõ — sẽ giữ nguyên khi chuyển sang câu khác và quay lại."
+            style="width:100%;min-height:110px;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fffdf7;color:var(--text);font:inherit;resize:vertical;line-height:1.7;font-size:14px;transition:border-color 0.2s,box-shadow 0.2s;"
+          >${escapeHtml(savedNote)}</textarea>
+        </div>
+      `;
+      const pnTA     = document.getElementById('pnTA');
+      const pnStatus = document.getElementById('pnStatus');
+      pnTA.addEventListener('focus', () => {
+        pnTA.style.borderColor = 'var(--primary)';
+        pnTA.style.boxShadow   = '0 0 0 3px rgba(139,94,60,0.1)';
+      });
+      pnTA.addEventListener('blur', () => {
+        pnTA.style.borderColor = 'var(--line)';
+        pnTA.style.boxShadow   = 'none';
+      });
+      let pnTimer;
+      pnTA.addEventListener('input', () => {
+        pnStatus.style.color = 'var(--muted)';
+        pnStatus.textContent  = '…đang lưu';
+        clearTimeout(pnTimer);
+        pnTimer = setTimeout(() => {
+          if (pnTA.value.trim()) safeStore(noteKey, pnTA.value);
+          else localStorage.removeItem(noteKey);
+          pnStatus.style.color = 'var(--good)';
+          pnStatus.textContent  = '✓ Đã lưu';
+          setTimeout(() => { pnStatus.textContent = ''; }, 2500);
+        }, 600);
+      });
 
     }
 
@@ -2721,6 +2842,7 @@
       renderQuestionList();
       setActiveTab(activeTab);
       requestAnimationFrame(hlRestore);
+      if (window.__drawOnRender) requestAnimationFrame(window.__drawOnRender);
     }
 
     function updateSelection(path) {
@@ -3286,12 +3408,22 @@ ${pathList}
         })
         .filter(Boolean);
 
+      // Sao lưu kèm ghi chú cá nhân (📌) và nét vẽ tay (✏️)
+      const annotations = {};
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && (key.startsWith("personalNote::") || key.startsWith("drawAnnotation::"))) {
+          annotations[key] = localStorage.getItem(key);
+        }
+      }
+
       return {
         exportedAt: new Date().toISOString(),
         root: treeRootLabel,
-        version: 3,
+        version: 4,
         stats: { topics: topics.length, questions: topics.reduce((s, t) => s + t.questions.length, 0) },
-        topics
+        topics,
+        annotations
       };
     }
 
@@ -3341,7 +3473,12 @@ ${pathList}
           const totalQ = data.topics.reduce((s, t) => s + (t.questions ? t.questions.length : 0), 0);
           const totalT = data.topics.filter(t => t.summary || t.vocabulary || (t.questions && t.questions.length)).length;
 
-          if (!confirm(`Xác nhận nhập dữ liệu:\n• ${totalT} chủ đề\n• ${totalQ} câu hỏi\n\nNội dung trùng sẽ bị ghi đè.`)) {
+          const annKeys = (data.annotations && typeof data.annotations === "object") ? Object.keys(data.annotations) : [];
+          const noteCount = annKeys.filter(k => k.startsWith("personalNote::")).length;
+          const drawCount = annKeys.filter(k => k.startsWith("drawAnnotation::")).length;
+          const annLine = (noteCount || drawCount) ? `\n• ${noteCount} ghi chú · ${drawCount} nét vẽ` : "";
+
+          if (!confirm(`Xác nhận nhập dữ liệu:\n• ${totalT} chủ đề\n• ${totalQ} câu hỏi${annLine}\n\nNội dung trùng sẽ bị ghi đè.`)) {
             return;
           }
 
@@ -3403,6 +3540,13 @@ ${pathList}
             }
           });
 
+          // Khôi phục ghi chú cá nhân (📌) và nét vẽ tay (✏️)
+          annKeys.forEach(key => {
+            if (key.startsWith("personalNote::") || key.startsWith("drawAnnotation::")) {
+              safeStore(key, data.annotations[key]);
+            }
+          });
+
           // Điều hướng đến câu hỏi đầu tiên được import
           if (firstImportedTopic && firstImportedLabel) {
             activePath = getQuestionPath(firstImportedTopic, firstImportedLabel);
@@ -3413,7 +3557,8 @@ ${pathList}
           managementModal.classList.add("hidden");
           renderPage();
           renderTree();
-          showToast(`✅ Nhập thành công! ${importedQ} câu hỏi đã được lưu.`, "success", 4000);
+          const annInfo = (noteCount || drawCount) ? ` · ${noteCount} ghi chú · ${drawCount} nét vẽ` : "";
+          showToast(`✅ Nhập thành công! ${importedQ} câu hỏi${annInfo} đã được lưu.`, "success", 4000);
         } catch (err) {
           console.error(err);
           alert("❌ Lỗi khi nhập dữ liệu:\n" + err.message);
@@ -4500,6 +4645,235 @@ ${pathList}
 
     renderPage();
     renderTree();
+
+    // ── Free Draw Canvas (gắn vào nội dung, cuộn theo & lưu theo từng câu) ──
+    (function() {
+      const canvas  = document.getElementById('drawCanvas');
+      const ctx     = canvas.getContext('2d');
+      const modeBtn = document.getElementById('drawModeBtn');
+      const toolbar = document.getElementById('drawToolbar');
+      const exitHint= document.getElementById('drawExitHint');
+      const eraseBtn= document.getElementById('drawEraseBtn');
+      const undoBtn = document.getElementById('drawUndoBtn');
+      const clearBtn= document.getElementById('drawClearBtn');
+      const mainEl  = document.querySelector('.main');
+
+      // Đưa canvas vào trong vùng nội dung để nó cuộn cùng nội dung
+      mainEl.style.position = 'relative';
+      mainEl.appendChild(canvas);
+
+      const DRAW_PREFIX = 'drawAnnotation::';
+      let active    = false;
+      let drawing   = false;
+      let erasing   = false;
+      let drawColor = '#1a1a1a';
+      let drawSize  = 4;
+      const history = [];
+
+      // Khoá lưu theo câu hỏi hiện tại (hoặc theo chủ đề + tab nếu không phải câu hỏi)
+      function drawKey() {
+        const view = (typeof activeQuestionPath !== 'undefined' && activeQuestionPath)
+          ? activeQuestionPath
+          : `${activePath}::${activeTab}`;
+        return DRAW_PREFIX + view;
+      }
+
+      // Đặt kích thước canvas bằng đúng toàn bộ vùng nội dung có thể cuộn
+      function sizeCanvas() {
+        canvas.width = 0; canvas.height = 0;          // thu nhỏ để đo chính xác
+        const w = mainEl.clientWidth;
+        const h = mainEl.scrollHeight;
+        canvas.width = w; canvas.height = h;
+        canvas.style.width = w + 'px';
+        canvas.style.height = h + 'px';
+      }
+
+      function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+
+      // Khôi phục nét vẽ đã lưu cho câu hiện tại
+      function restore() {
+        history.length = 0;
+        sizeCanvas();
+        clearCanvas();
+        const raw = localStorage.getItem(drawKey());
+        if (!raw) return;
+        let meta;
+        if (raw.charAt(0) === '{') {
+          try { meta = JSON.parse(raw); } catch { return; }      // định dạng nén mới
+        } else {
+          meta = { x: 0, y: 0, baseW: canvas.width, img: raw };  // tương thích định dạng cũ
+        }
+        if (!meta || !meta.img) return;
+        const img = new Image();
+        img.onload = () => {
+          const scale = meta.baseW ? canvas.width / meta.baseW : 1;
+          ctx.drawImage(img, (meta.x || 0) * scale, (meta.y || 0) * scale,
+                             img.width * scale, img.height * scale);
+        };
+        img.src = meta.img;
+      }
+      window.__drawOnRender = restore;   // renderPage sẽ gọi sau mỗi lần chuyển câu
+
+      let saveTimer;
+      function persist() {
+        clearTimeout(saveTimer);
+        saveTimer = setTimeout(() => {
+          const w = canvas.width, h = canvas.height;
+          if (!w || !h) return;
+          // Quét tìm khung bao quanh phần đã vẽ (bounding box)
+          const data = ctx.getImageData(0, 0, w, h).data;
+          let minX = w, minY = h, maxX = -1, maxY = -1;
+          for (let y = 0; y < h; y++) {
+            for (let x = 0; x < w; x++) {
+              if (data[(y * w + x) * 4 + 3] !== 0) {
+                if (x < minX) minX = x;
+                if (x > maxX) maxX = x;
+                if (y < minY) minY = y;
+                if (y > maxY) maxY = y;
+              }
+            }
+          }
+          if (maxX < 0) { localStorage.removeItem(drawKey()); return; }  // canvas trống
+          // Chỉ cắt & lưu đúng vùng có nét vẽ → nhẹ hơn nhiều lần
+          const cw = maxX - minX + 1, ch = maxY - minY + 1;
+          const off = document.createElement('canvas');
+          off.width = cw; off.height = ch;
+          off.getContext('2d').drawImage(canvas, minX, minY, cw, ch, 0, 0, cw, ch);
+          safeStore(drawKey(), JSON.stringify({ x: minX, y: minY, baseW: w, img: off.toDataURL('image/png') }));
+        }, 500);
+      }
+
+      function saveSnap() {
+        if (history.length >= 25) history.shift();
+        history.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+      }
+
+      function getXY(e) {
+        const r = canvas.getBoundingClientRect();
+        const src = e.touches ? e.touches[0] : e;
+        return { x: src.clientX - r.left, y: src.clientY - r.top };
+      }
+
+      function onStart(e) {
+        if (!active) return;
+        e.preventDefault();
+        saveSnap();
+        drawing = true;
+        const p = getXY(e);
+        ctx.beginPath();
+        ctx.moveTo(p.x, p.y);
+      }
+
+      function onMove(e) {
+        if (!active || !drawing) return;
+        e.preventDefault();
+        const p = getXY(e);
+        if (erasing) {
+          ctx.globalCompositeOperation = 'destination-out';
+          ctx.lineWidth   = drawSize * 5;
+          ctx.strokeStyle = 'rgba(0,0,0,1)';
+        } else {
+          ctx.globalCompositeOperation = 'source-over';
+          ctx.lineWidth   = drawSize;
+          ctx.strokeStyle = drawColor;
+        }
+        ctx.lineCap  = 'round';
+        ctx.lineJoin = 'round';
+        ctx.lineTo(p.x, p.y);
+        ctx.stroke();
+      }
+
+      function onEnd() {
+        if (!drawing) return;
+        drawing = false;
+        persist();
+      }
+
+      canvas.addEventListener('mousedown',  onStart);
+      canvas.addEventListener('mousemove',  onMove);
+      canvas.addEventListener('mouseup',    onEnd);
+      canvas.addEventListener('mouseleave', onEnd);
+      canvas.addEventListener('touchstart', onStart, { passive: false });
+      canvas.addEventListener('touchmove',  onMove,  { passive: false });
+      canvas.addEventListener('touchend',   onEnd);
+
+      window.addEventListener('resize', () => { if (active) restore(); });
+
+      function enterDraw() {
+        active = true;
+        restore();                       // đảm bảo canvas đúng kích thước nội dung hiện tại
+        modeBtn.classList.add('active');
+        canvas.classList.add('active');
+        toolbar.classList.add('open');
+        exitHint.classList.add('show');
+        canvas.style.cursor = erasing ? 'cell' : 'crosshair';
+      }
+
+      function exitDraw() {
+        active = false;
+        drawing = false;
+        modeBtn.classList.remove('active');
+        canvas.classList.remove('active');
+        toolbar.classList.remove('open');
+        exitHint.classList.remove('show');
+      }
+
+      modeBtn.addEventListener('click', () => {
+        if (active) exitDraw();
+        else {
+          enterDraw();
+          showToast('✏️ Vẽ tự do — nét vẽ sẽ dính vào nội dung & tự lưu theo câu. Nhấn Esc để thoát.', 'info', 3500);
+        }
+      });
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && active) exitDraw();
+        if ((e.ctrlKey || e.metaKey) && e.key === 'z' && active) {
+          e.preventDefault();
+          if (history.length) { ctx.putImageData(history.pop(), 0, 0); persist(); }
+        }
+      });
+
+      // Color buttons
+      document.querySelectorAll('.draw-color-dot').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.draw-color-dot').forEach(b => b.classList.remove('selected'));
+          btn.classList.add('selected');
+          drawColor = btn.dataset.color;
+          erasing   = false;
+          eraseBtn.classList.remove('erase-active');
+          canvas.style.cursor = 'crosshair';
+        });
+      });
+
+      // Size buttons
+      document.querySelectorAll('.draw-size-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.draw-size-btn').forEach(b => b.classList.remove('selected'));
+          btn.classList.add('selected');
+          drawSize = parseInt(btn.dataset.size);
+        });
+      });
+
+      eraseBtn.addEventListener('click', () => {
+        erasing = !erasing;
+        eraseBtn.classList.toggle('erase-active', erasing);
+        canvas.style.cursor = erasing ? 'cell' : 'crosshair';
+      });
+
+      undoBtn.addEventListener('click', () => {
+        if (history.length) { ctx.putImageData(history.pop(), 0, 0); persist(); }
+      });
+
+      clearBtn.addEventListener('click', () => {
+        saveSnap();
+        clearCanvas();
+        persist();
+      });
+
+      // Hiển thị nét vẽ đã lưu ngay khi mở trang
+      requestAnimationFrame(restore);
+    })();
   </script>
 </body>
 </html>
