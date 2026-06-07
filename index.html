@@ -30,12 +30,18 @@
       box-sizing: border-box;
     }
 
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+
     body {
       font-family: "Quicksand", sans-serif;
       background: var(--bg);
       color: var(--text);
-      min-height: 100vh;
+      height: 100vh;
       display: flex;
+      overflow: hidden;
     }
 
     .sidebar {
@@ -45,6 +51,8 @@
       overflow-y: auto;
       display: flex;
       flex-direction: column;
+      flex-shrink: 0;
+      transition: width 0.28s ease, border-color 0.28s ease;
     }
 
     .sidebar-header {
@@ -263,6 +271,8 @@
       padding: 40px;
       background: #fdfaf5;
       overflow-y: auto;
+      height: 100vh;
+      min-width: 0;
     }
 
     .content-card {
@@ -867,6 +877,39 @@
     .toast.info    { background: var(--primary); color: #fff; }
     @keyframes toastIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
 
+    .sidebar.collapsed {
+      width: 0;
+      overflow: hidden;
+      border-right-color: transparent;
+    }
+
+    .sidebar-collapse-btn {
+      position: fixed;
+      left: var(--sidebar-width);
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 52px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-left: none;
+      border-radius: 0 10px 10px 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--muted);
+      z-index: 140;
+      transition: left 0.28s ease, background 0.2s, color 0.2s;
+      user-select: none;
+    }
+
+    .sidebar-collapse-btn:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
     /* ── Responsive / Mobile ── */
     .sidebar-toggle { display: none; position: fixed; top: 14px; left: 14px; z-index: 160; width: 44px; height: 44px; border-radius: 50%; background: var(--primary); color: #fff; border: none; cursor: pointer; font-size: 22px; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.2s; }
     .sidebar-toggle:hover { transform: scale(1.1); }
@@ -876,6 +919,7 @@
       .sidebar.open { left: 0; }
       .sidebar-overlay.open { display: block; }
       .sidebar-toggle { display: flex; }
+      .sidebar-collapse-btn { display: none; }
       .main { padding: 72px 16px 20px; }
       .content-card { padding: 20px 16px; }
       .content-card h1 { font-size: 22px; }
@@ -1089,6 +1133,56 @@
       display: flex; align-items: center; justify-content: center; color: var(--muted);
     }
     .hl-sep { width: 1px; height: 20px; background: var(--line); flex-shrink: 0; }
+
+    /* ── FAB Speed Dial ── */
+    #fabGroup {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 101;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    #fabToggleBtn {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: var(--primary-strong);
+      color: #fff;
+      border: none; cursor: pointer;
+      font-size: 26px; font-weight: 300; line-height: 1;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.3s ease, background 0.25s ease;
+      touch-action: manipulation;
+      flex-shrink: 0;
+      user-select: none;
+    }
+    #fabToggleBtn:hover { transform: scale(1.1); }
+    #fabToggleBtn.open { background: var(--danger); transform: rotate(45deg); }
+    /* Override fixed positioning when inside #fabGroup */
+    #fabGroup .management-btn,
+    #fabGroup #hlBrushBtn,
+    #fabGroup #drawModeBtn {
+      position: relative !important;
+      bottom: auto !important;
+      right: auto !important;
+    }
+    .fab-sub {
+      transform: translateY(8px) scale(0.82);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.18s ease, opacity 0.18s ease;
+    }
+    #fabGroup.open .fab-sub {
+      transform: none;
+      opacity: 1;
+      pointer-events: all;
+    }
+    #fabGroup.open .fab-sub:nth-child(3) { transition-delay: 0s; }
+    #fabGroup.open .fab-sub:nth-child(2) { transition-delay: 0.05s; }
+    #fabGroup.open .fab-sub:nth-child(1) { transition-delay: 0.10s; }
   </style>
 </head>
 <body>
@@ -1127,6 +1221,8 @@
       <button id="debugStorageBtn" type="button" style="width:100%; padding: 8px; border-radius: 8px; border: 1px dashed var(--line); background: var(--surface-soft); font-size: 12px; color: var(--muted); cursor: pointer; font-family: inherit;">🔍 Kiểm tra câu hỏi đã lưu</button>
     </div>
   </aside>
+
+  <button id="sidebarCollapseBtn" class="sidebar-collapse-btn" title="Thu gọn / Mở rộng">‹</button>
 
   <main class="main">
     <section class="content-card">
@@ -1607,7 +1703,6 @@
 
   <canvas id="drawCanvas"></canvas>
   <div id="drawExitHint">✏️ Chế độ vẽ tự do — Nhấn nút đỏ ✏️ hoặc Esc để thoát</div>
-  <button id="drawModeBtn" title="Chế độ vẽ tự do trên màn hình" type="button">✏️</button>
   <div id="drawToolbar">
     <button class="draw-color-dot selected" style="background:#1a1a1a" data-color="#1a1a1a" title="Đen"></button>
     <button class="draw-color-dot" style="background:#c0392b" data-color="#c0392b" title="Đỏ"></button>
@@ -1624,8 +1719,12 @@
     <button class="draw-action-btn" id="drawUndoBtn" title="Hoàn tác (Ctrl+Z)">↩</button>
     <button class="draw-action-btn" id="drawClearBtn" title="Xóa tất cả">🗑</button>
   </div>
-  <button id="hlBrushBtn" title="Chế độ tô màu bằng bút (kéo qua chữ)" type="button">🖊️</button>
-  <button id="openManagementModalButton" class="management-btn" title="Quản lý dữ liệu" type="button">⚙️</button>
+  <div id="fabGroup">
+    <button id="openManagementModalButton" class="management-btn fab-sub" title="Quản lý dữ liệu" type="button">⚙️</button>
+    <button id="hlBrushBtn" class="fab-sub" title="Chế độ tô màu bằng bút (kéo qua chữ)" type="button">🖊️</button>
+    <button id="drawModeBtn" class="fab-sub" title="Chế độ vẽ tự do trên màn hình" type="button">✏️</button>
+    <button id="fabToggleBtn" type="button" title="Công cụ">+</button>
+  </div>
   <input type="file" id="importFileInput" accept=".json" class="hidden">
 
   <!-- Highlight Toolbar -->
@@ -3704,7 +3803,10 @@ ${pathList}
     openQuestionModalButton.addEventListener("click", openQuestionModal);
     
     // Management Modal Listeners
-    openManagementModalButton.addEventListener("click", () => managementModal.classList.remove("hidden"));
+    openManagementModalButton.addEventListener("click", () => {
+      managementModal.classList.remove("hidden");
+      closeFab();
+    });
     closeManagementModalButton.addEventListener("click", () => managementModal.classList.add("hidden"));
 
     document.getElementById("mgmtHelpBtn").addEventListener("click", () => {
@@ -3834,6 +3936,27 @@ ${pathList}
       document.querySelector(".sidebar").classList.remove("open");
       document.getElementById("sidebarOverlay").classList.remove("open");
     });
+
+    // ── Desktop sidebar collapse ──
+    (function() {
+      const sidebar = document.querySelector(".sidebar");
+      const btn = document.getElementById("sidebarCollapseBtn");
+      const SIDEBAR_W = getComputedStyle(document.documentElement).getPropertyValue("--sidebar-width").trim();
+      let collapsed = false;
+
+      function updateBtn() {
+        btn.textContent = collapsed ? "›" : "‹";
+        btn.style.left  = collapsed ? "0px" : SIDEBAR_W;
+      }
+
+      btn.addEventListener("click", () => {
+        collapsed = !collapsed;
+        sidebar.classList.toggle("collapsed", collapsed);
+        updateBtn();
+      });
+
+      updateBtn();
+    })();
 
     // ── Question System View ──
 
@@ -4796,6 +4919,34 @@ ${pathList}
 
       // Hiển thị nét vẽ đã lưu ngay khi mở trang
       requestAnimationFrame(restore);
+    })();
+
+    // ── FAB Speed Dial ──
+    function closeFab() {
+      const g = document.getElementById('fabGroup');
+      const t = document.getElementById('fabToggleBtn');
+      if (!g) return;
+      g.classList.remove('open');
+      t.textContent = '+';
+      t.classList.remove('open');
+    }
+
+    (function() {
+      const fabGroup = document.getElementById('fabGroup');
+      const fabToggleBtn = document.getElementById('fabToggleBtn');
+
+      fabToggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = fabGroup.classList.toggle('open');
+        fabToggleBtn.textContent = isOpen ? '×' : '+';
+        fabToggleBtn.classList.toggle('open', isOpen);
+      });
+
+      document.addEventListener('click', (e) => {
+        if (fabGroup.classList.contains('open') && !fabGroup.contains(e.target)) {
+          closeFab();
+        }
+      });
     })();
   </script>
 </body>
