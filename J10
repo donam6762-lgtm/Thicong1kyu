@@ -1,562 +1,383 @@
 {
   "topics": [
     {
-      "path": "1.3 建築設備 > 1.3.1 電気設備",
-      "vocabulary": "電気設備 (でんきせつび) - thiết bị điện\n電圧 (でんあつ) - điện áp\n低圧 (ていあつ) - hạ áp\n高圧 (こうあつ) - cao áp\n特別高圧 (とくべつこうあつ) - đặc cao áp\n単相 (たんそう) - một pha\n三相 (さんそう) - ba pha\n配電方式 (はいでんほうしき) - phương thức phân phối điện\n誘導電動機 (ゆうどうでんどうき) - động cơ cảm ứng\n避雷設備 (ひらいせつび) - thiết bị chống sét\n受雷部 (じゅらいぶ) - bộ phận thu sét\n引下げ導線 (ひきさげどうせん) - dây dẫn xuống\n接地極 (せっちきょく) - cực nối đất\n保護レベル (ほごレベル) - cấp bảo vệ\n指定数量 (していすうりょう) - lượng quy định chất nguy hiểm\nPF管 (ピーエフかん) - ống PF (tự dập lửa)\nCD管 (シーディーかん) - ống CD (chôn bê tông)\nビニル電線 (ビニルでんせん) - dây điện vinyl IV",
+      "path": "1.4 建築構造 > 1.4.1 構造力学（荷重・応力・梁・ラーメン）",
+      "vocabulary": "曲げモーメント図 / ラーメン架構 / 3ヒンジラーメン / 反力（水平反力・鉛直反力）/ 座屈荷重・オイラー座屈 / 断面二次モーメント / 断面係数 / 許容曲げモーメント / 等分布荷重・集中荷重・等変分布荷重 / 単純梁・片持ち梁 / ピン・ローラー・固定端 / 積載荷重・固定荷重・積雪荷重・風圧力",
       "questions": [
         {
-          "label": "Q1",
-          "question": "電気設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "電圧の種別における高圧とは、交流の場合600Vを超え、6,600Vまでのものをいう。",
-            "電圧の種別における低圧とは、直流の場合750V以下のものをいう。",
-            "中規模ビル等のポンプ、ファン等の動力用の誘導電動機には、一般に三相3線式200Vが用いられる。",
-            "住宅では、一般に単相2線式100V又は単相3線式100／200Vが用いられる。"
-          ],
-          "answer": "1",
-          "explanation": "この過去問の解説\n本問は出題時点で過去問ドットコムに解説が公開されていないため、以下は電気設備技術基準に基づく補足解説。\n選択肢1. 誤り。電圧の種別で高圧とは、交流の場合600Vを超え7,000V以下、直流の場合750Vを超え7,000V以下のものをいう。「6,600Vまで」は誤りで、6,600Vは代表的な高圧配電電圧だが高圧区分の上限は7,000Vである。\n選択肢2. 正。低圧は直流750V以下、交流600V以下。\n選択肢3. 正。中規模ビルのポンプ・ファン等の動力用誘導電動機には一般に三相3線式200Vが用いられる。\n選択肢4. 正。住宅では一般に単相2線式100V又は単相3線式100／200Vが用いられる。",
-          "studyContent": "まとめ\n電圧の種別：低圧＝直流750V以下・交流600V以下、高圧＝低圧の上限を超え直流・交流とも7,000V以下、特別高圧＝7,000V超。高圧の上限は7,000V（6,600Vではない）。配電方式は用途で使い分け、住宅は単相、動力は三相が基本。",
-          "question_vi": "Trong các mô tả về thiết bị điện sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Cao áp trong phân loại điện áp là loại xoay chiều vượt 600V đến 6.600V.",
-            "Hạ áp trong phân loại điện áp là loại một chiều từ 750V trở xuống.",
-            "Động cơ cảm ứng dùng cho động lực (bơm, quạt) ở tòa nhà quy mô vừa thường dùng ba pha 3 dây 200V.",
-            "Nhà ở thường dùng một pha 2 dây 100V hoặc một pha 3 dây 100／200V."
-          ],
-          "explanation_vi": "Giải thích đề này\nĐề này tại thời điểm ra chưa có lời giải công bố trên trang; dưới đây là giải thích bổ sung theo Tiêu chuẩn kỹ thuật thiết bị điện.\nLựa chọn 1. SAI. Cao áp là: xoay chiều vượt 600V đến 7.000V, một chiều vượt 750V đến 7.000V. 'Đến 6.600V' là sai — 6.600V là điện áp phân phối cao áp tiêu biểu nhưng giới hạn trên của cao áp là 7.000V.\nLựa chọn 2. ĐÚNG. Hạ áp: một chiều ≤ 750V, xoay chiều ≤ 600V.\nLựa chọn 3. ĐÚNG. Động cơ cảm ứng động lực ở tòa nhà vừa thường dùng ba pha 3 dây 200V.\nLựa chọn 4. ĐÚNG. Nhà ở thường dùng một pha 2 dây 100V hoặc một pha 3 dây 100／200V.",
-          "studyContent_vi": "Tổng kết\nPhân loại điện áp: hạ áp = một chiều ≤ 750V, xoay chiều ≤ 600V; cao áp = trên ngưỡng hạ áp đến 7.000V (cả một chiều và xoay chiều); đặc cao áp = trên 7.000V. Giới hạn trên của cao áp là 7.000V (không phải 6.600V). Phân phối tùy mục đích: nhà ở một pha, động lực ba pha."
+          "label": "R7 No.5",
+          "question": "図に示すラーメン架構に集中荷重Pが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
+          "answer": "3",
+          "explanation": "正解は3。このラーメン架構は左柱と梁が一体（剛接）で、右柱は回転を許すピン支持。荷重Pを受けると左柱と梁の接合部に大きな曲げモーメントが生じる。①柱脚と梁端の両方に大きなモーメントがあるが、右柱はピンなのでモーメントは生じず誤り。②左柱下部に曲げがなく梁だけにモーメントがあるが、剛接のため柱にもモーメントが生じ誤り。③正解。④左右両方の柱に大きなモーメントがあるが、右柱はピンで負担しないため誤り。",
+          "studyContent": "ポイントはラーメン架構の端部条件。左柱は剛接→モーメント大、右柱はピン→モーメントゼロ。したがって左柱上端が最大モーメント、右端ゼロとなる形が正しい曲げモーメント図。出典: https://kenchikusekou1.kakomonn.com/questions/86710",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen như hình vẽ, khi tác dụng tải tập trung P, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men uốn về phía thớ chịu kéo của cấu kiện.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là 3. Khung này có cột trái và dầm liên kết cứng (ngàm), cột phải là gối tựa khớp (cho phép xoay). Khi chịu tải P, mô-men uốn lớn phát sinh tại nút liên kết giữa cột trái và dầm. ① có mô-men lớn ở cả chân cột và đầu dầm nhưng cột phải là khớp nên không có mô-men → sai. ② chân cột trái không có uốn, chỉ dầm có mô-men, nhưng do liên kết cứng nên cột cũng phải có mô-men → sai. ③ đúng. ④ cả hai cột đều có mô-men lớn nhưng cột phải là khớp không chịu mô-men → sai.",
+          "studyContent_vi": "Điểm mấu chốt là điều kiện đầu mút của khung. Cột trái liên kết cứng → mô-men lớn; cột phải khớp → mô-men bằng 0. Do đó biểu đồ đúng có mô-men lớn nhất ở đỉnh cột trái và bằng 0 ở đầu phải."
         },
         {
-          "label": "Q2",
-          "question": "避雷設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "避雷設備は、建築物の高さが15mを超える部分を雷撃から保護するように設けなければならない。",
-            "避雷設備の構造は、雷撃によって生ずる電流を建築物に被害を及ぼすことなく安全に地中に流すことができるものとしなければならない。",
-            "接地極は、建築物を取り巻くように環状に配置する場合、0.5m以上の深さで壁から1m以上離して埋設する。",
-            "鉄骨造の鉄骨躯体は、構造体利用の引下げ導線の構成部材として利用することができる。"
-          ],
-          "answer": "1",
-          "explanation": "この過去問の解説 （2件）\n01\n避雷設備に関する問題。\n選択肢1. 誤り。避雷設備を設ける必要があるのは建築物の高さが20mを超える部分であり、「15m」は誤り。\n選択肢2. 正。避雷設備は雷撃による火災や建物の破壊、人身障害を防ぐため、電流を安全に地中に流せるようにする必要がある。\n選択肢3. 正。設問の通り。\n選択肢4. 正。鉄骨造では鉄骨同士が電気的に確実に接続され断面積が基準を満たす場合、鉄骨躯体を構造体利用の引下げ導線の構成部材として利用できる。\n02\n選択肢1が誤りで、避雷設備が必要なのは高さ20mを超える部分。選択肢2～4はいずれも正しい。鉄筋コンクリート造の鉄筋で断面積が基準以上のものも引下げ導線として利用できる。",
-          "studyContent": "まとめ\n避雷設備は高さ20mを超える部分を雷撃から保護するように設ける（15mは誤り）。電流は安全に地中へ流す。鉄骨躯体・基準を満たす鉄筋は構造体利用の引下げ導線として利用可。",
-          "question_vi": "Trong các mô tả về thiết bị chống sét sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Thiết bị chống sét phải được lắp để bảo vệ phần công trình cao vượt quá 15m khỏi sét đánh.",
-            "Cấu tạo thiết bị chống sét phải dẫn được dòng điện do sét sinh ra xuống đất an toàn mà không gây hại cho công trình.",
-            "Khi bố trí cực nối đất dạng vòng bao quanh công trình, chôn ở độ sâu từ 0,5m trở lên và cách tường từ 1m trở lên.",
-            "Khung thép của kết cấu thép có thể dùng làm cấu kiện dây dẫn xuống tận dụng kết cấu."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nĐây là câu hỏi về thiết bị chống sét.\nLựa chọn 1. SAI. Thiết bị chống sét cần lắp cho phần công trình cao vượt quá 20m; '15m' là sai.\nLựa chọn 2. ĐÚNG. Thiết bị chống sét phải dẫn dòng điện xuống đất an toàn để phòng cháy, phá hủy công trình và thương vong.\nLựa chọn 3. ĐÚNG. Như đề.\nLựa chọn 4. ĐÚNG. Ở kết cấu thép, khi khung thép được nối điện chắc chắn và tiết diện đạt chuẩn thì có thể dùng khung thép làm dây dẫn xuống tận dụng kết cấu.\n02\nLựa chọn 1 sai (phải là trên 20m); các lựa chọn 2–4 đều đúng. Cốt thép của kết cấu BTCT đạt tiết diện chuẩn cũng dùng làm dây dẫn xuống được.",
-          "studyContent_vi": "Tổng kết\nThiết bị chống sét lắp để bảo vệ phần cao vượt quá 20m (15m là sai). Dẫn dòng điện xuống đất an toàn. Khung thép và cốt thép đạt chuẩn có thể dùng làm dây dẫn xuống tận dụng kết cấu."
+          "label": "R7 No.11",
+          "question": "図に示す山形ラーメン架構のCD間に等分布荷重wが作用したとき、支点Aに生じる鉛直反力VA及び水平反力HAと、支点Bに生じる鉛直反力VB及び水平反力HBの値として、正しいものはどれか。ただし、反力は右向き及び上向きを「＋」、左向き及び下向きを「－」とする。",
+          "choices": ["HA＝－6kN", "HB＝－3kN", "VA＝＋1kN", "VB＝＋8kN"],
+          "answer": "",
+          "explanation": "（この過去問の解説は出典サイトに未掲載のため、正解・解説は確定できません。）",
+          "studyContent": "出典: https://kenchikusekou1.kakomonn.com/questions/86716",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen dạng mái dốc như hình, khi tải phân bố đều w tác dụng trên đoạn CD, giá trị phản lực đứng VA và phản lực ngang HA tại gối A, phản lực đứng VB và phản lực ngang HB tại gối B nào là đúng? Quy ước phản lực hướng phải và lên trên là «＋», hướng trái và xuống dưới là «－».",
+          "choices_vi": ["HA＝－6kN", "HB＝－3kN", "VA＝＋1kN", "VB＝＋8kN"],
+          "explanation_vi": "(Trang nguồn chưa có lời giải nên chưa thể xác định đáp án và lời giải.)",
+          "studyContent_vi": ""
         },
         {
-          "label": "Q3",
-          "question": "電気設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "合成樹脂製可とう電線管のうちPF管は、自己消火性があり、屋内隠ぺい配管に用いることができる。",
-            "電圧の種別で低圧とは、直流にあっては600V以下、交流にあっては750V以下のものをいう。",
-            "低圧屋内配線のための金属管は、規定値未満の厚さのものをコンクリートに埋め込んではならない。",
-            "低圧屋内配線の使用電圧が300Vを超える場合における金属製の電線接続箱には、接地工事を施さなければならない。"
-          ],
+          "label": "R7 No.12",
+          "question": "図に示す断面及び材端条件の長柱A，B及びCが中心圧縮力を受けるときの座屈荷重の大きさの大小関係を示すものとして正しいものはどれか。ただし、柱の材質は同一のものとする。",
+          "choices": ["C＜A＝B", "A＝B＜C", "B＜A＝C", "A＝C＜B"],
+          "answer": "3",
+          "explanation": "正解は「B＜A＝C」。座屈荷重はオイラーの式 P＝π²EI／(KL)² で比較する。Eは同一なのでIとKLだけ見る。断面二次モーメント：A（a×a）I_A＝a⁴/12、B（a×2a・弱軸）I_B＝2I_A、C（2a×2a）I_C＝16I_A。有効長さ：固定-固定（A,B）K＝0.5、ピン-ピン（C）K＝1.0。よってA：KL＝0.5l、B：KL＝l、C：KL＝2l。P∝I/(KL)²で計算すると、P_A＝4I_A/l²、P_B＝2I_A/l²、P_C＝4I_A/l²。したがってP_Bが最小、P_AとP_Cは等しく「B＜A＝C」。",
+          "studyContent": "座屈荷重は断面二次モーメントIが大きいほど大きく、有効長さKLが長いほど小さい。弱軸のIで決まる点と端部条件（固定-固定K=0.5、ピン-ピンK=1.0）に注意。出典: https://kenchikusekou1.kakomonn.com/questions/86717",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Cột dài A, B, C có tiết diện và điều kiện đầu mút như hình, khi chịu lực nén đúng tâm thì quan hệ lớn nhỏ của tải trọng tới hạn (lực tới hạn ổn định) nào là đúng? Vật liệu các cột giống nhau.",
+          "choices_vi": ["C＜A＝B", "A＝B＜C", "B＜A＝C", "A＝C＜B"],
+          "explanation_vi": "Đáp án đúng là «B＜A＝C». So sánh bằng công thức Euler P＝π²EI／(KL)². Vì E giống nhau nên chỉ xét I và KL. Mô-men quán tính: A (a×a) I_A＝a⁴/12; B (a×2a, trục yếu) I_B＝2I_A; C (2a×2a) I_C＝16I_A. Chiều dài hiệu dụng: ngàm-ngàm (A,B) K＝0.5; khớp-khớp (C) K＝1.0. Do đó A: KL＝0.5l, B: KL＝l, C: KL＝2l. Tính P∝I/(KL)²: P_A＝4I_A/l², P_B＝2I_A/l², P_C＝4I_A/l². Vậy P_B nhỏ nhất, P_A＝P_C → «B＜A＝C».",
+          "studyContent_vi": "Tải tới hạn càng lớn khi I càng lớn và càng nhỏ khi chiều dài hiệu dụng KL càng dài. Lưu ý ổn định quyết định bởi I của trục yếu và điều kiện đầu mút (ngàm-ngàm K=0.5, khớp-khớp K=1.0)."
+        },
+        {
+          "label": "R6 No.5",
+          "question": "図に示す3ヒンジラーメン架構の点Cに集中荷重P₁及びP₂が作用したとき、支点Bに生じる水平反力HBの値の大きさとして、正しいものはどれか。",
+          "choices": ["HB＝0kN", "HB＝2kN", "HB＝4kN", "HB＝6kN"],
+          "answer": "3",
+          "explanation": "正解はHB＝4kN。支点A・Bともピン接合なのでX・Y両方向のつり合いを考える。ΣX：HA＋HB＝4kN…①、ΣY：VA＋VB＝3kN…②。A点まわりのモーメントつり合いより 4×4－8VB＝0 → VB＝2kN、②よりVA＝1kN。次にC点のヒンジで切断し右側で考えると、HA・4＝0 → HA＝0kN、①よりHB＝4kN。",
+          "studyContent": "3ヒンジラーメンはヒンジでモーメントが0になる性質と、支点が2点ともピンであることを利用。反力を仮定し、全体のつり合い＋ヒンジで切断したモーメントつり合いで解く。出典: https://kenchikusekou1.kakomonn.com/questions/77545",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải tập trung P₁ và P₂ tác dụng tại điểm C, độ lớn phản lực ngang HB tại gối B nào là đúng?",
+          "choices_vi": ["HB＝0kN", "HB＝2kN", "HB＝4kN", "HB＝6kN"],
+          "explanation_vi": "Đáp án đúng là HB＝4kN. Cả hai gối A, B đều là khớp nên xét cân bằng cả phương X và Y. ΣX: HA＋HB＝4kN…①; ΣY: VA＋VB＝3kN…②. Lấy mô-men quanh A: 4×4－8VB＝0 → VB＝2kN, từ ② VA＝1kN. Cắt tại khớp C, xét phần bên phải: HA·4＝0 → HA＝0kN, từ ① HB＝4kN.",
+          "studyContent_vi": "Khung 3 khớp tận dụng tính chất mô-men bằng 0 tại khớp và việc cả hai gối là khớp. Giả định phản lực, dùng cân bằng tổng thể cộng với cân bằng mô-men khi cắt tại khớp để giải."
+        },
+        {
+          "label": "R6 No.11",
+          "question": "表に示す角形鋼管柱の座屈荷重の値として、正しいものはどれか。ただし、図に示すとおり、支点は両端固定とし水平移動は拘束されているものとする。",
+          "choices": ["600πkN", "600π²kN", "2,400πkN", "2,400π²kN"],
+          "answer": "4",
+          "explanation": "正解は2,400π²kN。座屈荷重＝π²×ヤング係数×断面二次モーメント／座屈長さ²。両端固定で水平移動拘束のため座屈長さは部材長の0.5倍（10m→5m＝5,000mm）。π²×(2.0×10⁵ N/mm²)×(3.0×10⁸ mm⁴)／(5,000mm)²＝2,400π²kN。",
+          "studyContent": "座屈荷重の公式 P＝π²EI／(KL)² を覚え、端部条件で座屈長さ係数（両端固定K＝0.5）を決め、単位換算に注意すれば得点源にできる。出典: https://kenchikusekou1.kakomonn.com/questions/77551",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Giá trị tải trọng tới hạn ổn định của cột ống thép vuông cho trong bảng nào là đúng? Như hình, hai đầu cột ngàm và chuyển vị ngang bị khống chế.",
+          "choices_vi": ["600πkN", "600π²kN", "2.400πkN", "2.400π²kN"],
+          "explanation_vi": "Đáp án đúng là 2.400π²kN. Tải tới hạn ＝ π²×mô-đun đàn hồi×mô-men quán tính／chiều dài ổn định². Do hai đầu ngàm và khống chế chuyển vị ngang nên chiều dài ổn định ＝0,5 lần chiều dài cấu kiện (10m→5m＝5.000mm). π²×(2,0×10⁵ N/mm²)×(3,0×10⁸ mm⁴)／(5.000mm)²＝2.400π²kN.",
+          "studyContent_vi": "Ghi nhớ công thức P＝π²EI／(KL)², xác định hệ số chiều dài ổn định theo điều kiện đầu mút (hai đầu ngàm K＝0,5) và chú ý đổi đơn vị thì đây là câu dễ ăn điểm."
+        },
+        {
+          "label": "R6 No.12",
+          "question": "図に示す梁のAB間及びAC間に等分布荷重wが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
+          "answer": "1",
+          "explanation": "正解は①。等分布荷重を集中荷重に置換すると、C-B間中央に4kN/m×6m＝24kNが作用。反力をVA、VBとするとVA＋VB＝24。A点まわりで24×1－VB×4＝0 → VB＝6kN、VA＝18kN。AC間は片持ち梁の等分布荷重で曲線（2次曲線）となる。形状より①が正しい。",
+          "studyContent": "力が作用する位置・大きさ・向きを整理し、等分布荷重区間は曲線、集中荷重区間は直線になることを押さえる。出典: https://kenchikusekou1.kakomonn.com/questions/77552",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Khi tải phân bố đều w tác dụng trên đoạn AB và AC của dầm như hình, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ①. Thay tải phân bố đều bằng tải tập trung: ở giữa đoạn C-B có 4kN/m×6m＝24kN. Gọi phản lực VA, VB thì VA＋VB＝24. Lấy mô-men quanh A: 24×1－VB×4＝0 → VB＝6kN, VA＝18kN. Đoạn AC là dầm công-xon chịu tải phân bố đều nên biểu đồ là đường cong (parabol bậc 2). Theo hình dạng, ① đúng.",
+          "studyContent_vi": "Sắp xếp vị trí, độ lớn và hướng của lực; nắm rằng đoạn có tải phân bố đều cho đường cong, đoạn có tải tập trung cho đường thẳng."
+        },
+        {
+          "label": "R5 No.8",
+          "question": "図に示す柱ABの図心Gに鉛直荷重Pと水平荷重Qが作用したとき、底部における引張縁応力度の値の大きさとして、正しいものはどれか。ただし、柱の自重は考慮しないものとする。",
+          "choices": ["3N/mm²", "7N/mm²", "10N/mm²", "13N/mm²"],
           "answer": "2",
-          "explanation": "この過去問の解説 （3件）\n01\n選択肢1. 正。PF管は自己消火性があり屋内隠ぺい配管に用いることができる。\n選択肢2. 誤り。低圧は直流750V以下、交流600V以下である。設問は直流交流の数値が逆で誤り。\n選択肢3. 正。コンクリートに埋め込む場合、金属管の厚さは1.2mm未満としてはならない。\n選択肢4. 正。使用電圧が300Vを超える金属製の電線接続箱には接地工事を施す必要がある。\n02\n選択肢2が誤りで、低圧は直流750V以下・交流600V以下。CD管は耐燃性がなくコンクリート埋設用、PF管は自己消火性あり。\n03\n低圧の定義（直流750・交流600）が誤り。他の3肢は適当。",
-          "studyContent": "まとめ\n低圧＝直流750V以下・交流600V以下（数値の入れ替えに注意）。PF管は自己消火性あり屋内隠ぺい可、CD管は耐燃性なくコンクリート埋設用。金属管は1.2mm未満をコンクリート埋込不可。300V超の金属製電線接続箱は接地工事が必要。",
-          "question_vi": "Trong các mô tả về thiết bị điện sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Trong ống điện mềm bằng nhựa tổng hợp, ống PF có tính tự dập lửa, có thể dùng cho đi dây âm trong nhà.",
-            "Hạ áp trong phân loại điện áp là loại một chiều ≤ 600V, xoay chiều ≤ 750V.",
-            "Ống kim loại cho đi dây hạ áp trong nhà không được chôn vào bê tông loại có độ dày dưới giá trị quy định.",
-            "Hộp nối dây bằng kim loại khi điện áp sử dụng của đi dây hạ áp trong nhà vượt quá 300V thì phải thi công nối đất."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nLựa chọn 1. ĐÚNG. Ống PF có tính tự dập lửa, dùng được cho đi dây âm trong nhà.\nLựa chọn 2. SAI. Hạ áp là một chiều ≤ 750V, xoay chiều ≤ 600V. Đề đảo ngược trị số một chiều/xoay chiều nên sai.\nLựa chọn 3. ĐÚNG. Khi chôn bê tông, độ dày ống kim loại không được dưới 1,2mm.\nLựa chọn 4. ĐÚNG. Hộp nối dây kim loại khi điện áp vượt 300V phải thi công nối đất.\n02\nLựa chọn 2 sai; hạ áp một chiều ≤ 750V, xoay chiều ≤ 600V. Ống CD không chịu cháy, dùng chôn bê tông; ống PF tự dập lửa.\n03\nĐịnh nghĩa hạ áp (một chiều 750/xoay chiều 600) bị sai; ba lựa chọn còn lại đều đúng.",
-          "studyContent_vi": "Tổng kết\nHạ áp = một chiều ≤ 750V, xoay chiều ≤ 600V (chú ý tráo trị số). Ống PF tự dập lửa, đi dây âm trong nhà; ống CD không chịu cháy, dùng chôn bê tông. Ống kim loại không chôn bê tông nếu dày dưới 1,2mm. Hộp nối kim loại điện áp trên 300V phải nối đất."
+          "explanation": "正解は7N/mm²。鉛直荷重Pによる軸応力と水平荷重Qによる曲げ応力を重ね合わせる。軸応力 σ＝P/A＝180,000/(300×200)＝3N/mm²。曲げ：M＝Q×2,000mm、断面係数Z＝bh²/6＝3,000,000、σ＝M/Z＝10N/mm²。引張縁応力度は曲げ応力10から軸圧縮3を差し引いて 10－3＝7N/mm²。",
+          "studyContent": "引張縁応力度は曲げ応力（M/Z）と軸応力（P/A）の重ね合わせ。引張側では曲げ応力から圧縮の軸応力を引く。ひっかけ（10N/mm²や13N/mm²）に注意。出典: https://kenchikusekou1.kakomonn.com/questions/71586",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Khi tải đứng P và tải ngang Q tác dụng vào trọng tâm G của cột AB như hình, độ lớn ứng suất tại thớ chịu kéo ở chân cột nào là đúng? Bỏ qua trọng lượng bản thân cột.",
+          "choices_vi": ["3N/mm²", "7N/mm²", "10N/mm²", "13N/mm²"],
+          "explanation_vi": "Đáp án đúng là 7N/mm². Chồng chất ứng suất dọc trục do P và ứng suất uốn do Q. Ứng suất dọc trục σ＝P/A＝180.000/(300×200)＝3N/mm². Uốn: M＝Q×2.000mm, mô-đun chống uốn Z＝bh²/6＝3.000.000, σ＝M/Z＝10N/mm². Ứng suất thớ kéo ＝ ứng suất uốn 10 trừ nén dọc trục 3 ＝ 10－3＝7N/mm².",
+          "studyContent_vi": "Ứng suất thớ kéo là chồng chất của ứng suất uốn (M/Z) và ứng suất dọc trục (P/A). Phía chịu kéo: lấy ứng suất uốn trừ ứng suất nén dọc trục. Cẩn thận với đáp án bẫy (10 hoặc 13N/mm²)."
         },
         {
-          "label": "Q4",
-          "question": "避雷設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "受雷部は、保護しようとする建築物の種類、重要度等に対応した4段階の保護レベルに応じて配置する。",
-            "避雷設備は、建築物の高さが20mを超える部分を雷撃から保護するように設けなければならない。",
-            "危険物を貯蔵する倉庫は、危険物の貯蔵量や建築物の高さにかかわらず、避雷設備を設けなければならない。",
-            "鉄骨造の鉄骨躯体は、構造体利用の引下げ導線の構成部材として利用することができる。"
-          ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （2件）\n01\n避雷設備に関する問題。\n選択肢1. 正。受雷部は建築物の種類・重要度等に応じた4段階の保護レベルに応じて配置する。\n選択肢2. 正。高さ20mを超える部分には避雷設備が必要（保護角は一般60度）。\n選択肢3. 誤り。危険物貯蔵庫の避雷設備は貯蔵量によって決まり、指定数量の10倍を超えて貯蔵する倉庫では高さにかかわらず必要となる（保護角45度）。「貯蔵量にかかわらず」は誤り。なお高さが20mを超える場合は危険物に関係なく必要。\n選択肢4. 正。鉄骨のほか鉄筋も構造体利用の引下げ導線として使用できる。\n02\n選択肢3が誤り。指定数量の10倍以上の危険物を貯蔵する倉庫は高さにかかわらず避雷設備が必要だが、「貯蔵量にかかわらず」ではない。",
-          "studyContent": "まとめ\n危険物倉庫の避雷設備は貯蔵量で決まり、指定数量の10倍超で高さに関係なく必要（「貯蔵量にかかわらず」は誤り）。高さ20m超は危険物に関係なく必要。保護角は一般60度・危険物貯蔵庫45度。受雷部は4段階の保護レベルで配置。",
-          "question_vi": "Trong các mô tả về thiết bị chống sét sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Bộ phận thu sét được bố trí theo 4 cấp bảo vệ tương ứng với loại và mức độ quan trọng của công trình cần bảo vệ.",
-            "Thiết bị chống sét phải lắp để bảo vệ phần công trình cao vượt quá 20m khỏi sét đánh.",
-            "Kho chứa chất nguy hiểm phải lắp thiết bị chống sét bất kể lượng chứa hay chiều cao công trình.",
-            "Khung thép của kết cấu thép có thể dùng làm cấu kiện dây dẫn xuống tận dụng kết cấu."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nCâu hỏi về thiết bị chống sét.\nLựa chọn 1. ĐÚNG. Bộ thu sét bố trí theo 4 cấp bảo vệ ứng với loại/mức độ quan trọng (cấp 1–2: nhà máy lọc dầu, điện hạt nhân; cấp 3–4: sân vận động, nhà siêu cao tầng).\nLựa chọn 2. ĐÚNG. Phần cao vượt 20m cần thiết bị chống sét (góc bảo vệ thông thường 60 độ).\nLựa chọn 3. SAI. Thiết bị chống sét của kho chất nguy hiểm quyết định theo lượng chứa: kho chứa quá 10 lần lượng quy định thì cần bất kể chiều cao (góc bảo vệ 45 độ). 'Bất kể lượng chứa' là sai. Ngoài ra cao vượt 20m thì cần bất kể chất nguy hiểm.\nLựa chọn 4. ĐÚNG. Ngoài khung thép, cốt thép cũng dùng làm dây dẫn xuống tận dụng kết cấu.\n02\nLựa chọn 3 sai. Kho chứa quá 10 lần lượng quy định mới cần bất kể chiều cao, không phải 'bất kể lượng chứa'.",
-          "studyContent_vi": "Tổng kết\nThiết bị chống sét của kho chất nguy hiểm quyết định theo lượng chứa: quá 10 lần lượng quy định thì cần bất kể chiều cao ('bất kể lượng chứa' là sai). Cao vượt 20m cần bất kể chất nguy hiểm. Góc bảo vệ: thông thường 60 độ, kho chất nguy hiểm 45 độ. Bộ thu sét bố trí theo 4 cấp bảo vệ."
+          "label": "R5 No.9",
+          "question": "図に示す3ヒンジラーメン架構のDE間に等分布荷重wが作用したとき、支点Aの水平反力HA及び支点Bの水平反力HBの値として、正しいものはどれか。ただし、反力は右向きを「＋」、左向きを「−」とする。",
+          "choices": ["HA＝＋9kN", "HA＝−6kN", "HB＝0kN", "HB＝−4kN"],
+          "answer": "4",
+          "explanation": "正解はHB＝−4kN。等分布荷重をヒンジCより左P₁＝3×4＝12kN、右P₂＝3×2＝6kNに置換。ΣX：HA＋HB＝0、ΣY：VA＋VB＝18kN、A点まわり ΣMA：12×2＋6×5－VB×6＝0 → VB＝9kN、VA＝9kN。C点右側でΣMC：6×1－HB×3－9×2＝0 → HB＝−4kN、HA＝＋4kN。",
+          "studyContent": "3ヒンジラーメンはX・Y・Mのつり合いに加え、中央ヒンジでモーメント0の条件を使う。等分布荷重は左右に分けて集中荷重化すると計算しやすい。出典: https://kenchikusekou1.kakomonn.com/questions/71587",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố đều w tác dụng trên đoạn DE, giá trị phản lực ngang HA tại gối A và HB tại gối B nào là đúng? Quy ước phản lực hướng phải là «＋», hướng trái là «－».",
+          "choices_vi": ["HA＝＋9kN", "HA＝−6kN", "HB＝0kN", "HB＝−4kN"],
+          "explanation_vi": "Đáp án đúng là HB＝−4kN. Thay tải phân bố đều thành: bên trái khớp C P₁＝3×4＝12kN, bên phải P₂＝3×2＝6kN. ΣX: HA＋HB＝0; ΣY: VA＋VB＝18kN; mô-men quanh A: 12×2＋6×5－VB×6＝0 → VB＝9kN, VA＝9kN. Xét phần phải tại C: 6×1－HB×3－9×2＝0 → HB＝−4kN, HA＝＋4kN.",
+          "studyContent_vi": "Khung 3 khớp dùng cân bằng X, Y, M cộng điều kiện mô-men bằng 0 tại khớp giữa. Tách tải phân bố đều thành tải tập trung bên trái/phải để tính dễ hơn."
         },
         {
-          "label": "Q5",
-          "question": "電気設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "電圧の種別における低圧とは、交流の場合600V以下のものをいう。",
-            "電圧の種別における高圧とは、直流の場合750Vを超え、7,000Vまでのものをいう。",
-            "大型の動力機器が多数使用される場合の配電方式には、単相2線式100Vが多く用いられる。",
-            "特別高圧受電を行うような大規模なビルなどの配電方式には、三相4線式240／415Vが多く用いられる。"
-          ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （2件）\n01\n配電方式は容量の小さい順に単相2線式＜単相3線式＜三相3線式＜三相4線式となる。\n選択肢1. 正。低圧は交流600V以下、直流750V以下。\n選択肢2. 正。高圧は直流750Vを超え7,000V以下、交流600Vを超え7,000V以下。\n選択肢3. 誤り。大型の動力機器が多数使用される場合は三相3線式200Vや三相4線式が用いられる。単相2線式100Vは小容量の電灯・コンセント向けで誤り。\n選択肢4. 正。特別高圧受電の大規模ビルでは三相4線式240V／415Vが多く用いられる。\n02\n選択肢3が誤り。大型動力には三相が用いられ、単相2線式100Vは不適当。",
-          "studyContent": "まとめ\n配電方式は容量順に単相2線式（小容量・電灯）＜単相3線式＜三相3線式200V（動力）＜三相4線式240V／415V（大規模・特別高圧受電）。大型動力に単相2線式100Vは誤り。電圧種別：低圧＝交流600V以下・直流750V以下、高圧＝7,000V以下。",
-          "question_vi": "Trong các mô tả về thiết bị điện sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Hạ áp trong phân loại điện áp là loại xoay chiều ≤ 600V.",
-            "Cao áp trong phân loại điện áp là loại một chiều vượt 750V đến 7.000V.",
-            "Khi dùng nhiều thiết bị động lực cỡ lớn, phương thức phân phối thường dùng một pha 2 dây 100V.",
-            "Tòa nhà lớn nhận điện đặc cao áp thường dùng phương thức ba pha 4 dây 240V／415V."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nPhương thức phân phối theo công suất tăng dần: một pha 2 dây < một pha 3 dây < ba pha 3 dây < ba pha 4 dây.\nLựa chọn 1. ĐÚNG. Hạ áp: xoay chiều ≤ 600V, một chiều ≤ 750V.\nLựa chọn 2. ĐÚNG. Cao áp: một chiều vượt 750V đến 7.000V, xoay chiều vượt 600V đến 7.000V.\nLựa chọn 3. SAI. Khi dùng nhiều thiết bị động lực cỡ lớn thì dùng ba pha 3 dây 200V hoặc ba pha 4 dây. Một pha 2 dây 100V dành cho phụ tải nhỏ (đèn, ổ cắm) nên sai.\nLựa chọn 4. ĐÚNG. Tòa nhà lớn nhận đặc cao áp thường dùng ba pha 4 dây 240V／415V.\n02\nLựa chọn 3 sai. Động lực cỡ lớn dùng ba pha; một pha 2 dây 100V không phù hợp.",
-          "studyContent_vi": "Tổng kết\nPhương thức phân phối theo công suất: một pha 2 dây (nhỏ, đèn) < một pha 3 dây < ba pha 3 dây 200V (động lực) < ba pha 4 dây 240V／415V (quy mô lớn, đặc cao áp). Động lực cỡ lớn mà dùng một pha 2 dây 100V là sai. Điện áp: hạ áp = xoay chiều ≤ 600V, một chiều ≤ 750V; cao áp ≤ 7.000V."
-        },
-        {
-          "label": "Q6",
-          "question": "避雷設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "高さが20mを超える建築物には、原則として、有効に避雷設備を設けなければならない。",
-            "危険物を貯蔵する倉庫には、危険物の貯蔵量や建物の高さにかかわらず、避雷設備を設けなければならない。",
-            "受雷部は、保護しようとする建築物の種類、重要度等に対応した4段階の保護レベルに応じて配置する。",
-            "鉄筋コンクリート造の鉄筋は、構造体利用の引下げ導線の構成部材として利用することができる。"
-          ],
+          "label": "R5 No.10",
+          "question": "図に示す3ヒンジラーメン架構の点Dにモーメント荷重Mが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
           "answer": "2",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 正。建築基準法により高さ20mを超える建築物には原則として避雷設備が必要。\n選択肢2. 誤り。危険物を貯蔵する倉庫に避雷設備が必要となるのは、指定数量の10倍以上を貯蔵・取り扱う場合である（消防法）。「貯蔵量や建物の高さにかかわらず」は誤り。\n選択肢3. 正。受雷部は4段階の保護レベルに応じて配置する。\n選択肢4. 正。鉄筋コンクリート造の鉄筋は構造体利用の引下げ導線として利用できる。\n02\n選択肢2が誤り。危険物倉庫の避雷設備は指定数量の10倍以上が要件で、貯蔵量に関係なくではない。",
-          "studyContent": "まとめ\n危険物倉庫の避雷設備は指定数量の10倍以上の貯蔵・取扱いで必要（貯蔵量にかかわらずは誤り）。一般建築物は高さ20m超で必要。受雷部は4段階の保護レベルで配置。鉄筋も引下げ導線として利用可。",
-          "question_vi": "Trong các mô tả về thiết bị chống sét sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Công trình cao vượt quá 20m về nguyên tắc phải lắp thiết bị chống sét hữu hiệu.",
-            "Kho chứa chất nguy hiểm phải lắp thiết bị chống sét bất kể lượng chứa hay chiều cao công trình.",
-            "Bộ phận thu sét được bố trí theo 4 cấp bảo vệ ứng với loại và mức độ quan trọng của công trình.",
-            "Cốt thép của kết cấu bê tông cốt thép có thể dùng làm cấu kiện dây dẫn xuống tận dụng kết cấu."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. ĐÚNG. Theo Luật tiêu chuẩn xây dựng, công trình cao vượt 20m về nguyên tắc cần thiết bị chống sét.\nLựa chọn 2. SAI. Kho chứa chất nguy hiểm cần thiết bị chống sét khi chứa/xử lý từ 10 lần lượng quy định trở lên (Luật phòng cháy). 'Bất kể lượng chứa hay chiều cao' là sai.\nLựa chọn 3. ĐÚNG. Bộ thu sét bố trí theo 4 cấp bảo vệ.\nLựa chọn 4. ĐÚNG. Cốt thép của kết cấu BTCT dùng được làm dây dẫn xuống tận dụng kết cấu.\n02\nLựa chọn 2 sai. Thiết bị chống sét kho chất nguy hiểm có điều kiện là từ 10 lần lượng quy định, không phải bất kể lượng chứa.",
-          "studyContent_vi": "Tổng kết\nThiết bị chống sét kho chất nguy hiểm cần khi chứa/xử lý ≥ 10 lần lượng quy định (bất kể lượng chứa là sai). Công trình thường cần khi cao vượt 20m. Bộ thu sét bố trí theo 4 cấp bảo vệ. Cốt thép cũng dùng làm dây dẫn xuống."
+          "explanation": "正解は②。各支点・節点の特徴で絞り込む。①ピンではモーメント0、②固定端では回転角0、③剛節点では接合角度不変。D点に時計回りのモーメントMが作用し、ピン接合部はすべての選択肢でモーメント0なのでそこは正しい。D点で部材の引張側を正しく描いているのは②。",
+          "studyContent": "モーメント図の正誤判定は、ピン＝モーメント0、固定端、剛節点の角度保持などの特徴から引張側を判断する。出典: https://kenchikusekou1.kakomonn.com/questions/71588",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải mô-men M tác dụng tại điểm D, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ②. Loại trừ theo đặc điểm gối/nút: ① tại khớp mô-men＝0, ② tại ngàm góc xoay＝0, ③ tại nút cứng góc liên kết không đổi. Mô-men M chiều kim đồng hồ tác dụng tại D; mọi phương án đều có mô-men＝0 tại khớp nên phần đó đúng. Phương án vẽ đúng phía chịu kéo tại D là ②.",
+          "studyContent_vi": "Khi xét đúng/sai của biểu đồ mô-men, dựa vào đặc điểm: khớp＝mô-men 0, ngàm, nút cứng giữ góc... để xác định phía chịu kéo."
         },
         {
-          "label": "Q7",
-          "question": "避雷設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "高さが15mを超える建築物には、原則として、避雷設備を設けなければならない。",
-            "指定数量の10倍以上の危険物を貯蔵する倉庫には、高さにかかわらず、原則として、避雷設備を設けなければならない。",
-            "受雷部システムの配置は、保護しようとする建築物の種類、重要度等に応じた保護レベルの要求事項に適合しなければならない。",
-            "鉄骨造の鉄骨躯体は、構造体利用の引下げ導線の構成部材として利用することができる。"
-          ],
+          "label": "R4 No.8",
+          "question": "建築物に作用する荷重及び外力に関する記述として、最も不適当なものはどれか。",
+          "choices": ["風圧力を求めるために用いる風力係数は、建築物の外圧係数と内圧係数の積により算出する。", "雪下ろしを行う慣習のある地方において、垂直積雪量が1mを超える場合、積雪荷重は、雪下ろしの実況に応じ垂直積雪量を1mまで減らして計算することができる。", "劇場、映画館等の客席の単位床面積当たりの積載荷重は、実況に応じて計算しない場合、固定席のほうが固定されていない場合より小さくすることができる。", "速度圧の計算に用いる基準風速は、原則として、その地方の再現期間50年の10分間平均風速値に相当する。"],
           "answer": "1",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 誤り。建築基準法第33条により、避雷設備を設けなければならないのは高さが20mを超える建築物であり、「15m」は誤り。\n選択肢2. 正。指定数量の10倍以上の危険物を貯蔵する倉庫には、高さにかかわらず原則として避雷設備が必要。\n選択肢3. 正。受雷部システムの配置は保護レベルの要求事項に適合させる。\n選択肢4. 正。鉄骨躯体は構造体利用の引下げ導線として利用できる。\n02\n選択肢1が誤り。避雷設備が必要なのは高さ20m超。15mは誤り。",
-          "studyContent": "まとめ\n一般建築物の避雷設備は高さ20mを超える部分で必要（15mは誤り）。指定数量10倍以上の危険物倉庫は高さに関係なく必要。受雷部は保護レベルに適合させて配置。鉄骨躯体は引下げ導線として利用可。",
-          "question_vi": "Trong các mô tả về thiết bị chống sét sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Công trình cao vượt quá 15m về nguyên tắc phải lắp thiết bị chống sét.",
-            "Kho chứa chất nguy hiểm từ 10 lần lượng quy định trở lên về nguyên tắc phải lắp thiết bị chống sét bất kể chiều cao.",
-            "Việc bố trí hệ thống thu sét phải phù hợp với yêu cầu cấp bảo vệ ứng với loại và mức độ quan trọng của công trình.",
-            "Khung thép của kết cấu thép có thể dùng làm cấu kiện dây dẫn xuống tận dụng kết cấu."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. SAI. Theo Điều 33 Luật tiêu chuẩn xây dựng, thiết bị chống sét bắt buộc với công trình cao vượt quá 20m; '15m' là sai.\nLựa chọn 2. ĐÚNG. Kho chứa ≥ 10 lần lượng quy định về nguyên tắc cần thiết bị chống sét bất kể chiều cao.\nLựa chọn 3. ĐÚNG. Bố trí hệ thống thu sét phải phù hợp yêu cầu cấp bảo vệ.\nLựa chọn 4. ĐÚNG. Khung thép dùng được làm dây dẫn xuống tận dụng kết cấu.\n02\nLựa chọn 1 sai. Thiết bị chống sét cần cho công trình cao vượt 20m; 15m là sai.",
-          "studyContent_vi": "Tổng kết\nThiết bị chống sét công trình thường cần cho phần cao vượt 20m (15m là sai). Kho chất nguy hiểm ≥ 10 lần lượng quy định cần bất kể chiều cao. Hệ thống thu sét bố trí phù hợp cấp bảo vệ. Khung thép dùng làm dây dẫn xuống được."
+          "explanation": "最も不適当なのは①。風力係数は外圧係数と内圧係数の「差」（風力係数＝外圧係数－内圧係数）で求めるもので、「積」ではない。②③④は正しい。②積雪荷重の低減、③固定席のほうが積載荷重を小さくできる、④基準風速は再現期間50年の10分間平均風速値、はいずれも適当。",
+          "studyContent": "風圧力＝速度圧×風力係数、風力係数＝外圧係数－内圧係数。固定席（2,900N/㎡）は自由席（3,500N/㎡）より小さい。基準風速は50年再現の10分平均。出典: https://kenchikusekou1.kakomonn.com/questions/65737",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào về tải trọng và ngoại lực tác dụng lên công trình là KHÔNG thích hợp nhất?",
+          "choices_vi": ["Hệ số lực gió dùng để tính áp lực gió được tính bằng TÍCH của hệ số áp lực ngoài và hệ số áp lực trong của công trình.", "Ở vùng có tập quán cào dọn tuyết, khi lượng tuyết tích thẳng đứng vượt 1m, tải trọng tuyết có thể tính bằng cách giảm lượng tuyết thẳng đứng xuống còn 1m theo tình hình thực tế cào dọn.", "Tải trọng sử dụng trên một đơn vị diện tích sàn của ghế khán giả ở rạp hát, rạp chiếu phim... nếu không tính theo thực tế thì ghế cố định có thể nhỏ hơn ghế không cố định.", "Vận tốc gió cơ sở dùng để tính áp lực vận tốc, về nguyên tắc, tương ứng vận tốc gió trung bình 10 phút với chu kỳ lặp 50 năm của vùng đó."],
+          "explanation_vi": "Không thích hợp nhất là ①. Hệ số lực gió tính bằng HIỆU của hệ số áp lực ngoài và hệ số áp lực trong (hệ số lực gió ＝ hệ số áp lực ngoài － hệ số áp lực trong), không phải «tích». ②③④ đều đúng: giảm tải tuyết, ghế cố định cho phép tải nhỏ hơn, vận tốc gió cơ sở là trung bình 10 phút chu kỳ lặp 50 năm.",
+          "studyContent_vi": "Áp lực gió ＝ áp lực vận tốc × hệ số lực gió; hệ số lực gió ＝ hệ số áp lực ngoài － hệ số áp lực trong. Ghế cố định (2.900N/㎡) nhỏ hơn ghế tự do (3.500N/㎡). Vận tốc gió cơ sở là trung bình 10 phút, chu kỳ lặp 50 năm."
         },
         {
-          "label": "Q8",
-          "question": "電気設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "ビニル電線（IV）は、地中電線路に用いることができる。",
-            "低圧屋内配線のための金属管は、規定値未満の厚さのものをコンクリートに埋め込んではならない。",
-            "合成樹脂製可とう電線管のうちPF管は、自己消火性があり、屋内隠ぺい配管に用いることができる。",
-            "合成樹脂管内、金属管内及び金属製可とう電線管内では、電線に接続点を設けてはならない。"
-          ],
+          "label": "R4 No.9",
+          "question": "図に示す3ヒンジラーメン架構のAD間及びDC間に集中荷重が同時に作用するとき、支点Bに生じる水平反力HB、鉛直反力VBの値の大きさの組合せとして、正しいものはどれか。",
+          "choices": ["HB＝2kN、VB＝6kN", "HB＝3kN、VB＝9kN", "HB＝4kN、VB＝12kN", "HB＝5kN、VB＝15kN"],
           "answer": "1",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 誤り。ビニル電線（IV、600Vビニル絶縁電線）は屋内配線用であり、地中電線路には用いることができない。地中電線路にはCVケーブルやEM-CEケーブル等を用いる。\n選択肢2. 正。金属管をコンクリートに埋め込む場合、厚さ1.2mm未満としてはならない。\n選択肢3. 正。PF管は自己消火性があり屋内隠ぺい配管に用いることができる。\n選択肢4. 正。合成樹脂管内・金属管内・金属製可とう電線管内では電線に接続点を設けてはならない（接続はボックス内で行う）。\n02\n選択肢1が誤り。IV電線は地中に直接用いることはできず、地中にはケーブルを用いる。",
-          "studyContent": "まとめ\nIV電線（600Vビニル絶縁電線）は屋内用で地中電線路に使用不可、地中はCVケーブル等を用いる（地中に用いることができるは誤り）。金属管は1.2mm未満をコンクリート埋込不可。PF管は自己消火性あり屋内隠ぺい可。管内では電線の接続点を設けない（ボックス内で接続）。",
-          "question_vi": "Trong các mô tả về thiết bị điện sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Dây điện vinyl (IV) có thể dùng cho đường dây điện ngầm dưới đất.",
-            "Ống kim loại cho đi dây hạ áp trong nhà không được chôn vào bê tông loại có độ dày dưới giá trị quy định.",
-            "Trong ống điện mềm bằng nhựa tổng hợp, ống PF có tính tự dập lửa, dùng được cho đi dây âm trong nhà.",
-            "Trong ống nhựa, ống kim loại và ống kim loại mềm, không được tạo điểm nối trên dây dẫn."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. SAI. Dây vinyl (IV, dây cách điện vinyl 600V) dùng cho đi dây trong nhà, KHÔNG dùng được cho đường dây ngầm. Đường dây ngầm dùng cáp CV, EM-CE v.v.\nLựa chọn 2. ĐÚNG. Khi chôn ống kim loại vào bê tông, độ dày không được dưới 1,2mm.\nLựa chọn 3. ĐÚNG. Ống PF tự dập lửa, dùng được cho đi dây âm trong nhà.\nLựa chọn 4. ĐÚNG. Trong ống nhựa, ống kim loại, ống kim loại mềm không được tạo điểm nối dây (nối trong hộp).\n02\nLựa chọn 1 sai. Dây IV không dùng trực tiếp dưới đất; đường ngầm phải dùng cáp.",
-          "studyContent_vi": "Tổng kết\nDây IV (cách điện vinyl 600V) dùng trong nhà, không dùng cho đường dây ngầm (dùng được dưới đất là sai); ngầm dùng cáp CV v.v. Ống kim loại không chôn bê tông nếu dày dưới 1,2mm. Ống PF tự dập lửa, đi dây âm trong nhà. Trong ống không tạo điểm nối dây (nối trong hộp)."
-        }
-      ]
-    },
-    {
-      "path": "1.3 建築設備 > 1.3.2 空調設備",
-      "vocabulary": "空気調和 (くうきちょうわ) - điều hòa không khí\n空気調和機 (くうきちょうわき) - máy điều hòa không khí (AHU)\nエアフィルタ - phin lọc khí\n冷却塔 (れいきゃくとう) - tháp giải nhiệt\n気化熱 (きかねつ) - nhiệt hóa hơi\n二重ダクト方式 (にじゅうダクトほうしき) - hệ hai ống gió\n単一ダクト方式 (たんいつダクトほうしき) - hệ một ống gió\nCAV方式 - hệ định lưu lượng (Constant Air Volume)\nVAV方式 - hệ biến lưu lượng (Variable Air Volume)\nファンコイルユニット (FCU) - dàn quạt-cuộn (fan coil unit)\n2管式 (にかんしき) - kiểu 2 ống\n4管式 (よんかんしき) - kiểu 4 ống\nパッケージユニット方式 - hệ điều hòa cục bộ (package unit)\n混合ユニット (こんごうユニット) - bộ trộn gió nóng/lạnh",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "空気調和設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "空気調和機は、一般にエアフィルタ、空気冷却器、空気加熱器、加湿器等で構成される装置である。",
-            "冷却塔は、温度上昇した冷却水を、空気と直接接触させて気化熱により冷却する装置である。",
-            "二重ダクト方式は、2系統のダクトで送られた温風と冷風を、混合ユニットにより熱負荷に応じて混合量を調整して吹き出す方式である。",
-            "ファンコイルユニット方式における2管式の配管方式は、ゾーンごとに冷暖房の同時運転が可能で、室内環境の制御性に優れている。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 正。空気調和機はエアフィルタ、空気冷却器、空気加熱器、加湿器等で構成される。\n選択肢2. 正。冷却塔は冷却水を空気と直接接触させ気化熱で冷却する。\n選択肢3. 正。二重ダクト方式は温風と冷風を混合ユニットで混合して吹き出す。\n選択肢4. 誤り。2管式は冷水と温水を同一の配管（1系統）で供給するため、冷暖房の同時運転はできない。同時運転が可能なのは4管式である。\n02\n選択肢4が誤り。冷暖房同時運転・高い制御性は4管式の特徴。",
-          "studyContent": "まとめ\nFCUの2管式（冷温水を1系統で供給・冷暖切替・同時運転不可）と4管式（冷水・温水を別々に供給・同時運転可）を区別。冷却塔は気化熱で冷却。二重ダクトは混合ユニットで温冷風を混合。",
-          "question_vi": "Trong các mô tả về thiết bị điều hòa không khí sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Máy điều hòa không khí nói chung gồm phin lọc khí, bộ làm lạnh khí, bộ sưởi khí, bộ tạo ẩm v.v.",
-            "Tháp giải nhiệt cho nước giải nhiệt đã tăng nhiệt độ tiếp xúc trực tiếp với không khí để làm mát bằng nhiệt hóa hơi.",
-            "Hệ hai ống gió trộn gió nóng và gió lạnh từ 2 ống bằng bộ trộn, điều chỉnh lượng trộn theo tải nhiệt rồi thổi ra.",
-            "Kiểu 2 ống của hệ fan coil có thể chạy lạnh-nóng đồng thời theo từng vùng, khả năng điều khiển môi trường phòng tốt."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. ĐÚNG. Máy điều hòa gồm phin lọc, bộ làm lạnh, bộ sưởi, bộ tạo ẩm v.v.\nLựa chọn 2. ĐÚNG. Tháp giải nhiệt làm mát nước bằng tiếp xúc trực tiếp với không khí (nhiệt hóa hơi).\nLựa chọn 3. ĐÚNG. Hệ hai ống gió trộn gió nóng-lạnh bằng bộ trộn rồi thổi ra.\nLựa chọn 4. SAI. Kiểu 2 ống cấp nước lạnh/nóng chung một hệ ống (1 hệ) nên KHÔNG thể chạy lạnh-nóng đồng thời. Chạy đồng thời được là kiểu 4 ống.\n02\nLựa chọn 4 sai. Chạy lạnh-nóng đồng thời và điều khiển tốt là đặc trưng của kiểu 4 ống.",
-          "studyContent_vi": "Tổng kết\nPhân biệt kiểu 2 ống (cấp nước lạnh/nóng chung 1 hệ, chuyển đổi lạnh-nóng, không chạy đồng thời) và kiểu 4 ống (cấp nước lạnh và nóng riêng, chạy đồng thời được). Tháp giải nhiệt làm mát bằng nhiệt hóa hơi. Hệ hai ống gió trộn gió nóng-lạnh bằng bộ trộn."
+          "explanation": "正解はHB＝2kN、VB＝6kN。A端まわりのモーメントつり合い MA＝0より 6×4＋6×2－VB×6＝0 → VB＝6kN。次に右側CEBでヒンジC点のモーメントつり合い MC＝0より −VB×2＋HB×6＝0 → HB＝2kN。",
+          "studyContent": "3ヒンジラーメンは MC＝0 が左右それぞれで成立する。ΣH＝0、ΣV＝0、MA＝0、MB＝0、MC＝0 の4式から4つの未知反力を求める。出典: https://kenchikusekou1.kakomonn.com/questions/65738",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi các tải tập trung đồng thời tác dụng trên đoạn AD và DC, tổ hợp độ lớn phản lực ngang HB và phản lực đứng VB tại gối B nào là đúng?",
+          "choices_vi": ["HB＝2kN, VB＝6kN", "HB＝3kN, VB＝9kN", "HB＝4kN, VB＝12kN", "HB＝5kN, VB＝15kN"],
+          "explanation_vi": "Đáp án đúng là HB＝2kN, VB＝6kN. Lấy mô-men quanh A (MA＝0): 6×4＋6×2－VB×6＝0 → VB＝6kN. Xét phần phải CEB tại khớp C (MC＝0): −VB×2＋HB×6＝0 → HB＝2kN.",
+          "studyContent_vi": "Khung 3 khớp có MC＝0 thỏa mãn riêng cho cả hai phía. Dùng 4 phương trình ΣH＝0, ΣV＝0, MA＝0, MB＝0, MC＝0 để tìm 4 phản lực chưa biết."
         },
         {
-          "label": "Q2",
-          "question": "空気調和設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "空気調和機は、一般にエアフィルタ、空気冷却器、空気加熱器、加湿器、送風機等で構成される装置である。",
-            "冷却塔は、温度上昇した冷却水を、空気と直接接触させて気化熱により冷却する装置である。",
-            "二重ダクト方式は、2系統のダクトで送られた温風と冷風を、混合ユニットにより熱負荷に応じて混合量を調整して吹き出す方式である。",
-            "単一ダクト方式におけるCAV方式は、負荷変動に対して風量を変える方式である。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1～3. 正。設問の通り。\n選択肢4. 誤り。CAV方式（定風量方式）は風量を一定に保ち、吹出温度を変えて負荷に対応する方式である。負荷変動に応じて風量を変えるのはVAV方式（変風量方式）である。\n02\n選択肢4が誤り。CAVは風量一定、VAVは風量可変。",
-          "studyContent": "まとめ\nCAV（定風量）は風量一定で吹出温度を変える、VAV（変風量）は負荷に応じて風量を変える。設問のCAV説明はVAVの内容で誤り。",
-          "question_vi": "Trong các mô tả về thiết bị điều hòa không khí sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Máy điều hòa gồm phin lọc khí, bộ làm lạnh, bộ sưởi, bộ tạo ẩm, quạt gió v.v.",
-            "Tháp giải nhiệt cho nước giải nhiệt đã tăng nhiệt tiếp xúc trực tiếp không khí để làm mát bằng nhiệt hóa hơi.",
-            "Hệ hai ống gió trộn gió nóng-lạnh bằng bộ trộn, điều chỉnh lượng trộn theo tải nhiệt rồi thổi ra.",
-            "Hệ CAV trong hệ một ống gió là kiểu thay đổi lưu lượng gió theo biến động tải."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1–3. ĐÚNG. Như đề.\nLựa chọn 4. SAI. Hệ CAV (định lưu lượng) giữ lưu lượng gió cố định, thay đổi nhiệt độ thổi ra để đáp ứng tải. Thay đổi lưu lượng gió theo tải là hệ VAV (biến lưu lượng).\n02\nLựa chọn 4 sai. CAV lưu lượng cố định, VAV lưu lượng thay đổi.",
-          "studyContent_vi": "Tổng kết\nCAV (định lưu lượng) giữ lưu lượng cố định, thay đổi nhiệt độ thổi ra; VAV (biến lưu lượng) thay đổi lưu lượng theo tải. Mô tả CAV trong đề thực ra là nội dung của VAV nên sai."
-        },
-        {
-          "label": "Q3",
-          "question": "空気調和設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "パッケージユニット方式は、小容量の熱源機器を建物内に多数分散配置する方式であり、セントラルシステムに比較して保守管理に手間を要する方式である。",
-            "ファンコイルユニット方式における4管式は、2管式と比較してゾーンごとの冷暖房同時運転が可能で、室内環境の制御性に優れている方式である。",
-            "二重ダクト方式は、2系統のダクトで送風された温風と冷風を、混合ユニットにより熱負荷に応じて混合量を調整して吹き出す方式である。",
-            "単一ダクト方式におけるCAV方式は、負荷変動に対して風量を変える方式である。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1～3. 正。設問の通り。パッケージ方式は分散配置で保守管理に手間、ファンコイル4管式は同時運転可、二重ダクトは混合ユニットで混合。\n選択肢4. 誤り。CAV方式は風量一定で吹出温度を変える方式。負荷変動に応じて風量を変えるのはVAV。\n02\n選択肢4が誤り。CAVは定風量、VAVは変風量。",
-          "studyContent": "まとめ\nCAVは風量一定（吹出温度を変更）、VAVは負荷に応じて風量を変更。パッケージは分散配置で保守に手間。4管式は同時運転可。",
-          "question_vi": "Trong các mô tả về thiết bị điều hòa không khí sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Hệ package đặt phân tán nhiều máy nguồn nhiệt cỡ nhỏ trong nhà, tốn công bảo trì hơn so với hệ trung tâm.",
-            "Kiểu 4 ống của hệ fan coil so với kiểu 2 ống có thể chạy lạnh-nóng đồng thời theo vùng, điều khiển môi trường phòng tốt hơn.",
-            "Hệ hai ống gió trộn gió nóng-lạnh bằng bộ trộn, điều chỉnh lượng trộn theo tải nhiệt rồi thổi ra.",
-            "Hệ CAV trong hệ một ống gió là kiểu thay đổi lưu lượng gió theo biến động tải."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1–3. ĐÚNG. Như đề. Hệ package đặt phân tán nên tốn công bảo trì; fan coil 4 ống chạy đồng thời được; hệ hai ống gió trộn bằng bộ trộn.\nLựa chọn 4. SAI. Hệ CAV giữ lưu lượng cố định, thay đổi nhiệt độ thổi ra. Thay đổi lưu lượng theo tải là VAV.\n02\nLựa chọn 4 sai. CAV định lưu lượng, VAV biến lưu lượng.",
-          "studyContent_vi": "Tổng kết\nCAV lưu lượng cố định (đổi nhiệt độ thổi ra), VAV đổi lưu lượng theo tải. Hệ package đặt phân tán tốn công bảo trì. Kiểu 4 ống chạy đồng thời được."
-        },
-        {
-          "label": "Q4",
-          "question": "空気調和設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "ファンコイルユニット方式における2管式は、冷水管及び温水管をそれぞれ設置し、各ユニットや系統ごとに選択、制御して冷暖房を行う方式である。",
-            "パッケージユニット方式は、小容量の熱源機器を内蔵するパッケージ型空調機を、各空調区域や各室に設置して空調を行う方式である。",
-            "定風量単一ダクト方式は、還気と外気を空調機内で温度、湿度、清浄度を総合的に調整した後、ダクトにより各室に一定の風量で送風する方式である。",
-            "二重ダクト方式は、2系統のダクトで送られた温風と冷風を、混合ユニットにより熱負荷に応じて混合量を調整して吹き出す方式である。"
-          ],
-          "answer": "1",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 誤り。冷水管と温水管をそれぞれ設置し、各ユニットや系統ごとに選択・制御して冷暖房を行うのは4管式の説明である。2管式は冷水と一本の返り管を共用し、冷水か温水のいずれかを供給するため冷暖房の同時運転はできない。\n選択肢2～4. 正。設問の通り。\n02\n選択肢1が誤り。設問は4管式の内容を「2管式」としているため不適当。",
-          "studyContent": "まとめ\nFCUの2管式は冷水か温水のいずれかを供給（同時運転不可）、4管式は冷水管・温水管を別々に設置し同時運転可。設問は4管式の説明を2管式としている点が誤り。",
-          "question_vi": "Trong các mô tả về thiết bị điều hòa không khí sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kiểu 2 ống của hệ fan coil lắp riêng ống nước lạnh và ống nước nóng, chọn và điều khiển theo từng dàn/hệ để làm lạnh-sưởi.",
-            "Hệ package đặt máy điều hòa kiểu package có nguồn nhiệt cỡ nhỏ bên trong tại từng khu/phòng để điều hòa.",
-            "Hệ một ống gió định lưu lượng điều chỉnh tổng hợp nhiệt độ, độ ẩm, độ sạch của gió hồi và gió ngoài trong máy rồi thổi đến từng phòng với lưu lượng cố định.",
-            "Hệ hai ống gió trộn gió nóng-lạnh từ 2 ống bằng bộ trộn, điều chỉnh lượng trộn theo tải nhiệt rồi thổi ra."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. SAI. Việc lắp riêng ống nước lạnh và nóng để chọn/điều khiển làm lạnh-sưởi là mô tả của kiểu 4 ống. Kiểu 2 ống dùng chung đường ống, chỉ cấp nước lạnh hoặc nóng nên không chạy đồng thời được.\nLựa chọn 2–4. ĐÚNG. Như đề.\n02\nLựa chọn 1 sai. Đề lấy nội dung kiểu 4 ống để gán cho 'kiểu 2 ống' nên không phù hợp.",
-          "studyContent_vi": "Tổng kết\nKiểu 2 ống của FCU chỉ cấp nước lạnh hoặc nóng (không chạy đồng thời); kiểu 4 ống lắp riêng ống lạnh và nóng, chạy đồng thời được. Điểm sai của đề là gán mô tả kiểu 4 ống cho kiểu 2 ống."
-        }
-      ]
-    },
-    {
-      "path": "1.3 建築設備 > 1.3.3 給排水衛生設備",
-      "vocabulary": "給水方式 (きゅうすいほうしき) - phương thức cấp nước\n水道直結直圧方式 - cấp trực tiếp bằng áp lực ống nước (không bơm, không bể)\n水道直結増圧方式 - cấp trực tiếp có tăng áp (gắn bộ tăng áp)\n高置水槽方式 (こうちすいそうほうしき) - kiểu bể nước trên cao\n受水槽 (じゅすいそう) - bể nhận/chứa nước\nポンプ直送方式 - kiểu bơm cấp trực tiếp (từ bể nhận)\n圧力水槽方式 (あつりょくすいそうほうしき) - kiểu bể áp lực\nエアチャンバー - bình khí (chống va đập nước)\nウォーターハンマー - hiện tượng va đập nước (water hammer)\n排水トラップ - bẫy nước thoát\n封水 (ふうすい) - nước bịt trong bẫy\n通気管 (つうきかん) - ống thông hơi\n横走り排水管 (よこばしりはいすいかん) - ống thoát nước chạy ngang\n勾配 (こうばい) - độ dốc\n排水槽 (はいすいそう) - bể thoát nước\n吸い込みピット (すいこみピット) - hố hút (pit)",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "給排水設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "高置水槽方式は、一度受水槽に貯留した水をポンプで建物高所の高置水槽に揚水し、高置水槽からは重力によって各所に給水する方式である。",
-            "ポンプ直送方式は、一度受水槽に貯留した水をポンプを介して直接各所に給水する方式である。",
-            "エアチャンバーは、給水管内に生ずるウォーターハンマーの水撃圧を吸収するためのものである。",
-            "排水系統に設ける通気管は、汚水や雑排水の逆流を防止するためのものである。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （1件）\n01\n最も不適当なのは「排水系統に設ける通気管は、汚水や雑排水の逆流を防止するためのものである。」である。通気管の主な役割は、排水管内の空気の通り道を確保して圧力を調整することであり、これによって封水（トラップの水）が抜けるのを防ぐためのものである。「逆流を防止する」が中心の説明になっている点が合わない。\n選択肢1. 正。高置水槽方式はいったん高い所の水槽まで水を上げ、そこからは重力で配る。停電時でも高置水槽に水が残っていればしばらく給水できることがある。\n選択肢2. 正。ポンプ直送方式は高置水槽を使わず、受水槽の水をポンプでそのまま各階や各所へ送る。\n選択肢3. 正。エアチャンバーは中に空気のクッションを持たせ、急に弁を閉めたときに起こるウォーターハンマーの衝撃圧をやわらげる。\n選択肢4. 誤り。通気管の目的は排水管内の空気の圧力を整えて器具トラップの封水が吸い出されたり押し出されたりするのを防ぐことであり、「逆流防止」は通気管の説明としてはズレている。",
-          "studyContent": "まとめ\n・高置水槽方式は上の水槽から重力で給水する。\n・ポンプ直送方式は水槽を介さずポンプで直接給水する。\n・エアチャンバーはウォーターハンマーの衝撃圧を吸収する。\n・通気管は排水管内の圧力を調整して封水を守るのが中心の役割。",
-          "question_vi": "Trong các mô tả về thiết bị cấp thoát nước sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kiểu bể nước trên cao: nước sau khi chứa ở bể nhận được bơm lên bể trên cao của công trình, rồi từ bể trên cao cấp đi các nơi bằng trọng lực.",
-            "Kiểu bơm cấp trực tiếp: nước sau khi chứa ở bể nhận được bơm cấp thẳng đến các nơi qua bơm.",
-            "Bình khí (air chamber) dùng để hấp thụ áp lực va đập nước (water hammer) phát sinh trong ống cấp nước.",
-            "Ống thông hơi đặt ở hệ thoát nước dùng để ngăn nước bẩn và nước thải chảy ngược."
-          ],
-          "explanation_vi": "Giải thích đề này (1 bài giải)\n01\nMô tả KHÔNG phù hợp nhất là 'Ống thông hơi đặt ở hệ thoát nước dùng để ngăn nước bẩn và nước thải chảy ngược.'. Vai trò chính của ống thông hơi là bảo đảm lối đi của không khí trong ống thoát để điều chỉnh áp suất, nhờ đó ngăn nước bịt (nước trong bẫy) bị hút mất. Việc lấy 'ngăn chảy ngược' làm mô tả trung tâm là không đúng.\nLựa chọn 1. ĐÚNG. Kiểu bể trên cao bơm nước lên bể cao rồi cấp bằng trọng lực; khi mất điện mà bể cao còn nước thì vẫn cấp được một thời gian.\nLựa chọn 2. ĐÚNG. Kiểu bơm cấp trực tiếp không dùng bể trên cao, bơm nước từ bể nhận thẳng đến các nơi.\nLựa chọn 3. ĐÚNG. Bình khí có đệm không khí bên trong để giảm áp lực va đập khi đóng van đột ngột (water hammer).\nLựa chọn 4. SAI. Mục đích của ống thông hơi là điều chỉnh áp suất không khí trong ống thoát để tránh nước bịt của bẫy bị hút ra/đẩy ra; 'ngăn chảy ngược' không phải mô tả đúng của ống thông hơi.",
-          "studyContent_vi": "Tổng kết\n・ Kiểu bể trên cao cấp nước bằng trọng lực từ bể phía trên.\n・ Kiểu bơm cấp trực tiếp cấp thẳng bằng bơm, không qua bể trên cao.\n・ Bình khí hấp thụ áp lực va đập nước.\n・ Ống thông hơi chủ yếu điều chỉnh áp suất trong ống thoát để giữ nước bịt."
-        },
-        {
-          "label": "Q2",
-          "question": "給排水設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "高置水槽方式は、一度受水槽に貯留した水をポンプで建物高所の高置水槽に揚水し、高置水槽からは重力によって各所に給水する方式である。",
-            "圧力水槽方式は、受水槽の水をポンプで圧力水槽に送水し、圧力水槽内の空気を加圧して、その圧力によって各所に給水する方式である。",
-            "屋内の自然流下式横走り排水管の最小勾配は、管径が100mmの場合、1／100とする。",
-            "排水槽の底の勾配は、吸い込みピットに向かって1／100とする。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （3件）\n01\n勾配の限界値を暗記する。\n選択肢1. 正。設問の通り。\n選択肢2. 正。圧力水槽方式は受水槽の水をポンプで圧力水槽に送水し、圧力水槽内の空気を加圧してその圧力で給水する。\n選択肢3. 正。屋内の横走り排水管の最小勾配は、管径65mm以下は1／50、管径75mm・100mmは1／100、管径125mmは1／150とする。\n選択肢4. 誤り。排水槽の底の勾配は吸い込みピットに向かって1／15以上1／10以下とする必要がある。水が流れるように下限値1／15、点検や清掃時に人が作業できるように上限値1／10と定めている。\n02\n選択肢4が誤り。排水槽の底の勾配は吸い込みピットに向かって1／15以上1／10以下とする。\nまとめ\n勾配1/100は配管の勾配であることに注意する。また配管の径によって最小勾配が変わり、太いほど緩い勾配となる。\n03\n選択肢4が不適当。1/100は緩すぎて排水槽の底に汚れが溜まりやすいため不適当であり、排水槽の底の勾配はより急に設定すべきである。",
-          "studyContent": "まとめ\n屋内の横走り排水管の最小勾配：管径65mm以下→1／50、75mm・100mm→1／100、125mm→1／150（太いほど緩い）。排水槽の底の勾配は吸い込みピットに向かって1／15以上1／10以下とする（1／100は緩すぎで誤り）。",
-          "question_vi": "Trong các mô tả về thiết bị cấp thoát nước sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kiểu bể nước trên cao: bơm nước từ bể nhận lên bể trên cao rồi cấp đi các nơi bằng trọng lực.",
-            "Kiểu bể áp lực: bơm nước từ bể nhận vào bể áp lực, nén không khí trong bể áp lực để dùng áp lực đó cấp nước đi các nơi.",
-            "Độ dốc tối thiểu của ống thoát chạy ngang tự chảy trong nhà, khi đường kính 100mm, lấy bằng 1／100.",
-            "Độ dốc đáy bể thoát nước hướng về hố hút lấy bằng 1／100."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nHãy thuộc các giá trị giới hạn độ dốc.\nLựa chọn 1. ĐÚNG. Như đề.\nLựa chọn 2. ĐÚNG. Kiểu bể áp lực bơm nước vào bể áp lực rồi nén không khí để cấp nước bằng áp lực đó.\nLựa chọn 3. ĐÚNG. Độ dốc tối thiểu ống thoát chạy ngang trong nhà: đường kính ≤65mm → 1／50, 75mm・100mm → 1／100, 125mm → 1／150.\nLựa chọn 4. SAI. Độ dốc đáy bể thoát nước hướng về hố hút phải lấy từ 1／15 đến 1／10. Cận dưới 1／15 để nước chảy được, cận trên 1／10 để người có thể làm việc khi kiểm tra/vệ sinh.\n02\nLựa chọn 4 sai. Độ dốc đáy bể thoát hướng về hố hút lấy 1／15 đến 1／10.\nTổng kết\nLưu ý 1/100 là độ dốc của đường ống; đường kính càng lớn thì độ dốc tối thiểu càng thoải.\n03\nLựa chọn 4 không phù hợp. 1/100 quá thoải nên cặn dễ đọng ở đáy bể, do đó đáy bể phải dốc hơn.",
-          "studyContent_vi": "Tổng kết\nĐộ dốc tối thiểu ống thoát chạy ngang trong nhà: ≤65mm → 1／50, 75mm・100mm → 1／100, 125mm → 1／150 (càng to càng thoải). Độ dốc đáy bể thoát hướng về hố hút lấy 1／15 đến 1／10 (1／100 quá thoải là sai)."
-        },
-        {
-          "label": "Q3",
-          "question": "給水設備の給水方式に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "高置水槽方式は、一度受水槽に貯留した水をポンプで建物高所の高置水槽に揚水し、高置水槽からは重力によって各所に給水する方式である。",
-            "圧力水槽方式は、受水槽の水をポンプで圧力水槽に送水し、圧力水槽内の空気を加圧して、その圧力によって各所に給水する方式である。",
-            "ポンプ直送方式は、水道本管から分岐した水道引き込み管にポンプを直結し、各所に給水する方式である。",
-            "水道直結直圧方式は、水道本管から分岐した水道引き込み管より直接各所に給水する方式である。"
-          ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n給水方式は大きく5タイプに区分される。直結式は水槽が不要、その他の方式では貯水のための水槽が必要となる。名称から判断できるため覚えやすい。\n選択肢1. 正。高置水槽から自然落下（重力）で配水する方式。屋上の高置水槽へは地上・地下の受水槽から揚水ポンプで送る。高架水槽方式とも言う。\n選択肢2. 正。圧力水槽方式は受水槽の水をポンプで圧力水槽へ送り、圧力水槽内の空気を圧縮（加圧）して水を押し出して給水する。\n選択肢3. 誤り。ポンプ直送方式は受水槽の水をポンプで各所へ給水する方式で、受水槽と給水箇所の中間にポンプがある。水道引き込み管にポンプを直結する方式は水道直結増圧方式である。\n選択肢4. 正。水道直結直圧方式は水道引込み管の圧力だけで給水する方式で、ポンプが不要である。\n02\n選択肢3が誤り。ポンプ直送方式は受水槽に受水したものをポンプで加圧して建物各所へ給水する方式で、水道本管から直接ポンプで送るのではなく一時貯水する。\n03\n選択肢3が正解（不適当）。ポンプ直送方式は受水槽にある水をポンプで各所へ給水する方式である。\nまとめ\nポンプが不要な方式、水槽が不要な方式に区分すると覚えやすい。直結は水道管と建物を直結。水槽を設置する場合は必ずポンプが必要になる。",
-          "studyContent": "まとめ\n給水方式は受水槽なし（水道直結直圧・水道直結増圧）と受水槽あり（高置水槽・ポンプ直送・圧力水槽）に大別。ポンプ直送方式は受水槽の水をポンプで各所へ送る方式で、水道引込み管にポンプを直結するのは水道直結増圧方式。直圧方式はポンプ不要。",
-          "question_vi": "Trong các mô tả về phương thức cấp nước của thiết bị cấp nước sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kiểu bể trên cao: bơm nước từ bể nhận lên bể trên cao rồi cấp đi các nơi bằng trọng lực.",
-            "Kiểu bể áp lực: bơm nước vào bể áp lực, nén không khí trong bể để cấp nước bằng áp lực đó.",
-            "Kiểu bơm cấp trực tiếp: gắn bơm trực tiếp vào ống dẫn nước nhánh từ ống chính rồi cấp đi các nơi.",
-            "Kiểu cấp trực tiếp áp lực ống nước: cấp thẳng đi các nơi từ ống dẫn nước nhánh từ ống chính."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nPhương thức cấp nước chia thành 5 loại lớn. Loại đấu trực tiếp không cần bể; các loại khác cần bể chứa. Tên gọi phản ánh đặc điểm nên dễ nhớ.\nLựa chọn 1. ĐÚNG. Cấp bằng rơi tự nhiên (trọng lực) từ bể trên cao; bơm lên bể mái từ bể nhận đặt ở mặt đất/tầng hầm.\nLựa chọn 2. ĐÚNG. Bơm nước vào bể áp lực rồi nén không khí để đẩy nước ra cấp đi.\nLựa chọn 3. SAI. Kiểu bơm cấp trực tiếp bơm nước TỪ BỂ NHẬN đến các nơi, bơm nằm giữa bể nhận và điểm dùng. Việc gắn bơm trực tiếp vào ống dẫn nước là kiểu cấp trực tiếp tăng áp.\nLựa chọn 4. ĐÚNG. Kiểu cấp trực tiếp áp lực chỉ dùng áp lực của ống dẫn nước, không cần bơm.\n02\nLựa chọn 3 sai. Kiểu bơm cấp trực tiếp dùng nước đã chứa ở bể nhận rồi bơm tăng áp cấp đi, không bơm thẳng từ ống chính mà có chứa tạm.\n03\nLựa chọn 3 là đáp án (không phù hợp). Kiểu bơm cấp trực tiếp bơm nước từ bể nhận đến các nơi.\nTổng kết\nChia theo có/không cần bơm, có/không cần bể sẽ dễ nhớ. Đấu trực tiếp = nối thẳng ống nước với công trình. Có bể thì luôn cần bơm.",
-          "studyContent_vi": "Tổng kết\nPhân loại: không bể nhận (cấp trực tiếp áp lực, cấp trực tiếp tăng áp) và có bể nhận (bể trên cao, bơm cấp trực tiếp, bể áp lực). Kiểu bơm cấp trực tiếp bơm nước từ bể nhận đi các nơi; gắn bơm thẳng vào ống dẫn là kiểu cấp trực tiếp tăng áp. Kiểu áp lực ống nước không cần bơm."
-        },
-        {
-          "label": "Q4",
-          "question": "給水設備の給水方式に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "水道直結増圧方式は、水道本管から分岐した水道引込み管に増圧給水装置を直結し、各所に給水する方式である。",
-            "高置水槽方式は、一度受水槽に貯留した水をポンプで建物高所の高置水槽に揚水し、高置水槽からは重力によって各所に給水する方式である。",
-            "ポンプ直送方式は、水道本管から分岐した水道引込み管にポンプを直結し、各所に給水する方式である。",
-            "圧力水槽方式は、受水槽の水をポンプで圧力水槽に送水し、圧力水槽内の空気を加圧して、その圧力によって各所に給水する方式である。"
-          ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n正解は3。\n1. 設問の通り。\n2. 設問の通り。1つの高置水槽から適当な水圧で給水できる高さの範囲は10階程度で、高層建物では高置水槽や減圧弁を高さに応じて複数階に設置する必要がある。\n3. 誤り。ポンプ直送方式は受水槽に受水したものをポンプで加圧して建物各所へ給水する方式で、小規模の中層建物に多く使用される。水道本管から分岐した水道引込み管にポンプを直結する方式は水圧に影響を及ぼすため禁止されている。\n4. 設問の通り。小規模の中層建物に多く使用される。\n02\n選択肢3が誤り。ポンプ直送方式は受水槽の水をポンプで各所に給水する。\nまとめ：受水槽なし＝水道直結直圧方式・水道直結増圧方式、受水槽あり＝高置水槽方式・ポンプ直送方式・圧力水槽方式。\n03\n選択肢3が正解。ポンプ直送方式は受水槽に貯水した後に直送ポンプで給水する方式で、停電時に給水できない。なお水道直結増圧方式は逆流防止器の設置が必要。",
-          "studyContent": "まとめ\n受水槽なし＝水道直結直圧方式・水道直結増圧方式（増圧方式は逆流防止器が必要）、受水槽あり＝高置水槽方式・ポンプ直送方式・圧力水槽方式。ポンプ直送方式は受水槽の水を直送ポンプで給水するため停電時は給水不可。水道引込み管にポンプを直結するのは禁止。",
-          "question_vi": "Trong các mô tả về phương thức cấp nước của thiết bị cấp nước sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kiểu cấp trực tiếp tăng áp: gắn trực tiếp bộ tăng áp vào ống dẫn nước nhánh từ ống chính rồi cấp đi các nơi.",
-            "Kiểu bể trên cao: bơm nước từ bể nhận lên bể trên cao rồi cấp đi các nơi bằng trọng lực.",
-            "Kiểu bơm cấp trực tiếp: gắn bơm trực tiếp vào ống dẫn nước nhánh từ ống chính rồi cấp đi các nơi.",
-            "Kiểu bể áp lực: bơm nước từ bể nhận vào bể áp lực, nén không khí trong bể để cấp nước bằng áp lực đó."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nĐáp án là 3.\n1. Như đề.\n2. Như đề. Phạm vi chiều cao mà một bể trên cao cấp được với áp lực phù hợp khoảng 10 tầng; nhà cao tầng cần đặt nhiều bể trên cao hoặc van giảm áp theo chiều cao.\n3. SAI. Kiểu bơm cấp trực tiếp là bơm tăng áp nước đã nhận ở bể rồi cấp đến các nơi, hay dùng cho nhà tầng trung quy mô nhỏ. Việc gắn bơm trực tiếp vào ống dẫn nước nhánh bị CẤM vì ảnh hưởng tới áp lực ống nước.\n4. Như đề. Hay dùng cho nhà tầng trung quy mô nhỏ.\n02\nLựa chọn 3 sai. Kiểu bơm cấp trực tiếp bơm nước từ bể nhận đến các nơi.\nTổng kết: không bể = cấp trực tiếp áp lực, cấp trực tiếp tăng áp; có bể = bể trên cao, bơm cấp trực tiếp, bể áp lực.\n03\nLựa chọn 3 là đáp án. Kiểu bơm cấp trực tiếp bơm nước sau khi chứa ở bể nhận; khi mất điện không cấp được. Kiểu cấp trực tiếp tăng áp cần lắp van chống chảy ngược.",
-          "studyContent_vi": "Tổng kết\nKhông bể nhận = cấp trực tiếp áp lực, cấp trực tiếp tăng áp (loại tăng áp cần van chống chảy ngược); có bể nhận = bể trên cao, bơm cấp trực tiếp, bể áp lực. Kiểu bơm cấp trực tiếp bơm nước từ bể nhận nên mất điện không cấp được. Cấm gắn bơm trực tiếp vào ống dẫn nước."
-        }
-      ]
-    },
-    {
-      "path": "1.3 建築設備 > 1.3.5 消防設備",
-      "vocabulary": "消火設備 (しょうかせつび) - thiết bị chữa cháy\n屋内消火栓設備 (おくないしょうかせんせつび) - họng nước chữa cháy trong nhà\n屋外消火栓設備 (おくがいしょうかせんせつび) - họng nước chữa cháy ngoài nhà\nスプリンクラー設備 - thiết bị sprinkler\n閉鎖型ヘッド (へいさがたヘッド) - đầu kín (cảm biến nhiệt)\n開放型ヘッド (かいほうがたヘッド) - đầu hở (phun đồng loạt)\n湿式 (しっしき) - kiểu ướt\n不活性ガス消火設備 (ふかっせいガスしょうかせつび) - chữa cháy khí trơ (CO2 v.v.)\n泡消火設備 (あわしょうかせつび) - chữa cháy bọt\n粉末消火設備 (ふんまつしょうかせつび) - chữa cháy bột\n水噴霧消火設備 (みずふんむしょうかせつび) - chữa cháy phun sương\n連結散水設備 (れんけつさんすいせつび) - thiết bị phun nước liên kết\n連結送水管 (れんけつそうすいかん) - ống dẫn nước liên kết\n窒息効果 (ちっそくこうか) - hiệu quả làm ngạt\n冷却効果 (れいきゃくこうか) - hiệu quả làm mát\n負触媒効果 (ふしょくばいこうか) - hiệu quả ức chế phản ứng cháy",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "消火設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "不活性ガス消火設備は、二酸化炭素等の消火剤を放出するもので、酸素濃度の希釈効果や気化するときの熱吸収による冷却効果により消火するものである。",
-            "開放型スプリンクラー設備は、火災感知装置の作動、又は手動起動弁の開放によって放水区域のすべての開放型スプリンクラーヘッドから一斉に散水するものである。",
-            "泡消火設備は、特に低引火点の油類による火災の消火に適し、主として泡による窒息効果により消火するものである。",
-            "屋外消火栓設備は、散水ヘッドを消火活動が困難な場所に設置し、地上階の連結送水口を通じて消防車から送水して消火するものである。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 正。火災の際に二酸化炭素を放出して酸素を減少させ、冷却効果とあわせて消火する。\n選択肢2. 正。開放型スプリンクラーは劇場等に用いられ、火災感知装置の作動や手動起動弁の開放で一斉に散水する。\n選択肢3. 正。泡消火設備は駐車場やヘリポートなど水での消火が難しい場所で使われ、泡による窒息効果で消火する。\n選択肢4. 誤り。屋外消火栓設備は屋外から消火活動を行えるようにするもので、建物の1・2階へ散水し隣住宅へ火が燃え移らないようにする。設問の説明は連結散水設備のものである。\n02\n選択肢4が誤り。屋外消火栓設備は建物の下階部分を屋外から消火するためのもので、設問の説明は連結散水設備のもの。\nまとめ\n消火設備は名前と特徴をセットで覚える。不活性ガスは酸素希釈・冷却、開放型スプリンクラーは一斉散水、泡は窒息、屋外消火栓は建物下階を屋外から消火。",
-          "studyContent": "まとめ\n屋外消火栓設備＝建物の1・2階を屋外から消火し延焼を防ぐ設備。連結散水設備＝消火活動が困難な場所（地下街・地階）に散水ヘッドを設置し、連結送水口から消防車が送水する。両者を混同しないこと。",
-          "question_vi": "Trong các mô tả về thiết bị chữa cháy sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Thiết bị chữa cháy khí trơ phun chất chữa cháy như CO2, dập lửa nhờ hiệu quả pha loãng nồng độ oxy và hiệu quả làm mát do hấp thụ nhiệt khi hóa hơi.",
-            "Sprinkler kiểu đầu hở: khi thiết bị cảm biến cháy tác động hoặc mở van khởi động bằng tay thì tất cả đầu hở trong vùng phun phun đồng loạt.",
-            "Thiết bị chữa cháy bọt đặc biệt phù hợp chữa cháy dầu có điểm bắt lửa thấp, chủ yếu dập lửa bằng hiệu quả làm ngạt của bọt.",
-            "Thiết bị họng nước chữa cháy ngoài nhà đặt đầu phun ở nơi khó chữa cháy, qua họng tiếp nước tầng trệt nhận nước từ xe chữa cháy để dập lửa."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. ĐÚNG. Phun CO2 làm giảm oxy, kết hợp hiệu quả làm mát để dập lửa.\nLựa chọn 2. ĐÚNG. Sprinkler đầu hở dùng cho nhà hát v.v., phun đồng loạt khi cảm biến cháy tác động hoặc mở van bằng tay.\nLựa chọn 3. ĐÚNG. Thiết bị bọt dùng ở bãi đỗ xe, sân trực thăng v.v., nơi khó chữa bằng nước, dập bằng hiệu quả làm ngạt của bọt.\nLựa chọn 4. SAI. Thiết bị họng nước ngoài nhà dùng để chữa cháy từ bên ngoài, phun vào tầng 1・2 của công trình để ngăn cháy lan sang nhà bên. Mô tả trong đề là của thiết bị phun nước liên kết.\n02\nLựa chọn 4 sai. Họng nước ngoài nhà chữa phần tầng dưới của công trình từ bên ngoài; mô tả trong đề là của thiết bị phun nước liên kết.\nTổng kết\nNhớ tên và đặc điểm theo cặp: khí trơ = pha loãng oxy + làm mát; sprinkler đầu hở = phun đồng loạt; bọt = làm ngạt; họng ngoài nhà = chữa tầng dưới từ ngoài.",
-          "studyContent_vi": "Tổng kết\nHọng nước ngoài nhà = chữa tầng 1・2 từ bên ngoài, ngăn cháy lan. Thiết bị phun nước liên kết = đặt đầu phun ở nơi khó chữa cháy (phố ngầm, tầng hầm), nhận nước từ xe chữa cháy qua họng tiếp nước. Đừng nhầm hai loại."
-        },
-        {
-          "label": "Q2",
-          "question": "消火設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "屋内消火栓設備は、建物の内部に設置し、人がノズルを手に持ち、火点に向けてノズルより注水を行い、冷却作用により消火するものである。",
-            "閉鎖型ヘッドを用いる湿式スプリンクラー消火設備は、火災による煙を感知したスプリンクラーヘッドが自動的に開き、散水して消火するものである。",
-            "不活性ガス消火設備は、二酸化炭素等の消火剤を放出することにより、酸素濃度の希釈作用や気化するときの熱吸収による冷却作用により消火するものである。",
-            "水噴霧消火設備は、噴霧ヘッドから微細な霧状の水を噴霧することにより、冷却作用と窒息作用により消火するものである。"
-          ],
+          "label": "R4 No.10",
+          "question": "図に示す単純梁ABのCD間に等分布荷重wが、点Eに集中荷重Pが同時に作用するときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは、材の引張側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
           "answer": "2",
-          "explanation": "この過去問の解説 （2件）\n01\n選択肢1. 正。屋内消火栓設備は一般人でも使用でき初期消火に有効。油火災や電気火災では使用できない。\n選択肢2. 誤り。閉鎖型ヘッドは熱に感応して開放される仕組み（例：ヒュージブルリンクが熱で溶解）であり、スプリンクラーは基本的に熱感知型で煙感知器との連動はほとんどない。煙を感知して一斉開放弁が開くのは開放型スプリンクラー設備である。\n選択肢3. 正。不活性ガス消火設備は二酸化炭素や窒素等を用い、電気室や通信機械室、美術品など放水を避けたい場所に適する。\n選択肢4. 正。水噴霧消火設備はトンネルや駐車場、指定可燃物を保管する場所で採用され、霧状の水が急激に蒸発する冷却効果と火災面を覆う窒息効果で消火する。\n02\n選択肢2が誤り。湿式スプリンクラーのヘッドは一般に72℃の熱で自動的に開き散水する。煙を感知して一斉開放弁が開くのは開放型スプリンクラー設備。\nまとめ\nスプリンクラー（閉鎖型・湿式）は熱感知で作動し、煙感知ではない。煙感知・一斉散水は開放型。",
-          "studyContent": "まとめ\n閉鎖型（湿式）スプリンクラーは熱（約72℃）でヘッドが自動開放して散水、煙感知ではない。煙を感知して一斉開放弁が開くのは開放型スプリンクラー。屋内消火栓は冷却、不活性ガスは酸素希釈・冷却、水噴霧は冷却・窒息。",
-          "question_vi": "Trong các mô tả về thiết bị chữa cháy sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Họng nước chữa cháy trong nhà đặt bên trong công trình, người cầm vòi phun nước vào điểm cháy, dập lửa bằng tác dụng làm mát.",
-            "Sprinkler kiểu ướt dùng đầu kín: đầu sprinkler cảm biến KHÓI do cháy tự động mở rồi phun nước dập lửa.",
-            "Thiết bị chữa cháy khí trơ phun CO2 v.v., dập lửa nhờ pha loãng oxy và làm mát do hấp thụ nhiệt khi hóa hơi.",
-            "Thiết bị chữa cháy phun sương phun nước dạng sương mịn từ đầu phun, dập lửa bằng tác dụng làm mát và làm ngạt."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nLựa chọn 1. ĐÚNG. Họng nước trong nhà người thường cũng dùng được, hữu hiệu cho chữa cháy ban đầu; không dùng cho cháy dầu/điện.\nLựa chọn 2. SAI. Đầu kín mở ra nhờ CẢM BIẾN NHIỆT (ví dụ mối nóng chảy fusible link tan chảy), sprinkler về cơ bản là loại cảm nhiệt, hầu như không liên động với cảm biến khói. Loại cảm khói rồi van mở đồng loạt là sprinkler đầu hở.\nLựa chọn 3. ĐÚNG. Khí trơ dùng CO2, N2 v.v., hợp cho phòng điện, phòng thiết bị truyền thông, bảo tàng. CO2 nguy hiểm tính mạng nên cần cảnh báo trước khi xả và sơ tán người.\nLựa chọn 4. ĐÚNG. Phun sương dùng ở hầm, bãi đỗ xe, kho chất dễ cháy; nước sương bốc hơi nhanh làm mát và phủ bề mặt làm ngạt.\n02\nLựa chọn 2 sai. Đầu sprinkler kiểu ướt mở tự động ở khoảng 72℃ do nhiệt. Loại cảm khói rồi mở van đồng loạt là sprinkler đầu hở.\nTổng kết\nSprinkler (đầu kín, kiểu ướt) hoạt động bằng cảm NHIỆT chứ không phải khói; cảm khói + phun đồng loạt là đầu hở.",
-          "studyContent_vi": "Tổng kết\nSprinkler đầu kín (kiểu ướt) mở tự động ở ~72℃ do nhiệt rồi phun; KHÔNG phải cảm khói. Loại cảm khói + van mở đồng loạt là sprinkler đầu hở. Họng nước trong nhà = làm mát; khí trơ = pha loãng oxy + làm mát; phun sương = làm mát + làm ngạt."
+          "explanation": "正解は②。等分布荷重区間（CD間）は曲線、その他は直線になる。等分布荷重を集中荷重に置換（2×2＝4kN）し反力を求めると、ΣMA＝0より VB＝6kN、ΣY＝0より VA＝4kN。各点 MC＝VA×2＝8、MD＝VA×4－4×1＝12、ME＝−VB×2＝−12（大きさ）。D点とE点の値が等しく、区間形状から②が正しい。",
+          "studyContent": "集中荷重区間は直線、等分布荷重区間は曲線。C点のモーメントがD点より大きくなることはない、という形状チェックで誤答を除外できる。出典: https://kenchikusekou1.kakomonn.com/questions/65739",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong dầm đơn giản AB như hình, khi tải phân bố đều w tác dụng trên đoạn CD và tải tập trung P tại điểm E đồng thời, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ②. Đoạn có tải phân bố đều (CD) là đường cong, các đoạn khác là đường thẳng. Thay tải phân bố đều thành tải tập trung (2×2＝4kN), tính phản lực: ΣMA＝0 → VB＝6kN, ΣY＝0 → VA＝4kN. Các điểm: MC＝VA×2＝8, MD＝VA×4－4×1＝12, ME＝−VB×2＝−12 (độ lớn). Giá trị tại D và E bằng nhau; theo hình dạng, ② đúng.",
+          "studyContent_vi": "Đoạn tải tập trung là đường thẳng, đoạn tải phân bố đều là đường cong. Có thể loại đáp án sai bằng kiểm tra hình dạng: mô-men tại C không thể lớn hơn tại D."
         },
         {
-          "label": "Q3",
-          "question": "消火設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "不活性ガス消火設備は、二酸化炭素などによる冷却効果、窒息効果により消火するもので、博物館の収蔵庫に適している。",
-            "粉末消火設備は、粉末消火剤による負触媒効果、窒息効果により消火するもので、自動車車庫に適している。",
-            "泡消火設備は、泡状の消火剤による冷却効果、窒息効果により消火するもので、電気室に適している。",
-            "水噴霧消火設備は、微細な霧状の水による冷却効果、窒息効果により消火するもので、指定可燃物貯蔵所に適している。"
-          ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （2件）\n01\n正解は3。\n1. 設問通り。不活性ガス消火設備は電気室や美術館、精密機械、電気通信機室等に設置され、消火剤による汚損が少なく復旧を早急にする必要がある施設に適する。\n2. 設問通り。粉末消火設備の設置対象は不活性ガスとほぼ同様で、燃焼の連鎖反応を抑制する負触媒効果による。\n3. 誤り。泡消火設備は火源に多量の泡を放出して表面を覆う窒息作用と冷却作用で消火するが、電気絶縁性がないため電気火災の多い電気室・通信機器室・ボイラー室には不適切である。電気室に適するのは不活性ガス消火設備。\n4. 設問通り。水噴霧消火設備は霧状の細かい水の急激な蒸発による冷却効果と燃焼面を蒸気で覆う窒息効果で消火する。\n02\n選択肢3が誤り。泡消火設備は電気室には不適切。",
-          "studyContent": "まとめ\n電気室には電気絶縁性のない泡消火設備は不適、適するのは不活性ガス消火設備。粉末は負触媒効果・窒息で自動車車庫などに適、水噴霧は冷却・窒息で指定可燃物貯蔵所などに適する。",
-          "question_vi": "Trong các mô tả về thiết bị chữa cháy sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Thiết bị chữa cháy khí trơ dập lửa bằng hiệu quả làm mát và làm ngạt của CO2 v.v., phù hợp cho kho lưu trữ của bảo tàng.",
-            "Thiết bị chữa cháy bột dập lửa bằng hiệu quả ức chế phản ứng và làm ngạt của bột, phù hợp cho nhà để xe ô tô.",
-            "Thiết bị chữa cháy bọt dập lửa bằng hiệu quả làm mát và làm ngạt của bọt, phù hợp cho phòng điện.",
-            "Thiết bị chữa cháy phun sương dập lửa bằng hiệu quả làm mát và làm ngạt của nước sương mịn, phù hợp cho kho chứa chất dễ cháy được chỉ định."
-          ],
-          "explanation_vi": "Giải thích đề này (2 bài giải)\n01\nĐáp án là 3.\n1. Như đề. Khí trơ dùng cho phòng điện, bảo tàng, thiết bị chính xác, phòng truyền thông — ít gây hư hại, cần phục hồi nhanh.\n2. Như đề. Đối tượng lắp của thiết bị bột gần như giống khí trơ, dập bằng hiệu quả ức chế phản ứng cháy.\n3. SAI. Thiết bị bọt phủ bề mặt bằng bọt để làm ngạt và làm mát, nhưng bọt KHÔNG cách điện nên không phù hợp cho phòng điện, phòng thiết bị truyền thông, phòng lò hơi. Phòng điện nên dùng thiết bị khí trơ.\n4. Như đề. Phun sương dập bằng làm mát (nước sương bốc hơi nhanh) và làm ngạt.\n02\nLựa chọn 3 sai. Thiết bị bọt không phù hợp cho phòng điện.",
-          "studyContent_vi": "Tổng kết\nPhòng điện KHÔNG dùng thiết bị bọt (bọt không cách điện) mà dùng thiết bị khí trơ. Bột = ức chế phản ứng + làm ngạt, hợp nhà để xe; phun sương = làm mát + làm ngạt, hợp kho chất dễ cháy."
-        },
-        {
-          "label": "Q4",
-          "question": "消火設備に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "屋内消火栓設備は、建物の内部に設置し、人がノズルを手に持ち、火点に向けてノズルより注水を行い、冷却効果により消火するものである。",
-            "閉鎖型ヘッドのスプリンクラー消火設備は、火災による煙を感知したスプリンクラーヘッドが自動的に開き、散水して消火するものである。",
-            "泡消火設備は、特に低引火点の油類による火災の消火に適し、主として泡による窒息作用により消火するものである。",
-            "連結散水設備は、散水ヘッドを消火活動が困難な場所に設置し、地上階の連結送水口を通じて消防車から送水して消火するものである。"
-          ],
+          "label": "R3 No.8",
+          "question": "図に示す断面のX−X軸に対する断面二次モーメントの値として、正しいものはどれか。",
+          "choices": ["56a³", "56a⁴", "72a³", "72a⁴"],
           "answer": "2",
-          "explanation": "この過去問の解説 （3件）\n01\n答え（誤り）は2。スプリンクラーは火災の熱によって自動的にヘッドから散水して消火する装置であり、煙感知は関係ない。1・3・4は正しい。連結散水設備は地下街や建築物の地階に設置する。\n02\n選択肢2が不適切。閉鎖型ヘッドのスプリンクラーヘッドは煙ではなく高温（熱）を感知して作動する。ヘッド自体に煙感知機能はなく、感熱要素が温度上昇に反応して散水を開始する。\nまとめ\nスプリンクラーは煙ではなく高温を感知して作動する。\n03\n選択肢2が誤り。スプリンクラー消火設備は煙を感知する設備ではなく、熱を感知するシステムである。1は初期消火用、泡は窒息・冷却、連結散水は設問の通りで正しい。",
-          "studyContent": "まとめ\nスプリンクラー（閉鎖型）は煙ではなく熱（高温）を感知して自動散水する。屋内消火栓は初期消火用、泡は低引火点の油火災に適し窒息作用、連結散水設備は消火活動が困難な場所（地階・地下街）に設ける。",
-          "question_vi": "Trong các mô tả về thiết bị chữa cháy sau đây, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Họng nước chữa cháy trong nhà đặt bên trong công trình, người cầm vòi phun nước vào điểm cháy, dập lửa bằng hiệu quả làm mát.",
-            "Sprinkler đầu kín: đầu sprinkler cảm biến KHÓI do cháy tự động mở rồi phun nước dập lửa.",
-            "Thiết bị chữa cháy bọt đặc biệt phù hợp chữa cháy dầu có điểm bắt lửa thấp, chủ yếu dập bằng tác dụng làm ngạt của bọt.",
-            "Thiết bị phun nước liên kết đặt đầu phun ở nơi khó chữa cháy, qua họng tiếp nước tầng trệt nhận nước từ xe chữa cháy để dập lửa."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nĐáp án (sai) là 2. Sprinkler phun nước tự động từ đầu nhờ NHIỆT của đám cháy, không liên quan cảm khói. Các ý 1・3・4 đúng. Thiết bị phun nước liên kết đặt ở phố ngầm, tầng hầm công trình.\n02\nLựa chọn 2 không phù hợp. Đầu sprinkler kiểu đầu kín cảm NHIỆT độ cao chứ không cảm khói; bộ phận cảm nhiệt phản ứng với nhiệt độ tăng để bắt đầu phun.\n・Tổng kết: Sprinkler cảm nhiệt độ cao, không cảm khói.\n03\nLựa chọn 2 sai. Sprinkler là hệ cảm NHIỆT chứ không cảm khói. Ý 1 dùng cho chữa cháy ban đầu, bọt = làm ngạt + làm mát, phun nước liên kết như đề là đúng.",
-          "studyContent_vi": "Tổng kết\nSprinkler (đầu kín) cảm NHIỆT (nhiệt độ cao) chứ không cảm khói, rồi tự động phun. Họng nước trong nhà dùng chữa cháy ban đầu; bọt hợp cháy dầu điểm bắt lửa thấp (làm ngạt); thiết bị phun nước liên kết đặt ở nơi khó chữa cháy (tầng hầm, phố ngầm)."
-        }
-      ]
-    },
-    {
-      "path": "1.3 建築設備 > 1.3.6 昇降機設備",
-      "vocabulary": "昇降設備 (しょうこうせつび) - thiết bị nâng hạ\nエレベーター - thang máy\nエスカレーター - thang cuốn\n昇降路 (しょうこうろ) - giếng thang\nかご - cabin\n床先 (ゆかさき) - mép sàn\n定格速度 (ていかくそくど) - tốc độ định mức\n踏段 (ふみだん) - bậc thang (của thang cuốn)\n勾配 (こうばい) - độ dốc\n最大定員 (さいだいていいん) - số người tối đa\n積載荷重 (せきさいかじゅう) - tải trọng chất tải\n火災時管制運転 (かさいじかんせいうんてん) - vận hành điều khiển khi cháy\n地震時管制運転 (じしんじかんせいうんてん) - vận hành điều khiển khi động đất\n避難階 (ひなんかい) - tầng lánh nạn\n最寄階 (もよりかい) - tầng gần nhất\n群管理方式 (ぐんかんりほうしき) - phương thức quản lý nhóm",
-      "questions": [
+          "explanation": "正解は56a⁴。断面二次モーメントは I＝bh³/12。欠損のある断面は全体から欠け部分を引く。全体（4a×6a）：I＝4a×(6a)³/12＝72a⁴。欠け部分（3a×4a）：I＝3a×(4a)³/12＝16a⁴。よって 72a⁴－16a⁴＝56a⁴。",
+          "studyContent": "図心を通る軸の断面二次モーメントは I＝bh³/12（bは軸に水平な辺、hは軸に垂直な辺）。欠損断面は全体から欠け部分を差し引く。出典: https://kenchikusekou1.kakomonn.com/questions/57248",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Giá trị mô-men quán tính tiết diện đối với trục X−X của tiết diện như hình nào là đúng?",
+          "choices_vi": ["56a³", "56a⁴", "72a³", "72a⁴"],
+          "explanation_vi": "Đáp án đúng là 56a⁴. Mô-men quán tính I＝bh³/12. Tiết diện có khoét thì lấy toàn phần trừ phần khoét. Toàn phần (4a×6a): I＝4a×(6a)³/12＝72a⁴. Phần khoét (3a×4a): I＝3a×(4a)³/12＝16a⁴. Vậy 72a⁴－16a⁴＝56a⁴.",
+          "studyContent_vi": "Mô-men quán tính qua trục trọng tâm I＝bh³/12 (b là cạnh song song trục, h là cạnh vuông góc trục). Tiết diện khoét: lấy toàn phần trừ phần khoét."
+        },
         {
-          "label": "Q1",
-          "question": "建築物に設ける昇降設備に関する記述として、最も不適当なものはどれか。ただし、特殊な構造又は使用形態のものを除くものとする。",
-          "choices": [
-            "乗用エレベーターの昇降路の出入口の床先とかごの床先との水平距離は、4cm以下とする。",
-            "乗用エレベーターの最大定員の計算においては、1人当たりの体重を65kgとする。",
-            "エスカレーターの踏段と踏段の隔間は、原則として5mm以下とする。",
-            "エスカレーターの勾配が8°を超よ30°以下の踏段の定格速度は、毎分50mとする。"
-          ],
+          "label": "R3 No.9",
+          "question": "図に示す静定の山形ラーメン架構のAC間に等分布荷重wが作用したとき、支点Bに生じる鉛直反力VBと、点Dに生じる曲げモーメントMDの値の大きさの組合せとして、正しいものはどれか。",
+          "choices": ["VB＝6kN、MD＝0kN・m", "VB＝6kN、MD＝18kN・m", "VB＝12kN、MD＝0kN・m", "VB＝12kN、MD＝18kN・m"],
+          "answer": "2",
+          "explanation": "正解はVB＝6kN、MD＝18kN・m。AC間の等分布荷重を集中荷重化すると中点に12kN（2kN×6m）。A端はピンで曲げ0なので MA＝12×3－VB×6＝0 → VB＝6kN。点Dの曲げモーメントは右側DEBを片持ち梁とみなすと MD＝VB×3＝6×3＝18kN・m。",
+          "studyContent": "固定端＝水平・鉛直・モーメント反力、ピン＝モーメント0、ローラー＝水平反力なし。等分布荷重は集中荷重に置換し、計算しやすい点でモーメントを取る。出典: https://kenchikusekou1.kakomonn.com/questions/57249",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen mái dốc tĩnh định như hình, khi tải phân bố đều w tác dụng trên đoạn AC, tổ hợp độ lớn phản lực đứng VB tại gối B và mô-men uốn MD tại điểm D nào là đúng?",
+          "choices_vi": ["VB＝6kN, MD＝0kN・m", "VB＝6kN, MD＝18kN・m", "VB＝12kN, MD＝0kN・m", "VB＝12kN, MD＝18kN・m"],
+          "explanation_vi": "Đáp án đúng là VB＝6kN, MD＝18kN・m. Thay tải phân bố đều trên AC thành tải tập trung 12kN (2kN×6m) tại trung điểm. Đầu A là khớp nên mô-men＝0: MA＝12×3－VB×6＝0 → VB＝6kN. Mô-men tại D: xem phần phải DEB như công-xon, MD＝VB×3＝6×3＝18kN・m.",
+          "studyContent_vi": "Ngàm＝phản lực ngang, đứng, mô-men; khớp＝mô-men 0; con lăn＝không có phản lực ngang. Thay tải phân bố đều bằng tải tập trung và lấy mô-men tại điểm dễ tính."
+        },
+        {
+          "label": "R3 No.10",
+          "question": "図に示す単純梁ABにおいて、CD間に等分布荷重wが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは、材の引張側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
+          "answer": "2",
+          "explanation": "正解は②。単純梁は両端（ピンとローラー）とも曲げモーメントを負担できないため、両端の曲げモーメントは0。等分布荷重がかかるCD間は曲線（2次曲線）、その他は直線になる。両端にモーメントが生じている③④、直線のみの①は誤り。",
+          "studyContent": "単純梁は両端のモーメント0。集中荷重区間は直線、等分布荷重区間は2次曲線。代表的なモーメント図のパターンを覚えておく。出典: https://kenchikusekou1.kakomonn.com/questions/57250",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong dầm đơn giản AB như hình, khi tải phân bố đều w tác dụng trên đoạn CD, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ②. Dầm đơn giản có hai đầu (khớp và con lăn) không chịu mô-men nên mô-men hai đầu＝0. Đoạn CD có tải phân bố đều là đường cong (parabol bậc 2), các đoạn khác là đường thẳng. ③④ có mô-men ở hai đầu, ① chỉ đường thẳng → đều sai.",
+          "studyContent_vi": "Dầm đơn giản: mô-men hai đầu＝0. Đoạn tải tập trung là đường thẳng, đoạn tải phân bố đều là parabol bậc 2. Nên thuộc các dạng biểu đồ mô-men điển hình."
+        },
+        {
+          "label": "H30 No.8",
+          "question": "荷重及び外力に関する記述として、最も不適当なものはどれか。",
+          "choices": ["教室に連絡する廊下と階段の床の構造計算用の積載荷重は、実況に応じて計算しない場合、教室と同じ積載荷重の2,300N/m²とすることができる。", "保有水平耐力計算において、多雪区域の積雪時における長期応力度計算に用いる荷重は、固定荷重と積載荷重の和に、積雪荷重に0.7を乗じた値を加えたものとする。", "必要保有水平耐力の計算に用いる標準せん断力係数は、1.0以上としなければならない。", "速度圧の計算に用いる基準風速V₀は、その地方の再現期間50年の10分間平均風速値に相当する。"],
+          "answer": "1",
+          "explanation": "最も不適当なのは①。教室に連絡する廊下・階段の積載荷重は、建築基準法施行令第85条で集会室等と同様に3,500N/㎡とする必要があり、2,300N/㎡では不足。②多雪区域の長期はG＋P＋0.7S、③標準せん断力係数1.0以上、④基準風速は再現期間50年の10分間平均、はいずれも正しい。",
+          "studyContent": "教室に連絡する廊下・階段は人が集中するため3,500N/㎡。多雪区域の長期はG＋P＋0.7S。必要保有水平耐力の標準せん断力係数は1.0以上。出典: https://kenchikusekou1.kakomonn.com/questions/44203",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào về tải trọng và ngoại lực là KHÔNG thích hợp nhất?",
+          "choices_vi": ["Tải trọng sử dụng cho tính toán kết cấu sàn của hành lang và cầu thang nối với phòng học, nếu không tính theo thực tế, có thể lấy bằng 2.300N/m² như phòng học.", "Trong tính toán khả năng chịu lực ngang, tải dùng cho tính ứng suất dài hạn khi có tuyết ở vùng nhiều tuyết bằng tổng tĩnh tải và hoạt tải cộng với 0,7 lần tải tuyết.", "Hệ số lực cắt tiêu chuẩn dùng để tính khả năng chịu lực ngang cần thiết phải lấy từ 1,0 trở lên.", "Vận tốc gió cơ sở V₀ dùng để tính áp lực vận tốc tương ứng vận tốc gió trung bình 10 phút chu kỳ lặp 50 năm của vùng đó."],
+          "explanation_vi": "Không thích hợp nhất là ①. Tải trọng của hành lang/cầu thang nối phòng học theo Điều 85 Lệnh thi hành Luật Tiêu chuẩn xây dựng phải lấy 3.500N/㎡ như phòng hội họp; 2.300N/㎡ là thiếu. ② vùng nhiều tuyết dài hạn G＋P＋0,7S; ③ hệ số lực cắt tiêu chuẩn ≥1,0; ④ vận tốc gió cơ sở là trung bình 10 phút chu kỳ lặp 50 năm → đều đúng.",
+          "studyContent_vi": "Hành lang/cầu thang nối phòng học có người tập trung nên 3.500N/㎡. Dài hạn vùng nhiều tuyết G＋P＋0,7S. Hệ số lực cắt tiêu chuẩn cho khả năng chịu lực ngang ≥1,0."
+        },
+        {
+          "label": "H30 No.9",
+          "question": "図に示す3ヒンジラーメン架構のAD間に等分布荷重が作用したとき、支点Aに生じる水平反力HA及び鉛直反力VAの値の大きさの組合せとして、正しいものはどれか。",
+          "choices": ["HA＝60kN、VA＝40kN", "HA＝60kN、VA＝48kN", "HA＝96kN、VA＝40kN", "HA＝96kN、VA＝48kN"],
           "answer": "4",
-          "explanation": "この過去問の解説 （1件）\n01\n最も不適当なのは「エスカレーターの勾配が8°を超よ30°以下の踏段の定格速度は、毎分50mとする。」である。勾配が8°を超よ30°以下のエスカレーターの踏段の定格速度は毎分45mと定められており、毎分50mは勾配が8°以下の場合に当てはまる。\n選択肢1. 正。出入口の床先とかご床先のすき間が大きいと足先や車いすの前輪が落ちたり挟まったりしやすいため、4cm以下に制限される（建築基準法施行令）。\n選択肢2. 正。最大定員は積載荷重から計算し、1人を65kgとして人数換算する。\n選択肢3. 正。踏段どうしのすき間が大きいと靴・衣類・指先が挟まる事故につながるため、5mm以下と定められている。\n選択肢4. 誤り。勾配8°以下：毎分50m、勾配8°を超よ30°以下：毎分45m。",
-          "studyContent": "まとめ\n昇降設備は事故防止のためのすき間や速度の数値が細かく規定される。・出入口の床先とかご床先のすき間＝4cm以下。・定員計算は1人65kg。・踏段間のすき間＝5mm以下。・エスカレーター定格速度は勾配で変わり、8°以下＝50m/分、8°超〜30°以下＝45m/分、30°超〜35°以下＝30m/分。",
-          "question_vi": "Trong các mô tả về thiết bị nâng hạ lắp cho công trình sau đây, đâu là mô tả KHÔNG phù hợp nhất? (loại trừ loại có cấu tạo hoặc hình thức sử dụng đặc biệt)",
-          "choices_vi": [
-            "Khoảng cách ngang giữa mép sàn cửa giếng thang và mép sàn cabin của thang máy chở người lấy ≤ 4cm.",
-            "Khi tính số người tối đa của thang máy chở người, lấy cân nặng mỗi người là 65kg.",
-            "Khe hở giữa các bậc của thang cuốn, về nguyên tắc lấy ≤ 5mm.",
-            "Tốc độ định mức của bậc thang cuốn có độ dốc vượt 8° đến 30° lấy là 50m/phút."
-          ],
-          "explanation_vi": "Giải thích đề này (1 bài giải)\n01\nMô tả KHÔNG phù hợp nhất là 'Tốc độ định mức của bậc thang cuốn có độ dốc vượt 8° đến 30° lấy là 50m/phút.'. Tốc độ định mức của thang cuốn độ dốc vượt 8° đến 30° được quy định là 45m/phút; 50m/phút áp dụng cho độ dốc ≤ 8°.\nLựa chọn 1. ĐÚNG. Khe giữa mép sàn cửa và mép sàn cabin lớn thì dễ kẹt/rơi mũi chân hay bánh trước xe lăn nên giới hạn ≤ 4cm (theo Nghị định thi hành Luật tiêu chuẩn xây dựng).\nLựa chọn 2. ĐÚNG. Số người tối đa tính từ tải trọng, quy đổi mỗi người 65kg.\nLựa chọn 3. ĐÚNG. Khe giữa các bậc lớn sẽ kẹt giày, quần áo, ngón tay nên quy định ≤ 5mm.\nLựa chọn 4. SAI. Độ dốc ≤ 8°: 50m/phút; độ dốc vượt 8° đến 30°: 45m/phút.",
-          "studyContent_vi": "Tổng kết\nThiết bị nâng hạ quy định chi tiết các con số về khe hở và tốc độ để phòng tai nạn. ・Khe mép sàn cửa và cabin = ≤ 4cm. ・Tính số người: 1 người = 65kg. ・Khe giữa các bậc thang cuốn = ≤ 5mm. ・Tốc độ định mức thang cuốn thay đổi theo độ dốc: ≤ 8° = 50m/phút, vượt 8° đến 30° = 45m/phút, vượt 30° đến 35° = 30m/phút."
+          "explanation": "正解はHA＝96kN、VA＝48kN。等分布荷重の合力 P＝30kN/m×4m＝120kN（A点から2mに作用）。B点まわり MB＝0：−HA×2－VA×6＋120×4＝0…①。C点まわり MC＝0：＋HA×4－VA×3－120×2＝0…②。①－②×2 より HA＝960/10＝96kN。①へ代入し VA＝(480－192)/6＝48kN。",
+          "studyContent": "3ヒンジラーメンは点Bと点C（ヒンジ）まわりのモーメントが0になることを利用し、連立方程式で反力を求める。求めるのは大きさなので符号は絶対値で扱う。出典: https://kenchikusekou1.kakomonn.com/questions/44204",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố đều tác dụng trên đoạn AD, tổ hợp độ lớn phản lực ngang HA và phản lực đứng VA tại gối A nào là đúng?",
+          "choices_vi": ["HA＝60kN, VA＝40kN", "HA＝60kN, VA＝48kN", "HA＝96kN, VA＝40kN", "HA＝96kN, VA＝48kN"],
+          "explanation_vi": "Đáp án đúng là HA＝96kN, VA＝48kN. Hợp lực tải phân bố đều P＝30kN/m×4m＝120kN (đặt cách A 2m). Quanh B (MB＝0): −HA×2－VA×6＋120×4＝0…①. Quanh C (MC＝0): ＋HA×4－VA×3－120×2＝0…②. Lấy ①－②×2: HA＝960/10＝96kN. Thế vào ①: VA＝(480－192)/6＝48kN.",
+          "studyContent_vi": "Khung 3 khớp dùng tính chất mô-men＝0 tại B và tại C (khớp) để lập hệ phương trình tìm phản lực. Vì hỏi độ lớn nên lấy giá trị tuyệt đối của dấu."
         },
         {
-          "label": "Q2",
-          "question": "建築物に設けるエレベーターに関する記述として、最も不適当なものはどれか。ただし、特殊な構造又は使用形態のものは除くものとする。",
-          "choices": [
-            "乗用エレベーターには、停電時に床面で１ルクス以上の照度を確保することができる照明装置を設ける。",
-            "乗用エレベーターには、1人当たりの体重を65kgとして計算した最大定員を明示した標識を掲示する。",
-            "火災時管制運転は、火災発生時にエレベーターを最寄階に停止させる機能である。",
-            "群管理方式は、エレベーターを複数台まとめた群としての運転操作方式で、交通需要の変動に応じて効率的な運転管理を行うことができる。"
-          ],
+          "label": "H30 No.10",
+          "question": "図に示す3ヒンジラーメン架構に集中荷重Pが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張り側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
           "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n地震時と火災時の停止階の違いを覚える。\n選択肢1. 正。乗用エレベーターには停電時に床面で１ルクス以上の照度を確保できる照明装置を設ける。\n選択肢2. 正。最大定員は1人65kgとして計算し、標識をかご内に掲示する（建築基準法施行令第129条の6）。\n選択肢3. 誤り。火災時管制運転は、火災発生時にエレベーターを避難階に停止（帰着）させる機能である。最寄階に停止させるのは地震時管制運転である。火災は避難を優先、地震は扉の変形による閉じ込め防止を優先する。\n選択肢4. 正。群管理方式は複数台を群として管理し、需要の変動に応じて稼働台数や割り当てを適切に配分し効率的に運転する。\n02\n選択肢3が誤り。火災時管制運転は防災センターの切替スイッチの作動や火災報知器の防災信号によりエレベータを「避難階」に停止する機能である。\nまとめ\n火災時管制運転は地震時管制運転と混同しやすいので注意。\n03\n選択肢3が不適当。火災時管制運転は通常、火災発生時にエレベーターを避難階（通常1階）に停止させる機能であり、最寄階ではなく安全な避難階に停止させる。",
-          "studyContent": "まとめ\n火災時管制運転＝避難階（通常1階）に停止・帰着、地震時管制運転＝最寄階に停止。火災は避難優先、地震は閉じ込め防止優先。乗用エレベーターは停電時に床面1ルクス以上の照明、定員計算は1人65kg、群管理方式は複数台を効率的に管理。",
-          "question_vi": "Trong các mô tả về thang máy lắp cho công trình sau đây, đâu là mô tả KHÔNG phù hợp nhất? (loại trừ loại có cấu tạo hoặc hình thức sử dụng đặc biệt)",
-          "choices_vi": [
-            "Thang máy chở người phải có thiết bị chiếu sáng đảm bảo độ rọi ≥ 1 lux trên sàn khi mất điện.",
-            "Thang máy chở người phải gắn biển ghi rõ số người tối đa tính theo cân nặng mỗi người 65kg.",
-            "Vận hành điều khiển khi cháy là chức năng cho thang máy dừng ở tầng gần nhất khi xảy ra cháy.",
-            "Phương thức quản lý nhóm gồm nhiều thang máy được điều khiển như một nhóm, quản lý vận hành hiệu quả theo biến động nhu cầu giao thông."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nNhớ sự khác nhau về tầng dừng khi động đất và khi cháy.\nLựa chọn 1. ĐÚNG. Thang máy chở người cần thiết bị chiếu sáng đảm bảo ≥ 1 lux trên sàn khi mất điện.\nLựa chọn 2. ĐÚNG. Số người tối đa tính theo 1 người 65kg, gắn biển trong cabin.\nLựa chọn 3. SAI. Vận hành điều khiển khi cháy cho thang dừng (quay về) TẦNG LÁNH NẠN. Dừng ở tầng gần nhất là vận hành điều khiển khi động đất. Khi cháy ưu tiên lánh nạn; khi động đất ưu tiên tránh kẹt do biến dạng cửa.\nLựa chọn 4. ĐÚNG. Quản lý nhóm điều phối nhiều thang theo nhu cầu để vận hành hiệu quả.\n02\nLựa chọn 3 sai. Vận hành điều khiển khi cháy cho thang dừng ở 'TẦNG LÁNH NẠN' qua công tắc chuyển ở trung tâm phòng chống thiên tai hoặc tín hiệu từ báo cháy.\nTổng kết\nDễ nhầm với vận hành điều khiển khi động đất.\n03\nLựa chọn 3 không phù hợp. Vận hành điều khiển khi cháy thông thường cho thang dừng ở tầng lánh nạn (thường là tầng 1), không phải tầng gần nhất.",
-          "studyContent_vi": "Tổng kết\nVận hành điều khiển khi cháy = dừng/quay về TẦNG LÁNH NẠN (thường tầng 1); vận hành điều khiển khi động đất = dừng ở TẦNG GẦN NHẤT. Cháy ưu tiên lánh nạn, động đất ưu tiên tránh kẹt. Thang chở người: ≥ 1 lux khi mất điện; tính số người 1 người 65kg; quản lý nhóm điều phối nhiều thang hiệu quả."
+          "explanation": "正解は③。両側の柱脚部がヒンジなのでモーメントは0。外力がPのみで、X方向のつり合いより左右の柱脚の水平反力HA・HBは同じ値で向きが逆。そのため柱の曲げモーメントは左右対称となる。ヒンジ部にモーメントがある①④、左右非対称の②は誤り。",
+          "studyContent": "両端ヒンジ＝モーメント0。水平外力がなければ左右支点の水平反力は等しく逆向きで、曲げモーメント図は左右対称になる。出典: https://kenchikusekou1.kakomonn.com/questions/44205",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải tập trung P tác dụng, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ③. Chân hai cột là khớp nên mô-men＝0. Ngoại lực chỉ có P; theo cân bằng phương X, phản lực ngang HA và HB ở hai chân cột bằng nhau và ngược chiều. Do đó biểu đồ mô-men của cột đối xứng trái-phải. ①④ có mô-men tại khớp, ② không đối xứng → sai.",
+          "studyContent_vi": "Hai đầu khớp＝mô-men 0. Khi không có ngoại lực ngang, phản lực ngang hai gối bằng nhau ngược chiều, biểu đồ mô-men đối xứng trái-phải."
         },
         {
-          "label": "Q3",
-          "question": "建築物に設ける昇降設備に関する記述として、最も不適当なものはどれか。ただし、特殊な構造及び使用形態のものを除くものとする。",
-          "choices": [
-            "乗用エレベーターには、1人当たりの体重を65kgとして計算した最大定員を明示した標識を掲示する。",
-            "乗用エレベーターの昇降路の出入口の床先とかごの床先との水平距離は、4cm以下とする。",
-            "エスカレーターの踏段と踏段の隔間は、原則として5mm以下とする。",
-            "エスカレーターの勾配が8°を超よ30°以下の踏段の定格速度は、毎分50mとする。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （3件）\n01\n昇降設備とはエレベーターとエスカレーターで、荷重・すきま・幅・勾配・速度など安全に関する数値や管制運転が出題される。法令なので覚える。\n選択肢1. 正。乗用エレベーターの最大定員算出の1人当たりの体重は65kgと定められている。\n選択肢2. 正。昇降路出入口の床先とかご床先の水平距離は4cm以下。\n選択肢3. 正。エスカレーターの踏段の隔間は5mm以下。（参考：エスカレーターの幅は1.1m以下、両側に手すりを設置。）\n選択肢4. 誤り。通常のエスカレーターの勾配は8°を超よ30°以下であり、この定格速度は45m／分以下とされる。（参考：勾配8°以下は50m／分以下、30°を超よ35°以下は30m／分以下。）\n02\n選択肢4. エスカレーターの勾配が8°を超よ30°以下の踏段の定格速度は毎分45mである。\n03\n選択肢4が正解（不適当）。定格速度が毎分50mとなるのは勾配が8°以下の場合で、勾配8°を超よ30°以下の踏段定格速度は毎分45mである。\nまとめ\nエスカレーターは勾配8–30–35°、速度50–45–30m／分のセットで整理する。",
-          "studyContent": "まとめ\nエスカレーターの勾配と定格速度：8°以下→50m／分以下、8°超〜30°以下→45m／分以下、30°超〜35°以下→30m／分以下。踏段の隔間は5mm以下、幅は1.1m以下。エレベーターの床先・かご床先の水平距離は4cm以下、定員計算は1人65kg。",
-          "question_vi": "Trong các mô tả về thiết bị nâng hạ lắp cho công trình sau đây, đâu là mô tả KHÔNG phù hợp nhất? (loại trừ loại có cấu tạo và hình thức sử dụng đặc biệt)",
-          "choices_vi": [
-            "Thang máy chở người phải gắn biển ghi rõ số người tối đa tính theo cân nặng mỗi người 65kg.",
-            "Khoảng cách ngang giữa mép sàn cửa giếng thang và mép sàn cabin lấy ≤ 4cm.",
-            "Khe hở giữa các bậc của thang cuốn, về nguyên tắc lấy ≤ 5mm.",
-            "Tốc độ định mức của bậc thang cuốn có độ dốc vượt 8° đến 30° lấy là 50m/phút."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nThiết bị nâng hạ gồm thang máy và thang cuốn; đề hay hỏi các con số an toàn (tải, khe hở, bề rộng, độ dốc, tốc độ) và vận hành điều khiển. Là quy định pháp luật nên phải học thuộc.\nLựa chọn 1. ĐÚNG. Tính số người tối đa lấy 1 người 65kg.\nLựa chọn 2. ĐÚNG. Khe ngang mép sàn cửa và mép sàn cabin ≤ 4cm.\nLựa chọn 3. ĐÚNG. Khe giữa các bậc thang cuốn ≤ 5mm (tham khảo: bề rộng thang cuốn ≤ 1,1m, hai bên có tay vịn).\nLựa chọn 4. SAI. Thang cuốn thông thường độ dốc vượt 8° đến 30°, tốc độ định mức ≤ 45m/phút (tham khảo: ≤ 8° thì ≤ 50m/phút, vượt 30° đến 35° thì ≤ 30m/phút).\n02\nLựa chọn 4. Tốc độ định mức bậc thang cuốn độ dốc vượt 8° đến 30° là 45m/phút.\n03\nLựa chọn 4 là đáp án (không phù hợp). Tốc độ 50m/phút là cho độ dốc ≤ 8°; độ dốc vượt 8° đến 30° là 45m/phút.\nTổng kết\nNhớ theo cặp độ dốc 8–30–35° và tốc độ 50–45–30 m/phút.",
-          "studyContent_vi": "Tổng kết\nĐộ dốc và tốc độ định mức thang cuốn: ≤ 8° → ≤ 50m/phút; vượt 8° đến 30° → ≤ 45m/phút; vượt 30° đến 35° → ≤ 30m/phút. Khe giữa các bậc ≤ 5mm, bề rộng ≤ 1,1m. Khe ngang mép sàn cửa và cabin ≤ 4cm, tính số người 1 người 65kg."
-        },
-        {
-          "label": "Q4",
-          "question": "建築物に設ける昇降設備に関する記述として、最も不適当なものはどれか。ただし、特殊な構造及び使用形態のものを除くものとする。",
-          "choices": [
-            "乗用エレベーターの昇降路の出入口の床先とかごの床先との水平距離は、4cm以下とする。",
-            "群管理方式は、エレベーターを複数台まとめた群としての運転操作方式で、交通需要の変動に応じて効率的な運転管理を行うことができる。",
-            "火災時管制運転は、火災発生時にエレベーターを最寄階に停止させる機能である。",
-            "乗用エレベーターには、1人当たりの体重を65kgとして計算した最大定員を明示した標識を掲示する。"
-          ],
+          "label": "R2 No.8",
+          "question": "床の構造計算をする場合の積載荷重として、最も不適当なものはどれか。",
+          "choices": ["店舗の売り場の積載荷重は、2,900N/m²とすることができる。", "集会場の客席が固定席である集会室の積載荷重は、2,900N/m²とすることができる。", "倉庫業を営む倉庫の積載荷重は、2,900N/m²とすることができる。", "百貨店の屋上広場の積載荷重は、2,900N/m²とすることができる。"],
           "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n最も不適当なものは「火災時管制運転は、火災発生時にエレベーターを最寄階に停止させる機能である。」である。\n選択肢1. 正。出入口の床先とかご床先の水平距離は4cm以下。\n選択肢2. 正。群管理方式は複数台を群として管理し、待ち時間の短縮と均一化により効率的に運転する。\n選択肢3. 誤り。火災時管制運転は、火災時に全エレベーターを一斉に避難階に呼び戻し帰着させる機能である。設問の「最寄階に停止」は、地震時に地震感知器との連動によりエレベーターを停止させる地震時管制運転のことである。\n選択肢4. 正。最大定員は1人65kgとして計算し、標識をかご内に掲示する。\n02\n選択肢3. 火災時は避難階、地震時は最寄階に停止する。この2点を覚えておく。\n03\n選択肢3が誤り。火災時管制運転は防災センターの切替スイッチの作動や火災報知器の防災信号によりエレベータを「避難階」に停止する機能であり、地震時管制運転と混同しやすいので注意。",
-          "studyContent": "まとめ\n非常事態発生時の停止階：火災時＝避難階、地震時＝最寄階。火災時管制運転は避難階に呼び戻し、地震時管制運転は最寄階に停止。出入口の床先・かご床先の水平距離は4cm以下、定員計算は1人65kg、群管理方式は複数台を効率的に管理。",
-          "question_vi": "Trong các mô tả về thiết bị nâng hạ lắp cho công trình sau đây, đâu là mô tả KHÔNG phù hợp nhất? (loại trừ loại có cấu tạo và hình thức sử dụng đặc biệt)",
-          "choices_vi": [
-            "Khoảng cách ngang giữa mép sàn cửa giếng thang và mép sàn cabin của thang máy chở người lấy ≤ 4cm.",
-            "Phương thức quản lý nhóm gồm nhiều thang máy được điều khiển như một nhóm, quản lý vận hành hiệu quả theo biến động nhu cầu giao thông.",
-            "Vận hành điều khiển khi cháy là chức năng cho thang máy dừng ở tầng gần nhất khi xảy ra cháy.",
-            "Thang máy chở người phải gắn biển ghi rõ số người tối đa tính theo cân nặng mỗi người 65kg."
-          ],
-          "explanation_vi": "Giải thích đề này (3 bài giải)\n01\nMô tả KHÔNG phù hợp nhất là 'Vận hành điều khiển khi cháy là chức năng cho thang máy dừng ở tầng gần nhất khi xảy ra cháy.'.\nLựa chọn 1. ĐÚNG. Khe ngang mép sàn cửa và mép sàn cabin ≤ 4cm.\nLựa chọn 2. ĐÚNG. Quản lý nhóm điều phối nhiều thang, rút ngắn và đồng đều thời gian chờ để vận hành hiệu quả.\nLựa chọn 3. SAI. Vận hành điều khiển khi cháy là chức năng gọi tất cả thang máy đồng loạt quay về và dừng ở TẦNG LÁNH NẠN. 'Dừng ở tầng gần nhất' là vận hành điều khiển khi động đất (liên động với cảm biến động đất).\nLựa chọn 4. ĐÚNG. Số người tối đa tính theo 1 người 65kg, gắn biển trong cabin.\n02\nLựa chọn 3. Khi cháy dừng ở tầng lánh nạn, khi động đất dừng ở tầng gần nhất. Nhớ 2 điểm này.\n03\nLựa chọn 3 sai. Vận hành điều khiển khi cháy cho thang dừng ở 'TẦNG LÁNH NẠN' qua công tắc chuyển ở trung tâm phòng chống thiên tai hoặc tín hiệu báo cháy; dễ nhầm với vận hành điều khiển khi động đất.",
-          "studyContent_vi": "Tổng kết\nTầng dừng khi sự cố: khi cháy = TẦNG LÁNH NẠN, khi động đất = TẦNG GẦN NHẤT. Vận hành điều khiển khi cháy gọi thang quay về tầng lánh nạn; vận hành điều khiển khi động đất dừng ở tầng gần nhất. Khe mép sàn cửa và cabin ≤ 4cm, tính số người 1 người 65kg, quản lý nhóm điều phối nhiều thang hiệu quả."
+          "explanation": "最も不適当なのは③。建築基準法施行令第85条3項により、倉庫業を営む倉庫の床の積載荷重は、実況に応じて計算した数値が3,900N/㎡未満の場合でも3,900N/㎡としなければならない。したがって2,900N/㎡は誤り。①②④は同表に基づき適当。",
+          "studyContent": "倉庫業を営む倉庫は最低3,900N/㎡。固定席の集会室・店舗売り場・百貨店屋上広場は2,900N/㎡が可。出典: https://kenchikusekou1.kakomonn.com/questions/54008",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Khi tính toán kết cấu sàn, tải trọng sử dụng nào là KHÔNG thích hợp nhất?",
+          "choices_vi": ["Tải trọng sử dụng của khu bán hàng cửa hiệu có thể lấy 2.900N/m².", "Tải trọng sử dụng của phòng hội họp có ghế khán giả là ghế cố định có thể lấy 2.900N/m².", "Tải trọng sử dụng của kho thuộc ngành kinh doanh kho bãi có thể lấy 2.900N/m².", "Tải trọng sử dụng của quảng trường trên mái bách hóa có thể lấy 2.900N/m²."],
+          "explanation_vi": "Không thích hợp nhất là ③. Theo khoản 3 Điều 85 Lệnh thi hành Luật Tiêu chuẩn xây dựng, tải trọng sàn của kho kinh doanh kho bãi, dù tính theo thực tế nhỏ hơn 3.900N/㎡ cũng phải lấy 3.900N/㎡. Do đó 2.900N/㎡ là sai. ①②④ đều phù hợp theo bảng quy định.",
+          "studyContent_vi": "Kho kinh doanh kho bãi tối thiểu 3.900N/㎡. Phòng họp ghế cố định, khu bán hàng, quảng trường mái bách hóa có thể lấy 2.900N/㎡."
+        },
+        {
+          "label": "R2 No.9",
+          "question": "図に示す3ヒンジラーメン架構のAD間に等分布荷重が、CE間に集中荷重が同時に作用したとき、支点A及びBに生じる水平反力（HA、HB）、鉛直反力（VA、VB）の値として、正しいものはどれか。ただし、反力は右向き及び上向きを「＋」、左向き及び下向きを「−」とする。",
+          "choices": ["HA＝−40kN", "HB＝＋40kN", "VA＝−20kN", "VB＝＋20kN"],
+          "answer": "3",
+          "explanation": "正解はVA＝−20kN。VAを−、HAを−、VBを＋、HBを−と仮定。ΣMB＝0より (20×4)×2－6×VA－20×2＝0 → VA＝20kN（仮定通り＝下向き）。したがって設問の表記 VA＝−20kN が正しい。",
+          "studyContent": "3ヒンジラーメンはX・Y・Mのつり合いに加え、ヒンジ部のモーメント0を使う。等分布荷重は集中荷重化（20kN/m×4m＝80kN）。符号の仮定と問題の正負規約に注意。出典: https://kenchikusekou1.kakomonn.com/questions/54009",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố đều tác dụng trên AD và tải tập trung trên CE đồng thời, giá trị phản lực ngang (HA, HB) và phản lực đứng (VA, VB) tại gối A, B nào là đúng? Quy ước phản lực hướng phải/lên là «＋», trái/xuống là «−».",
+          "choices_vi": ["HA＝−40kN", "HB＝＋40kN", "VA＝−20kN", "VB＝＋20kN"],
+          "explanation_vi": "Đáp án đúng là VA＝−20kN. Giả định VA «−», HA «−», VB «＋», HB «−». Lấy ΣMB＝0: (20×4)×2－6×VA－20×2＝0 → VA＝20kN (đúng giả định = hướng xuống). Do đó ký hiệu VA＝−20kN trong đề là đúng.",
+          "studyContent_vi": "Khung 3 khớp dùng cân bằng X, Y, M cộng mô-men＝0 tại khớp. Thay tải phân bố đều thành tải tập trung (20kN/m×4m＝80kN). Chú ý giả định dấu và quy ước dấu của đề."
+        },
+        {
+          "label": "R2 No.10",
+          "question": "図に示すラーメン架構に集中荷重3P及び2Pが同時に作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張り側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
+          "answer": "3",
+          "explanation": "正解は③。柱脚は左がローラー支持、右がピン支持。反力を仮定すると ΣX：3P－2P－He＝0 → He＝P、ΣY：Va＝Ve、ΣMe より Va＝Ve＝2P。左柱はローラーなのでB点（2P作用点）まではモーメント0。C点・D点の曲げ応力はMc＝Md＝PL（右側引張）。これらを満たす形状は③。",
+          "studyContent": "支点反力を求めて全外力を確定→各点の曲げ応力を計算→形状を比較。ローラー支点側はモーメントが遅れて立ち上がる点に注意。出典: https://kenchikusekou1.kakomonn.com/questions/54010",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen như hình, khi tải tập trung 3P và 2P tác dụng đồng thời, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ③. Chân cột trái là gối con lăn, chân cột phải là khớp. Giả định phản lực: ΣX: 3P－2P－He＝0 → He＝P; ΣY: Va＝Ve; từ ΣMe → Va＝Ve＝2P. Cột trái là con lăn nên đến điểm B (vị trí 2P) mô-men＝0. Mô-men tại C, D: Mc＝Md＝PL (thớ phải chịu kéo). Hình thỏa các điều kiện này là ③.",
+          "studyContent_vi": "Tìm phản lực gối để xác định toàn bộ ngoại lực → tính mô-men tại các điểm → so sánh hình dạng. Lưu ý phía gối con lăn mô-men xuất hiện trễ."
+        },
+        {
+          "label": "R1 No.8",
+          "question": "図に示す長方形断面部材の図心軸（X軸）に対する許容曲げモーメントの値として、正しいものはどれか。ただし、許容曲げ応力度fbは9.46 N/mm²とする。",
+          "choices": ["9.46×10⁵ N・mm", "5.68×10⁵ N・mm", "4.73×10⁵ N・mm", "2.84×10⁵ N・mm"],
+          "answer": "1",
+          "explanation": "正解は9.46×10⁵ N・mm。断面係数 Z＝bh²/6＝(60×100²)/6＝10⁵ mm³。許容曲げモーメント M＝fb×Z＝9.46×10⁵ N・mm。",
+          "studyContent": "許容曲げモーメント M＝許容曲げ応力度fb×断面係数Z。長方形断面の断面係数は Z＝bh²/6。出典: https://kenchikusekou1.kakomonn.com/questions/49262",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Giá trị mô-men uốn cho phép đối với trục trọng tâm (trục X) của cấu kiện tiết diện chữ nhật như hình nào là đúng? Cho ứng suất uốn cho phép fb＝9,46 N/mm².",
+          "choices_vi": ["9,46×10⁵ N・mm", "5,68×10⁵ N・mm", "4,73×10⁵ N・mm", "2,84×10⁵ N・mm"],
+          "explanation_vi": "Đáp án đúng là 9,46×10⁵ N・mm. Mô-đun chống uốn Z＝bh²/6＝(60×100²)/6＝10⁵ mm³. Mô-men uốn cho phép M＝fb×Z＝9,46×10⁵ N・mm.",
+          "studyContent_vi": "Mô-men uốn cho phép M＝ứng suất uốn cho phép fb×mô-đun chống uốn Z. Tiết diện chữ nhật Z＝bh²/6."
+        },
+        {
+          "label": "R1 No.9",
+          "question": "図に示す3ヒンジラーメン架構のDE間に等変分布荷重が、AD間に集中荷重が同時に作用したとき、支点A及びBに生じる水平反力（HA、HB）、鉛直反力（VA、VB）の値として、正しいものはどれか。ただし、反力は右向き及び上向きを「＋」、左向き及び下向きを「−」とする。",
+          "choices": ["HA＝＋15kN", "HB＝−60kN", "VA＝＋60kN", "VB＝＋120kN"],
+          "answer": "1",
+          "explanation": "正解はHA＝＋15kN。点Aまわりのモーメントつり合いより (40×1.5)＋((60×6)/2×4.0)－(6×VB)＝0 → VB＝130kN。鉛直つり合い VA＋VB＝(60×6)/2＝180 → VA＝50kN。点C（左側）まわり −((30×3)/2×1)－(40×1.5)＋(VA×3)＋(HA×3)＝0 → HA＝15kN。水平つり合い HA＋HB＝40 → HB＝55kN。よって VA＝50、VB＝130、HA＝15、HB＝55kN。",
+          "studyContent": "3ヒンジラーメンはヒンジ部のモーメント0を利用。等変分布荷重は合力（三角形分布なら底辺×高さ÷2）と作用位置（重心）に置換して計算する。出典: https://kenchikusekou1.kakomonn.com/questions/49263",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố tuyến tính (tam giác) tác dụng trên DE và tải tập trung trên AD đồng thời, giá trị phản lực ngang (HA, HB) và phản lực đứng (VA, VB) tại gối A, B nào là đúng? Quy ước phải/lên «＋», trái/xuống «−».",
+          "choices_vi": ["HA＝＋15kN", "HB＝−60kN", "VA＝＋60kN", "VB＝＋120kN"],
+          "explanation_vi": "Đáp án đúng là HA＝＋15kN. Mô-men quanh A: (40×1,5)＋((60×6)/2×4,0)－(6×VB)＝0 → VB＝130kN. Cân bằng đứng VA＋VB＝(60×6)/2＝180 → VA＝50kN. Quanh C (bên trái): −((30×3)/2×1)－(40×1,5)＋(VA×3)＋(HA×3)＝0 → HA＝15kN. Cân bằng ngang HA＋HB＝40 → HB＝55kN. Vậy VA＝50, VB＝130, HA＝15, HB＝55kN.",
+          "studyContent_vi": "Khung 3 khớp dùng mô-men＝0 tại khớp. Tải phân bố tuyến tính thay bằng hợp lực (phân bố tam giác: đáy×cao÷2) đặt tại trọng tâm để tính."
+        },
+        {
+          "label": "R1 No.10",
+          "question": "図に示す梁のAB間に等分布荷重wが、点Cに集中荷重Pが同時に作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張り側に描くものとする。",
+          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
+          "answer": "3",
+          "explanation": "正解は③。等分布荷重と集中荷重を分けて重ね合わせる。等分布荷重：M＝wL²/8でAB間中央に2.25kN・mの下向き放物線。集中荷重：B点で3×3＝9kN・m、A・C点は0でB点を頂点とする三角形、AB間中央は上側に4.5kN・m。重ね合わせるとAB間中央は4.5－2.25＝2.25kN・mで上側に頂点をもつ形となり③が正しい。",
+          "studyContent": "複雑な荷重は単純な状態（等分布のみ／集中のみ）に分けて曲げモーメント図を重ね合わせる。等分布は M＝wL²/8。出典: https://kenchikusekou1.kakomonn.com/questions/49264",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Trong dầm như hình, khi tải phân bố đều w trên đoạn AB và tải tập trung P tại điểm C tác dụng đồng thời, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
+          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
+          "explanation_vi": "Đáp án đúng là ③. Tách riêng tải phân bố đều và tải tập trung rồi chồng chất. Tải phân bố đều: M＝wL²/8, ở giữa AB là parabol hướng xuống 2,25kN・m. Tải tập trung: tại B 3×3＝9kN・m, tại A và C bằng 0, tam giác đỉnh tại B, giữa AB hướng lên 4,5kN・m. Chồng chất: giữa AB ＝4,5－2,25＝2,25kN・m hướng lên → ③ đúng.",
+          "studyContent_vi": "Tải phức tạp được tách thành các trạng thái đơn giản (chỉ phân bố đều / chỉ tập trung) rồi chồng chất biểu đồ mô-men. Phân bố đều: M＝wL²/8."
         }
       ]
     }
-  ]
+  ],
+  "_template_rules": {
+    "version": "2.1",
+    "path_rules": { "must_use_predefined_path": true, "allow_custom_path": false },
+    "question_rules": { "extract_full_problem_section": true, "keep_original_format": true, "preserve_question_order": true },
+    "choice_rules": { "min_choices": 4, "max_choices": 5, "preserve_choice_order": true },
+    "answer_rules": { "type": "string", "allowed_values": ["1", "2", "3", "4", "5"] },
+    "explanation_rules": { "extract_full_section": true, "section_title": "この過去問の解説", "keep_all_items": true, "no_summary_allowed": true },
+    "summary_rules": { "extract_full_section": true, "section_title": "まとめ", "no_summary_allowed": true },
+    "table_rules": { "extract_tables": true, "preserve_original_table": true, "translate_table": true },
+    "image_rules": { "extract_images": true, "keep_image_url": true, "keep_caption": true },
+    "translation_rules": { "translate_question": true, "translate_choices": true, "translate_explanation": true, "translate_summary": true, "translate_tables": true },
+    "format_rules": { "remove_extra_blank_lines": true, "max_consecutive_newlines": 1, "trim_spaces_each_line": true, "normalize_unicode": true, "remove_duplicate_spaces": true, "auto_fix_line_breaks": true }
+  }
 }
