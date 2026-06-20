@@ -1,406 +1,547 @@
 {
   "topics": [
     {
-      "path": "1級建築施工管理技士 / 04_仕上施工 / 建具工事",
-      "vocabulary": "鋼製建具 (こうせいたてぐ) - cửa thép\nフラッシュ戸 (ふらっしゅど) - cửa phẳng (flush door)\n見込み部 (みこみぶ) - phần độ sâu/độ dày cánh cửa\nたて枠 (たてわく) - khung đứng\n丁番 (ちょうばん) - bản lề\nピポットヒンジ (ぴぽっとひんじ) - bản lề trục (pivot hinge)\n補強板 (ほきょうばん) - tấm gia cường\nくつずり (くつずり) - ngưỡng cửa",
+      "path": "1.2 建築環境工学 > 1.2.1 日照・日射",
+      "vocabulary": "日照 / 日射 / 日影 / 可照時間 / 日照時間 / 隣棟間隔比 / 水平ルーバー / 縦ルーバー / ライトシェルフ / 全天日射 / 直達日射 / 天空日射 / 昼光率 / 全天空照度 / 永久日影 / 日影規制",
       "questions": [
         {
           "label": "Q1",
-          "question": "鋼製建具に関する記述として、最も不適当なものはどれか。ただし、1枚の戸の有効開口は、幅950mm、高さ2,400mmとする。",
+          "question": "【令和7年（2025年）午前 イ 問1】日照及び日射に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとした。",
-            "外部に面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包んだ。",
-            "たて枠は鋼板製とし、厚さを1.6mmとした。",
-            "丁番やピポットヒンジ等により、大きな力が加わる建具枠の補強板は、厚さを2.3mmとした。"
+            "水平ルーバーは南面の日射を遮るのに効果があり、縦ルーバーは東西面の日射を遮るのに効果がある。",
+            "同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔比を小さくする必要がある。",
+            "北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。",
+            "ライトシェルフは窓の中間に取り付けた庇であり、直射日光を遮蔽しつつ、庇上部で反射した自然光を室内の奥まで取り入れる装置である。"
           ],
           "answer": "2",
-          "explanation": "この過去問の解説 （3件）\n01\n外部に面する場合と、内部のみに面する場合とで各種数値が異なります。外部に面する場合の方が部材寸法が大きくなることに注意して覚えましょう。\n選択肢1. 外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとした。設問の通りです。\n選択肢2. 外部に面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包んだ。外部に面する両面フラッシュ戸の見込み部は、下部を除いた三方を表面板で包む必要があります。よって誤りです。なお、内部のみに面する両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包みます。\n選択肢3. たて枠は鋼板製とし、厚さを1.6mmとした。設問の通りです。\n選択肢4. 丁番やピポットヒンジ等により、大きな力が加わる建具枠の補強板は、厚さを2.3mmとした。設問の通りです。\n\n02\n鋼製建具に関する問題です。吊り込み、金具、調整方法についても詳しく覚えておくと良いです。\n選択肢1. 外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとします。設問の通りです。\n選択肢2. 設問は誤りです。外部に面する両面フラッシュ戸の見込み部は、上下部を除いた左右3方を表面板で包みます。\n選択肢3. たて枠は鋼板製とし、厚さを1.6mmとします。設問の通りです。\n選択肢4. 丁番やピポットヒンジ等により、大きな力が加わる建具枠の補強板は、厚さを2.3mmとします。設問の通りです。\n\n03\n外部、内面の両面フラッシュ戸についてよく覚えてください！\n選択肢1. 〇 外部に面する両面フラッシュ戸の表面板は鋼板製とし、厚さを1.6mmとします。\n選択肢2. × 内部建具の両面フラッシュ戸の見込み部は、上下部を除いた左右2方を表面板で包みます。また、外部に面する戸は下部を除き三方の見込みを表面板で包みます。\n選択肢3. 〇 たて枠は鋼板製とし、厚さを1.6mmとします。\n選択肢4. 〇 大きな力が加わる建具枠の補強板は、厚さを2.3mmとなります。",
-          "studyContent": "まとめ\n下部を除いた上部左右の三方を表面板で包みます。ステンレス製建具の鋼板類の厚さは一般部1.5mm、くつずり1.5mm、裏板1.6mm以上、補強板の類2.3mm以上です。まとめて覚えておきましょう。",
-          "question_vi": "Trong các mô tả sau về cửa thép, đâu là mô tả KHÔNG phù hợp nhất? (Giả định 1 cánh cửa có khe hở hữu hiệu rộng 950mm, cao 2.400mm)",
+          "explanation": "【解説01】\n日照及び日射に関する問題です。\n\n選択肢1（正）：水平ルーバーは、主に夏季、太陽高度が高くなり、南面の日射量が多くなるので効果を発揮します。縦ルーバーは、太陽高度が低い状況での日射を遮るのに効果を発揮します。\n選択肢2（誤）：同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔比を大きくする必要があります。\n選択肢3（正）：北緯35°における南面の垂直壁面の可照時間は、春・秋分＞冬至＞夏至となるので、選択肢の記述は正しくなります。\n選択肢4（正）：選択肢の説明の通りになります。\nまとめ：この分野では、垂直壁面の可照時間の問題、水平・縦ルーバーの説明の語句の入れ替え問題が頻出となっているので、必ず押さえておきましょう。\n\n【解説02】\n最も不適当なのは、「同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔比を小さくする必要がある。」です。\n\n選択肢1：南面は夏の太陽が高いので水平ルーバーが効きやすく、東西面は朝夕の太陽が低い角度で入るので縦ルーバーが効きやすいです。\n選択肢2（誤）：緯度が高いほど太陽が低く、建物の影が長くなるので、北側の建物に日が当たりにくくなります。したがって同じ日照時間を確保するなら、隣棟間隔比は小さくではなく大きく取る必要があります。\n選択肢3：夏至は太陽が高く、日の出・日の入り方向も北寄りになる時間帯があるため、南面の垂直壁には日が当たりにくい時間が増えます。冬至は太陽の通り道が南寄りで、南面壁に当たりやすく、結果として冬至のほうが可照時間が長くなりやすいです。\n選択肢4：ライトシェルフは窓の中ほどに設ける板状の部材で、下側は日射をさえぎり、上側は反射光を天井方向へ回して室内の奥まで明るさを届ける考え方です。\nまとめ：この問題は、日射遮蔽と日照の基本イメージを押さえると解きやすいです。水平ルーバーは南面、縦ルーバーは東西面が基本です。緯度が高いほど太陽が低くなり影が長くなるので、同じ日照時間を確保するには隣棟間隔比は大きくする方向です。南面の垂直壁は、夏至より冬至のほうが当たりやすい時間が増えることがあります。",
+          "studyContent": "■ルーバー：水平ルーバー＝南面（太陽高度が高い夏の日射）、縦ルーバー＝東西面（太陽高度が低い朝夕の日射）。\n■可照時間（南面垂直壁面、北緯35°）：春・秋分＞冬至＞夏至。なお水平面は夏至が最長。\n■隣棟間隔比：緯度が高い→太陽高度が低い→影が長い→同じ日照時間確保には間隔比を大きくとる。\n■ライトシェルフ：窓中間の庇。下部で直射を遮り、上面反射光を室奥へ導く昼光利用装置。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần イ Câu 1】Trong các mô tả về chiếu nắng (nhật chiếu) và bức xạ mặt trời (nhật xạ), đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Tấm mặt của cửa phẳng (flush door) hai mặt tiếp xúc với bên ngoài được làm bằng tôn thép, dày 1,6mm.",
-            "Phần độ sâu (見込み部) của cửa phẳng hai mặt tiếp xúc bên ngoài được bọc tấm mặt theo 2 cạnh trái-phải, trừ phần trên và dưới.",
-            "Khung đứng được làm bằng tôn thép, dày 1,6mm.",
-            "Tấm gia cường của khung cửa chịu lực lớn (bản lề, pivot hinge…) có độ dày 2,3mm."
+            "Louver ngang có hiệu quả che bức xạ mặt trời ở mặt Nam, còn louver đứng có hiệu quả che bức xạ ở mặt Đông – Tây.",
+            "Để đảm bảo cùng một thời gian chiếu nắng, vĩ độ càng cao thì càng phải làm NHỎ tỷ lệ khoảng cách giữa các tòa nhà theo hướng Bắc – Nam.",
+            "Khả chiếu thời gian (thời gian có thể chiếu nắng) của mặt tường thẳng đứng hướng Nam ở vĩ độ Bắc 35° thì ngày Đông chí dài hơn ngày Hạ chí.",
+            "Light shelf (kệ sáng) là tấm ô văng gắn ở giữa cửa sổ, vừa chắn ánh nắng trực tiếp vừa đưa ánh sáng tự nhiên phản xạ ở mặt trên của kệ vào sâu trong phòng."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nCác trị số tiêu chuẩn khác nhau giữa cửa tiếp xúc bên ngoài và cửa chỉ ở bên trong. Cửa tiếp xúc bên ngoài có kích thước cấu kiện lớn hơn.\nLựa chọn 1. Đúng – tấm mặt cửa phẳng hai mặt tiếp xúc ngoài làm bằng tôn thép dày 1,6mm.\nLựa chọn 2. Sai – phần độ sâu của cửa phẳng tiếp xúc bên ngoài phải được bọc 3 phía (chỉ trừ phía dưới). Trường hợp 2 phía trái-phải (trừ trên-dưới) chỉ áp dụng cho cửa nội thất.\nLựa chọn 3. Đúng – khung đứng tôn thép dày 1,6mm.\nLựa chọn 4. Đúng – tấm gia cường khung cửa chịu lực lớn dày 2,3mm.\n\n02\nCâu hỏi về cửa thép. Nên nhớ kỹ cả cách lắp đặt, phụ kiện và phương pháp điều chỉnh.\nLựa chọn 1. Đúng.\nLựa chọn 2. Sai – đối với cửa ngoài, bọc 3 cạnh (trái-phải-trên), chỉ chừa phần dưới.\nLựa chọn 3. Đúng.\nLựa chọn 4. Đúng.\n\n03\nHãy ghi nhớ rõ sự khác nhau giữa cửa phẳng nội/ngoại thất.\nLựa chọn 1. 〇 Đúng.\nLựa chọn 2. × Mô tả này là quy cách cho cửa nội thất, không phải cửa ngoài.\nLựa chọn 3. 〇 Đúng.\nLựa chọn 4. 〇 Đúng.",
-          "studyContent_vi": "まとめ\nCửa phẳng hai mặt tiếp xúc bên ngoài: bọc tấm mặt 3 phía (trên + trái + phải), chỉ chừa phần dưới. Cửa thép không gỉ: tấm thông thường 1,5mm; ngưỡng cửa 1,5mm; tấm sau ≥1,6mm; tấm gia cường ≥2,3mm. Hãy ghi nhớ tổng hợp các trị số này."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 04_仕上施工 / 塗装工事",
-      "vocabulary": "塗装工事 (とそうこうじ) - thi công sơn\nアクリル樹脂系非水分散形塗料 - sơn nhựa acrylic dạng phân tán phi nước (NAD)\n研磨紙 (けんまし) - giấy nhám\n合成樹脂エマルションペイント - sơn nhũ tương nhựa tổng hợp (EP)\n木材保護塗料 (もくざいほごとりょう) - sơn bảo vệ gỗ (WP)\n亜鉛めっき (あえんめっき) - mạ kẽm\nふっ素樹脂エナメル - sơn men nhựa fluorocarbon\n変性エポキシ樹脂プライマー - sơn lót epoxy biến tính",
-      "questions": [
+          "explanation_vi": "【Giải thích 01】\nBài về chiếu nắng và bức xạ mặt trời.\n\nLựa chọn 1 (Đúng): Louver ngang phát huy hiệu quả chủ yếu vào mùa hè khi mặt trời lên cao và lượng bức xạ mặt Nam lớn. Louver đứng phát huy hiệu quả che bức xạ khi mặt trời ở độ cao thấp.\nLựa chọn 2 (Sai): Để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao thì càng phải làm LỚN tỷ lệ khoảng cách Bắc–Nam giữa các tòa nhà.\nLựa chọn 3 (Đúng): Khả chiếu thời gian mặt tường đứng hướng Nam ở vĩ độ Bắc 35° là Xuân/Thu phân > Đông chí > Hạ chí, nên mô tả đúng.\nLựa chọn 4 (Đúng): Đúng như mô tả.\nTóm tắt: Lĩnh vực này thường ra đề về khả chiếu thời gian của tường đứng và đề tráo đổi câu chữ giữa louver ngang/đứng, cần nắm chắc.\n\n【Giải thích 02】\nMô tả KHÔNG phù hợp nhất là 'Để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao càng phải làm NHỎ tỷ lệ khoảng cách Bắc–Nam'.\n\nLựa chọn 1: Mặt Nam có mặt trời mùa hè lên cao nên louver ngang dễ phát huy hiệu quả; mặt Đông–Tây có nắng sáng/chiều vào ở góc thấp nên louver đứng dễ phát huy hiệu quả.\nLựa chọn 2 (Sai): Vĩ độ càng cao mặt trời càng thấp, bóng nhà càng dài, nhà phía Bắc khó nhận nắng. Do đó để đảm bảo cùng thời gian chiếu nắng, tỷ lệ khoảng cách phải lấy LỚN chứ không nhỏ.\nLựa chọn 3: Hạ chí mặt trời cao, hướng mọc/lặn thiên về phía Bắc trong một số khung giờ nên tường đứng hướng Nam có nhiều thời gian khó nhận nắng. Đông chí đường đi mặt trời thiên về Nam, dễ chiếu vào tường Nam, nên Đông chí khả chiếu thời gian dài hơn.\nLựa chọn 4: Light shelf là tấm bản đặt khoảng giữa cửa sổ, phía dưới chắn bức xạ, phía trên hắt ánh sáng phản xạ lên trần để đưa độ sáng vào sâu trong phòng.\nTóm tắt: Nắm hình dung cơ bản về che bức xạ và chiếu nắng sẽ dễ giải. Cơ bản: louver ngang = mặt Nam, louver đứng = mặt Đông–Tây. Vĩ độ càng cao mặt trời càng thấp, bóng càng dài, nên để đảm bảo cùng thời gian chiếu nắng phải tăng tỷ lệ khoảng cách. Tường đứng hướng Nam có thể có nhiều thời gian nhận nắng vào Đông chí hơn Hạ chí.",
+          "studyContent_vi": "■ Louver: louver ngang = mặt Nam (nắng mùa hè khi mặt trời cao), louver đứng = mặt Đông–Tây (nắng sáng/chiều khi mặt trời thấp).\n■ Khả chiếu thời gian (tường đứng hướng Nam, vĩ độ Bắc 35°): Xuân/Thu phân > Đông chí > Hạ chí. Mặt phẳng ngang thì Hạ chí dài nhất.\n■ Tỷ lệ khoảng cách giữa nhà: vĩ độ cao → mặt trời thấp → bóng dài → phải lấy khoảng cách lớn hơn.\n■ Light shelf: ô văng giữa cửa sổ, chắn nắng trực tiếp ở dưới, đưa ánh sáng phản xạ mặt trên vào sâu phòng."
+        },
         {
           "label": "Q2",
-          "question": "塗装工事に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和5年（2023年）午前 イ 問1】日照及び日射に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "アクリル樹脂系非水分散形塗料塗りにおいて、中塗りを行う前に研磨紙P220を用いて研磨した。",
-            "せっこうボード面の合成樹脂エマルションペイント塗りにおいて、気温が20℃であったため、中塗り後3時間経過してから、次の工程に入った。",
-            "屋外の木質系素地面の木材保護塗料塗りにおいて、原液を水で希釈し、よく攪拌して使用した。",
-            "亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りにおいて、下塗りに変性エポキシ樹脂プライマーを使用した。"
+            "北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。",
+            "日影規制は、中高層建築物が敷地境界線から一定の距離を超える範囲に生じさせる、冬至日における日影の時間を制限している。",
+            "水平ルーバーは東西面の日射を遮るのに効果があり、縦ルーバーは南面の日射を遮るのに効果がある。",
+            "全天日射は、直達日射と天空日射を合計したものである。"
           ],
           "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n塗装工事では、希釈や温度、時間をメインに暗記してみるのがポイントです。\n選択肢1. 〇 アクリル樹脂系非水分散形塗料塗りにおいては、中塗りを行う前に研磨紙P220を用いて研磨します。\n選択肢2. 〇 せっこうボード面の合成樹脂エマルションペイント塗りで気温20℃の場合、中塗り後3時間経過してから次の工程に入ります。\n選択肢3. × 木材保護塗料塗りは、原液で使用することを基本として希釈はしません。\n選択肢4. 〇 亜鉛めっき鋼面の常温乾燥形ふっ素樹脂エナメル塗りにおいて、下塗りには変性エポキシ樹脂プライマーを使用します。\n\n02\n過去に何回も出題のある選択肢です。各種数値・使用方法を覚えましょう。\n選択肢1. 設問の通りです。\n選択肢2. 設問の通りです。\n選択肢3. 屋外の木質系素地面の木材保護塗料塗りにおいては、原液をそのまま使用します。よって誤りです。\n選択肢4. 設問の通りです。\n\n03\n塗装工事の材料使用方法についての問いです。基本的な問題ですので、よく覚えておきましょう。\n選択肢1. 中塗りを行う前に研磨紙P220～240を用いて研磨します。設問の通りです。\n選択肢2. 設問の通り、中塗り後3時間経過してから次の工程に入ります。\n選択肢3. 誤り。屋外の木質系素地面の木材保護塗料塗りにおいては原液を水で希釈しません。\n選択肢4. 設問の通り、下塗りに変性エポキシ樹脂プライマーを使用します。",
-          "studyContent": "まとめ\n屋外の木質系素地面の木材保護塗料塗り（WP)については、JASS 18 M-307に規定されております。余裕があれば調べてみましょう。",
-          "question_vi": "Trong các mô tả sau về thi công sơn, đâu là mô tả KHÔNG phù hợp nhất?",
+          "explanation": "【解説01】\n日照・日射・日影に関する出題です。\n\n選択肢1（正）：北緯35°における南面の垂直壁面の可照時間は、太陽高度の高い夏至が最短となります。春秋分＞冬至＞夏至。\n選択肢2（正）：設問の通りです。具体的な数値は条例などで定められています。\n選択肢3（誤）：縦ルーバーは東西面の日射を遮るのに効果があり、水平ルーバーは南面の日射を遮るのに効果があります。\n選択肢4（正）：設問の通りです。\n\n【解説02】\n日照及び日射に関する記述について、最も不適当なものを選ぶ問題の解説を行います。\n\n選択肢1：設問の通り、北緯35°では、夏至日における南面の垂直壁面の可照時間は最も短く、冬至日には最も長くなります。したがって、この選択肢は適当です。\n選択肢2：日影規制は、冬至日における日影の時間を制限するもので、特に中高層建築物が敷地境界線から一定の距離を超える範囲での影響を考慮します。この記述は適当です。\n選択肢3：水平ルーバーは主に南面の日射を遮るのに効果があり、縦ルーバーは東西面の日射を遮るのに効果があります。この記述は不適当です。\n選択肢4：全天日射は、直達日射（太陽から直接届く光）と天空日射（大気中の散乱光）を合計したものです。この記述は適当です。\nまとめ：この問題では、水平ルーバーと縦ルーバーの遮光効果についての説明が逆になっています。他の選択肢は日照および日射に関する適切な内容となっています。\n\n【解説03】\n日照及び日射に関する分野に関しては、出題範囲が限られています。法律に関わる難しい問題も出題されたりしますが、基本的な部分を押さえておけば、消去法で解くことができます。では、問題を見てみましょう。\n\n選択肢1：基礎的な知識になりますが、北緯35°とは、日本の位置の話になります。このことを念頭に入れた上で問題を見てみましょう。北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長いです。設問の記述は正しいといえます。逆に、水平面の可照時間は夏至日のほうが冬至日より長くなりますので、併せて覚えましょう。\n選択肢2：設問の記述は適当です。冬至日において、中高層建築物は大きな影を発生させます。このため、冬至日における日影の時間を制限する「日影規制」があります。\n選択肢3：水平ルーバーを東西面に設置すると、西日などが水平ルーバーから入ってきてしまい、不快な思いをすることとなります。水平ルーバーを南面に設置すれば、夏は日差しを遮ってくれます。加えて、冬には、高度が低くなった太陽からの日差しが入ってくるため、部屋を暖かくすることができます。ルーバーは、方角に応じて使い分けましょう。設問の記述は誤りです。\n選択肢4：設問の記述は適当です。全天日射＝直達日射＋天空日射となります。\nまとめ：この分野の出題に関しては、小学校や中学校で習うような問題から、法律などの問題まで、多義にわたります。しかしながら、基本的な分野を押さえておけば、十分です。法律などの難しい分野の勉強は、後回しにするほうが効率がいいといえます。",
+          "studyContent": "■ルーバー（重要）：水平ルーバー＝南面、縦ルーバー＝東西面。\n■可照時間（南面垂直壁面）：春秋分＞冬至＞夏至。\n■日影規制：冬至日の日影時間を規制（中高層建築物、敷地境界線から一定距離超の範囲）。\n■全天日射＝直達日射（太陽から直接）＋天空日射（大気の散乱光）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 5 (2023) – Buổi sáng phần イ Câu 1】Trong các mô tả về chiếu nắng và bức xạ mặt trời, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Khi sơn NAD acrylic, trước khi sơn lớp giữa đã dùng giấy nhám P220 để mài nhám.",
-            "Khi sơn EP nhũ tương trên bề mặt tấm thạch cao ở nhiệt độ 20℃, đã chờ 3 giờ sau lớp giữa rồi mới chuyển sang công đoạn tiếp.",
-            "Khi sơn bảo vệ gỗ ngoài trời (WP), đã pha loãng dung dịch nguyên chất bằng nước và khuấy đều để sử dụng.",
-            "Khi sơn men fluorocarbon khô ở nhiệt độ thường lên mặt thép mạ kẽm, đã dùng sơn lót epoxy biến tính."
+            "Khả chiếu thời gian của mặt tường thẳng đứng hướng Nam ở vĩ độ Bắc 35° thì ngày Đông chí dài hơn ngày Hạ chí.",
+            "Quy định về bóng đổ (nhật ảnh) giới hạn thời gian bóng đổ vào ngày Đông chí mà công trình cao tầng/trung tầng tạo ra ở phạm vi vượt quá một khoảng cách nhất định tính từ ranh giới khu đất.",
+            "Louver ngang có hiệu quả che bức xạ ở mặt Đông – Tây, còn louver đứng có hiệu quả che bức xạ ở mặt Nam.",
+            "Bức xạ toàn bầu trời (toàn thiên nhật xạ) là tổng của bức xạ trực tiếp (trực đạt nhật xạ) và bức xạ khuếch tán bầu trời (thiên không nhật xạ)."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nVới thi công sơn, trọng tâm là ghi nhớ về độ pha loãng, nhiệt độ và thời gian.\nLựa chọn 1. 〇 Đúng – mài bằng giấy nhám P220 trước khi sơn lớp giữa.\nLựa chọn 2. 〇 Đúng – ở 20℃, chờ 3 giờ sau lớp giữa.\nLựa chọn 3. × Sai – sơn bảo vệ gỗ phải dùng nguyên chất, KHÔNG pha loãng.\nLựa chọn 4. 〇 Đúng – dùng sơn lót epoxy biến tính.\n\n02\nLựa chọn 1, 2, 4 đều đúng. Lựa chọn 3 sai vì dùng nguyên chất, không pha loãng nước.\n\n03\nLựa chọn 1. Đúng – dùng giấy nhám P220~240.\nLựa chọn 2. Đúng.\nLựa chọn 3. Sai – không được pha loãng.\nLựa chọn 4. Đúng.",
-          "studyContent_vi": "まとめ\nSơn bảo vệ gỗ (WP) cho bề mặt gỗ ngoài trời được quy định trong JASS 18 M-307. Hãy tra cứu thêm khi có thời gian."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 04_仕上施工",
-      "vocabulary": "ALCパネル (えーえるしーぱねる) - tấm ALC (bê tông khí chưng áp)\n床版敷設筋構法 (しょうばんふせつきんこうほう) - phương pháp cốt thép gối sàn\n横壁アンカー構法 (よこかべあんかーこうほう) - phương pháp neo tường ngang\n縦壁フットプレート構法 (たてかべふっとぷれーとこうほう) - phương pháp footplate tường đứng\n間仕切チャンネル (まじきりちゃんねる) - thanh channel ngăn phòng\nデッキプレート - tấm sàn deck\n自重受け金物 (じじゅううけかなもの) - phụ kiện đỡ tải trọng bản thân\n目地鉄筋 (めじてっきん) - cốt thép tại mạch nối",
-      "questions": [
+          "explanation_vi": "【Giải thích 01】\nĐề về chiếu nắng・bức xạ・bóng đổ.\n\nLựa chọn 1 (Đúng): Khả chiếu thời gian mặt tường đứng hướng Nam ở vĩ độ Bắc 35° ngắn nhất vào Hạ chí (mặt trời cao). Thứ tự: Xuân/Thu phân > Đông chí > Hạ chí (do đó Đông chí dài hơn Hạ chí → mô tả đúng).\nLựa chọn 2 (Đúng): Đúng như đề. Trị số cụ thể do điều lệ địa phương quy định.\nLựa chọn 3 (Sai): Louver đứng hiệu quả che mặt Đông–Tây, louver ngang hiệu quả che mặt Nam.\nLựa chọn 4 (Đúng): Đúng như đề.\n\n【Giải thích 02】\nGiải thích bài chọn mô tả KHÔNG phù hợp nhất.\n\nLựa chọn 1: Đúng như đề; ở Bắc 35°, khả chiếu thời gian tường đứng hướng Nam ngắn nhất vào Hạ chí và dài nhất vào Đông chí. Lựa chọn này phù hợp.\nLựa chọn 2: Quy định bóng đổ giới hạn thời gian bóng đổ ngày Đông chí, đặc biệt xét ảnh hưởng của công trình cao/trung tầng ở phạm vi vượt một khoảng cách nhất định từ ranh giới đất. Mô tả này phù hợp.\nLựa chọn 3: Louver ngang chủ yếu che mặt Nam, louver đứng che mặt Đông–Tây. Mô tả này KHÔNG phù hợp.\nLựa chọn 4: Bức xạ toàn bầu trời là tổng của bức xạ trực tiếp (ánh sáng đến thẳng từ mặt trời) và bức xạ khuếch tán bầu trời (ánh sáng tán xạ trong khí quyển). Mô tả này phù hợp.\nTóm tắt: Bài này đảo ngược hiệu quả che của louver ngang và đứng. Các lựa chọn khác đều là nội dung đúng về chiếu nắng và bức xạ.\n\n【Giải thích 03】\nLĩnh vực chiếu nắng・bức xạ có phạm vi ra đề hạn chế. Có khi ra cả câu khó liên quan luật, nhưng nắm phần cơ bản thì có thể dùng phương pháp loại trừ để giải.\n\nLựa chọn 1: Kiến thức cơ bản: Bắc 35° là vị trí của Nhật Bản. Khả chiếu thời gian tường đứng hướng Nam ở Bắc 35° vào Đông chí dài hơn Hạ chí → mô tả đúng. Ngược lại, khả chiếu thời gian mặt phẳng ngang thì Hạ chí dài hơn Đông chí, nên nhớ kèm theo.\nLựa chọn 2: Mô tả phù hợp. Vào Đông chí, công trình cao/trung tầng tạo bóng lớn, nên có 'quy định bóng đổ' giới hạn thời gian bóng đổ ngày Đông chí.\nLựa chọn 3: Nếu đặt louver ngang ở mặt Đông–Tây thì nắng Tây sẽ lọt vào dưới louver ngang gây khó chịu. Đặt louver ngang ở mặt Nam thì mùa hè che được nắng, còn mùa đông mặt trời xuống thấp nắng vẫn vào làm ấm phòng. Phải dùng louver theo hướng. Mô tả sai.\nLựa chọn 4: Mô tả phù hợp. Bức xạ toàn bầu trời = bức xạ trực tiếp + bức xạ khuếch tán bầu trời.\nTóm tắt: Đề lĩnh vực này trải rộng từ kiến thức cấp tiểu học/trung học đến luật. Nhưng nắm phần cơ bản là đủ; phần luật khó nên để học sau sẽ hiệu quả hơn.",
+          "studyContent_vi": "■ Louver (quan trọng): louver ngang = mặt Nam, louver đứng = mặt Đông–Tây.\n■ Khả chiếu thời gian (tường đứng hướng Nam): Xuân/Thu phân > Đông chí > Hạ chí.\n■ Quy định bóng đổ: giới hạn thời gian bóng đổ ngày Đông chí (công trình cao/trung tầng, phạm vi vượt khoảng cách nhất định từ ranh giới đất).\n■ Bức xạ toàn bầu trời = bức xạ trực tiếp (trực tiếp từ mặt trời) + bức xạ khuếch tán bầu trời (ánh sáng tán xạ trong khí quyển)."
+        },
         {
           "label": "Q3",
-          "question": "ALCパネル工事に関する記述として、最も不適当なものはどれか。",
+          "question": "【平成30年（2018年）午前 問2】日照、日射及び日影に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "床版敷設筋構法において、床パネルへの設備配管等の孔あけ加工は1枚当たり1か所とし、主筋の位置を避け、直径100mmの大きさとした。",
-            "横壁アンカー構法において、地震時等における躯体の変形に追従できるよう、ALCパネル積上げ段数3段ごとに自重受け金物を設けた。",
-            "縦壁フットプレート構法において、ALC取付け用間仕切チャンネルをデッキプレート下面の溝方向に取り付ける場合、下地として平鋼をデッキプレート下面にアンカーを用いて取り付けた。",
-            "床版敷設筋構法において、建物周辺部、隅角部等で目地鉄筋により床パネルの固定ができない箇所は、ボルトと角座金を用いて取り付けた。"
+            "水平ルーバーは西日を遮るのに効果があり、縦ルーバーは夏季の南面の日射を防ぐのに効果がある。",
+            "北緯35度における南面の垂直壁面の可照時間は、春分より夏至の方が短い。",
+            "同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔を大きくとる必要がある。",
+            "建物の高さが同じである場合、東西に幅が広い建物ほど日影の影響の範囲が大きくなる。"
           ],
           "answer": "1",
-          "explanation": "この過去問の解説 （3件）\n01\nALCパネル工事の問題では主に数字や金物について理解するのがポイントです。\n選択肢1. × 床版敷設筋構法において、床パネルへの設備配管等の孔あけ加工は1枚当たり1か所とし、主筋の位置を避けて、直径は50mm以下の大きさとします。\n選択肢2. 〇 横壁アンカー構法において、地震時等における躯体の変形に追従できるようにALCパネル積上げ段数3段ごとに自重受け金物を設けます。\n選択肢3. 〇 縦壁フットプレート構法において、ALC取付け用間仕切チャンネルをデッキプレート下面の溝方向に取り付ける場合は、下地として平鋼をデッキプレート下面にアンカーを用いて取り付けます。\n選択肢4. 〇 床版敷設筋構法において建物周辺部、隅角部等で目地鉄筋により床パネルの固定ができない箇所はボルトと角座金を用いて取り付けを行います。\n\n02\nALC工事のさまざまな構法についての設問です。\n選択肢1. 誤り。ALCパネルの穴あけ加工は、主筋を切断しない範囲で直径50㎜以下とします（ALC協会標準）。\n選択肢2. 設問の通り。横壁アンカー構法では、ALCパネル積上げ段数3～5段ごとに自重受け金物を設けます。\n選択肢3. 設問の通り。\n選択肢4. 設問の通り。\n\n03\n各種数値・使用方法を覚えましょう。\n選択肢1. 直径は50mm以下の大きさとする必要があります。よって誤りです。\n選択肢2. 設問の通りです。\n選択肢3. 設問の通りです。\n選択肢4. 設問の通りです。",
-          "studyContent": "まとめ\n外壁パネル構法の問題も頻出するので、よく覚えておきましょう。",
-          "question_vi": "Trong các mô tả sau về thi công tấm ALC, đâu là mô tả KHÔNG phù hợp nhất?",
+          "explanation": "【解説01】\n正解は1です。\n\n1（誤）：縦ルーバーは西日を遮るのに効果があり、水平ルーバーは夏季の南面の日射を防ぐのに効果があります。\n2（正）：設問通りです。夏至は太陽高度が高い為、南面の垂直壁面の可照時間は、春分の日及び秋分の日より短くなります。\n3（正）：設問通りです。緯度の高い地域の方が太陽高度が低く、日照時間が短いです。その為、同じ日照時間を確保するためには、緯度が高くなるほど建築物の南北の隣棟間隔を大きくとる必要があります。\n4（正）：設問通りです。\n\n【解説02】\n正解は1です。\n\n1（誤）：西日は太陽高度が低く、水平面に対しての角度が小さくなります。水平に近い西日に対して水平に設置されたルーバーの遮蔽効果は小さく、よって西日を遮るためには垂直ルーバーの方が効果があります。\n2（正）：夏至は１年の中で太陽高度が一番高くなります。太陽高度が高いということは垂直面より水平面への日照時間が長くなります。反対に秋春分は太陽高度が低いため垂直面への日照時間が長くなります。\n3（正）：緯度が高くなるほど太陽高度は低くなり、日照時間は短くなります。隣棟間隔は隣棟間隔係数に比例し、緯度が高くなるほどこの係数は大きくなります。\n4（正）：建物の日影は日影曲線図によって求められます。同じ高さの建物で比較した場合、東西方向に長い建物の方が北側へ与える日影の影響は大きくなります。\n\n【解説03】\n以下、選択肢ごとに解説します。\n\n選択肢1（誤）：縦ルーバーは西日を遮るのに効果があり、水平ルーバーは夏季の南面の日射を防ぐのに効果があります。\n選択肢2（正）：北緯35度における南面の垂直壁面の可照時間は春分より夏至の方が短いです。太陽位置図を理解しましょう。\n選択肢3（正）：緯度の高い地域の方が太陽高度が低く、日照時間が短いです。その為、同じ日照時間を確保するためには、緯度が高くなるほど建築物の南北の隣棟間隔を大きくとる必要があります。\n選択肢4（正）：同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔を大きくとる必要があります。",
+          "studyContent": "■ルーバー：縦ルーバー＝西日・東西面（太陽高度が低い）、水平ルーバー＝夏の南面（太陽高度が高い）。\n■可照時間（南面垂直壁面）：夏至＜春秋分。水平面は夏至が最長。\n■隣棟間隔：緯度が高い→間隔を大きく。\n■日影：同じ高さなら東西に長い建物ほど日影の影響範囲が大きい。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Heisei 30 (2018) – Buổi sáng Câu 2】Trong các mô tả về chiếu nắng, bức xạ mặt trời và bóng đổ, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Trong phương pháp cốt thép gối sàn, việc khoan lỗ cho ống thiết bị trên tấm sàn là 1 vị trí/tấm, tránh vị trí cốt chủ và đường kính 100mm.",
-            "Trong phương pháp neo tường ngang, để theo kịp biến dạng kết cấu khi có động đất, đã bố trí phụ kiện đỡ tải trọng cứ mỗi 3 hàng tấm ALC chồng lên nhau.",
-            "Trong phương pháp footplate tường đứng, khi lắp thanh channel ngăn phòng theo hướng rãnh mặt dưới tấm deck, đã lắp thép dẹt làm lớp đệm bằng neo vào mặt dưới deck.",
-            "Trong phương pháp cốt thép gối sàn, tại các vị trí biên/góc nhà không thể cố định tấm sàn bằng cốt thép mạch nối, đã sử dụng bu lông và vòng đệm vuông."
+            "Louver ngang có hiệu quả che nắng chiều (nắng Tây), còn louver đứng có hiệu quả ngăn bức xạ mặt Nam vào mùa hè.",
+            "Khả chiếu thời gian của mặt tường thẳng đứng hướng Nam ở vĩ độ Bắc 35° thì ngày Hạ chí ngắn hơn Xuân phân.",
+            "Để đảm bảo cùng một thời gian chiếu nắng, vĩ độ càng cao thì càng phải lấy khoảng cách Bắc – Nam giữa các tòa nhà lớn hơn.",
+            "Khi chiều cao công trình như nhau, công trình càng rộng theo hướng Đông – Tây thì phạm vi ảnh hưởng của bóng đổ càng lớn."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nVới thi công ALC, trọng tâm là ghi nhớ các con số và phụ kiện.\nLựa chọn 1. × Đường kính lỗ khoan phải ≤ 50mm (không phải 100mm).\nLựa chọn 2. 〇 Đúng – đặt phụ kiện đỡ tải trọng mỗi 3 hàng tấm.\nLựa chọn 3. 〇 Đúng.\nLựa chọn 4. 〇 Đúng.\n\n02\nLỗ khoan tấm ALC: trong phạm vi không cắt cốt chủ, đường kính ≤ 50mm (theo Hiệp hội ALC). Mục 2: 3~5 hàng/phụ kiện đỡ.\n\n03\nLựa chọn 1 sai (phải ≤ 50mm). Các lựa chọn còn lại đúng.",
-          "studyContent_vi": "まとめ\nĐề về phương pháp tấm tường ngoài cũng hay xuất hiện, hãy ghi nhớ kỹ."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 04_仕上施工 / 内装工事",
-      "vocabulary": "内装改修工事 (ないそうかいしゅうこうじ) - thi công cải tạo nội thất\nビニル床シート (びにるゆかしーと) - tấm sàn vinyl\nダイヤモンドカッター - đĩa cắt kim cương\n合成樹脂塗床 (ごうせいじゅしぬりゆか) - sàn sơn nhựa tổng hợp\n目荒し (めあらし) - làm nhám bề mặt\n防火認定壁紙 - giấy dán tường được công nhận chống cháy\n裏打紙 (うらうちがみ) - giấy lót sau lưng\nディスクサンダー - máy mài đĩa",
-      "questions": [
+          "explanation_vi": "【Giải thích 01】\nĐáp án (mô tả sai) là 1.\n\n1 (Sai): Louver đứng hiệu quả che nắng Tây; louver ngang hiệu quả ngăn bức xạ mặt Nam mùa hè.\n2 (Đúng): Hạ chí mặt trời cao nên khả chiếu thời gian tường đứng hướng Nam ngắn hơn Xuân phân/Thu phân.\n3 (Đúng): Vùng vĩ độ cao mặt trời thấp, thời gian chiếu nắng ngắn. Do đó để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao càng phải lấy khoảng cách Bắc–Nam giữa công trình lớn hơn.\n4 (Đúng): Đúng như đề.\n\n【Giải thích 02】\nĐáp án là 1.\n\n1 (Sai): Nắng Tây có độ cao mặt trời thấp, góc so với mặt phẳng ngang nhỏ. Louver đặt ngang ít hiệu quả với nắng Tây gần phương ngang, nên để che nắng Tây louver đứng hiệu quả hơn.\n2 (Đúng): Hạ chí có độ cao mặt trời cao nhất trong năm. Mặt trời càng cao thì thời gian chiếu nắng lên mặt phẳng ngang dài hơn mặt đứng. Ngược lại Xuân/Thu phân mặt trời thấp nên thời gian chiếu nắng lên mặt đứng dài hơn.\n3 (Đúng): Vĩ độ càng cao độ cao mặt trời càng thấp, thời gian chiếu nắng càng ngắn. Khoảng cách giữa nhà tỷ lệ với hệ số khoảng cách giữa nhà, vĩ độ càng cao hệ số này càng lớn.\n4 (Đúng): Bóng đổ công trình được tính bằng biểu đồ đường cong bóng đổ. So sánh cùng chiều cao, công trình dài theo hướng Đông–Tây tạo ảnh hưởng bóng đổ về phía Bắc lớn hơn.\n\n【Giải thích 03】\nGiải thích theo từng lựa chọn.\n\nLựa chọn 1 (Sai): Louver đứng hiệu quả che nắng Tây, louver ngang hiệu quả ngăn bức xạ mặt Nam mùa hè.\nLựa chọn 2 (Đúng): Khả chiếu thời gian tường đứng hướng Nam ở Bắc 35° vào Hạ chí ngắn hơn Xuân phân. Hãy hiểu biểu đồ vị trí mặt trời.\nLựa chọn 3 (Đúng): Vùng vĩ độ cao mặt trời thấp, thời gian chiếu nắng ngắn. Do đó vĩ độ càng cao càng phải lấy khoảng cách Bắc–Nam giữa công trình lớn hơn.\nLựa chọn 4 (Đúng): Để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao càng phải lấy khoảng cách Bắc–Nam lớn hơn.",
+          "studyContent_vi": "■ Louver: louver đứng = nắng Tây/Đông–Tây (mặt trời thấp), louver ngang = mặt Nam mùa hè (mặt trời cao).\n■ Khả chiếu thời gian (tường đứng hướng Nam): Hạ chí < Xuân/Thu phân. Mặt phẳng ngang thì Hạ chí dài nhất.\n■ Khoảng cách giữa nhà: vĩ độ cao → lấy khoảng cách lớn.\n■ Bóng đổ: cùng chiều cao, công trình càng dài theo Đông–Tây thì phạm vi ảnh hưởng bóng đổ càng lớn."
+        },
         {
           "label": "Q4",
-          "question": "内装改修工事に関する記述として、最も不適当なものはどれか。ただし、既存部分は、アスベストを含まないものとする。",
+          "question": "【令和2年（2020年）午前 問2】日照及び日射に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "ビニル床シートの撤去後に既存下地モルタルの浮き部分を撤去する際、健全部分と縁を切るために用いるダイヤモンドカッターの刃の出は、モルタル厚さ以下とした。",
-            "既存合成樹脂塗床面の上に同じ塗床材を塗り重ねる際、接着性を高めるよう、既存仕上げ材の表面を目荒しした。",
-            "防火認定の壁紙の張替えは、既存壁紙の裏打紙を残した上に防火認定の壁紙を張り付けた。",
-            "既存下地面に残ったビニル床タイルの接着剤は、ディスクサンダーを用いて除去した。"
+            "同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔を大きくとる必要がある。",
+            "夏至に終日日影となる部分は永久日影であり、1年を通して太陽の直射がない。",
+            "北緯35度付近で、終日快晴の春分における終日直達日射量は、東向き鉛直面よりも南向き鉛直面のほうが大きい。",
+            "昼光率は、全天空照度に対する室内のある点の天空光による照度であり、直射日光による照度を含む。"
           ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n防火材についてよく理解するのがポイントです。\n選択肢1. 〇 ダイヤモンドカッターの刃の出はモルタル厚さ以下とします。\n選択肢2. 〇 接着性を高めるように既存仕上げ材の表面を目荒しします。\n選択肢3. × 既存の壁紙の裏打紙は完全に撤去する必要があります（撤去して下地基材面を露出して張替えないと防火材料に認定されません）。\n選択肢4. 〇 ビニル床タイルの接着剤はディスクサンダーで除去します。\n\n02\n内装改修工事に注意。既存床仕上げの撤去では、ビニル床シート・合成樹脂塗床材・フローリング・床タイル・床組みが対象です。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. 誤り。既存壁紙の裏打紙を完全に除去した上で防火認定壁紙を張り付けます。\n選択肢4. 設問の通り。\n\n03\n過去頻出の選択肢です。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. 防火認定壁紙の張替えは、既存壁紙の裏打紙を完全に除去する必要があります。よって誤り。\n選択肢4. 設問の通り。",
-          "studyContent": "まとめ\n床材がイメージできていれば、撤去する際の工法については間違いにくいと思います。まずは床仕上げ材をイメージできるようにトレーニングしてください。",
-          "question_vi": "Trong các mô tả sau về thi công cải tạo nội thất (giả định phần hiện hữu không chứa amiăng), đâu là mô tả KHÔNG phù hợp nhất?",
+          "answer": "4",
+          "explanation": "【解説01】\n答え（誤り）は4です。\n\n昼光率＝（室内のある点の水平面照度）÷（全天空照度）×（100％）\n全天空照度が変化すると室内の照度も変化するため、昼光率の計算では使用しません。\n1（正）：緯度が高くなると、太陽高度は低くなるため日影が長くなります。同じ日照時間を確保するためには南北の隣棟間隔を大きくとる必要があります。\n2（正）：夏至は一年を通して最も太陽高度が高くなるため、日影も一年の中で最も短くなります。そのため夏至に終日日影となる部分は永久日影になります。\n3（正）：（設問の通りです。）\n\n【解説02】\n日照及び日射に関する記述を正確に評価するために、各選択肢を詳しく見ていきましょう。\n\n選択肢1：この記述は正しいです。緯度が高い地域では、太陽の高度が低くなるため、建物間の日照確保のためにはより大きな間隔が必要になります。\n選択肢2：この記述も正しいです。夏至の際に日影となる部分は、太陽が最も高く上がる日であり、この日に日影になる場合、その年の他の日でも日影になるため、「永久日影」と呼ばれます。\n選択肢3：この記述も正しいです。春分の時期には太陽は東から昇り、南を高く通り、西に沈むため、南向きの面がより多くの直達日射を受けることになります。\n選択肢4：この記述は誤っています。昼光率は、室内のある点での天空光による照度を、外部の全天空照度に対して百分率で表したものであり、直射日光を含まない概念です。昼光率の計算には、直射日光による照度は考慮されません。\nまとめ：最も不適切な記述は「昼光率は、全天空照度に対する室内のある点の天空光による照度であり、直射日光による照度を含む」となります。この誤解は、昼光設計や照明設計における基本概念の誤解につながるため、正確な理解が必要です。\n\n【解説03】\n日照・日射・日影に関する出題です。\n\n選択肢1：設問の通りです。日照時間とは、可照時間から近隣の建物による日影時間を差し引いた時間です。\n選択肢2：設問の通りです。\n選択肢3：北緯35度付近で、終日快晴の春分における終日直達日射量の大小関係は、水平面＞南面＞東・西面となります。\n選択肢4（誤）：昼光率は、室内のある点の水平面照度と全天空照度との比率を求めたものです。全天空照度とは、直射日光を除いた天空光のみの照度をいいます。",
+          "studyContent": "■昼光率＝室内ある点の水平面照度÷全天空照度×100%。直射日光は含まない。全天空照度も直射を除いた天空光のみ。\n■永久日影：夏至に終日日影となる部分。1年中直射が当たらない。\n■直達日射量（春分・北緯35度・鉛直面）：南面＞東・西面（終日では水平面＞南面＞東西面）。\n■隣棟間隔：緯度が高いほど大きく。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 2 (2020) – Buổi sáng Câu 2】Trong các mô tả về chiếu nắng và bức xạ mặt trời, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Khi tháo phần vữa nền cũ bị bong sau khi dỡ tấm sàn vinyl, độ nhô của đĩa cắt kim cương dùng để cắt ranh giới với phần còn nguyên không quá độ dày lớp vữa.",
-            "Khi sơn chồng cùng loại lên mặt sàn sơn nhựa hiện hữu, đã làm nhám bề mặt vật liệu cũ để tăng độ bám dính.",
-            "Khi thay giấy dán tường chống cháy, đã dán giấy mới đè trực tiếp lên lớp giấy lót sau lưng của giấy dán tường cũ.",
-            "Đã dùng máy mài đĩa để loại bỏ keo dán tấm vinyl còn sót lại trên nền cũ."
+            "Để đảm bảo cùng một thời gian chiếu nắng, vĩ độ càng cao thì càng phải lấy khoảng cách Bắc – Nam giữa các tòa nhà lớn hơn.",
+            "Phần bị bóng đổ cả ngày vào Hạ chí là bóng đổ vĩnh viễn (vĩnh cửu nhật ảnh), quanh năm không có ánh nắng trực tiếp.",
+            "Ở khu vực gần vĩ độ Bắc 35°, vào ngày Xuân phân trời quang đãng cả ngày, tổng lượng bức xạ trực tiếp cả ngày của mặt thẳng đứng hướng Nam lớn hơn mặt thẳng đứng hướng Đông.",
+            "Hệ số ánh sáng ban ngày (trú quang suất) là độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời, và CÓ bao gồm độ rọi do ánh nắng trực tiếp."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nTrọng tâm là hiểu rõ vật liệu chống cháy.\nLựa chọn 1. 〇 Đúng – độ nhô lưỡi cắt ≤ độ dày vữa.\nLựa chọn 2. 〇 Đúng – làm nhám để tăng bám dính.\nLựa chọn 3. × Sai – phải bóc hoàn toàn cả giấy lót, lộ mặt nền cơ sở mới được công nhận chống cháy.\nLựa chọn 4. 〇 Đúng – dùng máy mài đĩa.\n\n02\nLựa chọn 3 sai vì phải bóc bỏ hoàn toàn giấy lót sau lưng của giấy dán cũ.\n\n03\nLựa chọn 1, 2, 4 đúng. Lựa chọn 3 sai vì cần loại bỏ hoàn toàn giấy lót.",
-          "studyContent_vi": "まとめ\nNếu hình dung được vật liệu sàn, việc chọn đúng phương pháp tháo dỡ sẽ ít sai. Trước tiên hãy luyện hình dung các loại vật liệu hoàn thiện sàn."
+          "explanation_vi": "【Giải thích 01】\nĐáp án (mô tả sai) là 4.\n\nHệ số ánh sáng ban ngày = (độ rọi mặt phẳng ngang tại một điểm trong phòng) ÷ (độ rọi toàn bầu trời) × (100%).\nKhi độ rọi toàn bầu trời thay đổi thì độ rọi trong phòng cũng thay đổi, nên không dùng độ rọi do ánh nắng trực tiếp trong phép tính hệ số ánh sáng ban ngày.\n1 (Đúng): Vĩ độ càng cao độ cao mặt trời càng thấp nên bóng càng dài. Để đảm bảo cùng thời gian chiếu nắng phải lấy khoảng cách Bắc–Nam lớn hơn.\n2 (Đúng): Hạ chí có độ cao mặt trời cao nhất trong năm nên bóng cũng ngắn nhất. Do đó phần bị bóng cả ngày vào Hạ chí trở thành bóng đổ vĩnh viễn.\n3 (Đúng): (Đúng như đề.)\n\n【Giải thích 02】\nĐể đánh giá chính xác, xét kỹ từng lựa chọn.\n\nLựa chọn 1: Mô tả đúng. Vùng vĩ độ cao mặt trời thấp nên để đảm bảo chiếu nắng giữa các công trình cần khoảng cách lớn hơn.\nLựa chọn 2: Mô tả đúng. Phần bị bóng vào Hạ chí (ngày mặt trời lên cao nhất) thì các ngày khác trong năm cũng bị bóng, nên gọi là 'bóng đổ vĩnh viễn'.\nLựa chọn 3: Mô tả đúng. Xuân phân mặt trời mọc hướng Đông, đi cao qua phía Nam, lặn hướng Tây, nên mặt hướng Nam nhận nhiều bức xạ trực tiếp hơn.\nLựa chọn 4: Mô tả SAI. Hệ số ánh sáng ban ngày là tỷ lệ phần trăm của độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời bên ngoài, và KHÔNG bao gồm ánh nắng trực tiếp. Phép tính không xét độ rọi do ánh nắng trực tiếp.\nTóm tắt: Mô tả không phù hợp nhất là 'Hệ số ánh sáng ban ngày... có bao gồm độ rọi do ánh nắng trực tiếp'. Hiểu sai điều này dẫn đến sai lầm về khái niệm cơ bản trong thiết kế chiếu sáng tự nhiên/nhân tạo, cần hiểu chính xác.\n\n【Giải thích 03】\nĐề về chiếu nắng・bức xạ・bóng đổ.\n\nLựa chọn 1: Đúng như đề. Thời gian chiếu nắng là khả chiếu thời gian trừ đi thời gian bị bóng do công trình lân cận.\nLựa chọn 2: Đúng như đề.\nLựa chọn 3: Gần Bắc 35°, ngày Xuân phân quang đãng cả ngày, thứ tự tổng bức xạ trực tiếp cả ngày là: mặt phẳng ngang > mặt Nam > mặt Đông・Tây.\nLựa chọn 4 (Sai): Hệ số ánh sáng ban ngày là tỷ lệ giữa độ rọi mặt phẳng ngang tại một điểm trong phòng và độ rọi toàn bầu trời. Độ rọi toàn bầu trời là độ rọi chỉ của ánh sáng bầu trời, loại bỏ ánh nắng trực tiếp.",
+          "studyContent_vi": "■ Hệ số ánh sáng ban ngày = độ rọi mặt phẳng ngang tại điểm trong phòng ÷ độ rọi toàn bầu trời × 100%. Không gồm nắng trực tiếp; độ rọi toàn bầu trời cũng chỉ tính ánh sáng bầu trời (loại bỏ trực tiếp).\n■ Bóng đổ vĩnh viễn: phần bị bóng cả ngày vào Hạ chí, quanh năm không có nắng trực tiếp.\n■ Lượng bức xạ trực tiếp (Xuân phân, Bắc 35°, mặt đứng): mặt Nam > mặt Đông–Tây (cả ngày: ngang > Nam > Đông–Tây).\n■ Khoảng cách giữa nhà: vĩ độ càng cao càng lớn."
         }
       ]
     },
     {
-      "path": "1級建築施工管理技士 / 02_共通 / 仮設計画",
-      "vocabulary": "事前調査 (じぜんちょうさ) - khảo sát trước thi công\nベンチマーク - mốc chuẩn\nタワークレーン - cẩu tháp\n電波障害 (でんぱしょうがい) - nhiễu sóng vô tuyến\nコンクリートポンプ車 - xe bơm bê tông\n道路使用許可 (どうろしようきょか) - giấy phép sử dụng đường\n道路占用許可 (どうろせんようきょか) - giấy phép chiếm dụng đường\n所轄警察署長 (しょかつけいさつしょちょう) - trưởng đồn cảnh sát quản hạt\n仮設男性用小便所 - nhà tiểu nam tạm\n仮設電力契約 (かせつでんりょくけいやく) - hợp đồng điện tạm",
+      "path": "1.2 建築環境工学 > 1.2.2 採光 / 1.2.3 照明",
+      "vocabulary": "採光 / 照明 / 照度 / 光束 / 光度 / 輝度 / 演色性 / 昼光率 / 全天空照度 / 室指数 / 均斉度 / 余弦則 / 逆二乗則 / ルクス(lx) / カンデラ(cd) / ルーメン(lm)",
       "questions": [
         {
-          "label": "Q5",
-          "question": "事前調査や準備作業に関する記述として、最も不適当なものはどれか。",
+          "label": "Q1",
+          "question": "【令和7年（2025年）午前 イ 問2】照明に関する次の文章中、（　　）に当てはまる数値として、最も適当なものはどれか。ただし、点光源の配光特性は一様なものとし、床面、天井面、壁面等からの反射は考慮しないものとする。「照明による受照面の明るさを表す照度は、点光源の光度に比例し、その光源からの距離の2乗に反比例する。図に示すような点光源の直下ではない床面上の点Pの水平面照度Ehは、照度の余弦則を用いて計算することができ、点光源の点Pに対する入射角θを60°とした場合、その値は（　　）lx（ルクス）となる。」（※図より H＝3.0m、光度 I＝1,800cd）",
           "choices": [
-            "地下水の排水計画に当たり、公共下水道の排水方式の調査を行った。",
-            "タワークレーン設置による電波障害が予想されたため、近隣に対する説明を行って了解を得た。",
-            "ベンチマークは、移動のおそれのない箇所に、相互にチェックできるよう複数か所設けた。",
-            "コンクリートポンプ車を前面道路に設置するため、道路使用許可申請書を道路管理者に提出した。"
+            "25",
+            "50",
+            "150",
+            "260"
+          ],
+          "answer": "1",
+          "explanation": "【解説01】\n点光源の直下ではない床面上の点における、水平面照度を求める問題です。\n問題文にあるとおり、「照度の余弦則」を用いて求めることができますが、先に必要な数値を計算していきます。\n・点光源〜点Pまでの距離（R）＝点光源、点P、さらに点光源より垂直に水平面までおろした点をOとし、3点を結んだ三角形に三平方の定理を当てはめると、H：R：PO＝1：2：√3となり、R＝6.0mと求められます。\nここで「照度の余弦則」に代入していきます。\nEh〔lx〕＝I〔cd〕cosθ/R〔m〕²＝1,800×0.5/36＝25〔lx〕\n以上で、水平面の照度を求めることができます。\n選択肢1（正）：25。解説は上記の通りとなります。\n選択肢2（誤）：50。\n選択肢3（誤）：150。\n選択肢4（誤）：260。\nまとめ：公式自体は難しくありませんが、正しい数値を計算するために、公式に代入するものの確認をしておきましょう。\n\n【解説02】\n答えは「25」lx（ルクス）です。\n点光源の照度は、距離の2乗に反比例（逆二乗則）し、床のような水平面では余弦則（よげんそく）（入射角によって暗くなる）も掛けて求めます。\n高さH=3.0m、入射角θ=60°なので、光源から点Pまでの距離rは r=H÷cosθ=3.0÷0.5=6.0m\n光の進む方向に直角な面での照度は E0=I÷r^2=1800÷6^2=1800÷36=50lx\n床（水平面）の照度Ehは、余弦則でさらにcosθを掛けます Eh=E0×cosθ=50×0.5=25lx\nしたがって25lxになります。\nまとめ：この問題は、次の2つをセットで使うのがポイントです。・逆二乗則：Eは距離rの2乗で小さくなる（I÷r^2）。・余弦則：水平面ではcosθを掛けてさらに小さくなる（×cosθ）。今回のように、θが大きい（60°）と、距離が伸びるうえに余弦則でも暗くなるため、結果は25lxのように小さくなります。",
+          "studyContent": "■照度の余弦則：Eh＝I·cosθ/R²。Rは光源〜点Pの距離。\n■逆二乗則：照度は距離の2乗に反比例。\n■計算手順：①R=H÷cosθ ②E0=I÷R² ③Eh=E0×cosθ。\n■本問：H=3.0m、θ=60°(cos60°=0.5)、I=1800cd → R=6.0m、Eh=25lx。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần イ Câu 2】Trong câu văn sau về chiếu sáng, giá trị điền vào chỗ trống phù hợp nhất là bao nhiêu? Giả thiết đặc tính phân bố ánh sáng của nguồn điểm là đồng đều, không xét phản xạ từ sàn/trần/tường. 'Độ rọi biểu thị độ sáng của mặt nhận sáng tỉ lệ thuận với cường độ sáng (光度) của nguồn điểm và tỉ lệ nghịch với bình phương khoảng cách tới nguồn. Độ rọi mặt phẳng ngang Eh tại điểm P trên sàn (không nằm ngay dưới nguồn) tính bằng định luật cosin; khi góc tới θ = 60° thì giá trị đó là (   ) lx.' (※ Theo hình: H = 3.0m, cường độ sáng I = 1.800cd)",
+          "choices_vi": [
+            "25",
+            "50",
+            "150",
+            "260"
+          ],
+          "explanation_vi": "【Giải thích 01】\nBài tính độ rọi mặt phẳng ngang tại điểm trên sàn không nằm ngay dưới nguồn điểm.\nNhư đề bài, có thể dùng 'định luật cosin của độ rọi', nhưng trước hết tính các giá trị cần thiết.\n・ Khoảng cách từ nguồn điểm đến P (R): gọi O là chân đường vuông góc từ nguồn xuống mặt phẳng ngang; tam giác tạo bởi 3 điểm theo định lý Pytago cho H : R : PO = 1 : 2 : √3, suy ra R = 6.0m.\nThay vào 'cosin': Eh = I·cosθ / R² = 1.800×0.5/36 = 25 lx.\nLựa chọn 1 (Đúng): 25.\nLựa chọn 2 (Sai): 50.\nLựa chọn 3 (Sai): 150.\nLựa chọn 4 (Sai): 260.\nTóm tắt: Công thức không khó nhưng phải xác định đúng các giá trị thay vào.\n\n【Giải thích 02】\nĐáp án là '25' lx.\nĐộ rọi của nguồn điểm tỉ lệ nghịch với bình phương khoảng cách (định luật nghịch đảo bình phương); với mặt phẳng ngang như sàn còn phải nhân thêm định luật cosin (góc tới càng lớn càng tối).\nH=3.0m, θ=60° nên r = H÷cosθ = 3.0÷0.5 = 6.0m.\nĐộ rọi trên mặt vuông góc với hướng ánh sáng: E0 = I÷r² = 1800÷36 = 50 lx.\nĐộ rọi sàn (mặt ngang) Eh nhân thêm cosθ: Eh = 50×0.5 = 25 lx.\nTóm tắt: Dùng kết hợp 2 định luật – nghịch đảo bình phương (I÷r²) và cosin (×cosθ). Khi θ lớn (60°), vừa xa hơn vừa tối theo cosin nên kết quả nhỏ (25 lx).",
+          "studyContent_vi": "■ Định luật cosin: Eh = I·cosθ / R². R là khoảng cách nguồn–P.\n■ Định luật nghịch đảo bình phương: độ rọi tỉ lệ nghịch với bình phương khoảng cách.\n■ Trình tự: ① R=H÷cosθ ② E0=I÷R² ③ Eh=E0×cosθ.\n■ Bài này: H=3.0m, θ=60° (cos60°=0.5), I=1800cd → R=6.0m, Eh=25 lx."
+        },
+        {
+          "label": "Q2",
+          "question": "【令和5年（2023年）午前 イ 問2】採光及び照明に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "横幅と奥行きが同じ室において、光源と作業面の距離が離れるほど、室指数は小さくなる。",
+            "設計用全天空照度は、快晴の青空のときのほうが薄曇りのときよりも小さな値となる。",
+            "照度は、単位をルクス（lx）で示し、受照面の単位面積当たりの入射光束のことをいう。",
+            "光度は、単位をカンデラ（cd）で示し、反射面を有する受照面の光の面積密度のことをいう。"
           ],
           "answer": "4",
-          "explanation": "この過去問の解説 （3件）\n01\n各種届出の提出相手を覚えましょう。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. 設問の通り。\n選択肢4. 道路使用許可申請書は所轄警察署長に提出する必要があります。よって誤りです。一般的に使用1週間前に提出すれば許可を取れることが多く、長くて2週間かかる場合もあります。道路管理者に提出するものは、道路占用許可申請証です。\n\n02\n事前調査としては、地盤調査、埋設物調査、配管調査、近隣調査等があります。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. 設問の通り。\n選択肢4. 誤り。コンクリートポンプ車を前面道路に設置する場合、道路使用許可申請書は所轄警察署長に提出します。\n\n03\n事前調査分野は難しくありません。キーワードとポイントを抑えて暗記してみてください。\n選択肢1. 〇 地下水の排水計画では公共下水道の排水方式の調査を行います。\n選択肢2. 〇 タワークレーン設置による電波障害が予想されたら近隣に説明し了解を得ます。\n選択肢3. 〇 ベンチマークは移動のおそれのない箇所に複数か所設けます。\n選択肢4. × 道路使用許可申請書は所轄警察署長に提出しなければなりません。",
-          "studyContent": "まとめ\n道路管理者あてに提出するのは道路占用許可申請です。混同しないように気を付けてください。",
-          "question_vi": "Trong các mô tả sau về khảo sát trước thi công và công tác chuẩn bị, đâu là mô tả KHÔNG phù hợp nhất?",
+          "explanation": "【解説01】\n採光・照明についての出題です。\n\n選択肢1：室指数の値が小さいほど、室が天井高に比べて水平方向に狭い形状であるので、光源と作業面の距離が離れるほど、室指数は小さくなります。\n選択肢2：設問の通りです。\n選択肢3：設問の通りです。ちなみに目で見た明るさと直接的に関係があるのは、輝度です。\n選択肢4（誤）：反射面を有する受照面の光の面積密度のことは輝度です。光度は単位立体角あたりの光束をいいます。\n\n【解説02】\n採光及び照明に関する問題は、一見難しそうなイメージがあるかもしれませんが、出題される範囲は広くはありません。しっかりと勉強すれば、得点源にできるはずです。\n\n選択肢1：少ない光源でも明るい室内にしたいなら、天井を低くしたり、室内を正方形に近い形にすることが有効です。部屋の形状が照度に与える影響を数値化したものが室指数です。室指数が高いほど光源の効果を十分発揮できます。「光源と作業面が離れるほど」光源が遠くなれば照度は低下し、室指数が小さくなります。設問の記述は正しいです。\n選択肢2：快晴の青空よりも、薄曇りの日の方が全天空照度が高いため、設問の記述は適当です。薄曇りの日には、雲に太陽の光が乱反射し照度が高くなります。\n選択肢3：設問の通りです。照度は光束/面積で求めるものです。\n選択肢4：「光度はカンデラ（cd）で示し」は適当ですが、反射面を有する受照面の光の面積密度は輝度のことです。光度は単位立体角あたりの光束で、電灯や星の明るさを表す際に用いる指標です。設問の記述は誤りです。\nまとめ：採光や照明は重要視されますが、深入りする必要はありません。光束や光度などの用語をしっかり理解することが重要です。\n\n【解説03】\n採光及び照明に関する記述について、最も不適当なものを選ぶ問題の解説を行います。\n\n選択肢1：室指数（Room Index）は、室の横幅、奥行き、高さによって計算され、光源と作業面の距離が離れる（天井が高くなる）と室指数は小さくなります。この記述は適当です。\n選択肢2：快晴の青空のときは直射日光が強くなるため、全天空照度は薄曇りのときよりも小さくなります。この記述は適当です。\n選択肢3：照度は、受照面の単位面積当たりの入射光束を指し、単位はルクス（lx）です。この記述は適当です。\n選択肢4：光度（光の強さ）は、単位をカンデラ（cd）で示し、特定の方向に放射される光束の強さを表します。反射面や光の面積密度とは関係ありません。この記述は不適当です。\nまとめ：この問題では、光度の定義が誤っており、光の面積密度とは無関係です。他の選択肢は適切な内容です。",
+          "studyContent": "■用語と単位：光束（lmルーメン）、光度（cdカンデラ＝単位立体角あたりの光束）、照度（lxルクス＝単位面積あたりの入射光束）、輝度（cd/m²＝反射面の光の面積密度、見た明るさ）。\n■室指数：天井が高い（光源と作業面が遠い）と小さくなる。\n■全天空照度：薄曇り＞快晴。設計用は約15,000lx。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 5 (2023) – Buổi sáng phần イ Câu 2】Trong các mô tả về chiếu sáng tự nhiên và chiếu sáng nhân tạo, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Khi lập kế hoạch thoát nước ngầm, đã khảo sát phương thức thoát nước của hệ thống thoát nước công cộng.",
-            "Vì dự đoán việc lắp cẩu tháp có thể gây nhiễu sóng vô tuyến, đã giải thích và được sự đồng thuận của các hộ lân cận.",
-            "Mốc chuẩn (benchmark) được đặt ở vị trí không có nguy cơ dịch chuyển, đặt nhiều vị trí để có thể kiểm tra chéo lẫn nhau.",
-            "Để đặt xe bơm bê tông trên đường trước công trình, đã nộp đơn xin sử dụng đường cho người quản lý đường (đạo lộ quản lý)."
+            "Trong phòng có chiều rộng và chiều sâu bằng nhau, khoảng cách giữa nguồn sáng và mặt làm việc càng xa thì chỉ số phòng (室指数) càng nhỏ.",
+            "Độ rọi toàn bầu trời dùng cho thiết kế khi trời quang xanh thì nhỏ hơn khi trời nhiều mây mỏng.",
+            "Độ rọi (照度) có đơn vị lux (lx), là quang thông tới trên một đơn vị diện tích mặt nhận sáng.",
+            "Cường độ sáng (光度) có đơn vị candela (cd), là mật độ diện tích ánh sáng của mặt nhận sáng có mặt phản xạ."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 1, 2, 3 đúng. Lựa chọn 4 sai – đơn xin sử dụng đường phải nộp cho TRƯỞNG ĐỒN CẢNH SÁT QUẢN HẠT, không phải người quản lý đường. Người quản lý đường tiếp nhận đơn xin CHIẾM DỤNG đường.\n\n02\nKhảo sát trước thi công gồm khảo sát địa chất, công trình ngầm, đường ống, lân cận…\nLựa chọn 4 sai – phải nộp cho trưởng đồn cảnh sát.\n\n03\nLựa chọn 1, 2, 3 đúng. Lựa chọn 4 sai – nộp cho trưởng đồn cảnh sát.",
-          "studyContent_vi": "まとめ\nĐơn xin chiếm dụng đường (道路占用許可) nộp cho người quản lý đường. Đừng nhầm với đơn xin sử dụng đường (道路使用許可) nộp cho trưởng đồn cảnh sát."
+          "explanation_vi": "【Giải thích 01】\nĐề về chiếu sáng tự nhiên・nhân tạo.\n\nLựa chọn 1: Chỉ số phòng càng nhỏ thì phòng càng hẹp theo phương ngang so với chiều cao trần; khoảng cách nguồn sáng–mặt làm việc càng xa thì chỉ số phòng càng nhỏ. Đúng.\nLựa chọn 2: Đúng như đề.\nLựa chọn 3: Đúng như đề. Ngoài ra, cái liên quan trực tiếp đến độ sáng mắt nhìn thấy là độ chói (輝度).\nLựa chọn 4 (Sai): Mật độ diện tích ánh sáng của mặt nhận sáng có phản xạ là độ chói (輝度). Cường độ sáng là quang thông trên một đơn vị góc khối.\n\n【Giải thích 02】\nBài chiếu sáng thoạt nhìn có vẻ khó nhưng phạm vi ra đề không rộng, học kỹ sẽ thành nguồn lấy điểm.\n\nLựa chọn 1: Muốn phòng sáng với ít nguồn sáng thì nên hạ trần thấp hoặc làm phòng gần vuông. Chỉ số phòng lượng hóa ảnh hưởng của hình dạng phòng đến độ rọi; chỉ số càng cao thì phát huy hiệu quả nguồn sáng càng tốt. 'Khoảng cách nguồn–mặt làm việc càng xa' → độ rọi giảm, chỉ số phòng nhỏ. Đúng.\nLựa chọn 2: Ngày nhiều mây mỏng độ rọi toàn bầu trời cao hơn ngày quang xanh do mây tán xạ ánh nắng; nên mô tả đúng.\nLựa chọn 3: Đúng. Độ rọi = quang thông/diện tích.\nLựa chọn 4: Phần 'đơn vị candela (cd)' thì đúng, nhưng mật độ diện tích ánh sáng của mặt phản xạ là độ chói. Cường độ sáng là quang thông trên đơn vị góc khối, dùng cho đèn/độ sáng sao. Mô tả sai.\nTóm tắt: Cần hiểu rõ các thuật ngữ quang thông, cường độ sáng; không cần đi sâu quá.\n\n【Giải thích 03】\nGiải bài chọn mô tả KHÔNG phù hợp nhất.\n\nLựa chọn 1: Chỉ số phòng được tính theo chiều rộng, chiều sâu, chiều cao phòng; khoảng cách nguồn–mặt làm việc càng xa (trần càng cao) thì chỉ số càng nhỏ. Phù hợp.\nLựa chọn 2: Khi trời quang xanh, nắng trực tiếp mạnh nên độ rọi toàn bầu trời nhỏ hơn khi nhiều mây mỏng. Phù hợp.\nLựa chọn 3: Độ rọi là quang thông tới trên đơn vị diện tích, đơn vị lux. Phù hợp.\nLựa chọn 4: Cường độ sáng đơn vị candela, biểu thị độ mạnh của quang thông phát theo một hướng; không liên quan mặt phản xạ hay mật độ diện tích. KHÔNG phù hợp.\nTóm tắt: Định nghĩa cường độ sáng bị sai (không liên quan mật độ diện tích ánh sáng). Các lựa chọn khác đều đúng.",
+          "studyContent_vi": "■ Thuật ngữ & đơn vị: Quang thông (lm), Cường độ sáng (cd = quang thông/góc khối), Độ rọi (lx = quang thông tới/diện tích), Độ chói (cd/m² = mật độ diện tích ánh sáng của mặt phản xạ, độ sáng mắt thấy).\n■ Chỉ số phòng: trần cao (nguồn–mặt làm việc xa) → chỉ số nhỏ.\n■ Độ rọi toàn bầu trời: nhiều mây mỏng > quang xanh. Thiết kế dùng khoảng 15.000 lx."
+        },
+        {
+          "label": "Q3",
+          "question": "【令和3年（2021年）午前 問2】採光及び照明に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "演色性とは、照明光による物体色の見え方についての光源の性質をいう。",
+            "光束とは、単位波長当たりの放射束を標準比視感度で重みづけした量をいう。",
+            "形状と面積が同じ側窓は、その位置を高くしても、昼光による室内の照度分布の均斉度は変わらない。",
+            "設計用全天空照度は、快晴の青空のときが薄曇りのときよりも小さな値となる。"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n正解は「形状と面積が同じ側窓は、その位置を高くしても、昼光による室内の照度分布の均斉度は変わらない。」です。\n\n選択肢1（正）：演色性とは、自然光に対して、照明光による物体の色の見え方についての光源の性質のことです。\n選択肢2（正）：光束とは、単位波長当たりの放射束を標準比視感度で重みづけした量のことです。光源の光の量を表します。視感度とは人の目の感度のことで、標準比視感度とは標準的な人の目の感度特性を表します。\n選択肢3（誤：正答肢）：形状と面積が同じ窓でも、窓が高い位置にあるほど、昼光による室内の照度分布の均斉度は高くなります。均斉度とは、最大照度に対する最小限度の比です。照度とは、単位面積当たりの光束のことで、光が当たっている場所の明るさを表します。\n選択肢4（正）：設計用全天空照度は、薄曇りのときよりも、快晴の青空のときの方が小さな値となります。全天空照度とは、直射日光を除いた天空の照度のことです。\n\n【解説02】\n採光では、光束・光度・照度・輝度をしっかり理解しましょう。\n\n選択肢1（正）：太陽光に照らされたときの見え方に近い程、演色性がよくなります。\n選択肢2（正）：単位は、ルーメン（lm）です。\n選択肢3（誤：正解）：形状と面積が同じ側窓は、その位置を高くすると、昼光による室内の照度分布の均斉度は高くなります。位置が低くなると、窓近くは明るくなりますが、室奥は暗くなり、均斉度は低くなります。\n選択肢4（正）：1/5程度になります。",
+          "studyContent": "■均斉度＝最小照度÷最大照度。窓が高い位置にあるほど室奥まで光が届き、均斉度は高くなる。\n■演色性：光源で物体の色の見え方が変わる性質。分光分布で決まる。\n■光束：単位波長あたりの放射束を標準比視感度で重みづけ。単位ルーメン(lm)。\n■全天空照度：快晴＜薄曇り（快晴は薄曇りの約1/5）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 3 (2021) – Buổi sáng Câu 2】Trong các mô tả về chiếu sáng tự nhiên và nhân tạo, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tính hoàn nguyên màu (演色性) là tính chất của nguồn sáng về cách thể hiện màu vật thể dưới ánh sáng chiếu.",
+            "Quang thông là đại lượng bức xạ trên mỗi đơn vị bước sóng được hiệu chỉnh trọng số theo độ nhạy cảm thị giác chuẩn.",
+            "Cửa sổ bên có hình dạng và diện tích như nhau, dù đặt cửa ở vị trí cao hơn thì độ đồng đều (均斉度) của phân bố độ rọi do ánh sáng ngày trong phòng vẫn không thay đổi.",
+            "Độ rọi toàn bầu trời dùng cho thiết kế khi trời quang xanh thì nhỏ hơn khi trời nhiều mây mỏng."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án (mô tả sai) là 'Cửa sổ bên... dù đặt cao hơn thì độ đồng đều vẫn không thay đổi'.\n\nLựa chọn 1 (Đúng): Tính hoàn nguyên màu là tính chất nguồn sáng về cách hiển thị màu vật thể so với ánh sáng tự nhiên.\nLựa chọn 2 (Đúng): Quang thông là bức xạ trên đơn vị bước sóng được hiệu chỉnh theo độ nhạy thị giác chuẩn, biểu thị lượng ánh sáng của nguồn.\nLựa chọn 3 (Sai – đáp án): Cửa cùng hình dạng và diện tích nhưng đặt càng cao thì độ đồng đều phân bố độ rọi càng CAO. Độ đồng đều = độ rọi nhỏ nhất / độ rọi lớn nhất.\nLựa chọn 4 (Đúng): Độ rọi toàn bầu trời (loại bỏ nắng trực tiếp) khi quang xanh nhỏ hơn khi nhiều mây mỏng.\n\n【Giải thích 02】\nTrong chiếu sáng, cần hiểu rõ quang thông・cường độ sáng・độ rọi・độ chói.\n\nLựa chọn 1 (Đúng): Càng gần cách hiển thị màu dưới ánh nắng thì tính hoàn nguyên màu càng tốt.\nLựa chọn 2 (Đúng): Đơn vị là lumen (lm).\nLựa chọn 3 (Sai – đáp án): Cửa bên cùng hình dạng/diện tích đặt cao hơn thì độ đồng đều CAO hơn. Đặt thấp thì gần cửa sáng nhưng sâu phòng tối, độ đồng đều thấp.\nLựa chọn 4 (Đúng): Quang xanh khoảng 1/5 so với nhiều mây mỏng.",
+          "studyContent_vi": "■ Độ đồng đều = độ rọi nhỏ nhất ÷ độ rọi lớn nhất. Cửa càng cao thì ánh sáng vào sâu phòng, độ đồng đều cao hơn.\n■ Tính hoàn nguyên màu: tính chất nguồn sáng làm màu vật thể hiện khác nhau; quyết định bởi phân bố phổ.\n■ Quang thông: đơn vị lumen (lm).\n■ Độ rọi toàn bầu trời: quang xanh < nhiều mây mỏng (quang xanh ≈ 1/5)."
+        },
+        {
+          "label": "Q4",
+          "question": "【令和元年（2019年）午前 問3】採光及び照明に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "均等拡散面上における輝度は、照度と反射率との積に比例する。",
+            "演色性とは、光がもつ物体の色の再現能力のことで、光の分光分布によって決まる。",
+            "昼光率とは、全天空照度に対する室内のある点の天空光による照度の比をいう。",
+            "設計用全天空照度は、快晴の青空のときが薄曇りの日よりも大きな値となる。"
+          ],
+          "answer": "4",
+          "explanation": "【解説01】\n正解は4です。\n\n1（正）：設問の通りです。\n2（正）：光源が色の見え方に及ぼす性質を演色性といい、光源から放射している光の波長の割合（分光分布）で決まります。\n3（正）：昼光率は、直射日光を除く屋外の照度（全天空照度）に対する室内のある点の天空光による照度の比のことです。採光可能性を示す指標になり、その値が高いほど評価が高くなります。\n4（誤）：全天空照度とは、直射光を除いた空からの光（天空光）による地上の水平面照度のことで、一般に快晴時より薄曇りの時のほうが明るくなります。設計用としては15,000lxが使用されます。\n\n【解説02】\n環境工学の採光・照明についての出題です。\n\n選択肢1：輝度は単位面積当たりの光度です。設問の通り、均等拡散面上における輝度は、照度と反射率との積に比例します。\n選択肢2：設問の通り、演色性とは光がもつ物体の色の再現能力のことで、光の分光分布によって決まり、視対象の色とは無関係です。\n選択肢3：昼光率とは、採光による明るさの指標としたもので、全天空照度に対する室内のある点の天空光による照度の比をいいます。室内各部の反射率の影響を受けます。\n選択肢4（誤：正解）：設計用全天空照度は、快晴の青空のときが薄曇りの日よりも小さな値となります。\nまとめ：採光・照明の分野はそれぞれの単位に注目すると覚えやすいです。\n\n【解説03】\n解説は下記の通りです。\n\n選択肢1（正）：輝度とは光を出している面をある方向から見た時の明るさのことで、均等拡散面上における輝度は、照度と反射率との積に比例します。\n選択肢2（正）：光がもつ物体の色の再現能力のことで、光の分光分布によって決まります。\n選択肢3（正）：昼光とは太陽光による昼間の明るさのことです。昼光率とは、全天空照度に対する室内のある点の天空光による照度の比のことを指します。\n選択肢4（誤）：快晴の青空のときは10000lxで、薄曇りの日は50000lxです。",
+          "studyContent": "■輝度：均等拡散面では 輝度∝照度×反射率。\n■演色性：物体色の再現能力。分光分布で決まる。\n■昼光率＝室内ある点の天空光照度÷全天空照度。直射日光は含まない。\n■全天空照度：薄曇り＞快晴。設計用15,000lx。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa nguyên niên (2019) – Buổi sáng Câu 3】Trong các mô tả về chiếu sáng tự nhiên và nhân tạo, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Độ chói trên mặt khuếch tán đều tỉ lệ thuận với tích của độ rọi và hệ số phản xạ.",
+            "Tính hoàn nguyên màu là khả năng tái hiện màu vật thể của ánh sáng, được quyết định bởi phân bố phổ của ánh sáng.",
+            "Hệ số ánh sáng ban ngày (昼光率) là tỷ số giữa độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời.",
+            "Độ rọi toàn bầu trời dùng cho thiết kế khi trời quang xanh thì LỚN hơn khi trời nhiều mây mỏng."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án là 4.\n\n1 (Đúng): Đúng như đề.\n2 (Đúng): Tính chất nguồn sáng ảnh hưởng đến cách hiển thị màu gọi là tính hoàn nguyên màu, quyết định bởi tỷ lệ bước sóng ánh sáng phát ra (phân bố phổ).\n3 (Đúng): Hệ số ánh sáng ban ngày là tỷ số giữa độ rọi do ánh sáng bầu trời tại điểm trong phòng so với độ rọi ngoài trời loại bỏ nắng trực tiếp (độ rọi toàn bầu trời). Giá trị càng cao càng được đánh giá tốt.\n4 (Sai): Độ rọi toàn bầu trời là độ rọi mặt ngang trên mặt đất do ánh sáng bầu trời (loại bỏ nắng trực tiếp); thông thường khi nhiều mây mỏng sáng hơn khi quang. Thiết kế dùng 15.000 lx.\n\n【Giải thích 02】\nĐề môn vật lý môi trường về chiếu sáng.\n\nLựa chọn 1: Độ chói là cường độ sáng trên đơn vị diện tích. Đúng như đề, độ chói trên mặt khuếch tán đều tỉ lệ với tích độ rọi × hệ số phản xạ.\nLựa chọn 2: Đúng; tính hoàn nguyên màu quyết định bởi phân bố phổ, không liên quan màu của vật.\nLựa chọn 3: Đúng; chịu ảnh hưởng của hệ số phản xạ các bề mặt trong phòng.\nLựa chọn 4 (Sai – đáp án): Độ rọi toàn bầu trời thiết kế khi quang xanh NHỎ hơn khi nhiều mây mỏng.\nTóm tắt: Lĩnh vực chiếu sáng dễ nhớ khi chú ý đơn vị từng đại lượng.\n\n【Giải thích 03】\nGiải thích như sau.\n\nLựa chọn 1 (Đúng): Độ chói là độ sáng của mặt phát sáng nhìn từ một hướng; trên mặt khuếch tán đều tỉ lệ với tích độ rọi × hệ số phản xạ.\nLựa chọn 2 (Đúng): Là khả năng tái hiện màu vật thể của ánh sáng, được quyết định bởi phân bố phổ của ánh sáng.\nLựa chọn 3 (Đúng): Ánh sáng ban ngày (昼光) là độ sáng ban ngày do ánh nắng mặt trời. Hệ số ánh sáng ban ngày là tỷ số giữa độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời.\nLựa chọn 4 (Sai): Khi quang xanh là 10.000 lx, ngày nhiều mây mỏng là 50.000 lx.",
+          "studyContent_vi": "■ Độ chói: trên mặt khuếch tán đều, độ chói ∝ độ rọi × hệ số phản xạ.\n■ Tính hoàn nguyên màu: khả năng tái hiện màu vật thể; quyết định bởi phân bố phổ.\n■ Hệ số ánh sáng ban ngày = độ rọi ánh sáng bầu trời tại điểm trong phòng ÷ độ rọi toàn bầu trời (không gồm nắng trực tiếp).\n■ Độ rọi toàn bầu trời: nhiều mây mỏng > quang xanh (quang xanh ≈ 10.000 lx, nhiều mây mỏng ≈ 50.000 lx)."
+        }
+      ]
+    },
+    {
+      "path": "1.2 建築環境工学 > 1.2.4 色彩",
+      "vocabulary": "マンセル表色系 / 色相(H) / 明度(V) / 彩度(C) / 補色 / マンセル色相環 / 5RP3／8",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "【令和7年（2025年）午前 ロ 問2（問8）】マンセル表色系に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "鮮やかさが増すにつれて、彩度を表す数値は大きくなる。",
+            "マンセル記号で表示された「5RP3／8」のうち、数値「3」は彩度を表す。",
+            "マンセル色相環の相対する位置にある色相は、互いに補色の関係にある。",
+            "明度は、理想的な黒を0、理想的な白を10として、11段階に分けている。"
+          ],
+          "answer": "2",
+          "explanation": "【解説01】\n最も不適当なのは、「マンセル記号で表示された『5RP3／8』のうち、数値『3』は彩度を表す。」です。\nマンセル記号は、色相（H）明度（V）／彩度（C）で表します。\nしたがって『5RP3／8』は、5RP：色相、3：明度、8：彩度、という意味です。\nまとめ：マンセル表色系のいちばん大事な形はこれです。色相 明度／彩度。ここを取り違える選択肢がよく出るので、順番で覚えておくと安心です。",
+          "studyContent": "■マンセル表色系：色相H 明度V／彩度C の順で表記。例「5RP3／8」→5RP=色相、3=明度、8=彩度。\n■彩度：鮮やかさ。数値が大きいほど鮮やか。\n■明度：理想的な黒0〜理想的な白10の11段階。\n■補色：マンセル色相環で相対する位置にある色相同士。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần ロ Câu 2 (Câu 8)】Trong các mô tả về hệ biểu thị màu Munsell, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Độ rực rỡ càng tăng thì trị số biểu thị độ thuần sắc (彩度/chroma) càng lớn.",
+            "Trong ký hiệu Munsell '5RP3／8', con số '3' biểu thị độ thuần sắc (彩度/chroma).",
+            "Các sắc tướng (色相/hue) ở vị trí đối diện nhau trên vòng sắc tướng Munsell có quan hệ bù màu (補色) với nhau.",
+            "Độ sáng (明度/value) chia làm 11 cấp, với đen lý tưởng là 0 và trắng lý tưởng là 10."
+          ],
+          "explanation_vi": "【Giải thích 01】\nMô tả KHÔNG phù hợp nhất là 'Trong ký hiệu Munsell 5RP3／8, con số 3 biểu thị độ thuần sắc'.\nKý hiệu Munsell biểu thị theo thứ tự: Sắc tướng (H) Độ sáng (V) ／ Độ thuần sắc (C).\nDo đó '5RP3／8' nghĩa là: 5RP = sắc tướng, 3 = độ sáng, 8 = độ thuần sắc.\nTóm tắt: Dạng quan trọng nhất của hệ Munsell là: Sắc tướng – Độ sáng ／ Độ thuần sắc. Các lựa chọn hay tráo đổi chỗ này, nên nhớ theo đúng thứ tự cho chắc.",
+          "studyContent_vi": "■ Hệ Munsell: ghi theo thứ tự Sắc tướng H – Độ sáng V ／ Độ thuần sắc C. Ví dụ '5RP3／8' → 5RP = sắc tướng, 3 = độ sáng, 8 = độ thuần sắc.\n■ Độ thuần sắc (chroma): độ rực rỡ; trị số càng lớn càng rực rỡ.\n■ Độ sáng (value): 11 cấp từ đen lý tưởng 0 đến trắng lý tưởng 10.\n■ Bù màu (補色): các sắc tướng đối diện nhau trên vòng sắc tướng Munsell."
+        }
+      ]
+    },
+    {
+      "path": "1.2 建築環境工学 > 1.2.5 換気・室内環境",
+      "vocabulary": "自然換気 / 機械換気 / 第1種・第2種・第3種換気 / 中性帯 / 換気回数 / 必要換気量 / 全熱交換器 / 置換換気 / 風圧力 / 温度差換気 / ショートサーキット / 室内環境基準",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "【令和7年（2025年）午前 ロ 問1】次に示す断面形状の室において、風が矢印の向きで左から右に一様に吹いている場合、自然換気による換気効率が最も良いものはどれか。ただし、室温は外気温より高く、開口部の形状寸法はすべて同じものとする。",
+          "choices": [
+            "（断面図1：開口部が上側と下側に分かれている）",
+            "（断面図2：左右とも上方に開口がある）",
+            "（断面図3：風上側の下部開口＋風下側の上部開口）",
+            "（断面図4：開口部が片側に偏っている）"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n換気効率が最も良いのは、3です。\n風は左から右へ吹くので、左側（風上）は空気が入りやすく、右側（風下）は空気が出やすくなります。さらに室内は外より温かいので、温かい空気は上にたまり、上から出すほうがよく換気できます。\n選択肢1：開口部が上側と下側に分かれており、空気の出入りが複雑になりやすいです。風上側の上部開口から入った空気が天井付近だけを流れて風下側の上部開口へ抜けるなど、室内全体を通りにくい流れが起こりやすく、換気効率が最も良い形とは言いにくいです。\n選択肢2：左右とも上のほうに開口部がある形です。風による通風は起こり得ますが、空気が上のほうだけを通りやすく、床付近の空気が入れ替わりにくくなります。室温が高い条件では、下から入れて上から出す形のほうが有利です。\n選択肢3（正）：ポイントは次の2つです。・左側（風上）の下の開口から空気が入りやすい（風圧の利用）・右側（風下）の上の開口から空気が出やすい（風下は負圧になりやすく、さらに温かい空気は上に集まる）。つまり、下から新しい空気を入れて、上から温かい空気を出す流れになり、室内全体を通る換気になりやすいです。\n選択肢4：開口部が片側に偏っており、風上と風下を使った通り抜けの流れが作りにくいです。空気の出入りが近い場所で起こりやすく、室内全体の空気が動きにくくなります。\nまとめ：自然換気で効率を上げるコツは、風と温度差を同時に利用することです。この条件では、左が風上、右が風下、そして室内は外より温かいので、風上の下から入れて風下の上から出す形がいちばん換気効率が良くなります。",
+          "studyContent": "■自然換気の効率化：風（風圧力）と室内外温度差（重力換気）を同時利用。\n■温度差換気：室温が外より高い→下部から給気、上部から排気。\n■本問：風上の下部開口から入れ、風下の上部開口から出す形（選択肢3）が最良。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần ロ Câu 1】Với căn phòng có hình dạng mặt cắt như hình, khi gió thổi đều từ trái sang phải theo hướng mũi tên, mặt cắt nào có hiệu quả thông gió tự nhiên TỐT nhất? Giả thiết nhiệt độ phòng cao hơn ngoài trời, và hình dạng kích thước các lỗ mở đều như nhau.",
+          "choices_vi": [
+            "(Mặt cắt 1: lỗ mở tách thành phía trên và phía dưới)",
+            "(Mặt cắt 2: cả hai bên đều mở ở phía trên)",
+            "(Mặt cắt 3: lỗ dưới phía đón gió + lỗ trên phía khuất gió)",
+            "(Mặt cắt 4: lỗ mở dồn về một phía)"
+          ],
+          "explanation_vi": "【Giải thích 01】\nHiệu quả thông gió tốt nhất là 3.\nGió thổi từ trái sang phải nên phía trái (đón gió) dễ cho không khí vào, phía phải (khuất gió) dễ cho không khí ra. Hơn nữa phòng ấm hơn bên ngoài nên khí nóng dồn lên trên, thoát ra từ phía trên sẽ thông gió tốt hơn.\nLựa chọn 1: Lỗ mở tách trên–dưới, luồng khí dễ phức tạp. Khí vào từ lỗ trên phía đón gió chỉ chảy gần trần rồi thoát ra lỗ trên phía khuất gió, khó đi khắp phòng, nên không phải dạng tốt nhất.\nLựa chọn 2: Cả hai bên mở phía trên. Có thể có thông gió do gió nhưng khí chỉ đi phía trên, khí gần sàn khó được thay. Khi nhiệt độ phòng cao, dạng vào từ dưới ra từ trên có lợi hơn.\nLựa chọn 3 (Đúng): Hai điểm mấu chốt: ・Khí dễ vào từ lỗ dưới phía trái (đón gió – tận dụng áp lực gió). ・Khí dễ ra từ lỗ trên phía phải (khuất gió – dễ thành áp âm, lại thêm khí nóng dồn lên trên). Tức là đưa khí mới vào từ dưới, đẩy khí nóng ra từ trên, dòng khí đi khắp phòng.\nLựa chọn 4: Lỗ mở dồn một phía, khó tạo luồng xuyên phòng giữa đón gió và khuất gió. Khí vào–ra ở vị trí gần nhau, khí trong phòng khó chuyển động.\nTóm tắt: Bí quyết tăng hiệu quả thông gió tự nhiên là tận dụng đồng thời gió và chênh lệch nhiệt độ. Ở điều kiện này (trái đón gió, phải khuất gió, phòng ấm hơn ngoài), dạng đưa vào từ dưới phía đón gió và ra từ trên phía khuất gió là tốt nhất.",
+          "studyContent_vi": "■ Tăng hiệu quả thông gió tự nhiên: dùng đồng thời gió (áp lực gió) và chênh lệch nhiệt độ trong–ngoài (thông gió do trọng lực).\n■ Thông gió do chênh nhiệt: phòng ấm hơn ngoài → cấp khí từ dưới, thải khí từ trên.\n■ Bài này: dạng đưa khí vào từ lỗ dưới phía đón gió, ra từ lỗ trên phía khuất gió (lựa chọn 3) là tốt nhất."
+        },
+        {
+          "label": "Q2",
+          "question": "【令和6年（2024年）午前 ロ 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "機械換気における第3種機械換気方式は、自然給気と排気機による換気方式で、浴室や便所等に用いられる。",
+            "室内外の温度差による自然換気の換気量は、他の条件が同じであれば、流入口と流出口の高低差に反比例する。",
+            "自然換気における中性帯の位置は、流入口と流出口の開口面積の大きなほうに近づく。",
+            "必要換気量が一定の場合、室容積が大きな空間に比べて小さな空間のほうが、必要な換気回数が多い。"
+          ],
+          "answer": "2",
+          "explanation": "【解説01】\n換気に関する問題はほぼ毎年出ています。\n選択肢1（正）：トイレや浴室など、住宅に多く用いられており、自然換気と機械排気による換気方式です。\n選択肢2（誤）：自然換気の換気量は、流入口と流出口の高低差の平方根に比例し、さらに開口面積が大きいほど、また室内外の温度差が大きいほど増加します。\n選択肢3（正）：中性帯とは温度差換気の際、高さ方向において室内外の圧力差が0になる高さのことを示します。上部に大きな開口があれば上に移動し、下部に大きな開口があれば下に移動します。\n選択肢4（正）：室容積が小さな空間の方が、汚れやすく、必要な換気回数が多くなります。\nまとめ：実際の部屋をイメージしながら覚えると簡単です。\n\n【解説02】\n換気に関する頻出問題です。\n選択肢1（正）：第3種機械換気方式は、排気のみ機械で行うことで、室内を負圧に保ち、汚染物質を隣の部屋などに拡散させずに換気をすることができます。\n選択肢2（誤）：他の条件が同じならば、開口部の高低差の平方根に比例します。よって、高低差が大きくなるほど換気量は大きくなります。\n選択肢3（正）：中性帯では、室内、室外の圧力差が0となり、開口部を設けても換気はほぼ起こりません。また、計算上は開口面積の大きい方に近づく特徴があります。\n選択肢4（正）：換気回数は、1時間当たりの回数で表され、換気量/室容積で計算されます。換気量が一定で、分母である室容積が小さくなると、計算結果である回数は大きく（多く）なります。\nまとめ：この分野での換気の出題は毎年あるので、ポイントを押さえておきましょう。",
+          "studyContent": "■第3種換気：自然給気＋機械排気。室内を負圧に保つ。浴室・便所等。\n■温度差換気量：高低差の「平方根」に比例（反比例ではない）。開口面積・温度差が大きいほど増加。\n■中性帯：室内外圧力差0の高さ。開口面積の大きい方に近づく。\n■換気回数＝換気量÷室容積。室容積が小さいほど換気回数は多い。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 6 (2024) – Buổi sáng phần ロ Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương thức thông gió cơ khí loại 3 là cấp khí tự nhiên và thải khí bằng quạt, dùng cho phòng tắm, nhà vệ sinh v.v.",
+            "Lưu lượng thông gió tự nhiên do chênh lệch nhiệt độ trong–ngoài, nếu các điều kiện khác như nhau, tỉ lệ NGHỊCH với chênh lệch độ cao giữa lỗ vào và lỗ ra.",
+            "Vị trí trung hòa đới (中性帯) trong thông gió tự nhiên dịch về phía lỗ vào/ra có diện tích lớn hơn.",
+            "Khi lưu lượng thông gió cần thiết không đổi, không gian nhỏ cần số lần thông gió nhiều hơn không gian lớn."
+          ],
+          "explanation_vi": "【Giải thích 01】\nBài thông gió hầu như năm nào cũng ra.\nLựa chọn 1 (Đúng): Dùng nhiều ở nhà ở như nhà vệ sinh, phòng tắm; là phương thức cấp khí tự nhiên + thải khí cơ khí.\nLựa chọn 2 (Sai): Lưu lượng thông gió tự nhiên tỉ lệ với CĂN BẬC HAI của chênh lệch độ cao giữa lỗ vào và lỗ ra, và tăng khi diện tích lỗ mở lớn hơn, chênh lệch nhiệt độ trong–ngoài lớn hơn.\nLựa chọn 3 (Đúng): Trung hòa đới là độ cao mà chênh áp trong–ngoài bằng 0 trong thông gió do chênh nhiệt. Lỗ lớn ở trên thì dịch lên trên, lỗ lớn ở dưới thì dịch xuống dưới.\nLựa chọn 4 (Đúng): Không gian thể tích nhỏ dễ bẩn hơn nên cần số lần thông gió nhiều hơn.\nTóm tắt: Hình dung căn phòng thực tế sẽ dễ nhớ.\n\n【Giải thích 02】\nBài thông gió hay ra.\nLựa chọn 1 (Đúng): Loại 3 chỉ thải khí bằng cơ khí, giữ phòng ở áp âm, không phát tán chất ô nhiễm sang phòng bên.\nLựa chọn 2 (Sai): Nếu điều kiện khác như nhau, tỉ lệ với CĂN BẬC HAI của chênh lệch độ cao lỗ mở. Do đó chênh lệch độ cao càng lớn lưu lượng càng lớn.\nLựa chọn 3 (Đúng): Tại trung hòa đới chênh áp trong–ngoài bằng 0, đặt lỗ mở cũng hầu như không thông gió. Theo tính toán, dịch về phía lỗ có diện tích lớn hơn.\nLựa chọn 4 (Đúng): Số lần thông gió tính theo số lần/giờ = lưu lượng/thể tích phòng. Lưu lượng không đổi, mẫu số (thể tích) nhỏ đi thì kết quả (số lần) lớn lên.\nTóm tắt: Lĩnh vực này năm nào cũng ra, cần nắm điểm mấu chốt.",
+          "studyContent_vi": "■ Thông gió loại 3: cấp khí tự nhiên + thải khí cơ khí. Giữ phòng áp âm. Dùng cho phòng tắm, nhà vệ sinh.\n■ Lưu lượng thông gió do chênh nhiệt: tỉ lệ với CĂN BẬC HAI của chênh lệch độ cao lỗ vào–ra (không phải tỉ lệ nghịch). Tăng khi diện tích lỗ mở và chênh nhiệt lớn.\n■ Trung hòa đới: độ cao chênh áp trong–ngoài = 0. Dịch về phía lỗ diện tích lớn hơn.\n■ Số lần thông gió = lưu lượng ÷ thể tích phòng. Thể tích càng nhỏ số lần càng nhiều."
+        },
+        {
+          "label": "Q3",
+          "question": "【令和4年（2022年）午前 イ 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "必要換気量は、1時間当たりに必要な室内の空気を入れ替える量で表される。",
+            "温度差による自然換気は、冬期には中性帯より下部から外気が流入し、上部から流出する。",
+            "全熱交換器は、冷暖房を行う部屋で換気設備に用いると、換気による熱損失や熱取得を軽減できる。",
+            "室内の効率的な換気は、給気口から排気口に至る換気経路を短くするほうがよい。"
+          ],
+          "answer": "4",
+          "explanation": "【解説01】\n換気に関する問題はほぼ毎年出される傾向にあります。自然換気と機械換気の方法、必要換気量の計算基準、室内環境基準などについて整理しておきましょう。基準値などの数値の他は常識的な知識で理解できる分野です。\n選択肢1（〇）：必要換気量とは、室内の空気環境を良好に為に1時間当りに必要とする外気との換気量です。室内のCO₂発生量を室内許容CO₂濃度と外気CO₂濃度の差で除して計算します。※必要換気量＝CO₂発生量／（許容濃度－外気濃度）。（参考）静穏時の成人一人当りの必要換気量は30m³／時で計算します。\n選択肢2（〇）：実際の室内をイメージすると良く分かります。・冬は暖房で室内温度が高いため（外が寒い）、外気は下から入って上から出て行きます・夏は冷房で室内温度が低いため（外が暑い）、外気は上から入って下から出て行きます。\n選択肢3（〇）：全熱交換器は室内換気の際に、熱交換器（熱交換エレメント）を使って、排気空気の熱エネルギー（温度＋湿度）を外部からの新鮮な空気と交換します。室内の空気を排出しながら温度と湿度は室内へ戻す省エネシステムです。（参考）全熱（熱エネルギー）＝温度（潜熱）＋湿度（顕熱）。\n選択肢4（✕）：自然換気では、吸気口と排気口の高低差を大きくし、距離を長くするほど効率的となります。温度差による自然換気量は、高低差（垂直距離）の平方根に比例します。\nまとめ：換気問題対策の要点は次の通りです。①自然換気（風力換気と重量換気）、機械換気（第1種、第2種、第3種）の特徴を整理しておく。②換気量、換気回数の計算方法を覚える。③室内環境基準（汚染物質の許容濃度）を覚える。\n\n【解説02】\n解説は下記の通りです。\n選択肢1（正）：必要換気量は1時間当たりに必要な室内の空気を入れ替える量で表されます。室内の空気環境を良好な状態に保つため、必要とされる最小限の取入れ外気量のことです。必要換気量＝室内CO₂発生量/室内のCO₂濃度－外気のCO₂濃度 で求めることができます。\n選択肢2（正）：冷たい空地は重く、暖かい空気は軽いため選択肢の通りになります。また、中性帯とは、温度差による換気において、室内外の気圧の差が0になる位置のことをさします。\n選択肢3（正）：全熱交換器は、排気中の排熱を回収して再利用する装置です。そのため、冷暖房を行う部屋で換気設備に用いると、換気による熱損失や熱取得を軽減できます。\n選択肢4（誤）：換気経路を短くすると、取り入れた新鮮な空気をすぐに排出することになります。換気経路を長くして、汚れた空気を排出する方が効率が良いです。",
+          "studyContent": "■必要換気量＝CO₂発生量÷（室内許容CO₂濃度－外気CO₂濃度）。成人静穏時 約30m³/h/人。\n■温度差換気（冬）：中性帯より下部から外気流入、上部から流出。\n■全熱交換器：排気の熱（温度＋湿度）を回収。冷暖房時の熱損失・熱取得を軽減。\n■換気経路は長くするほうが効率的（短いとショートサーキット）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 4 (2022) – Buổi sáng phần イ Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Lưu lượng thông gió cần thiết được biểu thị bằng lượng không khí trong phòng cần được thay đổi trong 1 giờ.",
+            "Thông gió tự nhiên do chênh nhiệt: mùa đông, khí ngoài vào từ phía dưới trung hòa đới và thoát ra từ phía trên.",
+            "Bộ trao đổi nhiệt tổng (全熱交換器) khi dùng cho thiết bị thông gió ở phòng có điều hòa giúp giảm tổn thất nhiệt và thu nhiệt do thông gió.",
+            "Thông gió hiệu quả trong phòng thì nên làm NGẮN đường thông gió từ miệng cấp khí đến miệng thải khí."
+          ],
+          "explanation_vi": "【Giải thích 01】\nBài thông gió hầu như năm nào cũng ra. Nên sắp xếp về phương pháp thông gió tự nhiên và cơ khí, tiêu chuẩn tính lưu lượng thông gió cần thiết, tiêu chuẩn môi trường trong phòng. Ngoài các trị số tiêu chuẩn thì có thể hiểu bằng kiến thức thông thường.\nLựa chọn 1 (Đúng): Lưu lượng thông gió cần thiết là lượng khí trao đổi với bên ngoài cần trong 1 giờ để giữ môi trường không khí trong phòng tốt. Tính bằng lượng CO₂ phát sinh chia cho hiệu giữa nồng độ CO₂ cho phép và nồng độ CO₂ ngoài. ※ Lưu lượng = lượng CO₂ phát sinh ÷ (nồng độ cho phép − nồng độ ngoài). (Tham khảo) Khi yên tĩnh, mỗi người lớn tính 30 m³/giờ.\nLựa chọn 2 (Đúng): ・Mùa đông sưởi ấm nên nhiệt độ phòng cao (ngoài lạnh), khí ngoài vào từ dưới và ra từ trên. ・Mùa hè làm mát nên nhiệt độ phòng thấp (ngoài nóng), khí ngoài vào từ trên và ra từ dưới.\nLựa chọn 3 (Đúng): Bộ trao đổi nhiệt tổng dùng bộ phận trao đổi nhiệt để trao đổi năng lượng nhiệt (nhiệt độ + độ ẩm) của khí thải với khí mới từ bên ngoài. Là hệ tiết kiệm năng lượng vừa thải khí vừa giữ lại nhiệt độ và độ ẩm cho phòng. (Tham khảo) Nhiệt tổng (năng lượng nhiệt) = nhiệt độ (nhiệt ẩn) + độ ẩm (nhiệt hiện).\nLựa chọn 4 (Sai): Trong thông gió tự nhiên, càng tăng chênh lệch độ cao giữa miệng cấp và miệng thải, càng kéo dài khoảng cách thì càng hiệu quả. Lưu lượng thông gió do chênh nhiệt tỉ lệ với căn bậc hai của chênh lệch độ cao.\nTóm tắt: ① Nắm đặc điểm thông gió tự nhiên (do gió và do trọng lượng) và cơ khí (loại 1, 2, 3). ② Nhớ cách tính lưu lượng và số lần thông gió. ③ Nhớ tiêu chuẩn môi trường trong phòng (nồng độ cho phép của chất ô nhiễm).\n\n【Giải thích 02】\nGiải thích như sau.\nLựa chọn 1 (Đúng): Lưu lượng thông gió cần thiết là lượng khí cần thay trong 1 giờ; là lượng khí ngoài tối thiểu cần lấy vào để giữ môi trường phòng tốt. Tính = lượng CO₂ phát sinh trong phòng / (nồng độ CO₂ trong phòng − nồng độ CO₂ ngoài).\nLựa chọn 2 (Đúng): Khí lạnh nặng, khí ấm nhẹ nên đúng như lựa chọn. Trung hòa đới là vị trí mà chênh áp trong–ngoài bằng 0 trong thông gió do chênh nhiệt.\nLựa chọn 3 (Đúng): Bộ trao đổi nhiệt tổng thu hồi nhiệt thải trong khí thải để tái sử dụng. Do đó dùng cho phòng điều hòa giúp giảm tổn thất/thu nhiệt do thông gió.\nLựa chọn 4 (Sai): Đường thông gió ngắn thì khí mới lấy vào bị thải ra ngay. Kéo dài đường thông gió để thải khí bẩn thì hiệu quả hơn.",
+          "studyContent_vi": "■ Lưu lượng thông gió cần thiết = lượng CO₂ phát sinh ÷ (nồng độ CO₂ cho phép − nồng độ CO₂ ngoài). Người lớn yên tĩnh ≈ 30 m³/h/người.\n■ Thông gió do chênh nhiệt (mùa đông): khí ngoài vào từ dưới trung hòa đới, ra từ trên.\n■ Bộ trao đổi nhiệt tổng: thu hồi nhiệt (nhiệt độ + độ ẩm) của khí thải; giảm tổn thất/thu nhiệt khi điều hòa.\n■ Đường thông gió nên dài hơn thì hiệu quả hơn (ngắn → short circuit)."
+        },
+        {
+          "label": "Q4",
+          "question": "【令和3年（2021年）午前 イ 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "風圧力による自然換気の場合、他の条件が同じであれば、換気量は風上側と風下側の風圧係数の差の平方根に比例する。",
+            "室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づく。",
+            "中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。",
+            "中央管理方式の空気調和設備を設ける場合、室内空気の浮遊粉塵の量は、0.15mg/m³以下となるようにする。"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n正解は「中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。」です。\n選択肢1. 風圧力による自然換気の場合、他の条件が同じであれば、換気量は風上側と風下側の風圧係数の差の平方根に比例する。\n正しい記述です。\n風圧力による自然換気の場合、他の条件が同じであれば、換気量は、開口部の面積と風速に比例し、風上側と風下側の風圧係数の差の平方根に比例します。\n選択肢2. 室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づく。\n正しい記述です。\n室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づきます。\n中性帯とは、ある高さで室内外の圧力差がゼロとなる点のことです。\n選択肢3. 中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。\n×（正答肢）\n室内空気の一酸化炭素濃度は、10ppm以下とする必要があります。\n二酸化炭素濃度は、1,000ppm以下とする必要があります。\n※令和4年4月1日の建築物における衛生的環境の確保に関する法律施行令の改正により、一酸化炭素の含有率の基準値が10ppm以下から6ppm以下へ変更されました。\n選択肢4. 中央管理方式の空気調和設備を設ける場合、室内空気の浮遊粉塵の量は、0.15mg/m³以下となるようにする。\n正しい記述です。\n室内空気の浮遊粉塵の量は、0.15mg/㎥以下となるようにする必要があります。\n\n【解説02】\n換気は、大きく分けると、自然換気と機械換気に分けられます。しっかり理解しましょう。\n選択肢1. 風圧力による自然換気の場合、他の条件が同じであれば、換気量は風上側と風下側の風圧係数の差の平方根に比例する。\n正しい記述です。\n風圧力による換気量＝「流量係数」×「開口部面積」×「外部風速」×「外部風向による風圧係数の差に平方根」で求められる為です。\n選択肢2. 室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づく。\n正しい記述です。\n中性帯とは、温度差換気の場合、室内外の圧力差が0になる垂直方向の位置をいいます。\n選択肢3. 中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。\n×（正解）\n中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、10ppm以下となるようにします。\n※建築物における衛生的環境の確保に関する法律施行令の改正（令和４年４月１日施行）により、現在は6ppm以下とすることが義務付けられています。\n選択肢4. 中央管理方式の空気調和設備を設ける場合、室内空気の浮遊粉塵の量は、0.15mg/m³以下となるようにする。\n正しい記述です。\nまとめ\n許容濃度の目安は以下のとおりです。（下表参照：一酸化炭素6ppm以下、二酸化炭素1000ppm以下、相対湿度40％～70％、浮遊粉じん0.15mg/㎥以下）",
+          "studyContent": "■中央管理方式の室内環境基準（現行）：一酸化炭素6ppm以下、二酸化炭素1000ppm以下、相対湿度40～70％、浮遊粉じん0.15mg/㎥以下。\n■風圧力換気量＝流量係数×開口面積×風速×（風圧係数差の平方根）。\n■中性帯：室内外圧力差0の高さ。開口面積の大きい方に近づく。",
+          "tables": ["| 項目 | 許容濃度 |\n| --- | --- |\n| 一酸化炭素 | 6ppm以下 |\n| 二酸化炭素 | 1000ppm以下 |\n| 相対湿度 | 40％～70％ |\n| 浮遊粉じん | 0.15mg/㎥以下 |"],
+          "tables_vi": ["| Hạng mục | Nồng độ cho phép |\n| --- | --- |\n| Carbon monoxide (CO) | ≤ 6ppm |\n| Carbon dioxide (CO₂) | ≤ 1000ppm |\n| Độ ẩm tương đối | 40％～70％ |\n| Bụi lơ lửng | ≤ 0.15mg/㎥ |"],
+          "images": [],
+          "question_vi": "【Năm Reiwa 3 (2021) – Buổi sáng phần イ Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Thông gió tự nhiên do áp lực gió: nếu các điều kiện khác như nhau, lưu lượng thông gió tỉ lệ với căn bậc hai của hiệu số hệ số áp lực gió giữa phía đón gió và phía khuất gió.",
+            "Thông gió tự nhiên do chênh nhiệt trong–ngoài, khi dùng hai lỗ mở trên–dưới có kích thước khác nhau, vị trí trung hòa đới dịch về phía lỗ lớn hơn.",
+            "Khi đặt thiết bị điều hòa không khí kiểu quản lý trung tâm, nồng độ carbon monoxide trong không khí phòng phải đảm bảo ≤ 100ppm.",
+            "Khi đặt thiết bị điều hòa không khí kiểu quản lý trung tâm, lượng bụi lơ lửng trong không khí phòng phải ≤ 0.15mg/m³."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án đúng là 'Khi đặt thiết bị điều hòa kiểu quản lý trung tâm, nồng độ CO trong không khí phòng phải ≤ 100ppm' (đây là mô tả SAI).\nLựa chọn 1: Đúng. Thông gió tự nhiên do áp lực gió, nếu điều kiện khác như nhau, lưu lượng tỉ lệ với diện tích lỗ mở và tốc độ gió, và tỉ lệ với căn bậc hai của hiệu hệ số áp lực gió đón–khuất gió.\nLựa chọn 2: Đúng. Khi dùng hai lỗ mở trên–dưới kích thước khác nhau, trung hòa đới dịch về phía lỗ lớn hơn. Trung hòa đới là điểm ở độ cao nào đó mà chênh áp trong–ngoài bằng 0.\nLựa chọn 3: × (đáp án đúng – mô tả sai). Nồng độ CO trong không khí phòng phải ≤ 10ppm. Nồng độ CO₂ phải ≤ 1.000ppm. ※ Theo sửa đổi nghị định thi hành Luật bảo đảm môi trường vệ sinh trong công trình (hiệu lực 1/4/Reiwa 4), trị số chuẩn hàm lượng CO đã đổi từ ≤ 10ppm xuống ≤ 6ppm.\nLựa chọn 4: Đúng. Lượng bụi lơ lửng trong không khí phòng phải ≤ 0.15mg/㎥.\n\n【Giải thích 02】\nThông gió chia lớn thành thông gió tự nhiên và thông gió cơ khí. Hãy hiểu kỹ.\nLựa chọn 1: Đúng. Lưu lượng thông gió do áp lực gió = 'hệ số lưu lượng' × 'diện tích lỗ mở' × 'tốc độ gió ngoài' × 'căn bậc hai của hiệu hệ số áp lực gió theo hướng gió'.\nLựa chọn 2: Đúng. Trung hòa đới là vị trí theo phương thẳng đứng mà chênh áp trong–ngoài bằng 0 trong thông gió do chênh nhiệt.\nLựa chọn 3: × (đáp án). Nồng độ CO phải ≤ 10ppm. ※ Theo sửa đổi nghị định (hiệu lực 1/4/Reiwa 4), hiện nay bắt buộc ≤ 6ppm.\nLựa chọn 4: Đúng. ≤ 0.15mg/m³.\nTóm tắt: Trị số nồng độ cho phép tham khảo ở bảng bên dưới.",
+          "studyContent_vi": "■ Tiêu chuẩn môi trường trong phòng kiểu quản lý trung tâm (hiện hành): CO ≤ 6ppm, CO₂ ≤ 1000ppm, độ ẩm tương đối 40～70％, bụi lơ lửng ≤ 0.15mg/㎥.\n■ Lưu lượng thông gió do áp lực gió = hệ số lưu lượng × diện tích lỗ mở × tốc độ gió × (căn bậc hai của hiệu hệ số áp lực gió).\n■ Trung hòa đới: độ cao chênh áp trong–ngoài = 0; dịch về phía lỗ diện tích lớn hơn."
+        },
+        {
+          "label": "Q5",
+          "question": "【平成30年（2018年）午前 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "第３種機械換気方式は、自然給気と排気機による換気方式で、浴室や便所などに用いられる。",
+            "自然換気設備の給気口は、調理室等を除き、居室の天井の高さの1/2以下の高さに設置する。",
+            "営業用の厨房は、一般に窓のない浴室よりも換気回数を多く必要とする。",
+            "給気口から排気口に至る換気経路を短くする方が、室内の換気効率はよくなる。"
+          ],
+          "answer": "4",
+          "explanation": "【解説01】\n正解は4です。\n1:設問の通りです。それ以外に「第1種換気方式」と「第2種換気方式」があります。「第1種換気方式」は、給気・排気とも機械換気で強制的に行う換気方法であり、「第2種換気方式」は、給気を機械換気、排気を自然換気にて行う換気方式です。どの換気方式とするかは、部屋の用途等によって、使い分ける必要があります。\n2:設問通りです。建築基準法施工令第１２９条の２の６第1項により規定されています。\n3:設問通りです。\n4:誤りです。給気口から排気口に至る換気経路は（短くするのではなく）長くする方が、室内の換気効率は良くなります。給気口と排気口の位置が近いと、狭い範囲で空気が循環してしまい換気が機能しないショートサーキットを起こします。\n\n【解説02】\n以下、選択肢ごとに解説します。\n選択肢1. 第３種機械換気方式は、自然給気と排気機による換気方式で、浴室や便所などに用いられる。\n正しいです。\n第1種換気方式：給気・排気とも機械換気で強制的に行う換気方法\n第2種換気方式：給気を機械換気、排気を自然換気にて行う換気方式\n第3種換気方式：給気を自然換気、排気を機械換気にて行う換気方式\n選択肢2. 自然換気設備の給気口は、調理室等を除き、居室の天井の高さの1/2以下の高さに設置する。\n正しいです。\n建築基準法施工令第１２９条の２の６第1項により規定されています。\n選択肢3. 営業用の厨房は、一般に窓のない浴室よりも換気回数を多く必要とする。\n正しいです。\n厨房の必要換気回数：30～60回/ｈ\n窓のない浴槽の必要換気回数：5回/ｈ程度\n選択肢4. 給気口から排気口に至る換気経路を短くする方が、室内の換気効率はよくなる。\n誤りです。\n給気口から排気口に至る換気経路は長くする方が、室内の換気効率は良くなります。給気口と排気口の位置が近いと、ショートサーキットを起こします。\n\n【解説03】\n正解は４です。\n【解説】\n１．設問の通りです。「第３種機械換気方式」給気は給気口から自然に、排気は換気扇から強制的に行います。室内で発生した臭いや湿気が他の部屋に広がる前に強制排気する換気方式です。浴室や便所の様に臭いが発生しやすい部屋に採用されています。\n２．設問の通りです。建築基準法施工令第１２９条の２の６第1項ロにより規定されています。\n３．設問の通りです。\n４．誤りです。給気口と排気口は適切な距離を取ると換気効率が良くなります。近くに設置すると狭い範囲で空気が循環するショートサーキットが起こり、取り込んだ新鮮な空気が部屋全体に行き渡らなくなります。",
+          "studyContent": "■機械換気の種類：第1種（給排とも機械）、第2種（給気機械＋排気自然）、第3種（給気自然＋排気機械；浴室・便所）。\n■換気経路は長くするほうが効率的（短いとショートサーキット）。\n■厨房の必要換気回数：30～60回/h。窓のない浴槽：5回/h程度。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Heisei 30 (2018) – Buổi sáng Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương thức thông gió cơ khí loại 3 là cấp khí tự nhiên và thải khí bằng quạt, dùng cho phòng tắm, nhà vệ sinh v.v.",
+            "Miệng cấp khí của thiết bị thông gió tự nhiên (trừ phòng bếp v.v.) được đặt ở độ cao ≤ 1/2 chiều cao trần phòng ở.",
+            "Bếp kinh doanh nói chung cần số lần thông gió nhiều hơn phòng tắm không có cửa sổ.",
+            "Làm NGẮN đường thông gió từ miệng cấp đến miệng thải thì hiệu quả thông gió trong phòng tốt hơn."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án đúng là 4.\n1: Đúng như đề. Ngoài ra còn có 'loại 1' và 'loại 2'. Loại 1: cả cấp và thải đều bằng cơ khí (cưỡng bức). Loại 2: cấp khí cơ khí, thải khí tự nhiên. Chọn loại nào tùy công năng phòng.\n2: Đúng như đề. Được quy định tại Điều 129-2-6 khoản 1 Nghị định thi hành Luật tiêu chuẩn xây dựng.\n3: Đúng như đề.\n4: Sai. Đường thông gió từ miệng cấp đến miệng thải nên LÀM DÀI hơn (không phải ngắn) thì hiệu quả thông gió tốt hơn. Nếu miệng cấp và thải gần nhau, khí chỉ luẩn quẩn trong phạm vi hẹp, gây short circuit khiến thông gió không hoạt động.\n\n【Giải thích 02】\nGiải thích theo từng lựa chọn.\nLựa chọn 1: Đúng. Loại 1: cả cấp và thải đều cơ khí. Loại 2: cấp cơ khí, thải tự nhiên. Loại 3: cấp tự nhiên, thải cơ khí.\nLựa chọn 2: Đúng. Quy định tại Điều 129-2-6 khoản 1.\nLựa chọn 3: Đúng. Số lần thông gió cần thiết của bếp: 30～60 lần/h. Của phòng tắm không có cửa sổ: khoảng 5 lần/h.\nLựa chọn 4: Sai. Đường thông gió nên dài hơn thì hiệu quả tốt hơn. Miệng cấp và thải gần nhau sẽ gây short circuit.\n\n【Giải thích 03】\nĐáp án đúng là 4.\n【Giải thích】\n1. Đúng như đề. 'Loại 3': cấp khí tự nhiên qua miệng cấp, thải khí cưỡng bức qua quạt. Là phương thức thải cưỡng bức mùi/ẩm phát sinh trong phòng trước khi lan sang phòng khác. Dùng cho phòng dễ phát sinh mùi như phòng tắm, nhà vệ sinh.\n2. Đúng như đề. Quy định tại Điều 129-2-6 khoản 1 mục ロ.\n3. Đúng như đề.\n4. Sai. Miệng cấp và thải đặt cách nhau khoảng cách thích hợp thì hiệu quả tốt. Đặt gần nhau gây short circuit (khí luẩn quẩn phạm vi hẹp), khí mới lấy vào không đi khắp phòng.",
+          "studyContent_vi": "■ Các loại thông gió cơ khí: Loại 1 (cấp & thải đều cơ khí), Loại 2 (cấp cơ khí + thải tự nhiên), Loại 3 (cấp tự nhiên + thải cơ khí; phòng tắm, nhà vệ sinh).\n■ Đường thông gió nên dài hơn thì hiệu quả (ngắn → short circuit).\n■ Số lần thông gió cần thiết của bếp: 30～60 lần/h. Phòng tắm không cửa sổ: ~5 lần/h."
         },
         {
           "label": "Q6",
-          "question": "仮設設備の計画に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和2年（2020年）午前 問1】換気に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "作業員の仮設男性用小便所数は、同時に就業する男性作業員40人以内ごとに1個を設置する計画とした。",
-            "工事用電気設備の建物内幹線の立上げは、上下交通の中心で最終工程まで支障の少ない階段室に計画した。",
-            "仮設電力契約は、工事完了まで変更しない計画とし、短期的に電力需要が増加した場合は、臨時電力契約を併用した。",
-            "仮設の給水設備において、工事事務所の使用水量は、1人1日当たり50Lを見込む計画とした。"
-          ],
-          "answer": "1",
-          "explanation": "この過去問の解説 （3件）\n01\n仮設設備では数字をメインにポイントを覚えてみてください！\n選択肢1. × 作業員の仮設男性用小便所数は、同時に就業する男性作業員30人以内ごとに1個を設置する計画とします。また、大便器は60人以内ごとに1個とします。\n選択肢2. 〇 建物内幹線の立上げは上下交通の中心で最終工程まで支障の少ない階段室に計画します。\n選択肢3. 〇 仮設電力契約は工事完了まで変更しない計画とし、短期的に電力需要が増加した場合は臨時電力契約を併用して問題ありません。\n選択肢4. 〇 工事事務所の使用水量は1人1日当たり50Lを見込みます。\n\n02\n仮設計画は電気・衛生設備の知識も必要ですが、仮設に限れば絞り込めます。\n選択肢1. 誤り。男性用小便所は30人以内ごとに1個設置。\n選択肢2. 設問の通り。\n選択肢3. 設問の通り。\n選択肢4. 設問の通り。\n\n03\n各種数値・使用方法を覚えましょう。\n選択肢1. 30人以内ごとに1個。よって誤り。\n選択肢2. 設問の通り。\n選択肢3. 設問の通り。\n選択肢4. 設問の通り。",
-          "studyContent": "まとめ\n女性作業員用の仮設便房数は、同時に就業する女性作業員20人以内ごとに1個を設置する計画とし、男性作業員用の仮設大便房数は、同時に就業する男性作業員60人以内ごとに1個を設置する計画とします。",
-          "question_vi": "Trong các mô tả sau về kế hoạch thiết bị tạm, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Đã lên kế hoạch lắp nhà tiểu nam tạm: 1 bồn cho mỗi 40 công nhân nam làm việc đồng thời.",
-            "Đường dây chính trong nhà của thiết bị điện thi công được kéo dọc tại buồng cầu thang – là trung tâm giao thông đứng và ít cản trở đến cuối tiến độ.",
-            "Hợp đồng điện tạm được giữ nguyên đến khi hoàn công; nếu nhu cầu điện tăng ngắn hạn thì dùng kèm hợp đồng điện tạm thời.",
-            "Nước sinh hoạt cho văn phòng công trường được dự kiến 50 L/người/ngày."
-          ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 1. × Sai – 1 bồn tiểu nam cho mỗi 30 (không phải 40) công nhân. Bồn cầu lớn: 1 cái/60 người.\nLựa chọn 2. 〇 Đúng.\nLựa chọn 3. 〇 Đúng.\nLựa chọn 4. 〇 Đúng – 50 L/người/ngày.\n\n02\nLựa chọn 1 sai – 30 người/bồn tiểu nam.\n\n03\nLựa chọn 1 sai. Các lựa chọn còn lại đúng.",
-          "studyContent_vi": "まとめ\nNhà vệ sinh nữ tạm: 1 buồng/mỗi 20 công nhân nữ làm việc đồng thời. Bồn cầu nam: 1 cái/mỗi 60 công nhân nam làm việc đồng thời."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 05_施工管理法 / 品質管理",
-      "vocabulary": "材料の保管 (ざいりょうのほかん) - bảo quản vật liệu\n長尺ビニル床シート - tấm sàn vinyl dài\n砂付ストレッチルーフィング - tấm chống thấm rải đá (stretch roofing có cát)\nラップ部 (らっぷぶ) - phần chồng mép\nフローリング - sàn gỗ\n木製建具 (もくせいたてぐ) - cửa gỗ\n障子 (しょうじ) - cửa kéo Shoji\n襖 (ふすま) - cửa kéo Fusuma\n管理値 (かんりち) - trị số quản lý\nスタッド溶接 - hàn đinh stud\n許容差 (きょようさ) - dung sai cho phép\nトルシア形高力ボルト - bu lông cường độ cao kiểu torque-shear",
-      "questions": [
-        {
-          "label": "Q7",
-          "question": "工事現場における材料の保管に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "長尺のビニル床シートは、屋内の乾燥した場所に直射日光を避けて縦置きにして保管した。",
-            "砂付ストレッチルーフィングは、ラップ部（張付け時の重ね部分）を下に向けて縦置きにして保管した。",
-            "フローリング類は、屋内のコンクリートの床にシートを敷き、角材を並べた上に保管した。",
-            "木製建具は、取付け工事直前に搬入し、障子や襖は縦置き、フラッシュ戸は平積みにして保管した。"
+            "換気量が一定の場合、室容積が小さいほど換気回数は多くなる。",
+            "給気口から排気口に至る換気経路を短くするほうが、室内の換気効率はよくなる。",
+            "全熱交換器を用いると、冷暖房時に換気による熱損失や熱取得を軽減できる。",
+            "換気量が同じ場合、置換換気は全般換気に比べて、換気効率に優れている。"
           ],
           "answer": "2",
-          "explanation": "この過去問の解説 （3件）\n01\n保管方法は、上や下、ダメな理由をよく理解すると良いです！\n選択肢1. 〇 長尺ビニル床シートは屋内の乾燥した場所に直射日光を避けて縦置きで保管します。\n選択肢2. × 砂付ストレッチルーフィングは、ラップ部を上に向けて縦置きにして保管します。ラップ部分保護のため、2段積みは行ってはいけません。\n選択肢3. 〇 フローリング類は屋内のコンクリート床にシートを敷き、角材を並べた上に保管します。\n選択肢4. 〇 設問の通り。\n\n02\n資材ごとに置き方を覚えましょう。\n選択肢1. 設問の通り。\n選択肢2. ラップ部を上に向けて縦置きにする必要があります。よって誤り。\n選択肢3. 設問の通り。\n選択肢4. 設問の通り。\n\n03\n材料の保管はひっかけ問題が多いので、注意して設問を読みましょう。\n選択肢1. 設問の通り。\n選択肢2. 誤り。ラップ部を上に向けて縦置き。\n選択肢3. 設問の通り。\n選択肢4. 設問の通り。",
-          "studyContent": "",
-          "question_vi": "Trong các mô tả sau về bảo quản vật liệu tại công trường, đâu là mô tả KHÔNG phù hợp nhất?",
+          "explanation": "【解説01】\n答えは(誤り)は 2 です。\n換気経路が短いほど、給気口から入ってきた新鮮な空気が室内にいきわたることなく排気口に至るため、換気効率は悪くなります。\nしたがって設問2の「室内の換気効率はよくなる」は誤りです。\n1. 正しいです。\n換気回数＝(換気量)÷(室容積)の式で求めます。したがって換気量が一定の場合、室容積が小さいほど換気回数は大きくなります。\n3.正しいです。\n通常の換気では外気が直接室内に給気されるため、熱損失や熱取得が発生します。全熱交換器は、外気を給気する過程で排気される室内の空気と熱交換を行い、給気温度を室内温度に近づけるシステムです。したがって、換気の際に発生する熱損失や熱取得を軽減することができます。\n4.正しいです。\n置換換気は、室下部に設けた吹出口から低温の空気を給気することにより、室内で発生した汚染空気を室上部へ上昇させて排出する換気方式です。全般換気よりも置換換気のほうが速く新鮮な空気が到達するため換気効率に優れています。\n\n【解説02】\n換気に関する記述の中で、最も不適当なものを識別するために、各選択肢を詳しく見ていきます。\n選択肢1. 換気量が一定の場合、室容積が小さいほど換気回数は多くなる。\nこの記述は正しいです。換気量（一定時間内に交換される空気の量）が同じ場合、部屋の容積が小さければその部屋の空気はより頻繁に交換されます。つまり、換気回数が増加します。\n選択肢2. 給気口から排気口に至る換気経路を短くするほうが、室内の換気効率はよくなる。\nこの記述は不適切です。一般的に、給気と排気の位置は換気効率を高めるために適切に配置する必要がありますが、経路が短いことが必ずしも効率向上につながるわけではありません。換気経路が短すぎると、空気が十分に室内に行き渡らない場合があり、むしろ換気効率が低下することがあります。効率的な換気のためには、空気が室内全体に均等に分配されるような配置が重要です。\n選択肢3. 全熱交換器を用いると、冷暖房時に換気による熱損失や熱取得を軽減できる。\nこの記述は正しいです。全熱交換器は、排気から熱エネルギーを回収して新たに取り入れる空気を事前に加熱または冷却することで、エネルギー効率を向上させることができます。これにより、冷暖房負荷を減少させる効果があります。\n選択肢4. 換気量が同じ場合、置換換気は全般換気に比べて、換気効率に優れている。\nこの記述は正しいです。置換換気（局所換気）は特定の場所から空気を直接排出し、新鮮な空気を同じ場所に導入することで、効率よく空気を入れ替えることができます。これに対して全般換気（一般換気）は、空気の流れが均等になるように全体の空間にわたって行われるため、特定の領域の空気の質を迅速に改善するには効率が低下することがあります。\nまとめ\n最も不適当な記述は「給気口から排気口に至る換気経路を短くするほうが、室内の換気効率はよくなる」となります。\n\n【解説03】\n換気についての出題です。\n選択肢1. 設問の通りです。換気回数とは、換気量を室容積で割った値です。\n選択肢2. 誤りです。給気口から排気口に至る換気経路を短くすると、ショートサーキットとなり、換気効率は悪くなります。\n選択肢3. 全熱交換器は、温度と湿度を同時に交換するため 冷暖房時に換気による熱損失や熱取得を軽減できます。\n選択肢4. 設問の通りです。",
+          "studyContent": "■換気回数＝換気量÷室容積。室容積が小さいほど換気回数は多い。\n■換気経路は長くするほうが効率的（短いとショートサーキット）。\n■全熱交換器：温度と湿度を同時に交換。冷暖房時の熱損失・熱取得を軽減。\n■置換換気：室下部から低温空気を給気し汚染空気を上部へ排出。全般換気より換気効率に優れる。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 2 (2020) – Buổi sáng Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Tấm sàn vinyl dài được bảo quản trong nhà nơi khô ráo, tránh ánh nắng trực tiếp, dựng đứng.",
-            "Tấm chống thấm stretch roofing có cát được dựng đứng với phần chồng mép quay XUỐNG.",
-            "Sàn gỗ được bảo quản trên các thanh gỗ vuông xếp trên tấm trải lót lên nền bê tông trong nhà.",
-            "Cửa gỗ được nhập ngay trước khi lắp; shoji/fusuma dựng đứng, cửa flush thì xếp nằm chồng."
+            "Khi lưu lượng thông gió không đổi, thể tích phòng càng nhỏ thì số lần thông gió càng nhiều.",
+            "Làm NGẮN đường thông gió từ miệng cấp đến miệng thải thì hiệu quả thông gió trong phòng tốt hơn.",
+            "Dùng bộ trao đổi nhiệt tổng giúp giảm tổn thất/thu nhiệt do thông gió khi điều hòa.",
+            "Khi lưu lượng thông gió như nhau, thông gió thay thế (置換換気) hiệu quả hơn thông gió toàn thể (全般換気)."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 1. 〇 Đúng.\nLựa chọn 2. × Sai – phải dựng đứng với phần chồng mép quay LÊN (không phải xuống). Không xếp chồng 2 lớp để bảo vệ phần ráp nối.\nLựa chọn 3. 〇 Đúng.\nLựa chọn 4. 〇 Đúng.\n\n02\nLựa chọn 2 sai – phần chồng mép quay lên trên.\n\n03\nĐề bảo quản vật liệu hay có bẫy. Lựa chọn 2 sai.",
-          "studyContent_vi": ""
+          "explanation_vi": "【Giải thích 01】\nĐáp án (sai) là 2.\nĐường thông gió càng ngắn thì khí mới vào từ miệng cấp đến thẳng miệng thải mà không đi khắp phòng, nên hiệu quả thông gió kém đi. Do đó câu 2 'hiệu quả thông gió tốt hơn' là sai.\n1. Đúng. Số lần thông gió = lưu lượng ÷ thể tích phòng. Lưu lượng không đổi, thể tích nhỏ thì số lần lớn.\n3. Đúng. Thông gió thông thường cho khí ngoài vào trực tiếp nên phát sinh tổn thất/thu nhiệt. Bộ trao đổi nhiệt tổng trao đổi nhiệt giữa khí cấp và khí thải, đưa nhiệt độ khí cấp gần với nhiệt độ phòng, nên giảm được tổn thất/thu nhiệt.\n4. Đúng. Thông gió thay thế cấp khí lạnh từ miệng thổi dưới phòng, đẩy khí ô nhiễm lên trên và thải ra. Khí mới đến nhanh hơn so với thông gió toàn thể nên hiệu quả hơn.\n\n【Giải thích 02】\nXét kỹ từng lựa chọn để tìm mô tả không phù hợp nhất.\nLựa chọn 1: Đúng. Lưu lượng như nhau, thể tích phòng nhỏ thì khí được thay thường xuyên hơn, tức số lần thông gió tăng.\nLựa chọn 2: Không phù hợp. Vị trí cấp–thải cần bố trí hợp lý, nhưng đường ngắn không hẳn làm tăng hiệu quả; nếu quá ngắn, khí không đi khắp phòng, hiệu quả có thể giảm. Cần bố trí sao cho khí phân bố đều khắp phòng.\nLựa chọn 3: Đúng. Bộ trao đổi nhiệt tổng thu hồi năng lượng nhiệt từ khí thải để làm ấm/làm mát trước khí lấy vào, nâng hiệu quả năng lượng, giảm tải điều hòa.\nLựa chọn 4: Đúng. Thông gió thay thế (cục bộ) thải khí trực tiếp từ một vị trí và đưa khí mới vào cùng vị trí, thay khí hiệu quả. Thông gió toàn thể lan đều khắp không gian nên cải thiện nhanh chất lượng khí ở vùng cụ thể thì kém hơn.\nTóm tắt: Mô tả không phù hợp nhất là 'làm ngắn đường thông gió thì hiệu quả tốt hơn'.\n\n【Giải thích 03】\nBài về thông gió.\nLựa chọn 1: Đúng như đề. Số lần thông gió là lưu lượng chia cho thể tích phòng.\nLựa chọn 2: Sai. Đường thông gió ngắn sẽ gây short circuit, hiệu quả kém.\nLựa chọn 3: Bộ trao đổi nhiệt tổng trao đổi đồng thời nhiệt độ và độ ẩm nên giảm tổn thất/thu nhiệt do thông gió khi điều hòa.\nLựa chọn 4: Đúng như đề.",
+          "studyContent_vi": "■ Số lần thông gió = lưu lượng ÷ thể tích phòng. Thể tích càng nhỏ số lần càng nhiều.\n■ Đường thông gió nên dài hơn thì hiệu quả (ngắn → short circuit).\n■ Bộ trao đổi nhiệt tổng: trao đổi đồng thời nhiệt độ và độ ẩm; giảm tổn thất/thu nhiệt khi điều hòa.\n■ Thông gió thay thế: cấp khí lạnh từ dưới đẩy khí ô nhiễm lên trên; hiệu quả hơn thông gió toàn thể."
+        },
+        {
+          "label": "Q7",
+          "question": "【令和元年（2019年）午前 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "室内空気の気流は、0.5 m/s以下となるようにする。",
+            "室内空気の二酸化炭素の濃度は、1.0 %以下となるようにする。",
+            "室内空気の相対湿度は、40%以上70%以下となるようにする。",
+            "室内空気の浮遊粉じんの量は、0.15 mg/m³以下となるようにする。"
+          ],
+          "answer": "2",
+          "explanation": "【解説01】\n以下に解説します。\n選択肢1. 室内空気の気流は、0.5 m/s以下となるようにする。\n設問の通りです。\n選択肢2. 室内空気の二酸化炭素の濃度は、1.0 %以下となるようにする。\n誤りです。空気調和設備や機械空調設備を備えている室では、室内空気の二酸化炭素の濃度は、0.1 ％以下となるようにします。\n選択肢3. 室内空気の相対湿度は、40%以上70%以下となるようにする。\n設問の通りです。\n選択肢4. 室内空気の浮遊粉じんの量は、0.15 mg/m³以下となるようにする。\n設問の通りです。\n\n【解説02】\n環境工学の換気についての出題です。\n選択肢1. 建築基準法施行令により、室内空気の気流は、0.5 m/s以下となるようにします。\n選択肢2. 不適当です。建築基準法施行令により①一酸化炭素 ６ppm（０．０００６％）以下②二酸化炭素 １０００ppm（０．１％）以下とします。※建築物における衛生的環境の確保に関する法律施行令の改正（令和４年４月１日施行）により一酸化炭素の含有率の基準値について変更がありました。改正前：１０ppm 改正後：６ppm\n選択肢3. 湿度が高いと不快感が増します。建築基準法施行令により、相対湿度は４０％以上７０％以下となるようにします。\n選択肢4. 建築基準法施行令により、浮遊粉じんの量は、0.15 mg/m³以下となるようにします。\nまとめ\n換気については計算問題も出題されます。確認しましょう。\n\n【解説03】\n解説は下記の通りです。\n選択肢1. 正です。室内の気流は0.5m/秒以下とします。\n選択肢2. 誤です。二酸化炭素濃度は0.1％(1000ppm)以下になるようにします。また、一酸化炭素の許容値は0.0006％(6ppm)以下です。\n選択肢3. 正です。室内の相対湿度は 40%以上70%以下とします。\n選択肢4. 正です。室内の浮遊粉じんの量は、0.15 mg/㎥以下となるようにします。\nまとめ\n一酸化炭素に関して法改正により許容値が低くなっているため、頻出問題です。数字を正確に覚えておきましょう。",
+          "studyContent": "■室内環境基準：気流0.5m/s以下、CO₂ 0.1％(1000ppm)以下、CO 0.0006％(6ppm)以下、相対湿度40～70％、浮遊粉じん0.15mg/㎥以下。\n■誤りは「CO₂濃度1.0％以下」→正しくは0.1％以下。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa nguyên niên (2019) – Buổi sáng Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tốc độ luồng khí trong phòng phải ≤ 0.5 m/s.",
+            "Nồng độ CO₂ trong không khí phòng phải ≤ 1.0 %.",
+            "Độ ẩm tương đối trong không khí phòng phải từ 40% đến 70%.",
+            "Lượng bụi lơ lửng trong không khí phòng phải ≤ 0.15 mg/m³."
+          ],
+          "explanation_vi": "【Giải thích 01】\nGiải thích như sau.\nLựa chọn 1: Đúng như đề.\nLựa chọn 2: Sai. Ở phòng có thiết bị điều hòa không khí hoặc điều hòa cơ khí, nồng độ CO₂ trong không khí phòng phải ≤ 0.1 %.\nLựa chọn 3: Đúng như đề.\nLựa chọn 4: Đúng như đề.\n\n【Giải thích 02】\nBài về thông gió trong kỹ thuật môi trường.\nLựa chọn 1: Theo Nghị định thi hành Luật tiêu chuẩn xây dựng, tốc độ luồng khí phòng ≤ 0.5 m/s.\nLựa chọn 2: Không phù hợp. Theo Nghị định: ① CO ≤ 6ppm (0,0006%) ② CO₂ ≤ 1000ppm (0,1%). ※ Theo sửa đổi nghị định (hiệu lực 1/4/Reiwa 4), trị chuẩn hàm lượng CO đã thay đổi. Trước: 10ppm → Sau: 6ppm.\nLựa chọn 3: Độ ẩm cao thì khó chịu. Theo Nghị định, độ ẩm tương đối phải từ 40% đến 70%.\nLựa chọn 4: Theo Nghị định, bụi lơ lửng ≤ 0.15 mg/m³.\nTóm tắt: Thông gió cũng ra cả bài tính toán. Hãy ôn lại.\n\n【Giải thích 03】\nGiải thích như sau.\nLựa chọn 1: Đúng. Luồng khí trong phòng ≤ 0.5 m/giây.\nLựa chọn 2: Sai. Nồng độ CO₂ phải ≤ 0.1% (1000ppm). Ngoài ra, trị cho phép của CO là ≤ 0.0006% (6ppm).\nLựa chọn 3: Đúng. Độ ẩm tương đối trong phòng từ 40% đến 70%.\nLựa chọn 4: Đúng. Bụi lơ lửng trong phòng ≤ 0.15 mg/㎥.\nTóm tắt: Về CO, do sửa luật nên trị cho phép thấp đi, đây là bài hay ra. Nhớ chính xác các con số.",
+          "studyContent_vi": "■ Tiêu chuẩn môi trường trong phòng: luồng khí ≤ 0.5 m/s, CO₂ ≤ 0.1% (1000ppm), CO ≤ 0.0006% (6ppm), độ ẩm tương đối 40～70%, bụi lơ lửng ≤ 0.15mg/㎥.\n■ Mô tả sai là 'CO₂ ≤ 1.0%' → đúng phải ≤ 0.1%."
         },
         {
           "label": "Q8",
-          "question": "建築施工の品質を確保するための管理値に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和6年（2024年）午前 イ 問1】中央管理方式の空気調和設備を設けた建築物における居室の室内環境に関する一般的な記述として最も不適当なものはどれか。",
           "choices": [
-            "鉄骨工事において、スタッド溶接後のスタッドの傾きの許容差は、5°以内とした。",
-            "構造体コンクリートの部材の仕上がりにおいて、柱、梁、壁の断面寸法の許容差は、0〜＋20mmとした。",
-            "鉄骨梁の製品検査において、梁の長さの許容差は、±7mmとした。",
-            "コンクリート工事において、薄いビニル床シートの下地コンクリート面の仕上がりの平坦さは、3mにつき7mm以下とした。"
+            "室内空気中の一酸化炭素の濃度は、6ppm以下とする。",
+            "室内空気中の二酸化炭素の濃度は、1,000ppm以下とする。",
+            "室内空気の気流の速さは、1.5m／s以下とする。",
+            "室内空気の相対湿度は、40％以上70％以下とする。"
           ],
           "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n過去頻出の選択肢です。各種数値を覚えましょう。\n選択肢1. 〇 スタッド溶接後の傾き許容差は5°以内。施工後の打撃曲げ試験では15°以内、施工前打撃曲げ試験では30°以内です。\n選択肢2. 〇 柱、梁、壁の断面寸法の許容差は0〜＋20mm。マイナスになると断面欠損となります。\n選択肢3. × 鉄骨梁の製品検査において、梁の長さの管理許容差は±3mm、限界許容差は±5mmです。よって誤り。\n選択肢4. 〇 薄いビニル床シートの下地コンクリート面の平坦さは3mにつき7mm以下です。\n\n02\n数字メインですがキーワードを抑えて暗記しましょう。\n選択肢1. 〇\n選択肢2. 〇\n選択肢3. × 梁の長さの管理差±3mm、限界差±5mm。\n選択肢4. 〇\n\n03\n管理値は実務でも必要な知識です。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. 限界許容差でも±5mmまで。±7mmは不適当。\n選択肢4. 設問の通り。",
-          "studyContent": "まとめ\n数値を覚える問題が多いかと思いますが、頑張って覚えましょう。試験だけでなく、実務でも求められます。",
-          "question_vi": "Trong các mô tả sau về trị số quản lý chất lượng thi công xây dựng, đâu là mô tả KHÔNG phù hợp nhất?",
+          "explanation": "【解説01】\n～問題ポイント～\n・中央管理方式の空調設備\n→中央管理室で換気や冷暖房などをコントロールする設備のことです。\n※室内環境に有害なものを選択する問題です。\n選択肢1. 室内空気中の一酸化炭素の濃度は、6ppm以下とする。\n適当です。\n一酸化炭素：酸素が不足している状態で不完全燃焼を起こすと発生する物質です。\n※空気中に0.1％以上で死に当たります。\n2022年4月より：10ppm→10ppm→６ppmに改定〈100万分の ６ 以下（＝６ppm以下）〉\n選択肢2. 室内空気中の二酸化炭素の濃度は、1,000ppm以下とする。\n適当です。\n二酸化炭素：生物の呼吸、炭素の燃焼にて発生する物質です。\n100万分の1000以下（＝1000 ppm以下）\n選択肢3. 室内空気の気流の速さは、1.5m／s以下とする。\n不適当です。\n正解答：0.5m/秒以下\n気流の速さ： 室内での空気が流動する速さです。\n選択肢4. 室内空気の相対湿度は、40％以上70％以下とする。\n適当です。\n相対湿度：空気中に含まれる水蒸気の割合を表す指標です。\nまとめ\n空気環境の基準を設けることは、快適な空間を生み出す基準となります。似たような用語や数字が並びますが、物質が不適切な量の場合、どのような不具合や空間が出来上がるかどうかを理解して覚えていきましょう。\n\n【解説02】\n社会的にもシックハウス症候群等の問題が取り上げられるようになり、規定が変更されたりなど、過去問でも多く出題されています。正確に数字を覚えておきましょう。\n選択肢1. 室内空気中の一酸化炭素の濃度は、6ppm以下とする。\n正です。令和4年４月から建築物における基準が６ppm(0.0006％)になりました。ちなみに、ppmというのは、1㎥に１ｃ㎥の割合で存在する場合のことを表しています。\n選択肢2. 室内空気中の二酸化炭素の濃度は、1,000ppm以下とする。\n正です。二酸化炭素濃度は1000ppm(0.1％)以下とし、換気等をおこないます。二酸化炭素濃度は、室内汚染を判断する指針の一つであり、これを超えると、頭痛や倦怠感など人体に悪影響を及ぼします。\n選択肢3. 室内空気の気流の速さは、1.5m／s以下とする。\n誤です。気流は0.5ｍ/s以下です。それ以下でないと首筋に当たった際の不快感となるため、基準が定められています。\n選択肢4. 室内空気の相対湿度は、40％以上70％以下とする。\n正です。相対湿度とは、空気中に含まれる水蒸気の割合を表しています。\nまとめ\n過去にはppm表記ではなく、％表記での出題もあるため、ppm・％どちらでも対応できるようにしておきましょう。",
+          "studyContent": "■中央管理方式の室内環境基準（現行）：CO 6ppm以下、CO₂ 1000ppm以下、気流0.5m/s以下、相対湿度40～70％。\n■誤りは「気流1.5m/s以下」→正しくは0.5m/s以下。\n■COは令和4年4月に10ppm→6ppmに改定。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 6 (2024) – Buổi sáng phần イ Câu 1】Về môi trường trong phòng ở của công trình có thiết bị điều hòa không khí kiểu quản lý trung tâm, đâu là mô tả chung KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Trong thi công thép, dung sai độ nghiêng của đinh stud sau khi hàn là trong vòng 5°.",
-            "Trong hoàn thiện cấu kiện bê tông kết cấu, dung sai kích thước tiết diện cột/dầm/tường là 0~＋20mm.",
-            "Trong kiểm tra sản phẩm dầm thép, dung sai chiều dài dầm là ±7mm.",
-            "Trong thi công bê tông, độ phẳng mặt bê tông nền cho tấm sàn vinyl mỏng là ≤7mm trên 3m."
+            "Nồng độ carbon monoxide (CO) trong không khí phòng phải ≤ 6ppm.",
+            "Nồng độ carbon dioxide (CO₂) trong không khí phòng phải ≤ 1.000ppm.",
+            "Tốc độ luồng khí trong phòng phải ≤ 1.5m/s.",
+            "Độ ẩm tương đối trong không khí phòng phải từ 40% đến 70%."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 1. 〇 Đúng (≤5°; thí nghiệm uốn sau thi công ≤15°; trước thi công ≤30°).\nLựa chọn 2. 〇 Đúng (0~+20mm). Nếu âm sẽ bị thiếu tiết diện.\nLựa chọn 3. × Sai – dung sai quản lý chiều dài dầm thép là ±3mm, dung sai giới hạn là ±5mm. ±7mm vượt quá.\nLựa chọn 4. 〇 Đúng (≤7mm/3m).\n\n02\nLựa chọn 3 sai.\n\n03\nLựa chọn 1, 2, 4 đúng. Lựa chọn 3 sai – dung sai giới hạn cũng chỉ đến ±5mm.",
-          "studyContent_vi": "まとめ\nNhiều đề bài yêu cầu nhớ con số. Hãy cố gắng học thuộc – không chỉ cho kỳ thi mà cả thực tế công trường."
+          "explanation_vi": "【Giải thích 01】\n～Điểm mấu chốt～\n・ Thiết bị điều hòa kiểu quản lý trung tâm → thiết bị điều khiển thông gió, điều hòa từ phòng quản lý trung tâm. ※ Đây là bài chọn mô tả có hại/sai.\nLựa chọn 1: Đúng. CO phát sinh khi cháy không hoàn toàn trong trạng thái thiếu oxy. ※ Trong không khí ≥ 0.1% có thể gây tử vong. Từ 4/2022: đổi thành ≤ 6ppm (6 phần triệu).\nLựa chọn 2: Đúng. CO₂ sinh ra từ hô hấp sinh vật và đốt cháy carbon. ≤ 1000ppm.\nLựa chọn 3: KHÔNG phù hợp. Đáp án đúng: ≤ 0.5m/giây. Tốc độ luồng khí là tốc độ khí lưu động trong phòng.\nLựa chọn 4: Đúng. Độ ẩm tương đối là tỉ lệ hơi nước trong không khí.\nTóm tắt: Đặt tiêu chuẩn môi trường không khí là cơ sở tạo không gian dễ chịu. Các thuật ngữ/con số dễ nhầm, hãy hiểu rõ hậu quả khi vượt ngưỡng.\n\n【Giải thích 02】\nDo các vấn đề như hội chứng nhà kín (sick house) được quan tâm, quy định đã thay đổi và bài này hay ra. Hãy nhớ chính xác con số.\nLựa chọn 1: Đúng. Từ 4/Reiwa 4, tiêu chuẩn trong công trình thành 6ppm (0.0006%). ppm nghĩa là tỉ lệ 1cm³ trong 1m³.\nLựa chọn 2: Đúng. Nồng độ CO₂ ≤ 1000ppm (0.1%), cần thông gió. CO₂ là một chỉ số đánh giá ô nhiễm trong phòng; vượt ngưỡng gây đau đầu, mệt mỏi.\nLựa chọn 3: Sai. Luồng khí ≤ 0.5m/s. Nếu không, chạm vào gáy gây khó chịu nên có tiêu chuẩn.\nLựa chọn 4: Đúng. Độ ẩm tương đối là tỉ lệ hơi nước trong không khí.\nTóm tắt: Trước đây có bài dùng % thay vì ppm, nên hãy để ứng được cả ppm lẫn %.",
+          "studyContent_vi": "■ Tiêu chuẩn môi trường kiểu quản lý trung tâm (hiện hành): CO ≤ 6ppm, CO₂ ≤ 1000ppm, luồng khí ≤ 0.5m/s, độ ẩm tương đối 40～70%.\n■ Mô tả sai là 'luồng khí ≤ 1.5m/s' → đúng phải ≤ 0.5m/s.\n■ CO đã đổi từ 10ppm → 6ppm vào 4/Reiwa 4."
         }
       ]
     },
     {
-      "path": "1級建築施工管理技士 / 06_法規 / 労働安全衛生法",
-      "vocabulary": "労働安全衛生法 (ろうどうあんぜんえいせいほう) - Luật An toàn vệ sinh lao động\n届出 (とどけで) - đăng ký, khai báo\n労働基準監督署長 (ろうどうきじゅんかんとくしょちょう) - Trưởng ban Giám sát tiêu chuẩn lao động\n都道府県労働局長 - Cục trưởng Cục lao động cấp tỉnh/thành phố\n共同企業体 (きょうどうきぎょうたい) - liên danh nhà thầu (JV)\nつり上げ荷重 (つりあげかじゅう) - tải trọng nâng\nクレーン設置届 - đăng ký lắp cẩu\n石綿 (せきめん/いしわた) - amiăng\n吹付け (ふきつけ) - phun phủ",
+      "path": "1.2 建築環境工学 > 1.2.6 伝熱",
+      "vocabulary": "熱貫流率 / 熱貫流抵抗 / 熱伝達抵抗 / 熱伝導抵抗 / 熱放射 / 熱伝導率 / 容積比熱 / 中空層 / アルミ箔 / 総合熱伝達率",
       "questions": [
         {
-          "label": "Q9",
-          "question": "建築工事に係る届出に関する記述として、「労働安全衛生法」上、誤っているものはどれか。",
+          "label": "Q1",
+          "question": "【令和6年（2024年）午前 イ 問2】図に示すような鉄筋コンクリート壁の熱貫流率として、最も近い値はどれか。ただし、熱伝達率は、放射熱伝達率と対流熱伝達率を合わせたものとする。（※問題文に壁断面の図あり：室外側熱伝達抵抗0.043、鉄筋コンクリート壁熱伝導抵抗0.094、室内側熱伝達抵抗0.111 [m²・K/W]）",
           "choices": [
-            "高さが31mを超える建築物を建設する場合、その計画を当該仕事の開始の日の14日前までに、労働基準監督署長に届け出なければならない。",
-            "共同連帯として請け負う際の共同企業体代表者届を提出する場合、当該届出に係る仕事の開始の日の14日前までに、労働基準監督署長を経由して都道府県労働局長に届け出なければならない。",
-            "つり上げ荷重が3t以上であるクレーンの設置届を提出する場合、その計画を当該工事の開始の日の14日前までに、労働基準監督署長に届け出なければならない。",
-            "耐火建築物に吹き付けられた石綿を除去する場合、その計画を当該仕事の開始の日の14日前までに、労働基準監督署長に届け出なければならない。"
+            "0.3",
+            "1.3",
+            "4",
+            "33.6"
           ],
           "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n届け出先、提出期限を覚えましょう。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. つり上げ荷重が3t以上のクレーン設置届は、当該工事の開始の日の30日前までに、労働基準監督署長に届け出なければなりません。よって誤りです。\n選択肢4. 設問の通り。\n\n02\n誰にいつまでに提出するかを暗記すれば回答が絞れます。\n選択肢1. 〇 31m超は14日前まで労働基準監督署長へ。\n選択肢2. 〇 14日前まで、労働基準監督署長を経由して都道府県労働局長へ。\n選択肢3. × クレーン設置届は30日前まで。\n選択肢4. 〇 石綿除去は14日前まで労働基準監督署長へ。\n\n03\n日付と届け出先に注意。\n選択肢1. 設問の通り。\n選択肢2. 設問の通り。\n選択肢3. 誤り。30日前。\n選択肢4. 設問の通り。",
-          "studyContent": "まとめ\n14日前までに提出、労働基準監督署長に提出するものが多いので、それ以外のものを覚えるようにすると良いでしょう。",
-          "question_vi": "Trong các mô tả sau về việc đăng ký liên quan đến công trình xây dựng theo Luật An toàn vệ sinh lao động, đâu là mô tả SAI?",
+          "explanation": "【解説01】\nまず、熱貫流率＝1/熱貫流抵抗で求めることができます。\n熱貫流抵抗＝室外表面抵抗(1/室外熱伝達抵抗)＋壁内部熱抵抗(鉄筋コンクリート壁熱伝導抵抗)＋室内表面抵抗(1/室内熱伝達抵抗)であることから、0.043+0.094+0.111=0.248となり、熱貫流率は1/0.248=4.032…で、およそ4となります。\n選択肢1. 0.3\n誤です。計算は上記のとおりです。\n選択肢2. 1.3\n誤です。計算は上記のとおりです。\n選択肢3. 4\n正です。計算は上記のとおりです。\n選択肢4. 33.6\n誤です。計算は上記のとおりです。\nまとめ\nR６までになかった系統の問題です。今後出題されるかは分かりませんが、完答での出題のため、解けるようになればベストです。\n\n【解説02】\n熱貫流率を求める問題です。\n熱貫流率とは、壁などの固体表面と、空気等の流体との熱の伝わりにくさを表す熱伝達抵抗と、固体内部の熱の通りにくさを表す熱伝導抵抗の和である熱貫流抵抗の逆数を求めることによって得られます。\n設問では、室内側・屋内側の熱伝達抵抗、鉄筋コンクリート壁内部の熱伝達抵抗の値が与えられているので、その3つの和を求めます。\n図の左側より、熱貫流抵抗＝室内側熱伝達抵抗+鉄筋コンクリート壁熱伝導抵抗+室外側熱伝達抵抗＝0.111+0.094+0.043＝0.248 [m²・K/W]となり、逆数をとりたいので、熱貫流率＝1/0.248[m²・K/W]＝4.032・・・≈4 [W/m²・K]と求められます。\n選択肢1. 0.3\n誤です。計算は上記のものとなります。\n選択肢2. 1.3\n誤です。計算は上記のものとなります。\n選択肢3. 4\n正です。計算は上記のものとなります。\n選択肢4. 33.6\n誤です。計算は上記のものとなります。\nまとめ\n環境工学の分野での計算問題で、必須問題として出題されました。計算自体は難しいものではありませんが、求められている値の算出方法を間違えないようにしましょう。この分野での計算問題はあと数パターンあるので、復習の際に押さえておくようにしましょう。",
+          "studyContent": "■熱貫流率＝1／熱貫流抵抗 [W/m²・K]。\n■熱貫流抵抗＝室外側熱伝達抵抗＋壁の熱伝導抵抗＋室内側熱伝達抵抗（直列に足す）。\n■本問：0.043＋0.094＋0.111＝0.248 → 1／0.248≈4.03≈4。\n■各抵抗を足してから逆数を取る順序に注意。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 6 (2024) – Buổi sáng phần イ Câu 2】Hệ số truyền nhiệt tổng (熱貫流率) của tường bê tông cốt thép như hình vẽ, giá trị nào gần đúng nhất? Trong đó, hệ số truyền nhiệt bề mặt (熱伝達率) là tổng của hệ số truyền nhiệt bức xạ và hệ số truyền nhiệt đối lưu. (※Mặt cắt tường: trở kháng truyền nhiệt bề mặt ngoài 0.043, trở kháng dẫn nhiệt tường BTCT 0.094, trở kháng truyền nhiệt bề mặt trong 0.111 [m²・K/W])",
           "choices_vi": [
-            "Khi xây dựng công trình cao trên 31m, phải đăng ký kế hoạch lên Trưởng ban Giám sát tiêu chuẩn lao động chậm nhất 14 ngày trước ngày khởi công.",
-            "Khi nộp đăng ký người đại diện liên danh JV, phải nộp chậm nhất 14 ngày trước, qua Trưởng ban Giám sát tiêu chuẩn lao động, đến Cục trưởng Cục lao động tỉnh.",
-            "Khi nộp đăng ký lắp cẩu tải trọng nâng ≥ 3 tấn, phải đăng ký kế hoạch lên Trưởng ban Giám sát tiêu chuẩn lao động chậm nhất 14 ngày trước ngày khởi công.",
-            "Khi tháo dỡ amiăng phun phủ trong công trình chống cháy, phải đăng ký kế hoạch lên Trưởng ban Giám sát tiêu chuẩn lao động chậm nhất 14 ngày trước."
+            "0.3",
+            "1.3",
+            "4",
+            "33.6"
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 3. × Sai – đăng ký lắp cẩu ≥ 3 tấn phải nộp chậm nhất 30 NGÀY trước, không phải 14 ngày.\nCác lựa chọn còn lại đúng.\n\n02\nLựa chọn 1, 2, 4 đúng (14 ngày). Lựa chọn 3 sai – cẩu là 30 ngày.\n\n03\nLựa chọn 3 sai.",
-          "studyContent_vi": "まとめ\nĐa số là 14 ngày trước và nộp cho Trưởng ban Giám sát tiêu chuẩn lao động, nên hãy ghi nhớ các trường hợp NGOẠI LỆ (như cẩu = 30 ngày)."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 05_施工管理法 / 工程管理",
-      "vocabulary": "工程計画 (こうていけいかく) - kế hoạch tiến độ\n手順計画 (てじゅんけいかく) - kế hoạch trình tự\n日程計画 (にっていけいかく) - kế hoạch lịch ngày\n山崩し (やまくずし) - san bằng đỉnh (smoothing nhân lực/vật tư)\nクリティカルパス - đường găng\n地組 (じぐみ) - lắp ghép dưới đất (pre-assembly)\nピース数 (ぴーすすう) - số mảnh cấu kiện\nガスシールドアーク溶接 - hàn hồ quang khí bảo vệ\nタワークレーンのクライミング - thăng cẩu tháp\n鉄骨建方作業占有率 - tỷ lệ sử dụng cẩu cho công tác lắp dựng thép",
-      "questions": [
-        {
-          "label": "Q10",
-          "question": "工程計画に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "工程計画では、各作業の手順計画を立て、次に日程計画を決定した。",
-            "工程計画では、工事用機械が連続して作業を実施し得るように作業手順を定め、工事用機械の不稼働をできるだけ少なくした。",
-            "工期短縮を図るため、作業員、工事用機械、資機材等の供給量のピークが一定の量を超えないように山崩しを検討した。",
-            "工期短縮を図るため、クリティカルパス上の鉄骨建方において、部材を地組してユニット化し、建方のピース数を減らすよう検討した。"
-          ],
-          "answer": "3",
-          "explanation": "この過去問の解説 （3件）\n01\n工程計画の手順や山崩しの意味をよく理解しましょう。\n選択肢1. 〇 工程計画では各作業の手順計画を立て、次に日程計画を決定します。\n選択肢2. 〇 工事用機械が連続して作業できるよう作業手順を定め、機械の不稼働を少なくします。\n選択肢3. × 山崩しは、人員・機材・資材の量を考慮して労働者の投入人数などをなるべく一定にし、バランスの取れた経済的な工程計画にするために行います。工期短縮に用いる手法ではありません。\n選択肢4. 〇 工期短縮のためクリティカルパス上の鉄骨建方では、部材を地組してユニット化しピース数を減らします。\n\n02\n工程計画の必要事項を覚えましょう。\n選択肢1. 〇\n選択肢2. 〇 工事用機械の作業がクリティカルパスになる場合が多く、リース費用も発生するため不稼働を避けます。\n選択肢3. × 工期短縮では作業員・機械・資機材を投入する必要があります。山崩しは作業効率を上げコストを下げる目的で行い、結果として工期は伸びることが多いです。\n選択肢4. 〇 揚重機の能力により1日あたり揚重ピース数が決まり、それがクリティカルになります。揚重機能力を上げる・台数を増やすことでも工程短縮になります。\n\n03\n工程計画は現場施工管理にも重要です。\n選択肢1. 〇\n選択肢2. 〇\n選択肢3. × 工期短縮を図るためには経済性を重視して山崩しを検討します。山崩し自体は工期短縮の手法ではありません。\n選択肢4. 〇",
-          "studyContent": "まとめ\n工期に余裕がある場合、ピークの山崩しを行うことが重要です。",
-          "question_vi": "Trong các mô tả sau về kế hoạch tiến độ, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Trong kế hoạch tiến độ, đã lập kế hoạch trình tự của các công tác trước, sau đó mới quyết định kế hoạch lịch ngày.",
-            "Trong kế hoạch tiến độ, đã sắp xếp trình tự sao cho máy thi công làm việc liên tục, giảm tối đa thời gian máy không hoạt động.",
-            "Để rút ngắn tiến độ, đã xem xét \"san bằng đỉnh\" (yamakuzushi) để mức cao điểm của nhân lực/máy/vật tư không vượt một mức nhất định.",
-            "Để rút ngắn tiến độ, đã xem xét việc tiền lắp (pre-assembly) các bộ phận thép trên đường găng để giảm số mảnh cẩu lắp."
-          ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 3. × Sai – \"san bằng đỉnh\" KHÔNG phải kỹ thuật rút ngắn tiến độ. Nó dùng để cân đối nhân lực/máy/vật tư, làm kế hoạch kinh tế và cân bằng; tiến độ thường KÉO DÀI ra.\nCác lựa chọn còn lại đúng.\n\n02\nLựa chọn 3 sai – rút ngắn tiến độ cần INVEST thêm nhân lực/máy/vật tư. San bằng đỉnh thường kéo dài tiến độ.\n\n03\nLựa chọn 3 sai.",
-          "studyContent_vi": "まとめ\nKhi tiến độ có dư địa, việc san bằng đỉnh (loại bỏ peak) là quan trọng."
+          "explanation_vi": "【Giải thích 01】\nTrước hết, Hệ số truyền nhiệt tổng = 1 / Trở kháng truyền nhiệt tổng.\nTrở kháng truyền nhiệt tổng = trở kháng bề mặt ngoài (1/hệ số truyền nhiệt ngoài) + trở kháng bên trong tường (trở kháng dẫn nhiệt tường BTCT) + trở kháng bề mặt trong (1/hệ số truyền nhiệt trong), nên 0.043+0.094+0.111=0.248, và hệ số truyền nhiệt tổng = 1/0.248 = 4.032… ≈ 4.\nLựa chọn 1. 0.3: Sai. Tính như trên.\nLựa chọn 2. 1.3: Sai. Tính như trên.\nLựa chọn 3. 4: Đúng. Tính như trên.\nLựa chọn 4. 33.6: Sai. Tính như trên.\nTóm tắt: Đây là dạng bài chưa từng có đến trước R6. Không rõ sau này có ra nữa không, nhưng vì là dạng phải làm trọn vẹn nên giải được sẽ là tốt nhất.\n\n【Giải thích 02】\nBài tìm hệ số truyền nhiệt tổng.\nHệ số truyền nhiệt tổng có được bằng cách lấy nghịch đảo của trở kháng truyền nhiệt tổng — vốn là tổng của trở kháng truyền nhiệt bề mặt (biểu thị mức khó truyền nhiệt giữa bề mặt vật rắn như tường và lưu chất như không khí) và trở kháng dẫn nhiệt (biểu thị mức khó dẫn nhiệt bên trong vật rắn).\nĐề cho trở kháng truyền nhiệt phía trong/ngoài và trở kháng bên trong tường BTCT, nên lấy tổng 3 giá trị đó.\nTừ hình bên trái: Trở kháng truyền nhiệt tổng = trở kháng bề mặt trong + trở kháng dẫn nhiệt tường BTCT + trở kháng bề mặt ngoài = 0.111+0.094+0.043 = 0.248 [m²・K/W]; lấy nghịch đảo: hệ số truyền nhiệt tổng = 1/0.248 = 4.032… ≈ 4 [W/m²・K].\nLựa chọn 1. 0.3: Sai. Tính như trên.\nLựa chọn 2. 1.3: Sai. Tính như trên.\nLựa chọn 3. 4: Đúng. Tính như trên.\nLựa chọn 4. 33.6: Sai. Tính như trên.\nTóm tắt: Là bài tính toán trong lĩnh vực kỹ thuật môi trường, ra dưới dạng câu bắt buộc. Phép tính không khó nhưng đừng nhầm cách tính giá trị cần tìm. Lĩnh vực này còn vài dạng tính toán nữa, hãy nắm chắc khi ôn.",
+          "studyContent_vi": "■ Hệ số truyền nhiệt tổng = 1／Trở kháng truyền nhiệt tổng [W/m²・K].\n■ Trở kháng truyền nhiệt tổng = trở kháng bề mặt ngoài + trở kháng dẫn nhiệt của tường + trở kháng bề mặt trong (cộng nối tiếp).\n■ Bài này: 0.043＋0.094＋0.111＝0.248 → 1／0.248≈4.03≈4.\n■ Chú ý thứ tự: cộng các trở kháng trước rồi mới lấy nghịch đảo."
         },
         {
-          "label": "Q11",
-          "question": "一般的な事務所ビルの鉄骨工事において、所要工期算出のために用いる各作業の能率に関する記述として、最も不適当なものはどれか。",
+          "label": "Q2",
+          "question": "【令和4年（2022年）午前 イ 問2】伝熱に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "鉄骨のガスシールドアーク溶接による現場溶接の作業能率は、1人1日当たり6mm換算溶接長さで80mとして計画した。",
-            "タワークレーンのクライミングに要する日数は、1回当たり1.5日として計画した。",
-            "建方用機械の鉄骨建方作業占有率は、60％として計画した。",
-            "トルシア形高力ボルトの締付け作業能率は、1人1日当たり300本として計画した。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （3件）\n01\n数字をよく覚えましょう。\n選択肢1. 〇 ガスシールドアーク溶接の現場溶接は1人1日6mm換算溶接長さで80m。\n選択肢2. 〇 タワークレーンのクライミングは1回1.5日。\n選択肢3. 〇 建方用機械の鉄骨建方作業占有率は60％。\n選択肢4. × トルシア形高力ボルトの締付け作業能率は、1人1日150～200本。ビルで450～700本、工場で400～600本（3人1組作業）。\n\n02\n過去頻出の選択肢です。\n選択肢1. 〇\n選択肢2. 〇\n選択肢3. 〇\n選択肢4. × トルシア形高力ボルトは1人1日150～200本。\n\n03\n所要工期算出は数値暗記が必要です。毎年出題されます。\n選択肢1. 〇 6mm換算で80m。\n選択肢2. 〇 1.5日/回。\n選択肢3. 〇 60％。\n選択肢4. × 150～200本/人日。300本は多すぎ。",
-          "studyContent": "まとめ\n所要工期を算出する分野に関しては、同じ工種でも、工事をする時と場合や場所によって工期が変わったりします。気を付けて覚えるようにしましょう。",
-          "question_vi": "Trong các mô tả sau về năng suất các công tác dùng để tính thời gian cần thiết trong thi công thép một tòa nhà văn phòng thông thường, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Năng suất hàn hồ quang khí bảo vệ (GSAW) tại hiện trường được lập kế hoạch là 80m/người/ngày (quy đổi đường hàn 6mm).",
-            "Số ngày cần để cẩu tháp thăng (climbing) được lập kế hoạch là 1,5 ngày/lần.",
-            "Tỷ lệ chiếm dụng máy lắp dựng cho thao tác lắp thép được lập kế hoạch là 60%.",
-            "Năng suất xiết bu lông cường độ cao kiểu torque-shear được lập kế hoạch là 300 bu lông/người/ngày."
-          ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 4. × Sai – năng suất xiết bu lông torque-shear là 150~200 bu lông/người/ngày. Theo tòa nhà 450~700/ngày, theo nhà xưởng 400~600/ngày (3 người/tổ).\nLựa chọn 1, 2, 3 đúng.\n\n02\nLựa chọn 4 sai – 150~200 bu lông/người/ngày.\n\n03\nLựa chọn 4 sai (300 quá nhiều).",
-          "studyContent_vi": "まとめ\nNgay cùng một loại công tác, thời gian thi công cũng thay đổi theo điều kiện, vị trí. Hãy ghi nhớ cẩn thận."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 05_施工管理法 / 工程管理 / ネットワーク工程表",
-      "vocabulary": "ネットワーク工程表 - sơ đồ tiến độ mạng\n最早開始時刻 EST (さいそうかいしじこく) - thời điểm bắt đầu sớm nhất\n最早終了時刻 EFT - thời điểm kết thúc sớm nhất\n最遅開始時刻 LST - thời điểm bắt đầu trễ nhất\n最遅終了時刻 LFT - thời điểm kết thúc trễ nhất\nトータルフロート TF - tổng thời gian dự trữ\nフリーフロート FF - thời gian dự trữ tự do\n後続作業 (こうぞくさぎょう) - công tác kế tiếp\n作業日数 D - số ngày làm việc",
-      "questions": [
-        {
-          "label": "Q12",
-          "question": "ネットワーク工程表に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "一つの作業の最早終了時刻（EFT）は、その作業の最早開始時刻（EST）に作業日数（D）を加えて得られる。",
-            "一つの作業の最遅開始時刻（LST）は、その作業の最遅終了時刻（LFT）から作業日数（D）を減じて得られる。",
-            "一つの作業でトータルフロート（TF）が0である場合、その作業ではフリーフロート（FF）は0になる。",
-            "一つの作業でフリーフロート（FF）を使い切ってしまうと、後続作業のトータルフロート（TF）に影響を及ぼす。"
-          ],
-          "answer": "4",
-          "explanation": "この過去問の解説 （3件）\n01\nネットワーク工程表は一度自分で書いてみると簡単に覚えられます。2次試験のネットワーク工程表問題を1度解くことを強くお勧めします。\n選択肢1. 〇 EFT = EST + D。\n選択肢2. 〇 LST = LFT − D。\n選択肢3. 〇 TF=0ならばFF=0。\n選択肢4. × フリーフロートは他作業に全く影響しない余裕日数のことです。フリーフロートを使い切った後さらに日数を使ってしまうと、後続作業に影響します。\n\n02\nネットワーク工程表は毎年出題、2次試験にも出ます。\n選択肢1. 〇 EFTは最早開始時刻＋作業日数。\n選択肢2. 〇 LSTは最遅終了時刻－作業日数。\n選択肢3. 〇 TF=0ならば余裕がないのでFF=0。\n選択肢4. × フリーフロートは使い切っても後続作業に影響を及ぼしません。\n\n03\nネットワーク工程表は実際に書いて理解しましょう。\n選択肢1. 〇\n選択肢2. 〇\n選択肢3. 〇\n選択肢4. × トータルフロートは最早開始時刻に影響を及ぼすフロート。フリーフロート＝後続作業の最早開始時刻－当該作業の最早終了時刻。",
-          "studyContent": "まとめ\nこの問題に関しては、ややこしい部分も多かったかもしれませんが、用語の定義がわかっていれば簡単に解けたはずです。しっかりと押さえておきましょう。",
-          "question_vi": "Trong các mô tả sau về sơ đồ tiến độ mạng, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Thời điểm kết thúc sớm nhất (EFT) của một công tác = thời điểm bắt đầu sớm nhất (EST) + số ngày làm việc (D).",
-            "Thời điểm bắt đầu trễ nhất (LST) của một công tác = thời điểm kết thúc trễ nhất (LFT) − số ngày làm việc (D).",
-            "Khi tổng thời gian dự trữ (TF) của một công tác bằng 0, thì thời gian dự trữ tự do (FF) của công tác đó cũng bằng 0.",
-            "Khi dùng hết thời gian dự trữ tự do (FF) của một công tác, sẽ ảnh hưởng tới tổng thời gian dự trữ (TF) của công tác kế tiếp."
-          ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 4. × Sai – FF là thời gian dự trữ không ảnh hưởng đến công tác khác. Chỉ khi VƯỢT QUÁ FF thì mới ảnh hưởng tới công tác kế tiếp.\nCác lựa chọn còn lại đúng.\n\n02\nLựa chọn 4 sai – sử dụng hết FF không ảnh hưởng tới công tác kế tiếp.\n\n03\nLựa chọn 4 sai. TF mới là loại ảnh hưởng tới EST. FF = EST(kế tiếp) − EFT(hiện tại).",
-          "studyContent_vi": "まとめ\nNếu hiểu định nghĩa các thuật ngữ, đề này dễ giải. Hãy nắm vững khái niệm."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 05_施工管理法 / 品質管理 / QC7つ道具",
-      "vocabulary": "ヒストグラム - histogram (biểu đồ tần suất)\n散布図 (さんぷず) - biểu đồ phân tán\nパレート図 - biểu đồ Pareto\n系統図 (けいとうず) - biểu đồ cây/hệ thống\n管理図 (かんりず) - biểu đồ kiểm soát\n累積和 (るいせきわ) - tổng lũy kế\n相関関係 (そうかんかんけい) - quan hệ tương quan\n度数分布 (どすうぶんぷ) - phân bố tần số",
-      "questions": [
-        {
-          "label": "Q13",
-          "question": "品質管理に用いる図表に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "ヒストグラムは、観測値若しくは統計量を時間順又はサンプル番号順に表し、工程が管理状態にあるかどうかを評価するために用いられる。",
-            "散布図は、対応する2つの特性を横軸と縦軸にとり、観測値を打点して作るグラフ表示で、主に2つの変数間の相関関係を調べるために用いられる。",
-            "パレート図は、項目別に層別して、出現度数の大きさの順に並べるとともに、累積和を示した図である。",
-            "系統図は、設定した目的や目標と、それを達成するための手段を系統的に展開した図である。"
-          ],
-          "answer": "1",
-          "explanation": "この過去問の解説 （3件）\n01\n各種図表の特徴を覚えましょう。\n選択肢1. × ヒストグラムは、データを階級や範囲ごとに分類し、それぞれの階級における測定値などのデータを棒状のグラフに表したものです。よって誤り。観測値・統計量を時間順又はサンプル番号順に表し、工程が管理状態にあるかを評価する図表は「管理図」です。\n選択肢2. 〇 散布図は対応する2つの特性を横軸と縦軸にとり、観測値を打点して作るグラフで、2変数間の相関関係を調べます。\n選択肢3. 〇 パレート図は項目別に層別し、出現度数の大きさ順に並べ累積和を示した図です。\n選択肢4. 〇 系統図は目的・目標と、それを達成するための手段を系統的に展開した図です。\n\n02\nヒストグラムをよく理解しましょう。\n選択肢1. × 設問の内容は管理図の説明。ヒストグラムは度数分布表や柱状図とも呼ばれ、データのバラつきを調べる際に用います。\n選択肢2. 〇\n選択肢3. 〇\n選択肢4. 〇\n\n03\n図表のイメージをしっかり持ちましょう。\n選択肢1. × 設問は管理図の説明。ヒストグラムはデータの分布状況を分析するものです。\n選択肢2. 〇 散布図は点グラフ。\n選択肢3. 〇 パレート図は棒グラフ＋折れ線グラフの複合。\n選択肢4. 〇 系統図はQC分野でよく使われます。",
-          "studyContent": "まとめ\nこの問題に関しては、実際に図表のイラストなどを見て、イメージを付けることが重要になります。ただ単純に問題を解くのではなく、実際に調べてみましょう。",
-          "question_vi": "Trong các mô tả sau về biểu đồ dùng trong quản lý chất lượng, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Biểu đồ histogram thể hiện các giá trị quan sát hoặc thống kê theo thứ tự thời gian/số mẫu, dùng để đánh giá xem quá trình có ở trạng thái kiểm soát hay không.",
-            "Biểu đồ phân tán lấy 2 đặc trưng tương ứng làm trục hoành và trục tung, chấm các giá trị quan sát; chủ yếu dùng khảo sát quan hệ tương quan giữa 2 biến.",
-            "Biểu đồ Pareto phân tầng theo mục, sắp theo thứ tự độ lớn tần suất xuất hiện và thể hiện tổng lũy kế.",
-            "Biểu đồ cây (hệ thống) triển khai có hệ thống mục đích/mục tiêu đã đặt ra và các phương tiện để đạt được."
-          ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 1. × Sai – mô tả ấy là của BIỂU ĐỒ KIỂM SOÁT (管理図). Histogram là biểu đồ phân bố tần số, thể hiện độ phân tán của dữ liệu dưới dạng cột.\nLựa chọn 2, 3, 4 đúng.\n\n02\nLựa chọn 1 sai – đó là mô tả của 管理図. Histogram dùng để xem độ bất đồng nhất của dữ liệu.\n\n03\nLựa chọn 1 sai. 管理図 dùng đồ thị đường gấp khúc.",
-          "studyContent_vi": "まとめ\nQuan trọng là tự xem hình minh họa thực tế để hình dung, không chỉ giải đề suông."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 05_施工管理法 / 品質管理 / 検査",
-      "vocabulary": "中間検査 (ちゅうかんけんさ) - kiểm tra trung gian\n完成検査 (かんせいけんさ) - kiểm tra hoàn thành\n無試験検査 (むしけんけんさ) - kiểm tra không thử nghiệm\n購入検査 (こうにゅうけんさ) - kiểm tra mua hàng\n抜取検査 (ぬきとりけんさ) - kiểm tra lấy mẫu\nロット - lô hàng\nサンプル - mẫu",
-      "questions": [
-        {
-          "label": "Q14",
-          "question": "品質管理における検査に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "中間検査は、製品として完成したものが要求事項を満足しているかどうかを判定する場合に適用する。",
-            "無試験検査は、サンプルの試験を行わず、品質情報、技術情報等に基づいてロットの合格、不合格を判定する。",
-            "購入検査は、提出された検査ロットを、購入してよいかどうかを判定するために行う検査で、品物を外部から受け入れる場合に適用する。",
-            "抜取検査は、ロットからあらかじめ定められた検査の方式に従ってサンプルを抜き取って試験し、その結果に基づいて、そのロットの合格、不合格を判定する。"
-          ],
-          "answer": "1",
-          "explanation": "この過去問の解説 （3件）\n01\n検査の種類、内容を覚えましょう。\n選択肢1. × 中間検査は、製作途中のものが要求事項を満足しているかどうかを判定する場合に適用します。よって誤り。中間検査を行うことで、不良なロットが次工程に渡らないように事前に取り除き損害を少なくします。製品として完成したものが要求事項を満足しているかどうかを判定する検査は「完成検査」です。\n選択肢2. 〇 無試験検査はサンプルの試験を行わず、品質情報・技術情報等に基づいてロットの合否を判定。\n選択肢3. 〇 購入検査は外部から品物を受け入れる場合に適用。\n選択肢4. 〇 抜取検査はロットから定められた方式でサンプルを抜き取り試験し、ロットの合否を判定。\n\n02\n中間検査は頻出。\n選択肢1. × 設問は完了検査のこと。製作途中に行うのが中間検査。\n選択肢2. 〇\n選択肢3. 〇\n選択肢4. 〇 抜き打ち検査のようなもの。\n\n03\n中間検査について覚えましょう。\n選択肢1. × 中間検査は不良ロットが次工程に渡らないように事前に取り除き損害を少なくするためのもの。\n選択肢2. 〇\n選択肢3. 〇\n選択肢4. 〇",
-          "studyContent": "まとめ\n検査関係の問題は、イメージがしづらい分野です。ですが、今回の問題に関しては、用語の意味が分かっていれば簡単に解ける筈です。",
-          "question_vi": "Trong các mô tả sau về kiểm tra trong quản lý chất lượng, đâu là mô tả KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kiểm tra trung gian được áp dụng để đánh giá sản phẩm đã hoàn thành có đáp ứng yêu cầu hay không.",
-            "Kiểm tra không thử nghiệm không tiến hành thử nghiệm mẫu, mà dựa vào thông tin chất lượng/kỹ thuật để đánh giá đạt/không đạt của lô hàng.",
-            "Kiểm tra mua hàng được thực hiện để đánh giá có nên mua lô kiểm tra được nộp lên hay không – áp dụng khi nhận hàng từ bên ngoài.",
-            "Kiểm tra lấy mẫu rút mẫu từ lô theo phương thức đã định trước rồi thử nghiệm, dựa vào kết quả để đánh giá đạt/không đạt của lô."
-          ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 1. × Sai – đó là mô tả của 完成検査 (kiểm tra HOÀN THÀNH). 中間検査 (trung gian) áp dụng cho sản phẩm ĐANG SẢN XUẤT, nhằm loại bỏ lô lỗi sớm.\nLựa chọn 2, 3, 4 đúng.\n\n02\nLựa chọn 1 sai – mô tả của 完成検査. 中間検査 là kiểm tra trong quá trình chế tạo.\n\n03\nLựa chọn 1 sai.",
-          "studyContent_vi": "まとめ\nĐề về kiểm tra hơi khó hình dung, nhưng nếu hiểu định nghĩa thuật ngữ thì câu này không khó."
-        }
-      ]
-    },
-    {
-      "path": "1級建築施工管理技士 / 05_施工管理法 / 安全管理 / 災害防止",
-      "vocabulary": "公衆災害 (こうしゅうさいがい) - tai nạn cho công chúng\n敷地境界線 (しきちきょうかいせん) - ranh giới đất\nダストシュート - máng đổ rác\n防護棚 (ぼうごだな) - mái che bảo vệ (\"asagao\")\n外部足場 (がいぶあしば) - giàn giáo ngoài\nはね出し長さ (はねだしながさ) - chiều dài nhô ra\n仮囲い (かりがこい) - hàng rào tạm\n歩車道分離道路 - đường phân tách bộ-xe\n道路占用 (どうろせんよう) - chiếm dụng đường",
-      "questions": [
-        {
-          "label": "Q15",
-          "question": "市街地の建築工事における公衆災害防止対策に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "敷地境界線からの水平距離が5mで、地盤面からの高さが3mの場所からごみを投下する際、飛散を防止するためにダストシュートを設けた。",
-            "防護棚は、外部足場の外側からのはね出し長さを水平距離で2mとし、水平面となす角度を15°とした。",
-            "工事現場周囲の道路に傾斜があったため、高さ3mの鋼板製仮囲いの下端は、隙間を土台コンクリートで塞いだ。",
-            "歩車道分離道路において、幅員3.6mの歩道に仮囲いを設置するため、道路占用の幅は、路端から1mとした。"
+            "熱放射は、電磁波による熱の移動現象で、真空中においても生じる。",
+            "壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。",
+            "壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。",
+            "物質の単位体積当たりの熱容量を、容積比熱という。"
           ],
           "answer": "2",
-          "explanation": "この過去問の解説 （3件）\n01\nキーワードと数字をよく覚えるのがポイントです。\n選択肢1. 〇 敷地境界線からの水平距離5m、地盤面から高さ3mの場所からごみを投下する際は、飛散防止のためダストシュートを設けます。\n選択肢2. × 防護棚は、外部足場の外側からのはね出し長さを水平距離で2m以上突き出させ、水平面となす角度を20°以上としなければなりません。\n選択肢3. 〇 道路に傾斜がある場合、高さ3mの鋼板製仮囲いの下端は隙間を土台コンクリートで塞ぎます。\n選択肢4. 〇 幅員3.6mの歩道に仮囲いを設置する場合、道路占用の幅は路端から1mとします。\n\n02\n過去頻出の選択肢です。\n選択肢1. 〇\n選択肢2. × 防護棚は水平距離2m以上、水平面と20°以上。角度が小さいと、上から落ちた物が跳ねて外に落ちる恐れがあるためです。\n選択肢3. 〇\n選択肢4. 〇 道路占用許可基準（昭和52年告示第60号）第1通則一(2)に基づき、歩道有効幅員の2/3以上又は1.5m以上の余地を確保する必要があるが、公共・公益目的かつ交通上特に支障がない場合は1.0m以上の余地で足りる。\n\n03\n公衆災害は絶対避けねばなりません。\n選択肢1. 〇\n選択肢2. × 防護棚は「朝顔」とも呼ばれ、水平面となす角度は20°以上としなければなりません。\n選択肢3. 〇 隙間を埋めることは歩行者の足挟み防止のため重要。\n選択肢4. 〇",
-          "studyContent": "まとめ\n本問題の防護棚の設問に関しては、足場の分野でも出題される分野になります。得点源にするべき問題といえますので、必ず押さえておきましょう。",
-          "question_vi": "Trong các mô tả sau về biện pháp phòng tránh tai nạn công chúng trong công trình xây dựng tại khu đô thị, đâu là mô tả KHÔNG phù hợp nhất?",
+          "explanation": "【解説01】\n「熱」に関する問題と「音」に関する問題は毎年どちらかが出題される傾向にあります。\n熱については、伝熱（熱の伝わり方）や熱量、建物の断熱性能について把握しておきましょう。\n伝達と伝導など紛らわしい言葉も整理しておくと良いでしょう。\nなお、出題率は「熱」に対して「音」が２倍のペースです。\n選択肢1. 熱放射は、電磁波による熱の移動現象で、真空中においても生じる。\n【〇】\n熱の伝わり方（＝伝熱）には伝導、対流、放射（輻射）の３パターンがあります。\nこのうち、熱放射（輻射）は電磁波による伝熱です。\n身近なケースでは太陽熱があります。\n太陽熱が地球に届くことを考えれば、真空中でも熱放射（輻射）が生じていることが分かります。\n選択肢2. 壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。\n【×】\n熱伝導は物質内部を熱エネルギーが伝わる現象を指します。\n伝わり方（伝わる速さ）は物質により異なり、その伝わりやすさを熱伝導率で表します。\n熱伝導率は数値が大きいほど熱が伝わりやすく、個体＞液体＞気体の順となります。\n壁体の含湿率が増加すると熱伝導率はどうなるか？\n空気（気体）のかわりに水分（液体）が増える＝熱伝導率は大きくなる。\n液体は気体より熱伝導率が大きいことが理由です。\n（参考）ガラスに中空層を挾み込んだペアガラスは断熱・遮熱に優れています。\n選択肢3. 壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。\n【〇】\n壁体の断面をイメージすると理解しやすいです。\n夏場の外気は室内より高温です。\n外気の熱が外壁面に伝わり（熱伝達）→壁の中を伝わり（熱伝導）→内壁面から室内へ伝わります（熱伝達）。\nこの流れが熱貫流です。通り抜けているから貫流です。\n抵抗は伝わりにくさですから、全体の伝わりにくさは個々の伝わりにくさの合計となります。\n電流の直列回路と同じイメージです。\n『熱貫流抵抗＝熱伝達抵抗＋熱伝導抵抗』で表します。\n熱貫流率は熱貫流抵抗の逆数（＝１／熱貫流抵抗）ですから、\n熱貫流率＝１／（熱伝達抵抗＋熱伝導抵抗）となります。和の逆数です。\n選択肢4. 物質の単位体積当たりの熱容量を、容積比熱という。\n【〇】\n・比熱は物質１ｇを１℃上昇させるのに必要な熱量です。\n単位質量当たりですから、通常の比熱は質量比熱を指します。\n比熱（質量比熱）は単位質量当りの熱容量です。\n・容積比熱は単位容積（体積）当たりの比熱ですから、単位体積当たりの熱容量です。\n（参考）容積比熱＝比熱✖密度です。通常の比熱は質量比熱とも言えます。\n壁材の断熱性能を表す用語として使われています。\nまとめ\n覚える用語が多くて混乱しますが、生活上の身近なケースに置き換えて考えると良いでしょう。\n熱問題は躰体の断熱に関する問題と捉えておきましょう。\n\n【解説02】\n解説は下記の通りです。\n選択肢1. 熱放射は、電磁波による熱の移動現象で、真空中においても生じる。\n正です。選択肢の通り、熱放射は、電磁波による熱の移動現象で、真空中においても生じます。\n例として太陽熱があり、真空を通って地球まで太陽の放射熱が伝わっています。\n選択肢2. 壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。\n誤です。水の熱伝導率は空気よりも大きいため、壁体の含湿率が増加すると、その壁体の熱伝導率は大きくなります。\n選択肢3. 壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。\n正です。壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率といいます。\n熱伝達抵抗と熱伝導抵抗の和＝熱貫流抵抗であり、熱貫流抵抗は壁体の熱の通しにくさを表します。\n値が大きいほど熱が伝わりにくいということになります。\n選択肢4. 物質の単位体積当たりの熱容量を、容積比熱という。\n正です。容積比熱とは、物質の容積(体積)１㎥の温度を1℃上げるのに必要な熱量のことです。\n比熱：ある物質の質量１kgの温度を1℃上げるのに必要な熱量のことです。",
+          "studyContent": "■伝熱の3形態：伝導・対流・放射（輻射）。放射は電磁波によるため真空中でも生じる。\n■熱伝導率：個体＞液体＞気体。含湿率が増える（空気→水）と熱伝導率は「大きく」なる。※設問2が誤り。\n■熱貫流率＝1／（熱伝達抵抗＋熱伝導抵抗）（＝熱貫流抵抗の逆数）。\n■容積比熱＝比熱×密度、単位体積当たりの熱容量。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 4 (2022) – Buổi sáng phần イ Câu 2】Về truyền nhiệt, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Khi đổ rác từ vị trí cách ranh đất 5m theo phương ngang và cao 3m so với mặt đất, đã đặt máng đổ rác (dust chute) để chống rơi vãi.",
-            "Mái che bảo vệ (防護棚 – \"asagao\") được thiết kế với chiều dài nhô ngang là 2m và góc với mặt phẳng ngang là 15°.",
-            "Vì đường xung quanh công trình có độ dốc, phần dưới hàng rào tạm bằng tôn cao 3m được lấp kín bằng bê tông móng đế.",
-            "Tại đường phân tách bộ-xe, để đặt hàng rào tạm trên vỉa hè rộng 3,6m, đã chiếm dụng đường với chiều rộng 1m tính từ mép đường."
+            "Bức xạ nhiệt là hiện tượng truyền nhiệt bằng sóng điện từ, xảy ra ngay cả trong chân không.",
+            "Khi tỉ lệ ngậm ẩm (độ ẩm chứa) của tường tăng thì hệ số dẫn nhiệt của tường đó nhỏ đi.",
+            "Nghịch đảo của tổng trở kháng truyền nhiệt bề mặt và trở kháng dẫn nhiệt của tường được gọi là hệ số truyền nhiệt tổng (熱貫流率).",
+            "Nhiệt dung trên một đơn vị thể tích của vật chất được gọi là nhiệt dung thể tích (容積比熱)."
           ],
-          "explanation_vi": "この過去問の解説 （3件）\n01\nLựa chọn 2. × Sai – mái che bảo vệ phải nhô ra ≥ 2m và GÓC VỚI MẶT NGANG PHẢI ≥ 20° (không phải 15°). Nếu góc nhỏ, vật rơi xuống mái sẽ nảy ra ngoài.\nLựa chọn 1, 3, 4 đúng.\n\n02\nLựa chọn 2 sai – góc ≥ 20°.\nLựa chọn 4: theo Tiêu chuẩn chiếm dụng đường (告示số 60 năm Showa 52), tại vỉa hè cần đảm bảo dư địa ≥ 2/3 chiều rộng hữu hiệu hoặc ≥ 1,5m, nhưng nếu vì mục đích công cộng/lợi ích chung và không gây trở ngại giao thông thì chỉ cần dư địa ≥ 1,0m. Trường hợp này có thể chiếm dụng đến 1,2m.\n\n03\nLựa chọn 2 sai – góc phải ≥ 20°. Mái che này còn gọi là \"asagao\".\nLựa chọn 3: lấp kín khe hở rất quan trọng để tránh người đi bộ bị kẹp chân.",
-          "studyContent_vi": "まとめ\nĐề về mái che bảo vệ (asagao) cũng xuất hiện ở lĩnh vực giàn giáo. Đây là câu nên ăn điểm chắc – hãy ghi nhớ kỹ."
+          "explanation_vi": "【Giải thích 01】\nBài về 'nhiệt' và bài về 'âm' hằng năm thường ra một trong hai.\nVề nhiệt, hãy nắm: truyền nhiệt (cách nhiệt lan truyền), nhiệt lượng, hiệu năng cách nhiệt của công trình. Nên phân biệt rõ các từ dễ nhầm như 'truyền nhiệt bề mặt (伝達)' và 'dẫn nhiệt (伝導)'. Ngoài ra, tần suất ra đề 'âm' gấp đôi 'nhiệt'.\nLựa chọn 1: 【Đúng】Truyền nhiệt có 3 kiểu: dẫn nhiệt, đối lưu, bức xạ. Bức xạ là truyền nhiệt bằng sóng điện từ; ví dụ gần gũi là nhiệt mặt trời. Mặt trời truyền nhiệt đến Trái đất → chứng tỏ bức xạ xảy ra cả trong chân không.\nLựa chọn 2: 【×】Dẫn nhiệt là hiện tượng năng lượng nhiệt truyền bên trong vật chất; tốc độ tùy vật chất, biểu thị bằng hệ số dẫn nhiệt. Hệ số càng lớn nhiệt càng dễ truyền; theo thứ tự rắn > lỏng > khí. Khi tường ngậm ẩm: thay vì không khí (khí) thì nước (lỏng) tăng → hệ số dẫn nhiệt LỚN hơn. (Vì lỏng dẫn nhiệt tốt hơn khí.) (Tham khảo) kính hộp có lớp rỗng ở giữa cách nhiệt/chắn nhiệt tốt.\nLựa chọn 3: 【Đúng】Hình dung mặt cắt tường sẽ dễ hiểu. Khí nóng bên ngoài (mùa hè) → truyền vào mặt tường ngoài (truyền nhiệt bề mặt) → dẫn qua tường (dẫn nhiệt) → từ mặt trong vào phòng (truyền nhiệt bề mặt). Đó là truyền nhiệt xuyên (熱貫流). Trở kháng là mức khó truyền, nên tổng trở kháng = tổng các trở kháng (như mạch điện nối tiếp). 'Trở kháng truyền nhiệt xuyên = trở kháng truyền nhiệt bề mặt + trở kháng dẫn nhiệt'. Hệ số truyền nhiệt tổng = nghịch đảo của trở kháng đó = 1/(trở kháng truyền nhiệt bề mặt + trở kháng dẫn nhiệt). Là nghịch đảo của tổng.\nLựa chọn 4: 【Đúng】Nhiệt dung riêng (比熱) là nhiệt lượng cần để tăng 1g vật chất lên 1℃, tính trên đơn vị khối lượng. Nhiệt dung thể tích là nhiệt dung trên đơn vị thể tích, tức nhiệt dung trên một đơn vị thể tích. (Tham khảo) Nhiệt dung thể tích = nhiệt dung riêng × mật độ.\nTóm tắt: Nhiều thuật ngữ dễ rối, hãy liên hệ với ví dụ đời thường. Xem bài nhiệt là bài về cách nhiệt của kết cấu.\n\n【Giải thích 02】\nGiải thích như sau.\nLựa chọn 1: Đúng. Đúng như mô tả, bức xạ nhiệt là truyền nhiệt bằng sóng điện từ, xảy ra cả trong chân không. Ví dụ: nhiệt mặt trời truyền qua chân không đến Trái đất.\nLựa chọn 2: Sai. Hệ số dẫn nhiệt của nước lớn hơn không khí, nên khi tường ngậm ẩm tăng thì hệ số dẫn nhiệt LỚN hơn.\nLựa chọn 3: Đúng. Nghịch đảo của tổng trở kháng truyền nhiệt bề mặt và trở kháng dẫn nhiệt gọi là hệ số truyền nhiệt tổng. Tổng đó = trở kháng truyền nhiệt xuyên, biểu thị mức khó cho nhiệt đi qua; giá trị càng lớn nhiệt càng khó truyền.\nLựa chọn 4: Đúng. Nhiệt dung thể tích là nhiệt lượng cần để tăng 1℃ cho 1m³ thể tích vật chất. Nhiệt dung riêng: nhiệt lượng cần để tăng 1℃ cho 1kg khối lượng vật chất.",
+          "studyContent_vi": "■ 3 dạng truyền nhiệt: dẫn nhiệt, đối lưu, bức xạ. Bức xạ bằng sóng điện từ nên xảy ra cả trong chân không.\n■ Hệ số dẫn nhiệt: rắn > lỏng > khí. Tường ngậm ẩm tăng (khí→nước) → hệ số dẫn nhiệt 'LỚN' hơn. ※ Lựa chọn 2 sai.\n■ Hệ số truyền nhiệt tổng = 1／(trở kháng truyền nhiệt bề mặt + trở kháng dẫn nhiệt).\n■ Nhiệt dung thể tích = nhiệt dung riêng × mật độ, là nhiệt dung trên đơn vị thể tích."
+        },
+        {
+          "label": "Q3",
+          "question": "【令和元年（2019年）午前 問2】伝熱に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "壁体内の中空層の片面にアルミ箔を貼り付けると、壁体全体の熱抵抗は大きくなる。",
+            "熱放射は、電磁波による熱移動現象であり、真空中でも生じる。",
+            "壁体内にある密閉された中空層の熱抵抗は、中空層の厚さに比例する。",
+            "総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいう。"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n正解は３です。\n１：設問の通りです。\n壁体内の中空層にアルミ箔を貼り付けると、壁体の熱貫流率が減少し、断熱性が高まります。\n２：設問の通りです。\n熱放射とは、エネルギーが空間を通過して他の物体に熱として伝わる現象で、真空中においても生じます。\n３：誤りです。\n壁体内の中空層の熱抵抗は、中空層の厚さが 20 〜 30 mm を超えると、厚さに関係なくほぼ一定となります。\n４：設問の通りです。\n\n【解説02】\n環境工学の伝熱についての出題です。\n熱移動のプロセスには伝導・対流・放射の３つがあります。\n選択肢1. 壁体内の中空層の片面にアルミ箔を貼り付けると、壁体全体の熱抵抗は大きくなる。\n壁体内の中空層の片面にアルミ箔を貼り付けると、放射による伝熱が減少し、壁体全体の熱抵抗は大きくなります。\n選択肢2. 熱放射は、電磁波による熱移動現象であり、真空中でも生じる。\n設問の通り、太陽の熱が真空中の大気圏を通過して、地球に伝わるように、熱放射は、電磁波による熱移動現象であり、真空中でも生じます。\n選択肢3. 壁体内にある密閉された中空層の熱抵抗は、中空層の厚さに比例する。\nこちらが正解です。\n空気層の熱抵抗は、２～３ｃｍ程度までは厚いほど増加するが、それを超えると、対流による伝熱が大きくなります。\n選択肢4. 総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいう。\n設問の通り、総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいいます。\nまとめ\n建築において伝熱は断熱効果を考慮する際に必要です。どのような仕組みが断熱効果が高いか考えてみましょう。\n\n【解説03】\n解説は下記の通りです。\n選択肢1. 壁体内の中空層の片面にアルミ箔を貼り付けると、壁体全体の熱抵抗は大きくなる。\n正です。アルミ箔を張ることで断熱性が高まり、壁体全体の熱抵抗は大きくなります。\nこれは、中空層での熱の伝達は放射と対流によって起こっており、放射による熱の伝達を抑えることができるためです。\n選択肢2. 熱放射は、電磁波による熱移動現象であり、真空中でも生じる。\n正です。熱放射は電磁波によって熱が移動する現象のため、真空中でもほかの物体に熱を伝えることができます。\n選択肢3. 壁体内にある密閉された中空層の熱抵抗は、中空層の厚さに比例する。\n誤です。\n2～3cmまでは熱抵抗が増加しますが、それ以上になるとほとんど変化しません。\n選択肢4. 総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいう。\n正です。熱伝達には対流熱伝達率と放射熱伝達率があり、合計したものを総合熱伝達率といいます。",
+          "studyContent": "■密閉中空層の熱抵抗：厚さが2～3cm（20～30mm）までは厚いほど増加するが、それを超えると対流が大きくなりほぼ一定→「厚さに比例」は誤り。\n■中空層にアルミ箔：放射伝熱を抑え、熱抵抗が大きくなる（断熱向上）。\n■熱放射：電磁波によるため真空中でも生じる。\n■総合熱伝達率＝対流熱伝達率＋放射熱伝達率。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa nguyên (2019) – Buổi sáng Câu 2】Về truyền nhiệt, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Dán lá nhôm vào một mặt của lớp rỗng bên trong tường thì trở kháng nhiệt của toàn tường tăng lên.",
+            "Bức xạ nhiệt là hiện tượng truyền nhiệt bằng sóng điện từ, xảy ra cả trong chân không.",
+            "Trở kháng nhiệt của lớp rỗng kín bên trong tường tỉ lệ thuận với độ dày của lớp rỗng.",
+            "Hệ số truyền nhiệt bề mặt tổng hợp là tổng của hệ số truyền nhiệt đối lưu và hệ số truyền nhiệt bức xạ."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án đúng là 3.\n1: Đúng như đề. Dán lá nhôm vào lớp rỗng trong tường làm hệ số truyền nhiệt giảm, tính cách nhiệt tăng.\n2: Đúng như đề. Bức xạ nhiệt là hiện tượng năng lượng đi qua không gian truyền nhiệt sang vật khác, xảy ra cả trong chân không.\n3: Sai. Trở kháng nhiệt của lớp rỗng trong tường, khi độ dày lớp rỗng vượt 20～30mm thì gần như không đổi bất kể độ dày.\n4: Đúng như đề.\n\n【Giải thích 02】\nBài ra về truyền nhiệt trong kỹ thuật môi trường. Quá trình truyền nhiệt có 3 kiểu: dẫn nhiệt, đối lưu, bức xạ.\nLựa chọn 1: Dán lá nhôm vào một mặt lớp rỗng → giảm truyền nhiệt bằng bức xạ, trở kháng nhiệt toàn tường tăng.\nLựa chọn 2: Đúng. Như nhiệt mặt trời qua khí quyển chân không đến Trái đất, bức xạ xảy ra cả trong chân không.\nLựa chọn 3: Đây là đáp án đúng (mô tả sai). Trở kháng lớp không khí tăng theo độ dày đến khoảng 2～3cm, nhưng vượt qua thì truyền nhiệt đối lưu tăng lên.\nLựa chọn 4: Đúng. Hệ số truyền nhiệt bề mặt tổng hợp là tổng của hệ số truyền nhiệt đối lưu và bức xạ.\nTóm tắt: Trong xây dựng, truyền nhiệt cần thiết khi xét hiệu quả cách nhiệt. Hãy suy nghĩ cơ chế nào cho hiệu quả cách nhiệt cao.\n\n【Giải thích 03】\nGiải thích như sau.\nLựa chọn 1: Đúng. Dán lá nhôm làm tăng tính cách nhiệt, trở kháng nhiệt toàn tường tăng. Vì truyền nhiệt ở lớp rỗng xảy ra do bức xạ và đối lưu, việc ngăn bức xạ giúp giảm truyền nhiệt.\nLựa chọn 2: Đúng. Bức xạ nhiệt là hiện tượng nhiệt di chuyển bằng sóng điện từ nên truyền được nhiệt sang vật khác cả trong chân không.\nLựa chọn 3: Sai. Đến 2～3cm thì trở kháng nhiệt tăng, nhưng trên mức đó gần như không đổi.\nLựa chọn 4: Đúng. Truyền nhiệt bề mặt gồm hệ số đối lưu và bức xạ, tổng lại gọi là hệ số truyền nhiệt bề mặt tổng hợp.",
+          "studyContent_vi": "■ Trở kháng nhiệt của lớp rỗng kín: tăng theo độ dày đến 2～3cm (20～30mm), vượt qua thì đối lưu tăng và gần như không đổi → 'tỉ lệ thuận với độ dày' là sai.\n■ Dán lá nhôm vào lớp rỗng: chặn truyền nhiệt bức xạ, trở kháng nhiệt tăng (cách nhiệt tốt hơn).\n■ Bức xạ nhiệt: bằng sóng điện từ nên xảy ra cả trong chân không.\n■ Hệ số truyền nhiệt bề mặt tổng hợp = hệ số đối lưu + hệ số bức xạ."
         }
       ]
     }
-  ]
+  ],
+  "_template_rules": {
+    "version": "2.1",
+    "path_rules": { "must_use_predefined_path": true, "allow_custom_path": false },
+    "question_rules": { "extract_full_problem_section": true, "keep_original_format": true, "preserve_question_order": true },
+    "choice_rules": { "min_choices": 4, "max_choices": 5, "preserve_choice_order": true },
+    "answer_rules": { "type": "string", "allowed_values": ["1", "2", "3", "4", "5"] },
+    "explanation_rules": { "extract_full_section": true, "section_title": "この過去問の解説", "keep_all_items": true, "keep_item_01": true, "keep_item_02": true, "keep_item_03": true, "keep_item_04": true, "keep_item_05": true, "no_summary_allowed": true },
+    "summary_rules": { "extract_full_section": true, "section_title": "まとめ", "no_summary_allowed": true },
+    "table_rules": { "extract_tables": true, "preserve_original_table": true, "translate_table": true },
+    "image_rules": { "extract_images": true, "keep_image_url": true, "keep_caption": true },
+    "translation_rules": { "translate_question": true, "translate_choices": true, "translate_explanation": true, "translate_summary": true, "translate_tables": true },
+    "format_rules": { "remove_extra_blank_lines": true, "max_consecutive_newlines": 1, "trim_spaces_each_line": true, "normalize_unicode": true, "remove_duplicate_spaces": true, "auto_fix_line_breaks": true }
+  }
 }
