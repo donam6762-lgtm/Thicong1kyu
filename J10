@@ -1,368 +1,832 @@
 {
   "topics": [
     {
-      "path": "1.4 建築構造 > 1.4.1 構造力学（荷重・応力・梁・ラーメン）",
-      "vocabulary": "曲げモーメント図 / ラーメン架構 / 3ヒンジラーメン / 反力（水平反力・鉛直反力）/ 座屈荷重・オイラー座屈 / 断面二次モーメント / 断面係数 / 許容曲げモーメント / 等分布荷重・集中荷重・等変分布荷重 / 単純梁・片持ち梁 / ピン・ローラー・固定端 / 積載荷重・固定荷重・積雪荷重・風圧力",
+      "path": "1.4.2 RC構造",
+      "vocabulary": "せん断補強筋, 帯筋, あばら筋, 耐震壁, せん断補強筋比, 主筋, 梁貫通孔, クリープ, じん性, 軸方向圧縮応力度, 構造計画",
       "questions": [
         {
-          "label": "R7 No.5",
-          "question": "図に示すラーメン架構に集中荷重Pが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "3",
-          "explanation": "正解は3。このラーメン架構は左柱と梁が一体（剛接）で、右柱は回転を許すピン支持。荷重Pを受けると左柱と梁の接合部に大きな曲げモーメントが生じる。①柱脚と梁端の両方に大きなモーメントがあるが、右柱はピンなのでモーメントは生じず誤り。②左柱下部に曲げがなく梁だけにモーメントがあるが、剛接のため柱にもモーメントが生じ誤り。③正解。④左右両方の柱に大きなモーメントがあるが、右柱はピンで負担しないため誤り。",
-          "studyContent": "ポイントはラーメン架構の端部条件。左柱は剛接→モーメント大、右柱はピン→モーメントゼロ。したがって左柱上端が最大モーメント、右端ゼロとなる形が正しい曲げモーメント図。出典: https://kenchikusekou1.kakomonn.com/questions/86710",
+          "label": "R7 No.10",
+          "question": "鉄筋コンクリート構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "柱のせん断補強筋の間隔は、柱の上下端から柱の最大径の1.5倍又は最小径の2倍のいずれか大きいほうの範囲内を100mm以下とする。",
+            "耐震壁とする壁板のせん断補強筋比は、直交する各方向に関して、それぞれ0.15％以上とする。",
+            "梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1／3以下とする。",
+            "床スラブのたわみの最大値は、使用上の支障が起こらないことを計算で確かめる必要がある場合、クリープを考慮してスパンの1／250以下とする。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。耐震壁の壁板のせん断補強筋比は直交する各方向それぞれ0.25％以上が正しく、0.15％では不足する。\n選択肢1：柱の上下端の所定範囲内は帯筋間隔100mm以下で正しい。\n選択肢3：梁貫通孔は端部を避け、孔径は梁せいの1/3以下で正しい。\n選択肢4：床スラブのたわみはクリープを考慮しスパンの1/250以下で正しい。",
+          "studyContent": "RC部材の最低限守る管理値（下限値）を正確に覚えるのがポイント。特に耐震壁は地震時の負担が大きいため、壁板のせん断補強筋比（0.25％以上）が少なすぎないか疑うと判断しやすい。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen như hình vẽ, khi tác dụng tải tập trung P, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men uốn về phía thớ chịu kéo của cấu kiện.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là 3. Khung này có cột trái và dầm liên kết cứng (ngàm), cột phải là gối tựa khớp (cho phép xoay). Khi chịu tải P, mô-men uốn lớn phát sinh tại nút liên kết giữa cột trái và dầm. ① có mô-men lớn ở cả chân cột và đầu dầm nhưng cột phải là khớp nên không có mô-men → sai. ② chân cột trái không có uốn, chỉ dầm có mô-men, nhưng do liên kết cứng nên cột cũng phải có mô-men → sai. ③ đúng. ④ cả hai cột đều có mô-men lớn nhưng cột phải là khớp không chịu mô-men → sai.",
-          "studyContent_vi": "Điểm mấu chốt là điều kiện đầu mút của khung. Cột trái liên kết cứng → mô-men lớn; cột phải khớp → mô-men bằng 0. Do đó biểu đồ đúng có mô-men lớn nhất ở đỉnh cột trái và bằng 0 ở đầu phải."
+          "question_vi": "Phát biểu nào sau đây về kết cấu bê tông cốt thép (RC) là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Khoảng cách cốt đai chịu cắt của cột, trong phạm vi lớn hơn giữa 1,5 lần đường kính lớn nhất hoặc 2 lần đường kính nhỏ nhất tính từ đầu trên/dưới cột, lấy không quá 100mm.",
+            "Tỷ lệ cốt đai chịu cắt của tấm vách dùng làm vách chịu lực động đất lấy từ 0,15% trở lên theo mỗi phương vuông góc.",
+            "Lỗ xuyên dầm cần tránh bố trí ở đầu dầm, đường kính lỗ lấy không quá 1/3 chiều cao dầm.",
+            "Giá trị độ võng lớn nhất của bản sàn, khi cần kiểm tra bằng tính toán để không gây trở ngại sử dụng, có xét từ biến thì lấy không quá 1/250 nhịp."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Tỷ lệ cốt đai chịu cắt của tấm vách chịu lực động đất đúng phải từ 0,25% trở lên theo mỗi phương vuông góc; 0,15% là không đủ.\nLựa chọn 1: Đúng – trong phạm vi quy định ở đầu cột, khoảng cách cốt đai ≤ 100mm.\nLựa chọn 3: Đúng – lỗ xuyên dầm tránh đầu dầm, đường kính ≤ 1/3 chiều cao dầm.\nLựa chọn 4: Đúng – độ võng bản sàn có xét từ biến ≤ 1/250 nhịp.",
+          "studyContent_vi": "Điểm mấu chốt là ghi nhớ chính xác các giá trị quản lý tối thiểu (giới hạn dưới) của cấu kiện RC. Đặc biệt vách chịu lực động đất chịu tải trọng lớn khi động đất, nên hãy nghi ngờ xem tỷ lệ cốt đai chịu cắt của tấm vách (≥ 0,25%) có bị đặt quá nhỏ hay không."
         },
         {
-          "label": "R7 No.11",
-          "question": "図に示す山形ラーメン架構のCD間に等分布荷重wが作用したとき、支点Aに生じる鉛直反力VA及び水平反力HAと、支点Bに生じる鉛直反力VB及び水平反力HBの値として、正しいものはどれか。ただし、反力は右向き及び上向きを「＋」、左向き及び下向きを「－」とする。",
-          "choices": ["HA＝－6kN", "HB＝－3kN", "VA＝＋1kN", "VB＝＋8kN"],
-          "answer": "",
-          "explanation": "（この過去問の解説は出典サイトに未掲載のため、正解・解説は確定できません。）",
-          "studyContent": "出典: https://kenchikusekou1.kakomonn.com/questions/86716",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Trong khung Rahmen dạng mái dốc như hình, khi tải phân bố đều w tác dụng trên đoạn CD, giá trị phản lực đứng VA và phản lực ngang HA tại gối A, phản lực đứng VB và phản lực ngang HB tại gối B nào là đúng? Quy ước phản lực hướng phải và lên trên là «＋», hướng trái và xuống dưới là «－».",
-          "choices_vi": ["HA＝－6kN", "HB＝－3kN", "VA＝＋1kN", "VB＝＋8kN"],
-          "explanation_vi": "(Trang nguồn chưa có lời giải nên chưa thể xác định đáp án và lời giải.)",
-          "studyContent_vi": ""
-        },
-        {
-          "label": "R7 No.12",
-          "question": "図に示す断面及び材端条件の長柱A，B及びCが中心圧縮力を受けるときの座屈荷重の大きさの大小関係を示すものとして正しいものはどれか。ただし、柱の材質は同一のものとする。",
-          "choices": ["C＜A＝B", "A＝B＜C", "B＜A＝C", "A＝C＜B"],
-          "answer": "3",
-          "explanation": "正解は「B＜A＝C」。座屈荷重はオイラーの式 P＝π²EI／(KL)² で比較する。Eは同一なのでIとKLだけ見る。断面二次モーメント：A（a×a）I_A＝a⁴/12、B（a×2a・弱軸）I_B＝2I_A、C（2a×2a）I_C＝16I_A。有効長さ：固定-固定（A,B）K＝0.5、ピン-ピン（C）K＝1.0。よってA：KL＝0.5l、B：KL＝l、C：KL＝2l。P∝I/(KL)²で計算すると、P_A＝4I_A/l²、P_B＝2I_A/l²、P_C＝4I_A/l²。したがってP_Bが最小、P_AとP_Cは等しく「B＜A＝C」。",
-          "studyContent": "座屈荷重は断面二次モーメントIが大きいほど大きく、有効長さKLが長いほど小さい。弱軸のIで決まる点と端部条件（固定-固定K=0.5、ピン-ピンK=1.0）に注意。出典: https://kenchikusekou1.kakomonn.com/questions/86717",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Cột dài A, B, C có tiết diện và điều kiện đầu mút như hình, khi chịu lực nén đúng tâm thì quan hệ lớn nhỏ của tải trọng tới hạn (lực tới hạn ổn định) nào là đúng? Vật liệu các cột giống nhau.",
-          "choices_vi": ["C＜A＝B", "A＝B＜C", "B＜A＝C", "A＝C＜B"],
-          "explanation_vi": "Đáp án đúng là «B＜A＝C». So sánh bằng công thức Euler P＝π²EI／(KL)². Vì E giống nhau nên chỉ xét I và KL. Mô-men quán tính: A (a×a) I_A＝a⁴/12; B (a×2a, trục yếu) I_B＝2I_A; C (2a×2a) I_C＝16I_A. Chiều dài hiệu dụng: ngàm-ngàm (A,B) K＝0.5; khớp-khớp (C) K＝1.0. Do đó A: KL＝0.5l, B: KL＝l, C: KL＝2l. Tính P∝I/(KL)²: P_A＝4I_A/l², P_B＝2I_A/l², P_C＝4I_A/l². Vậy P_B nhỏ nhất, P_A＝P_C → «B＜A＝C».",
-          "studyContent_vi": "Tải tới hạn càng lớn khi I càng lớn và càng nhỏ khi chiều dài hiệu dụng KL càng dài. Lưu ý ổn định quyết định bởi I của trục yếu và điều kiện đầu mút (ngàm-ngàm K=0.5, khớp-khớp K=1.0)."
-        },
-        {
-          "label": "R6 No.5",
-          "question": "図に示す3ヒンジラーメン架構の点Cに集中荷重P₁及びP₂が作用したとき、支点Bに生じる水平反力HBの値の大きさとして、正しいものはどれか。",
-          "choices": ["HB＝0kN", "HB＝2kN", "HB＝4kN", "HB＝6kN"],
-          "answer": "3",
-          "explanation": "正解はHB＝4kN。支点A・Bともピン接合なのでX・Y両方向のつり合いを考える。ΣX：HA＋HB＝4kN…①、ΣY：VA＋VB＝3kN…②。A点まわりのモーメントつり合いより 4×4－8VB＝0 → VB＝2kN、②よりVA＝1kN。次にC点のヒンジで切断し右側で考えると、HA・4＝0 → HA＝0kN、①よりHB＝4kN。",
-          "studyContent": "3ヒンジラーメンはヒンジでモーメントが0になる性質と、支点が2点ともピンであることを利用。反力を仮定し、全体のつり合い＋ヒンジで切断したモーメントつり合いで解く。出典: https://kenchikusekou1.kakomonn.com/questions/77545",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải tập trung P₁ và P₂ tác dụng tại điểm C, độ lớn phản lực ngang HB tại gối B nào là đúng?",
-          "choices_vi": ["HB＝0kN", "HB＝2kN", "HB＝4kN", "HB＝6kN"],
-          "explanation_vi": "Đáp án đúng là HB＝4kN. Cả hai gối A, B đều là khớp nên xét cân bằng cả phương X và Y. ΣX: HA＋HB＝4kN…①; ΣY: VA＋VB＝3kN…②. Lấy mô-men quanh A: 4×4－8VB＝0 → VB＝2kN, từ ② VA＝1kN. Cắt tại khớp C, xét phần bên phải: HA·4＝0 → HA＝0kN, từ ① HB＝4kN.",
-          "studyContent_vi": "Khung 3 khớp tận dụng tính chất mô-men bằng 0 tại khớp và việc cả hai gối là khớp. Giả định phản lực, dùng cân bằng tổng thể cộng với cân bằng mô-men khi cắt tại khớp để giải."
-        },
-        {
-          "label": "R6 No.11",
-          "question": "表に示す角形鋼管柱の座屈荷重の値として、正しいものはどれか。ただし、図に示すとおり、支点は両端固定とし水平移動は拘束されているものとする。",
-          "choices": ["600πkN", "600π²kN", "2,400πkN", "2,400π²kN"],
+          "label": "R6 No.3",
+          "question": "鉄筋コンクリート構造に関する一般的な記述として、最も不適当なものはどれか。",
+          "choices": [
+            "柱の主筋はD13以上の異形鉄筋を4本以上とし、その断面積の和は柱のコンクリート全断面積の0.8％以上とする。",
+            "柱のせん断補強筋は直径9mm以上の丸鋼又はD10以上の異形鉄筋とし、せん断補強筋比は0.2％以上とする。",
+            "梁のせん断補強筋の間隔は、梁せいの1／2以下、かつ、250mm以下とする。",
+            "梁に孔径が梁せいの1／3の円形の貫通孔を2個設ける場合、その中心間隔は両孔径の平均値の2倍以上とする。"
+          ],
           "answer": "4",
-          "explanation": "正解は2,400π²kN。座屈荷重＝π²×ヤング係数×断面二次モーメント／座屈長さ²。両端固定で水平移動拘束のため座屈長さは部材長の0.5倍（10m→5m＝5,000mm）。π²×(2.0×10⁵ N/mm²)×(3.0×10⁸ mm⁴)／(5,000mm)²＝2,400π²kN。",
-          "studyContent": "座屈荷重の公式 P＝π²EI／(KL)² を覚え、端部条件で座屈長さ係数（両端固定K＝0.5）を決め、単位換算に注意すれば得点源にできる。出典: https://kenchikusekou1.kakomonn.com/questions/77551",
+          "explanation": "最も不適当なのは選択肢4。梁に貫通孔を2個設ける場合、中心間隔は両孔径の平均値の3倍以上が必要で、2倍では不足する。\n選択肢1：柱主筋はD13以上を4本以上、断面積の和はコンクリート全断面積の0.8％以上で正しい。\n選択肢2：せん断補強筋比0.2％以上で正しい。\n選択肢3：梁のせん断補強筋間隔は梁せいの1/2以下かつ250mm以下で正しい。",
+          "studyContent": "梁貫通スリーブに関する問題は頻出。孔径は梁せいの1/3以下、中心間隔は両孔径平均の3倍以上という数値を正確に覚える。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Giá trị tải trọng tới hạn ổn định của cột ống thép vuông cho trong bảng nào là đúng? Như hình, hai đầu cột ngàm và chuyển vị ngang bị khống chế.",
-          "choices_vi": ["600πkN", "600π²kN", "2.400πkN", "2.400π²kN"],
-          "explanation_vi": "Đáp án đúng là 2.400π²kN. Tải tới hạn ＝ π²×mô-đun đàn hồi×mô-men quán tính／chiều dài ổn định². Do hai đầu ngàm và khống chế chuyển vị ngang nên chiều dài ổn định ＝0,5 lần chiều dài cấu kiện (10m→5m＝5.000mm). π²×(2,0×10⁵ N/mm²)×(3,0×10⁸ mm⁴)／(5.000mm)²＝2.400π²kN.",
-          "studyContent_vi": "Ghi nhớ công thức P＝π²EI／(KL)², xác định hệ số chiều dài ổn định theo điều kiện đầu mút (hai đầu ngàm K＝0,5) và chú ý đổi đơn vị thì đây là câu dễ ăn điểm."
+          "question_vi": "Phát biểu chung nào sau đây về kết cấu bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Cốt thép chủ của cột dùng thép gân D13 trở lên, từ 4 thanh trở lên, tổng diện tích tiết diện lấy từ 0,8% diện tích toàn tiết diện bê tông cột trở lên.",
+            "Cốt đai chịu cắt của cột dùng thép tròn trơn đường kính 9mm trở lên hoặc thép gân D10 trở lên, tỷ lệ cốt đai chịu cắt từ 0,2% trở lên.",
+            "Khoảng cách cốt đai chịu cắt của dầm lấy không quá 1/2 chiều cao dầm và không quá 250mm.",
+            "Khi bố trí 2 lỗ xuyên tròn có đường kính bằng 1/3 chiều cao dầm trên dầm, khoảng cách tâm giữa chúng lấy từ 2 lần trị trung bình hai đường kính lỗ trở lên."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Khi bố trí 2 lỗ xuyên trên dầm, khoảng cách tâm phải từ 3 lần trị trung bình hai đường kính lỗ trở lên; 2 lần là không đủ.\nLựa chọn 1: Đúng – cốt chủ cột D13 trở lên, ≥4 thanh, tổng diện tích ≥0,8% tiết diện bê tông.\nLựa chọn 2: Đúng – tỷ lệ cốt đai chịu cắt ≥0,2%.\nLựa chọn 3: Đúng – khoảng cách cốt đai dầm ≤1/2 chiều cao dầm và ≤250mm.",
+          "studyContent_vi": "Câu hỏi về ống xuyên dầm rất hay gặp. Ghi nhớ chính xác: đường kính lỗ ≤1/3 chiều cao dầm, khoảng cách tâm ≥3 lần trị trung bình hai đường kính."
         },
         {
-          "label": "R6 No.12",
-          "question": "図に示す梁のAB間及びAC間に等分布荷重wが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "1",
-          "explanation": "正解は①。等分布荷重を集中荷重に置換すると、C-B間中央に4kN/m×6m＝24kNが作用。反力をVA、VBとするとVA＋VB＝24。A点まわりで24×1－VB×4＝0 → VB＝6kN、VA＝18kN。AC間は片持ち梁の等分布荷重で曲線（2次曲線）となる。形状より①が正しい。",
-          "studyContent": "力が作用する位置・大きさ・向きを整理し、等分布荷重区間は曲線、集中荷重区間は直線になることを押さえる。出典: https://kenchikusekou1.kakomonn.com/questions/77552",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Khi tải phân bố đều w tác dụng trên đoạn AB và AC của dầm như hình, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ①. Thay tải phân bố đều bằng tải tập trung: ở giữa đoạn C-B có 4kN/m×6m＝24kN. Gọi phản lực VA, VB thì VA＋VB＝24. Lấy mô-men quanh A: 24×1－VB×4＝0 → VB＝6kN, VA＝18kN. Đoạn AC là dầm công-xon chịu tải phân bố đều nên biểu đồ là đường cong (parabol bậc 2). Theo hình dạng, ① đúng.",
-          "studyContent_vi": "Sắp xếp vị trí, độ lớn và hướng của lực; nắm rằng đoạn có tải phân bố đều cho đường cong, đoạn có tải tập trung cho đường thẳng."
-        },
-        {
-          "label": "R5 No.8",
-          "question": "図に示す柱ABの図心Gに鉛直荷重Pと水平荷重Qが作用したとき、底部における引張縁応力度の値の大きさとして、正しいものはどれか。ただし、柱の自重は考慮しないものとする。",
-          "choices": ["3N/mm²", "7N/mm²", "10N/mm²", "13N/mm²"],
-          "answer": "2",
-          "explanation": "正解は7N/mm²。鉛直荷重Pによる軸応力と水平荷重Qによる曲げ応力を重ね合わせる。軸応力 σ＝P/A＝180,000/(300×200)＝3N/mm²。曲げ：M＝Q×2,000mm、断面係数Z＝bh²/6＝3,000,000、σ＝M/Z＝10N/mm²。引張縁応力度は曲げ応力10から軸圧縮3を差し引いて 10－3＝7N/mm²。",
-          "studyContent": "引張縁応力度は曲げ応力（M/Z）と軸応力（P/A）の重ね合わせ。引張側では曲げ応力から圧縮の軸応力を引く。ひっかけ（10N/mm²や13N/mm²）に注意。出典: https://kenchikusekou1.kakomonn.com/questions/71586",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Khi tải đứng P và tải ngang Q tác dụng vào trọng tâm G của cột AB như hình, độ lớn ứng suất tại thớ chịu kéo ở chân cột nào là đúng? Bỏ qua trọng lượng bản thân cột.",
-          "choices_vi": ["3N/mm²", "7N/mm²", "10N/mm²", "13N/mm²"],
-          "explanation_vi": "Đáp án đúng là 7N/mm². Chồng chất ứng suất dọc trục do P và ứng suất uốn do Q. Ứng suất dọc trục σ＝P/A＝180.000/(300×200)＝3N/mm². Uốn: M＝Q×2.000mm, mô-đun chống uốn Z＝bh²/6＝3.000.000, σ＝M/Z＝10N/mm². Ứng suất thớ kéo ＝ ứng suất uốn 10 trừ nén dọc trục 3 ＝ 10－3＝7N/mm².",
-          "studyContent_vi": "Ứng suất thớ kéo là chồng chất của ứng suất uốn (M/Z) và ứng suất dọc trục (P/A). Phía chịu kéo: lấy ứng suất uốn trừ ứng suất nén dọc trục. Cẩn thận với đáp án bẫy (10 hoặc 13N/mm²)."
-        },
-        {
-          "label": "R5 No.9",
-          "question": "図に示す3ヒンジラーメン架構のDE間に等分布荷重wが作用したとき、支点Aの水平反力HA及び支点Bの水平反力HBの値として、正しいものはどれか。ただし、反力は右向きを「＋」、左向きを「−」とする。",
-          "choices": ["HA＝＋9kN", "HA＝−6kN", "HB＝0kN", "HB＝−4kN"],
+          "label": "R6 No.9",
+          "question": "鉄筋コンクリート構造の建築物の構造計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ねじれ剛性は、耐震壁等の耐震要素を、平面上の中心部に配置するよりも外側に均一に配置したほうが高まる。",
+            "耐震壁に換気口等の小開口がある場合でも、その壁を耐震壁として扱うことができる。",
+            "腰壁、垂れ壁、そで壁等は、柱及び梁の剛性や靭性への影響を考慮して計画する。",
+            "柱は、地震時の脆性破壊の危険を避けるため、軸方向圧縮応力度が大きくなるようにする。"
+          ],
           "answer": "4",
-          "explanation": "正解はHB＝−4kN。等分布荷重をヒンジCより左P₁＝3×4＝12kN、右P₂＝3×2＝6kNに置換。ΣX：HA＋HB＝0、ΣY：VA＋VB＝18kN、A点まわり ΣMA：12×2＋6×5－VB×6＝0 → VB＝9kN、VA＝9kN。C点右側でΣMC：6×1－HB×3－9×2＝0 → HB＝−4kN、HA＝＋4kN。",
-          "studyContent": "3ヒンジラーメンはX・Y・Mのつり合いに加え、中央ヒンジでモーメント0の条件を使う。等分布荷重は左右に分けて集中荷重化すると計算しやすい。出典: https://kenchikusekou1.kakomonn.com/questions/71587",
+          "explanation": "最も不適当なのは選択肢4。軸方向圧縮応力度が大きくなると靭性が低下し脆性破壊しやすくなるため、圧縮応力度は小さく（設計基準強度の1/3以下）なるようにする。\n選択肢1：耐震要素を外側に均一配置するとねじれ剛性が高まり正しい。\n選択肢2：開口周比0.4以下なら小開口があっても耐震壁として扱え正しい。\n選択肢3：腰壁・垂れ壁・そで壁は柱梁の剛性・靭性への影響を考慮して計画し正しい。",
+          "studyContent": "脆性破壊を避けるには柱の軸方向圧縮応力度を小さくする。耐震壁の開口（開口周比0.4以下）や外周配置によるねじれ剛性向上も頻出。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố đều w tác dụng trên đoạn DE, giá trị phản lực ngang HA tại gối A và HB tại gối B nào là đúng? Quy ước phản lực hướng phải là «＋», hướng trái là «－».",
-          "choices_vi": ["HA＝＋9kN", "HA＝−6kN", "HB＝0kN", "HB＝−4kN"],
-          "explanation_vi": "Đáp án đúng là HB＝−4kN. Thay tải phân bố đều thành: bên trái khớp C P₁＝3×4＝12kN, bên phải P₂＝3×2＝6kN. ΣX: HA＋HB＝0; ΣY: VA＋VB＝18kN; mô-men quanh A: 12×2＋6×5－VB×6＝0 → VB＝9kN, VA＝9kN. Xét phần phải tại C: 6×1－HB×3－9×2＝0 → HB＝−4kN, HA＝＋4kN.",
-          "studyContent_vi": "Khung 3 khớp dùng cân bằng X, Y, M cộng điều kiện mô-men bằng 0 tại khớp giữa. Tách tải phân bố đều thành tải tập trung bên trái/phải để tính dễ hơn."
+          "question_vi": "Phát biểu nào sau đây về quy hoạch kết cấu của công trình bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Độ cứng chống xoắn tăng lên khi bố trí các phần tử chịu lực động đất như vách chịu lực đều ra phía ngoài hơn là ở vùng trung tâm mặt bằng.",
+            "Ngay cả khi vách chịu lực động đất có lỗ mở nhỏ như cửa thông gió, vẫn có thể coi vách đó là vách chịu lực động đất.",
+            "Tường bệ, tường rủ, tường cánh... được quy hoạch có xét đến ảnh hưởng tới độ cứng và độ dẻo dai của cột và dầm.",
+            "Để tránh nguy cơ phá hoại giòn khi động đất, cột được thiết kế sao cho ứng suất nén dọc trục lớn lên."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Khi ứng suất nén dọc trục lớn lên thì độ dẻo dai giảm và dễ phá hoại giòn, nên phải thiết kế ứng suất nén nhỏ đi (≤1/3 cường độ thiết kế tiêu chuẩn của bê tông).\nLựa chọn 1: Đúng – bố trí phần tử chịu lực ra ngoài làm tăng độ cứng chống xoắn.\nLựa chọn 2: Đúng – nếu tỷ lệ lỗ mở ≤0,4 thì vẫn coi là vách chịu lực.\nLựa chọn 3: Đúng – tường bệ/rủ/cánh được quy hoạch có xét ảnh hưởng độ cứng, độ dẻo của cột dầm.",
+          "studyContent_vi": "Để tránh phá hoại giòn, giảm ứng suất nén dọc trục của cột. Lỗ mở vách (tỷ lệ ≤0,4) và bố trí ra chu vi để tăng độ cứng chống xoắn cũng hay ra."
         },
         {
-          "label": "R5 No.10",
-          "question": "図に示す3ヒンジラーメン架構の点Dにモーメント荷重Mが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "2",
-          "explanation": "正解は②。各支点・節点の特徴で絞り込む。①ピンではモーメント0、②固定端では回転角0、③剛節点では接合角度不変。D点に時計回りのモーメントMが作用し、ピン接合部はすべての選択肢でモーメント0なのでそこは正しい。D点で部材の引張側を正しく描いているのは②。",
-          "studyContent": "モーメント図の正誤判定は、ピン＝モーメント0、固定端、剛節点の角度保持などの特徴から引張側を判断する。出典: https://kenchikusekou1.kakomonn.com/questions/71588",
+          "label": "R5 No.5",
+          "question": "鉄筋コンクリート構造の建築物の構造計画に関する一般的な記述として、最も不適当なものはどれか。",
+          "choices": [
+            "普通コンクリートを使用する場合の柱の最小径は、その構造耐力上主要な支点間の距離の1／15以上とする。",
+            "耐震壁とする壁板のせん断補強筋比は、直交する各方向に関して、それぞれ0.25％以上とする。",
+            "床スラブの配筋は、各方向の全幅について、コンクリート全断面積に対する鉄筋全断面積の割合を0.1％以上とする。",
+            "梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1／3以下とする。"
+          ],
+          "answer": "3",
+          "explanation": "最も不適当なのは選択肢3。床スラブの配筋は各方向の全幅について鉄筋全断面積の割合を0.2％以上とするのが正しく、0.1％では不足する。\n選択肢1：普通コンクリートの柱最小径は支点間距離の1/15以上で正しい。\n選択肢2：耐震壁のせん断補強筋比0.25％以上で正しい。\n選択肢4：梁貫通孔は端部を避け孔径は梁せいの1/3以下で正しい。",
+          "studyContent": "床スラブの鉄筋比は0.2％以上が基準。柱最小径1/15、耐震壁せん断補強筋比0.25％、梁貫通孔1/3以下などの数値を正確に。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải mô-men M tác dụng tại điểm D, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ②. Loại trừ theo đặc điểm gối/nút: ① tại khớp mô-men＝0, ② tại ngàm góc xoay＝0, ③ tại nút cứng góc liên kết không đổi. Mô-men M chiều kim đồng hồ tác dụng tại D; mọi phương án đều có mô-men＝0 tại khớp nên phần đó đúng. Phương án vẽ đúng phía chịu kéo tại D là ②.",
-          "studyContent_vi": "Khi xét đúng/sai của biểu đồ mô-men, dựa vào đặc điểm: khớp＝mô-men 0, ngàm, nút cứng giữ góc... để xác định phía chịu kéo."
+          "question_vi": "Phát biểu chung nào sau đây về quy hoạch kết cấu của công trình bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Khi dùng bê tông thường, đường kính nhỏ nhất của cột lấy từ 1/15 khoảng cách giữa các điểm tựa chủ yếu về mặt khả năng chịu lực trở lên.",
+            "Tỷ lệ cốt đai chịu cắt của tấm vách làm vách chịu lực động đất lấy từ 0,25% trở lên theo mỗi phương vuông góc.",
+            "Cốt thép bản sàn, theo toàn bộ bề rộng mỗi phương, lấy tỷ lệ tổng diện tích cốt thép trên toàn diện tích bê tông từ 0,1% trở lên.",
+            "Lỗ xuyên dầm tránh bố trí ở đầu dầm, đường kính lỗ lấy không quá 1/3 chiều cao dầm."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 3. Cốt thép bản sàn đúng phải lấy tỷ lệ tổng diện tích cốt thép từ 0,2% trở lên theo toàn bề rộng mỗi phương; 0,1% là không đủ.\nLựa chọn 1: Đúng – đường kính nhỏ nhất cột bê tông thường ≥1/15 khoảng cách điểm tựa.\nLựa chọn 2: Đúng – tỷ lệ cốt đai vách ≥0,25%.\nLựa chọn 4: Đúng – lỗ xuyên dầm tránh đầu dầm, đường kính ≤1/3 chiều cao dầm.",
+          "studyContent_vi": "Tỷ lệ cốt thép bản sàn là ≥0,2%. Ghi nhớ chính xác: đường kính nhỏ nhất cột 1/15, tỷ lệ cốt đai vách 0,25%, lỗ xuyên dầm ≤1/3."
         },
         {
-          "label": "R4 No.8",
-          "question": "建築物に作用する荷重及び外力に関する記述として、最も不適当なものはどれか。",
-          "choices": ["風圧力を求めるために用いる風力係数は、建築物の外圧係数と内圧係数の積により算出する。", "雪下ろしを行う慣習のある地方において、垂直積雪量が1mを超える場合、積雪荷重は、雪下ろしの実況に応じ垂直積雪量を1mまで減らして計算することができる。", "劇場、映画館等の客席の単位床面積当たりの積載荷重は、実況に応じて計算しない場合、固定席のほうが固定されていない場合より小さくすることができる。", "速度圧の計算に用いる基準風速は、原則として、その地方の再現期間50年の10分間平均風速値に相当する。"],
-          "answer": "1",
-          "explanation": "最も不適当なのは①。風力係数は外圧係数と内圧係数の「差」（風力係数＝外圧係数－内圧係数）で求めるもので、「積」ではない。②③④は正しい。②積雪荷重の低減、③固定席のほうが積載荷重を小さくできる、④基準風速は再現期間50年の10分間平均風速値、はいずれも適当。",
-          "studyContent": "風圧力＝速度圧×風力係数、風力係数＝外圧係数－内圧係数。固定席（2,900N/㎡）は自由席（3,500N/㎡）より小さい。基準風速は50年再現の10分平均。出典: https://kenchikusekou1.kakomonn.com/questions/65737",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào về tải trọng và ngoại lực tác dụng lên công trình là KHÔNG thích hợp nhất?",
-          "choices_vi": ["Hệ số lực gió dùng để tính áp lực gió được tính bằng TÍCH của hệ số áp lực ngoài và hệ số áp lực trong của công trình.", "Ở vùng có tập quán cào dọn tuyết, khi lượng tuyết tích thẳng đứng vượt 1m, tải trọng tuyết có thể tính bằng cách giảm lượng tuyết thẳng đứng xuống còn 1m theo tình hình thực tế cào dọn.", "Tải trọng sử dụng trên một đơn vị diện tích sàn của ghế khán giả ở rạp hát, rạp chiếu phim... nếu không tính theo thực tế thì ghế cố định có thể nhỏ hơn ghế không cố định.", "Vận tốc gió cơ sở dùng để tính áp lực vận tốc, về nguyên tắc, tương ứng vận tốc gió trung bình 10 phút với chu kỳ lặp 50 năm của vùng đó."],
-          "explanation_vi": "Không thích hợp nhất là ①. Hệ số lực gió tính bằng HIỆU của hệ số áp lực ngoài và hệ số áp lực trong (hệ số lực gió ＝ hệ số áp lực ngoài － hệ số áp lực trong), không phải «tích». ②③④ đều đúng: giảm tải tuyết, ghế cố định cho phép tải nhỏ hơn, vận tốc gió cơ sở là trung bình 10 phút chu kỳ lặp 50 năm.",
-          "studyContent_vi": "Áp lực gió ＝ áp lực vận tốc × hệ số lực gió; hệ số lực gió ＝ hệ số áp lực ngoài － hệ số áp lực trong. Ghế cố định (2.900N/㎡) nhỏ hơn ghế tự do (3.500N/㎡). Vận tốc gió cơ sở là trung bình 10 phút, chu kỳ lặp 50 năm."
-        },
-        {
-          "label": "R4 No.9",
-          "question": "図に示す3ヒンジラーメン架構のAD間及びDC間に集中荷重が同時に作用するとき、支点Bに生じる水平反力HB、鉛直反力VBの値の大きさの組合せとして、正しいものはどれか。",
-          "choices": ["HB＝2kN、VB＝6kN", "HB＝3kN、VB＝9kN", "HB＝4kN、VB＝12kN", "HB＝5kN、VB＝15kN"],
-          "answer": "1",
-          "explanation": "正解はHB＝2kN、VB＝6kN。A端まわりのモーメントつり合い MA＝0より 6×4＋6×2－VB×6＝0 → VB＝6kN。次に右側CEBでヒンジC点のモーメントつり合い MC＝0より −VB×2＋HB×6＝0 → HB＝2kN。",
-          "studyContent": "3ヒンジラーメンは MC＝0 が左右それぞれで成立する。ΣH＝0、ΣV＝0、MA＝0、MB＝0、MC＝0 の4式から4つの未知反力を求める。出典: https://kenchikusekou1.kakomonn.com/questions/65738",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi các tải tập trung đồng thời tác dụng trên đoạn AD và DC, tổ hợp độ lớn phản lực ngang HB và phản lực đứng VB tại gối B nào là đúng?",
-          "choices_vi": ["HB＝2kN, VB＝6kN", "HB＝3kN, VB＝9kN", "HB＝4kN, VB＝12kN", "HB＝5kN, VB＝15kN"],
-          "explanation_vi": "Đáp án đúng là HB＝2kN, VB＝6kN. Lấy mô-men quanh A (MA＝0): 6×4＋6×2－VB×6＝0 → VB＝6kN. Xét phần phải CEB tại khớp C (MC＝0): −VB×2＋HB×6＝0 → HB＝2kN.",
-          "studyContent_vi": "Khung 3 khớp có MC＝0 thỏa mãn riêng cho cả hai phía. Dùng 4 phương trình ΣH＝0, ΣV＝0, MA＝0, MB＝0, MC＝0 để tìm 4 phản lực chưa biết."
-        },
-        {
-          "label": "R4 No.10",
-          "question": "図に示す単純梁ABのCD間に等分布荷重wが、点Eに集中荷重Pが同時に作用するときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは、材の引張側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "2",
-          "explanation": "正解は②。等分布荷重区間（CD間）は曲線、その他は直線になる。等分布荷重を集中荷重に置換（2×2＝4kN）し反力を求めると、ΣMA＝0より VB＝6kN、ΣY＝0より VA＝4kN。各点 MC＝VA×2＝8、MD＝VA×4－4×1＝12、ME＝−VB×2＝−12（大きさ）。D点とE点の値が等しく、区間形状から②が正しい。",
-          "studyContent": "集中荷重区間は直線、等分布荷重区間は曲線。C点のモーメントがD点より大きくなることはない、という形状チェックで誤答を除外できる。出典: https://kenchikusekou1.kakomonn.com/questions/65739",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Trong dầm đơn giản AB như hình, khi tải phân bố đều w tác dụng trên đoạn CD và tải tập trung P tại điểm E đồng thời, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ②. Đoạn có tải phân bố đều (CD) là đường cong, các đoạn khác là đường thẳng. Thay tải phân bố đều thành tải tập trung (2×2＝4kN), tính phản lực: ΣMA＝0 → VB＝6kN, ΣY＝0 → VA＝4kN. Các điểm: MC＝VA×2＝8, MD＝VA×4－4×1＝12, ME＝−VB×2＝−12 (độ lớn). Giá trị tại D và E bằng nhau; theo hình dạng, ② đúng.",
-          "studyContent_vi": "Đoạn tải tập trung là đường thẳng, đoạn tải phân bố đều là đường cong. Có thể loại đáp án sai bằng kiểm tra hình dạng: mô-men tại C không thể lớn hơn tại D."
-        },
-        {
-          "label": "R3 No.8",
-          "question": "図に示す断面のX−X軸に対する断面二次モーメントの値として、正しいものはどれか。",
-          "choices": ["56a³", "56a⁴", "72a³", "72a⁴"],
-          "answer": "2",
-          "explanation": "正解は56a⁴。断面二次モーメントは I＝bh³/12。欠損のある断面は全体から欠け部分を引く。全体（4a×6a）：I＝4a×(6a)³/12＝72a⁴。欠け部分（3a×4a）：I＝3a×(4a)³/12＝16a⁴。よって 72a⁴－16a⁴＝56a⁴。",
-          "studyContent": "図心を通る軸の断面二次モーメントは I＝bh³/12（bは軸に水平な辺、hは軸に垂直な辺）。欠損断面は全体から欠け部分を差し引く。出典: https://kenchikusekou1.kakomonn.com/questions/57248",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Giá trị mô-men quán tính tiết diện đối với trục X−X của tiết diện như hình nào là đúng?",
-          "choices_vi": ["56a³", "56a⁴", "72a³", "72a⁴"],
-          "explanation_vi": "Đáp án đúng là 56a⁴. Mô-men quán tính I＝bh³/12. Tiết diện có khoét thì lấy toàn phần trừ phần khoét. Toàn phần (4a×6a): I＝4a×(6a)³/12＝72a⁴. Phần khoét (3a×4a): I＝3a×(4a)³/12＝16a⁴. Vậy 72a⁴－16a⁴＝56a⁴.",
-          "studyContent_vi": "Mô-men quán tính qua trục trọng tâm I＝bh³/12 (b là cạnh song song trục, h là cạnh vuông góc trục). Tiết diện khoét: lấy toàn phần trừ phần khoét."
-        },
-        {
-          "label": "R3 No.9",
-          "question": "図に示す静定の山形ラーメン架構のAC間に等分布荷重wが作用したとき、支点Bに生じる鉛直反力VBと、点Dに生じる曲げモーメントMDの値の大きさの組合せとして、正しいものはどれか。",
-          "choices": ["VB＝6kN、MD＝0kN・m", "VB＝6kN、MD＝18kN・m", "VB＝12kN、MD＝0kN・m", "VB＝12kN、MD＝18kN・m"],
-          "answer": "2",
-          "explanation": "正解はVB＝6kN、MD＝18kN・m。AC間の等分布荷重を集中荷重化すると中点に12kN（2kN×6m）。A端はピンで曲げ0なので MA＝12×3－VB×6＝0 → VB＝6kN。点Dの曲げモーメントは右側DEBを片持ち梁とみなすと MD＝VB×3＝6×3＝18kN・m。",
-          "studyContent": "固定端＝水平・鉛直・モーメント反力、ピン＝モーメント0、ローラー＝水平反力なし。等分布荷重は集中荷重に置換し、計算しやすい点でモーメントを取る。出典: https://kenchikusekou1.kakomonn.com/questions/57249",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Trong khung Rahmen mái dốc tĩnh định như hình, khi tải phân bố đều w tác dụng trên đoạn AC, tổ hợp độ lớn phản lực đứng VB tại gối B và mô-men uốn MD tại điểm D nào là đúng?",
-          "choices_vi": ["VB＝6kN, MD＝0kN・m", "VB＝6kN, MD＝18kN・m", "VB＝12kN, MD＝0kN・m", "VB＝12kN, MD＝18kN・m"],
-          "explanation_vi": "Đáp án đúng là VB＝6kN, MD＝18kN・m. Thay tải phân bố đều trên AC thành tải tập trung 12kN (2kN×6m) tại trung điểm. Đầu A là khớp nên mô-men＝0: MA＝12×3－VB×6＝0 → VB＝6kN. Mô-men tại D: xem phần phải DEB như công-xon, MD＝VB×3＝6×3＝18kN・m.",
-          "studyContent_vi": "Ngàm＝phản lực ngang, đứng, mô-men; khớp＝mô-men 0; con lăn＝không có phản lực ngang. Thay tải phân bố đều bằng tải tập trung và lấy mô-men tại điểm dễ tính."
-        },
-        {
-          "label": "R3 No.10",
-          "question": "図に示す単純梁ABにおいて、CD間に等分布荷重wが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは、材の引張側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "2",
-          "explanation": "正解は②。単純梁は両端（ピンとローラー）とも曲げモーメントを負担できないため、両端の曲げモーメントは0。等分布荷重がかかるCD間は曲線（2次曲線）、その他は直線になる。両端にモーメントが生じている③④、直線のみの①は誤り。",
-          "studyContent": "単純梁は両端のモーメント0。集中荷重区間は直線、等分布荷重区間は2次曲線。代表的なモーメント図のパターンを覚えておく。出典: https://kenchikusekou1.kakomonn.com/questions/57250",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Trong dầm đơn giản AB như hình, khi tải phân bố đều w tác dụng trên đoạn CD, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ②. Dầm đơn giản có hai đầu (khớp và con lăn) không chịu mô-men nên mô-men hai đầu＝0. Đoạn CD có tải phân bố đều là đường cong (parabol bậc 2), các đoạn khác là đường thẳng. ③④ có mô-men ở hai đầu, ① chỉ đường thẳng → đều sai.",
-          "studyContent_vi": "Dầm đơn giản: mô-men hai đầu＝0. Đoạn tải tập trung là đường thẳng, đoạn tải phân bố đều là parabol bậc 2. Nên thuộc các dạng biểu đồ mô-men điển hình."
-        },
-        {
-          "label": "H30 No.8",
-          "question": "荷重及び外力に関する記述として、最も不適当なものはどれか。",
-          "choices": ["教室に連絡する廊下と階段の床の構造計算用の積載荷重は、実況に応じて計算しない場合、教室と同じ積載荷重の2,300N/m²とすることができる。", "保有水平耐力計算において、多雪区域の積雪時における長期応力度計算に用いる荷重は、固定荷重と積載荷重の和に、積雪荷重に0.7を乗じた値を加えたものとする。", "必要保有水平耐力の計算に用いる標準せん断力係数は、1.0以上としなければならない。", "速度圧の計算に用いる基準風速V₀は、その地方の再現期間50年の10分間平均風速値に相当する。"],
-          "answer": "1",
-          "explanation": "最も不適当なのは①。教室に連絡する廊下・階段の積載荷重は、建築基準法施行令第85条で集会室等と同様に3,500N/㎡とする必要があり、2,300N/㎡では不足。②多雪区域の長期はG＋P＋0.7S、③標準せん断力係数1.0以上、④基準風速は再現期間50年の10分間平均、はいずれも正しい。",
-          "studyContent": "教室に連絡する廊下・階段は人が集中するため3,500N/㎡。多雪区域の長期はG＋P＋0.7S。必要保有水平耐力の標準せん断力係数は1.0以上。出典: https://kenchikusekou1.kakomonn.com/questions/44203",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào về tải trọng và ngoại lực là KHÔNG thích hợp nhất?",
-          "choices_vi": ["Tải trọng sử dụng cho tính toán kết cấu sàn của hành lang và cầu thang nối với phòng học, nếu không tính theo thực tế, có thể lấy bằng 2.300N/m² như phòng học.", "Trong tính toán khả năng chịu lực ngang, tải dùng cho tính ứng suất dài hạn khi có tuyết ở vùng nhiều tuyết bằng tổng tĩnh tải và hoạt tải cộng với 0,7 lần tải tuyết.", "Hệ số lực cắt tiêu chuẩn dùng để tính khả năng chịu lực ngang cần thiết phải lấy từ 1,0 trở lên.", "Vận tốc gió cơ sở V₀ dùng để tính áp lực vận tốc tương ứng vận tốc gió trung bình 10 phút chu kỳ lặp 50 năm của vùng đó."],
-          "explanation_vi": "Không thích hợp nhất là ①. Tải trọng của hành lang/cầu thang nối phòng học theo Điều 85 Lệnh thi hành Luật Tiêu chuẩn xây dựng phải lấy 3.500N/㎡ như phòng hội họp; 2.300N/㎡ là thiếu. ② vùng nhiều tuyết dài hạn G＋P＋0,7S; ③ hệ số lực cắt tiêu chuẩn ≥1,0; ④ vận tốc gió cơ sở là trung bình 10 phút chu kỳ lặp 50 năm → đều đúng.",
-          "studyContent_vi": "Hành lang/cầu thang nối phòng học có người tập trung nên 3.500N/㎡. Dài hạn vùng nhiều tuyết G＋P＋0,7S. Hệ số lực cắt tiêu chuẩn cho khả năng chịu lực ngang ≥1,0."
-        },
-        {
-          "label": "H30 No.9",
-          "question": "図に示す3ヒンジラーメン架構のAD間に等分布荷重が作用したとき、支点Aに生じる水平反力HA及び鉛直反力VAの値の大きさの組合せとして、正しいものはどれか。",
-          "choices": ["HA＝60kN、VA＝40kN", "HA＝60kN、VA＝48kN", "HA＝96kN、VA＝40kN", "HA＝96kN、VA＝48kN"],
+          "label": "R4 No.4",
+          "question": "鉄筋コンクリート造の建築物の構造計画に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "ねじれ剛性は、耐震壁等の耐震要素を、平面上の中心部に配置するよりも外側に均一に配置したほうが高まる。",
+            "壁に換気口等の小開口がある場合でも、その壁を耐震壁として扱うことができる。",
+            "平面形状が極めて長い建築物には、コンクリートの乾燥収縮や不同沈下等による問題が生じやすいため、エキスパンションジョイントを設ける。",
+            "柱は、地震時の脆性破壊の危険を避けるため、軸方向圧縮応力度が大きくなるようにする。"
+          ],
           "answer": "4",
-          "explanation": "正解はHA＝96kN、VA＝48kN。等分布荷重の合力 P＝30kN/m×4m＝120kN（A点から2mに作用）。B点まわり MB＝0：−HA×2－VA×6＋120×4＝0…①。C点まわり MC＝0：＋HA×4－VA×3－120×2＝0…②。①－②×2 より HA＝960/10＝96kN。①へ代入し VA＝(480－192)/6＝48kN。",
-          "studyContent": "3ヒンジラーメンは点Bと点C（ヒンジ）まわりのモーメントが0になることを利用し、連立方程式で反力を求める。求めるのは大きさなので符号は絶対値で扱う。出典: https://kenchikusekou1.kakomonn.com/questions/44204",
+          "explanation": "最も不適当なのは選択肢4。軸方向圧縮応力度が大きくなると靭性が低下し脆性破壊の危険が高まるため、圧縮応力度は小さくする。\n選択肢1：耐震要素を外周に均一配置するとねじれ剛性が高まり正しい。\n選択肢2：開口周比0.4以下なら耐震壁として扱え正しい。\n選択肢3：平面が極めて長い建物はエキスパンションジョイントを設け正しい。",
+          "studyContent": "脆性破壊回避＝軸方向圧縮応力度を小さく。ねじれ剛性は耐震要素の外周配置で向上。エキスパンションジョイントの目的も押さえる。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố đều tác dụng trên đoạn AD, tổ hợp độ lớn phản lực ngang HA và phản lực đứng VA tại gối A nào là đúng?",
-          "choices_vi": ["HA＝60kN, VA＝40kN", "HA＝60kN, VA＝48kN", "HA＝96kN, VA＝40kN", "HA＝96kN, VA＝48kN"],
-          "explanation_vi": "Đáp án đúng là HA＝96kN, VA＝48kN. Hợp lực tải phân bố đều P＝30kN/m×4m＝120kN (đặt cách A 2m). Quanh B (MB＝0): −HA×2－VA×6＋120×4＝0…①. Quanh C (MC＝0): ＋HA×4－VA×3－120×2＝0…②. Lấy ①－②×2: HA＝960/10＝96kN. Thế vào ①: VA＝(480－192)/6＝48kN.",
-          "studyContent_vi": "Khung 3 khớp dùng tính chất mô-men＝0 tại B và tại C (khớp) để lập hệ phương trình tìm phản lực. Vì hỏi độ lớn nên lấy giá trị tuyệt đối của dấu."
+          "question_vi": "Phát biểu nào sau đây về quy hoạch kết cấu của công trình bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Độ cứng chống xoắn tăng lên khi bố trí các phần tử chịu lực động đất như vách chịu lực đều ra phía ngoài hơn là ở vùng trung tâm mặt bằng.",
+            "Ngay cả khi tường có lỗ mở nhỏ như cửa thông gió, vẫn có thể coi tường đó là vách chịu lực động đất.",
+            "Với công trình có hình dạng mặt bằng rất dài, dễ phát sinh vấn đề do co ngót khô của bê tông và lún không đều, nên cần bố trí khe co giãn.",
+            "Để tránh nguy cơ phá hoại giòn khi động đất, cột được thiết kế sao cho ứng suất nén dọc trục lớn lên."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Khi ứng suất nén dọc trục lớn lên thì độ dẻo dai giảm, nguy cơ phá hoại giòn tăng, nên phải làm ứng suất nén nhỏ đi.\nLựa chọn 1: Đúng – bố trí phần tử chịu lực ra chu vi làm tăng độ cứng chống xoắn.\nLựa chọn 2: Đúng – tỷ lệ lỗ mở ≤0,4 thì vẫn coi là vách chịu lực.\nLựa chọn 3: Đúng – công trình rất dài cần bố trí khe co giãn.",
+          "studyContent_vi": "Tránh phá hoại giòn = giảm ứng suất nén dọc trục. Tăng độ cứng chống xoắn bằng bố trí phần tử chịu lực ra chu vi. Nắm rõ mục đích của khe co giãn."
         },
         {
-          "label": "H30 No.10",
-          "question": "図に示す3ヒンジラーメン架構に集中荷重Pが作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張り側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
+          "label": "R3 No.5",
+          "question": "鉄筋コンクリート構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "柱の主筋はD13以上の異形鉄筋とし、その断面積の和は、柱のコンクリート全断面積の0.8％以上とする。",
+            "柱のせん断補強筋の間隔は、柱の上下端から柱の最大径の1.5倍又は最小径の2倍のいずれか大きい方の範囲内を150mm以下とする。",
+            "梁の主筋はD13以上の異形鉄筋とし、その配置は、特別な場合を除き2段以下とする。",
+            "梁のせん断補強筋にD10の異形鉄筋を用いる場合、その間隔は梁せいの1/2以下、かつ、250mm以下とする。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。柱の上下端の所定範囲内では帯筋間隔は100mm以下が原則で、150mmは範囲外で許容される値。\n選択肢1：柱主筋D13以上、断面積の和は0.8％以上で正しい。\n選択肢3：梁主筋D13以上、原則2段以下で正しい。\n選択肢4：梁のせん断補強筋間隔は梁せいの1/2以下かつ250mm以下で正しい。",
+          "studyContent": "柱の帯筋間隔は原則100mm以下（所定範囲内）、範囲外で150mmまで緩和。主筋比0.8％・せん断補強筋比0.2％も整理。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Cốt chủ của cột dùng thép gân D13 trở lên, tổng diện tích tiết diện lấy từ 0,8% diện tích toàn tiết diện bê tông cột trở lên.",
+            "Khoảng cách cốt đai chịu cắt của cột, trong phạm vi lớn hơn giữa 1,5 lần đường kính lớn nhất hoặc 2 lần đường kính nhỏ nhất tính từ đầu trên/dưới cột, lấy không quá 150mm.",
+            "Cốt chủ của dầm dùng thép gân D13 trở lên, bố trí không quá 2 lớp trừ trường hợp đặc biệt.",
+            "Khi cốt đai chịu cắt của dầm dùng thép gân D10, khoảng cách lấy không quá 1/2 chiều cao dầm và không quá 250mm."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Trong phạm vi quy định ở đầu cột, khoảng cách cốt đai về nguyên tắc ≤100mm; 150mm chỉ là giá trị cho phép ngoài phạm vi đó.\nLựa chọn 1: Đúng – cốt chủ cột D13 trở lên, tổng diện tích ≥0,8%.\nLựa chọn 3: Đúng – cốt chủ dầm D13 trở lên, nguyên tắc ≤2 lớp.\nLựa chọn 4: Đúng – khoảng cách cốt đai dầm ≤1/2 chiều cao dầm và ≤250mm.",
+          "studyContent_vi": "Khoảng cách cốt đai cột nguyên tắc ≤100mm (trong phạm vi quy định), ngoài phạm vi nới tới 150mm. Nắm tỷ lệ cốt chủ 0,8% và cốt đai 0,2%."
+        },
+        {
+          "label": "H30 No.5",
+          "question": "鉄筋コンクリート構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "梁のあばら筋にD10の異形鉄筋を用いる場合、その間隔は梁せいの1/2以下、かつ、250mm以下とする。",
+            "梁貫通孔は、梁端部への配置を避け、孔径を梁せいの1/3以下とする。",
+            "柱のじん性を確保するため、短期軸方向力を柱のコンクリート全断面積で除した値は、コンクリートの設計基準強度の1/2以下とする。",
+            "普通コンクリートを使用する場合の柱の最小径は、原則としてその構造耐力上主要な支点間の距離の1/15以上とする。"
+          ],
           "answer": "3",
-          "explanation": "正解は③。両側の柱脚部がヒンジなのでモーメントは0。外力がPのみで、X方向のつり合いより左右の柱脚の水平反力HA・HBは同じ値で向きが逆。そのため柱の曲げモーメントは左右対称となる。ヒンジ部にモーメントがある①④、左右非対称の②は誤り。",
-          "studyContent": "両端ヒンジ＝モーメント0。水平外力がなければ左右支点の水平反力は等しく逆向きで、曲げモーメント図は左右対称になる。出典: https://kenchikusekou1.kakomonn.com/questions/44205",
+          "explanation": "最も不適当なのは選択肢3。柱のじん性確保のため、短期軸方向力を柱のコンクリート全断面積で除した値は設計基準強度の1/3以下とするのが正しく、1/2では大きすぎる。\n選択肢1：あばら筋間隔は梁せいの1/2以下かつ250mm以下で正しい。\n選択肢2：梁貫通孔は端部を避け孔径1/3以下で正しい。\n選択肢4：普通コンクリートの柱最小径は支点間距離の1/15以上で正しい。",
+          "studyContent": "じん性確保のための軸力比は設計基準強度の1/3以下。1/2との数値入れ替えに注意。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải tập trung P tác dụng, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ③. Chân hai cột là khớp nên mô-men＝0. Ngoại lực chỉ có P; theo cân bằng phương X, phản lực ngang HA và HB ở hai chân cột bằng nhau và ngược chiều. Do đó biểu đồ mô-men của cột đối xứng trái-phải. ①④ có mô-men tại khớp, ② không đối xứng → sai.",
-          "studyContent_vi": "Hai đầu khớp＝mô-men 0. Khi không có ngoại lực ngang, phản lực ngang hai gối bằng nhau ngược chiều, biểu đồ mô-men đối xứng trái-phải."
+          "question_vi": "Phát biểu nào sau đây về kết cấu bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Khi dùng thép gân D10 làm cốt đai (abara-kin) của dầm, khoảng cách lấy không quá 1/2 chiều cao dầm và không quá 250mm.",
+            "Lỗ xuyên dầm tránh bố trí ở đầu dầm, đường kính lỗ lấy không quá 1/3 chiều cao dầm.",
+            "Để đảm bảo độ dẻo dai của cột, giá trị lực dọc ngắn hạn chia cho toàn diện tích tiết diện bê tông cột lấy không quá 1/2 cường độ thiết kế tiêu chuẩn của bê tông.",
+            "Khi dùng bê tông thường, đường kính nhỏ nhất của cột về nguyên tắc lấy từ 1/15 khoảng cách giữa các điểm tựa chủ yếu trở lên."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 3. Để đảm bảo độ dẻo dai của cột, tỷ số lực dọc ngắn hạn trên toàn diện tích bê tông phải ≤1/3 cường độ thiết kế tiêu chuẩn; 1/2 là quá lớn.\nLựa chọn 1: Đúng – khoảng cách cốt đai ≤1/2 chiều cao dầm và ≤250mm.\nLựa chọn 2: Đúng – lỗ xuyên dầm tránh đầu dầm, đường kính ≤1/3.\nLựa chọn 4: Đúng – đường kính nhỏ nhất cột bê tông thường ≥1/15 khoảng cách điểm tựa.",
+          "studyContent_vi": "Tỷ số lực dọc để đảm bảo độ dẻo dai ≤1/3 cường độ thiết kế tiêu chuẩn. Cẩn thận với việc tráo đổi số 1/2."
         },
         {
-          "label": "R2 No.8",
-          "question": "床の構造計算をする場合の積載荷重として、最も不適当なものはどれか。",
-          "choices": ["店舗の売り場の積載荷重は、2,900N/m²とすることができる。", "集会場の客席が固定席である集会室の積載荷重は、2,900N/m²とすることができる。", "倉庫業を営む倉庫の積載荷重は、2,900N/m²とすることができる。", "百貨店の屋上広場の積載荷重は、2,900N/m²とすることができる。"],
+          "label": "R2 No.5",
+          "question": "鉄筋コンクリート構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "床スラブは、地震力に対し同一階の水平変位を等しく保つ役割を有する。",
+            "柱のじん性を確保するため、短期軸方向力を柱のコンクリート全断面積で除した値は、コンクリートの設計基準強度の1/2以下とする。",
+            "壁板のせん断補強筋比は、直交する各方向に関して、それぞれ0.25%以上とする。",
+            "梁に貫通孔を設けた場合、構造耐力の低下は、曲げ耐力よりせん断耐力のほうが著しい。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。柱のじん性確保のための軸力比は設計基準強度の1/3以下が正しく、1/2では大きすぎる。\n選択肢1：床スラブは同一階の水平変位を等しく保つ役割で正しい。\n選択肢3：壁板せん断補強筋比0.25％以上で正しい。\n選択肢4：梁貫通孔による耐力低下はせん断耐力の方が著しく正しい。",
+          "studyContent": "軸力比は1/3以下が基準。貫通孔の影響はせん断耐力に大きく出ることも押さえる。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Bản sàn có vai trò giữ cho chuyển vị ngang của cùng một tầng bằng nhau dưới tác dụng của lực động đất.",
+            "Để đảm bảo độ dẻo dai của cột, giá trị lực dọc ngắn hạn chia cho toàn diện tích tiết diện bê tông cột lấy không quá 1/2 cường độ thiết kế tiêu chuẩn của bê tông.",
+            "Tỷ lệ cốt đai chịu cắt của tấm vách lấy từ 0,25% trở lên theo mỗi phương vuông góc.",
+            "Khi bố trí lỗ xuyên trên dầm, sự suy giảm khả năng chịu lực ở khả năng chịu cắt rõ rệt hơn so với khả năng chịu uốn."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Tỷ số lực dọc để đảm bảo độ dẻo dai cột phải ≤1/3 cường độ thiết kế tiêu chuẩn; 1/2 là quá lớn.\nLựa chọn 1: Đúng – bản sàn giữ chuyển vị ngang cùng tầng bằng nhau.\nLựa chọn 3: Đúng – tỷ lệ cốt đai tấm vách ≥0,25%.\nLựa chọn 4: Đúng – lỗ xuyên dầm làm giảm khả năng chịu cắt rõ rệt hơn chịu uốn.",
+          "studyContent_vi": "Tỷ số lực dọc tiêu chuẩn ≤1/3. Nắm thêm: lỗ xuyên dầm ảnh hưởng lớn đến khả năng chịu cắt."
+        },
+        {
+          "label": "R1 No.5",
+          "question": "鉄筋コンクリート構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "柱のせん断補強筋の間隔は、柱の上下端から柱の最大径の1.5倍又は最小径の２倍のいずれか大きい範囲を100 mm以下とする。",
+            "柱及び梁のせん断補強筋は、直径９mm以上の丸鋼又はD10以上の異形鉄筋とし、せん断補強筋比は0.2 %以上とする。",
+            "一般の梁で、長期許容応力度で梁の引張鉄筋の断面積が決まる場合、原則として引張鉄筋の断面積はコンクリート断面積の0.2%以上とする。",
+            "貫通孔の中心間隔は、梁に２個以上の円形の貫通孔を設ける場合、両孔径の平均値の３倍以上とする。"
+          ],
           "answer": "3",
-          "explanation": "最も不適当なのは③。建築基準法施行令第85条3項により、倉庫業を営む倉庫の床の積載荷重は、実況に応じて計算した数値が3,900N/㎡未満の場合でも3,900N/㎡としなければならない。したがって2,900N/㎡は誤り。①②④は同表に基づき適当。",
-          "studyContent": "倉庫業を営む倉庫は最低3,900N/㎡。固定席の集会室・店舗売り場・百貨店屋上広場は2,900N/㎡が可。出典: https://kenchikusekou1.kakomonn.com/questions/54008",
+          "explanation": "最も不適当なのは選択肢3。引張鉄筋の断面積は0.4％以上（又は存在応力で必要な量の4/3のうち小さい方）が正しく、0.2％では不足する。\n選択肢1：柱の所定範囲は帯筋間隔100mm以下で正しい。\n選択肢2：せん断補強筋比0.2％以上で正しい。\n選択肢4：貫通孔の中心間隔は両孔径平均の3倍以上で正しい。",
+          "studyContent": "引張鉄筋比は0.4％以上。梁貫通孔は孔径1/3以下・中心間隔3倍以上。せん断補強筋比0.2％も整理。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Khi tính toán kết cấu sàn, tải trọng sử dụng nào là KHÔNG thích hợp nhất?",
-          "choices_vi": ["Tải trọng sử dụng của khu bán hàng cửa hiệu có thể lấy 2.900N/m².", "Tải trọng sử dụng của phòng hội họp có ghế khán giả là ghế cố định có thể lấy 2.900N/m².", "Tải trọng sử dụng của kho thuộc ngành kinh doanh kho bãi có thể lấy 2.900N/m².", "Tải trọng sử dụng của quảng trường trên mái bách hóa có thể lấy 2.900N/m²."],
-          "explanation_vi": "Không thích hợp nhất là ③. Theo khoản 3 Điều 85 Lệnh thi hành Luật Tiêu chuẩn xây dựng, tải trọng sàn của kho kinh doanh kho bãi, dù tính theo thực tế nhỏ hơn 3.900N/㎡ cũng phải lấy 3.900N/㎡. Do đó 2.900N/㎡ là sai. ①②④ đều phù hợp theo bảng quy định.",
-          "studyContent_vi": "Kho kinh doanh kho bãi tối thiểu 3.900N/㎡. Phòng họp ghế cố định, khu bán hàng, quảng trường mái bách hóa có thể lấy 2.900N/㎡."
+          "question_vi": "Phát biểu nào sau đây về kết cấu bê tông cốt thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Khoảng cách cốt đai chịu cắt của cột, trong phạm vi lớn hơn giữa 1,5 lần đường kính lớn nhất hoặc 2 lần đường kính nhỏ nhất tính từ đầu trên/dưới cột, lấy không quá 100mm.",
+            "Cốt đai chịu cắt của cột và dầm dùng thép tròn trơn đường kính 9mm trở lên hoặc thép gân D10 trở lên, tỷ lệ cốt đai chịu cắt từ 0,2% trở lên.",
+            "Với dầm thông thường, khi diện tích cốt thép chịu kéo được quyết định theo ứng suất cho phép dài hạn, về nguyên tắc diện tích cốt thép chịu kéo lấy từ 0,2% diện tích tiết diện bê tông trở lên.",
+            "Khi bố trí từ 2 lỗ xuyên tròn trở lên trên dầm, khoảng cách tâm lấy từ 3 lần trị trung bình hai đường kính lỗ trở lên."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 3. Diện tích cốt thép chịu kéo phải ≥0,4% (hoặc lấy giá trị nhỏ hơn giữa 0,4% và 4/3 lượng cần theo ứng suất thực); 0,2% là không đủ.\nLựa chọn 1: Đúng – trong phạm vi quy định ở cột, khoảng cách cốt đai ≤100mm.\nLựa chọn 2: Đúng – tỷ lệ cốt đai chịu cắt ≥0,2%.\nLựa chọn 4: Đúng – khoảng cách tâm lỗ xuyên ≥3 lần trị trung bình hai đường kính.",
+          "studyContent_vi": "Tỷ lệ cốt thép chịu kéo ≥0,4%. Lỗ xuyên dầm: đường kính ≤1/3, khoảng cách tâm ≥3 lần. Nắm tỷ lệ cốt đai 0,2%."
+        }
+      ]
+    },
+    {
+      "path": "1.4.3 S構造",
+      "vocabulary": "幅厚比, 局部座屈, 高力ボルト摩擦接合, 普通ボルト接合, 応力集中, ダイアフラム, スカラップ, 座屈長さ, 柱脚（露出・根巻き・埋込み）, 細長比, ヤング係数, たわみ, トラス, 合成梁",
+      "questions": [
+        {
+          "label": "R7 No.3",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合より普通ボルト接合のほうが大きい。",
+            "H形鋼は、フランジやウェブの幅厚比が大きくなると局部座屈を生じにくい。",
+            "角形鋼管柱の内ダイアフラムは、せいの異なる梁を柱の同一箇所に取り付ける場合等に用いられる。",
+            "柱梁仕口部となる梁ウェブのスカラップは、溶接線の交差による割れ等の溶接欠陥や材質劣化を防ぐために設けられる。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。幅厚比が大きい＝板が薄いということで、圧縮を受けると局部座屈を生じやすくなる。「生じにくい」は逆。\n選択肢1：普通ボルト接合の方が孔周辺に応力集中しやすく正しい。\n選択肢3：内ダイアフラムはせいの異なる梁の取り付けに用い正しい。\n選択肢4：スカラップは溶接線交差による欠陥防止のため設け正しい。",
+          "studyContent": "幅厚比が大きいほど局部座屈しやすい、という関係が頻出のひっかけ。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Mức độ tập trung ứng suất quanh lỗ bu lông do lực kéo của cấu kiện gây ra, ở liên kết bu lông thường lớn hơn so với liên kết ma sát bu lông cường độ cao.",
+            "Thép hình chữ H, khi tỷ số bề rộng/bề dày của cánh hoặc bụng lớn lên thì khó xảy ra mất ổn định cục bộ.",
+            "Vách ngăn trong (inner diaphragm) của cột thép ống vuông được dùng khi gắn các dầm có chiều cao khác nhau vào cùng một vị trí của cột.",
+            "Vết khoét (scallop) trên bụng dầm tại nút liên kết cột-dầm được bố trí để ngăn các khuyết tật hàn như nứt do giao nhau của đường hàn và sự suy giảm chất lượng vật liệu."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Tỷ số bề rộng/bề dày lớn nghĩa là bản mỏng, khi chịu nén DỄ xảy ra mất ổn định cục bộ. 'Khó xảy ra' là ngược.\nLựa chọn 1: Đúng – liên kết bu lông thường dễ tập trung ứng suất quanh lỗ hơn.\nLựa chọn 3: Đúng – vách ngăn trong dùng cho dầm có chiều cao khác nhau.\nLựa chọn 4: Đúng – scallop bố trí để ngăn khuyết tật do giao nhau đường hàn.",
+          "studyContent_vi": "Quan hệ 'tỷ số bề rộng/bề dày càng lớn càng dễ mất ổn định cục bộ' là bẫy hay gặp."
         },
         {
-          "label": "R2 No.9",
-          "question": "図に示す3ヒンジラーメン架構のAD間に等分布荷重が、CE間に集中荷重が同時に作用したとき、支点A及びBに生じる水平反力（HA、HB）、鉛直反力（VA、VB）の値として、正しいものはどれか。ただし、反力は右向き及び上向きを「＋」、左向き及び下向きを「−」とする。",
-          "choices": ["HA＝−40kN", "HB＝＋40kN", "VA＝−20kN", "VB＝＋20kN"],
+          "label": "R6 No.10",
+          "question": "鉄骨構造の設計に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "柱頭が水平移動するラーメン構造の柱の座屈長さは、節点間の距離より長くなる。",
+            "梁のたわみは、部材断面と荷重条件が同一の場合、材質をSN400AからSN490Bに変更しても同一である。",
+            "柱脚に高い回転拘束力をもたせるためには、根巻き形式ではなく露出形式とする。",
+            "トラス構造を構成する軸材は、引張りや圧縮の軸力のみを伝達するものとする。"
+          ],
           "answer": "3",
-          "explanation": "正解はVA＝−20kN。VAを−、HAを−、VBを＋、HBを−と仮定。ΣMB＝0より (20×4)×2－6×VA－20×2＝0 → VA＝20kN（仮定通り＝下向き）。したがって設問の表記 VA＝−20kN が正しい。",
-          "studyContent": "3ヒンジラーメンはX・Y・Mのつり合いに加え、ヒンジ部のモーメント0を使う。等分布荷重は集中荷重化（20kN/m×4m＝80kN）。符号の仮定と問題の正負規約に注意。出典: https://kenchikusekou1.kakomonn.com/questions/54009",
+          "explanation": "最も不適当なのは選択肢3。回転拘束力は露出型＜根巻型＜埋込型の順で大きいため、高い回転拘束力を得るには露出形式ではなく根巻き形式（又は埋込み形式）とする。\n選択肢1：柱頭が水平移動する場合、座屈長さは節点間距離より長くなり正しい。\n選択肢2：ヤング係数が同じため材質変更でもたわみは同一で正しい。\n選択肢4：トラスの軸材は軸力のみ伝達し正しい。",
+          "studyContent": "柱脚の回転拘束力は露出＜根巻き＜埋込み。鋼材の強度を変えてもヤング係数は同じでたわみは不変。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố đều tác dụng trên AD và tải tập trung trên CE đồng thời, giá trị phản lực ngang (HA, HB) và phản lực đứng (VA, VB) tại gối A, B nào là đúng? Quy ước phản lực hướng phải/lên là «＋», trái/xuống là «−».",
-          "choices_vi": ["HA＝−40kN", "HB＝＋40kN", "VA＝−20kN", "VB＝＋20kN"],
-          "explanation_vi": "Đáp án đúng là VA＝−20kN. Giả định VA «−», HA «−», VB «＋», HB «−». Lấy ΣMB＝0: (20×4)×2－6×VA－20×2＝0 → VA＝20kN (đúng giả định = hướng xuống). Do đó ký hiệu VA＝−20kN trong đề là đúng.",
-          "studyContent_vi": "Khung 3 khớp dùng cân bằng X, Y, M cộng mô-men＝0 tại khớp. Thay tải phân bố đều thành tải tập trung (20kN/m×4m＝80kN). Chú ý giả định dấu và quy ước dấu của đề."
+          "question_vi": "Phát biểu nào sau đây về thiết kế kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Chiều dài tính toán mất ổn định của cột trong kết cấu khung có đỉnh cột dịch chuyển ngang được lớn hơn khoảng cách giữa các nút.",
+            "Độ võng của dầm, khi tiết diện cấu kiện và điều kiện tải trọng như nhau, dù đổi vật liệu từ SN400A sang SN490B vẫn như nhau.",
+            "Để chân cột có khả năng ngàm xoay cao, dùng kiểu lộ thiên chứ không phải kiểu bọc chân.",
+            "Các thanh trục cấu thành kết cấu giàn chỉ truyền lực dọc trục kéo hoặc nén."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 3. Khả năng ngàm xoay tăng theo thứ tự lộ thiên < bọc chân < chôn ngầm, nên để có ngàm xoay cao phải dùng kiểu bọc chân (hoặc chôn ngầm), không phải lộ thiên.\nLựa chọn 1: Đúng – khi đỉnh cột dịch chuyển ngang, chiều dài mất ổn định lớn hơn khoảng cách nút.\nLựa chọn 2: Đúng – mô đun đàn hồi như nhau nên đổi vật liệu độ võng không đổi.\nLựa chọn 4: Đúng – thanh giàn chỉ truyền lực dọc trục.",
+          "studyContent_vi": "Khả năng ngàm xoay chân cột: lộ thiên < bọc chân < chôn ngầm. Đổi cường độ thép nhưng mô đun đàn hồi không đổi nên độ võng không đổi."
         },
         {
-          "label": "R2 No.10",
-          "question": "図に示すラーメン架構に集中荷重3P及び2Pが同時に作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張り側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "3",
-          "explanation": "正解は③。柱脚は左がローラー支持、右がピン支持。反力を仮定すると ΣX：3P－2P－He＝0 → He＝P、ΣY：Va＝Ve、ΣMe より Va＝Ve＝2P。左柱はローラーなのでB点（2P作用点）まではモーメント0。C点・D点の曲げ応力はMc＝Md＝PL（右側引張）。これらを満たす形状は③。",
-          "studyContent": "支点反力を求めて全外力を確定→各点の曲げ応力を計算→形状を比較。ローラー支点側はモーメントが遅れて立ち上がる点に注意。出典: https://kenchikusekou1.kakomonn.com/questions/54010",
+          "label": "R5 No.6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "角形鋼管柱の内ダイアフラムは、せいの異なる梁を1本の柱に取り付ける場合等に用いられる。",
+            "H形鋼は、フランジやウェブの幅厚比が大きくなると局部座屈を生じにくい。",
+            "シヤコネクタでコンクリートスラブと結合された鉄骨梁は、上端圧縮となる曲げ応力に対して横座屈を生じにくい。",
+            "部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合より普通ボルト接合のほうが大きい。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。幅厚比が大きくなると板が薄くなり局部座屈を生じやすくなる。\n選択肢1：内ダイアフラムはせいの異なる梁の取り付けに用い正しい。\n選択肢3：合成梁は横座屈を生じにくく正しい。\n選択肢4：普通ボルト接合の方が応力集中が大きく正しい。",
+          "studyContent": "幅厚比が大きい＝薄い＝局部座屈しやすい。合成梁・接合方式の特徴も整理。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen như hình, khi tải tập trung 3P và 2P tác dụng đồng thời, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ③. Chân cột trái là gối con lăn, chân cột phải là khớp. Giả định phản lực: ΣX: 3P－2P－He＝0 → He＝P; ΣY: Va＝Ve; từ ΣMe → Va＝Ve＝2P. Cột trái là con lăn nên đến điểm B (vị trí 2P) mô-men＝0. Mô-men tại C, D: Mc＝Md＝PL (thớ phải chịu kéo). Hình thỏa các điều kiện này là ③.",
-          "studyContent_vi": "Tìm phản lực gối để xác định toàn bộ ngoại lực → tính mô-men tại các điểm → so sánh hình dạng. Lưu ý phía gối con lăn mô-men xuất hiện trễ."
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Vách ngăn trong của cột thép ống vuông được dùng khi gắn các dầm có chiều cao khác nhau vào một cột.",
+            "Thép hình chữ H, khi tỷ số bề rộng/bề dày của cánh hoặc bụng lớn lên thì khó xảy ra mất ổn định cục bộ.",
+            "Dầm thép liên kết với bản sàn bê tông bằng chốt chịu cắt (shear connector) thì khó bị mất ổn định ngang đối với ứng suất uốn gây nén ở mép trên.",
+            "Mức độ tập trung ứng suất quanh lỗ bu lông do lực kéo của cấu kiện, ở liên kết bu lông thường lớn hơn liên kết ma sát bu lông cường độ cao."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Tỷ số bề rộng/bề dày lớn nghĩa là bản mỏng, dễ xảy ra mất ổn định cục bộ.\nLựa chọn 1: Đúng – vách ngăn trong dùng cho dầm chiều cao khác nhau.\nLựa chọn 3: Đúng – dầm liên hợp khó mất ổn định ngang.\nLựa chọn 4: Đúng – liên kết bu lông thường tập trung ứng suất lớn hơn.",
+          "studyContent_vi": "Tỷ số bề rộng/bề dày lớn = mỏng = dễ mất ổn định cục bộ. Nắm đặc điểm dầm liên hợp và các kiểu liên kết."
         },
         {
-          "label": "R1 No.8",
-          "question": "図に示す長方形断面部材の図心軸（X軸）に対する許容曲げモーメントの値として、正しいものはどれか。ただし、許容曲げ応力度fbは9.46 N/mm²とする。",
-          "choices": ["9.46×10⁵ N・mm", "5.68×10⁵ N・mm", "4.73×10⁵ N・mm", "2.84×10⁵ N・mm"],
+          "label": "R4 No.6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "梁の材質をSN400AからSN490Bに変えても、部材断面と荷重条件が同一ならば、構造計算上、梁のたわみは同一である。",
+            "節点の水平移動が拘束されているラーメン構造では、柱の座屈長さは、設計上、節点間の距離に等しくとることができる。",
+            "トラス構造の節点は、構造計算上、すべてピン接合として扱う。",
+            "柱脚に高い回転拘束力をもたせるためには、根巻き形式ではなく露出形式とする。"
+          ],
+          "answer": "4",
+          "explanation": "最も不適当なのは選択肢4。回転拘束力は露出型＜根巻型＜埋込型の順で大きく、高い回転拘束力には露出形式ではなく根巻き形式とする。\n選択肢1：ヤング係数が同じためたわみは同一で正しい。\n選択肢2：水平移動が拘束されたラーメンでは座屈長さを節点間距離に等しくとれ正しい。\n選択肢3：トラスの節点はすべてピン接合で正しい。",
+          "studyContent": "柱脚回転拘束力は露出＜根巻き＜埋込み。座屈長さの境界条件も整理（両端ピン1.0L、片側固定0.7L、両端固定0.5L）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Dù đổi vật liệu dầm từ SN400A sang SN490B, nếu tiết diện cấu kiện và điều kiện tải trọng như nhau thì về tính toán kết cấu độ võng của dầm là như nhau.",
+            "Trong kết cấu khung mà chuyển vị ngang của nút bị ngăn, chiều dài mất ổn định của cột về thiết kế có thể lấy bằng khoảng cách giữa các nút.",
+            "Nút của kết cấu giàn về tính toán kết cấu đều được xem là liên kết khớp.",
+            "Để chân cột có khả năng ngàm xoay cao, dùng kiểu lộ thiên chứ không phải kiểu bọc chân."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Khả năng ngàm xoay tăng theo thứ tự lộ thiên < bọc chân < chôn ngầm, nên để có ngàm xoay cao phải dùng kiểu bọc chân, không phải lộ thiên.\nLựa chọn 1: Đúng – mô đun đàn hồi như nhau nên độ võng không đổi.\nLựa chọn 2: Đúng – khung bị ngăn chuyển vị ngang lấy chiều dài mất ổn định bằng khoảng cách nút.\nLựa chọn 3: Đúng – nút giàn là liên kết khớp.",
+          "studyContent_vi": "Khả năng ngàm xoay chân cột: lộ thiên < bọc chân < chôn ngầm. Điều kiện biên chiều dài mất ổn định: hai đầu khớp 1,0L, một đầu ngàm 0,7L, hai đầu ngàm 0,5L."
+        },
+        {
+          "label": "R3 No.6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "H形鋼は、フランジ及びウェブの幅厚比が大きくなると局部座屈を生じやすい。",
+            "部材の引張力によってボルト孔周辺に生じる応力集中の度合いは、普通ボルト接合より高力ボルト摩擦接合の方が大きい。",
+            "シヤコネクタでコンクリートスラブと結合された鋼製梁は、上端圧縮となる曲げ応力に対して横座屈が生じにくい。",
+            "H形鋼における、局部座屈の影響を考慮しなくてもよい幅厚比については、柱のウェブプレートより梁のウェブプレートの方が大きい。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。高力ボルト摩擦接合は摩擦面で広く力を伝えるため応力集中が小さく、応力集中は高力ボルト摩擦接合＜普通ボルト接合となる。記述は逆。\n選択肢1：幅厚比が大きいと局部座屈を生じやすく正しい。\n選択肢3：合成梁は横座屈を生じにくく正しい。\n選択肢4：梁のウェブプレートの方が大きくても座屈しにくく正しい。",
+          "studyContent": "応力集中は普通ボルト接合の方が大きい。幅厚比と座屈の関係を整理。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Thép hình chữ H, khi tỷ số bề rộng/bề dày của cánh và bụng lớn lên thì dễ xảy ra mất ổn định cục bộ.",
+            "Mức độ tập trung ứng suất quanh lỗ bu lông do lực kéo của cấu kiện, ở liên kết ma sát bu lông cường độ cao lớn hơn liên kết bu lông thường.",
+            "Dầm thép liên kết với bản sàn bê tông bằng chốt chịu cắt thì khó bị mất ổn định ngang đối với ứng suất uốn gây nén ở mép trên.",
+            "Tỷ số bề rộng/bề dày mà không cần xét đến mất ổn định cục bộ ở thép hình chữ H, đối với bản bụng dầm lớn hơn so với bản bụng cột."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Liên kết ma sát bu lông cường độ cao truyền lực rộng qua mặt ma sát nên ứng suất tập trung nhỏ; tập trung ứng suất là liên kết ma sát bu lông cường độ cao < bu lông thường. Câu này ngược.\nLựa chọn 1: Đúng – tỷ số bề rộng/bề dày lớn dễ mất ổn định cục bộ.\nLựa chọn 3: Đúng – dầm liên hợp khó mất ổn định ngang.\nLựa chọn 4: Đúng – bản bụng dầm dù lớn hơn vẫn khó mất ổn định.",
+          "studyContent_vi": "Tập trung ứng suất ở liên kết bu lông thường lớn hơn. Nắm quan hệ giữa tỷ số bề rộng/bề dày và mất ổn định."
+        },
+        {
+          "label": "H30 No.6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "梁の材質を、SN400AからSN490Bに変えても、断面と荷重条件が同一ならば、梁のたわみは同一である。",
+            "鉄骨造におけるトラス構造の節点は、構造計算上、すべてピン接合として扱う。",
+            "材端の移動が拘束され材長が同じ場合、両端固定材の座屈長さは、両端ピン支持材の座屈長さより短い。",
+            "柱脚に高い回転拘束力をもたせるためには、根巻き形式ではなく露出形式とする。"
+          ],
+          "answer": "4",
+          "explanation": "最も不適当なのは選択肢4。回転拘束力は露出柱脚＜根巻き柱脚＜埋込み柱脚で、高い回転拘束力には露出ではなく根巻き形式とする。\n選択肢1：ヤング係数が同じためたわみは同一で正しい。\n選択肢2：トラス節点はピン接合で正しい。\n選択肢3：両端固定（0.5L）は両端ピン（1.0L）より座屈長さが短く正しい。",
+          "studyContent": "柱脚回転拘束力は露出＜根巻き＜埋込み。座屈長さ：両端ピン1.0L、一端ピン一端固定0.7L、両端固定0.5L、片持ち2.0L。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Dù đổi vật liệu dầm từ SN400A sang SN490B, nếu tiết diện và điều kiện tải trọng như nhau thì độ võng của dầm là như nhau.",
+            "Nút của kết cấu giàn bằng thép, về tính toán kết cấu, đều được xem là liên kết khớp.",
+            "Khi đầu cấu kiện bị ngăn dịch chuyển và chiều dài cấu kiện như nhau, chiều dài mất ổn định của cấu kiện hai đầu ngàm ngắn hơn cấu kiện hai đầu khớp.",
+            "Để chân cột có khả năng ngàm xoay cao, dùng kiểu lộ thiên chứ không phải kiểu bọc chân."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Khả năng ngàm xoay chân cột: lộ thiên < bọc chân < chôn ngầm, nên để có ngàm xoay cao phải dùng kiểu bọc chân, không phải lộ thiên.\nLựa chọn 1: Đúng – mô đun đàn hồi như nhau nên độ võng không đổi.\nLựa chọn 2: Đúng – nút giàn là liên kết khớp.\nLựa chọn 3: Đúng – hai đầu ngàm (0,5L) ngắn hơn hai đầu khớp (1,0L).",
+          "studyContent_vi": "Khả năng ngàm xoay chân cột: lộ thiên < bọc chân < chôn ngầm. Chiều dài mất ổn định: hai đầu khớp 1,0L, một đầu khớp một đầu ngàm 0,7L, hai đầu ngàm 0,5L, công xôn 2,0L."
+        },
+        {
+          "label": "R2 No.6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "梁の材質をSN400AからSN490Bに変えても、部材断面と荷重条件が同一ならば、梁のたわみは同一である。",
+            "トラス構造は、部材を三角形に組み合わせた骨組で、比較的細い部材で大スパンを構成することができる。",
+            "節点の水平移動が拘束されているラーメン構造では、柱の座屈長さは、設計上、節点間の距離に等しくとることができる。",
+            "構造耐力上主要な部分である圧縮材については、細長比の下限値が定められている。"
+          ],
+          "answer": "4",
+          "explanation": "最も不適当なのは選択肢4。圧縮材は細長比が大きいほど座屈しやすいため、定められているのは細長比の上限値で、下限値ではない。\n選択肢1：ヤング係数が同じためたわみは同一で正しい。\n選択肢2：トラスは細い部材で大スパンを構成でき正しい。\n選択肢3：水平移動が拘束されたラーメンでは座屈長さを節点間距離に等しくとれ正しい。",
+          "studyContent": "圧縮材には細長比の上限値が定められる（下限ではない）。細長比＝座屈長さ÷断面二次半径。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Dù đổi vật liệu dầm từ SN400A sang SN490B, nếu tiết diện và điều kiện tải trọng như nhau thì độ võng của dầm là như nhau.",
+            "Kết cấu giàn là khung gồm các thanh ghép thành hình tam giác, có thể tạo nhịp lớn bằng các thanh tương đối mảnh.",
+            "Trong kết cấu khung mà chuyển vị ngang của nút bị ngăn, chiều dài mất ổn định của cột về thiết kế có thể lấy bằng khoảng cách giữa các nút.",
+            "Đối với cấu kiện chịu nén là bộ phận chủ yếu về khả năng chịu lực, có quy định giá trị giới hạn dưới của độ mảnh."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Cấu kiện chịu nén có độ mảnh càng lớn càng dễ mất ổn định, nên cái được quy định là giá trị giới hạn TRÊN của độ mảnh, không phải giới hạn dưới.\nLựa chọn 1: Đúng – mô đun đàn hồi như nhau nên độ võng không đổi.\nLựa chọn 2: Đúng – giàn tạo nhịp lớn bằng thanh mảnh.\nLựa chọn 3: Đúng – khung bị ngăn chuyển vị ngang lấy chiều dài mất ổn định bằng khoảng cách nút.",
+          "studyContent_vi": "Cấu kiện chịu nén có quy định giới hạn TRÊN của độ mảnh (không phải dưới). Độ mảnh = chiều dài mất ổn định ÷ bán kính quán tính tiết diện."
+        },
+        {
+          "label": "R1 No.6",
+          "question": "鉄骨構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "H形鋼は、フランジ及びウェブの幅厚比が大きくなると局部座屈を生じやすい。",
+            "角形鋼管柱の内ダイアフラムは、せいの異なる梁を1本の柱に取り付ける場合等に用いられる。",
+            "部材の引張力によってボルト孔周辺に生じる応力集中の度合は、高力ボルト摩擦接合の場合より普通ボルト接合の方が大きい。",
+            "H形鋼梁は、荷重や外力に対し、せん断力をフランジが負担するものとして扱う。"
+          ],
+          "answer": "4",
+          "explanation": "最も不適当なのは選択肢4。H形鋼梁ではフランジが曲げモーメントを、ウェブがせん断力を負担する。せん断力をフランジが負担するは誤り。\n選択肢1：幅厚比が大きいと局部座屈を生じやすく正しい。\n選択肢2：内ダイアフラムはせいの異なる梁の取り付けに用い正しい。\n選択肢3：応力集中は普通ボルト接合の方が大きく正しい。",
+          "studyContent": "H形鋼：フランジ＝曲げモーメント、ウェブ＝せん断力を負担。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu thép là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Thép hình chữ H, khi tỷ số bề rộng/bề dày của cánh và bụng lớn lên thì dễ xảy ra mất ổn định cục bộ.",
+            "Vách ngăn trong của cột thép ống vuông được dùng khi gắn các dầm có chiều cao khác nhau vào một cột.",
+            "Mức độ tập trung ứng suất quanh lỗ bu lông do lực kéo của cấu kiện, ở liên kết bu lông thường lớn hơn liên kết ma sát bu lông cường độ cao.",
+            "Dầm thép hình chữ H được xem là cánh (flange) chịu lực cắt đối với tải trọng và ngoại lực."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Ở dầm thép chữ H, cánh chịu mô men uốn còn bụng (web) chịu lực cắt. 'Cánh chịu lực cắt' là sai.\nLựa chọn 1: Đúng – tỷ số bề rộng/bề dày lớn dễ mất ổn định cục bộ.\nLựa chọn 2: Đúng – vách ngăn trong dùng cho dầm chiều cao khác nhau.\nLựa chọn 3: Đúng – liên kết bu lông thường tập trung ứng suất lớn hơn.",
+          "studyContent_vi": "Thép chữ H: cánh chịu mô men uốn, bụng (web) chịu lực cắt."
+        }
+      ]
+    },
+    {
+      "path": "1.4.5 木構造",
+      "vocabulary": "枠組壁工法（ツーバイフォー）, 燃えしろ設計, 直交集成板（CLT）, 構造用集成材, 通し柱, 隅柱, 短期許容応力度, 必要壁量, ラミナ, 土台",
+      "questions": [
+        {
+          "label": "R7 No.9",
+          "question": "木質構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "枠組壁工法は、木材を使用した枠組に構造用合板その他これに類するものを打ち付けた壁及び床によって構成された工法で、枠組壁は水平力と鉄直力を同時に負担することができる。",
+            "燃えしろ設計は、木質材料の断面から所定の燃えしろ寸法を除いた断面に、長期荷重により生じる応力度が、長期の許容応力度を超えないことを検証し、安全性を担保するものである。",
+            "CLTパネル工法に用いる直交集成板の弾性係数及び基準強度は、強軸方向であっても、一般的な製材や集成材等の繊維方向の値と比べて小さい。",
+            "風圧力に対する必要壁量は、桁行方向と梁間方向で見付面積が同じでない場合、異なる値となる。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。燃えしろ設計では、燃えしろを除いた断面に長期荷重で生じる応力度が「短期」許容応力度を超えないことを検証する。「長期の許容応力度」とする点が誤り。\n選択肢1：枠組壁は水平力と鉄直力を同時に負担でき正しい。\n選択肢3：CLTは強軸でも一般製材の繊維方向の値より小さく正しい。\n選択肢4：必要壁量は見付面積が異なれば方向で異なり正しい。",
+          "studyContent": "燃えしろ設計は長期荷重の応力度を「短期」許容応力度で判定するのが基本。長期との入れ替えに注意。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu gỗ là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Phương pháp tường khung là phương pháp gồm tường và sàn tạo bởi việc đóng ván dán kết cấu... lên khung gỗ; tường khung có thể đồng thời chịu lực ngang và lực thẳng đứng.",
+            "Thiết kế lớp cháy là việc kiểm chứng an toàn bằng cách xác nhận ứng suất do tải trọng dài hạn sinh ra trên tiết diện sau khi trừ kích thước lớp cháy quy định không vượt quá ứng suất cho phép dài hạn.",
+            "Mô đun đàn hồi và cường độ tiêu chuẩn của ván ép nhiều lớp trực giao (CLT), ngay cả theo phương trục mạnh, vẫn nhỏ hơn giá trị theo phương thớ của gỗ xẻ hoặc gỗ ghép thông thường.",
+            "Lượng tường cần thiết chống áp lực gió, khi diện tích hứng gió theo phương dọc nhà và phương ngang nhà không bằng nhau thì có giá trị khác nhau."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Trong thiết kế lớp cháy, phải kiểm chứng ứng suất do tải trọng dài hạn trên tiết diện đã trừ lớp cháy không vượt quá ứng suất cho phép NGẮN HẠN. Ghi 'dài hạn' là sai.\nLựa chọn 1: Đúng – tường khung chịu đồng thời lực ngang và thẳng đứng.\nLựa chọn 3: Đúng – CLT theo phương trục mạnh vẫn nhỏ hơn giá trị phương thớ gỗ thông thường.\nLựa chọn 4: Đúng – lượng tường cần thiết khác nhau nếu diện tích hứng gió khác nhau.",
+          "studyContent_vi": "Thiết kế lớp cháy đánh giá ứng suất do tải dài hạn theo ứng suất cho phép NGẮN HẠN. Cẩn thận với việc tráo đổi 'dài hạn'."
+        },
+        {
+          "label": "R4 No.5",
+          "question": "木質構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "同一の接合部にボルトと釘を併用する場合の許容耐力は、両者を加算することができる。",
+            "2階建ての建築物における隅柱は、接合部を通し柱と同等以上の耐力を有するように補強した場合、通し柱としなくてもよい。",
+            "燃えしろ設計は、木質材料の断面から所定の燃えしろ寸法を除いた断面に、長期荷重により生じる応力度が、短期の許容応力度を超えないことを検証するものである。",
+            "直交集成板（CLT）の弾性係数、基準強度は、強軸方向であっても、一般的な製材、集成材等の繊維方向の値と比べて小さくなっている。"
+          ],
           "answer": "1",
-          "explanation": "正解は9.46×10⁵ N・mm。断面係数 Z＝bh²/6＝(60×100²)/6＝10⁵ mm³。許容曲げモーメント M＝fb×Z＝9.46×10⁵ N・mm。",
-          "studyContent": "許容曲げモーメント M＝許容曲げ応力度fb×断面係数Z。長方形断面の断面係数は Z＝bh²/6。出典: https://kenchikusekou1.kakomonn.com/questions/49262",
+          "explanation": "最も不適当なのは選択肢1。ボルトと釘は耐力を発揮するタイミングが異なるため許容耐力を加算できず、いずれか一方を許容耐力とする。\n選択肢2：接合部を通し柱と同等以上に補強すれば通し柱としなくてよく正しい。\n選択肢3：燃えしろ設計は短期許容応力度で検証し正しい。\n選択肢4：CLTは強軸でも一般製材の繊維方向の値より小さく正しい。",
+          "studyContent": "ボルトと釘の許容耐力は加算不可。燃えしろ設計は短期許容応力度で判定。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Giá trị mô-men uốn cho phép đối với trục trọng tâm (trục X) của cấu kiện tiết diện chữ nhật như hình nào là đúng? Cho ứng suất uốn cho phép fb＝9,46 N/mm².",
-          "choices_vi": ["9,46×10⁵ N・mm", "5,68×10⁵ N・mm", "4,73×10⁵ N・mm", "2,84×10⁵ N・mm"],
-          "explanation_vi": "Đáp án đúng là 9,46×10⁵ N・mm. Mô-đun chống uốn Z＝bh²/6＝(60×100²)/6＝10⁵ mm³. Mô-men uốn cho phép M＝fb×Z＝9,46×10⁵ N・mm.",
-          "studyContent_vi": "Mô-men uốn cho phép M＝ứng suất uốn cho phép fb×mô-đun chống uốn Z. Tiết diện chữ nhật Z＝bh²/6."
+          "question_vi": "Phát biểu nào sau đây về kết cấu gỗ là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Khi dùng kết hợp bu lông và đinh ở cùng một liên kết, khả năng chịu lực cho phép có thể cộng cả hai.",
+            "Cột góc của công trình 2 tầng, nếu gia cường liên kết để có khả năng chịu lực tương đương hoặc lớn hơn cột thông suốt, thì không cần làm cột thông suốt.",
+            "Thiết kế lớp cháy là việc kiểm chứng ứng suất do tải trọng dài hạn sinh ra trên tiết diện sau khi trừ kích thước lớp cháy quy định không vượt quá ứng suất cho phép ngắn hạn.",
+            "Mô đun đàn hồi và cường độ tiêu chuẩn của ván ép nhiều lớp trực giao (CLT), ngay cả theo phương trục mạnh, vẫn nhỏ hơn giá trị theo phương thớ của gỗ xẻ, gỗ ghép thông thường."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Bu lông và đinh phát huy khả năng chịu lực ở thời điểm khác nhau nên KHÔNG được cộng khả năng chịu lực cho phép; phải lấy một trong hai.\nLựa chọn 2: Đúng – nếu gia cường tương đương cột thông suốt thì không cần làm cột thông suốt.\nLựa chọn 3: Đúng – thiết kế lớp cháy kiểm chứng theo ứng suất cho phép ngắn hạn.\nLựa chọn 4: Đúng – CLT theo phương trục mạnh vẫn nhỏ hơn giá trị phương thớ gỗ thông thường.",
+          "studyContent_vi": "Khả năng chịu lực cho phép của bu lông và đinh KHÔNG được cộng. Thiết kế lớp cháy đánh giá theo ứng suất cho phép ngắn hạn."
         },
         {
-          "label": "R1 No.9",
-          "question": "図に示す3ヒンジラーメン架構のDE間に等変分布荷重が、AD間に集中荷重が同時に作用したとき、支点A及びBに生じる水平反力（HA、HB）、鉛直反力（VA、VB）の値として、正しいものはどれか。ただし、反力は右向き及び上向きを「＋」、左向き及び下向きを「−」とする。",
-          "choices": ["HA＝＋15kN", "HB＝−60kN", "VA＝＋60kN", "VB＝＋120kN"],
+          "label": "H30 No.4",
+          "question": "木質構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "構造用集成材は、ひき板（ラミナ）又は小角材を繊維方向がほぼ同じ方向に集成接着したものであり、弾性係数、基準強度は一般的な製材と比べ同等以上となっている。",
+            "枠組壁工法は、木材を使用した枠組に構造用合板その他これに類するものを打ち付けることにより、壁及び床を設ける工法で、枠組壁は水平力と鉄直力を同時に負担することはできない。",
+            "燃えしろ設計は、木質材料の断面から所定の燃えしろ寸法を除いた断面に長期荷重により生じる応力度が、短期の許容応力度を超えないことを検証するものである。",
+            "直交集成板（CLT）は、ひき板（ラミナ）を幅方向に並べたものを、その繊維方向が直交するように積層接着した木質系材料であり、弾性係数、基準強度は一般的な製材の繊維方向の値と比べ小さくなっている。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。枠組壁工法（ツーバイフォー）の壁は水平力と鉄直力を同時に負担でき、耐力壁として有効。「負担することはできない」は誤り。\n選択肢1：構造用集成材の弾性係数・基準強度は一般製材と同等以上で正しい。\n選択肢3：燃えしろ設計は短期許容応力度で検証し正しい。\n選択肢4：CLTは一般製材の繊維方向の値より小さく正しい。",
+          "studyContent": "枠組壁は水平力・鉄直力を同時に負担できる耐力壁。集成材とCLTの強度特性の違いを整理。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu gỗ là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Gỗ ghép kết cấu là loại được ghép dán các tấm ván (lamina) hoặc thanh nhỏ theo phương thớ gần như cùng hướng; mô đun đàn hồi và cường độ tiêu chuẩn tương đương hoặc lớn hơn gỗ xẻ thông thường.",
+            "Phương pháp tường khung là phương pháp tạo tường và sàn bằng cách đóng ván dán kết cấu... lên khung gỗ; tường khung KHÔNG thể đồng thời chịu lực ngang và lực thẳng đứng.",
+            "Thiết kế lớp cháy là việc kiểm chứng ứng suất do tải trọng dài hạn sinh ra trên tiết diện sau khi trừ kích thước lớp cháy quy định không vượt quá ứng suất cho phép ngắn hạn.",
+            "Ván ép nhiều lớp trực giao (CLT) là vật liệu gỗ được ghép dán các lớp lamina xếp theo bề rộng sao cho phương thớ trực giao nhau; mô đun đàn hồi và cường độ tiêu chuẩn nhỏ hơn giá trị theo phương thớ của gỗ xẻ thông thường."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Tường của phương pháp tường khung (2x4) CÓ THỂ đồng thời chịu lực ngang và lực thẳng đứng, là tường chịu lực hữu hiệu. 'Không thể chịu đồng thời' là sai.\nLựa chọn 1: Đúng – gỗ ghép kết cấu có mô đun đàn hồi, cường độ tương đương hoặc lớn hơn gỗ xẻ thông thường.\nLựa chọn 3: Đúng – thiết kế lớp cháy kiểm chứng theo ứng suất cho phép ngắn hạn.\nLựa chọn 4: Đúng – CLT nhỏ hơn giá trị theo phương thớ gỗ thông thường.",
+          "studyContent_vi": "Tường khung chịu đồng thời lực ngang và lực thẳng đứng. Nắm sự khác biệt đặc tính cường độ giữa gỗ ghép và CLT."
+        },
+        {
+          "label": "R2 No.4",
+          "question": "木質構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "枠組壁工法は、木材を使用した枠組に構造用合板その他これに類するものを打ち付けることにより、壁及び床を設ける工法で、枠組壁は水平力と鉄直力を同時に負担することはできない。",
+            "2階建の建築物における隅柱は、接合部を通し柱と同等以上の耐力を有するように補強した場合、通し柱としなくてもよい。",
+            "燃えしろ設計は、木質材料の断面から所定の燃えしろ寸法を除いた断面に長期荷重により生じる応力度が、短期の許容応力度を超えないことを検証するものである。",
+            "構造耐力上主要な部分である柱を基礎に緊結した場合、当該柱の下部に土台を設けなくてもよい。"
+          ],
           "answer": "1",
-          "explanation": "正解はHA＝＋15kN。点Aまわりのモーメントつり合いより (40×1.5)＋((60×6)/2×4.0)－(6×VB)＝0 → VB＝130kN。鉛直つり合い VA＋VB＝(60×6)/2＝180 → VA＝50kN。点C（左側）まわり −((30×3)/2×1)－(40×1.5)＋(VA×3)＋(HA×3)＝0 → HA＝15kN。水平つり合い HA＋HB＝40 → HB＝55kN。よって VA＝50、VB＝130、HA＝15、HB＝55kN。",
-          "studyContent": "3ヒンジラーメンはヒンジ部のモーメント0を利用。等変分布荷重は合力（三角形分布なら底辺×高さ÷2）と作用位置（重心）に置換して計算する。出典: https://kenchikusekou1.kakomonn.com/questions/49263",
+          "explanation": "最も不適当なのは選択肢1。枠組壁工法の壁は水平力と鉄直力を同時に負担でき、耐力壁として有効。「負担することはできない」は誤り。\n選択肢2：補強すれば隅柱を通し柱としなくてよく正しい。\n選択肢3：燃えしろ設計は短期許容応力度で検証し正しい。\n選択肢4：柱を基礎に緊結すれば土台を設けなくてよく正しい（令42条）。",
+          "studyContent": "枠組壁は水平力・鉄直力を同時に負担。隅柱の通し柱・土台省略の条件も押さえる。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong khung Rahmen 3 khớp như hình, khi tải phân bố tuyến tính (tam giác) tác dụng trên DE và tải tập trung trên AD đồng thời, giá trị phản lực ngang (HA, HB) và phản lực đứng (VA, VB) tại gối A, B nào là đúng? Quy ước phải/lên «＋», trái/xuống «−».",
-          "choices_vi": ["HA＝＋15kN", "HB＝−60kN", "VA＝＋60kN", "VB＝＋120kN"],
-          "explanation_vi": "Đáp án đúng là HA＝＋15kN. Mô-men quanh A: (40×1,5)＋((60×6)/2×4,0)－(6×VB)＝0 → VB＝130kN. Cân bằng đứng VA＋VB＝(60×6)/2＝180 → VA＝50kN. Quanh C (bên trái): −((30×3)/2×1)－(40×1,5)＋(VA×3)＋(HA×3)＝0 → HA＝15kN. Cân bằng ngang HA＋HB＝40 → HB＝55kN. Vậy VA＝50, VB＝130, HA＝15, HB＝55kN.",
-          "studyContent_vi": "Khung 3 khớp dùng mô-men＝0 tại khớp. Tải phân bố tuyến tính thay bằng hợp lực (phân bố tam giác: đáy×cao÷2) đặt tại trọng tâm để tính."
+          "question_vi": "Phát biểu nào sau đây về kết cấu gỗ là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Phương pháp tường khung là phương pháp tạo tường và sàn bằng cách đóng ván dán kết cấu... lên khung gỗ; tường khung KHÔNG thể đồng thời chịu lực ngang và lực thẳng đứng.",
+            "Cột góc của công trình 2 tầng, nếu gia cường liên kết để có khả năng chịu lực tương đương hoặc lớn hơn cột thông suốt, thì không cần làm cột thông suốt.",
+            "Thiết kế lớp cháy là việc kiểm chứng ứng suất do tải trọng dài hạn sinh ra trên tiết diện sau khi trừ kích thước lớp cháy quy định không vượt quá ứng suất cho phép ngắn hạn.",
+            "Khi liên kết chặt cột là bộ phận chủ yếu về khả năng chịu lực vào móng, có thể không cần đặt dầm đế ở phần dưới cột đó."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Tường của phương pháp tường khung CÓ THỂ đồng thời chịu lực ngang và lực thẳng đứng, là tường chịu lực hữu hiệu. 'Không thể chịu đồng thời' là sai.\nLựa chọn 2: Đúng – nếu gia cường tương đương thì cột góc không cần làm cột thông suốt.\nLựa chọn 3: Đúng – thiết kế lớp cháy kiểm chứng theo ứng suất cho phép ngắn hạn.\nLựa chọn 4: Đúng – liên kết chặt cột vào móng thì có thể không cần dầm đế.",
+          "studyContent_vi": "Tường khung chịu đồng thời lực ngang và lực thẳng đứng. Nắm điều kiện cột thông suốt cho cột góc và việc lược bỏ dầm đế."
+        }
+      ]
+    },
+    {
+      "path": "1.4.6 地盤・基礎",
+      "vocabulary": "杭基礎, 場所打ちコンクリート杭, 埋込み杭, 打込み杭, 先端支持力, 周面摩擦力, 負の摩擦力, 摩擦杭, 支持杭, 圧密沈下, 独立基礎, べた基礎, 許容応力度, 形状係数, 液状化, フローティング基礎, 受動土圧",
+      "questions": [
+        {
+          "label": "R7 No.4",
+          "question": "杭基礎に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "杭の先端の地盤の許容応力度は、アースドリル工法による場所打ちコンクリート杭のほうがセメントミルク工法による埋込み杭に比べて小さい。",
+            "杭と杭の中心間隔は、杭径が同一の場合、埋込み杭のほうが打込み杭に比べて小さくすることができる。",
+            "水平力を受ける長い杭の曲げモーメントは、一般に杭頭部のほうが杭地中部に比べて大きい。",
+            "杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、摩擦杭のほうが支持杭に比べて大きい。"
+          ],
+          "answer": "4",
+          "explanation": "最も不適当なのは選択肢4。負の摩擦力は杭が沈みにくいほど（地盤との相対変位が大きいほど）大きくなり、一般に支持杭の方が大きい。摩擦杭は地盤と一緒に沈みやすく相対変位が小さいため負の摩擦力は小さい。\n選択肢1：場所打ち杭は先端支持力が小さく許容応力度も小さく正しい。\n選択肢2：埋込み杭は地盤の乱れが小さく中心間隔を小さくでき正しい。\n選択肢3：水平力を受ける杭の曲げモーメントは杭頭部で大きく正しい。",
+          "studyContent": "負の摩擦力は支持杭の方が大きい。先端支持力：打込み＞埋込み＞場所打ち。杭間隔：埋込み（2D）＜打込み（2.5D）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về móng cọc là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Ứng suất cho phép của đất tại mũi cọc, cọc bê tông đổ tại chỗ bằng phương pháp earth drill nhỏ hơn so với cọc chôn bằng phương pháp cement milk.",
+            "Khoảng cách tâm giữa các cọc, khi đường kính cọc như nhau, cọc chôn có thể lấy nhỏ hơn cọc đóng.",
+            "Mô men uốn của cọc dài chịu lực ngang, nói chung ở phần đầu cọc lớn hơn so với phần thân cọc trong đất.",
+            "Lực ma sát âm tác dụng lên cọc khi đất xung quanh cọc bị lún, ở cọc ma sát lớn hơn cọc chống."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Lực ma sát âm càng lớn khi cọc càng khó lún (chuyển vị tương đối với đất càng lớn), nói chung cọc CHỐNG lớn hơn. Cọc ma sát dễ lún cùng đất nên chuyển vị tương đối nhỏ, lực ma sát âm nhỏ.\nLựa chọn 1: Đúng – cọc đổ tại chỗ sức chịu mũi nhỏ nên ứng suất cho phép nhỏ.\nLựa chọn 2: Đúng – cọc chôn ít làm xáo trộn đất nên khoảng cách tâm nhỏ hơn.\nLựa chọn 3: Đúng – mô men uốn của cọc chịu lực ngang lớn ở đầu cọc.",
+          "studyContent_vi": "Lực ma sát âm: cọc chống > cọc ma sát. Sức chịu mũi: cọc đóng > cọc chôn > cọc đổ tại chỗ. Khoảng cách tâm: cọc chôn (2D) < cọc đóng (2,5D)."
         },
         {
-          "label": "R1 No.10",
-          "question": "図に示す梁のAB間に等分布荷重wが、点Cに集中荷重Pが同時に作用したときの曲げモーメント図として、正しいものはどれか。ただし、曲げモーメントは材の引張り側に描くものとする。",
-          "choices": ["①（曲げモーメント図）", "②（曲げモーメント図）", "③（曲げモーメント図）", "④（曲げモーメント図）"],
-          "answer": "3",
-          "explanation": "正解は③。等分布荷重と集中荷重を分けて重ね合わせる。等分布荷重：M＝wL²/8でAB間中央に2.25kN・mの下向き放物線。集中荷重：B点で3×3＝9kN・m、A・C点は0でB点を頂点とする三角形、AB間中央は上側に4.5kN・m。重ね合わせるとAB間中央は4.5－2.25＝2.25kN・mで上側に頂点をもつ形となり③が正しい。",
-          "studyContent": "複雑な荷重は単純な状態（等分布のみ／集中のみ）に分けて曲げモーメント図を重ね合わせる。等分布は M＝wL²/8。出典: https://kenchikusekou1.kakomonn.com/questions/49264",
+          "label": "R6 No.4",
+          "question": "地盤及び基礎構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "圧密沈下の限界値は、独立基礎のほうがべた基礎に比べて大きい。",
+            "直接基礎の滑動抵抗は、基礎底面の摩擦抵抗が主体となるが、基礎の根入れを深くすることで基礎側面の受動土圧も考慮できる。",
+            "直接基礎の地盤の許容応力度は、基礎荷重面の底面積が同じであっても、その底面形状が正方形の場合と長方形の場合とでは異なる値となる。",
+            "基礎梁の剛性を高くすることにより、不同沈下が均等化される。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。圧密沈下の限界（許容）値はべた基礎の方が大きく（標準でべた基礎約10cm、独立基礎約5cm）、独立基礎の方が大きいは誤り。\n選択肢2：根入れを深くすると側面の受動土圧も考慮でき正しい。\n選択肢3：許容応力度は形状（形状係数）で異なり正しい。\n選択肢4：基礎梁の剛性を高めると不同沈下が均等化され正しい。",
+          "studyContent": "圧密沈下許容値：べた基礎＞布基礎＞独立基礎。許容応力度は形状係数で変わる。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Trong dầm như hình, khi tải phân bố đều w trên đoạn AB và tải tập trung P tại điểm C tác dụng đồng thời, biểu đồ mô-men uốn nào là đúng? Quy ước vẽ mô-men về phía thớ chịu kéo.",
-          "choices_vi": ["① (biểu đồ mô-men)", "② (biểu đồ mô-men)", "③ (biểu đồ mô-men)", "④ (biểu đồ mô-men)"],
-          "explanation_vi": "Đáp án đúng là ③. Tách riêng tải phân bố đều và tải tập trung rồi chồng chất. Tải phân bố đều: M＝wL²/8, ở giữa AB là parabol hướng xuống 2,25kN・m. Tải tập trung: tại B 3×3＝9kN・m, tại A và C bằng 0, tam giác đỉnh tại B, giữa AB hướng lên 4,5kN・m. Chồng chất: giữa AB ＝4,5－2,25＝2,25kN・m hướng lên → ③ đúng.",
-          "studyContent_vi": "Tải phức tạp được tách thành các trạng thái đơn giản (chỉ phân bố đều / chỉ tập trung) rồi chồng chất biểu đồ mô-men. Phân bố đều: M＝wL²/8."
+          "question_vi": "Phát biểu nào sau đây về đất nền và kết cấu móng là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Giá trị giới hạn lún cố kết, móng đơn lớn hơn móng bè.",
+            "Khả năng chống trượt của móng nông chủ yếu là ma sát đáy móng, nhưng khi chôn móng sâu thì có thể xét thêm áp lực đất bị động ở mặt bên móng.",
+            "Ứng suất cho phép của đất với móng trực tiếp, dù diện tích đáy móng như nhau, giá trị vẫn khác nhau giữa đáy hình vuông và hình chữ nhật.",
+            "Tăng độ cứng của dầm móng thì lún không đều được san đều."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Giá trị giới hạn (cho phép) lún cố kết, móng bè lớn hơn (tiêu chuẩn móng bè ~10cm, móng đơn ~5cm); 'móng đơn lớn hơn' là sai.\nLựa chọn 2: Đúng – chôn sâu thì xét thêm áp lực đất bị động mặt bên.\nLựa chọn 3: Đúng – ứng suất cho phép khác nhau theo hình dạng (hệ số hình dạng).\nLựa chọn 4: Đúng – tăng độ cứng dầm móng thì lún không đều được san đều.",
+          "studyContent_vi": "Giá trị cho phép lún cố kết: móng bè > móng băng > móng đơn. Ứng suất cho phép thay đổi theo hệ số hình dạng."
+        },
+        {
+          "label": "R5 No.7",
+          "question": "杭基礎に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、支持杭より摩擦杭のほうが大きい。",
+            "杭と杭の中心間隔は、杭径が同一の場合、埋込み杭のほうが打込み杭より小さくすることができる。",
+            "杭の極限鉄直支持力は、極限先端支持力と極限周面摩擦力との和で表す。",
+            "杭の引抜き抵抗力に杭の自重を加える場合、地下水位以下の部分の浮力を考慮する。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。摩擦杭は周辺地盤と共に沈下するため相対変位が小さく負の摩擦力は小さい。負の摩擦力は支持杭の方が大きい。\n選択肢2：埋込み杭は中心間隔を小さくでき正しい。\n選択肢3：極限鉄直支持力＝先端支持力＋周面摩擦力で正しい。\n選択肢4：引抜き抵抗力に自重を加える場合は地下水位以下の浮力を考慮し正しい。",
+          "studyContent": "負の摩擦力は支持杭＞摩擦杭。極限鉄直支持力＝先端支持力＋周面摩擦力。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về móng cọc là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Lực ma sát âm tác dụng lên cọc khi đất xung quanh cọc bị lún, ở cọc ma sát lớn hơn cọc chống.",
+            "Khoảng cách tâm giữa các cọc, khi đường kính cọc như nhau, cọc chôn có thể lấy nhỏ hơn cọc đóng.",
+            "Sức chịu tải thẳng đứng giới hạn của cọc được biểu thị bằng tổng của sức chịu mũi giới hạn và sức ma sát thành giới hạn.",
+            "Khi cộng tự trọng cọc vào lực kháng nhổ của cọc, phải xét đến lực đẩy nổi của phần dưới mực nước ngầm."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Cọc ma sát lún cùng đất xung quanh nên chuyển vị tương đối nhỏ, lực ma sát âm nhỏ. Lực ma sát âm ở cọc CHỐNG lớn hơn.\nLựa chọn 2: Đúng – cọc chôn có thể lấy khoảng cách tâm nhỏ hơn.\nLựa chọn 3: Đúng – sức chịu thẳng đứng giới hạn = sức chịu mũi + ma sát thành.\nLựa chọn 4: Đúng – khi cộng tự trọng phải xét lực đẩy nổi dưới mực nước ngầm.",
+          "studyContent_vi": "Lực ma sát âm: cọc chống > cọc ma sát. Sức chịu thẳng đứng giới hạn = sức chịu mũi + ma sát thành."
+        },
+        {
+          "label": "R4 No.7",
+          "question": "地盤及び基礎構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "圧密沈下の許容値は、独立基礎のほうがべた基礎に比べて大きい。",
+            "粘性土地盤の圧密沈下は、地中の応力の増加により長時間かかって土中の水が絞り出され、間隙が減少するために生じる。",
+            "直接基礎の滑動抵抗は、基礎底面の摩擦抵抗が主体となるが、基礎の根入れを深くすることで基礎側面の受動土圧も期待できる。",
+            "地盤の液状化は、地下水面下の緩い砂地盤が地震時に繰り返しせん断を受けることにより間隙水圧が上昇し、水中に砂粒子が浮遊状態となる現象である。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。圧密沈下の許容値はべた基礎の方が大きく（べた基礎約10cm、独立基礎約5cm）、独立基礎の方が大きいは誤り。\n選択肢2：圧密沈下のメカニズムの説明で正しい。\n選択肢3：根入れを深くすると受動土圧も期待でき正しい。\n選択肢4：液状化の説明で正しい。",
+          "studyContent": "圧密沈下許容値：べた基礎＞布基礎＞独立基礎。圧密沈下と液状化のメカニズムを整理。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về đất nền và kết cấu móng là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Giá trị cho phép lún cố kết, móng đơn lớn hơn móng bè.",
+            "Lún cố kết của nền đất sét xảy ra do ứng suất trong đất tăng làm nước trong đất bị ép ra trong thời gian dài, lỗ rỗng giảm đi.",
+            "Khả năng chống trượt của móng nông chủ yếu là ma sát đáy móng, nhưng khi chôn móng sâu thì có thể kỳ vọng thêm áp lực đất bị động ở mặt bên móng.",
+            "Hóa lỏng nền đất là hiện tượng đất cát rời dưới mực nước ngầm chịu cắt lặp khi động đất làm áp lực nước lỗ rỗng tăng, hạt cát ở trạng thái lơ lửng trong nước."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Giá trị cho phép lún cố kết, móng bè lớn hơn (móng bè ~10cm, móng đơn ~5cm); 'móng đơn lớn hơn' là sai.\nLựa chọn 2: Đúng – mô tả cơ chế lún cố kết.\nLựa chọn 3: Đúng – chôn sâu thì kỳ vọng thêm áp lực đất bị động.\nLựa chọn 4: Đúng – mô tả hiện tượng hóa lỏng.",
+          "studyContent_vi": "Giá trị cho phép lún cố kết: móng bè > móng băng > móng đơn. Nắm cơ chế lún cố kết và hóa lỏng."
+        },
+        {
+          "label": "R3 No.7",
+          "question": "杭基礎に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "杭の先端の地盤の許容応力度は、セメントミルク工法による埋め込み杭の場合より、アースドリル工法による場所打ちコンクリート杭の方が大きい。",
+            "杭の極限鉄直支持力は、極限先端支持力と極限周面摩擦力との和で表す。",
+            "地盤から求める杭の引抜き抵抗力に杭の自重を加える場合、地下水位以下の部分の浮力を考慮する。",
+            "杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、一般に摩擦杭の場合より支持杭の方が大きい。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。先端の地盤の許容応力度（先端支持力度）は打込み＞埋込み＞場所打ちの順で、場所打ち（アースドリル）の方が埋込み（セメントミルク）より小さい。記述は逆。\n選択肢2：極限鉄直支持力＝先端支持力＋周面摩擦力で正しい。\n選択肢3：地下水位以下の浮力を考慮し正しい。\n選択肢4：負の摩擦力は支持杭の方が大きく正しい。",
+          "studyContent": "先端支持力度：打込み＞埋込み＞場所打ち。周面摩擦力度：打込み＜埋込み＜場所打ち。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về móng cọc là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Ứng suất cho phép của đất tại mũi cọc, cọc bê tông đổ tại chỗ bằng phương pháp earth drill lớn hơn so với cọc chôn bằng phương pháp cement milk.",
+            "Sức chịu tải thẳng đứng giới hạn của cọc được biểu thị bằng tổng của sức chịu mũi giới hạn và sức ma sát thành giới hạn.",
+            "Khi cộng tự trọng cọc vào lực kháng nhổ của cọc tính từ đất nền, phải xét lực đẩy nổi của phần dưới mực nước ngầm.",
+            "Lực ma sát âm tác dụng lên cọc khi đất xung quanh cọc bị lún, nói chung ở cọc chống lớn hơn cọc ma sát."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Ứng suất cho phép tại mũi (sức chịu mũi) theo thứ tự cọc đóng > cọc chôn > cọc đổ tại chỗ, nên cọc đổ tại chỗ (earth drill) nhỏ hơn cọc chôn (cement milk). Câu này ngược.\nLựa chọn 2: Đúng – sức chịu thẳng đứng giới hạn = sức chịu mũi + ma sát thành.\nLựa chọn 3: Đúng – xét lực đẩy nổi dưới mực nước ngầm.\nLựa chọn 4: Đúng – lực ma sát âm ở cọc chống lớn hơn.",
+          "studyContent_vi": "Sức chịu mũi: cọc đóng > cọc chôn > cọc đổ tại chỗ. Sức ma sát thành: cọc đóng < cọc chôn < cọc đổ tại chỗ."
+        },
+        {
+          "label": "H30 No.7",
+          "question": "基礎構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "直接基礎の底面の面積が同じであれば、底面形状が正方形や長方形のように異なっていても、地盤の許容支持力は同じ値となる。",
+            "フローティング基礎は、建物重量と基礎等の構築による排土重量をつり合わせ、地盤中の応力が増加しないようにする基礎形式である。",
+            "基礎梁の剛性を大きくすることにより、基礎フーチングの沈下を平均化できる。",
+            "地盤の液状化は、地下水面下の緩い砂地盤が地震時に繰り返しせん断を受けることにより間隙水圧が上昇し、水中に砂粒子が浮遊状態となる現象である。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。地盤の許容支持力は基礎の形状係数の影響を受けるため、底面積が同じでも正方形と長方形では値が異なる。\n選択肢2：フローティング基礎の説明で正しい。\n選択肢3：基礎梁の剛性を高めるとフーチングの沈下を平均化でき正しい。\n選択肢4：液状化の説明で正しい。",
+          "studyContent": "許容支持力は形状係数で変わる。フローティング基礎・液状化の定義も押さえる。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu móng là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Nếu diện tích đáy móng trực tiếp như nhau thì dù hình dạng đáy khác nhau (vuông hay chữ nhật), sức chịu tải cho phép của đất vẫn cùng một giá trị.",
+            "Móng nổi (floating foundation) là dạng móng cân bằng trọng lượng công trình với trọng lượng đất đào do thi công móng, sao cho ứng suất trong đất không tăng.",
+            "Tăng độ cứng dầm móng thì có thể san đều lún của các đài móng.",
+            "Hóa lỏng nền đất là hiện tượng đất cát rời dưới mực nước ngầm chịu cắt lặp khi động đất làm áp lực nước lỗ rỗng tăng, hạt cát ở trạng thái lơ lửng trong nước."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Sức chịu tải cho phép của đất chịu ảnh hưởng của hệ số hình dạng, nên dù diện tích đáy như nhau thì hình vuông và chữ nhật có giá trị khác nhau.\nLựa chọn 2: Đúng – mô tả móng nổi.\nLựa chọn 3: Đúng – tăng độ cứng dầm móng thì san đều lún của đài móng.\nLựa chọn 4: Đúng – mô tả hóa lỏng.",
+          "studyContent_vi": "Sức chịu tải cho phép thay đổi theo hệ số hình dạng. Nắm định nghĩa móng nổi và hóa lỏng."
+        },
+        {
+          "label": "R2 No.7",
+          "question": "地盤及び基礎構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "直接基礎における地盤の許容応力度は、基礎荷重面の面積が同一ならば、その形状が異なっても同じ値となる。",
+            "直接基礎下における粘性土地盤の圧密沈下は、地中の応力の増加により長時間かかって土中の水が絞り出され、間隙が減少するために生じる。",
+            "圧密による許容沈下量は、独立基礎のほうがべた基礎に比べて小さい。",
+            "基礎梁の剛性を大きくすることにより、基礎の沈下量を平均化できる。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。許容応力度は形状係数の影響を受け、面積が同じでも形状が異なれば値は異なる。\n選択肢2：圧密沈下のメカニズムの説明で正しい。\n選択肢3：許容沈下量は独立基礎（約5cm）＜べた基礎（約10cm）で独立基礎の方が小さく正しい。\n選択肢4：基礎梁の剛性を高めると沈下量を平均化でき正しい。",
+          "studyContent": "許容応力度は形状係数で変わる。許容沈下量はべた基礎＞独立基礎。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về đất nền và kết cấu móng là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Ứng suất cho phép của đất ở móng trực tiếp, nếu diện tích đáy móng như nhau thì dù hình dạng khác nhau vẫn cùng một giá trị.",
+            "Lún cố kết của nền đất sét dưới móng trực tiếp xảy ra do ứng suất trong đất tăng làm nước trong đất bị ép ra trong thời gian dài, lỗ rỗng giảm.",
+            "Lượng lún cho phép do cố kết, móng đơn nhỏ hơn móng bè.",
+            "Tăng độ cứng dầm móng thì có thể san đều lượng lún của móng."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Ứng suất cho phép chịu ảnh hưởng của hệ số hình dạng, nên dù diện tích như nhau mà hình dạng khác nhau thì giá trị khác nhau.\nLựa chọn 2: Đúng – mô tả cơ chế lún cố kết.\nLựa chọn 3: Đúng – lượng lún cho phép móng đơn (~5cm) < móng bè (~10cm).\nLựa chọn 4: Đúng – tăng độ cứng dầm móng thì san đều lượng lún.",
+          "studyContent_vi": "Ứng suất cho phép thay đổi theo hệ số hình dạng. Lượng lún cho phép: móng bè > móng đơn."
+        },
+        {
+          "label": "R1 No.7",
+          "question": "杭基礎に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "基礎杭の周辺地盤に沈下が生じたときに杭に作用する負の摩擦力は、一般に摩擦杭の場合より支持杭の方が大きい。",
+            "杭と杭との中心間隔の最小値は、埋込み杭の場合、杭径の1.5倍とする。",
+            "基礎杭の先端の地盤の許容応力度は、アースドリル工法による場所打ちコンクリート杭の場合よりセメントミルク工法による埋込み杭の方が大きい。",
+            "外殻鋼管付きコンクリート杭の鋼管の腐食代（しろ）は、有効な防銭措置を行わない場合、１mm以上とする。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。杭の中心間隔の最小値は、埋込み杭で杭径の2倍以上、打込み杭で杭径の2.5倍以上か〄75cm以上。1.5倍は誤り。\n選択肢1：負の摩擦力は支持杭の方が大きく正しい。\n選択肢3：先端支持力度は埋込み（セメントミルク）＞場所打ち（アースドリル）で正しい。\n選択肢4：鋼管の腐食代は防銭措置がない場合1mm以上で正しい。",
+          "studyContent": "杭間隔の最小値：埋込み2D以上、打込み2.5D以上か〄75cm以上。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về móng cọc là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Lực ma sát âm tác dụng lên cọc khi đất xung quanh bị lún, nói chung ở cọc chống lớn hơn cọc ma sát.",
+            "Giá trị nhỏ nhất của khoảng cách tâm giữa các cọc, với cọc chôn, lấy bằng 1,5 lần đường kính cọc.",
+            "Ứng suất cho phép của đất tại mũi cọc, cọc chôn bằng phương pháp cement milk lớn hơn cọc bê tông đổ tại chỗ bằng phương pháp earth drill.",
+            "Lượng dự phòng ăn mòn của ống thép trong cọc bê tông bọc ống thép ngoài, khi không có biện pháp chống gỉ hữu hiệu, lấy từ 1mm trở lên."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Giá trị nhỏ nhất khoảng cách tâm cọc: cọc chôn ≥ 2 lần đường kính cọc, cọc đóng ≥ 2,5 lần đường kính và ≥ 75cm. 1,5 lần là sai.\nLựa chọn 1: Đúng – lực ma sát âm ở cọc chống lớn hơn.\nLựa chọn 3: Đúng – sức chịu mũi cọc chôn (cement milk) > cọc đổ tại chỗ (earth drill).\nLựa chọn 4: Đúng – lượng dự phòng ăn mòn ống thép khi không chống gỉ lấy ≥ 1mm.",
+          "studyContent_vi": "Giá trị nhỏ nhất khoảng cách tâm cọc: cọc chôn ≥2D, cọc đóng ≥2,5D và ≥75cm."
+        }
+      ]
+    },
+    {
+      "path": "免震・制振（構造計画）",
+      "vocabulary": "積層ゴム, アイソレータ, ダンパー, 固有周期, 長周期化, 免震層, ねじれ応答, 剛心, 重心, クリアランス, 応答加速度, 復元力, エネルギー吸収",
+      "questions": [
+        {
+          "label": "R5 No.4",
+          "question": "免震構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "免震構造は、建築物の基礎部分などに免震層を設け、上部構造の固有周期を長くすることで、地震時に上部構造へ伝わる加速度を低減する構造である。",
+            "積層ゴムアイソレータは、建築物の重量を支持しつつ、水平方向に変形することで上部構造の固有周期を長くする役割を担う。",
+            "免震構造において、上部構造の重心と免震層の剛心との距離（偏心）が大きいと、地震時にねじれ応答が生じやすくなる。",
+            "ダンパーは、免震層に生じる地震エネルギーを吸収する役割を担い、一般に建築物の鉄直方向の変形に対して抵抗するように設置する。"
+          ],
+          "answer": "4",
+          "explanation": "最も不適当なのは選択肢4。ダンパーは免震層の水平方向の変形に抵抗し、エネルギーを吸収する。「鉄直方向」は誤り。\n選択肢1：固有周期を長くし加速度を低減し正しい。\n選択肢2：積層ゴムは重量を支持し水平変形で長周期化させ正しい。\n選択肢3：偏心が大きいとねじれ応答が生じやすく正しい。",
+          "studyContent": "ダンパーは水平方向の変形に抵抗しエネルギーを吸収。免震は固有周期を長周期化する。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu cách chấn (免震) là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Kết cấu cách chấn là kết cấu đặt lớp cách chấn ở phần móng v.v..., kéo dài chu kỳ dao động riêng của kết cấu bên trên để giảm gia tốc truyền vào kết cấu bên trên khi động đất.",
+            "Gối cao su nhiều lớp (積層ゴムアイソレータ) vừa đỡ trọng lượng công trình vừa biến dạng theo phương ngang, đảm nhận vai trò kéo dài chu kỳ dao động riêng của kết cấu bên trên.",
+            "Trong kết cấu cách chấn, nếu khoảng cách (độ lệch tâm) giữa trọng tâm kết cấu bên trên và tâm cứng của lớp cách chấn lớn thì dễ phát sinh phản ứng xoắn khi động đất.",
+            "Bộ giảm chấn (ダンパー) đảm nhận vai trò hấp thụ năng lượng động đất sinh ra ở lớp cách chấn, nói chung được đặt để kháng lại biến dạng theo phương THẲNG ĐỨNG của công trình."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 4. Bộ giảm chấn kháng lại biến dạng theo phương NGANG và hấp thụ năng lượng; ghi 'phương thẳng đứng' là sai.\nLựa chọn 1: Đúng – cách chấn kéo dài chu kỳ riêng, giảm gia tốc.\nLựa chọn 2: Đúng – gối cao su nhiều lớp đỡ trọng lượng và kéo dài chu kỳ riêng.\nLựa chọn 3: Đúng – độ lệch tâm lớn dễ gây phản ứng xoắn.",
+          "studyContent_vi": "Bộ giảm chấn kháng biến dạng theo phương NGANG, hấp thụ năng lượng. Cách chấn = kéo dài chu kỳ (long chu kỳ hóa)."
+        },
+        {
+          "label": "R3 No.4",
+          "question": "免震構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "免震構造は、免震層を設けることで建築物の固有周期を短くし、地震時に上部構造へ入力される地震力を低減する構造である。",
+            "免震部材であるアイソレータは、上部構造の重量を支持するとともに、水平方向に柔らかく変形する機能を有する。",
+            "ダンパーは、免震層の変形を抑制するとともに、地震入力エネルギーを吸収する役割を担う。",
+            "免震構造において、上部構造の重心と免震層の剛心が一致しない場合、地震時にねじれ応答が生じやすくなる。"
+          ],
+          "answer": "1",
+          "explanation": "最も不適当なのは選択肢1。免震構造は固有周期を「長く」し（長周期化）、地震力を低減する。「短くし」は誤り。\n選択肢2：アイソレータは重量を支持し水平に柔らかく変形し正しい。\n選択肢3：ダンパーは変形を抑制しエネルギーを吸収し正しい。\n選択肢4：偏心があるとねじれ応答が生じやすく正しい。",
+          "studyContent": "免震は固有周期を「長く」する（長周期化）。短くするという表現に注意。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu cách chấn là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Kết cấu cách chấn là kết cấu, bằng cách đặt lớp cách chấn, làm RÚT NGẮN chu kỳ dao động riêng của công trình, qua đó giảm lực động đất tác dụng vào kết cấu bên trên.",
+            "Gối cách chấn (アイソレータ) vừa đỡ trọng lượng kết cấu bên trên, vừa có chức năng biến dạng mềm theo phương ngang.",
+            "Bộ giảm chấn (ダンパー) vừa hạn chế biến dạng của lớp cách chấn, vừa đảm nhận vai trò hấp thụ năng lượng động đất.",
+            "Trong kết cấu cách chấn, nếu trọng tâm kết cấu bên trên và tâm cứng của lớp cách chấn không trùng nhau thì dễ phát sinh phản ứng xoắn khi động đất."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 1. Kết cấu cách chấn làm KÉO DÀI (long chu kỳ hóa) chu kỳ dao động riêng, không phải rút ngắn. Ghi 'rút ngắn' là sai.\nLựa chọn 2: Đúng – gối cách chấn đỡ trọng lượng và biến dạng mềm phương ngang.\nLựa chọn 3: Đúng – bộ giảm chấn hạn chế biến dạng và hấp thụ năng lượng.\nLựa chọn 4: Đúng – lệch tâm dễ gây phản ứng xoắn.",
+          "studyContent_vi": "Cách chấn KÉO DÀI chu kỳ dao động riêng (long chu kỳ hóa). Cẩn thận với cách nói 'rút ngắn'."
+        },
+        {
+          "label": "R1 No.4",
+          "question": "免震構造に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "免震構造は、上部構造の固有周期を長くすることにより、地震時に上部構造に作用する加速度を低減する構造である。",
+            "免震構造は、軏弱な地盤よりも強固な地盤に建つ建築物に採用した場合のほうが、免震効果が小さくなる。",
+            "アイソレータは、上部構造の重量を支持するとともに、水平方向に柔らかく変形して上部構造の固有周期を長くする機能を有する。",
+            "ダンパーは、免震層に生じる地震エネルギーを吸収し、免震層の変形を抑制する役割を担う。"
+          ],
+          "answer": "2",
+          "explanation": "最も不適当なのは選択肢2。軏弱地盤では長周期成分が卓越し、長周期化した免震建物と共振しやすく免震効果が低下しやすい。逆に強固な地盤の方が免震効果は大きいので、「強固な地盤で効果が小さくなる」は誤り。\n選択肢1：固有周期を長くし加速度を低減し正しい。\n選択肢3：アイソレータは重量を支持し長周期化させ正しい。\n選択肢4：ダンパーはエネルギーを吸収し変形を抑制し正しい。",
+          "studyContent": "免震効果は強固な地盤で大きい。軏弱地盤（長周期）では共振により効果が低下。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "Phát biểu nào sau đây về kết cấu cách chấn là KHÔNG thích hợp nhất?",
+          "choices_vi": [
+            "Kết cấu cách chấn là kết cấu, bằng cách kéo dài chu kỳ dao động riêng của kết cấu bên trên, làm giảm gia tốc tác dụng vào kết cấu bên trên khi động đất.",
+            "Kết cấu cách chấn, khi áp dụng cho công trình xây trên nền đất CỨNG CHẮC thì hiệu quả cách chấn NHỎ hơn so với trên nền đất mềm yếu.",
+            "Gối cách chấn (アイソレータ) vừa đỡ trọng lượng kết cấu bên trên, vừa có chức năng biến dạng mềm theo phương ngang để kéo dài chu kỳ dao động riêng của kết cấu bên trên.",
+            "Bộ giảm chấn (ダンパー) hấp thụ năng lượng động đất sinh ra ở lớp cách chấn và đảm nhận vai trò hạn chế biến dạng của lớp cách chấn."
+          ],
+          "explanation_vi": "Phát biểu KHÔNG thích hợp nhất là lựa chọn 2. Trên nền đất mềm yếu, thành phần dao động chu kỳ dài chiếm ưu thế và dễ cộng hưởng với chu kỳ dài của công trình cách chấn nên hiệu quả cách chấn GIẢM. Ngược lại, trên nền đất cứng chắc hiệu quả cách chấn LỚN hơn. Vì vậy 'trên nền cứng chắc hiệu quả nhỏ hơn' là sai.\nLựa chọn 1: Đúng – kéo dài chu kỳ riêng, giảm gia tốc.\nLựa chọn 3: Đúng – gối cách chấn đỡ trọng lượng và kéo dài chu kỳ riêng.\nLựa chọn 4: Đúng – bộ giảm chấn hấp thụ năng lượng và hạn chế biến dạng lớp cách chấn.",
+          "studyContent_vi": "Cách chấn hiệu quả LỚN trên nền cứng chắc; trên nền mềm yếu (chu kỳ dài) hiệu quả giảm do cộng hưởng."
         }
       ]
     }
