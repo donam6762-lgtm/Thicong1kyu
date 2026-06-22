@@ -1,1061 +1,547 @@
 {
   "topics": [
     {
-      "path": "1.5 建築材料 > 1.5.1 鋼材・金属材料",
-      "vocabulary": "炭素当量(Ceq) / 靱性 / 焼入れ・焼戻し・焼ならし / 低降伏点鋼 / TMCP鋼 / 耐火鋼(FR鋼) / SUS304(オーステナイト系・非磁性) / SUS430(フェライト系・磁性あり) / 緑青 / 線膨張係数 / ヤング係数",
+      "path": "1.2 建築環境工学 > 1.2.1 日照・日射",
+      "vocabulary": "日照 / 日射 / 日影 / 可照時間 / 日照時間 / 隣棟間隔比 / 水平ルーバー / 縦ルーバー / ライトシェルフ / 全天日射 / 直達日射 / 天空日射 / 昼光率 / 全天空照度 / 永久日影 / 日影規制",
       "questions": [
         {
           "label": "Q1",
-          "question": "建築に用いられる金属材料に関する一般的な記述として、最も不適当なものはどれか。",
+          "question": "【令和7年（2025年）午前 イ 問1】日照及び日射に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "銅は、熱伝導率及び電気伝導率が大きく、湿気中では緑青を生じ耐食性が増す。",
-            "黄銅（真ちゅう）は、銅と亜鉛の合金であり、亜鉛が30％から40％のものである。",
-            "亜鉛は、鉄よりもイオン化傾向が大きいため、めっき材として使われる。",
-            "アルミニウムの線膨張係数は、鋼の約4倍である。"
+            "水平ルーバーは南面の日射を遮るのに効果があり、縦ルーバーは東西面の日射を遮るのに効果がある。",
+            "同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔比を小さくする必要がある。",
+            "北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。",
+            "ライトシェルフは窓の中間に取り付けた庇であり、直射日光を遮蔽しつつ、庇上部で反射した自然光を室内の奥まで取り入れる装置である。"
           ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。銅は熱・電気伝導率が大きく、湿気中で緑青を生じて耐食性が増す。\n選択肢2：適当。黄銅（真ちゅう）は銅と亜鉛の合金で、亜鉛が30〜40％のもの。\n選択肢3：適当。亜鉛は鉄よりイオン化傾向が大きいため、犠牲防食としてめっき材に使われる。\n選択肢4：不適当。アルミニウムの線膨張係数は鋼の約2倍であり、約4倍ではない。",
-          "studyContent": "アルミニウムの線膨張係数は鋼の約2倍。銅・黄銅・亜鉛めっきの基本的性質と数値感覚を押さえる。",
+          "answer": "2",
+          "explanation": "【解説01】\n日照及び日射に関する問題です。\n\n選択肢1（正）：水平ルーバーは、主に夏季、太陽高度が高くなり、南面の日射量が多くなるので効果を発揮します。縦ルーバーは、太陽高度が低い状況での日射を遮るのに効果を発揮します。\n選択肢2（誤）：同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔比を大きくする必要があります。\n選択肢3（正）：北緯35°における南面の垂直壁面の可照時間は、春・秋分＞冬至＞夏至となるので、選択肢の記述は正しくなります。\n選択肢4（正）：選択肢の説明の通りになります。\nまとめ：この分野では、垂直壁面の可照時間の問題、水平・縦ルーバーの説明の語句の入れ替え問題が頻出となっているので、必ず押さえておきましょう。\n\n【解説02】\n最も不適当なのは、「同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔比を小さくする必要がある。」です。\n\n選択肢1：南面は夏の太陽が高いので水平ルーバーが効きやすく、東西面は朝夕の太陽が低い角度で入るので縦ルーバーが効きやすいです。\n選択肢2（誤）：緯度が高いほど太陽が低く、建物の影が長くなるので、北側の建物に日が当たりにくくなります。したがって同じ日照時間を確保するなら、隣棟間隔比は小さくではなく大きく取る必要があります。\n選択肢3：夏至は太陽が高く、日の出・日の入り方向も北寄りになる時間帯があるため、南面の垂直壁には日が当たりにくい時間が増えます。冬至は太陽の通り道が南寄りで、南面壁に当たりやすく、結果として冬至のほうが可照時間が長くなりやすいです。\n選択肢4：ライトシェルフは窓の中ほどに設ける板状の部材で、下側は日射をさえぎり、上側は反射光を天井方向へ回して室内の奥まで明るさを届ける考え方です。\nまとめ：この問題は、日射遮蔽と日照の基本イメージを押さえると解きやすいです。水平ルーバーは南面、縦ルーバーは東西面が基本です。緯度が高いほど太陽が低くなり影が長くなるので、同じ日照時間を確保するには隣棟間隔比は大きくする方向です。南面の垂直壁は、夏至より冬至のほうが当たりやすい時間が増えることがあります。",
+          "studyContent": "■ルーバー：水平ルーバー＝南面（太陽高度が高い夏の日射）、縦ルーバー＝東西面（太陽高度が低い朝夕の日射）。\n■可照時間（南面垂直壁面、北緯35°）：春・秋分＞冬至＞夏至。なお水平面は夏至が最長。\n■隣棟間隔比：緯度が高い→太陽高度が低い→影が長い→同じ日照時間確保には間隔比を大きくとる。\n■ライトシェルフ：窓中間の庇。下部で直射を遮り、上面反射光を室奥へ導く昼光利用装置。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu kim loại dùng trong xây dựng là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần イ Câu 1】Trong các mô tả về chiếu nắng (nhật chiếu) và bức xạ mặt trời (nhật xạ), đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Đồng có độ dẫn nhiệt và dẫn điện lớn; trong môi trường ẩm sinh lớp gỉ xanh (lục thanh) làm tăng khả năng chống ăn mòn.",
-            "Đồng thau là hợp kim của đồng và kẽm, với hàm lượng kẽm khoảng 30〜40%.",
-            "Kẽm có xu hướng ion hóa lớn hơn sắt nên được dùng làm vật liệu mạ.",
-            "Hệ số giãn nở dài của nhôm bằng khoảng 4 lần của thép."
+            "Louver ngang có hiệu quả che bức xạ mặt trời ở mặt Nam, còn louver đứng có hiệu quả che bức xạ ở mặt Đông – Tây.",
+            "Để đảm bảo cùng một thời gian chiếu nắng, vĩ độ càng cao thì càng phải làm NHỎ tỷ lệ khoảng cách giữa các tòa nhà theo hướng Bắc – Nam.",
+            "Khả chiếu thời gian (thời gian có thể chiếu nắng) của mặt tường thẳng đứng hướng Nam ở vĩ độ Bắc 35° thì ngày Đông chí dài hơn ngày Hạ chí.",
+            "Light shelf (kệ sáng) là tấm ô văng gắn ở giữa cửa sổ, vừa chắn ánh nắng trực tiếp vừa đưa ánh sáng tự nhiên phản xạ ở mặt trên của kệ vào sâu trong phòng."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng. Đồng dẫn nhiệt/điện tốt, lớp gỉ xanh trong môi trường ẩm làm tăng khả năng chống ăn mòn.\nLựa chọn 2: Đúng. Đồng thau là hợp kim đồng-kẽm với kẽm 30〜40%.\nLựa chọn 3: Đúng. Kẽm ion hóa mạnh hơn sắt nên dùng mạ bảo vệ hy sinh.\nLựa chọn 4: KHÔNG phù hợp. Hệ số giãn nở dài của nhôm chỉ khoảng 2 lần của thép, không phải 4 lần.",
-          "studyContent_vi": "Hệ số giãn nở dài của nhôm ≈ 2 lần thép. Nắm tính chất cơ bản của đồng, đồng thau và lớp mạ kẽm."
+          "explanation_vi": "【Giải thích 01】\nBài về chiếu nắng và bức xạ mặt trời.\n\nLựa chọn 1 (Đúng): Louver ngang phát huy hiệu quả chủ yếu vào mùa hè khi mặt trời lên cao và lượng bức xạ mặt Nam lớn. Louver đứng phát huy hiệu quả che bức xạ khi mặt trời ở độ cao thấp.\nLựa chọn 2 (Sai): Để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao thì càng phải làm LỚN tỷ lệ khoảng cách Bắc–Nam giữa các tòa nhà.\nLựa chọn 3 (Đúng): Khả chiếu thời gian mặt tường đứng hướng Nam ở vĩ độ Bắc 35° là Xuân/Thu phân > Đông chí > Hạ chí, nên mô tả đúng.\nLựa chọn 4 (Đúng): Đúng như mô tả.\nTóm tắt: Lĩnh vực này thường ra đề về khả chiếu thời gian của tường đứng và đề tráo đổi câu chữ giữa louver ngang/đứng, cần nắm chắc.\n\n【Giải thích 02】\nMô tả KHÔNG phù hợp nhất là 'Để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao càng phải làm NHỎ tỷ lệ khoảng cách Bắc–Nam'.\n\nLựa chọn 1: Mặt Nam có mặt trời mùa hè lên cao nên louver ngang dễ phát huy hiệu quả; mặt Đông–Tây có nắng sáng/chiều vào ở góc thấp nên louver đứng dễ phát huy hiệu quả.\nLựa chọn 2 (Sai): Vĩ độ càng cao mặt trời càng thấp, bóng nhà càng dài, nhà phía Bắc khó nhận nắng. Do đó để đảm bảo cùng thời gian chiếu nắng, tỷ lệ khoảng cách phải lấy LỚN chứ không nhỏ.\nLựa chọn 3: Hạ chí mặt trời cao, hướng mọc/lặn thiên về phía Bắc trong một số khung giờ nên tường đứng hướng Nam có nhiều thời gian khó nhận nắng. Đông chí đường đi mặt trời thiên về Nam, dễ chiếu vào tường Nam, nên Đông chí khả chiếu thời gian dài hơn.\nLựa chọn 4: Light shelf là tấm bản đặt khoảng giữa cửa sổ, phía dưới chắn bức xạ, phía trên hắt ánh sáng phản xạ lên trần để đưa độ sáng vào sâu trong phòng.\nTóm tắt: Nắm hình dung cơ bản về che bức xạ và chiếu nắng sẽ dễ giải. Cơ bản: louver ngang = mặt Nam, louver đứng = mặt Đông–Tây. Vĩ độ càng cao mặt trời càng thấp, bóng càng dài, nên để đảm bảo cùng thời gian chiếu nắng phải tăng tỷ lệ khoảng cách. Tường đứng hướng Nam có thể có nhiều thời gian nhận nắng vào Đông chí hơn Hạ chí.",
+          "studyContent_vi": "■ Louver: louver ngang = mặt Nam (nắng mùa hè khi mặt trời cao), louver đứng = mặt Đông–Tây (nắng sáng/chiều khi mặt trời thấp).\n■ Khả chiếu thời gian (tường đứng hướng Nam, vĩ độ Bắc 35°): Xuân/Thu phân > Đông chí > Hạ chí. Mặt phẳng ngang thì Hạ chí dài nhất.\n■ Tỷ lệ khoảng cách giữa nhà: vĩ độ cao → mặt trời thấp → bóng dài → phải lấy khoảng cách lớn hơn.\n■ Light shelf: ô văng giữa cửa sổ, chắn nắng trực tiếp ở dưới, đưa ánh sáng phản xạ mặt trên vào sâu phòng."
         },
         {
           "label": "Q2",
-          "question": "鋼材に関する一般的な記述として、最も不適当なものはどれか。",
+          "question": "【令和5年（2023年）午前 イ 問1】日照及び日射に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "鋼は、炭素量が多くなると、引張強さは増加し、靱性は低下する。",
-            "SN490BやSN490Cは、炭素当量の上限の規定がない建築構造用圧延鋼材である。",
-            "鋼材の材質を変化させるための熱処理には、焼入れ、焼戻し、焼ならし等の方法がある。",
-            "低降伏点鋼は、制振装置に使用され、地震時に早期に降伏させることで制振効果を発揮する。"
+            "北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長い。",
+            "日影規制は、中高層建築物が敷地境界線から一定の距離を超える範囲に生じさせる、冬至日における日影の時間を制限している。",
+            "水平ルーバーは東西面の日射を遮るのに効果があり、縦ルーバーは南面の日射を遮るのに効果がある。",
+            "全天日射は、直達日射と天空日射を合計したものである。"
           ],
-          "answer": "2",
-          "explanation": "選択肢1：適当。炭素量が多くなると引張強さは増加し、靱性は低下する。\n選択肢2：不適当。SN490B・SN490CはJISで炭素当量の上限が規定された、溶接性を改善した建築構造用圧延鋼材であり、上限規定がないという記述は誤り。\n選択肢3：適当。熱処理には焼入れ・焼戻し・焼ならし等がある。\n選択肢4：適当。低降伏点鋼は制振装置に使われ、地震時に早期降伏して制振効果を発揮する。",
-          "studyContent": "SN490B/Cは炭素当量等の上限を規定して溶接性を改善した鋼材。C種はB種より溶接性を向上させている。",
+          "answer": "3",
+          "explanation": "【解説01】\n日照・日射・日影に関する出題です。\n\n選択肢1（正）：北緯35°における南面の垂直壁面の可照時間は、太陽高度の高い夏至が最短となります。春秋分＞冬至＞夏至。\n選択肢2（正）：設問の通りです。具体的な数値は条例などで定められています。\n選択肢3（誤）：縦ルーバーは東西面の日射を遮るのに効果があり、水平ルーバーは南面の日射を遮るのに効果があります。\n選択肢4（正）：設問の通りです。\n\n【解説02】\n日照及び日射に関する記述について、最も不適当なものを選ぶ問題の解説を行います。\n\n選択肢1：設問の通り、北緯35°では、夏至日における南面の垂直壁面の可照時間は最も短く、冬至日には最も長くなります。したがって、この選択肢は適当です。\n選択肢2：日影規制は、冬至日における日影の時間を制限するもので、特に中高層建築物が敷地境界線から一定の距離を超える範囲での影響を考慮します。この記述は適当です。\n選択肢3：水平ルーバーは主に南面の日射を遮るのに効果があり、縦ルーバーは東西面の日射を遮るのに効果があります。この記述は不適当です。\n選択肢4：全天日射は、直達日射（太陽から直接届く光）と天空日射（大気中の散乱光）を合計したものです。この記述は適当です。\nまとめ：この問題では、水平ルーバーと縦ルーバーの遮光効果についての説明が逆になっています。他の選択肢は日照および日射に関する適切な内容となっています。\n\n【解説03】\n日照及び日射に関する分野に関しては、出題範囲が限られています。法律に関わる難しい問題も出題されたりしますが、基本的な部分を押さえておけば、消去法で解くことができます。では、問題を見てみましょう。\n\n選択肢1：基礎的な知識になりますが、北緯35°とは、日本の位置の話になります。このことを念頭に入れた上で問題を見てみましょう。北緯35°における南面の垂直壁面の可照時間は、夏至日より冬至日のほうが長いです。設問の記述は正しいといえます。逆に、水平面の可照時間は夏至日のほうが冬至日より長くなりますので、併せて覚えましょう。\n選択肢2：設問の記述は適当です。冬至日において、中高層建築物は大きな影を発生させます。このため、冬至日における日影の時間を制限する「日影規制」があります。\n選択肢3：水平ルーバーを東西面に設置すると、西日などが水平ルーバーから入ってきてしまい、不快な思いをすることとなります。水平ルーバーを南面に設置すれば、夏は日差しを遮ってくれます。加えて、冬には、高度が低くなった太陽からの日差しが入ってくるため、部屋を暖かくすることができます。ルーバーは、方角に応じて使い分けましょう。設問の記述は誤りです。\n選択肢4：設問の記述は適当です。全天日射＝直達日射＋天空日射となります。\nまとめ：この分野の出題に関しては、小学校や中学校で習うような問題から、法律などの問題まで、多義にわたります。しかしながら、基本的な分野を押さえておけば、十分です。法律などの難しい分野の勉強は、後回しにするほうが効率がいいといえます。",
+          "studyContent": "■ルーバー（重要）：水平ルーバー＝南面、縦ルーバー＝東西面。\n■可照時間（南面垂直壁面）：春秋分＞冬至＞夏至。\n■日影規制：冬至日の日影時間を規制（中高層建築物、敷地境界線から一定距離超の範囲）。\n■全天日射＝直達日射（太陽から直接）＋天空日射（大気の散乱光）。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về thép là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 5 (2023) – Buổi sáng phần イ Câu 1】Trong các mô tả về chiếu nắng và bức xạ mặt trời, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Khi hàm lượng cacbon tăng, độ bền kéo của thép tăng còn độ dai (độ bền va đập) giảm.",
-            "SN490B và SN490C là thép cán dùng cho kết cấu xây dựng KHÔNG có quy định giới hạn trên của đương lượng cacbon.",
-            "Để thay đổi tính chất vật liệu thép có các phương pháp nhiệt luyện như tôi, ram, thường hóa.",
-            "Thép có giới hạn chảy thấp được dùng trong thiết bị giảm chấn, phát huy tác dụng giảm chấn nhờ chảy dẻo sớm khi động đất."
+            "Khả chiếu thời gian của mặt tường thẳng đứng hướng Nam ở vĩ độ Bắc 35° thì ngày Đông chí dài hơn ngày Hạ chí.",
+            "Quy định về bóng đổ (nhật ảnh) giới hạn thời gian bóng đổ vào ngày Đông chí mà công trình cao tầng/trung tầng tạo ra ở phạm vi vượt quá một khoảng cách nhất định tính từ ranh giới khu đất.",
+            "Louver ngang có hiệu quả che bức xạ ở mặt Đông – Tây, còn louver đứng có hiệu quả che bức xạ ở mặt Nam.",
+            "Bức xạ toàn bầu trời (toàn thiên nhật xạ) là tổng của bức xạ trực tiếp (trực đạt nhật xạ) và bức xạ khuếch tán bầu trời (thiên không nhật xạ)."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng. Cacbon tăng → bền kéo tăng, độ dai giảm.\nLựa chọn 2: KHÔNG phù hợp. SN490B・C theo JIS CÓ quy định giới hạn trên của đương lượng cacbon, nhằm cải thiện tính hàn; nói không có quy định là sai.\nLựa chọn 3: Đúng. Có tôi, ram, thường hóa.\nLựa chọn 4: Đúng. Thép giới hạn chảy thấp dùng cho thiết bị giảm chấn.",
-          "studyContent_vi": "SN490B/C là thép cải thiện tính hàn nhờ quy định giới hạn trên đương lượng cacbon; loại C có tính hàn tốt hơn loại B."
+          "explanation_vi": "【Giải thích 01】\nĐề về chiếu nắng・bức xạ・bóng đổ.\n\nLựa chọn 1 (Đúng): Khả chiếu thời gian mặt tường đứng hướng Nam ở vĩ độ Bắc 35° ngắn nhất vào Hạ chí (mặt trời cao). Thứ tự: Xuân/Thu phân > Đông chí > Hạ chí (do đó Đông chí dài hơn Hạ chí → mô tả đúng).\nLựa chọn 2 (Đúng): Đúng như đề. Trị số cụ thể do điều lệ địa phương quy định.\nLựa chọn 3 (Sai): Louver đứng hiệu quả che mặt Đông–Tây, louver ngang hiệu quả che mặt Nam.\nLựa chọn 4 (Đúng): Đúng như đề.\n\n【Giải thích 02】\nGiải thích bài chọn mô tả KHÔNG phù hợp nhất.\n\nLựa chọn 1: Đúng như đề; ở Bắc 35°, khả chiếu thời gian tường đứng hướng Nam ngắn nhất vào Hạ chí và dài nhất vào Đông chí. Lựa chọn này phù hợp.\nLựa chọn 2: Quy định bóng đổ giới hạn thời gian bóng đổ ngày Đông chí, đặc biệt xét ảnh hưởng của công trình cao/trung tầng ở phạm vi vượt một khoảng cách nhất định từ ranh giới đất. Mô tả này phù hợp.\nLựa chọn 3: Louver ngang chủ yếu che mặt Nam, louver đứng che mặt Đông–Tây. Mô tả này KHÔNG phù hợp.\nLựa chọn 4: Bức xạ toàn bầu trời là tổng của bức xạ trực tiếp (ánh sáng đến thẳng từ mặt trời) và bức xạ khuếch tán bầu trời (ánh sáng tán xạ trong khí quyển). Mô tả này phù hợp.\nTóm tắt: Bài này đảo ngược hiệu quả che của louver ngang và đứng. Các lựa chọn khác đều là nội dung đúng về chiếu nắng và bức xạ.\n\n【Giải thích 03】\nLĩnh vực chiếu nắng・bức xạ có phạm vi ra đề hạn chế. Có khi ra cả câu khó liên quan luật, nhưng nắm phần cơ bản thì có thể dùng phương pháp loại trừ để giải.\n\nLựa chọn 1: Kiến thức cơ bản: Bắc 35° là vị trí của Nhật Bản. Khả chiếu thời gian tường đứng hướng Nam ở Bắc 35° vào Đông chí dài hơn Hạ chí → mô tả đúng. Ngược lại, khả chiếu thời gian mặt phẳng ngang thì Hạ chí dài hơn Đông chí, nên nhớ kèm theo.\nLựa chọn 2: Mô tả phù hợp. Vào Đông chí, công trình cao/trung tầng tạo bóng lớn, nên có 'quy định bóng đổ' giới hạn thời gian bóng đổ ngày Đông chí.\nLựa chọn 3: Nếu đặt louver ngang ở mặt Đông–Tây thì nắng Tây sẽ lọt vào dưới louver ngang gây khó chịu. Đặt louver ngang ở mặt Nam thì mùa hè che được nắng, còn mùa đông mặt trời xuống thấp nắng vẫn vào làm ấm phòng. Phải dùng louver theo hướng. Mô tả sai.\nLựa chọn 4: Mô tả phù hợp. Bức xạ toàn bầu trời = bức xạ trực tiếp + bức xạ khuếch tán bầu trời.\nTóm tắt: Đề lĩnh vực này trải rộng từ kiến thức cấp tiểu học/trung học đến luật. Nhưng nắm phần cơ bản là đủ; phần luật khó nên để học sau sẽ hiệu quả hơn.",
+          "studyContent_vi": "■ Louver (quan trọng): louver ngang = mặt Nam, louver đứng = mặt Đông–Tây.\n■ Khả chiếu thời gian (tường đứng hướng Nam): Xuân/Thu phân > Đông chí > Hạ chí.\n■ Quy định bóng đổ: giới hạn thời gian bóng đổ ngày Đông chí (công trình cao/trung tầng, phạm vi vượt khoảng cách nhất định từ ranh giới đất).\n■ Bức xạ toàn bầu trời = bức xạ trực tiếp (trực tiếp từ mặt trời) + bức xạ khuếch tán bầu trời (ánh sáng tán xạ trong khí quyển)."
         },
         {
           "label": "Q3",
-          "question": "建築に用いられる金属材料に関する記述として、最も不適当なものはどれか。",
+          "question": "【平成30年（2018年）午前 問2】日照、日射及び日影に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "ステンレス鋼は、ニッケルやクロムを含み、炭素量が少ないものほど耐食性が良い。",
-            "銅は、熱や電気の伝導率が高く、湿気中では緑青を生じ耐食性が増す。",
-            "鉛は、X線遮断効果が大きく、酸その他の薬液に対する抵抗性や耐アルカリ性にも優れている。",
-            "チタンは、鋼材に比べ密度が小さく、耐食性に優れている。"
+            "水平ルーバーは西日を遮るのに効果があり、縦ルーバーは夏季の南面の日射を防ぐのに効果がある。",
+            "北緯35度における南面の垂直壁面の可照時間は、春分より夏至の方が短い。",
+            "同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔を大きくとる必要がある。",
+            "建物の高さが同じである場合、東西に幅が広い建物ほど日影の影響の範囲が大きくなる。"
           ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。ステンレス鋼はニッケル・クロムを含み、炭素量が少ないほど耐食性が良い。\n選択肢2：適当。銅は伝導率が高く、緑青で耐食性が増す。\n選択肢3：不適当。鉛はX線遮断効果が大きく酸など薬液への抵抗性はあるが、耐アルカリ性には劣る。\n選択肢4：適当。チタンは鋼より密度が小さく軽量で、耐食性に優れる。",
-          "studyContent": "鉛は耐アルカリ性に劣る。金属の性質は鋼を基準とした大小関係で整理する。",
+          "answer": "1",
+          "explanation": "【解説01】\n正解は1です。\n\n1（誤）：縦ルーバーは西日を遮るのに効果があり、水平ルーバーは夏季の南面の日射を防ぐのに効果があります。\n2（正）：設問通りです。夏至は太陽高度が高い為、南面の垂直壁面の可照時間は、春分の日及び秋分の日より短くなります。\n3（正）：設問通りです。緯度の高い地域の方が太陽高度が低く、日照時間が短いです。その為、同じ日照時間を確保するためには、緯度が高くなるほど建築物の南北の隣棟間隔を大きくとる必要があります。\n4（正）：設問通りです。\n\n【解説02】\n正解は1です。\n\n1（誤）：西日は太陽高度が低く、水平面に対しての角度が小さくなります。水平に近い西日に対して水平に設置されたルーバーの遮蔽効果は小さく、よって西日を遮るためには垂直ルーバーの方が効果があります。\n2（正）：夏至は１年の中で太陽高度が一番高くなります。太陽高度が高いということは垂直面より水平面への日照時間が長くなります。反対に秋春分は太陽高度が低いため垂直面への日照時間が長くなります。\n3（正）：緯度が高くなるほど太陽高度は低くなり、日照時間は短くなります。隣棟間隔は隣棟間隔係数に比例し、緯度が高くなるほどこの係数は大きくなります。\n4（正）：建物の日影は日影曲線図によって求められます。同じ高さの建物で比較した場合、東西方向に長い建物の方が北側へ与える日影の影響は大きくなります。\n\n【解説03】\n以下、選択肢ごとに解説します。\n\n選択肢1（誤）：縦ルーバーは西日を遮るのに効果があり、水平ルーバーは夏季の南面の日射を防ぐのに効果があります。\n選択肢2（正）：北緯35度における南面の垂直壁面の可照時間は春分より夏至の方が短いです。太陽位置図を理解しましょう。\n選択肢3（正）：緯度の高い地域の方が太陽高度が低く、日照時間が短いです。その為、同じ日照時間を確保するためには、緯度が高くなるほど建築物の南北の隣棟間隔を大きくとる必要があります。\n選択肢4（正）：同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔を大きくとる必要があります。",
+          "studyContent": "■ルーバー：縦ルーバー＝西日・東西面（太陽高度が低い）、水平ルーバー＝夏の南面（太陽高度が高い）。\n■可照時間（南面垂直壁面）：夏至＜春秋分。水平面は夏至が最長。\n■隣棟間隔：緯度が高い→間隔を大きく。\n■日影：同じ高さなら東西に長い建物ほど日影の影響範囲が大きい。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu kim loại dùng trong xây dựng là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Heisei 30 (2018) – Buổi sáng Câu 2】Trong các mô tả về chiếu nắng, bức xạ mặt trời và bóng đổ, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Thép không gỉ chứa niken và crom; hàm lượng cacbon càng ít thì khả năng chống ăn mòn càng tốt.",
-            "Đồng có độ dẫn nhiệt/điện cao, trong môi trường ẩm sinh gỉ xanh làm tăng chống ăn mòn.",
-            "Chì có hiệu quả chắn tia X lớn, có khả năng kháng axit và các dung dịch hóa chất, đồng thời cũng kháng kiềm tốt.",
-            "Titan có khối lượng riêng nhỏ hơn thép và chống ăn mòn tốt."
+            "Louver ngang có hiệu quả che nắng chiều (nắng Tây), còn louver đứng có hiệu quả ngăn bức xạ mặt Nam vào mùa hè.",
+            "Khả chiếu thời gian của mặt tường thẳng đứng hướng Nam ở vĩ độ Bắc 35° thì ngày Hạ chí ngắn hơn Xuân phân.",
+            "Để đảm bảo cùng một thời gian chiếu nắng, vĩ độ càng cao thì càng phải lấy khoảng cách Bắc – Nam giữa các tòa nhà lớn hơn.",
+            "Khi chiều cao công trình như nhau, công trình càng rộng theo hướng Đông – Tây thì phạm vi ảnh hưởng của bóng đổ càng lớn."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng. Thép không gỉ ít cacbon thì chống ăn mòn tốt hơn.\nLựa chọn 2: Đúng.\nLựa chọn 3: KHÔNG phù hợp. Chì chắn tia X tốt và kháng axit, nhưng KÉM về kháng kiềm.\nLựa chọn 4: Đúng. Titan nhẹ và chống ăn mòn tốt.",
-          "studyContent_vi": "Chì kém kháng kiềm. Hãy sắp xếp tính chất kim loại theo so sánh lớn-nhỏ lấy thép làm chuẩn."
+          "explanation_vi": "【Giải thích 01】\nĐáp án (mô tả sai) là 1.\n\n1 (Sai): Louver đứng hiệu quả che nắng Tây; louver ngang hiệu quả ngăn bức xạ mặt Nam mùa hè.\n2 (Đúng): Hạ chí mặt trời cao nên khả chiếu thời gian tường đứng hướng Nam ngắn hơn Xuân phân/Thu phân.\n3 (Đúng): Vùng vĩ độ cao mặt trời thấp, thời gian chiếu nắng ngắn. Do đó để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao càng phải lấy khoảng cách Bắc–Nam giữa công trình lớn hơn.\n4 (Đúng): Đúng như đề.\n\n【Giải thích 02】\nĐáp án là 1.\n\n1 (Sai): Nắng Tây có độ cao mặt trời thấp, góc so với mặt phẳng ngang nhỏ. Louver đặt ngang ít hiệu quả với nắng Tây gần phương ngang, nên để che nắng Tây louver đứng hiệu quả hơn.\n2 (Đúng): Hạ chí có độ cao mặt trời cao nhất trong năm. Mặt trời càng cao thì thời gian chiếu nắng lên mặt phẳng ngang dài hơn mặt đứng. Ngược lại Xuân/Thu phân mặt trời thấp nên thời gian chiếu nắng lên mặt đứng dài hơn.\n3 (Đúng): Vĩ độ càng cao độ cao mặt trời càng thấp, thời gian chiếu nắng càng ngắn. Khoảng cách giữa nhà tỷ lệ với hệ số khoảng cách giữa nhà, vĩ độ càng cao hệ số này càng lớn.\n4 (Đúng): Bóng đổ công trình được tính bằng biểu đồ đường cong bóng đổ. So sánh cùng chiều cao, công trình dài theo hướng Đông–Tây tạo ảnh hưởng bóng đổ về phía Bắc lớn hơn.\n\n【Giải thích 03】\nGiải thích theo từng lựa chọn.\n\nLựa chọn 1 (Sai): Louver đứng hiệu quả che nắng Tây, louver ngang hiệu quả ngăn bức xạ mặt Nam mùa hè.\nLựa chọn 2 (Đúng): Khả chiếu thời gian tường đứng hướng Nam ở Bắc 35° vào Hạ chí ngắn hơn Xuân phân. Hãy hiểu biểu đồ vị trí mặt trời.\nLựa chọn 3 (Đúng): Vùng vĩ độ cao mặt trời thấp, thời gian chiếu nắng ngắn. Do đó vĩ độ càng cao càng phải lấy khoảng cách Bắc–Nam giữa công trình lớn hơn.\nLựa chọn 4 (Đúng): Để đảm bảo cùng thời gian chiếu nắng, vĩ độ càng cao càng phải lấy khoảng cách Bắc–Nam lớn hơn.",
+          "studyContent_vi": "■ Louver: louver đứng = nắng Tây/Đông–Tây (mặt trời thấp), louver ngang = mặt Nam mùa hè (mặt trời cao).\n■ Khả chiếu thời gian (tường đứng hướng Nam): Hạ chí < Xuân/Thu phân. Mặt phẳng ngang thì Hạ chí dài nhất.\n■ Khoảng cách giữa nhà: vĩ độ cao → lấy khoảng cách lớn.\n■ Bóng đổ: cùng chiều cao, công trình càng dài theo Đông–Tây thì phạm vi ảnh hưởng bóng đổ càng lớn."
         },
         {
           "label": "Q4",
-          "question": "鋼材に関する一般的な記述として、最も不適当なものはどれか。",
+          "question": "【令和2年（2020年）午前 問2】日照及び日射に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "ある特定の温度以上まで加熱した後、急冷する焼入れ処理により、鋼は硬くなり、強度が増加する。",
-            "鋼は、炭素量が多くなると、引張強さは増加し、靱性は低下する。",
-            "SN490BやSN490Cは、炭素当量等の上限を規定して溶接性を改善した鋼材である。",
-            "低降伏点鋼は、モリブデン等の元素を添加することで、強度を低くし延性を高めた鋼材である。"
+            "同じ日照時間を確保するためには、緯度が高くなるほど南北の隣棟間隔を大きくとる必要がある。",
+            "夏至に終日日影となる部分は永久日影であり、1年を通して太陽の直射がない。",
+            "北緯35度付近で、終日快晴の春分における終日直達日射量は、東向き鉛直面よりも南向き鉛直面のほうが大きい。",
+            "昼光率は、全天空照度に対する室内のある点の天空光による照度であり、直射日光による照度を含む。"
           ],
           "answer": "4",
-          "explanation": "選択肢1：適当。焼入れ処理（加熱後急冷）で鋼は硬くなり強度が増す。\n選択肢2：適当。炭素量増で引張強さ増・靱性低下。\n選択肢3：適当。SN490B・Cは炭素当量等の上限規定で溶接性を改善。\n選択肢4：不適当。低降伏点鋼は添加元素を極力低減した純鉄に近い鋼で強度が低く延性が高い。モリブデン等を添加して耐火性を高めるのは耐火鋼(FR鋼)である。",
-          "studyContent": "低降伏点鋼＝添加元素を低減した純鉄に近い鋼。モリブデン添加で耐火性を高めるのはFR鋼。",
+          "explanation": "【解説01】\n答え（誤り）は4です。\n\n昼光率＝（室内のある点の水平面照度）÷（全天空照度）×（100％）\n全天空照度が変化すると室内の照度も変化するため、昼光率の計算では使用しません。\n1（正）：緯度が高くなると、太陽高度は低くなるため日影が長くなります。同じ日照時間を確保するためには南北の隣棟間隔を大きくとる必要があります。\n2（正）：夏至は一年を通して最も太陽高度が高くなるため、日影も一年の中で最も短くなります。そのため夏至に終日日影となる部分は永久日影になります。\n3（正）：（設問の通りです。）\n\n【解説02】\n日照及び日射に関する記述を正確に評価するために、各選択肢を詳しく見ていきましょう。\n\n選択肢1：この記述は正しいです。緯度が高い地域では、太陽の高度が低くなるため、建物間の日照確保のためにはより大きな間隔が必要になります。\n選択肢2：この記述も正しいです。夏至の際に日影となる部分は、太陽が最も高く上がる日であり、この日に日影になる場合、その年の他の日でも日影になるため、「永久日影」と呼ばれます。\n選択肢3：この記述も正しいです。春分の時期には太陽は東から昇り、南を高く通り、西に沈むため、南向きの面がより多くの直達日射を受けることになります。\n選択肢4：この記述は誤っています。昼光率は、室内のある点での天空光による照度を、外部の全天空照度に対して百分率で表したものであり、直射日光を含まない概念です。昼光率の計算には、直射日光による照度は考慮されません。\nまとめ：最も不適切な記述は「昼光率は、全天空照度に対する室内のある点の天空光による照度であり、直射日光による照度を含む」となります。この誤解は、昼光設計や照明設計における基本概念の誤解につながるため、正確な理解が必要です。\n\n【解説03】\n日照・日射・日影に関する出題です。\n\n選択肢1：設問の通りです。日照時間とは、可照時間から近隣の建物による日影時間を差し引いた時間です。\n選択肢2：設問の通りです。\n選択肢3：北緯35度付近で、終日快晴の春分における終日直達日射量の大小関係は、水平面＞南面＞東・西面となります。\n選択肢4（誤）：昼光率は、室内のある点の水平面照度と全天空照度との比率を求めたものです。全天空照度とは、直射日光を除いた天空光のみの照度をいいます。",
+          "studyContent": "■昼光率＝室内ある点の水平面照度÷全天空照度×100%。直射日光は含まない。全天空照度も直射を除いた天空光のみ。\n■永久日影：夏至に終日日影となる部分。1年中直射が当たらない。\n■直達日射量（春分・北緯35度・鉛直面）：南面＞東・西面（終日では水平面＞南面＞東西面）。\n■隣棟間隔：緯度が高いほど大きく。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về thép là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 2 (2020) – Buổi sáng Câu 2】Trong các mô tả về chiếu nắng và bức xạ mặt trời, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Bằng xử lý tôi (nung trên nhiệt độ nhất định rồi làm nguội nhanh), thép trở nên cứng và tăng độ bền.",
-            "Khi hàm lượng cacbon tăng, độ bền kéo tăng và độ dai giảm.",
-            "SN490B và SN490C là thép cải thiện tính hàn nhờ quy định giới hạn trên của đương lượng cacbon.",
-            "Thép giới hạn chảy thấp là loại được thêm các nguyên tố như molypden để giảm độ bền và tăng độ dẻo."
+            "Để đảm bảo cùng một thời gian chiếu nắng, vĩ độ càng cao thì càng phải lấy khoảng cách Bắc – Nam giữa các tòa nhà lớn hơn.",
+            "Phần bị bóng đổ cả ngày vào Hạ chí là bóng đổ vĩnh viễn (vĩnh cửu nhật ảnh), quanh năm không có ánh nắng trực tiếp.",
+            "Ở khu vực gần vĩ độ Bắc 35°, vào ngày Xuân phân trời quang đãng cả ngày, tổng lượng bức xạ trực tiếp cả ngày của mặt thẳng đứng hướng Nam lớn hơn mặt thẳng đứng hướng Đông.",
+            "Hệ số ánh sáng ban ngày (trú quang suất) là độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời, và CÓ bao gồm độ rọi do ánh nắng trực tiếp."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Thép giới hạn chảy thấp là thép gần sắt nguyên chất (giảm tối đa nguyên tố thêm), bền thấp dẻo cao. Việc thêm molypden để tăng tính chịu lửa là của thép chịu lửa (FR).",
-          "studyContent_vi": "Thép giới hạn chảy thấp = gần sắt nguyên chất. Thêm molypden để tăng chịu lửa là thép FR."
+          "explanation_vi": "【Giải thích 01】\nĐáp án (mô tả sai) là 4.\n\nHệ số ánh sáng ban ngày = (độ rọi mặt phẳng ngang tại một điểm trong phòng) ÷ (độ rọi toàn bầu trời) × (100%).\nKhi độ rọi toàn bầu trời thay đổi thì độ rọi trong phòng cũng thay đổi, nên không dùng độ rọi do ánh nắng trực tiếp trong phép tính hệ số ánh sáng ban ngày.\n1 (Đúng): Vĩ độ càng cao độ cao mặt trời càng thấp nên bóng càng dài. Để đảm bảo cùng thời gian chiếu nắng phải lấy khoảng cách Bắc–Nam lớn hơn.\n2 (Đúng): Hạ chí có độ cao mặt trời cao nhất trong năm nên bóng cũng ngắn nhất. Do đó phần bị bóng cả ngày vào Hạ chí trở thành bóng đổ vĩnh viễn.\n3 (Đúng): (Đúng như đề.)\n\n【Giải thích 02】\nĐể đánh giá chính xác, xét kỹ từng lựa chọn.\n\nLựa chọn 1: Mô tả đúng. Vùng vĩ độ cao mặt trời thấp nên để đảm bảo chiếu nắng giữa các công trình cần khoảng cách lớn hơn.\nLựa chọn 2: Mô tả đúng. Phần bị bóng vào Hạ chí (ngày mặt trời lên cao nhất) thì các ngày khác trong năm cũng bị bóng, nên gọi là 'bóng đổ vĩnh viễn'.\nLựa chọn 3: Mô tả đúng. Xuân phân mặt trời mọc hướng Đông, đi cao qua phía Nam, lặn hướng Tây, nên mặt hướng Nam nhận nhiều bức xạ trực tiếp hơn.\nLựa chọn 4: Mô tả SAI. Hệ số ánh sáng ban ngày là tỷ lệ phần trăm của độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời bên ngoài, và KHÔNG bao gồm ánh nắng trực tiếp. Phép tính không xét độ rọi do ánh nắng trực tiếp.\nTóm tắt: Mô tả không phù hợp nhất là 'Hệ số ánh sáng ban ngày... có bao gồm độ rọi do ánh nắng trực tiếp'. Hiểu sai điều này dẫn đến sai lầm về khái niệm cơ bản trong thiết kế chiếu sáng tự nhiên/nhân tạo, cần hiểu chính xác.\n\n【Giải thích 03】\nĐề về chiếu nắng・bức xạ・bóng đổ.\n\nLựa chọn 1: Đúng như đề. Thời gian chiếu nắng là khả chiếu thời gian trừ đi thời gian bị bóng do công trình lân cận.\nLựa chọn 2: Đúng như đề.\nLựa chọn 3: Gần Bắc 35°, ngày Xuân phân quang đãng cả ngày, thứ tự tổng bức xạ trực tiếp cả ngày là: mặt phẳng ngang > mặt Nam > mặt Đông・Tây.\nLựa chọn 4 (Sai): Hệ số ánh sáng ban ngày là tỷ lệ giữa độ rọi mặt phẳng ngang tại một điểm trong phòng và độ rọi toàn bầu trời. Độ rọi toàn bầu trời là độ rọi chỉ của ánh sáng bầu trời, loại bỏ ánh nắng trực tiếp.",
+          "studyContent_vi": "■ Hệ số ánh sáng ban ngày = độ rọi mặt phẳng ngang tại điểm trong phòng ÷ độ rọi toàn bầu trời × 100%. Không gồm nắng trực tiếp; độ rọi toàn bầu trời cũng chỉ tính ánh sáng bầu trời (loại bỏ trực tiếp).\n■ Bóng đổ vĩnh viễn: phần bị bóng cả ngày vào Hạ chí, quanh năm không có nắng trực tiếp.\n■ Lượng bức xạ trực tiếp (Xuân phân, Bắc 35°, mặt đứng): mặt Nam > mặt Đông–Tây (cả ngày: ngang > Nam > Đông–Tây).\n■ Khoảng cách giữa nhà: vĩ độ càng cao càng lớn."
+        }
+      ]
+    },
+    {
+      "path": "1.2 建築環境工学 > 1.2.2 採光 / 1.2.3 照明",
+      "vocabulary": "採光 / 照明 / 照度 / 光束 / 光度 / 輝度 / 演色性 / 昼光率 / 全天空照度 / 室指数 / 均斉度 / 余弦則 / 逆二乗則 / ルクス(lx) / カンデラ(cd) / ルーメン(lm)",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "【令和7年（2025年）午前 イ 問2】照明に関する次の文章中、（　　）に当てはまる数値として、最も適当なものはどれか。ただし、点光源の配光特性は一様なものとし、床面、天井面、壁面等からの反射は考慮しないものとする。「照明による受照面の明るさを表す照度は、点光源の光度に比例し、その光源からの距離の2乗に反比例する。図に示すような点光源の直下ではない床面上の点Pの水平面照度Ehは、照度の余弦則を用いて計算することができ、点光源の点Pに対する入射角θを60°とした場合、その値は（　　）lx（ルクス）となる。」（※図より H＝3.0m、光度 I＝1,800cd）",
+          "choices": [
+            "25",
+            "50",
+            "150",
+            "260"
+          ],
+          "answer": "1",
+          "explanation": "【解説01】\n点光源の直下ではない床面上の点における、水平面照度を求める問題です。\n問題文にあるとおり、「照度の余弦則」を用いて求めることができますが、先に必要な数値を計算していきます。\n・点光源〜点Pまでの距離（R）＝点光源、点P、さらに点光源より垂直に水平面までおろした点をOとし、3点を結んだ三角形に三平方の定理を当てはめると、H：R：PO＝1：2：√3となり、R＝6.0mと求められます。\nここで「照度の余弦則」に代入していきます。\nEh〔lx〕＝I〔cd〕cosθ/R〔m〕²＝1,800×0.5/36＝25〔lx〕\n以上で、水平面の照度を求めることができます。\n選択肢1（正）：25。解説は上記の通りとなります。\n選択肢2（誤）：50。\n選択肢3（誤）：150。\n選択肢4（誤）：260。\nまとめ：公式自体は難しくありませんが、正しい数値を計算するために、公式に代入するものの確認をしておきましょう。\n\n【解説02】\n答えは「25」lx（ルクス）です。\n点光源の照度は、距離の2乗に反比例（逆二乗則）し、床のような水平面では余弦則（よげんそく）（入射角によって暗くなる）も掛けて求めます。\n高さH=3.0m、入射角θ=60°なので、光源から点Pまでの距離rは r=H÷cosθ=3.0÷0.5=6.0m\n光の進む方向に直角な面での照度は E0=I÷r^2=1800÷6^2=1800÷36=50lx\n床（水平面）の照度Ehは、余弦則でさらにcosθを掛けます Eh=E0×cosθ=50×0.5=25lx\nしたがって25lxになります。\nまとめ：この問題は、次の2つをセットで使うのがポイントです。・逆二乗則：Eは距離rの2乗で小さくなる（I÷r^2）。・余弦則：水平面ではcosθを掛けてさらに小さくなる（×cosθ）。今回のように、θが大きい（60°）と、距離が伸びるうえに余弦則でも暗くなるため、結果は25lxのように小さくなります。",
+          "studyContent": "■照度の余弦則：Eh＝I·cosθ/R²。Rは光源〜点Pの距離。\n■逆二乗則：照度は距離の2乗に反比例。\n■計算手順：①R=H÷cosθ ②E0=I÷R² ③Eh=E0×cosθ。\n■本問：H=3.0m、θ=60°(cos60°=0.5)、I=1800cd → R=6.0m、Eh=25lx。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần イ Câu 2】Trong câu văn sau về chiếu sáng, giá trị điền vào chỗ trống phù hợp nhất là bao nhiêu? Giả thiết đặc tính phân bố ánh sáng của nguồn điểm là đồng đều, không xét phản xạ từ sàn/trần/tường. 'Độ rọi biểu thị độ sáng của mặt nhận sáng tỉ lệ thuận với cường độ sáng (光度) của nguồn điểm và tỉ lệ nghịch với bình phương khoảng cách tới nguồn. Độ rọi mặt phẳng ngang Eh tại điểm P trên sàn (không nằm ngay dưới nguồn) tính bằng định luật cosin; khi góc tới θ = 60° thì giá trị đó là (   ) lx.' (※ Theo hình: H = 3.0m, cường độ sáng I = 1.800cd)",
+          "choices_vi": [
+            "25",
+            "50",
+            "150",
+            "260"
+          ],
+          "explanation_vi": "【Giải thích 01】\nBài tính độ rọi mặt phẳng ngang tại điểm trên sàn không nằm ngay dưới nguồn điểm.\nNhư đề bài, có thể dùng 'định luật cosin của độ rọi', nhưng trước hết tính các giá trị cần thiết.\n・ Khoảng cách từ nguồn điểm đến P (R): gọi O là chân đường vuông góc từ nguồn xuống mặt phẳng ngang; tam giác tạo bởi 3 điểm theo định lý Pytago cho H : R : PO = 1 : 2 : √3, suy ra R = 6.0m.\nThay vào 'cosin': Eh = I·cosθ / R² = 1.800×0.5/36 = 25 lx.\nLựa chọn 1 (Đúng): 25.\nLựa chọn 2 (Sai): 50.\nLựa chọn 3 (Sai): 150.\nLựa chọn 4 (Sai): 260.\nTóm tắt: Công thức không khó nhưng phải xác định đúng các giá trị thay vào.\n\n【Giải thích 02】\nĐáp án là '25' lx.\nĐộ rọi của nguồn điểm tỉ lệ nghịch với bình phương khoảng cách (định luật nghịch đảo bình phương); với mặt phẳng ngang như sàn còn phải nhân thêm định luật cosin (góc tới càng lớn càng tối).\nH=3.0m, θ=60° nên r = H÷cosθ = 3.0÷0.5 = 6.0m.\nĐộ rọi trên mặt vuông góc với hướng ánh sáng: E0 = I÷r² = 1800÷36 = 50 lx.\nĐộ rọi sàn (mặt ngang) Eh nhân thêm cosθ: Eh = 50×0.5 = 25 lx.\nTóm tắt: Dùng kết hợp 2 định luật – nghịch đảo bình phương (I÷r²) và cosin (×cosθ). Khi θ lớn (60°), vừa xa hơn vừa tối theo cosin nên kết quả nhỏ (25 lx).",
+          "studyContent_vi": "■ Định luật cosin: Eh = I·cosθ / R². R là khoảng cách nguồn–P.\n■ Định luật nghịch đảo bình phương: độ rọi tỉ lệ nghịch với bình phương khoảng cách.\n■ Trình tự: ① R=H÷cosθ ② E0=I÷R² ③ Eh=E0×cosθ.\n■ Bài này: H=3.0m, θ=60° (cos60°=0.5), I=1800cd → R=6.0m, Eh=25 lx."
+        },
+        {
+          "label": "Q2",
+          "question": "【令和5年（2023年）午前 イ 問2】採光及び照明に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "横幅と奥行きが同じ室において、光源と作業面の距離が離れるほど、室指数は小さくなる。",
+            "設計用全天空照度は、快晴の青空のときのほうが薄曇りのときよりも小さな値となる。",
+            "照度は、単位をルクス（lx）で示し、受照面の単位面積当たりの入射光束のことをいう。",
+            "光度は、単位をカンデラ（cd）で示し、反射面を有する受照面の光の面積密度のことをいう。"
+          ],
+          "answer": "4",
+          "explanation": "【解説01】\n採光・照明についての出題です。\n\n選択肢1：室指数の値が小さいほど、室が天井高に比べて水平方向に狭い形状であるので、光源と作業面の距離が離れるほど、室指数は小さくなります。\n選択肢2：設問の通りです。\n選択肢3：設問の通りです。ちなみに目で見た明るさと直接的に関係があるのは、輝度です。\n選択肢4（誤）：反射面を有する受照面の光の面積密度のことは輝度です。光度は単位立体角あたりの光束をいいます。\n\n【解説02】\n採光及び照明に関する問題は、一見難しそうなイメージがあるかもしれませんが、出題される範囲は広くはありません。しっかりと勉強すれば、得点源にできるはずです。\n\n選択肢1：少ない光源でも明るい室内にしたいなら、天井を低くしたり、室内を正方形に近い形にすることが有効です。部屋の形状が照度に与える影響を数値化したものが室指数です。室指数が高いほど光源の効果を十分発揮できます。「光源と作業面が離れるほど」光源が遠くなれば照度は低下し、室指数が小さくなります。設問の記述は正しいです。\n選択肢2：快晴の青空よりも、薄曇りの日の方が全天空照度が高いため、設問の記述は適当です。薄曇りの日には、雲に太陽の光が乱反射し照度が高くなります。\n選択肢3：設問の通りです。照度は光束/面積で求めるものです。\n選択肢4：「光度はカンデラ（cd）で示し」は適当ですが、反射面を有する受照面の光の面積密度は輝度のことです。光度は単位立体角あたりの光束で、電灯や星の明るさを表す際に用いる指標です。設問の記述は誤りです。\nまとめ：採光や照明は重要視されますが、深入りする必要はありません。光束や光度などの用語をしっかり理解することが重要です。\n\n【解説03】\n採光及び照明に関する記述について、最も不適当なものを選ぶ問題の解説を行います。\n\n選択肢1：室指数（Room Index）は、室の横幅、奥行き、高さによって計算され、光源と作業面の距離が離れる（天井が高くなる）と室指数は小さくなります。この記述は適当です。\n選択肢2：快晴の青空のときは直射日光が強くなるため、全天空照度は薄曇りのときよりも小さくなります。この記述は適当です。\n選択肢3：照度は、受照面の単位面積当たりの入射光束を指し、単位はルクス（lx）です。この記述は適当です。\n選択肢4：光度（光の強さ）は、単位をカンデラ（cd）で示し、特定の方向に放射される光束の強さを表します。反射面や光の面積密度とは関係ありません。この記述は不適当です。\nまとめ：この問題では、光度の定義が誤っており、光の面積密度とは無関係です。他の選択肢は適切な内容です。",
+          "studyContent": "■用語と単位：光束（lmルーメン）、光度（cdカンデラ＝単位立体角あたりの光束）、照度（lxルクス＝単位面積あたりの入射光束）、輝度（cd/m²＝反射面の光の面積密度、見た明るさ）。\n■室指数：天井が高い（光源と作業面が遠い）と小さくなる。\n■全天空照度：薄曇り＞快晴。設計用は約15,000lx。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 5 (2023) – Buổi sáng phần イ Câu 2】Trong các mô tả về chiếu sáng tự nhiên và chiếu sáng nhân tạo, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Trong phòng có chiều rộng và chiều sâu bằng nhau, khoảng cách giữa nguồn sáng và mặt làm việc càng xa thì chỉ số phòng (室指数) càng nhỏ.",
+            "Độ rọi toàn bầu trời dùng cho thiết kế khi trời quang xanh thì nhỏ hơn khi trời nhiều mây mỏng.",
+            "Độ rọi (照度) có đơn vị lux (lx), là quang thông tới trên một đơn vị diện tích mặt nhận sáng.",
+            "Cường độ sáng (光度) có đơn vị candela (cd), là mật độ diện tích ánh sáng của mặt nhận sáng có mặt phản xạ."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐề về chiếu sáng tự nhiên・nhân tạo.\n\nLựa chọn 1: Chỉ số phòng càng nhỏ thì phòng càng hẹp theo phương ngang so với chiều cao trần; khoảng cách nguồn sáng–mặt làm việc càng xa thì chỉ số phòng càng nhỏ. Đúng.\nLựa chọn 2: Đúng như đề.\nLựa chọn 3: Đúng như đề. Ngoài ra, cái liên quan trực tiếp đến độ sáng mắt nhìn thấy là độ chói (輝度).\nLựa chọn 4 (Sai): Mật độ diện tích ánh sáng của mặt nhận sáng có phản xạ là độ chói (輝度). Cường độ sáng là quang thông trên một đơn vị góc khối.\n\n【Giải thích 02】\nBài chiếu sáng thoạt nhìn có vẻ khó nhưng phạm vi ra đề không rộng, học kỹ sẽ thành nguồn lấy điểm.\n\nLựa chọn 1: Muốn phòng sáng với ít nguồn sáng thì nên hạ trần thấp hoặc làm phòng gần vuông. Chỉ số phòng lượng hóa ảnh hưởng của hình dạng phòng đến độ rọi; chỉ số càng cao thì phát huy hiệu quả nguồn sáng càng tốt. 'Khoảng cách nguồn–mặt làm việc càng xa' → độ rọi giảm, chỉ số phòng nhỏ. Đúng.\nLựa chọn 2: Ngày nhiều mây mỏng độ rọi toàn bầu trời cao hơn ngày quang xanh do mây tán xạ ánh nắng; nên mô tả đúng.\nLựa chọn 3: Đúng. Độ rọi = quang thông/diện tích.\nLựa chọn 4: Phần 'đơn vị candela (cd)' thì đúng, nhưng mật độ diện tích ánh sáng của mặt phản xạ là độ chói. Cường độ sáng là quang thông trên đơn vị góc khối, dùng cho đèn/độ sáng sao. Mô tả sai.\nTóm tắt: Cần hiểu rõ các thuật ngữ quang thông, cường độ sáng; không cần đi sâu quá.\n\n【Giải thích 03】\nGiải bài chọn mô tả KHÔNG phù hợp nhất.\n\nLựa chọn 1: Chỉ số phòng được tính theo chiều rộng, chiều sâu, chiều cao phòng; khoảng cách nguồn–mặt làm việc càng xa (trần càng cao) thì chỉ số càng nhỏ. Phù hợp.\nLựa chọn 2: Khi trời quang xanh, nắng trực tiếp mạnh nên độ rọi toàn bầu trời nhỏ hơn khi nhiều mây mỏng. Phù hợp.\nLựa chọn 3: Độ rọi là quang thông tới trên đơn vị diện tích, đơn vị lux. Phù hợp.\nLựa chọn 4: Cường độ sáng đơn vị candela, biểu thị độ mạnh của quang thông phát theo một hướng; không liên quan mặt phản xạ hay mật độ diện tích. KHÔNG phù hợp.\nTóm tắt: Định nghĩa cường độ sáng bị sai (không liên quan mật độ diện tích ánh sáng). Các lựa chọn khác đều đúng.",
+          "studyContent_vi": "■ Thuật ngữ & đơn vị: Quang thông (lm), Cường độ sáng (cd = quang thông/góc khối), Độ rọi (lx = quang thông tới/diện tích), Độ chói (cd/m² = mật độ diện tích ánh sáng của mặt phản xạ, độ sáng mắt thấy).\n■ Chỉ số phòng: trần cao (nguồn–mặt làm việc xa) → chỉ số nhỏ.\n■ Độ rọi toàn bầu trời: nhiều mây mỏng > quang xanh. Thiết kế dùng khoảng 15.000 lx."
+        },
+        {
+          "label": "Q3",
+          "question": "【令和3年（2021年）午前 問2】採光及び照明に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "演色性とは、照明光による物体色の見え方についての光源の性質をいう。",
+            "光束とは、単位波長当たりの放射束を標準比視感度で重みづけした量をいう。",
+            "形状と面積が同じ側窓は、その位置を高くしても、昼光による室内の照度分布の均斉度は変わらない。",
+            "設計用全天空照度は、快晴の青空のときが薄曇りのときよりも小さな値となる。"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n正解は「形状と面積が同じ側窓は、その位置を高くしても、昼光による室内の照度分布の均斉度は変わらない。」です。\n\n選択肢1（正）：演色性とは、自然光に対して、照明光による物体の色の見え方についての光源の性質のことです。\n選択肢2（正）：光束とは、単位波長当たりの放射束を標準比視感度で重みづけした量のことです。光源の光の量を表します。視感度とは人の目の感度のことで、標準比視感度とは標準的な人の目の感度特性を表します。\n選択肢3（誤：正答肢）：形状と面積が同じ窓でも、窓が高い位置にあるほど、昼光による室内の照度分布の均斉度は高くなります。均斉度とは、最大照度に対する最小限度の比です。照度とは、単位面積当たりの光束のことで、光が当たっている場所の明るさを表します。\n選択肢4（正）：設計用全天空照度は、薄曇りのときよりも、快晴の青空のときの方が小さな値となります。全天空照度とは、直射日光を除いた天空の照度のことです。\n\n【解説02】\n採光では、光束・光度・照度・輝度をしっかり理解しましょう。\n\n選択肢1（正）：太陽光に照らされたときの見え方に近い程、演色性がよくなります。\n選択肢2（正）：単位は、ルーメン（lm）です。\n選択肢3（誤：正解）：形状と面積が同じ側窓は、その位置を高くすると、昼光による室内の照度分布の均斉度は高くなります。位置が低くなると、窓近くは明るくなりますが、室奥は暗くなり、均斉度は低くなります。\n選択肢4（正）：1/5程度になります。",
+          "studyContent": "■均斉度＝最小照度÷最大照度。窓が高い位置にあるほど室奥まで光が届き、均斉度は高くなる。\n■演色性：光源で物体の色の見え方が変わる性質。分光分布で決まる。\n■光束：単位波長あたりの放射束を標準比視感度で重みづけ。単位ルーメン(lm)。\n■全天空照度：快晴＜薄曇り（快晴は薄曇りの約1/5）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 3 (2021) – Buổi sáng Câu 2】Trong các mô tả về chiếu sáng tự nhiên và nhân tạo, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Tính hoàn nguyên màu (演色性) là tính chất của nguồn sáng về cách thể hiện màu vật thể dưới ánh sáng chiếu.",
+            "Quang thông là đại lượng bức xạ trên mỗi đơn vị bước sóng được hiệu chỉnh trọng số theo độ nhạy cảm thị giác chuẩn.",
+            "Cửa sổ bên có hình dạng và diện tích như nhau, dù đặt cửa ở vị trí cao hơn thì độ đồng đều (均斉度) của phân bố độ rọi do ánh sáng ngày trong phòng vẫn không thay đổi.",
+            "Độ rọi toàn bầu trời dùng cho thiết kế khi trời quang xanh thì nhỏ hơn khi trời nhiều mây mỏng."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án (mô tả sai) là 'Cửa sổ bên... dù đặt cao hơn thì độ đồng đều vẫn không thay đổi'.\n\nLựa chọn 1 (Đúng): Tính hoàn nguyên màu là tính chất nguồn sáng về cách hiển thị màu vật thể so với ánh sáng tự nhiên.\nLựa chọn 2 (Đúng): Quang thông là bức xạ trên đơn vị bước sóng được hiệu chỉnh theo độ nhạy thị giác chuẩn, biểu thị lượng ánh sáng của nguồn.\nLựa chọn 3 (Sai – đáp án): Cửa cùng hình dạng và diện tích nhưng đặt càng cao thì độ đồng đều phân bố độ rọi càng CAO. Độ đồng đều = độ rọi nhỏ nhất / độ rọi lớn nhất.\nLựa chọn 4 (Đúng): Độ rọi toàn bầu trời (loại bỏ nắng trực tiếp) khi quang xanh nhỏ hơn khi nhiều mây mỏng.\n\n【Giải thích 02】\nTrong chiếu sáng, cần hiểu rõ quang thông・cường độ sáng・độ rọi・độ chói.\n\nLựa chọn 1 (Đúng): Càng gần cách hiển thị màu dưới ánh nắng thì tính hoàn nguyên màu càng tốt.\nLựa chọn 2 (Đúng): Đơn vị là lumen (lm).\nLựa chọn 3 (Sai – đáp án): Cửa bên cùng hình dạng/diện tích đặt cao hơn thì độ đồng đều CAO hơn. Đặt thấp thì gần cửa sáng nhưng sâu phòng tối, độ đồng đều thấp.\nLựa chọn 4 (Đúng): Quang xanh khoảng 1/5 so với nhiều mây mỏng.",
+          "studyContent_vi": "■ Độ đồng đều = độ rọi nhỏ nhất ÷ độ rọi lớn nhất. Cửa càng cao thì ánh sáng vào sâu phòng, độ đồng đều cao hơn.\n■ Tính hoàn nguyên màu: tính chất nguồn sáng làm màu vật thể hiện khác nhau; quyết định bởi phân bố phổ.\n■ Quang thông: đơn vị lumen (lm).\n■ Độ rọi toàn bầu trời: quang xanh < nhiều mây mỏng (quang xanh ≈ 1/5)."
+        },
+        {
+          "label": "Q4",
+          "question": "【令和元年（2019年）午前 問3】採光及び照明に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "均等拡散面上における輝度は、照度と反射率との積に比例する。",
+            "演色性とは、光がもつ物体の色の再現能力のことで、光の分光分布によって決まる。",
+            "昼光率とは、全天空照度に対する室内のある点の天空光による照度の比をいう。",
+            "設計用全天空照度は、快晴の青空のときが薄曇りの日よりも大きな値となる。"
+          ],
+          "answer": "4",
+          "explanation": "【解説01】\n正解は4です。\n\n1（正）：設問の通りです。\n2（正）：光源が色の見え方に及ぼす性質を演色性といい、光源から放射している光の波長の割合（分光分布）で決まります。\n3（正）：昼光率は、直射日光を除く屋外の照度（全天空照度）に対する室内のある点の天空光による照度の比のことです。採光可能性を示す指標になり、その値が高いほど評価が高くなります。\n4（誤）：全天空照度とは、直射光を除いた空からの光（天空光）による地上の水平面照度のことで、一般に快晴時より薄曇りの時のほうが明るくなります。設計用としては15,000lxが使用されます。\n\n【解説02】\n環境工学の採光・照明についての出題です。\n\n選択肢1：輝度は単位面積当たりの光度です。設問の通り、均等拡散面上における輝度は、照度と反射率との積に比例します。\n選択肢2：設問の通り、演色性とは光がもつ物体の色の再現能力のことで、光の分光分布によって決まり、視対象の色とは無関係です。\n選択肢3：昼光率とは、採光による明るさの指標としたもので、全天空照度に対する室内のある点の天空光による照度の比をいいます。室内各部の反射率の影響を受けます。\n選択肢4（誤：正解）：設計用全天空照度は、快晴の青空のときが薄曇りの日よりも小さな値となります。\nまとめ：採光・照明の分野はそれぞれの単位に注目すると覚えやすいです。\n\n【解説03】\n解説は下記の通りです。\n\n選択肢1（正）：輝度とは光を出している面をある方向から見た時の明るさのことで、均等拡散面上における輝度は、照度と反射率との積に比例します。\n選択肢2（正）：光がもつ物体の色の再現能力のことで、光の分光分布によって決まります。\n選択肢3（正）：昼光とは太陽光による昼間の明るさのことです。昼光率とは、全天空照度に対する室内のある点の天空光による照度の比のことを指します。\n選択肢4（誤）：快晴の青空のときは10000lxで、薄曇りの日は50000lxです。",
+          "studyContent": "■輝度：均等拡散面では 輝度∝照度×反射率。\n■演色性：物体色の再現能力。分光分布で決まる。\n■昼光率＝室内ある点の天空光照度÷全天空照度。直射日光は含まない。\n■全天空照度：薄曇り＞快晴。設計用15,000lx。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa nguyên niên (2019) – Buổi sáng Câu 3】Trong các mô tả về chiếu sáng tự nhiên và nhân tạo, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Độ chói trên mặt khuếch tán đều tỉ lệ thuận với tích của độ rọi và hệ số phản xạ.",
+            "Tính hoàn nguyên màu là khả năng tái hiện màu vật thể của ánh sáng, được quyết định bởi phân bố phổ của ánh sáng.",
+            "Hệ số ánh sáng ban ngày (昼光率) là tỷ số giữa độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời.",
+            "Độ rọi toàn bầu trời dùng cho thiết kế khi trời quang xanh thì LỚN hơn khi trời nhiều mây mỏng."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án là 4.\n\n1 (Đúng): Đúng như đề.\n2 (Đúng): Tính chất nguồn sáng ảnh hưởng đến cách hiển thị màu gọi là tính hoàn nguyên màu, quyết định bởi tỷ lệ bước sóng ánh sáng phát ra (phân bố phổ).\n3 (Đúng): Hệ số ánh sáng ban ngày là tỷ số giữa độ rọi do ánh sáng bầu trời tại điểm trong phòng so với độ rọi ngoài trời loại bỏ nắng trực tiếp (độ rọi toàn bầu trời). Giá trị càng cao càng được đánh giá tốt.\n4 (Sai): Độ rọi toàn bầu trời là độ rọi mặt ngang trên mặt đất do ánh sáng bầu trời (loại bỏ nắng trực tiếp); thông thường khi nhiều mây mỏng sáng hơn khi quang. Thiết kế dùng 15.000 lx.\n\n【Giải thích 02】\nĐề môn vật lý môi trường về chiếu sáng.\n\nLựa chọn 1: Độ chói là cường độ sáng trên đơn vị diện tích. Đúng như đề, độ chói trên mặt khuếch tán đều tỉ lệ với tích độ rọi × hệ số phản xạ.\nLựa chọn 2: Đúng; tính hoàn nguyên màu quyết định bởi phân bố phổ, không liên quan màu của vật.\nLựa chọn 3: Đúng; chịu ảnh hưởng của hệ số phản xạ các bề mặt trong phòng.\nLựa chọn 4 (Sai – đáp án): Độ rọi toàn bầu trời thiết kế khi quang xanh NHỎ hơn khi nhiều mây mỏng.\nTóm tắt: Lĩnh vực chiếu sáng dễ nhớ khi chú ý đơn vị từng đại lượng.\n\n【Giải thích 03】\nGiải thích như sau.\n\nLựa chọn 1 (Đúng): Độ chói là độ sáng của mặt phát sáng nhìn từ một hướng; trên mặt khuếch tán đều tỉ lệ với tích độ rọi × hệ số phản xạ.\nLựa chọn 2 (Đúng): Là khả năng tái hiện màu vật thể của ánh sáng, được quyết định bởi phân bố phổ của ánh sáng.\nLựa chọn 3 (Đúng): Ánh sáng ban ngày (昼光) là độ sáng ban ngày do ánh nắng mặt trời. Hệ số ánh sáng ban ngày là tỷ số giữa độ rọi do ánh sáng bầu trời tại một điểm trong phòng so với độ rọi toàn bầu trời.\nLựa chọn 4 (Sai): Khi quang xanh là 10.000 lx, ngày nhiều mây mỏng là 50.000 lx.",
+          "studyContent_vi": "■ Độ chói: trên mặt khuếch tán đều, độ chói ∝ độ rọi × hệ số phản xạ.\n■ Tính hoàn nguyên màu: khả năng tái hiện màu vật thể; quyết định bởi phân bố phổ.\n■ Hệ số ánh sáng ban ngày = độ rọi ánh sáng bầu trời tại điểm trong phòng ÷ độ rọi toàn bầu trời (không gồm nắng trực tiếp).\n■ Độ rọi toàn bầu trời: nhiều mây mỏng > quang xanh (quang xanh ≈ 10.000 lx, nhiều mây mỏng ≈ 50.000 lx)."
+        }
+      ]
+    },
+    {
+      "path": "1.2 建築環境工学 > 1.2.4 色彩",
+      "vocabulary": "マンセル表色系 / 色相(H) / 明度(V) / 彩度(C) / 補色 / マンセル色相環 / 5RP3／8",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "【令和7年（2025年）午前 ロ 問2（問8）】マンセル表色系に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "鮮やかさが増すにつれて、彩度を表す数値は大きくなる。",
+            "マンセル記号で表示された「5RP3／8」のうち、数値「3」は彩度を表す。",
+            "マンセル色相環の相対する位置にある色相は、互いに補色の関係にある。",
+            "明度は、理想的な黒を0、理想的な白を10として、11段階に分けている。"
+          ],
+          "answer": "2",
+          "explanation": "【解説01】\n最も不適当なのは、「マンセル記号で表示された『5RP3／8』のうち、数値『3』は彩度を表す。」です。\nマンセル記号は、色相（H）明度（V）／彩度（C）で表します。\nしたがって『5RP3／8』は、5RP：色相、3：明度、8：彩度、という意味です。\nまとめ：マンセル表色系のいちばん大事な形はこれです。色相 明度／彩度。ここを取り違える選択肢がよく出るので、順番で覚えておくと安心です。",
+          "studyContent": "■マンセル表色系：色相H 明度V／彩度C の順で表記。例「5RP3／8」→5RP=色相、3=明度、8=彩度。\n■彩度：鮮やかさ。数値が大きいほど鮮やか。\n■明度：理想的な黒0〜理想的な白10の11段階。\n■補色：マンセル色相環で相対する位置にある色相同士。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần ロ Câu 2 (Câu 8)】Trong các mô tả về hệ biểu thị màu Munsell, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Độ rực rỡ càng tăng thì trị số biểu thị độ thuần sắc (彩度/chroma) càng lớn.",
+            "Trong ký hiệu Munsell '5RP3／8', con số '3' biểu thị độ thuần sắc (彩度/chroma).",
+            "Các sắc tướng (色相/hue) ở vị trí đối diện nhau trên vòng sắc tướng Munsell có quan hệ bù màu (補色) với nhau.",
+            "Độ sáng (明度/value) chia làm 11 cấp, với đen lý tưởng là 0 và trắng lý tưởng là 10."
+          ],
+          "explanation_vi": "【Giải thích 01】\nMô tả KHÔNG phù hợp nhất là 'Trong ký hiệu Munsell 5RP3／8, con số 3 biểu thị độ thuần sắc'.\nKý hiệu Munsell biểu thị theo thứ tự: Sắc tướng (H) Độ sáng (V) ／ Độ thuần sắc (C).\nDo đó '5RP3／8' nghĩa là: 5RP = sắc tướng, 3 = độ sáng, 8 = độ thuần sắc.\nTóm tắt: Dạng quan trọng nhất của hệ Munsell là: Sắc tướng – Độ sáng ／ Độ thuần sắc. Các lựa chọn hay tráo đổi chỗ này, nên nhớ theo đúng thứ tự cho chắc.",
+          "studyContent_vi": "■ Hệ Munsell: ghi theo thứ tự Sắc tướng H – Độ sáng V ／ Độ thuần sắc C. Ví dụ '5RP3／8' → 5RP = sắc tướng, 3 = độ sáng, 8 = độ thuần sắc.\n■ Độ thuần sắc (chroma): độ rực rỡ; trị số càng lớn càng rực rỡ.\n■ Độ sáng (value): 11 cấp từ đen lý tưởng 0 đến trắng lý tưởng 10.\n■ Bù màu (補色): các sắc tướng đối diện nhau trên vòng sắc tướng Munsell."
+        }
+      ]
+    },
+    {
+      "path": "1.2 建築環境工学 > 1.2.5 換気・室内環境",
+      "vocabulary": "自然換気 / 機械換気 / 第1種・第2種・第3種換気 / 中性帯 / 換気回数 / 必要換気量 / 全熱交換器 / 置換換気 / 風圧力 / 温度差換気 / ショートサーキット / 室内環境基準",
+      "questions": [
+        {
+          "label": "Q1",
+          "question": "【令和7年（2025年）午前 ロ 問1】次に示す断面形状の室において、風が矢印の向きで左から右に一様に吹いている場合、自然換気による換気効率が最も良いものはどれか。ただし、室温は外気温より高く、開口部の形状寸法はすべて同じものとする。",
+          "choices": [
+            "（断面図1：開口部が上側と下側に分かれている）",
+            "（断面図2：左右とも上方に開口がある）",
+            "（断面図3：風上側の下部開口＋風下側の上部開口）",
+            "（断面図4：開口部が片側に偏っている）"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n換気効率が最も良いのは、3です。\n風は左から右へ吹くので、左側（風上）は空気が入りやすく、右側（風下）は空気が出やすくなります。さらに室内は外より温かいので、温かい空気は上にたまり、上から出すほうがよく換気できます。\n選択肢1：開口部が上側と下側に分かれており、空気の出入りが複雑になりやすいです。風上側の上部開口から入った空気が天井付近だけを流れて風下側の上部開口へ抜けるなど、室内全体を通りにくい流れが起こりやすく、換気効率が最も良い形とは言いにくいです。\n選択肢2：左右とも上のほうに開口部がある形です。風による通風は起こり得ますが、空気が上のほうだけを通りやすく、床付近の空気が入れ替わりにくくなります。室温が高い条件では、下から入れて上から出す形のほうが有利です。\n選択肢3（正）：ポイントは次の2つです。・左側（風上）の下の開口から空気が入りやすい（風圧の利用）・右側（風下）の上の開口から空気が出やすい（風下は負圧になりやすく、さらに温かい空気は上に集まる）。つまり、下から新しい空気を入れて、上から温かい空気を出す流れになり、室内全体を通る換気になりやすいです。\n選択肢4：開口部が片側に偏っており、風上と風下を使った通り抜けの流れが作りにくいです。空気の出入りが近い場所で起こりやすく、室内全体の空気が動きにくくなります。\nまとめ：自然換気で効率を上げるコツは、風と温度差を同時に利用することです。この条件では、左が風上、右が風下、そして室内は外より温かいので、風上の下から入れて風下の上から出す形がいちばん換気効率が良くなります。",
+          "studyContent": "■自然換気の効率化：風（風圧力）と室内外温度差（重力換気）を同時利用。\n■温度差換気：室温が外より高い→下部から給気、上部から排気。\n■本問：風上の下部開口から入れ、風下の上部開口から出す形（選択肢3）が最良。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 7 (2025) – Buổi sáng phần ロ Câu 1】Với căn phòng có hình dạng mặt cắt như hình, khi gió thổi đều từ trái sang phải theo hướng mũi tên, mặt cắt nào có hiệu quả thông gió tự nhiên TỐT nhất? Giả thiết nhiệt độ phòng cao hơn ngoài trời, và hình dạng kích thước các lỗ mở đều như nhau.",
+          "choices_vi": [
+            "(Mặt cắt 1: lỗ mở tách thành phía trên và phía dưới)",
+            "(Mặt cắt 2: cả hai bên đều mở ở phía trên)",
+            "(Mặt cắt 3: lỗ dưới phía đón gió + lỗ trên phía khuất gió)",
+            "(Mặt cắt 4: lỗ mở dồn về một phía)"
+          ],
+          "explanation_vi": "【Giải thích 01】\nHiệu quả thông gió tốt nhất là 3.\nGió thổi từ trái sang phải nên phía trái (đón gió) dễ cho không khí vào, phía phải (khuất gió) dễ cho không khí ra. Hơn nữa phòng ấm hơn bên ngoài nên khí nóng dồn lên trên, thoát ra từ phía trên sẽ thông gió tốt hơn.\nLựa chọn 1: Lỗ mở tách trên–dưới, luồng khí dễ phức tạp. Khí vào từ lỗ trên phía đón gió chỉ chảy gần trần rồi thoát ra lỗ trên phía khuất gió, khó đi khắp phòng, nên không phải dạng tốt nhất.\nLựa chọn 2: Cả hai bên mở phía trên. Có thể có thông gió do gió nhưng khí chỉ đi phía trên, khí gần sàn khó được thay. Khi nhiệt độ phòng cao, dạng vào từ dưới ra từ trên có lợi hơn.\nLựa chọn 3 (Đúng): Hai điểm mấu chốt: ・Khí dễ vào từ lỗ dưới phía trái (đón gió – tận dụng áp lực gió). ・Khí dễ ra từ lỗ trên phía phải (khuất gió – dễ thành áp âm, lại thêm khí nóng dồn lên trên). Tức là đưa khí mới vào từ dưới, đẩy khí nóng ra từ trên, dòng khí đi khắp phòng.\nLựa chọn 4: Lỗ mở dồn một phía, khó tạo luồng xuyên phòng giữa đón gió và khuất gió. Khí vào–ra ở vị trí gần nhau, khí trong phòng khó chuyển động.\nTóm tắt: Bí quyết tăng hiệu quả thông gió tự nhiên là tận dụng đồng thời gió và chênh lệch nhiệt độ. Ở điều kiện này (trái đón gió, phải khuất gió, phòng ấm hơn ngoài), dạng đưa vào từ dưới phía đón gió và ra từ trên phía khuất gió là tốt nhất.",
+          "studyContent_vi": "■ Tăng hiệu quả thông gió tự nhiên: dùng đồng thời gió (áp lực gió) và chênh lệch nhiệt độ trong–ngoài (thông gió do trọng lực).\n■ Thông gió do chênh nhiệt: phòng ấm hơn ngoài → cấp khí từ dưới, thải khí từ trên.\n■ Bài này: dạng đưa khí vào từ lỗ dưới phía đón gió, ra từ lỗ trên phía khuất gió (lựa chọn 3) là tốt nhất."
+        },
+        {
+          "label": "Q2",
+          "question": "【令和6年（2024年）午前 ロ 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "機械換気における第3種機械換気方式は、自然給気と排気機による換気方式で、浴室や便所等に用いられる。",
+            "室内外の温度差による自然換気の換気量は、他の条件が同じであれば、流入口と流出口の高低差に反比例する。",
+            "自然換気における中性帯の位置は、流入口と流出口の開口面積の大きなほうに近づく。",
+            "必要換気量が一定の場合、室容積が大きな空間に比べて小さな空間のほうが、必要な換気回数が多い。"
+          ],
+          "answer": "2",
+          "explanation": "【解説01】\n換気に関する問題はほぼ毎年出ています。\n選択肢1（正）：トイレや浴室など、住宅に多く用いられており、自然換気と機械排気による換気方式です。\n選択肢2（誤）：自然換気の換気量は、流入口と流出口の高低差の平方根に比例し、さらに開口面積が大きいほど、また室内外の温度差が大きいほど増加します。\n選択肢3（正）：中性帯とは温度差換気の際、高さ方向において室内外の圧力差が0になる高さのことを示します。上部に大きな開口があれば上に移動し、下部に大きな開口があれば下に移動します。\n選択肢4（正）：室容積が小さな空間の方が、汚れやすく、必要な換気回数が多くなります。\nまとめ：実際の部屋をイメージしながら覚えると簡単です。\n\n【解説02】\n換気に関する頻出問題です。\n選択肢1（正）：第3種機械換気方式は、排気のみ機械で行うことで、室内を負圧に保ち、汚染物質を隣の部屋などに拡散させずに換気をすることができます。\n選択肢2（誤）：他の条件が同じならば、開口部の高低差の平方根に比例します。よって、高低差が大きくなるほど換気量は大きくなります。\n選択肢3（正）：中性帯では、室内、室外の圧力差が0となり、開口部を設けても換気はほぼ起こりません。また、計算上は開口面積の大きい方に近づく特徴があります。\n選択肢4（正）：換気回数は、1時間当たりの回数で表され、換気量/室容積で計算されます。換気量が一定で、分母である室容積が小さくなると、計算結果である回数は大きく（多く）なります。\nまとめ：この分野での換気の出題は毎年あるので、ポイントを押さえておきましょう。",
+          "studyContent": "■第3種換気：自然給気＋機械排気。室内を負圧に保つ。浴室・便所等。\n■温度差換気量：高低差の「平方根」に比例（反比例ではない）。開口面積・温度差が大きいほど増加。\n■中性帯：室内外圧力差0の高さ。開口面積の大きい方に近づく。\n■換気回数＝換気量÷室容積。室容積が小さいほど換気回数は多い。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 6 (2024) – Buổi sáng phần ロ Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Phương thức thông gió cơ khí loại 3 là cấp khí tự nhiên và thải khí bằng quạt, dùng cho phòng tắm, nhà vệ sinh v.v.",
+            "Lưu lượng thông gió tự nhiên do chênh lệch nhiệt độ trong–ngoài, nếu các điều kiện khác như nhau, tỉ lệ NGHỊCH với chênh lệch độ cao giữa lỗ vào và lỗ ra.",
+            "Vị trí trung hòa đới (中性帯) trong thông gió tự nhiên dịch về phía lỗ vào/ra có diện tích lớn hơn.",
+            "Khi lưu lượng thông gió cần thiết không đổi, không gian nhỏ cần số lần thông gió nhiều hơn không gian lớn."
+          ],
+          "explanation_vi": "【Giải thích 01】\nBài thông gió hầu như năm nào cũng ra.\nLựa chọn 1 (Đúng): Dùng nhiều ở nhà ở như nhà vệ sinh, phòng tắm; là phương thức cấp khí tự nhiên + thải khí cơ khí.\nLựa chọn 2 (Sai): Lưu lượng thông gió tự nhiên tỉ lệ với CĂN BẬC HAI của chênh lệch độ cao giữa lỗ vào và lỗ ra, và tăng khi diện tích lỗ mở lớn hơn, chênh lệch nhiệt độ trong–ngoài lớn hơn.\nLựa chọn 3 (Đúng): Trung hòa đới là độ cao mà chênh áp trong–ngoài bằng 0 trong thông gió do chênh nhiệt. Lỗ lớn ở trên thì dịch lên trên, lỗ lớn ở dưới thì dịch xuống dưới.\nLựa chọn 4 (Đúng): Không gian thể tích nhỏ dễ bẩn hơn nên cần số lần thông gió nhiều hơn.\nTóm tắt: Hình dung căn phòng thực tế sẽ dễ nhớ.\n\n【Giải thích 02】\nBài thông gió hay ra.\nLựa chọn 1 (Đúng): Loại 3 chỉ thải khí bằng cơ khí, giữ phòng ở áp âm, không phát tán chất ô nhiễm sang phòng bên.\nLựa chọn 2 (Sai): Nếu điều kiện khác như nhau, tỉ lệ với CĂN BẬC HAI của chênh lệch độ cao lỗ mở. Do đó chênh lệch độ cao càng lớn lưu lượng càng lớn.\nLựa chọn 3 (Đúng): Tại trung hòa đới chênh áp trong–ngoài bằng 0, đặt lỗ mở cũng hầu như không thông gió. Theo tính toán, dịch về phía lỗ có diện tích lớn hơn.\nLựa chọn 4 (Đúng): Số lần thông gió tính theo số lần/giờ = lưu lượng/thể tích phòng. Lưu lượng không đổi, mẫu số (thể tích) nhỏ đi thì kết quả (số lần) lớn lên.\nTóm tắt: Lĩnh vực này năm nào cũng ra, cần nắm điểm mấu chốt.",
+          "studyContent_vi": "■ Thông gió loại 3: cấp khí tự nhiên + thải khí cơ khí. Giữ phòng áp âm. Dùng cho phòng tắm, nhà vệ sinh.\n■ Lưu lượng thông gió do chênh nhiệt: tỉ lệ với CĂN BẬC HAI của chênh lệch độ cao lỗ vào–ra (không phải tỉ lệ nghịch). Tăng khi diện tích lỗ mở và chênh nhiệt lớn.\n■ Trung hòa đới: độ cao chênh áp trong–ngoài = 0. Dịch về phía lỗ diện tích lớn hơn.\n■ Số lần thông gió = lưu lượng ÷ thể tích phòng. Thể tích càng nhỏ số lần càng nhiều."
+        },
+        {
+          "label": "Q3",
+          "question": "【令和4年（2022年）午前 イ 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "必要換気量は、1時間当たりに必要な室内の空気を入れ替える量で表される。",
+            "温度差による自然換気は、冬期には中性帯より下部から外気が流入し、上部から流出する。",
+            "全熱交換器は、冷暖房を行う部屋で換気設備に用いると、換気による熱損失や熱取得を軽減できる。",
+            "室内の効率的な換気は、給気口から排気口に至る換気経路を短くするほうがよい。"
+          ],
+          "answer": "4",
+          "explanation": "【解説01】\n換気に関する問題はほぼ毎年出される傾向にあります。自然換気と機械換気の方法、必要換気量の計算基準、室内環境基準などについて整理しておきましょう。基準値などの数値の他は常識的な知識で理解できる分野です。\n選択肢1（〇）：必要換気量とは、室内の空気環境を良好に為に1時間当りに必要とする外気との換気量です。室内のCO₂発生量を室内許容CO₂濃度と外気CO₂濃度の差で除して計算します。※必要換気量＝CO₂発生量／（許容濃度－外気濃度）。（参考）静穏時の成人一人当りの必要換気量は30m³／時で計算します。\n選択肢2（〇）：実際の室内をイメージすると良く分かります。・冬は暖房で室内温度が高いため（外が寒い）、外気は下から入って上から出て行きます・夏は冷房で室内温度が低いため（外が暑い）、外気は上から入って下から出て行きます。\n選択肢3（〇）：全熱交換器は室内換気の際に、熱交換器（熱交換エレメント）を使って、排気空気の熱エネルギー（温度＋湿度）を外部からの新鮮な空気と交換します。室内の空気を排出しながら温度と湿度は室内へ戻す省エネシステムです。（参考）全熱（熱エネルギー）＝温度（潜熱）＋湿度（顕熱）。\n選択肢4（✕）：自然換気では、吸気口と排気口の高低差を大きくし、距離を長くするほど効率的となります。温度差による自然換気量は、高低差（垂直距離）の平方根に比例します。\nまとめ：換気問題対策の要点は次の通りです。①自然換気（風力換気と重量換気）、機械換気（第1種、第2種、第3種）の特徴を整理しておく。②換気量、換気回数の計算方法を覚える。③室内環境基準（汚染物質の許容濃度）を覚える。\n\n【解説02】\n解説は下記の通りです。\n選択肢1（正）：必要換気量は1時間当たりに必要な室内の空気を入れ替える量で表されます。室内の空気環境を良好な状態に保つため、必要とされる最小限の取入れ外気量のことです。必要換気量＝室内CO₂発生量/室内のCO₂濃度－外気のCO₂濃度 で求めることができます。\n選択肢2（正）：冷たい空地は重く、暖かい空気は軽いため選択肢の通りになります。また、中性帯とは、温度差による換気において、室内外の気圧の差が0になる位置のことをさします。\n選択肢3（正）：全熱交換器は、排気中の排熱を回収して再利用する装置です。そのため、冷暖房を行う部屋で換気設備に用いると、換気による熱損失や熱取得を軽減できます。\n選択肢4（誤）：換気経路を短くすると、取り入れた新鮮な空気をすぐに排出することになります。換気経路を長くして、汚れた空気を排出する方が効率が良いです。",
+          "studyContent": "■必要換気量＝CO₂発生量÷（室内許容CO₂濃度－外気CO₂濃度）。成人静穏時 約30m³/h/人。\n■温度差換気（冬）：中性帯より下部から外気流入、上部から流出。\n■全熱交換器：排気の熱（温度＋湿度）を回収。冷暖房時の熱損失・熱取得を軽減。\n■換気経路は長くするほうが効率的（短いとショートサーキット）。",
+          "tables": [],
+          "tables_vi": [],
+          "images": [],
+          "question_vi": "【Năm Reiwa 4 (2022) – Buổi sáng phần イ Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Lưu lượng thông gió cần thiết được biểu thị bằng lượng không khí trong phòng cần được thay đổi trong 1 giờ.",
+            "Thông gió tự nhiên do chênh nhiệt: mùa đông, khí ngoài vào từ phía dưới trung hòa đới và thoát ra từ phía trên.",
+            "Bộ trao đổi nhiệt tổng (全熱交換器) khi dùng cho thiết bị thông gió ở phòng có điều hòa giúp giảm tổn thất nhiệt và thu nhiệt do thông gió.",
+            "Thông gió hiệu quả trong phòng thì nên làm NGẮN đường thông gió từ miệng cấp khí đến miệng thải khí."
+          ],
+          "explanation_vi": "【Giải thích 01】\nBài thông gió hầu như năm nào cũng ra. Nên sắp xếp về phương pháp thông gió tự nhiên và cơ khí, tiêu chuẩn tính lưu lượng thông gió cần thiết, tiêu chuẩn môi trường trong phòng. Ngoài các trị số tiêu chuẩn thì có thể hiểu bằng kiến thức thông thường.\nLựa chọn 1 (Đúng): Lưu lượng thông gió cần thiết là lượng khí trao đổi với bên ngoài cần trong 1 giờ để giữ môi trường không khí trong phòng tốt. Tính bằng lượng CO₂ phát sinh chia cho hiệu giữa nồng độ CO₂ cho phép và nồng độ CO₂ ngoài. ※ Lưu lượng = lượng CO₂ phát sinh ÷ (nồng độ cho phép − nồng độ ngoài). (Tham khảo) Khi yên tĩnh, mỗi người lớn tính 30 m³/giờ.\nLựa chọn 2 (Đúng): ・Mùa đông sưởi ấm nên nhiệt độ phòng cao (ngoài lạnh), khí ngoài vào từ dưới và ra từ trên. ・Mùa hè làm mát nên nhiệt độ phòng thấp (ngoài nóng), khí ngoài vào từ trên và ra từ dưới.\nLựa chọn 3 (Đúng): Bộ trao đổi nhiệt tổng dùng bộ phận trao đổi nhiệt để trao đổi năng lượng nhiệt (nhiệt độ + độ ẩm) của khí thải với khí mới từ bên ngoài. Là hệ tiết kiệm năng lượng vừa thải khí vừa giữ lại nhiệt độ và độ ẩm cho phòng. (Tham khảo) Nhiệt tổng (năng lượng nhiệt) = nhiệt độ (nhiệt ẩn) + độ ẩm (nhiệt hiện).\nLựa chọn 4 (Sai): Trong thông gió tự nhiên, càng tăng chênh lệch độ cao giữa miệng cấp và miệng thải, càng kéo dài khoảng cách thì càng hiệu quả. Lưu lượng thông gió do chênh nhiệt tỉ lệ với căn bậc hai của chênh lệch độ cao.\nTóm tắt: ① Nắm đặc điểm thông gió tự nhiên (do gió và do trọng lượng) và cơ khí (loại 1, 2, 3). ② Nhớ cách tính lưu lượng và số lần thông gió. ③ Nhớ tiêu chuẩn môi trường trong phòng (nồng độ cho phép của chất ô nhiễm).\n\n【Giải thích 02】\nGiải thích như sau.\nLựa chọn 1 (Đúng): Lưu lượng thông gió cần thiết là lượng khí cần thay trong 1 giờ; là lượng khí ngoài tối thiểu cần lấy vào để giữ môi trường phòng tốt. Tính = lượng CO₂ phát sinh trong phòng / (nồng độ CO₂ trong phòng − nồng độ CO₂ ngoài).\nLựa chọn 2 (Đúng): Khí lạnh nặng, khí ấm nhẹ nên đúng như lựa chọn. Trung hòa đới là vị trí mà chênh áp trong–ngoài bằng 0 trong thông gió do chênh nhiệt.\nLựa chọn 3 (Đúng): Bộ trao đổi nhiệt tổng thu hồi nhiệt thải trong khí thải để tái sử dụng. Do đó dùng cho phòng điều hòa giúp giảm tổn thất/thu nhiệt do thông gió.\nLựa chọn 4 (Sai): Đường thông gió ngắn thì khí mới lấy vào bị thải ra ngay. Kéo dài đường thông gió để thải khí bẩn thì hiệu quả hơn.",
+          "studyContent_vi": "■ Lưu lượng thông gió cần thiết = lượng CO₂ phát sinh ÷ (nồng độ CO₂ cho phép − nồng độ CO₂ ngoài). Người lớn yên tĩnh ≈ 30 m³/h/người.\n■ Thông gió do chênh nhiệt (mùa đông): khí ngoài vào từ dưới trung hòa đới, ra từ trên.\n■ Bộ trao đổi nhiệt tổng: thu hồi nhiệt (nhiệt độ + độ ẩm) của khí thải; giảm tổn thất/thu nhiệt khi điều hòa.\n■ Đường thông gió nên dài hơn thì hiệu quả hơn (ngắn → short circuit)."
+        },
+        {
+          "label": "Q4",
+          "question": "【令和3年（2021年）午前 イ 問1】換気に関する記述として、最も不適当なものはどれか。",
+          "choices": [
+            "風圧力による自然換気の場合、他の条件が同じであれば、換気量は風上側と風下側の風圧係数の差の平方根に比例する。",
+            "室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づく。",
+            "中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。",
+            "中央管理方式の空気調和設備を設ける場合、室内空気の浮遊粉塵の量は、0.15mg/m³以下となるようにする。"
+          ],
+          "answer": "3",
+          "explanation": "【解説01】\n正解は「中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。」です。\n選択肢1. 風圧力による自然換気の場合、他の条件が同じであれば、換気量は風上側と風下側の風圧係数の差の平方根に比例する。\n正しい記述です。\n風圧力による自然換気の場合、他の条件が同じであれば、換気量は、開口部の面積と風速に比例し、風上側と風下側の風圧係数の差の平方根に比例します。\n選択肢2. 室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づく。\n正しい記述です。\n室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づきます。\n中性帯とは、ある高さで室内外の圧力差がゼロとなる点のことです。\n選択肢3. 中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。\n×（正答肢）\n室内空気の一酸化炭素濃度は、10ppm以下とする必要があります。\n二酸化炭素濃度は、1,000ppm以下とする必要があります。\n※令和4年4月1日の建築物における衛生的環境の確保に関する法律施行令の改正により、一酸化炭素の含有率の基準値が10ppm以下から6ppm以下へ変更されました。\n選択肢4. 中央管理方式の空気調和設備を設ける場合、室内空気の浮遊粉塵の量は、0.15mg/m³以下となるようにする。\n正しい記述です。\n室内空気の浮遊粉塵の量は、0.15mg/㎥以下となるようにする必要があります。\n\n【解説02】\n換気は、大きく分けると、自然換気と機械換気に分けられます。しっかり理解しましょう。\n選択肢1. 風圧力による自然換気の場合、他の条件が同じであれば、換気量は風上側と風下側の風圧係数の差の平方根に比例する。\n正しい記述です。\n風圧力による換気量＝「流量係数」×「開口部面積」×「外部風速」×「外部風向による風圧係数の差に平方根」で求められる為です。\n選択肢2. 室内外の温度差による自然換気で、上下に大きさの異なる開口部を用いる場合、中性帯の位置は、開口部の大きい方に近づく。\n正しい記述です。\n中性帯とは、温度差換気の場合、室内外の圧力差が0になる垂直方向の位置をいいます。\n選択肢3. 中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、100ppm以下となるようにする。\n×（正解）\n中央管理方式の空気調和設備を設ける場合、室内空気の一酸化炭素の濃度は、10ppm以下となるようにします。\n※建築物における衛生的環境の確保に関する法律施行令の改正（令和４年４月１日施行）により、現在は6ppm以下とすることが義務付けられています。\n選択肢4. 中央管理方式の空気調和設備を設ける場合、室内空気の浮遊粉塵の量は、0.15mg/m³以下となるようにする。\n正しい記述です。\nまとめ\n許容濃度の目安は以下のとおりです。（下表参照：一酸化炭素6ppm以下、二酸化炭素1000ppm以下、相対湿度40％～70％、浮遊粉じん0.15mg/㎥以下）",
+          "studyContent": "■中央管理方式の室内環境基準（現行）：一酸化炭素6ppm以下、二酸化炭素1000ppm以下、相対湿度40～70％、浮遊粉じん0.15mg/㎥以下。\n■風圧力換気量＝流量係数×開口面積×風速×（風圧係数差の平方根）。\n■中性帯：室内外圧力差0の高さ。開口面積の大きい方に近づく。",
+          "tables": ["| 項目 | 許容濃度 |\n| --- | --- |\n| 一酸化炭素 | 6ppm以下 |\n| 二酸化炭素 | 1000ppm以下 |\n| 相対湿度 | 40％～70％ |\n| 浮遊粉じん | 0.15mg/㎥以下 |"],
+          "tables_vi": ["| Hạng mục | Nồng độ cho phép |\n| --- | --- |\n| Carbon monoxide (CO) | ≤ 6ppm |\n| Carbon dioxide (CO₂) | ≤ 1000ppm |\n| Độ ẩm tương đối | 40％～70％ |\n| Bụi lơ lửng | ≤ 0.15mg/㎥ |"],
+          "images": [],
+          "question_vi": "【Năm Reiwa 3 (2021) – Buổi sáng phần イ Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
+          "choices_vi": [
+            "Thông gió tự nhiên do áp lực gió: nếu các điều kiện khác như nhau, lưu lượng thông gió tỉ lệ với căn bậc hai của hiệu số hệ số áp lực gió giữa phía đón gió và phía khuất gió.",
+            "Thông gió tự nhiên do chênh nhiệt trong–ngoài, khi dùng hai lỗ mở trên–dưới có kích thước khác nhau, vị trí trung hòa đới dịch về phía lỗ lớn hơn.",
+            "Khi đặt thiết bị điều hòa không khí kiểu quản lý trung tâm, nồng độ carbon monoxide trong không khí phòng phải đảm bảo ≤ 100ppm.",
+            "Khi đặt thiết bị điều hòa không khí kiểu quản lý trung tâm, lượng bụi lơ lửng trong không khí phòng phải ≤ 0.15mg/m³."
+          ],
+          "explanation_vi": "【Giải thích 01】\nĐáp án đúng là 'Khi đặt thiết bị điều hòa kiểu quản lý trung tâm, nồng độ CO trong không khí phòng phải ≤ 100ppm' (đây là mô tả SAI).\nLựa chọn 1: Đúng. Thông gió tự nhiên do áp lực gió, nếu điều kiện khác như nhau, lưu lượng tỉ lệ với diện tích lỗ mở và tốc độ gió, và tỉ lệ với căn bậc hai của hiệu hệ số áp lực gió đón–khuất gió.\nLựa chọn 2: Đúng. Khi dùng hai lỗ mở trên–dưới kích thước khác nhau, trung hòa đới dịch về phía lỗ lớn hơn. Trung hòa đới là điểm ở độ cao nào đó mà chênh áp trong–ngoài bằng 0.\nLựa chọn 3: × (đáp án đúng – mô tả sai). Nồng độ CO trong không khí phòng phải ≤ 10ppm. Nồng độ CO₂ phải ≤ 1.000ppm. ※ Theo sửa đổi nghị định thi hành Luật bảo đảm môi trường vệ sinh trong công trình (hiệu lực 1/4/Reiwa 4), trị số chuẩn hàm lượng CO đã đổi từ ≤ 10ppm xuống ≤ 6ppm.\nLựa chọn 4: Đúng. Lượng bụi lơ lửng trong không khí phòng phải ≤ 0.15mg/㎥.\n\n【Giải thích 02】\nThông gió chia lớn thành thông gió tự nhiên và thông gió cơ khí. Hãy hiểu kỹ.\nLựa chọn 1: Đúng. Lưu lượng thông gió do áp lực gió = 'hệ số lưu lượng' × 'diện tích lỗ mở' × 'tốc độ gió ngoài' × 'căn bậc hai của hiệu hệ số áp lực gió theo hướng gió'.\nLựa chọn 2: Đúng. Trung hòa đới là vị trí theo phương thẳng đứng mà chênh áp trong–ngoài bằng 0 trong thông gió do chênh nhiệt.\nLựa chọn 3: × (đáp án). Nồng độ CO phải ≤ 10ppm. ※ Theo sửa đổi nghị định (hiệu lực 1/4/Reiwa 4), hiện nay bắt buộc ≤ 6ppm.\nLựa chọn 4: Đúng. ≤ 0.15mg/m³.\nTóm tắt: Trị số nồng độ cho phép tham khảo ở bảng bên dưới.",
+          "studyContent_vi": "■ Tiêu chuẩn môi trường trong phòng kiểu quản lý trung tâm (hiện hành): CO ≤ 6ppm, CO₂ ≤ 1000ppm, độ ẩm tương đối 40～70％, bụi lơ lửng ≤ 0.15mg/㎥.\n■ Lưu lượng thông gió do áp lực gió = hệ số lưu lượng × diện tích lỗ mở × tốc độ gió × (căn bậc hai của hiệu hệ số áp lực gió).\n■ Trung hòa đới: độ cao chênh áp trong–ngoài = 0; dịch về phía lỗ diện tích lớn hơn."
         },
         {
           "label": "Q5",
-          "question": "金属材料に関する一般的な記述として、最も不適当なものはどれか。",
+          "question": "【平成30年（2018年）午前 問1】換気に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "黄銅（真ちゅう）は、銅と、亜鉛の合金であり、亜鉛が30〜40％のものである。",
-            "鉛は、鋼材に比べ熱伝導率が低く、線膨張係数は大きい。",
-            "ステンレス鋼のSUS430は、SUS304に比べ磁性が弱い。",
-            "アルミニウムは、鋼材に比べ密度及びヤング係数が約1/3である。"
+            "第３種機械換気方式は、自然給気と排気機による換気方式で、浴室や便所などに用いられる。",
+            "自然換気設備の給気口は、調理室等を除き、居室の天井の高さの1/2以下の高さに設置する。",
+            "営業用の厨房は、一般に窓のない浴室よりも換気回数を多く必要とする。",
+            "給気口から排気口に至る換気経路を短くする方が、室内の換気効率はよくなる。"
           ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。黄銅は銅と亜鉛の合金で亜鉛30〜40％。\n選択肢2：適当。鉛は鋼より熱伝導率が低く、線膨張係数は大きい。\n選択肢3：不適当。SUS430はフェライト系で磁性があり、SUS304はオーステナイト系で非磁性。よってSUS430はSUS304より磁性が強い。\n選択肢4：適当。アルミは鋼に比べ密度・ヤング係数とも約1/3。",
-          "studyContent": "SUS430(フェライト系)は磁性あり、SUS304(オーステナイト系)は非磁性。400番台＝安価フェライト系、300番台＝オーステナイト系。",
+          "answer": "4",
+          "explanation": "【解説01】\n正解は4です。\n1:設問の通りです。それ以外に「第1種換気方式」と「第2種換気方式」があります。「第1種換気方式」は、給気・排気とも機械換気で強制的に行う換気方法であり、「第2種換気方式」は、給気を機械換気、排気を自然換気にて行う換気方式です。どの換気方式とするかは、部屋の用途等によって、使い分ける必要があります。\n2:設問通りです。建築基準法施工令第１２９条の２の６第1項により規定されています。\n3:設問通りです。\n4:誤りです。給気口から排気口に至る換気経路は（短くするのではなく）長くする方が、室内の換気効率は良くなります。給気口と排気口の位置が近いと、狭い範囲で空気が循環してしまい換気が機能しないショートサーキットを起こします。\n\n【解説02】\n以下、選択肢ごとに解説します。\n選択肢1. 第３種機械換気方式は、自然給気と排気機による換気方式で、浴室や便所などに用いられる。\n正しいです。\n第1種換気方式：給気・排気とも機械換気で強制的に行う換気方法\n第2種換気方式：給気を機械換気、排気を自然換気にて行う換気方式\n第3種換気方式：給気を自然換気、排気を機械換気にて行う換気方式\n選択肢2. 自然換気設備の給気口は、調理室等を除き、居室の天井の高さの1/2以下の高さに設置する。\n正しいです。\n建築基準法施工令第１２９条の２の６第1項により規定されています。\n選択肢3. 営業用の厨房は、一般に窓のない浴室よりも換気回数を多く必要とする。\n正しいです。\n厨房の必要換気回数：30～60回/ｈ\n窓のない浴槽の必要換気回数：5回/ｈ程度\n選択肢4. 給気口から排気口に至る換気経路を短くする方が、室内の換気効率はよくなる。\n誤りです。\n給気口から排気口に至る換気経路は長くする方が、室内の換気効率は良くなります。給気口と排気口の位置が近いと、ショートサーキットを起こします。\n\n【解説03】\n正解は４です。\n【解説】\n１．設問の通りです。「第３種機械換気方式」給気は給気口から自然に、排気は換気扇から強制的に行います。室内で発生した臭いや湿気が他の部屋に広がる前に強制排気する換気方式です。浴室や便所の様に臭いが発生しやすい部屋に採用されています。\n２．設問の通りです。建築基準法施工令第１２９条の２の６第1項ロにより規定されています。\n３．設問の通りです。\n４．誤りです。給気口と排気口は適切な距離を取ると換気効率が良くなります。近くに設置すると狭い範囲で空気が循環するショートサーキットが起こり、取り込んだ新鮮な空気が部屋全体に行き渡らなくなります。",
+          "studyContent": "■機械換気の種類：第1種（給排とも機械）、第2種（給気機械＋排気自然）、第3種（給気自然＋排気機械；浴室・便所）。\n■換気経路は長くするほうが効率的（短いとショートサーキット）。\n■厨房の必要換気回数：30～60回/h。窓のない浴槽：5回/h程度。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu kim loại là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Heisei 30 (2018) – Buổi sáng Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Đồng thau là hợp kim đồng và kẽm, với kẽm 30〜40%.",
-            "Chì có độ dẫn nhiệt thấp hơn và hệ số giãn nở dài lớn hơn so với thép.",
-            "Thép không gỉ SUS430 có từ tính yếu hơn so với SUS304.",
-            "Nhôm có khối lượng riêng và mô đun đàn hồi (Young) bằng khoảng 1/3 so với thép."
+            "Phương thức thông gió cơ khí loại 3 là cấp khí tự nhiên và thải khí bằng quạt, dùng cho phòng tắm, nhà vệ sinh v.v.",
+            "Miệng cấp khí của thiết bị thông gió tự nhiên (trừ phòng bếp v.v.) được đặt ở độ cao ≤ 1/2 chiều cao trần phòng ở.",
+            "Bếp kinh doanh nói chung cần số lần thông gió nhiều hơn phòng tắm không có cửa sổ.",
+            "Làm NGẮN đường thông gió từ miệng cấp đến miệng thải thì hiệu quả thông gió trong phòng tốt hơn."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: KHÔNG phù hợp. SUS430 (ferit) CÓ từ tính, SUS304 (austenit) không từ tính; nên SUS430 từ tính MẠNH hơn SUS304.\nLựa chọn 4: Đúng. Nhôm có khối lượng riêng và mô đun Young ≈ 1/3 thép.",
-          "studyContent_vi": "SUS430 (ferit) có từ tính; SUS304 (austenit) không từ tính. Dòng 400 = ferit giá rẻ, dòng 300 = austenit."
+          "explanation_vi": "【Giải thích 01】\nĐáp án đúng là 4.\n1: Đúng như đề. Ngoài ra còn có 'loại 1' và 'loại 2'. Loại 1: cả cấp và thải đều bằng cơ khí (cưỡng bức). Loại 2: cấp khí cơ khí, thải khí tự nhiên. Chọn loại nào tùy công năng phòng.\n2: Đúng như đề. Được quy định tại Điều 129-2-6 khoản 1 Nghị định thi hành Luật tiêu chuẩn xây dựng.\n3: Đúng như đề.\n4: Sai. Đường thông gió từ miệng cấp đến miệng thải nên LÀM DÀI hơn (không phải ngắn) thì hiệu quả thông gió tốt hơn. Nếu miệng cấp và thải gần nhau, khí chỉ luẩn quẩn trong phạm vi hẹp, gây short circuit khiến thông gió không hoạt động.\n\n【Giải thích 02】\nGiải thích theo từng lựa chọn.\nLựa chọn 1: Đúng. Loại 1: cả cấp và thải đều cơ khí. Loại 2: cấp cơ khí, thải tự nhiên. Loại 3: cấp tự nhiên, thải cơ khí.\nLựa chọn 2: Đúng. Quy định tại Điều 129-2-6 khoản 1.\nLựa chọn 3: Đúng. Số lần thông gió cần thiết của bếp: 30～60 lần/h. Của phòng tắm không có cửa sổ: khoảng 5 lần/h.\nLựa chọn 4: Sai. Đường thông gió nên dài hơn thì hiệu quả tốt hơn. Miệng cấp và thải gần nhau sẽ gây short circuit.\n\n【Giải thích 03】\nĐáp án đúng là 4.\n【Giải thích】\n1. Đúng như đề. 'Loại 3': cấp khí tự nhiên qua miệng cấp, thải khí cưỡng bức qua quạt. Là phương thức thải cưỡng bức mùi/ẩm phát sinh trong phòng trước khi lan sang phòng khác. Dùng cho phòng dễ phát sinh mùi như phòng tắm, nhà vệ sinh.\n2. Đúng như đề. Quy định tại Điều 129-2-6 khoản 1 mục ロ.\n3. Đúng như đề.\n4. Sai. Miệng cấp và thải đặt cách nhau khoảng cách thích hợp thì hiệu quả tốt. Đặt gần nhau gây short circuit (khí luẩn quẩn phạm vi hẹp), khí mới lấy vào không đi khắp phòng.",
+          "studyContent_vi": "■ Các loại thông gió cơ khí: Loại 1 (cấp & thải đều cơ khí), Loại 2 (cấp cơ khí + thải tự nhiên), Loại 3 (cấp tự nhiên + thải cơ khí; phòng tắm, nhà vệ sinh).\n■ Đường thông gió nên dài hơn thì hiệu quả (ngắn → short circuit).\n■ Số lần thông gió cần thiết của bếp: 30～60 lần/h. Phòng tắm không cửa sổ: ~5 lần/h."
         },
         {
           "label": "Q6",
-          "question": "鋼材に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和2年（2020年）午前 問1】換気に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "SN490BやSN490Cは、炭素当量などの上限を規定して溶接性を改善した鋼材である。",
-            "TMCP鋼は、熱加工制御により製造された、溶接性は劣るが高じん性の鋼材である。",
-            "耐火鋼（FR鋼）は、モリブデン等を添加して耐火性を高めた鋼材である。",
-            "低降伏点鋼は、添加元素を極力低減した純鉄に近い鋼で、強度が低く延性が高い鋼材である。"
+            "換気量が一定の場合、室容積が小さいほど換気回数は多くなる。",
+            "給気口から排気口に至る換気経路を短くするほうが、室内の換気効率はよくなる。",
+            "全熱交換器を用いると、冷暖房時に換気による熱損失や熱取得を軽減できる。",
+            "換気量が同じ場合、置換換気は全般換気に比べて、換気効率に優れている。"
           ],
           "answer": "2",
-          "explanation": "選択肢1：適当。SN490B・Cは炭素当量等の上限規定で溶接性を改善。\n選択肢2：不適当。TMCP鋼（熱加工制御鋼）は高じん性で炭素当量が低減されており、溶接性に優れる。「溶接性は劣る」は誤り。\n選択肢3：適当。FR鋼はモリブデン等を添加して耐火性を高めた鋼材。\n選択肢4：適当。低降伏点鋼は純鉄に近い鋼で強度が低く延性が高い。",
-          "studyContent": "TMCP鋼は高じん性かつ溶接性に優れる（炭素当量を低減）。",
+          "explanation": "【解説01】\n答えは(誤り)は 2 です。\n換気経路が短いほど、給気口から入ってきた新鮮な空気が室内にいきわたることなく排気口に至るため、換気効率は悪くなります。\nしたがって設問2の「室内の換気効率はよくなる」は誤りです。\n1. 正しいです。\n換気回数＝(換気量)÷(室容積)の式で求めます。したがって換気量が一定の場合、室容積が小さいほど換気回数は大きくなります。\n3.正しいです。\n通常の換気では外気が直接室内に給気されるため、熱損失や熱取得が発生します。全熱交換器は、外気を給気する過程で排気される室内の空気と熱交換を行い、給気温度を室内温度に近づけるシステムです。したがって、換気の際に発生する熱損失や熱取得を軽減することができます。\n4.正しいです。\n置換換気は、室下部に設けた吹出口から低温の空気を給気することにより、室内で発生した汚染空気を室上部へ上昇させて排出する換気方式です。全般換気よりも置換換気のほうが速く新鮮な空気が到達するため換気効率に優れています。\n\n【解説02】\n換気に関する記述の中で、最も不適当なものを識別するために、各選択肢を詳しく見ていきます。\n選択肢1. 換気量が一定の場合、室容積が小さいほど換気回数は多くなる。\nこの記述は正しいです。換気量（一定時間内に交換される空気の量）が同じ場合、部屋の容積が小さければその部屋の空気はより頻繁に交換されます。つまり、換気回数が増加します。\n選択肢2. 給気口から排気口に至る換気経路を短くするほうが、室内の換気効率はよくなる。\nこの記述は不適切です。一般的に、給気と排気の位置は換気効率を高めるために適切に配置する必要がありますが、経路が短いことが必ずしも効率向上につながるわけではありません。換気経路が短すぎると、空気が十分に室内に行き渡らない場合があり、むしろ換気効率が低下することがあります。効率的な換気のためには、空気が室内全体に均等に分配されるような配置が重要です。\n選択肢3. 全熱交換器を用いると、冷暖房時に換気による熱損失や熱取得を軽減できる。\nこの記述は正しいです。全熱交換器は、排気から熱エネルギーを回収して新たに取り入れる空気を事前に加熱または冷却することで、エネルギー効率を向上させることができます。これにより、冷暖房負荷を減少させる効果があります。\n選択肢4. 換気量が同じ場合、置換換気は全般換気に比べて、換気効率に優れている。\nこの記述は正しいです。置換換気（局所換気）は特定の場所から空気を直接排出し、新鮮な空気を同じ場所に導入することで、効率よく空気を入れ替えることができます。これに対して全般換気（一般換気）は、空気の流れが均等になるように全体の空間にわたって行われるため、特定の領域の空気の質を迅速に改善するには効率が低下することがあります。\nまとめ\n最も不適当な記述は「給気口から排気口に至る換気経路を短くするほうが、室内の換気効率はよくなる」となります。\n\n【解説03】\n換気についての出題です。\n選択肢1. 設問の通りです。換気回数とは、換気量を室容積で割った値です。\n選択肢2. 誤りです。給気口から排気口に至る換気経路を短くすると、ショートサーキットとなり、換気効率は悪くなります。\n選択肢3. 全熱交換器は、温度と湿度を同時に交換するため 冷暖房時に換気による熱損失や熱取得を軽減できます。\n選択肢4. 設問の通りです。",
+          "studyContent": "■換気回数＝換気量÷室容積。室容積が小さいほど換気回数は多い。\n■換気経路は長くするほうが効率的（短いとショートサーキット）。\n■全熱交換器：温度と湿度を同時に交換。冷暖房時の熱損失・熱取得を軽減。\n■置換換気：室下部から低温空気を給気し汚染空気を上部へ排出。全般換気より換気効率に優れる。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về thép là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 2 (2020) – Buổi sáng Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "SN490B và SN490C là thép cải thiện tính hàn nhờ quy định giới hạn trên của đương lượng cacbon.",
-            "Thép TMCP được chế tạo bằng kiểm soát gia công nhiệt, có độ dai cao nhưng tính hàn KÉM.",
-            "Thép chịu lửa (FR) là thép được thêm molypden để tăng tính chịu lửa.",
-            "Thép giới hạn chảy thấp là thép gần sắt nguyên chất, bền thấp dẻo cao."
+            "Khi lưu lượng thông gió không đổi, thể tích phòng càng nhỏ thì số lần thông gió càng nhiều.",
+            "Làm NGẮN đường thông gió từ miệng cấp đến miệng thải thì hiệu quả thông gió trong phòng tốt hơn.",
+            "Dùng bộ trao đổi nhiệt tổng giúp giảm tổn thất/thu nhiệt do thông gió khi điều hòa.",
+            "Khi lưu lượng thông gió như nhau, thông gió thay thế (置換換気) hiệu quả hơn thông gió toàn thể (全般換気)."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: KHÔNG phù hợp. Thép TMCP có độ dai cao và đương lượng cacbon thấp nên tính hàn TỐT; nói tính hàn kém là sai.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Thép TMCP có độ dai cao và tính hàn tốt (đương lượng cacbon thấp)."
+          "explanation_vi": "【Giải thích 01】\nĐáp án (sai) là 2.\nĐường thông gió càng ngắn thì khí mới vào từ miệng cấp đến thẳng miệng thải mà không đi khắp phòng, nên hiệu quả thông gió kém đi. Do đó câu 2 'hiệu quả thông gió tốt hơn' là sai.\n1. Đúng. Số lần thông gió = lưu lượng ÷ thể tích phòng. Lưu lượng không đổi, thể tích nhỏ thì số lần lớn.\n3. Đúng. Thông gió thông thường cho khí ngoài vào trực tiếp nên phát sinh tổn thất/thu nhiệt. Bộ trao đổi nhiệt tổng trao đổi nhiệt giữa khí cấp và khí thải, đưa nhiệt độ khí cấp gần với nhiệt độ phòng, nên giảm được tổn thất/thu nhiệt.\n4. Đúng. Thông gió thay thế cấp khí lạnh từ miệng thổi dưới phòng, đẩy khí ô nhiễm lên trên và thải ra. Khí mới đến nhanh hơn so với thông gió toàn thể nên hiệu quả hơn.\n\n【Giải thích 02】\nXét kỹ từng lựa chọn để tìm mô tả không phù hợp nhất.\nLựa chọn 1: Đúng. Lưu lượng như nhau, thể tích phòng nhỏ thì khí được thay thường xuyên hơn, tức số lần thông gió tăng.\nLựa chọn 2: Không phù hợp. Vị trí cấp–thải cần bố trí hợp lý, nhưng đường ngắn không hẳn làm tăng hiệu quả; nếu quá ngắn, khí không đi khắp phòng, hiệu quả có thể giảm. Cần bố trí sao cho khí phân bố đều khắp phòng.\nLựa chọn 3: Đúng. Bộ trao đổi nhiệt tổng thu hồi năng lượng nhiệt từ khí thải để làm ấm/làm mát trước khí lấy vào, nâng hiệu quả năng lượng, giảm tải điều hòa.\nLựa chọn 4: Đúng. Thông gió thay thế (cục bộ) thải khí trực tiếp từ một vị trí và đưa khí mới vào cùng vị trí, thay khí hiệu quả. Thông gió toàn thể lan đều khắp không gian nên cải thiện nhanh chất lượng khí ở vùng cụ thể thì kém hơn.\nTóm tắt: Mô tả không phù hợp nhất là 'làm ngắn đường thông gió thì hiệu quả tốt hơn'.\n\n【Giải thích 03】\nBài về thông gió.\nLựa chọn 1: Đúng như đề. Số lần thông gió là lưu lượng chia cho thể tích phòng.\nLựa chọn 2: Sai. Đường thông gió ngắn sẽ gây short circuit, hiệu quả kém.\nLựa chọn 3: Bộ trao đổi nhiệt tổng trao đổi đồng thời nhiệt độ và độ ẩm nên giảm tổn thất/thu nhiệt do thông gió khi điều hòa.\nLựa chọn 4: Đúng như đề.",
+          "studyContent_vi": "■ Số lần thông gió = lưu lượng ÷ thể tích phòng. Thể tích càng nhỏ số lần càng nhiều.\n■ Đường thông gió nên dài hơn thì hiệu quả (ngắn → short circuit).\n■ Bộ trao đổi nhiệt tổng: trao đổi đồng thời nhiệt độ và độ ẩm; giảm tổn thất/thu nhiệt khi điều hòa.\n■ Thông gió thay thế: cấp khí lạnh từ dưới đẩy khí ô nhiễm lên trên; hiệu quả hơn thông gió toàn thể."
         },
         {
           "label": "Q7",
-          "question": "鋼材に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和元年（2019年）午前 問1】換気に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "TMCP鋼は、熱加工制御により製造された鋼材で、高じん性であり溶接性に優れた鋼材である。",
-            "低降伏点鋼は、モリブデン等の元素を添加することで、強度を低くし延性を高めた鋼材である。",
-            "鋼材の溶接性に関する数値として、炭素当量（Ceq）や溶接割れ感受性組成（PCM）がある。",
-            "鋼材の材質を変化させるための熱処理には、焼入れ、焼戻し、焼ならしなどの方法がある。"
+            "室内空気の気流は、0.5 m/s以下となるようにする。",
+            "室内空気の二酸化炭素の濃度は、1.0 %以下となるようにする。",
+            "室内空気の相対湿度は、40%以上70%以下となるようにする。",
+            "室内空気の浮遊粉じんの量は、0.15 mg/m³以下となるようにする。"
           ],
           "answer": "2",
-          "explanation": "選択肢1：適当。TMCP鋼は高じん性で溶接性に優れる。\n選択肢2：不適当。低降伏点鋼は添加元素を極力低減した純鉄に近い鋼で、強度は低いが延性が高い。モリブデン添加で強度を低くするという記述は誤り。\n選択肢3：適当。溶接性指標として炭素当量（Ceq）や溶接割れ感受性組成（PCM）がある。\n選択肢4：適当。熱処理には焼入れ・焼戻し・焼ならしがある。",
-          "studyContent": "低降伏点鋼＝純鉄に近い鋼。溶接性指標は炭素当量(Ceq)・溶接割れ感受性組成(PCM)。",
+          "explanation": "【解説01】\n以下に解説します。\n選択肢1. 室内空気の気流は、0.5 m/s以下となるようにする。\n設問の通りです。\n選択肢2. 室内空気の二酸化炭素の濃度は、1.0 %以下となるようにする。\n誤りです。空気調和設備や機械空調設備を備えている室では、室内空気の二酸化炭素の濃度は、0.1 ％以下となるようにします。\n選択肢3. 室内空気の相対湿度は、40%以上70%以下となるようにする。\n設問の通りです。\n選択肢4. 室内空気の浮遊粉じんの量は、0.15 mg/m³以下となるようにする。\n設問の通りです。\n\n【解説02】\n環境工学の換気についての出題です。\n選択肢1. 建築基準法施行令により、室内空気の気流は、0.5 m/s以下となるようにします。\n選択肢2. 不適当です。建築基準法施行令により①一酸化炭素 ６ppm（０．０００６％）以下②二酸化炭素 １０００ppm（０．１％）以下とします。※建築物における衛生的環境の確保に関する法律施行令の改正（令和４年４月１日施行）により一酸化炭素の含有率の基準値について変更がありました。改正前：１０ppm 改正後：６ppm\n選択肢3. 湿度が高いと不快感が増します。建築基準法施行令により、相対湿度は４０％以上７０％以下となるようにします。\n選択肢4. 建築基準法施行令により、浮遊粉じんの量は、0.15 mg/m³以下となるようにします。\nまとめ\n換気については計算問題も出題されます。確認しましょう。\n\n【解説03】\n解説は下記の通りです。\n選択肢1. 正です。室内の気流は0.5m/秒以下とします。\n選択肢2. 誤です。二酸化炭素濃度は0.1％(1000ppm)以下になるようにします。また、一酸化炭素の許容値は0.0006％(6ppm)以下です。\n選択肢3. 正です。室内の相対湿度は 40%以上70%以下とします。\n選択肢4. 正です。室内の浮遊粉じんの量は、0.15 mg/㎥以下となるようにします。\nまとめ\n一酸化炭素に関して法改正により許容値が低くなっているため、頻出問題です。数字を正確に覚えておきましょう。",
+          "studyContent": "■室内環境基準：気流0.5m/s以下、CO₂ 0.1％(1000ppm)以下、CO 0.0006％(6ppm)以下、相対湿度40～70％、浮遊粉じん0.15mg/㎥以下。\n■誤りは「CO₂濃度1.0％以下」→正しくは0.1％以下。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về thép là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa nguyên niên (2019) – Buổi sáng Câu 1】Trong các mô tả về thông gió, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Thép TMCP được chế tạo bằng kiểm soát gia công nhiệt, có độ dai cao và tính hàn tốt.",
-            "Thép giới hạn chảy thấp là loại thêm molypden để giảm độ bền và tăng độ dẻo.",
-            "Chỉ số liên quan tính hàn của thép có đương lượng cacbon (Ceq) và thành phần cảm ứng nứt hàn (PCM).",
-            "Nhiệt luyện để thay đổi tính chất thép gồm tôi, ram, thường hóa."
+            "Tốc độ luồng khí trong phòng phải ≤ 0.5 m/s.",
+            "Nồng độ CO₂ trong không khí phòng phải ≤ 1.0 %.",
+            "Độ ẩm tương đối trong không khí phòng phải từ 40% đến 70%.",
+            "Lượng bụi lơ lửng trong không khí phòng phải ≤ 0.15 mg/m³."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: KHÔNG phù hợp. Thép giới hạn chảy thấp là thép gần sắt nguyên chất; nói thêm molypden để giảm độ bền là sai.\nLựa chọn 3: Đúng. Có Ceq và PCM.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Thép giới hạn chảy thấp = gần sắt nguyên chất. Chỉ số tính hàn: Ceq và PCM."
+          "explanation_vi": "【Giải thích 01】\nGiải thích như sau.\nLựa chọn 1: Đúng như đề.\nLựa chọn 2: Sai. Ở phòng có thiết bị điều hòa không khí hoặc điều hòa cơ khí, nồng độ CO₂ trong không khí phòng phải ≤ 0.1 %.\nLựa chọn 3: Đúng như đề.\nLựa chọn 4: Đúng như đề.\n\n【Giải thích 02】\nBài về thông gió trong kỹ thuật môi trường.\nLựa chọn 1: Theo Nghị định thi hành Luật tiêu chuẩn xây dựng, tốc độ luồng khí phòng ≤ 0.5 m/s.\nLựa chọn 2: Không phù hợp. Theo Nghị định: ① CO ≤ 6ppm (0,0006%) ② CO₂ ≤ 1000ppm (0,1%). ※ Theo sửa đổi nghị định (hiệu lực 1/4/Reiwa 4), trị chuẩn hàm lượng CO đã thay đổi. Trước: 10ppm → Sau: 6ppm.\nLựa chọn 3: Độ ẩm cao thì khó chịu. Theo Nghị định, độ ẩm tương đối phải từ 40% đến 70%.\nLựa chọn 4: Theo Nghị định, bụi lơ lửng ≤ 0.15 mg/m³.\nTóm tắt: Thông gió cũng ra cả bài tính toán. Hãy ôn lại.\n\n【Giải thích 03】\nGiải thích như sau.\nLựa chọn 1: Đúng. Luồng khí trong phòng ≤ 0.5 m/giây.\nLựa chọn 2: Sai. Nồng độ CO₂ phải ≤ 0.1% (1000ppm). Ngoài ra, trị cho phép của CO là ≤ 0.0006% (6ppm).\nLựa chọn 3: Đúng. Độ ẩm tương đối trong phòng từ 40% đến 70%.\nLựa chọn 4: Đúng. Bụi lơ lửng trong phòng ≤ 0.15 mg/㎥.\nTóm tắt: Về CO, do sửa luật nên trị cho phép thấp đi, đây là bài hay ra. Nhớ chính xác các con số.",
+          "studyContent_vi": "■ Tiêu chuẩn môi trường trong phòng: luồng khí ≤ 0.5 m/s, CO₂ ≤ 0.1% (1000ppm), CO ≤ 0.0006% (6ppm), độ ẩm tương đối 40～70%, bụi lơ lửng ≤ 0.15mg/㎥.\n■ Mô tả sai là 'CO₂ ≤ 1.0%' → đúng phải ≤ 0.1%."
         },
         {
           "label": "Q8",
-          "question": "建築に用いられる金属材料に関する一般的な記述として、最も不適当なものはどれか。",
+          "question": "【令和6年（2024年）午前 イ 問1】中央管理方式の空気調和設備を設けた建築物における居室の室内環境に関する一般的な記述として最も不適当なものはどれか。",
           "choices": [
-            "黄銅（真ちゅう）は、銅と、亜鉛の合金であり、亜鉛が30〜40%のものである。",
-            "ステンレス鋼のSUS 304は、SUS 430に比べ磁性が弱い。",
-            "銅の熱伝導率は、鋼に比べ著しく高い。",
-            "アルミニウムの線膨張係数は、鋼の約４倍である。"
+            "室内空気中の一酸化炭素の濃度は、6ppm以下とする。",
+            "室内空気中の二酸化炭素の濃度は、1,000ppm以下とする。",
+            "室内空気の気流の速さは、1.5m／s以下とする。",
+            "室内空気の相対湿度は、40％以上70％以下とする。"
           ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。黄銅は銅と亜鉛の合金で亜鉛30〜40%。\n選択肢2：適当。SUS304はオーステナイト系で非磁性のため、フェライト系のSUS430より磁性が弱い。\n選択肢3：適当。銅の熱伝導率は鋼に比べ著しく高い。\n選択肢4：不適当。アルミニウムの線膨張係数は鋼の約2倍であり、約4倍ではない。",
-          "studyContent": "アルミの線膨張係数は鋼の約2倍。SUS304は非磁性、SUS430は磁性あり。",
+          "answer": "3",
+          "explanation": "【解説01】\n～問題ポイント～\n・中央管理方式の空調設備\n→中央管理室で換気や冷暖房などをコントロールする設備のことです。\n※室内環境に有害なものを選択する問題です。\n選択肢1. 室内空気中の一酸化炭素の濃度は、6ppm以下とする。\n適当です。\n一酸化炭素：酸素が不足している状態で不完全燃焼を起こすと発生する物質です。\n※空気中に0.1％以上で死に当たります。\n2022年4月より：10ppm→10ppm→６ppmに改定〈100万分の ６ 以下（＝６ppm以下）〉\n選択肢2. 室内空気中の二酸化炭素の濃度は、1,000ppm以下とする。\n適当です。\n二酸化炭素：生物の呼吸、炭素の燃焼にて発生する物質です。\n100万分の1000以下（＝1000 ppm以下）\n選択肢3. 室内空気の気流の速さは、1.5m／s以下とする。\n不適当です。\n正解答：0.5m/秒以下\n気流の速さ： 室内での空気が流動する速さです。\n選択肢4. 室内空気の相対湿度は、40％以上70％以下とする。\n適当です。\n相対湿度：空気中に含まれる水蒸気の割合を表す指標です。\nまとめ\n空気環境の基準を設けることは、快適な空間を生み出す基準となります。似たような用語や数字が並びますが、物質が不適切な量の場合、どのような不具合や空間が出来上がるかどうかを理解して覚えていきましょう。\n\n【解説02】\n社会的にもシックハウス症候群等の問題が取り上げられるようになり、規定が変更されたりなど、過去問でも多く出題されています。正確に数字を覚えておきましょう。\n選択肢1. 室内空気中の一酸化炭素の濃度は、6ppm以下とする。\n正です。令和4年４月から建築物における基準が６ppm(0.0006％)になりました。ちなみに、ppmというのは、1㎥に１ｃ㎥の割合で存在する場合のことを表しています。\n選択肢2. 室内空気中の二酸化炭素の濃度は、1,000ppm以下とする。\n正です。二酸化炭素濃度は1000ppm(0.1％)以下とし、換気等をおこないます。二酸化炭素濃度は、室内汚染を判断する指針の一つであり、これを超えると、頭痛や倦怠感など人体に悪影響を及ぼします。\n選択肢3. 室内空気の気流の速さは、1.5m／s以下とする。\n誤です。気流は0.5ｍ/s以下です。それ以下でないと首筋に当たった際の不快感となるため、基準が定められています。\n選択肢4. 室内空気の相対湿度は、40％以上70％以下とする。\n正です。相対湿度とは、空気中に含まれる水蒸気の割合を表しています。\nまとめ\n過去にはppm表記ではなく、％表記での出題もあるため、ppm・％どちらでも対応できるようにしておきましょう。",
+          "studyContent": "■中央管理方式の室内環境基準（現行）：CO 6ppm以下、CO₂ 1000ppm以下、気流0.5m/s以下、相対湿度40～70％。\n■誤りは「気流1.5m/s以下」→正しくは0.5m/s以下。\n■COは令和4年4月に10ppm→6ppmに改定。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu kim loại dùng trong xây dựng là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 6 (2024) – Buổi sáng phần イ Câu 1】Về môi trường trong phòng ở của công trình có thiết bị điều hòa không khí kiểu quản lý trung tâm, đâu là mô tả chung KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Đồng thau là hợp kim đồng và kẽm với kẽm 30〜40%.",
-            "Thép không gỉ SUS304 có từ tính yếu hơn so với SUS430.",
-            "Độ dẫn nhiệt của đồng cao hơn rõ rệt so với thép.",
-            "Hệ số giãn nở dài của nhôm bằng khoảng 4 lần của thép."
+            "Nồng độ carbon monoxide (CO) trong không khí phòng phải ≤ 6ppm.",
+            "Nồng độ carbon dioxide (CO₂) trong không khí phòng phải ≤ 1.000ppm.",
+            "Tốc độ luồng khí trong phòng phải ≤ 1.5m/s.",
+            "Độ ẩm tương đối trong không khí phòng phải từ 40% đến 70%."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng. SUS304 (austenit) không từ tính nên yếu từ hơn SUS430 (ferit).\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Hệ số giãn nở dài của nhôm ≈ 2 lần thép, không phải 4 lần.",
-          "studyContent_vi": "Hệ số giãn nở dài của nhôm ≈ 2 lần thép. SUS304 không từ tính, SUS430 có từ tính."
+          "explanation_vi": "【Giải thích 01】\n～Điểm mấu chốt～\n・ Thiết bị điều hòa kiểu quản lý trung tâm → thiết bị điều khiển thông gió, điều hòa từ phòng quản lý trung tâm. ※ Đây là bài chọn mô tả có hại/sai.\nLựa chọn 1: Đúng. CO phát sinh khi cháy không hoàn toàn trong trạng thái thiếu oxy. ※ Trong không khí ≥ 0.1% có thể gây tử vong. Từ 4/2022: đổi thành ≤ 6ppm (6 phần triệu).\nLựa chọn 2: Đúng. CO₂ sinh ra từ hô hấp sinh vật và đốt cháy carbon. ≤ 1000ppm.\nLựa chọn 3: KHÔNG phù hợp. Đáp án đúng: ≤ 0.5m/giây. Tốc độ luồng khí là tốc độ khí lưu động trong phòng.\nLựa chọn 4: Đúng. Độ ẩm tương đối là tỉ lệ hơi nước trong không khí.\nTóm tắt: Đặt tiêu chuẩn môi trường không khí là cơ sở tạo không gian dễ chịu. Các thuật ngữ/con số dễ nhầm, hãy hiểu rõ hậu quả khi vượt ngưỡng.\n\n【Giải thích 02】\nDo các vấn đề như hội chứng nhà kín (sick house) được quan tâm, quy định đã thay đổi và bài này hay ra. Hãy nhớ chính xác con số.\nLựa chọn 1: Đúng. Từ 4/Reiwa 4, tiêu chuẩn trong công trình thành 6ppm (0.0006%). ppm nghĩa là tỉ lệ 1cm³ trong 1m³.\nLựa chọn 2: Đúng. Nồng độ CO₂ ≤ 1000ppm (0.1%), cần thông gió. CO₂ là một chỉ số đánh giá ô nhiễm trong phòng; vượt ngưỡng gây đau đầu, mệt mỏi.\nLựa chọn 3: Sai. Luồng khí ≤ 0.5m/s. Nếu không, chạm vào gáy gây khó chịu nên có tiêu chuẩn.\nLựa chọn 4: Đúng. Độ ẩm tương đối là tỉ lệ hơi nước trong không khí.\nTóm tắt: Trước đây có bài dùng % thay vì ppm, nên hãy để ứng được cả ppm lẫn %.",
+          "studyContent_vi": "■ Tiêu chuẩn môi trường kiểu quản lý trung tâm (hiện hành): CO ≤ 6ppm, CO₂ ≤ 1000ppm, luồng khí ≤ 0.5m/s, độ ẩm tương đối 40～70%.\n■ Mô tả sai là 'luồng khí ≤ 1.5m/s' → đúng phải ≤ 0.5m/s.\n■ CO đã đổi từ 10ppm → 6ppm vào 4/Reiwa 4."
         }
       ]
     },
     {
-      "path": "1.5 建築材料 > 1.5.2 セメント・左官材料",
-      "vocabulary": "比表面積 / 水硬性 / 気硬性 / 高炉セメントB種 / 早強ポルトランドセメント / しっくい(消石灰) / せっこうプラスター / ドロマイトプラスター / セルフレベリング材 / メチルセルロース",
+      "path": "1.2 建築環境工学 > 1.2.6 伝熱",
+      "vocabulary": "熱貫流率 / 熱貫流抵抗 / 熱伝達抵抗 / 熱伝導抵抗 / 熱放射 / 熱伝導率 / 容積比熱 / 中空層 / アルミ箔 / 総合熱伝達率",
       "questions": [
         {
           "label": "Q1",
-          "question": "セメントの特性に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和6年（2024年）午前 イ 問2】図に示すような鉄筋コンクリート壁の熱貫流率として、最も近い値はどれか。ただし、熱伝達率は、放射熱伝達率と対流熱伝達率を合わせたものとする。（※問題文に壁断面の図あり：室外側熱伝達抵抗0.043、鉄筋コンクリート壁熱伝導抵抗0.094、室内側熱伝達抵抗0.111 [m²・K/W]）",
           "choices": [
-            "高炉セメントB種を用いたコンクリートは、普通ポルトランドセメントを用いたものに比べ、初期強度はやや小さいが、4週以降の長期強度は同等又は同等以上になる。",
-            "早強ポルトランドセメントを用いたコンクリートは、普通ポルトランドセメントを用いたものに比べ、硬化初期の水和発熱量が大きく、冬期の工事に適している。",
-            "セメントは、時間の経過とともに水和反応が進行し、強度が発現していく水硬性材料である。",
-            "セメント粒子の細かさは、比表面積で示され、その値が小さいほど凝結や強度発現は早くなる。"
+            "0.3",
+            "1.3",
+            "4",
+            "33.6"
           ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。高炉セメントB種は初期強度はやや小さいが長期強度は同等以上。\n選択肢2：適当。早強ポルトランドセメントは初期の水和発熱量が大きく冬期工事に適する。\n選択肢3：適当。セメントは水和反応で強度が発現する水硬性材料。\n選択肢4：不適当。比表面積が小さい＝粒が粗く、凝結や強度発現は遅くなる。比表面積が大きい（粒が細かい）ほど早い。",
-          "studyContent": "比表面積が大きい（粒が細かい）ほど凝結・強度発現が早い。小さいほど遅い。",
+          "answer": "3",
+          "explanation": "【解説01】\nまず、熱貫流率＝1/熱貫流抵抗で求めることができます。\n熱貫流抵抗＝室外表面抵抗(1/室外熱伝達抵抗)＋壁内部熱抵抗(鉄筋コンクリート壁熱伝導抵抗)＋室内表面抵抗(1/室内熱伝達抵抗)であることから、0.043+0.094+0.111=0.248となり、熱貫流率は1/0.248=4.032…で、およそ4となります。\n選択肢1. 0.3\n誤です。計算は上記のとおりです。\n選択肢2. 1.3\n誤です。計算は上記のとおりです。\n選択肢3. 4\n正です。計算は上記のとおりです。\n選択肢4. 33.6\n誤です。計算は上記のとおりです。\nまとめ\nR６までになかった系統の問題です。今後出題されるかは分かりませんが、完答での出題のため、解けるようになればベストです。\n\n【解説02】\n熱貫流率を求める問題です。\n熱貫流率とは、壁などの固体表面と、空気等の流体との熱の伝わりにくさを表す熱伝達抵抗と、固体内部の熱の通りにくさを表す熱伝導抵抗の和である熱貫流抵抗の逆数を求めることによって得られます。\n設問では、室内側・屋内側の熱伝達抵抗、鉄筋コンクリート壁内部の熱伝達抵抗の値が与えられているので、その3つの和を求めます。\n図の左側より、熱貫流抵抗＝室内側熱伝達抵抗+鉄筋コンクリート壁熱伝導抵抗+室外側熱伝達抵抗＝0.111+0.094+0.043＝0.248 [m²・K/W]となり、逆数をとりたいので、熱貫流率＝1/0.248[m²・K/W]＝4.032・・・≈4 [W/m²・K]と求められます。\n選択肢1. 0.3\n誤です。計算は上記のものとなります。\n選択肢2. 1.3\n誤です。計算は上記のものとなります。\n選択肢3. 4\n正です。計算は上記のものとなります。\n選択肢4. 33.6\n誤です。計算は上記のものとなります。\nまとめ\n環境工学の分野での計算問題で、必須問題として出題されました。計算自体は難しいものではありませんが、求められている値の算出方法を間違えないようにしましょう。この分野での計算問題はあと数パターンあるので、復習の際に押さえておくようにしましょう。",
+          "studyContent": "■熱貫流率＝1／熱貫流抵抗 [W/m²・K]。\n■熱貫流抵抗＝室外側熱伝達抵抗＋壁の熱伝導抵抗＋室内側熱伝達抵抗（直列に足す）。\n■本問：0.043＋0.094＋0.111＝0.248 → 1／0.248≈4.03≈4。\n■各抵抗を足してから逆数を取る順序に注意。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về đặc tính của xi măng là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 6 (2024) – Buổi sáng phần イ Câu 2】Hệ số truyền nhiệt tổng (熱貫流率) của tường bê tông cốt thép như hình vẽ, giá trị nào gần đúng nhất? Trong đó, hệ số truyền nhiệt bề mặt (熱伝達率) là tổng của hệ số truyền nhiệt bức xạ và hệ số truyền nhiệt đối lưu. (※Mặt cắt tường: trở kháng truyền nhiệt bề mặt ngoài 0.043, trở kháng dẫn nhiệt tường BTCT 0.094, trở kháng truyền nhiệt bề mặt trong 0.111 [m²・K/W])",
           "choices_vi": [
-            "Bê tông dùng xi măng xỉ lò cao loại B có cường độ ban đầu hơi thấp hơn so với xi măng poóc lăng thường, nhưng cường độ dài hạn từ 4 tuần trở đi tương đương hoặc cao hơn.",
-            "Bê tông dùng xi măng poóc lăng đông cứng nhanh có lượng nhiệt thủy hóa giai đoạn đầu lớn hơn xi măng thường, phù hợp thi công mùa đông.",
-            "Xi măng là vật liệu thủy lực, phản ứng thủy hóa tiến triển theo thời gian và phát triển cường độ.",
-            "Độ mịn của hạt xi măng được biểu thị bằng diện tích bề mặt riêng; giá trị này càng NHỎ thì đông kết và phát triển cường độ càng NHANH."
+            "0.3",
+            "1.3",
+            "4",
+            "33.6"
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Diện tích bề mặt riêng nhỏ = hạt thô → đông kết và phát triển cường độ CHẬM. Diện tích bề mặt riêng lớn (hạt mịn) thì nhanh.",
-          "studyContent_vi": "Diện tích bề mặt riêng càng lớn (hạt càng mịn) thì đông kết/phát triển cường độ càng nhanh; nhỏ thì chậm."
+          "explanation_vi": "【Giải thích 01】\nTrước hết, Hệ số truyền nhiệt tổng = 1 / Trở kháng truyền nhiệt tổng.\nTrở kháng truyền nhiệt tổng = trở kháng bề mặt ngoài (1/hệ số truyền nhiệt ngoài) + trở kháng bên trong tường (trở kháng dẫn nhiệt tường BTCT) + trở kháng bề mặt trong (1/hệ số truyền nhiệt trong), nên 0.043+0.094+0.111=0.248, và hệ số truyền nhiệt tổng = 1/0.248 = 4.032… ≈ 4.\nLựa chọn 1. 0.3: Sai. Tính như trên.\nLựa chọn 2. 1.3: Sai. Tính như trên.\nLựa chọn 3. 4: Đúng. Tính như trên.\nLựa chọn 4. 33.6: Sai. Tính như trên.\nTóm tắt: Đây là dạng bài chưa từng có đến trước R6. Không rõ sau này có ra nữa không, nhưng vì là dạng phải làm trọn vẹn nên giải được sẽ là tốt nhất.\n\n【Giải thích 02】\nBài tìm hệ số truyền nhiệt tổng.\nHệ số truyền nhiệt tổng có được bằng cách lấy nghịch đảo của trở kháng truyền nhiệt tổng — vốn là tổng của trở kháng truyền nhiệt bề mặt (biểu thị mức khó truyền nhiệt giữa bề mặt vật rắn như tường và lưu chất như không khí) và trở kháng dẫn nhiệt (biểu thị mức khó dẫn nhiệt bên trong vật rắn).\nĐề cho trở kháng truyền nhiệt phía trong/ngoài và trở kháng bên trong tường BTCT, nên lấy tổng 3 giá trị đó.\nTừ hình bên trái: Trở kháng truyền nhiệt tổng = trở kháng bề mặt trong + trở kháng dẫn nhiệt tường BTCT + trở kháng bề mặt ngoài = 0.111+0.094+0.043 = 0.248 [m²・K/W]; lấy nghịch đảo: hệ số truyền nhiệt tổng = 1/0.248 = 4.032… ≈ 4 [W/m²・K].\nLựa chọn 1. 0.3: Sai. Tính như trên.\nLựa chọn 2. 1.3: Sai. Tính như trên.\nLựa chọn 3. 4: Đúng. Tính như trên.\nLựa chọn 4. 33.6: Sai. Tính như trên.\nTóm tắt: Là bài tính toán trong lĩnh vực kỹ thuật môi trường, ra dưới dạng câu bắt buộc. Phép tính không khó nhưng đừng nhầm cách tính giá trị cần tìm. Lĩnh vực này còn vài dạng tính toán nữa, hãy nắm chắc khi ôn.",
+          "studyContent_vi": "■ Hệ số truyền nhiệt tổng = 1／Trở kháng truyền nhiệt tổng [W/m²・K].\n■ Trở kháng truyền nhiệt tổng = trở kháng bề mặt ngoài + trở kháng dẫn nhiệt của tường + trở kháng bề mặt trong (cộng nối tiếp).\n■ Bài này: 0.043＋0.094＋0.111＝0.248 → 1／0.248≈4.03≈4.\n■ Chú ý thứ tự: cộng các trở kháng trước rồi mới lấy nghịch đảo."
         },
         {
           "label": "Q2",
-          "question": "左官材料に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和4年（2022年）午前 イ 問2】伝熱に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "消石灰を混和材として用いたセメントモルタルは、こて伸びが良く、平滑な面が得られる。",
-            "ドロマイトプラスターは、それ自体に粘りがないため、のりを混ぜる必要がある。",
-            "メチルセルロースは、水溶性の微粉末で、セメントモルタルに添加することで作業性を向上させる。",
-            "適切な粒度分布を持った細骨材は、セメントモルタルの乾燥収縮やひび割れを抑制する効果がある。"
+            "熱放射は、電磁波による熱の移動現象で、真空中においても生じる。",
+            "壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。",
+            "壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。",
+            "物質の単位体積当たりの熱容量を、容積比熱という。"
           ],
           "answer": "2",
-          "explanation": "選択肢1：適当。消石灰を混和材に用いるとこて伸びが良く平滑な面が得られる。\n選択肢2：不適当。ドロマイトプラスターはそれ自体に粘性があるため、のりを必要としない。\n選択肢3：適当。メチルセルロースは水溶性微粉末で作業性を向上させる。\n選択肢4：適当。適切な粒度分布の細骨材は乾燥収縮やひび割れを抑制する。",
-          "studyContent": "ドロマイトプラスターは粘性があり、のり不要。",
+          "explanation": "【解説01】\n「熱」に関する問題と「音」に関する問題は毎年どちらかが出題される傾向にあります。\n熱については、伝熱（熱の伝わり方）や熱量、建物の断熱性能について把握しておきましょう。\n伝達と伝導など紛らわしい言葉も整理しておくと良いでしょう。\nなお、出題率は「熱」に対して「音」が２倍のペースです。\n選択肢1. 熱放射は、電磁波による熱の移動現象で、真空中においても生じる。\n【〇】\n熱の伝わり方（＝伝熱）には伝導、対流、放射（輻射）の３パターンがあります。\nこのうち、熱放射（輻射）は電磁波による伝熱です。\n身近なケースでは太陽熱があります。\n太陽熱が地球に届くことを考えれば、真空中でも熱放射（輻射）が生じていることが分かります。\n選択肢2. 壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。\n【×】\n熱伝導は物質内部を熱エネルギーが伝わる現象を指します。\n伝わり方（伝わる速さ）は物質により異なり、その伝わりやすさを熱伝導率で表します。\n熱伝導率は数値が大きいほど熱が伝わりやすく、個体＞液体＞気体の順となります。\n壁体の含湿率が増加すると熱伝導率はどうなるか？\n空気（気体）のかわりに水分（液体）が増える＝熱伝導率は大きくなる。\n液体は気体より熱伝導率が大きいことが理由です。\n（参考）ガラスに中空層を挾み込んだペアガラスは断熱・遮熱に優れています。\n選択肢3. 壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。\n【〇】\n壁体の断面をイメージすると理解しやすいです。\n夏場の外気は室内より高温です。\n外気の熱が外壁面に伝わり（熱伝達）→壁の中を伝わり（熱伝導）→内壁面から室内へ伝わります（熱伝達）。\nこの流れが熱貫流です。通り抜けているから貫流です。\n抵抗は伝わりにくさですから、全体の伝わりにくさは個々の伝わりにくさの合計となります。\n電流の直列回路と同じイメージです。\n『熱貫流抵抗＝熱伝達抵抗＋熱伝導抵抗』で表します。\n熱貫流率は熱貫流抵抗の逆数（＝１／熱貫流抵抗）ですから、\n熱貫流率＝１／（熱伝達抵抗＋熱伝導抵抗）となります。和の逆数です。\n選択肢4. 物質の単位体積当たりの熱容量を、容積比熱という。\n【〇】\n・比熱は物質１ｇを１℃上昇させるのに必要な熱量です。\n単位質量当たりですから、通常の比熱は質量比熱を指します。\n比熱（質量比熱）は単位質量当りの熱容量です。\n・容積比熱は単位容積（体積）当たりの比熱ですから、単位体積当たりの熱容量です。\n（参考）容積比熱＝比熱✖密度です。通常の比熱は質量比熱とも言えます。\n壁材の断熱性能を表す用語として使われています。\nまとめ\n覚える用語が多くて混乱しますが、生活上の身近なケースに置き換えて考えると良いでしょう。\n熱問題は躰体の断熱に関する問題と捉えておきましょう。\n\n【解説02】\n解説は下記の通りです。\n選択肢1. 熱放射は、電磁波による熱の移動現象で、真空中においても生じる。\n正です。選択肢の通り、熱放射は、電磁波による熱の移動現象で、真空中においても生じます。\n例として太陽熱があり、真空を通って地球まで太陽の放射熱が伝わっています。\n選択肢2. 壁体の含湿率が増加すると、その壁体の熱伝導率は小さくなる。\n誤です。水の熱伝導率は空気よりも大きいため、壁体の含湿率が増加すると、その壁体の熱伝導率は大きくなります。\n選択肢3. 壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率という。\n正です。壁体の熱伝達抵抗と熱伝導抵抗の和の逆数を、熱貫流率といいます。\n熱伝達抵抗と熱伝導抵抗の和＝熱貫流抵抗であり、熱貫流抵抗は壁体の熱の通しにくさを表します。\n値が大きいほど熱が伝わりにくいということになります。\n選択肢4. 物質の単位体積当たりの熱容量を、容積比熱という。\n正です。容積比熱とは、物質の容積(体積)１㎥の温度を1℃上げるのに必要な熱量のことです。\n比熱：ある物質の質量１kgの温度を1℃上げるのに必要な熱量のことです。",
+          "studyContent": "■伝熱の3形態：伝導・対流・放射（輻射）。放射は電磁波によるため真空中でも生じる。\n■熱伝導率：個体＞液体＞気体。含湿率が増える（空気→水）と熱伝導率は「大きく」なる。※設問2が誤り。\n■熱貫流率＝1／（熱伝達抵抗＋熱伝導抵抗）（＝熱貫流抵抗の逆数）。\n■容積比熱＝比熱×密度、単位体積当たりの熱容量。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu trát là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa 4 (2022) – Buổi sáng phần イ Câu 2】Về truyền nhiệt, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Vữa xi măng dùng vôi tôi làm phụ gia có độ trải bay tốt, tạo được bề mặt nhẵn.",
-            "Vữa đôlômit (dolomite plaster) bản thân KHÔNG có độ dính nên cần trộn thêm hồ keo.",
-            "Methyl cellulose là bột mịn tan trong nước, thêm vào vữa xi măng giúp cải thiện tính thi công.",
-            "Cốt liệu mịn có cấp phối hạt phù hợp giúp hạn chế co ngót khô và nứt của vữa xi măng."
+            "Bức xạ nhiệt là hiện tượng truyền nhiệt bằng sóng điện từ, xảy ra ngay cả trong chân không.",
+            "Khi tỉ lệ ngậm ẩm (độ ẩm chứa) của tường tăng thì hệ số dẫn nhiệt của tường đó nhỏ đi.",
+            "Nghịch đảo của tổng trở kháng truyền nhiệt bề mặt và trở kháng dẫn nhiệt của tường được gọi là hệ số truyền nhiệt tổng (熱貫流率).",
+            "Nhiệt dung trên một đơn vị thể tích của vật chất được gọi là nhiệt dung thể tích (容積比熱)."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: KHÔNG phù hợp. Vữa đôlômit tự thân CÓ độ dính nên KHÔNG cần thêm hồ keo.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Vữa đôlômit có độ dính, không cần hồ keo."
+          "explanation_vi": "【Giải thích 01】\nBài về 'nhiệt' và bài về 'âm' hằng năm thường ra một trong hai.\nVề nhiệt, hãy nắm: truyền nhiệt (cách nhiệt lan truyền), nhiệt lượng, hiệu năng cách nhiệt của công trình. Nên phân biệt rõ các từ dễ nhầm như 'truyền nhiệt bề mặt (伝達)' và 'dẫn nhiệt (伝導)'. Ngoài ra, tần suất ra đề 'âm' gấp đôi 'nhiệt'.\nLựa chọn 1: 【Đúng】Truyền nhiệt có 3 kiểu: dẫn nhiệt, đối lưu, bức xạ. Bức xạ là truyền nhiệt bằng sóng điện từ; ví dụ gần gũi là nhiệt mặt trời. Mặt trời truyền nhiệt đến Trái đất → chứng tỏ bức xạ xảy ra cả trong chân không.\nLựa chọn 2: 【×】Dẫn nhiệt là hiện tượng năng lượng nhiệt truyền bên trong vật chất; tốc độ tùy vật chất, biểu thị bằng hệ số dẫn nhiệt. Hệ số càng lớn nhiệt càng dễ truyền; theo thứ tự rắn > lỏng > khí. Khi tường ngậm ẩm: thay vì không khí (khí) thì nước (lỏng) tăng → hệ số dẫn nhiệt LỚN hơn. (Vì lỏng dẫn nhiệt tốt hơn khí.) (Tham khảo) kính hộp có lớp rỗng ở giữa cách nhiệt/chắn nhiệt tốt.\nLựa chọn 3: 【Đúng】Hình dung mặt cắt tường sẽ dễ hiểu. Khí nóng bên ngoài (mùa hè) → truyền vào mặt tường ngoài (truyền nhiệt bề mặt) → dẫn qua tường (dẫn nhiệt) → từ mặt trong vào phòng (truyền nhiệt bề mặt). Đó là truyền nhiệt xuyên (熱貫流). Trở kháng là mức khó truyền, nên tổng trở kháng = tổng các trở kháng (như mạch điện nối tiếp). 'Trở kháng truyền nhiệt xuyên = trở kháng truyền nhiệt bề mặt + trở kháng dẫn nhiệt'. Hệ số truyền nhiệt tổng = nghịch đảo của trở kháng đó = 1/(trở kháng truyền nhiệt bề mặt + trở kháng dẫn nhiệt). Là nghịch đảo của tổng.\nLựa chọn 4: 【Đúng】Nhiệt dung riêng (比熱) là nhiệt lượng cần để tăng 1g vật chất lên 1℃, tính trên đơn vị khối lượng. Nhiệt dung thể tích là nhiệt dung trên đơn vị thể tích, tức nhiệt dung trên một đơn vị thể tích. (Tham khảo) Nhiệt dung thể tích = nhiệt dung riêng × mật độ.\nTóm tắt: Nhiều thuật ngữ dễ rối, hãy liên hệ với ví dụ đời thường. Xem bài nhiệt là bài về cách nhiệt của kết cấu.\n\n【Giải thích 02】\nGiải thích như sau.\nLựa chọn 1: Đúng. Đúng như mô tả, bức xạ nhiệt là truyền nhiệt bằng sóng điện từ, xảy ra cả trong chân không. Ví dụ: nhiệt mặt trời truyền qua chân không đến Trái đất.\nLựa chọn 2: Sai. Hệ số dẫn nhiệt của nước lớn hơn không khí, nên khi tường ngậm ẩm tăng thì hệ số dẫn nhiệt LỚN hơn.\nLựa chọn 3: Đúng. Nghịch đảo của tổng trở kháng truyền nhiệt bề mặt và trở kháng dẫn nhiệt gọi là hệ số truyền nhiệt tổng. Tổng đó = trở kháng truyền nhiệt xuyên, biểu thị mức khó cho nhiệt đi qua; giá trị càng lớn nhiệt càng khó truyền.\nLựa chọn 4: Đúng. Nhiệt dung thể tích là nhiệt lượng cần để tăng 1℃ cho 1m³ thể tích vật chất. Nhiệt dung riêng: nhiệt lượng cần để tăng 1℃ cho 1kg khối lượng vật chất.",
+          "studyContent_vi": "■ 3 dạng truyền nhiệt: dẫn nhiệt, đối lưu, bức xạ. Bức xạ bằng sóng điện từ nên xảy ra cả trong chân không.\n■ Hệ số dẫn nhiệt: rắn > lỏng > khí. Tường ngậm ẩm tăng (khí→nước) → hệ số dẫn nhiệt 'LỚN' hơn. ※ Lựa chọn 2 sai.\n■ Hệ số truyền nhiệt tổng = 1／(trở kháng truyền nhiệt bề mặt + trở kháng dẫn nhiệt).\n■ Nhiệt dung thể tích = nhiệt dung riêng × mật độ, là nhiệt dung trên đơn vị thể tích."
         },
         {
           "label": "Q3",
-          "question": "左官材料に関する記述として、最も不適当なものはどれか。",
+          "question": "【令和元年（2019年）午前 問2】伝熱に関する記述として、最も不適当なものはどれか。",
           "choices": [
-            "しっくいは、消石灰を主たる結合材料とした気硬性を有する材料である。",
-            "せっこうプラスターは、水硬性であり、主に多湿で通気不良の場所の仕上げで使用される。",
-            "セルフレベリング材は、せっこう組成物やセメント組成物に骨材や流動化剤等を添加した材料である。",
-            "ドロマイトプラスターは、保水性が良いため、こて塗りがしやすく作業性に優れる。"
-          ],
-          "answer": "2",
-          "explanation": "選択肢1：適当。しっくいは消石灰を主結合材とする気硬性材料。\n選択肢2：不適当。せっこうプラスターは水硬性だが、乾燥が困難な場所や乾湿の繰返しを受ける場所では硬化不良となるため、多湿で通気不良の場所には適さない。\n選択肢3：適当。セルフレベリング材はせっこう・セメント組成物に骨材や流動化剤等を添加したもの。\n選択肢4：適当。ドロマイトプラスターは保水性が良く作業性に優れる。",
-          "studyContent": "せっこうプラスターは多湿・通気不良の場所で硬化不良。しっくいは気硬性、ドロマイトは保水性が良い。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu trát là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Vữa vôi (shikkui) là vật liệu đông cứng trong không khí với chất kết dính chính là vôi tôi.",
-            "Thạch cao trát (gypsum plaster) có tính thủy lực, chủ yếu dùng hoàn thiện ở nơi ẩm cao, thông gió kém.",
-            "Vật liệu tự san phẳng là hỗn hợp thạch cao hoặc xi măng có thêm cốt liệu và phụ gia hóa dẻo.",
-            "Vữa đôlômit giữ nước tốt nên dễ thi công bằng bay, tính thi công tốt."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: KHÔNG phù hợp. Thạch cao trát tuy thủy lực nhưng ở nơi khó khô hoặc chịu khô-ẩm lặp lại sẽ đóng rắn kém, nên KHÔNG phù hợp nơi ẩm cao thông gió kém.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Thạch cao trát đóng rắn kém ở nơi ẩm/thông gió kém. Vữa vôi đông cứng trong không khí, vữa đôlômit giữ nước tốt."
-        },
-        {
-          "label": "Q4",
-          "question": "左官材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "せっこうプラスターは、乾燥が困難な場所や乾湿の繰返しを受ける部位では硬化不良となりやすい。",
-            "セルフレベリング材は、せっこう組成物やセメント組成物に骨材や流動化剤等を添加した材料である。",
-            "セメントモルタルの混和材として消石灰を用いると、こて伸びがよく、平滑な面が得られる。",
-            "ドロマイトプラスターは、それ自体に粘りがないためのりを必要とする。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。せっこうプラスターは乾燥困難な場所や乾湿繰返し部位では硬化不良となりやすい。\n選択肢2：適当。セルフレベリング材の説明として正しい。\n選択肢3：適当。消石灰を混和材に用いるとこて伸びが良く平滑な面が得られる。\n選択肢4：不適当。ドロマイトプラスターは一般に粘度が高く、のりを用いずに水と練り合わせて施工できる。",
-          "studyContent": "ドロマイトプラスターは粘度が高くのり不要（内装仕上げ用）。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu trát là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Thạch cao trát dễ đóng rắn kém ở nơi khó khô hoặc bộ phận chịu khô-ẩm lặp lại.",
-            "Vật liệu tự san phẳng là hỗn hợp thạch cao hoặc xi măng có thêm cốt liệu và phụ gia hóa dẻo.",
-            "Dùng vôi tôi làm phụ gia cho vữa xi măng thì độ trải bay tốt và bề mặt nhẵn.",
-            "Vữa đôlômit bản thân KHÔNG có độ dính nên cần dùng hồ keo."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Vữa đôlômit độ nhớt cao, có thể trộn với nước để thi công mà không cần hồ keo.",
-          "studyContent_vi": "Vữa đôlômit độ nhớt cao, không cần hồ keo (dùng hoàn thiện nội thất)."
-        },
-        {
-          "label": "Q5",
-          "question": "左官材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "せっこうプラスターは、水硬性であり、多湿で通気不良の場所で使用できる。",
-            "ドロマイトプラスターは、それ自体に粘性があるため、のりを必要としない。",
-            "セメントモルタルの混和材として消石灰を用いると、こて伸びがよく、平滑な面が得られる。",
-            "しっくい用ののりには、海藻、海藻の加工品、メチルセルロース等がある。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。せっこうプラスターは水硬性だが、乾燥が困難な場所や乾湿の繰返しを受ける場所では硬化不良となりやすく、多湿で通気不良の場所では使用できない。\n選択肢2：適当。ドロマイトプラスターは粘性がありのり不要。\n選択肢3：適当。消石灰を混和材に用いるとこて伸びが良く平滑な面が得られる。\n選択肢4：適当。しっくい用ののりには海藻・海藻加工品・メチルセルロース等がある。",
-          "studyContent": "せっこうプラスターは多湿・通気不良の場所では硬化不良。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu trát là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Thạch cao trát có tính thủy lực nên có thể dùng ở nơi ẩm cao, thông gió kém.",
-            "Vữa đôlômit tự thân có độ dính nên không cần hồ keo.",
-            "Dùng vôi tôi làm phụ gia cho vữa xi măng thì độ trải bay tốt, bề mặt nhẵn.",
-            "Hồ keo dùng cho vữa vôi gồm rong biển, chế phẩm rong biển, methyl cellulose v.v."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Thạch cao trát tuy thủy lực nhưng đóng rắn kém ở nơi khó khô / khô-ẩm lặp lại, nên KHÔNG dùng được ở nơi ẩm cao thông gió kém.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Thạch cao trát đóng rắn kém ở nơi ẩm cao/thông gió kém."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 1.5.3 コンクリート",
-      "vocabulary": "減水剤 / 流動化剤 / AE剤 / 耐凍害性 / 早強ポルトランドセメント / 高炉セメントB種 / 水和発熱量",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "コンクリート材料の特性に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "減水剤は、コンクリートの耐凍害性を向上させることができる。",
-            "流動化剤は、工事現場で添加することで、レディーミクストコンクリートの流動性を増すことができる。",
-            "早強ポルトランドセメントを用いたコンクリートは、普通ポルトランドセメントを用いた場合より硬化初期の水和発熱量が大きく、冬期の工事に適している。",
-            "高炉セメントB種を用いたコンクリートは、普通ポルトランドセメントを用いた場合より耐海水性や化学抵抗性が大きく、地下構造物に適している。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。減水剤は単位水量を減らせるが、耐凍害性を向上させるものではない。耐凍害性の向上にはAE剤等を使用する。\n選択肢2：適当。流動化剤は現場添加で水量を増やさずに流動性を増せる。\n選択肢3：適当。早強ポルトランドセメントは硬化初期の水和発熱量が大きく冬期工事に適する。\n選択肢4：適当。高炉セメントB種は耐海水性・化学抵抗性が大きく地下構造物に適する。",
-          "studyContent": "耐凍害性の向上はAE剤の役割。減水剤はセメント粒子の分散で単位水量を減らす添加剤。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về đặc tính vật liệu bê tông là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Phụ gia giảm nước có thể nâng cao khả năng chống băng giá (chống đóng băng-tan) của bê tông.",
-            "Phụ gia hóa dẻo, khi thêm tại công trường, giúp tăng độ linh động của bê tông trộn sẵn.",
-            "Bê tông dùng xi măng poóc lăng đông cứng nhanh có nhiệt thủy hóa giai đoạn đầu lớn hơn xi măng thường, phù hợp thi công mùa đông.",
-            "Bê tông dùng xi măng xỉ lò cao loại B có khả năng chịu nước biển và kháng hóa chất cao hơn xi măng thường, phù hợp kết cấu ngầm."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Phụ gia giảm nước giúp giảm lượng nước nhưng KHÔNG nâng cao khả năng chống băng giá; để chống băng giá phải dùng phụ gia cuốn khí (AE).\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Nâng chống băng giá là vai trò của phụ gia cuốn khí (AE). Phụ gia giảm nước giúp giảm lượng nước nhờ phân tán hạt xi măng."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 1.5.4 防水材料",
-      "vocabulary": "2成分形ウレタンゴム系防水材 / フラースぜい化点 / ストレッチルーフィング(抗張積) / アスファルトルーフィング(単位質量) / 改質アスファルトルーフィングシート(Ⅰ類・Ⅱ類)",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "日本産業規格（JIS）に規定する防水材料に関する記述として、不適当なものはどれか。",
-          "choices": [
-            "2成分形のウレタンゴム系防水材は、施工直前に主剤、硬化剤の2成分に、必要によって硬化促進剤や充填材等を混合して使用する。",
-            "防水工事用アスファルトは、フラースぜい化点の温度が低いものほど低温特性のよいアスファルトである。",
-            "ストレッチルーフィング1000の数値1000は、製品の抗張積（引張強さと最大荷重時の伸び率との積）を表している。",
-            "改質アスファルトルーフィングシートは、温度特性によりⅠ類とⅡ類に区分され、低温時の耐折り曲げ性がよいものはⅠ類である。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。2成分形ウレタンゴム系防水材は施工直前に主剤・硬化剤に必要に応じ硬化促進剤や充填材を混合して使う。\n選択肢2：適当。フラースぜい化点が低いものほど低温特性が良い。\n選択肢3：適当。ストレッチルーフィング1000の1000は抗張積を表す。\n選択肢4：不適当。改質アスファルトルーフィングシートはⅠ類とⅡ類に区分され、低温時の耐折り曲げ性が良いものはⅡ類である（Ⅰ類は高温時の耐熱性が良い）。",
-          "studyContent": "低温時の折り曲げ性が良いのはⅡ類。Ⅰ類は高温時の耐熱性が良い。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu chống thấm quy định trong JIS là KHÔNG phù hợp?",
-          "choices_vi": [
-            "Vật liệu chống thấm gốc cao su urethane loại 2 thành phần được dùng bằng cách trộn chất chính và chất đóng rắn ngay trước thi công, nếu cần thêm chất xúc tiến đóng rắn hoặc chất độn.",
-            "Bitum dùng cho công tác chống thấm, điểm hóa giòn Fraass càng thấp thì đặc tính nhiệt độ thấp càng tốt.",
-            "Con số 1000 của Stretch Roofing 1000 biểu thị tích kháng kéo (tích của độ bền kéo và độ giãn dài tại tải trọng lớn nhất).",
-            "Tấm roofing bitum cải tiến phân loại theo đặc tính nhiệt thành loại Ⅰ và Ⅱ; loại có khả năng chống gấp ở nhiệt độ thấp tốt là loại Ⅰ."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Loại có khả năng chống gấp ở nhiệt độ thấp tốt là loại Ⅱ (loại Ⅰ chịu nhiệt độ cao tốt).",
-          "studyContent_vi": "Chống gấp ở nhiệt độ thấp tốt là loại Ⅱ; loại Ⅰ chịu nhiệt độ cao tốt."
-        },
-        {
-          "label": "Q2",
-          "question": "アスファルト防水材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "エマルションタイプのアスファルトプライマーは、アスファルトを水中に乳化分散させたものである。",
-            "砂付ストレッチルーフィング800の数値800は、製品の抗張積の呼びを表している。",
-            "防水工事用アスファルトは、フラースぜい化点の温度が低いものほど低温特性のよいアスファルトである。",
-            "アスファルトルーフィング1500の数値1500は、製品の単位面積当たりのアスファルト含浸量を表している。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。エマルションタイプのアスファルトプライマーはアスファルトを水中に乳化分散させたもの。\n選択肢2：適当。砂付ストレッチルーフィング800の800は抗張積の呼びを表す。\n選択肢3：適当。フラースぜい化点が低いものほど低温特性が良い。\n選択肢4：不適当。アスファルトルーフィング1500の1500は、製品の単位面積当たりの質量（1500g/㎡）を表す。アスファルト含浸量ではない。",
-          "studyContent": "アスファルトルーフィングの数値＝㎡あたりの質量（g/㎡）。ストレッチルーフィングの数値＝抗張積。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu chống thấm bitum là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Asphalt primer loại nhũ tương là bitum được nhũ hóa, phân tán trong nước.",
-            "Con số 800 của Sand-faced Stretch Roofing 800 biểu thị giá trị danh nghĩa của tích kháng kéo.",
-            "Bitum dùng cho chống thấm, điểm hóa giòn Fraass càng thấp thì đặc tính nhiệt độ thấp càng tốt.",
-            "Con số 1500 của Asphalt Roofing 1500 biểu thị lượng bitum tẩm trên một đơn vị diện tích."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Con số 1500 biểu thị khối lượng trên đơn vị diện tích (1500 g/㎡), KHÔNG phải lượng bitum tẩm.",
-          "studyContent_vi": "Con số của Asphalt Roofing = khối lượng trên m² (g/㎡); con số của Stretch Roofing = tích kháng kéo."
-        },
-        {
-          "label": "Q3",
-          "question": "アスファルト防水材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "改質アスファルトシートは、合成ゴム又はプラスチックを添加して性質を改良した改質アスファルトを原反に含浸、被覆させたシートである。",
-            "ストレッチルーフィング 1000の数値 1000は、製品の抗張積（引張強さと最大荷重時の伸び率との積）を表している。",
-            "防水工事用アスファルトは、フラースぜい化点温度が低いものほど低温特性のよいアスファルトである。",
-            "アスファルトルーフィング 1500の数値 1500は、製品の単位面積当たりのアスファルト含浸量を表している。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。改質アスファルトシートは合成ゴム又はプラスチックを添加した改質アスファルトを原反に含浸・被覆したシート。\n選択肢2：適当。ストレッチルーフィング1000の1000は抗張積を表す。\n選択肢3：適当。フラースぜい化点が低いものほど低温特性が良い。\n選択肢4：不適当。アスファルトルーフィング1500の1500は、製品の単位面積当たりの質量（1500g/㎡）を表す。含浸量ではない。",
-          "studyContent": "アスファルトルーフィングの数値＝単位面積当たりの質量（g/㎡）。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu chống thấm bitum là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Tấm bitum cải tiến là tấm được tẩm và phủ bitum cải tiến (đã thêm cao su tổng hợp hoặc nhựa để cải thiện tính chất) lên vải nền.",
-            "Con số 1000 của Stretch Roofing 1000 biểu thị tích kháng kéo (tích độ bền kéo và độ giãn dài tại tải lớn nhất).",
-            "Bitum chống thấm, điểm hóa giòn Fraass càng thấp thì đặc tính nhiệt độ thấp càng tốt.",
-            "Con số 1500 của Asphalt Roofing 1500 biểu thị lượng bitum tẩm trên một đơn vị diện tích."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Con số 1500 là khối lượng trên đơn vị diện tích (1500 g/㎡), không phải lượng tẩm bitum.",
-          "studyContent_vi": "Con số của Asphalt Roofing = khối lượng trên đơn vị diện tích (g/㎡)."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 1.5.5 ガラス",
-      "vocabulary": "フロート板ガラス / 型板ガラス / 複層ガラス(スペーサー・乾燥空気) / 合わせガラス(中間膜) / 熱線吸収板ガラス(組織に金属添加) / 熱線反射ガラス(片面に薄膜) / Low-E複層ガラス / 強化ガラス / 倍強度ガラス / 耐熱強化ガラス",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "建築用板ガラスに関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "合わせガラスは、2枚以上のガラスをスペーサーで一定の間隔に保ち、周囲を封着材で密閉し、内部に乾燥空気を満たしたガラスである。",
-            "型板ガラスは、ロールアウト方式により、ロールに彫刻された型模様をガラス面に熱間転写して製造された、片面に型模様のある板ガラスである。",
-            "フロート板ガラスは、溶融した金属の上に浮かべて製板する透明、かつ、平滑なガラスである。",
-            "耐熱強化ガラスは、ガラスの小口への特殊なエッジ加工をした後に、表面に超強化熱処理を加えたもので、防火設備としても使用できるガラスである。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。スペーサーで間隔を保ち密閉して内部に乾燥空気を満たすのは複層ガラスの説明。合わせガラスは2枚のガラスの間に中間膜（フィルム）をはさんで接着したもの。\n選択肢2：適当。型板ガラスはロールアウト方式で片面に型模様を付けた板ガラス。\n選択肢3：適当。フロート板ガラスは溶融金属上に浮かべて製板した透明・平滑なガラス。\n選択肢4：適当。耐熱強化ガラスは防火設備としても使用できる。",
-          "studyContent": "合わせガラス＝ガラス＋中間膜（フィルム）で貼り合わせ。複層ガラス＝スペーサーで空気層を作り密閉。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về kính tấm xây dựng là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kính dán an toàn là loại giữ 2 tấm kính trở lên cách nhau bằng thanh đệm, bịt kín xung quanh và bơm không khí khô vào bên trong.",
-            "Kính có hoa văn được sản xuất bằng phương pháp cán (rollout), in nóng hoa văn khắc trên trục lăn lên mặt kính, có hoa văn ở một mặt.",
-            "Kính float là kính trong suốt và phẳng nhẵn, được tạo tấm bằng cách nổi trên kim loại nóng chảy.",
-            "Kính cường lực chịu nhiệt là kính được gia công cạnh đặc biệt rồi xử lý nhiệt siêu cường lực bề mặt, có thể dùng làm thiết bị phòng cháy."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Việc dùng thanh đệm giữ khoảng cách, bịt kín và bơm không khí khô là mô tả KÍNH HỘP (kính nhiều lớp). Kính dán an toàn là 2 tấm kính dán với màng film ở giữa.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Kính dán = kính + màng film dán lại. Kính hộp = dùng thanh đệm tạo lớp khí và bịt kín."
-        },
-        {
-          "label": "Q2",
-          "question": "建築用板ガラスに関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "フロート板ガラスは、溶融した金属の上に浮かべて製板する透明、かつ、平滑なガラスである。",
-            "複層ガラスは、複数枚の板ガラスの間に間隙を設け、大気圧に近い圧力の乾燥気体を満たし、その周辺を密閉したもので、断熱効果のあるガラスである。",
-            "熱線吸収板ガラスは、板ガラスの表面に金属皮膜を形成したもので、冷房負荷の軽減の効果が高いガラスである。",
-            "倍強度ガラスは、フロート板ガラスを軟化点まで加熱後、両表面から空気を吹き付けて冷却加工するなどにより、強度を約2倍に高めたガラスである。"
+            "壁体内の中空層の片面にアルミ箔を貼り付けると、壁体全体の熱抵抗は大きくなる。",
+            "熱放射は、電磁波による熱移動現象であり、真空中でも生じる。",
+            "壁体内にある密閉された中空層の熱抵抗は、中空層の厚さに比例する。",
+            "総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいう。"
           ],
           "answer": "3",
-          "explanation": "選択肢1：適当。フロート板ガラスは溶融金属上に浮かべて製板した透明・平滑なガラス。\n選択肢2：適当。複層ガラスは板ガラスの間に乾燥気体を密閉した断熱性のあるガラス。\n選択肢3：不適当。熱線吸収板ガラスは板ガラスの組織の中に金属成分を加えて製造したもの。表面に金属皮膜を形成して熱線を反射するのは熱線反射ガラス。\n選択肢4：適当。倍強度ガラスは熱処理で強度を約2倍に高めたガラス。",
-          "studyContent": "熱線吸収板ガラス＝組織に金属添加。熱線反射ガラス＝片面表面に薄膜をコーティング。",
+          "explanation": "【解説01】\n正解は３です。\n１：設問の通りです。\n壁体内の中空層にアルミ箔を貼り付けると、壁体の熱貫流率が減少し、断熱性が高まります。\n２：設問の通りです。\n熱放射とは、エネルギーが空間を通過して他の物体に熱として伝わる現象で、真空中においても生じます。\n３：誤りです。\n壁体内の中空層の熱抵抗は、中空層の厚さが 20 〜 30 mm を超えると、厚さに関係なくほぼ一定となります。\n４：設問の通りです。\n\n【解説02】\n環境工学の伝熱についての出題です。\n熱移動のプロセスには伝導・対流・放射の３つがあります。\n選択肢1. 壁体内の中空層の片面にアルミ箔を貼り付けると、壁体全体の熱抵抗は大きくなる。\n壁体内の中空層の片面にアルミ箔を貼り付けると、放射による伝熱が減少し、壁体全体の熱抵抗は大きくなります。\n選択肢2. 熱放射は、電磁波による熱移動現象であり、真空中でも生じる。\n設問の通り、太陽の熱が真空中の大気圏を通過して、地球に伝わるように、熱放射は、電磁波による熱移動現象であり、真空中でも生じます。\n選択肢3. 壁体内にある密閉された中空層の熱抵抗は、中空層の厚さに比例する。\nこちらが正解です。\n空気層の熱抵抗は、２～３ｃｍ程度までは厚いほど増加するが、それを超えると、対流による伝熱が大きくなります。\n選択肢4. 総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいう。\n設問の通り、総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいいます。\nまとめ\n建築において伝熱は断熱効果を考慮する際に必要です。どのような仕組みが断熱効果が高いか考えてみましょう。\n\n【解説03】\n解説は下記の通りです。\n選択肢1. 壁体内の中空層の片面にアルミ箔を貼り付けると、壁体全体の熱抵抗は大きくなる。\n正です。アルミ箔を張ることで断熱性が高まり、壁体全体の熱抵抗は大きくなります。\nこれは、中空層での熱の伝達は放射と対流によって起こっており、放射による熱の伝達を抑えることができるためです。\n選択肢2. 熱放射は、電磁波による熱移動現象であり、真空中でも生じる。\n正です。熱放射は電磁波によって熱が移動する現象のため、真空中でもほかの物体に熱を伝えることができます。\n選択肢3. 壁体内にある密閉された中空層の熱抵抗は、中空層の厚さに比例する。\n誤です。\n2～3cmまでは熱抵抗が増加しますが、それ以上になるとほとんど変化しません。\n選択肢4. 総合熱伝達率は、対流熱伝達率と放射熱伝達率を合計したものをいう。\n正です。熱伝達には対流熱伝達率と放射熱伝達率があり、合計したものを総合熱伝達率といいます。",
+          "studyContent": "■密閉中空層の熱抵抗：厚さが2～3cm（20～30mm）までは厚いほど増加するが、それを超えると対流が大きくなりほぼ一定→「厚さに比例」は誤り。\n■中空層にアルミ箔：放射伝熱を抑え、熱抵抗が大きくなる（断熱向上）。\n■熱放射：電磁波によるため真空中でも生じる。\n■総合熱伝達率＝対流熱伝達率＋放射熱伝達率。",
           "tables": [],
           "tables_vi": [],
           "images": [],
-          "question_vi": "Phát biểu nào sau đây về kính tấm xây dựng là KHÔNG phù hợp nhất?",
+          "question_vi": "【Năm Reiwa nguyên (2019) – Buổi sáng Câu 2】Về truyền nhiệt, đâu là mô tả KHÔNG phù hợp nhất?",
           "choices_vi": [
-            "Kính float là kính trong suốt và phẳng nhẵn, tạo tấm bằng cách nổi trên kim loại nóng chảy.",
-            "Kính hộp là loại tạo khe giữa nhiều tấm kính, bơm khí khô ở áp suất gần khí quyển và bịt kín xung quanh, có hiệu quả cách nhiệt.",
-            "Kính hấp thụ nhiệt là loại tạo MÀNG KIM LOẠI trên bề mặt kính, có hiệu quả giảm tải làm lạnh cao.",
-            "Kính bán cường lực được nung kính float đến điểm mềm rồi làm nguội bằng thổi khí hai mặt, nâng độ bền lên khoảng 2 lần."
+            "Dán lá nhôm vào một mặt của lớp rỗng bên trong tường thì trở kháng nhiệt của toàn tường tăng lên.",
+            "Bức xạ nhiệt là hiện tượng truyền nhiệt bằng sóng điện từ, xảy ra cả trong chân không.",
+            "Trở kháng nhiệt của lớp rỗng kín bên trong tường tỉ lệ thuận với độ dày của lớp rỗng.",
+            "Hệ số truyền nhiệt bề mặt tổng hợp là tổng của hệ số truyền nhiệt đối lưu và hệ số truyền nhiệt bức xạ."
           ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: KHÔNG phù hợp. Kính hấp thụ nhiệt được THÊM thành phần kim loại VÀO TRONG cấu trúc kính. Loại tạo màng kim loại trên bề mặt để phản xạ tia nhiệt là kính phản xạ nhiệt.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Kính hấp thụ nhiệt = thêm kim loại vào cấu trúc. Kính phản xạ nhiệt = phủ màng mỏng trên một mặt."
-        },
-        {
-          "label": "Q3",
-          "question": "ガラスに関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "型板ガラスは、ロールアウト方式により、ロールに彫刻された型模様をガラス面に熱間転写して製造された、片面に型模様のある板ガラスである。",
-            "Low-E複層ガラスは、中空層側のガラス面に特殊金属をコーティングしたもので、日射制御機能と高い断熱性を兼ね備えたガラスである。",
-            "強化ガラスは、板ガラスを熱処理してガラス表面付近に強い圧縮応力層を形成したもので、耐衝撃強度が高いガラスである。",
-            "熱線反射ガラスは、日射熱の遮蔽を主目的とし、ガラスの両面に熱線反射性の薄膜を形成したガラスである。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。型板ガラスはロールアウト方式で片面に型模様を付けた板ガラス。\n選択肢2：適当。Low-E複層ガラスは中空層側に特殊金属をコーティングし日射制御と高断熱を兼ね備える。\n選択肢3：適当。強化ガラスは熱処理で表面付近に圧縮応力層を形成した耐衝撃強度の高いガラス。\n選択肢4：不適当。熱線反射ガラスは日射熱遮蔽を主目的とし、ガラスの片側表面に熱線反射性の薄膜を形成したもの。両面ではない。",
-          "studyContent": "熱線反射ガラスは片側表面に薄膜を形成。両面ではない。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về kính là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Kính hoa văn sản xuất bằng phương pháp cán, in nóng hoa văn khắc trên trục lăn lên mặt kính, có hoa văn ở một mặt.",
-            "Kính hộp Low-E phủ kim loại đặc biệt lên mặt kính phía lớp rỗng, vừa kiểm soát bức xạ mặt trời vừa cách nhiệt cao.",
-            "Kính cường lực được nhiệt luyện tạo lớp ứng suất nén mạnh gần bề mặt, có độ bền va đập cao.",
-            "Kính phản xạ nhiệt nhằm chắn nhiệt bức xạ mặt trời, tạo màng mỏng phản xạ nhiệt ở CẢ HAI mặt kính."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Kính phản xạ nhiệt tạo màng mỏng phản xạ nhiệt ở MỘT mặt, không phải hai mặt.",
-          "studyContent_vi": "Kính phản xạ nhiệt phủ màng ở một mặt, không phải hai mặt."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 1.5.6 シーリング材",
-      "vocabulary": "クラス(拡大率・縮小率) / モジュラス / 1成分形(湿気硬化等) / 2成分形(主剤＋硬化剤の反応硬化) / シリコーン系(撥水汚染) / 2面接着・3面接着 / 弾性・塑性シーリング材",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "建築用シーリング材に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "日本産業規格（JIS）において、シーリング材のクラスは、目地幅に対する拡大率及び縮小率で区分が設定されている。",
-            "モジュラスとは、シーリング材の物性試験において、試験片に一定の伸びを与えたときの引張応力をいう。",
-            "高モジュラスの1成分形シリコーン系シーリング材は、耐熱性、耐寒性に優れ、防かび剤を添加したものは、浴槽や洗面化粧台等の水回りの目地に用いられる。",
-            "2成分形シーリング材は、空気中の水分や酸素と反応して表面から硬化する。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。シーリング材のクラスは目地幅に対する拡大率・縮小率で区分される。\n選択肢2：適当。モジュラスは一定の伸びを与えたときの引張応力。\n選択肢3：適当。高モジュラス1成分形シリコーン系は耐熱・耐寒性に優れ、防かび剤添加品は水回り目地に用いる。\n選択肢4：不適当。2成分形は主剤＋硬化剤を混合して化学反応で硬化する。空気中の水分や酸素と反応して表面から硬化するのは1成分形の説明。",
-          "studyContent": "1成分形＝空気中の水分等で硬化。2成分形＝主剤と硬化剤を混ぜて反応硬化。クラス＝伸縮性能、モジュラス＝硬さの目安。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu trám (sealant) xây dựng là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Theo JIS, cấp (class) của sealant được phân theo tỷ lệ giãn và tỷ lệ co so với bề rộng mạch.",
-            "Modulus là ứng suất kéo khi cho mẫu thử giãn một lượng nhất định trong thử nghiệm tính chất của sealant.",
-            "Sealant gốc silicone 1 thành phần modulus cao có tính chịu nhiệt, chịu lạnh tốt; loại thêm chất chống mốc dùng cho mạch khu vực nước như bồn tắm, bồn rửa.",
-            "Sealant 2 thành phần đóng rắn từ bề mặt nhờ phản ứng với hơi nước và oxy trong không khí."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Loại 2 thành phần đóng rắn nhờ trộn chất chính + chất đóng rắn (phản ứng hóa học). Đóng rắn từ bề mặt nhờ hơi ẩm/oxy không khí là mô tả loại 1 thành phần.",
-          "studyContent_vi": "1 thành phần = đóng rắn nhờ hơi ẩm không khí. 2 thành phần = trộn chất chính và chất đóng rắn để phản ứng. Class = khả năng co giãn, Modulus = mức độ cứng."
-        },
-        {
-          "label": "Q2",
-          "question": "建築用シーリング材に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "シーリング材のクラスは、目地幅に対する拡大率及び縮小率で区分が設定されている。",
-            "1成分形シーリング材の硬化機構には、湿気硬化、乾燥硬化及び非硬化がある。",
-            "2面接着とは、シーリング材が相対する2面で被着体と接着している状態をいう。",
-            "2成分形シーリング材は、基剤と着色剤の2成分を施工直前に練り混ぜて使用するシーリング材である。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。クラスは目地幅に対する拡大率・縮小率で区分される。\n選択肢2：適当。1成分形の硬化機構には湿気硬化・乾燥硬化・非硬化がある。\n選択肢3：適当。2面接着は相対する2面で被着体と接着している状態。\n選択肢4：不適当。2成分形は基剤と「硬化剤」の2成分を練り混ぜ、化学反応で硬化する。「着色剤」ではない。",
-          "studyContent": "2成分形は基剤と硬化剤を混合し反応硬化。2面接着は動きの大きいジョイント、3面接着は動きのないジョイントに用いる。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về sealant xây dựng là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Cấp của sealant được phân theo tỷ lệ giãn và co so với bề rộng mạch.",
-            "Cơ chế đóng rắn của sealant 1 thành phần gồm đóng rắn bằng hơi ẩm, đóng rắn bằng khô và không đóng rắn.",
-            "Dán 2 mặt là trạng thái sealant dính với vật nền ở 2 mặt đối diện.",
-            "Sealant 2 thành phần là loại trộn 2 thành phần là chất nền và CHẤT TẠO MÀU ngay trước thi công."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Loại 2 thành phần trộn chất nền và CHẤT ĐÓNG RẮN, đóng rắn bằng phản ứng hóa học; không phải chất tạo màu.",
-          "studyContent_vi": "2 thành phần = trộn chất nền và chất đóng rắn để phản ứng. Dán 2 mặt cho mạch chuyển vị lớn; dán 3 mặt cho mạch không chuyển vị."
-        },
-        {
-          "label": "Q3",
-          "question": "建築用シーリング材に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "弾性シーリング材とは、目地のムーブメントによって生じた応力がひずみにほぼ比例するシーリング材である。",
-            "塑性シーリング材とは、目地のムーブメントによって生じた応力がムーブメントの速度にほぼ比例し、ムーブメントが停止すると素早く緩和するシーリング材である。",
-            "１成分形高モジュラス形シリコーン系シーリング材は、耐熱性、耐寒性に優れ、防かび剤を添加したものは、浴槽や洗面化粧台などの水まわりの目地に用いられる。",
-            "２成分形ポリウレタン系シーリング材は、耐熱性、耐候性に優れ、金属パネルや金属笠木などの目地に用いられる。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。弾性シーリング材は応力がひずみにほぼ比例する。\n選択肢2：適当。塑性シーリング材は応力がムーブメント速度にほぼ比例し、停止すると素早く緩和する。\n選択肢3：適当。1成分形高モジュラスシリコーン系は耐熱・耐寒性に優れ、防かび剤添加品は水回り目地に用いる。\n選択肢4：不適当。2成分形ポリウレタン系は耐熱性・耐候性に劣るため、金属パネルや金属笠木などの目地には適さない。耐候性に優れるシリコーン系・変成シリコーン系等が用いられる。",
-          "studyContent": "2成分形ポリウレタン系は耐熱・耐候性に劣る。金属目地には耐候性に優れるシリコーン系・変成シリコーン系を用いる。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về sealant xây dựng là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Sealant đàn hồi là loại có ứng suất sinh ra do chuyển vị mạch gần như tỷ lệ với biến dạng.",
-            "Sealant dẻo là loại có ứng suất gần như tỷ lệ với tốc độ chuyển vị, và giãn ứng suất nhanh khi chuyển vị dừng.",
-            "Sealant gốc silicone 1 thành phần modulus cao chịu nhiệt/lạnh tốt; loại thêm chống mốc dùng cho mạch khu vực nước như bồn tắm, bồn rửa.",
-            "Sealant gốc polyurethane 2 thành phần chịu nhiệt và chịu thời tiết tốt, dùng cho mạch tấm kim loại và mũ tường kim loại."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Polyurethane 2 thành phần chịu nhiệt/thời tiết KÉM nên không phù hợp mạch tấm kim loại, mũ tường kim loại; những chỗ đó dùng silicone/silicone biến tính chịu thời tiết tốt.",
-          "studyContent_vi": "Polyurethane 2 thành phần chịu nhiệt/thời tiết kém. Mạch kim loại nên dùng silicone hoặc silicone biến tính chịu thời tiết tốt."
-        },
-        {
-          "label": "Q4",
-          "question": "建築用シーリング材に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "シリコーン系シーリング材は、表面にほこりが付着しないため、目地周辺に撥水汚染が生じにくい。",
-            "2成分形シーリング材は、施工直前に基剤と硬化剤を調合し、練り混ぜて使用する。",
-            "弾性シーリング材は、液状ポリマーを主成分としたもので、施工後は硬化し、ゴム状弾性を発現する。",
-            "シーリング材のクラスは、目地幅に対する拡大率及び縮小率で区分が設定されている。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。シリコーン系シーリング材は表面にほこりが付着しやすく、遊離したシリコンオイルが汚れを吸着して目地周辺に撥水汚染が生じやすい。\n選択肢2：適当。2成分形は施工直前に基剤と硬化剤を調合・練り混ぜて使用する。\n選択肢3：適当。弾性シーリング材は液状ポリマーを主成分とし、硬化後ゴム状弾性を発現する。\n選択肢4：適当。クラスは目地幅に対する拡大率・縮小率で区分される。",
-          "studyContent": "シリコーン系はシリコンオイルにより撥水汚染が生じやすい。石材・タイル・塗装パネル等で注意。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về sealant xây dựng là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Sealant gốc silicone không bám bụi trên bề mặt nên ít gây vết bẩn kỵ nước quanh mạch.",
-            "Sealant 2 thành phần được trộn chất nền và chất đóng rắn ngay trước thi công rồi sử dụng.",
-            "Sealant đàn hồi có thành phần chính là polymer dạng lỏng, sau thi công đóng rắn và thể hiện tính đàn hồi như cao su.",
-            "Cấp của sealant được phân theo tỷ lệ giãn và co so với bề rộng mạch."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Sealant silicone DỄ bám bụi; dầu silicone tách ra hút bẩn nên DỄ gây vết bẩn kỵ nước quanh mạch.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Sealant silicone dễ gây vết bẩn kỵ nước do dầu silicone. Cẩn trọng với đá, gạch ốp, tấm sơn."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 1.5.7 塗料",
-      "vocabulary": "つや有合成樹脂エマルションペイント(水性・多用途) / アクリル樹脂系非水分散形塗料(溶剤型) / クリヤラッカー(速乾・木部) / 合成樹脂調合ペイント(油性・木部/鉄鋼) / 2液形ポリウレタンワニス",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "屋内で使用する塗料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "アクリル樹脂系非水分散形塗料は、モルタル面に適しているが、せっこうボード面には適していない。",
-            "クリヤラッカーは、木部に適しているが、コンクリート面には適していない。",
-            "つや有合成樹脂エマルションペイントは、鉄鋼面に適しているが、モルタル面には適していない。",
-            "2液形ポリウレタンワニスは、木部に適しているが、ALCパネル面には適していない。"
-          ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。アクリル樹脂系非水分散形塗料はモルタル面に適すが、せっこうボード面には適さない。\n選択肢2：適当。クリヤラッカーは木部に適すがコンクリート面には適さない。\n選択肢3：不適当。つや有合成樹脂エマルションペイントは鉄鋼面に加えコンクリート面・モルタル面・せっこうボード・木部にも適しており、モルタル面に適さないという記述は誤り。\n選択肢4：適当。2液形ポリウレタンワニスは木部に適すがALCパネル面には適さない。",
-          "studyContent": "つや有合成樹脂エマルションペイントは多用途で、モルタル面にも適する。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về sơn dùng trong nhà là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Sơn acrylic phân tán phi nước phù hợp mặt vữa nhưng không phù hợp mặt tấm thạch cao.",
-            "Sơn clear lacquer phù hợp gỗ nhưng không phù hợp mặt bê tông.",
-            "Sơn nhũ tương nhựa tổng hợp có độ bóng phù hợp mặt thép nhưng KHÔNG phù hợp mặt vữa.",
-            "Vecni polyurethane 2 thành phần phù hợp gỗ nhưng không phù hợp mặt tấm ALC."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: KHÔNG phù hợp. Sơn nhũ tương có độ bóng phù hợp cả mặt thép, bê tông, vữa, tấm thạch cao và gỗ; nói không phù hợp mặt vữa là sai.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Sơn nhũ tương nhựa tổng hợp có độ bóng đa dụng, phù hợp cả mặt vữa."
-        },
-        {
-          "label": "Q2",
-          "question": "塗料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "つや有合成樹脂エマルションペイントは、水分の蒸発とともに樹脂粒子が融着して塗膜を形成する。",
-            "アクリル樹脂系非水分散形塗料は、溶剤の蒸発とともに樹脂粒子が融着して塗膜を形成する。",
-            "クリヤラッカーは、自然乾燥で 長時間かけて塗膜を形成する。",
-            "合成樹脂調合ペイントは、溶剤の蒸発とともに油分の酸化重合が進み、乾燥硬化して塗膜を形成する。"
-          ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。つや有合成樹脂エマルションペイント（水性）は水分蒸発とともに樹脂粒子が融着して塗膜を形成。\n選択肢2：適当。アクリル樹脂系非水分散形塗料（溶剤型）は溶剤蒸発とともに樹脂粒子が融着。\n選択肢3：不適当。クリヤラッカーはラッカー系で速乾性があり、短時間で塗膜を形成する。長時間かけてではない。\n選択肢4：適当。合成樹脂調合ペイント（油性）は溶剤蒸発と油分の酸化重合で乾燥硬化する。",
-          "studyContent": "ラッカー系は速乾性。水性（エマルション）は水分蒸発、油性は溶剤蒸発・酸化重合で塗膜形成。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về sơn là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Sơn nhũ tương nhựa tổng hợp có độ bóng tạo màng nhờ hạt nhựa kết dính khi nước bay hơi.",
-            "Sơn acrylic phân tán phi nước tạo màng nhờ hạt nhựa kết dính khi dung môi bay hơi.",
-            "Sơn clear lacquer tạo màng bằng cách khô tự nhiên trong THỜI GIAN DÀI.",
-            "Sơn dầu nhựa tổng hợp (SOP) tạo màng nhờ dung môi bay hơi và quá trình oxy hóa trùng hợp của dầu, khô cứng lại."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: KHÔNG phù hợp. Clear lacquer thuộc hệ lacquer KHÔ NHANH, tạo màng trong thời gian ngắn; không phải thời gian dài.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Hệ lacquer khô nhanh. Sơn nước (nhũ tương): nước bay hơi; sơn dầu: dung môi bay hơi + oxy hóa trùng hợp."
-        },
-        {
-          "label": "Q3",
-          "question": "塗料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "合成樹脂エマルションペイントは、モルタル面に適しているが、金属面には適していない。",
-            "つや有合成樹脂エマルションペイントは、屋内の鉄鋼面に適しているが、モルタル面には適していない。",
-            "アクリル樹脂系非水分散形塗料は、モルタル面に適しているが、せっこうボード面には適していない。",
-            "合成樹脂調合ペイントは、木部に適しているが、モルタル面には適していない。"
-          ],
-          "answer": "2",
-          "explanation": "選択肢1：適当。合成樹脂エマルションペイントはモルタル面に適すが金属面には適さない。\n選択肢2：不適当。つや有合成樹脂エマルションペイントは屋内の鉄鋼面に加え、コンクリート・モルタル面・木部にも適する。モルタル面に適さないという記述は誤り。\n選択肢3：適当。アクリル樹脂系非水分散形塗料はモルタル面に適すがせっこうボード面には適さない。\n選択肢4：適当。合成樹脂調合ペイントは木部・鉄鋼面に適すがモルタル面には適さない。",
-          "studyContent": "つや有合成樹脂エマルションペイントは鉄鋼面・コンクリート・モルタル・木部に適する多用途塗料。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về sơn là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Sơn nhũ tương nhựa tổng hợp phù hợp mặt vữa nhưng không phù hợp mặt kim loại.",
-            "Sơn nhũ tương có độ bóng phù hợp mặt thép trong nhà nhưng KHÔNG phù hợp mặt vữa.",
-            "Sơn acrylic phân tán phi nước phù hợp mặt vữa nhưng không phù hợp mặt tấm thạch cao.",
-            "Sơn dầu nhựa tổng hợp phù hợp gỗ nhưng không phù hợp mặt vữa."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: KHÔNG phù hợp. Sơn nhũ tương có độ bóng phù hợp cả mặt thép trong nhà, bê tông, vữa và gỗ; nói không phù hợp mặt vữa là sai.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Sơn nhũ tương có độ bóng là sơn đa dụng, phù hợp mặt thép, bê tông, vữa và gỗ."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 1.5.8 内装材料",
-      "vocabulary": "強化せっこうボード(無機質繊維混入・耐火) / シージングせっこうボード(防水処理) / 構造用せっこうボード / パーティクルボード(木材小片＋接着剤) / 木毛セメント板 / コンポジションビニル床タイル(バインダー<30%) / ロックウール化粧吸音板 / けい酸カルシウム板",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "内装材料に関する一般的な記述として、最も不適当なものはどれか。",
-          "choices": [
-            "強化せっこうボードは、せっこうボードの芯に無機質繊維等を混入したもので、性能項目として耐衝撃性や耐火炎性等が規定されている。",
-            "パーティクルボードは、木毛等の木質原料及びセメントを用いて圧縮成形した板で、屋根の下地材等に使用される。",
-            "コルク床タイルは、天然コルク外皮を主原料として、必要に応じてウレタン樹脂等で加工した床タイルである。",
-            "クッションフロアは、表面の透明ビニル層の下に印刷層、発泡ビニル層をもったビニル床シートである。"
-          ],
-          "answer": "2",
-          "explanation": "選択肢1：適当。強化せっこうボードは芯に無機質繊維等を混入し、耐衝撃性・耐火炎性等が規定される。\n選択肢2：不適当。設問の内容は木毛セメント板の説明。パーティクルボードは木材などの小片を接着剤で熱圧成形した板である。\n選択肢3：適当。コルク床タイルは天然コルク外皮を主原料とし必要に応じウレタン樹脂等で加工した床タイル。\n選択肢4：適当。クッションフロアは透明ビニル層の下に印刷層・発泡ビニル層をもつビニル床シート。",
-          "studyContent": "パーティクルボード＝木材小片＋接着剤で熱圧成形。木毛＋セメントで圧縮成形するのは木毛セメント板。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu nội thất là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Tấm thạch cao gia cường là tấm có lõi thạch cao trộn thêm sợi vô cơ, được quy định chỉ tiêu chịu va đập và chịu lửa.",
-            "Tấm dăm (particle board) là tấm ép từ nguyên liệu gỗ dạng sợi bào (wood wool) và XI MĂNG, dùng làm lớp nền mái.",
-            "Tấm sàn cork lấy vỏ cork tự nhiên làm nguyên liệu chính, gia công bằng nhựa urethane khi cần.",
-            "Cushion floor là tấm sàn vinyl có lớp vinyl trong suốt bề mặt, dưới là lớp in và lớp vinyl xốp."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: KHÔNG phù hợp. Nội dung này mô tả tấm xi măng sợi bào gỗ. Tấm dăm thực chất là tấm ép nóng từ DĂM/MẢNH gỗ nhỏ với CHẤT KẾT DÍNH.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Tấm dăm = mảnh gỗ nhỏ + chất kết dính, ép nóng. Ép từ sợi bào gỗ + xi măng là tấm xi măng sợi bào gỗ."
-        },
-        {
-          "label": "Q2",
-          "question": "内装材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "コンポジションビニル床タイルは、単層ビニル床タイルよりバインダー含有率を高くした床タイルである。",
-            "段通は、製造法による分類では、織りカーペットの手織りに分類される。",
-            "ロックウール化粧吸音板は、ロックウールのウールを主材料とし、結合材、混和材を用いて成形し、表面化粧をしたものである。",
-            "強化せっこうボードは、せっこうボードの芯に無機質繊維等を混入したもので、性能項目として耐衝撃性や耐火炎性等が規定されている。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。コンポジションビニル床タイルは単層ビニル床タイルよりバインダー含有率を「低く」した床タイル（コンポジション<30%、ホモジニアス≧30%）。\n選択肢2：適当。段通は織りカーペットの手織りに分類される。\n選択肢3：適当。ロックウール化粧吸音板はロックウールを主材料に成形し表面化粧したもの。\n選択肢4：適当。強化せっこうボードは芯に無機質繊維等を混入し耐衝撃性・耐火炎性等が規定される。",
-          "studyContent": "コンポジションビニル床タイルはバインダー含有率が低い（<30%）。ホモジニアス（単層）は≧30%。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu nội thất là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Gạch sàn vinyl composition là loại có hàm lượng chất kết dính (binder) CAO hơn gạch vinyl đơn lớp.",
-            "Thảm dệt tay (dan-tsu) được phân loại theo cách sản xuất là thảm dệt thủ công.",
-            "Tấm tiêu âm trang trí rock wool lấy len rock wool làm vật liệu chính, tạo hình với chất kết dính, phụ gia và trang trí bề mặt.",
-            "Tấm thạch cao gia cường có lõi trộn sợi vô cơ, được quy định chỉ tiêu chịu va đập và chịu lửa."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Gạch vinyl composition có hàm lượng binder THẤP hơn gạch vinyl đơn lớp (composition < 30%, homogeneous ≥ 30%).\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Gạch vinyl composition có hàm lượng binder thấp (<30%); loại homogeneous (đơn lớp) ≥ 30%."
-        },
-        {
-          "label": "Q3",
-          "question": "内装材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "コンポジションビニル床タイルは、単層ビニル床タイルよりバインダー量を多くした床タイルである。",
-            "複層ビニル床タイルは、耐水性、耐薬品性、耐磨耗性に優れているが、熱による伸縮性が大きい。",
-            "パーティクルボードは、日本産業規格（JIS）で定められたホルムアルデヒド放散量による区分がある。",
-            "普通合板は、日本農林規格（JAS）で定められた接着の程度による区分がある。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。コンポジションビニル床タイルは単層ビニル床タイルよりバインダー量を「少なく」した床タイル（バインダー含有率：単層30%以上、コンポジション30%未満）。\n選択肢2：適当。複層ビニル床タイルは耐水性・耐薬品性・耐磨耗性に優れるが熱による伸縮性が大きい。\n選択肢3：適当。パーティクルボードはJISでホルムアルデヒド放散量による区分がある。\n選択肢4：適当。普通合板はJASで接着の程度による区分がある。",
-          "studyContent": "コンポジションビニル床タイルはバインダー量が少ない（<30%）。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu nội thất là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Gạch sàn vinyl composition là loại có lượng binder NHIỀU hơn gạch vinyl đơn lớp.",
-            "Gạch vinyl đa lớp có khả năng chịu nước, chịu hóa chất, chịu mài mòn tốt nhưng giãn nở do nhiệt lớn.",
-            "Tấm dăm có phân loại theo lượng phát tán formaldehyde quy định trong JIS.",
-            "Gỗ dán thường có phân loại theo mức độ kết dính quy định trong JAS."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Gạch vinyl composition có lượng binder ÍT hơn gạch vinyl đơn lớp (đơn lớp ≥ 30%, composition < 30%).\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Gạch vinyl composition có lượng binder ít (<30%)."
-        },
-        {
-          "label": "Q4",
-          "question": "内装材料に関する記述として、最も不適当なものはどれか。",
-          "choices": [
-            "構造用せっこうボードは、芯材のせっこうに無機質繊維等を混入したうえ、くぎ側面抵抗を強化したものである。",
-            "ロックウール化粧吸音板は、ロックウールのウールを主材料として、結合材及び混和材を用いて成形し、表面化粧加工したものである。",
-            "けい酸カルシウム板は、石灰質原料、けい酸質原料、石綿以外の繊維、混和材料を原料として、成形したものである。",
-            "強化せっこうボードは、両面のボード用原紙と芯材のせっこうに防水処理を施したものである。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。構造用せっこうボードは芯材に無機質繊維等を混入し、くぎ側面抵抗を強化したもの。\n選択肢2：適当。ロックウール化粧吸音板はロックウールを主材料に成形し表面化粧加工したもの。\n選択肢3：適当。けい酸カルシウム板は石灰質原料・けい酸質原料・石綿以外の繊維・混和材料を成形したもの。\n選択肢4：不適当。設問は防水処理を施した「シージングせっこうボード」の説明。強化せっこうボードは芯材に無機質繊維等を混入して機械的強度（防火・耐火性）を強化したもの。",
-          "studyContent": "強化せっこうボード＝無機質繊維混入で防火・耐火性強化。両面原紙と芯に防水処理をしたものはシージングせっこうボード。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về vật liệu nội thất là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Tấm thạch cao kết cấu có lõi thạch cao trộn sợi vô cơ và được tăng cường khả năng kháng lực bên của đinh.",
-            "Tấm tiêu âm trang trí rock wool lấy len rock wool làm chính, tạo hình với chất kết dính/phụ gia và gia công trang trí bề mặt.",
-            "Tấm canxi silicat được tạo hình từ nguyên liệu vôi, nguyên liệu silic, sợi không phải amiăng và phụ gia.",
-            "Tấm thạch cao gia cường là loại đã xử lý CHỐNG THẤM cho giấy nền hai mặt và lõi thạch cao."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Nội dung này mô tả tấm thạch cao chống ẩm (sheathing) đã xử lý chống thấm. Tấm thạch cao gia cường được trộn sợi vô cơ vào lõi để tăng cường độ cơ học (chịu lửa).",
-          "studyContent_vi": "Tấm thạch cao gia cường = trộn sợi vô cơ tăng tính chịu lửa. Loại xử lý chống thấm giấy nền và lõi là tấm thạch cao chống ẩm (sheathing)."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 石材（材料）",
-      "vocabulary": "花崗岩(耐摩耗・耐久性○・耐火性×) / 安山岩(外装のみ・光沢なし・耐久耐火○) / 大理石(内装・耐酸耐火×) / 砂岩(耐火○・吸水大) / 石灰岩(内装・耐水耐酸×) / 凝灰岩(内装・加工性○・強度×)",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "石材に関する一般的な記述として、最も不適当なものはどれか。",
-          "choices": [
-            "花崗岩は、結晶質で硬く耐摩耗性や耐久性に優れ、壁、床、階段等に多く用いられる。",
-            "大理石は、酸には弱いが、緻密であり磨くと光沢が出るため、主に内装用として用いられる。",
-            "粘板岩（スレート）は、吸水率が小さく耐久性に優れ、層状に剥がれる性質があり、屋根材や床材として用いられる。",
-            "石灰岩は、柔らかく曲げ強度は低いが、耐水性や耐酸性に優れ、主に外装用として用いられる。"
-          ],
-          "answer": "4",
-          "explanation": "選択肢1：適当。花崗岩は結晶質で硬く耐摩耗性・耐久性に優れ、壁・床・階段等に多用される。\n選択肢2：適当。大理石は酸に弱いが緻密で磨くと光沢が出るため主に内装用。\n選択肢3：適当。粘板岩（スレート）は吸水率が小さく耐久性に優れ、層状に剥がれるため屋根材・床材に用いる。\n選択肢4：不適当。石灰岩は柔らかく加工しやすいが耐水性に劣り、主に内装用として用いられる。耐水性・耐酸性に優れ外装用というのは誤り。",
-          "studyContent": "石灰岩は耐水性に劣り主に内装用。大理石・凝灰岩も内装用、安山岩は外装のみ。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về đá là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Đá granit kết tinh cứng, chịu mài mòn và độ bền cao, được dùng nhiều cho tường, sàn, cầu thang.",
-            "Đá cẩm thạch yếu với axit nhưng đặc chắc và đánh bóng lên độ bóng, nên chủ yếu dùng nội thất.",
-            "Đá phiến (slate) hút nước thấp, bền tốt, có tính tách lớp, dùng làm vật liệu mái và sàn.",
-            "Đá vôi mềm, cường độ uốn thấp nhưng chịu nước và chịu axit tốt, chủ yếu dùng cho NGOẠI THẤT."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng.\nLựa chọn 3: Đúng.\nLựa chọn 4: KHÔNG phù hợp. Đá vôi mềm, dễ gia công nhưng chịu nước kém, chủ yếu dùng cho NỘI THẤT; nói chịu nước/chịu axit tốt và dùng ngoại thất là sai.",
-          "studyContent_vi": "Đá vôi chịu nước kém, chủ yếu dùng nội thất. Đá cẩm thạch và đá tuff cũng dùng nội thất; đá andesit chỉ dùng ngoại thất."
-        },
-        {
-          "label": "Q2",
-          "question": "石材に関する一般的な記述として、最も不適当なものはどれか。",
-          "choices": [
-            "花崗岩は、耐摩耗性、耐久性に優れるが、耐火性に劣る。",
-            "安山岩は、光沢があり美観性に優れるが、耐久性、耐火性に劣る。",
-            "砂岩は、耐火性に優れるが、吸水率の高いものは耐凍害性に劣る。",
-            "凝灰岩は、加工性に優れるが、強度、耐久性に劣る。"
-          ],
-          "answer": "2",
-          "explanation": "選択肢1：適当。花崗岩は耐摩耗性・耐久性に優れるが耐火性に劣る（500℃超で急激に強度低下）。\n選択肢2：不適当。安山岩は外装に用いられる硬い石で耐久性・耐火性に優れるが、光沢がない。光沢があり美観性に優れるという記述は誤り。\n選択肢3：適当。砂岩は耐火性に優れるが吸水率の高いものは耐凍害性に劣る。\n選択肢4：適当。凝灰岩は加工性に優れるが強度・耐久性に劣る。",
-          "studyContent": "安山岩は外装のみに使われる硬い石で耐久性・耐火性に優れるが光沢がない（内装に使えない）。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về đá là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Đá granit chịu mài mòn và độ bền tốt nhưng chịu lửa kém.",
-            "Đá andesit có độ bóng và tính thẩm mỹ cao nhưng độ bền và chịu lửa kém.",
-            "Đá sa thạch chịu lửa tốt nhưng loại hút nước cao thì chịu băng giá kém.",
-            "Đá tuff (đá tro núi lửa) gia công tốt nhưng cường độ và độ bền kém."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng. Granit chịu mài mòn/bền tốt nhưng chịu lửa kém (trên 500℃ giảm mạnh cường độ).\nLựa chọn 2: KHÔNG phù hợp. Đá andesit là đá cứng dùng ngoại thất, độ bền và chịu lửa TỐT, nhưng KHÔNG có độ bóng; nói có độ bóng và thẩm mỹ cao là sai.\nLựa chọn 3: Đúng.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Đá andesit là đá cứng chỉ dùng ngoại thất, độ bền/chịu lửa tốt nhưng không có độ bóng (không dùng nội thất)."
-        },
-        {
-          "label": "Q3",
-          "question": "石材に関する一般的な記述として、最も不適当なものはどれか。",
-          "choices": [
-            "花こう岩は、耐摩耗性、耐久性に優れるが、耐火性に劣る。",
-            "大理石は、ち密であり、磨くと光沢が出るが、耐酸性、耐火性に劣る。",
-            "石灰岩は、耐水性に優れるが、柔らかく、曲げ強度は低い。",
-            "砂岩は、耐火性に優れるが、吸水率の高いものは耐凍害性に劣る。"
-          ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。花こう岩は耐摩耗性・耐久性に優れるが耐火性に劣り、500℃超で急激に強度が下がる。\n選択肢2：適当。大理石はち密で磨くと光沢が出るが耐酸性・耐火性に劣り、主に内装用。\n選択肢3：不適当。石灰岩は柔らかく加工しやすいが耐水性に劣る。耐水性に優れるという記述は誤り。\n選択肢4：適当。砂岩は耐火性に優れるが吸水率の高いものは耐凍害性に劣る。",
-          "studyContent": "石灰岩は耐水性に劣り柔らかく曲げ強度も低い。花こう岩は耐火性に劣る。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về đá là KHÔNG phù hợp nhất?",
-          "choices_vi": [
-            "Đá granit chịu mài mòn và độ bền tốt nhưng chịu lửa kém.",
-            "Đá cẩm thạch đặc chắc, đánh bóng lên độ bóng nhưng chịu axit và chịu lửa kém.",
-            "Đá vôi chịu nước tốt nhưng mềm và cường độ uốn thấp.",
-            "Đá sa thạch chịu lửa tốt nhưng loại hút nước cao thì chịu băng giá kém."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng.\nLựa chọn 2: Đúng. Đá cẩm thạch đặc chắc, có độ bóng nhưng chịu axit/lửa kém, chủ yếu dùng nội thất.\nLựa chọn 3: KHÔNG phù hợp. Đá vôi mềm dễ gia công nhưng chịu nước KÉM; nói chịu nước tốt là sai.\nLựa chọn 4: Đúng.",
-          "studyContent_vi": "Đá vôi chịu nước kém, mềm và cường độ uốn thấp. Granit chịu lửa kém."
-        }
-      ]
-    },
-    {
-      "path": "1.5 建築材料 > 建具・サッシ材料（性能）",
-      "vocabulary": "スイングドアセット限定(ねじり強さ・鉛直荷重強さ・耐衝撃性・面内変形追随性) / 共通項目(開閉力・開閉繰返し・遮音性・断熱性・耐風圧性・気密性・水密性・日射熱取得性) / スライディングドアセット / スイングサッシ・スライディングサッシ",
-      "questions": [
-        {
-          "label": "Q1",
-          "question": "日本産業規格（JIS）のドアセットに規定されている性能項目に関する記述として、不適当なものはどれか。",
-          "choices": [
-            "スイングドアセットでは、日射熱取得性が規定されている。",
-            "スイングドアセットでは、気密性が規定されている。",
-            "スライディングドアセットでは、遮音性が規定されている。",
-            "スライディングドアセットでは、ねじり強さが規定されている。"
-          ],
-          "answer": "4",
-          "explanation": "共通の性能項目には開閉力・開閉繰返し・遮音性・断熱性・耐風圧性・気密性・水密性・日射熱取得性があり、スイングドアセットのみねじり強さ・鉛直荷重強さ・耐衝撃性・面内変形追随性が追加される。\n選択肢1：適当。日射熱取得性は共通項目。\n選択肢2：適当。気密性は共通項目。\n選択肢3：適当。遮音性は共通項目。\n選択肢4：不適当。ねじり強さはスイングドアセットのみに規定され、スライディングドアセットは対象外である。",
-          "studyContent": "ねじり強さ・鉛直荷重強さ・耐衝撃性・面内変形追随性はスイングドアセットのみ。共通項目と区別して覚える。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về các chỉ tiêu hiệu năng của bộ cửa (door set) quy định trong JIS là KHÔNG phù hợp?",
-          "choices_vi": [
-            "Bộ cửa mở quay (swing) được quy định chỉ tiêu thu nhiệt bức xạ mặt trời.",
-            "Bộ cửa mở quay được quy định chỉ tiêu độ kín khí.",
-            "Bộ cửa trượt (sliding) được quy định chỉ tiêu cách âm.",
-            "Bộ cửa trượt được quy định chỉ tiêu độ bền chịu xoắn."
-          ],
-          "explanation_vi": "Chỉ tiêu chung gồm: lực đóng mở, lặp đóng mở, cách âm, cách nhiệt, chịu áp lực gió, kín khí, kín nước, thu nhiệt bức xạ. Riêng bộ cửa mở quay có thêm: chịu xoắn, chịu tải đứng, chịu va đập, theo dõi biến dạng trong mặt phẳng.\nLựa chọn 1: Đúng (thu nhiệt bức xạ là chỉ tiêu chung).\nLựa chọn 2: Đúng (kín khí là chỉ tiêu chung).\nLựa chọn 3: Đúng (cách âm là chỉ tiêu chung).\nLựa chọn 4: KHÔNG phù hợp. Chịu xoắn chỉ quy định cho bộ cửa mở quay, không áp dụng cho bộ cửa trượt.",
-          "studyContent_vi": "Chịu xoắn, chịu tải đứng, chịu va đập, theo dõi biến dạng trong mặt phẳng chỉ có ở bộ cửa mở quay. Phân biệt với chỉ tiêu chung."
-        },
-        {
-          "label": "Q2",
-          "question": "日本産業規格（JIS）のドアセットに規定されている性能項目に関する記述として、不適当なものはどれか。",
-          "choices": [
-            "スライディングドアセットでは、「鉛直荷重強さ」が規定されている。",
-            "スライディングドアセットでは、「耐風圧性」が規定されている。",
-            "スイングドアセットでは、「耐衝撃性」が規定されている。",
-            "スイングドアセットでは、「開閉力」が規定されている。"
-          ],
-          "answer": "1",
-          "explanation": "選択肢1：不適当。鉛直荷重強さはスイングドアセットのみに規定され、スライディングドアセットには規定されていない。\n選択肢2：適当。耐風圧性はスイング・スライディング共通の選択項目。\n選択肢3：適当。耐衝撃性はスイングドアセットの必須項目。\n選択肢4：適当。開閉力はスイング・スライディング共通の必須項目。",
-          "studyContent": "鉛直荷重強さはスイングドアセットのみ。耐風圧性・気密性・水密性は共通の選択項目。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về chỉ tiêu hiệu năng của bộ cửa quy định trong JIS là KHÔNG phù hợp?",
-          "choices_vi": [
-            "Bộ cửa trượt được quy định chỉ tiêu \"độ bền chịu tải đứng\".",
-            "Bộ cửa trượt được quy định chỉ tiêu \"chịu áp lực gió\".",
-            "Bộ cửa mở quay được quy định chỉ tiêu \"chịu va đập\".",
-            "Bộ cửa mở quay được quy định chỉ tiêu \"lực đóng mở\"."
-          ],
-          "explanation_vi": "Lựa chọn 1: KHÔNG phù hợp. Chịu tải đứng chỉ quy định cho bộ cửa mở quay, không quy định cho bộ cửa trượt.\nLựa chọn 2: Đúng. Chịu áp lực gió là chỉ tiêu lựa chọn chung.\nLựa chọn 3: Đúng. Chịu va đập là chỉ tiêu của bộ cửa mở quay.\nLựa chọn 4: Đúng. Lực đóng mở là chỉ tiêu bắt buộc chung.",
-          "studyContent_vi": "Chịu tải đứng chỉ có ở bộ cửa mở quay. Chịu áp lực gió, kín khí, kín nước là chỉ tiêu lựa chọn chung."
-        },
-        {
-          "label": "Q3",
-          "question": "JIS（日本産業規格）のサッシに規定されている性能項目に関する記述として、不適当なものはどれか。",
-          "choices": [
-            "スライディングサッシでは、「気密性」が規定されている。",
-            "スイングサッシでは、「水密性」が規定されている。",
-            "スライディングサッシでは、「ねじり強さ」が規定されている。",
-            "スイングサッシでは、「遮音性」が規定されている。"
-          ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。スライディングサッシに気密性は規定されている。\n選択肢2：適当。スイングサッシに水密性は規定されている。\n選択肢3：不適当。スライディングサッシにねじり強さは規定されていない。ねじり強さ等はスイング側のみ。\n選択肢4：適当。スイングサッシに遮音性は規定されている。",
-          "studyContent": "スライディングサッシにねじり強さの規定はない。ねじり強さ・鉛直荷重強さ・耐衝撃性・面内変形追随性はスイング側のみ。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về chỉ tiêu hiệu năng của khung cửa (sash) quy định trong JIS là KHÔNG phù hợp?",
-          "choices_vi": [
-            "Khung cửa trượt được quy định chỉ tiêu \"độ kín khí\".",
-            "Khung cửa mở quay được quy định chỉ tiêu \"độ kín nước\".",
-            "Khung cửa trượt được quy định chỉ tiêu \"độ bền chịu xoắn\".",
-            "Khung cửa mở quay được quy định chỉ tiêu \"cách âm\"."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng. Khung cửa trượt có quy định độ kín khí.\nLựa chọn 2: Đúng. Khung cửa mở quay có quy định độ kín nước.\nLựa chọn 3: KHÔNG phù hợp. Khung cửa trượt KHÔNG quy định độ bền chịu xoắn; chịu xoắn v.v. chỉ có ở phía mở quay.\nLựa chọn 4: Đúng. Khung cửa mở quay có quy định cách âm.",
-          "studyContent_vi": "Khung cửa trượt không có quy định chịu xoắn. Chịu xoắn, chịu tải đứng, chịu va đập, theo dõi biến dạng trong mặt phẳng chỉ có ở phía mở quay."
-        },
-        {
-          "label": "Q4",
-          "question": "日本産業規格（JIS）のドアセットに規定されている性能項目に関する記述として、不適当なものはどれか。",
-          "choices": [
-            "スイングドアセットでは、「気密性」が規定されている。",
-            "スイングドアセットでは、「開閉力」が規定されている。",
-            "スライディングドアセットでは、「鉛直荷重強さ」が規定されている。",
-            "スライディングドアセットでは、「遮音性」が規定されている。"
-          ],
-          "answer": "3",
-          "explanation": "選択肢1：適当。気密性は共通項目でスイングドアセットに規定される。\n選択肢2：適当。開閉力は共通項目でスイングドアセットに規定される。\n選択肢3：不適当。鉛直荷重強さはスイングドアセットのみに規定され、スライディングドアセットには規定されていない。\n選択肢4：適当。遮音性は共通項目でスライディングドアセットにも規定される。",
-          "studyContent": "ねじり強さ・鉛直荷重強さ・耐衝撃性・面内変形追随性はスイングドアセットのみ。スライディングドアセットには適用されない。",
-          "tables": [],
-          "tables_vi": [],
-          "images": [],
-          "question_vi": "Phát biểu nào sau đây về chỉ tiêu hiệu năng của bộ cửa quy định trong JIS là KHÔNG phù hợp?",
-          "choices_vi": [
-            "Bộ cửa mở quay được quy định chỉ tiêu \"độ kín khí\".",
-            "Bộ cửa mở quay được quy định chỉ tiêu \"lực đóng mở\".",
-            "Bộ cửa trượt được quy định chỉ tiêu \"độ bền chịu tải đứng\".",
-            "Bộ cửa trượt được quy định chỉ tiêu \"cách âm\"."
-          ],
-          "explanation_vi": "Lựa chọn 1: Đúng. Kín khí là chỉ tiêu chung.\nLựa chọn 2: Đúng. Lực đóng mở là chỉ tiêu chung.\nLựa chọn 3: KHÔNG phù hợp. Chịu tải đứng chỉ quy định cho bộ cửa mở quay, không quy định cho bộ cửa trượt.\nLựa chọn 4: Đúng. Cách âm là chỉ tiêu chung.",
-          "studyContent_vi": "Chịu xoắn, chịu tải đứng, chịu va đập, theo dõi biến dạng trong mặt phẳng chỉ có ở bộ cửa mở quay; không áp dụng cho bộ cửa trượt."
+          "explanation_vi": "【Giải thích 01】\nĐáp án đúng là 3.\n1: Đúng như đề. Dán lá nhôm vào lớp rỗng trong tường làm hệ số truyền nhiệt giảm, tính cách nhiệt tăng.\n2: Đúng như đề. Bức xạ nhiệt là hiện tượng năng lượng đi qua không gian truyền nhiệt sang vật khác, xảy ra cả trong chân không.\n3: Sai. Trở kháng nhiệt của lớp rỗng trong tường, khi độ dày lớp rỗng vượt 20～30mm thì gần như không đổi bất kể độ dày.\n4: Đúng như đề.\n\n【Giải thích 02】\nBài ra về truyền nhiệt trong kỹ thuật môi trường. Quá trình truyền nhiệt có 3 kiểu: dẫn nhiệt, đối lưu, bức xạ.\nLựa chọn 1: Dán lá nhôm vào một mặt lớp rỗng → giảm truyền nhiệt bằng bức xạ, trở kháng nhiệt toàn tường tăng.\nLựa chọn 2: Đúng. Như nhiệt mặt trời qua khí quyển chân không đến Trái đất, bức xạ xảy ra cả trong chân không.\nLựa chọn 3: Đây là đáp án đúng (mô tả sai). Trở kháng lớp không khí tăng theo độ dày đến khoảng 2～3cm, nhưng vượt qua thì truyền nhiệt đối lưu tăng lên.\nLựa chọn 4: Đúng. Hệ số truyền nhiệt bề mặt tổng hợp là tổng của hệ số truyền nhiệt đối lưu và bức xạ.\nTóm tắt: Trong xây dựng, truyền nhiệt cần thiết khi xét hiệu quả cách nhiệt. Hãy suy nghĩ cơ chế nào cho hiệu quả cách nhiệt cao.\n\n【Giải thích 03】\nGiải thích như sau.\nLựa chọn 1: Đúng. Dán lá nhôm làm tăng tính cách nhiệt, trở kháng nhiệt toàn tường tăng. Vì truyền nhiệt ở lớp rỗng xảy ra do bức xạ và đối lưu, việc ngăn bức xạ giúp giảm truyền nhiệt.\nLựa chọn 2: Đúng. Bức xạ nhiệt là hiện tượng nhiệt di chuyển bằng sóng điện từ nên truyền được nhiệt sang vật khác cả trong chân không.\nLựa chọn 3: Sai. Đến 2～3cm thì trở kháng nhiệt tăng, nhưng trên mức đó gần như không đổi.\nLựa chọn 4: Đúng. Truyền nhiệt bề mặt gồm hệ số đối lưu và bức xạ, tổng lại gọi là hệ số truyền nhiệt bề mặt tổng hợp.",
+          "studyContent_vi": "■ Trở kháng nhiệt của lớp rỗng kín: tăng theo độ dày đến 2～3cm (20～30mm), vượt qua thì đối lưu tăng và gần như không đổi → 'tỉ lệ thuận với độ dày' là sai.\n■ Dán lá nhôm vào lớp rỗng: chặn truyền nhiệt bức xạ, trở kháng nhiệt tăng (cách nhiệt tốt hơn).\n■ Bức xạ nhiệt: bằng sóng điện từ nên xảy ra cả trong chân không.\n■ Hệ số truyền nhiệt bề mặt tổng hợp = hệ số đối lưu + hệ số bức xạ."
         }
       ]
     }
   ],
   "_template_rules": {
     "version": "2.1",
-    "path_rules": {
-      "must_use_predefined_path": true,
-      "allow_custom_path": false
-    },
-    "question_rules": {
-      "extract_full_problem_section": true,
-      "keep_original_format": true,
-      "preserve_question_order": true
-    },
-    "choice_rules": {
-      "min_choices": 4,
-      "max_choices": 5,
-      "preserve_choice_order": true
-    },
-    "answer_rules": {
-      "type": "string",
-      "allowed_values": ["1", "2", "3", "4", "5"]
-    },
-    "explanation_rules": {
-      "extract_full_section": true,
-      "section_title": "この過去問の解説",
-      "keep_all_items": true,
-      "no_summary_allowed": true
-    },
-    "summary_rules": {
-      "extract_full_section": true,
-      "section_title": "まとめ",
-      "no_summary_allowed": true
-    },
-    "translation_rules": {
-      "translate_question": true,
-      "translate_choices": true,
-      "translate_explanation": true,
-      "translate_summary": true,
-      "translate_tables": true
-    },
-    "format_rules": {
-      "remove_extra_blank_lines": true,
-      "max_consecutive_newlines": 1,
-      "trim_spaces_each_line": true,
-      "normalize_unicode": true,
-      "remove_duplicate_spaces": true,
-      "auto_fix_line_breaks": true
-    }
+    "path_rules": { "must_use_predefined_path": true, "allow_custom_path": false },
+    "question_rules": { "extract_full_problem_section": true, "keep_original_format": true, "preserve_question_order": true },
+    "choice_rules": { "min_choices": 4, "max_choices": 5, "preserve_choice_order": true },
+    "answer_rules": { "type": "string", "allowed_values": ["1", "2", "3", "4", "5"] },
+    "explanation_rules": { "extract_full_section": true, "section_title": "この過去問の解説", "keep_all_items": true, "keep_item_01": true, "keep_item_02": true, "keep_item_03": true, "keep_item_04": true, "keep_item_05": true, "no_summary_allowed": true },
+    "summary_rules": { "extract_full_section": true, "section_title": "まとめ", "no_summary_allowed": true },
+    "table_rules": { "extract_tables": true, "preserve_original_table": true, "translate_table": true },
+    "image_rules": { "extract_images": true, "keep_image_url": true, "keep_caption": true },
+    "translation_rules": { "translate_question": true, "translate_choices": true, "translate_explanation": true, "translate_summary": true, "translate_tables": true },
+    "format_rules": { "remove_extra_blank_lines": true, "max_consecutive_newlines": 1, "trim_spaces_each_line": true, "normalize_unicode": true, "remove_duplicate_spaces": true, "auto_fix_line_breaks": true }
   }
 }
